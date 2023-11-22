@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:ns2="http://knoesis.wright.edu/ParasiteExperiment.owl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#sequence_extraction">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence extraction</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EQUENCE EXTRACTIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EQUENCE EXTRACTIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://knoesis.wright.edu/ParasiteExperiment.owl#phenotype">
+    <rdfs:subClassOf rdf:resource="http://knoesis.wright.edu/provenir/provenir.owl#data_collection"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phenotype</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Any observable characteristic or trait of an organism'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#temperature_condition">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temperature condition</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMPERATURE CONDITIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMPERATURE CONDITIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#strain_creation_protocol">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">strain creation protocol</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRAIN CREATION PROTOCO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRAIN CREATION PROTOCO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#nucleic_acid">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleic acid</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UCLEIC ACI</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UCLEIC ACI</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://knoesis.wright.edu/ParasiteExperiment.owl#primer">
+    <rdfs:subClassOf rdf:resource="http://knoesis.wright.edu/provenir/provenir.owl#domain_parameter"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primer</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An oligonucleotide used to initiate production of the reverse complement of a single stranded or denatured double stranded nucleic acid template by means of polymerase(s).  Requires that the primer be complementary to the template.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#three_prime_intergenic_reverse_region">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">three prime intergenic reverse region</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HREE PRIME INTERGENIC REVERSE REGIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HREE PRIME INTERGENIC REVERSE REGIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#plasmid_construction">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plasmid construction</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LASMID CONSTRUCTIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LASMID CONSTRUCTIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#prime_forward_primer">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prime forward primer</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RIME FORWARD PRIME</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RIME FORWARD PRIME</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#proteome_analysis">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proteome analysis</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROTEOME ANALYSI</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROTEOME ANALYSI</ns1:definition>
+  </owl:Class>
+  <rdf:Description rdf:about="http://ontologies.khaos.uma.es#data_collection">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data collection</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATA COLLECTIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATA COLLECTIO</ns1:definition>
+  </rdf:Description>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#plasmid_construction_step">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plasmid construction step</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LASMID CONSTRUCTION STE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LASMID CONSTRUCTION STE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://knoesis.wright.edu/ParasiteExperiment.owl#priority">
+    <rdfs:subClassOf rdf:resource="http://knoesis.wright.edu/ParasiteExperiment.owl#laboratory_experiment_parameters"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">priority</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Assuming many genes that could be targeted for knockout, the priority is used to order when the particular genes are targeted.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#protein_group_number">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein group number</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROTEIN GROUP NUMBE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROTEIN GROUP NUMBE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://knoesis.wright.edu/ParasiteExperiment.owl#scanning">
+    <rdfs:subClassOf rdf:resource="http://knoesis.wright.edu/ParasiteExperiment.owl#transcriptome_process"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scanning</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'As done by microarray plate reader, reading the signal intensities of the microarray.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#transfection_buffer">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transfection buffer</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RANSFECTION BUFFE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RANSFECTION BUFFE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#oligo_to_gene_assignment">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oligo to gene assignment</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIGO TO GENE ASSIGNMEN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIGO TO GENE ASSIGNMEN</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://knoesis.wright.edu/ParasiteExperiment.owl#prehybridization">
+    <rdfs:subClassOf rdf:resource="http://knoesis.wright.edu/ParasiteExperiment.owl#transcriptome_process"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prehybridization</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Incubation of microarray used to block nonspecific binding sites.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#researcher_note">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">researcher note</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ESEARCHER NOT</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ESEARCHER NOT</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#stage_purity_determination">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stage purity determination</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAGE PURITY DETERMINATIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAGE PURITY DETERMINATIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#three_prime_intergenic_forward_region">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">three prime intergenic forward region</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HREE PRIME INTERGENIC FORWARD REGIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HREE PRIME INTERGENIC FORWARD REGIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#polymerase_chain_reaction">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polymerase chain reaction</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OLYMERASE CHAIN REACTIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OLYMERASE CHAIN REACTIO</ns1:definition>
+  </owl:Class>
+  <rdf:Description rdf:about="http://ontologies.khaos.uma.es#transfection_machine">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transfection machine</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RANSFECTION MACHIN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RANSFECTION MACHIN</ns1:definition>
+  </rdf:Description>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#statistical_measure">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">statistical measure</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TATISTICAL MEASUR</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TATISTICAL MEASUR</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#spectral_count">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spectral count</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECTRAL COUN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECTRAL COUN</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#transfected_genome">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transfected genome</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RANSFECTED GENOM</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RANSFECTED GENOM</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#sample_characterization">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sample characterization</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMPLE CHARACTERIZATIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMPLE CHARACTERIZATIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://knoesis.wright.edu/ParasiteExperiment.owl#sample">
+    <rdfs:subClassOf rdf:resource="http://knoesis.wright.edu/provenir/provenir.owl#data_collection"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sample</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An entity that is representative of a class, also known as a specimen.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#three_prime_intergenic_region">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">three prime intergenic region</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HREE PRIME INTERGENIC REGIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HREE PRIME INTERGENIC REGIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#three_prime_primer">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">three prime primer</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HREE PRIME PRIME</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HREE PRIME PRIME</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://knoesis.wright.edu/ParasiteExperiment.owl#purity">
+    <rdfs:subClassOf rdf:resource="http://knoesis.wright.edu/provenir/provenir.owl#domain_parameter"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">purity</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The purity of the organism of interest in a complex sample which may contain media, contaminants, and other components'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#standard_deviation">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">standard deviation</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TANDARD DEVIATIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TANDARD DEVIATIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://knoesis.wright.edu/ParasiteExperiment.owl#researcher">
+    <rdfs:subClassOf rdf:resource="http://knoesis.wright.edu/provenir/provenir.owl#agent"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">researcher</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A researcher is any individual involved in the experimental processes.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://knoesis.wright.edu/ParasiteExperiment.owl#troubleshooting">
+    <rdfs:subClassOf rdf:resource="http://knoesis.wright.edu/ParasiteExperiment.owl#technician_note"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">troubleshooting</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A yes or no designation regarding whether or not the construction of a given KO plasmid is currently undergoing troubleshooting due to difficulties in cloning.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#sequence_coverage">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence coverage</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EQUENCE COVERAG</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EQUENCE COVERAG</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#transcriptome_process">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcriptome process</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RANSCRIPTOME PROCES</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RANSCRIPTOME PROCES</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#strain_summary">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">strain summary</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRAIN SUMMAR</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRAIN SUMMAR</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#transfected_sample">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transfected sample</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RANSFECTED SAMPL</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RANSFECTED SAMPL</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://knoesis.wright.edu/ParasiteExperiment.owl#subset">
+    <rdfs:subClassOf rdf:resource="http://knoesis.wright.edu/ParasiteExperiment.owl#researcher_note"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subset</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Group of genes in the list of target genes for KO that share common features, such as orthology or predicted function.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#strain_creation_process">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">strain creation process</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRAIN CREATION PROCES</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRAIN CREATION PROCES</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#peptide_count">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peptide count</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPTIDE COUN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPTIDE COUN</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#target_region_plasmid">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">target region plasmid</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARGET REGION PLASMI</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARGET REGION PLASMI</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://knoesis.wright.edu/ParasiteExperiment.owl#transfection">
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#NamedIndividual">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdf:type rdf:resource="http://knoesis.wright.edu/ParasiteExperiment.owl#status"/>
+    <rdfs:subClassOf rdf:resource="http://knoesis.wright.edu/ParasiteExperiment.owl#strain_creation_process"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transfection</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#signal_intensity">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signal intensity</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IGNAL INTENSIT</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IGNAL INTENSIT</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#three_prime_forward_primer">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">three prime forward primer</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HREE PRIME FORWARD PRIME</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HREE PRIME FORWARD PRIME</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#technician_note">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">technician note</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ECHNICIAN NOT</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ECHNICIAN NOT</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://knoesis.wright.edu/ParasiteExperiment.owl#pathway">
+    <rdfs:subClassOf rdf:resource="http://knoesis.wright.edu/provenir/provenir.owl#data_collection"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The input and output molecules and the set of gene products that are associated with each other in that the gene products take the input molecule(s) and convert it to the output molecule(s), usually in a multistep process with each step being carried out by a different gene product(s).
+Similar to BioPax concept pathway. Biopax class was not re-used since there is no defined mapping between the BioPax class and Pathway ontology classes'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#three_prime_reverse_primer">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">three prime reverse primer</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HREE PRIME REVERSE PRIME</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HREE PRIME REVERSE PRIME</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://knoesis.wright.edu/provenir/provenir.owl#process">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">process</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://knoesis.wright.edu/ParasiteExperiment.owl#status">
+    <rdfs:subClassOf rdf:resource="http://knoesis.wright.edu/ParasiteExperiment.owl#laboratory_experiment_parameters"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">status</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Status is an administrative parameter used to track the progress of experiments.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://knoesis.wright.edu/provenir/provenir.owl#agent">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agent</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://knoesis.wright.edu/ParasiteExperiment.owl#laboratory_experiment_parameters">
+    <rdfs:subClassOf rdf:resource="http://knoesis.wright.edu/provenir/provenir.owl#domain_parameter"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">laboratory_experiment_parameters</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Any parameters used by researchers to describe or track the progress of experiments that are specific to a particular lab's protocols.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://knoesis.wright.edu/provenir/provenir.owl#data_collection">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data_collection</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://knoesis.wright.edu/ParasiteExperiment.owl#strain_creation_process">
+    <rdfs:subClassOf rdf:resource="http://knoesis.wright.edu/provenir/provenir.owl#process"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">strain_creation_process</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The process by which a new strain of an organism is created via gene knockout.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://knoesis.wright.edu/ParasiteExperiment.owl#researcher_note">
+    <rdfs:subClassOf rdf:resource="http://knoesis.wright.edu/ParasiteExperiment.owl#experiment_notes"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">researcher_note</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Notes from researchers designing the experiment (renamed Other Notes)'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://knoesis.wright.edu/provenir/provenir.owl#domain_parameter">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domain_parameter</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://knoesis.wright.edu/ParasiteExperiment.owl#experiment_notes">
+    <rdfs:subClassOf rdf:resource="http://knoesis.wright.edu/ParasiteExperiment.owl#laboratory_experiment_parameters"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">experiment_notes</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Any notes made by a researcher for the design, tracking, and results of experiments'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://knoesis.wright.edu/ParasiteExperiment.owl#technician_note">
+    <rdfs:subClassOf rdf:resource="http://knoesis.wright.edu/ParasiteExperiment.owl#experiment_notes"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">technician_note</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Notes from the researchers performing the experiment in the lab (renamed KO Log)'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://knoesis.wright.edu/ParasiteExperiment.owl#transcriptome_process">
+    <rdfs:subClassOf rdf:resource="http://knoesis.wright.edu/provenir/provenir.owl#process"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcriptome_process</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The method by which a transcriptome experiment is carried out'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEO</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

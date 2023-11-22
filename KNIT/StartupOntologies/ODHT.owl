@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <owl:Class rdf:about="http://webprotege.stanford.edu/RC7UPf0CXpLBkm0J3o8w2B8">
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDWF2jku3QpGWWvL8vdPhjL"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subcutaneous</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A device that is injected or implanted under the skin'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODHT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://webprotege.stanford.edu/R42lXipBgrisVmvoahIvix">
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBiCTt5lptcZvFlsr02caL5"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Receiver</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A mobile device that receives signals, and typically analyzes measurements, from another device'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODHT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://webprotege.stanford.edu/R7qPczgPcdAhO78dtYymz6q">
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBiCTt5lptcZvFlsr02caL5"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scale</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A device used to measure weight or mass'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODHT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://webprotege.stanford.edu/RCA6gEVXr8wkyQoolRiQJlh">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/prismbio/ontologies/2022/4/digital-health-technologies#Wearable"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glasses</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Vision eyewear, with lenses (clear or tinted) mounted in a frame that holds them in front of a person's eyes'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODHT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://webprotege.stanford.edu/R7ZPPJV3GSHQOJA0FroSi0X">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/prismbio/ontologies/2022/4/digital-health-technologies#Packaging"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Syringe</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A small plunger device used to inject medicines'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODHT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://webprotege.stanford.edu/R7s58za51jeDaZK9jdp2SdH">
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RFNQTAqViD7lYefRRMJ9Ct"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phone</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A portable, handheld communication device'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODHT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://webprotege.stanford.edu/R8wpvR28Lla9gO2XdCq4vZz">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/prismbio/ontologies/2022/4/digital-health-technologies#Wearable"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contact Lens</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Thin lenses placed directly on the surface of the eyes'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODHT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://webprotege.stanford.edu/R8kLnaO4NXmXpsXUnCQpD8H">
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RFNQTAqViD7lYefRRMJ9Ct"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portable Media Player</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A portable computing device designed to store and play audio or video'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODHT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://webprotege.stanford.edu/RCDPPNvSVkDQZRTXfOQKp3S">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/prismbio/ontologies/2022/4/digital-health-technologies#Wearable"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sensor Box</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A small box of electronic sensors, typically worn on the wrist'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODHT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://webprotege.stanford.edu/R9GVrvJl2hLDjerJmySnaI">
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBiCTt5lptcZvFlsr02caL5"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Speaker</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A device that emits sound'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODHT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://webprotege.stanford.edu/RuVCclUC1E56LtEDaDKmRW">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/prismbio/ontologies/2022/4/digital-health-technologies#Packaging"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vial</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A small vessel used to store medicines'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODHT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://webprotege.stanford.edu/RC1EOmh5UucujNWwUSkGZ3c">
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBiCTt5lptcZvFlsr02caL5"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Remote Monitor</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A device that records or collects measurements passively, typically by monitoring signals in the same room'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODHT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://webprotege.stanford.edu/R8IVMxYQ2phiyJwtsipDLyQ">
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RFNQTAqViD7lYefRRMJ9Ct"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Game Console</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A video game entertainment system or part of such a system'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODHT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://webprotege.stanford.edu/RDVwkRceFuilJD1nqVUx50h">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/prismbio/ontologies/2022/4/digital-health-technologies#Packaging"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cap</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A (typically removable) bottle top'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODHT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://webprotege.stanford.edu/R3inQOonTyVCkdmMiiJlWB">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/prismbio/ontologies/2022/4/digital-health-technologies#Wearable"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Watch</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A wrist-worn device that includes a touchscreen or a clock'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODHT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://webprotege.stanford.edu/RsCoelq9zAjrCGkw6mXcRK">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/prismbio/ontologies/2022/4/digital-health-technologies#Wearable"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transmitter</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A device that collects or relays signal to another device'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODHT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://webprotege.stanford.edu/RSpqlzfP7XsujwsingUHgX">
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDWF2jku3QpGWWvL8vdPhjL"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingestible</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A device that is eaten or swallowed'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODHT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/prismbio/ontologies/2022/4/digital-health-technologies#Measures">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Measure</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A measurable health concept of interest'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODHT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://webprotege.stanford.edu/RCnOBC07pmrf3ZBKLqmLxc3">
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBiCTt5lptcZvFlsr02caL5"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clip</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A temporary clip-on device that is typically used on the finger'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODHT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#other">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://webprotege.stanford.edu/R8g1pY2EjJ5WT8iLcLGgcjd">
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBiCTt5lptcZvFlsr02caL5"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blood Test Kit</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A mobile device that analyzes blood samples'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODHT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://webprotege.stanford.edu/R8BreJVtPFcLHJUnMDHhyX">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/prismbio/ontologies/2022/4/digital-health-technologies#Packaging"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blister</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A preformed packaging device that contains one or more product cells'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODHT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://webprotege.stanford.edu/R7ZBhEaNEUzCBX3fgyOe44">
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RFNQTAqViD7lYefRRMJ9Ct"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tablet</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A thin, flat, mobile computing device with a touchscreen'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODHT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://webprotege.stanford.edu/R8YsbgYfygnrX2Is8FN1Nnp">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/prismbio/ontologies/2022/4/digital-health-technologies#Wearable"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sensor Patch</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A patch of electronic sensors that is placed directly on a person's skin'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODHT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://webprotege.stanford.edu/R8zIDpuzW9hpbFrm2PQ74lH">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/prismbio/ontologies/2022/4/digital-health-technologies#Packaging"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dispenser</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A device that administers specific doses of product'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODHT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://webprotege.stanford.edu/RDsnv3kpI2KRSc7ggEK3E7r">
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBiCTt5lptcZvFlsr02caL5"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arm Cuff</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A (typically flexible) band that is wrapped around the arm'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODHT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://webprotege.stanford.edu/R7YtNKopygrpUSMR2cKHojf">
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBiCTt5lptcZvFlsr02caL5"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Handheld</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A mobile measurement device that must be held in the hand'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODHT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://webprotege.stanford.edu/RKUVvCxY6nmven4kv6SJqW">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/prismbio/ontologies/2022/4/digital-health-technologies#Wearable"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clothing</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Garments worn on the body'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODHT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://webprotege.stanford.edu/R9b9CIbJABjGdGG1Akd0uHO">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manufacturer</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A business entity that is responsible for the manufacture or sale of the digital health technology'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODHT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/prismbio/ontologies/2022/4/digital-health-technologies#Component">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Component</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A measurement instrument or a part of a measurement instrument'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODHT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://webprotege.stanford.edu/R7YkwhhXddAnCXTRpBZctuO">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/prismbio/ontologies/2022/4/digital-health-technologies#Packaging"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inhaler</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A device used for delivering medicines into the lungs'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODHT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://webprotege.stanford.edu/R990iiMWhEOkbWyBQwQ2Uc">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/prismbio/ontologies/2022/4/digital-health-technologies#Wearable"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clothing Clip</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A clip-on device that is attached to clothing'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODHT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://webprotege.stanford.edu/RBnoKhUw53N18VA78cVuByq">
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RFNQTAqViD7lYefRRMJ9Ct"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Home Assistant</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A virtual assistant device for use in the home'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODHT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://webprotege.stanford.edu/RBiCTt5lptcZvFlsr02caL5">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/prismbio/ontologies/2022/4/digital-health-technologies#Digital_Health_Technology"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-wearable</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A dedicated digital health technology device that is not intended (or cannot) be ingested or worn throughout the day'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODHT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://webprotege.stanford.edu/RFNQTAqViD7lYefRRMJ9Ct">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/prismbio/ontologies/2022/4/digital-health-technologies#Digital_Health_Technology"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lifestyle</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A non-wearable device that is typically a luxury or used for entertainment, but can be repurposed as a digital health technology'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODHT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/prismbio/ontologies/2022/4/digital-health-technologies#Digital_Health_Technology">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Digital Health Technology</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An electronic device that is used to measure or collect individual patient health data'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODHT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/prismbio/ontologies/2022/4/digital-health-technologies#Wearable">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/prismbio/ontologies/2022/4/digital-health-technologies#Digital_Health_Technology"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wearable</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A device that is intended to be worn on the body or clothing (typically throughout the day)'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODHT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/prismbio/ontologies/2022/4/digital-health-technologies#Packaging">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/prismbio/ontologies/2022/4/digital-health-technologies#Digital_Health_Technology"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Packaging</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A device that is intended to collect data on the use of products contained within it'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODHT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://webprotege.stanford.edu/RDWF2jku3QpGWWvL8vdPhjL">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/prismbio/ontologies/2022/4/digital-health-technologies#Digital_Health_Technology"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A catch-all class for devices that do not (yet) have a unique class within this ontology'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODHT</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

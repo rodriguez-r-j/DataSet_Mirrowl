@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns2="http://sweet.jpl.nasa.gov/2.3/matrCompound.owl#"
+>
+  <owl:Class rdf:about="http://sweet.jpl.nasa.gov/2.3/matrCompound.owl#Clathrate">
+    <rdfs:subClassOf rdf:resource="http://sweet.jpl.nasa.gov/2.3/matrCompound.owl#InorganicCompound"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clathrate</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MATRCOMPOUND</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://sweet.jpl.nasa.gov/2.3/matrCompound.owl#Peroxide">
+    <rdfs:subClassOf rdf:resource="http://sweet.jpl.nasa.gov/2.3/matrCompound.owl#InorganicCompound"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peroxide</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MATRCOMPOUND</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://sweet.jpl.nasa.gov/2.3/matrCompound.owl#Perchlorate">
+    <rdfs:subClassOf rdf:resource="http://sweet.jpl.nasa.gov/2.3/matrCompound.owl#InorganicAcid"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Perchlorate</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MATRCOMPOUND</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <ns2:InorganicCompound rdf:about="http://sweet.jpl.nasa.gov/2.3/matrCompound.owl#Fe2.3">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SWEET Ontology</rdfs:label>
+  </ns2:InorganicCompound>
+  <owl:Class rdf:about="http://sweet.jpl.nasa.gov/2.3/matrCompound.owl#InorganicAcid">
+    <rdfs:subClassOf rdf:resource="http://sweet.jpl.nasa.gov/2.3/matrCompound.owl#InorganicCompound"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InorganicAcid</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MATRCOMPOUND</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://sweet.jpl.nasa.gov/2.3/matr.owl#Chemical">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MATRCOMPOUND</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://sweet.jpl.nasa.gov/2.3/matrCompound.owl#Compound">
+    <owl:equivalentClass rdf:resource="http://sweet.jpl.nasa.gov/2.3/matrCompound.owl#ChemicalCompound"/>
+    <rdfs:subClassOf rdf:resource="http://sweet.jpl.nasa.gov/2.3/matr.owl#Chemical"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compound</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A chemical compound is a pure chemical substance consisting of two or more different chemical elements[1][2][3] that can be separated into simpler substances by chemical reactions[4] and that have a unique and defined chemical structure. Chemical compounds consist of a fixed ratio of atoms[3] that are hold together in a defined spatial arrangement by chemical bonds. [Wikipedia]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MATRCOMPOUND</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://sweet.jpl.nasa.gov/2.3/matrCompound.owl#InorganicCompound">
+    <rdfs:subClassOf rdf:resource="http://sweet.jpl.nasa.gov/2.3/matrCompound.owl#Compound"/>
+    <rdfs:subClassOf rdf:resource="http://sweet.jpl.nasa.gov/2.3/matrCompound.owl#ChemicalCompound"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InorganicCompound</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MATRCOMPOUND</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="http://sweet.jpl.nasa.gov/2.3/matrCompound.owl#ChemicalCompound">
+    <rdfs:subClassOf rdf:resource="http://sweet.jpl.nasa.gov/2.3/matr.owl#Chemical"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChemicalCompound</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MATRCOMPOUND</ns1:ontology_acronm>
+  </owl:Class>
+</rdf:RDF>

@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns2="http://www.geneontology.org/formats/oboInOWL#"
+>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18750">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35147"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epigastric artery</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18736">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35349"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forelimb digit 3 nail</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forelimb digit 3 claw</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18778">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35999"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pineal gland</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epiphysis cerebri</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18758">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35906"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">axillary vein</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18787">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medulla oblongata rest of basal plate mantle layer</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18772">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hair root sheath</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000467">
+    <ns2:xref rdf:resource="http://purl.obolibrary.org/obo/EMAPA_16103"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anatomical system</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">connected anatomical system, body system, organ system, system, anatomical systems</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Multicellular, connected anatomical structure that has multiple organs as parts and whose parts work together to achieve some shared function.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18784">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">head of lateral ventricle choroid plexus</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18727">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35379"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ischium</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ischial bone</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18761">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">superior epigastric vein</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001037">
+    <ns2:xref rdf:resource="http://purl.obolibrary.org/obo/EMAPA_18769"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004121"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010314"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000021"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">strand of hair</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quill, coat/ hair, fur, setulae, hair, vibrissa, coat hair, whisker, microchaeta</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A filament, mostly protein, that grows from follicles found in the dermis[WP].'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18785">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tail of lateral ventricle choroid plexus</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18786">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medulla oblongata rest of basal plate</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18728">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35379"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubis</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubic bone</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18725">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xiphisternum</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xiphoid process, xyphoideus</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18762">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35906"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intercostal vein</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18780">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lateral ventricle inferior horn choroid plexus</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18741">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_36457"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hindlimb digit 3 nail</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hindlimb digit 3 claw</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18752">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">superior epigastric artery</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18735">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35349"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forelimb digit 2 nail</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forelimb digit 2 claw</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18742">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_36457"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hindlimb digit 4 nail</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hindlimb digit 4 claw</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18753">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35147"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intercostal artery</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18764">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">superior thyroid vein</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18760">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inferior epigastric vein</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18740">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_36457"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hindlimb digit 2 nail</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hindlimb digit 2 claw</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18749">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35147"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">axillary artery</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18763">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inferior thyroid vein</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18789">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_17560"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medulla oblongata rest of basal plate ventricular layer</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18751">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inferior epigastric artery</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18734">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35349"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forelimb digit 1 nail</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forelimb digit 1 claw</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18738">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35349"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forelimb digit 5 nail</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forelimb digit 5 claw</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18754">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35147"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">greater palatine artery</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18726">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35379"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ilium</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iliac bone</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18759">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35906"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epigastric vein</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18770">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hair bulb</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18788">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medulla oblongata rest of basal plate marginal layer</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18790">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medullary raphe mantle layer</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18771">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hair follicle</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18781">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">posterior horn of lateral ventricle choroid plexus</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18782">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">superior horn of lateral ventricle choroid plexus</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18737">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35349"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forelimb digit 4 nail</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forelimb digit 4 claw</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18779">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anterior horn of lateral ventricle choroid plexus</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18743">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_36457"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hindlimb digit 5 nail</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hindlimb digit 5 claw</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18729">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jejunum lumen</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18724">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_32782"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sternebra</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18739">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_36457"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hindlimb digit 1 nail</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hindlimb digit 1 claw</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_32851">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_32898"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medulla oblongata ventricular layer</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002193">
+    <ns2:xref rdf:resource="http://purl.obolibrary.org/obo/EMAPA_18765"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/EMAPA_18765"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hemolymphoid system</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphomyeloid complex, hematolymphoid system, haemolymphoid system</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Anatomical cluster consisting of the hematopoietic system and the lymphoid system, or its analogs.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002106">
+    <ns2:xref rdf:resource="http://purl.obolibrary.org/obo/EMAPA_18767"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/EMAPA_18767"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spleen</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lien</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The organ that functions to filter blood and to store red corpuscles and platelets.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000465">
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CARO_0000006"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material anatomical entity</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Anatomical entity that has mass.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000004">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">independent continuant</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18765">
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002193"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_16103"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hemolymphoid system</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haemolymphoid system</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_32679">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35209"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brain ventricular layer</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002530">
+    <ns2:xref rdf:resource="http://purl.obolibrary.org/obo/EMAPA_18425"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/EMAPA_18425"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gland</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glandular organ, glandula, Druese</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An organ that functions as a secretory or excretory organ.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_35349">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35580"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forelimb nail</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forelimb claw</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000021">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013703"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cutaneous appendage</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epidermal growth, skin appendage, epidermal appendage</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Anatomical projection that protrudes from the skin. Examples: hair, nail, feather, claw, hoof, horn, wattle, spur, beak, antler, bristle and some scales.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000061">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anatomical structure</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">connected biological structure, biological structure</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Material anatomical entity that is a single connected structure with inherent 3D shape generated by coordinated expression of the organism's own genome.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_35379">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_32782"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">girdle bone</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0000003">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000006"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">connected anatomical structure</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Material anatomical entity that is a single connected structure with inherent 3D shape generated by coordinated expression of the organism's own genome.', 'Note that the definition does not say 'generated exclusively by the co-ordinated expression of the organism's own genome', so this is still valid for cases where normal morphogenesis requires the actions of a facultative symbiont, or some looser dependency such as the a requirement for the presence of gut flora for normal gut development.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_35906">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35932"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vein</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18767">
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002106"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_18766"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spleen</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_35144">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_32743"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">arterial blood vessel</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0000000">
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anatomical entity</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Following BFO, material anatomical entities may have immaterial parts (the lumen of your stomach is part of your stomach).  The granularity limit follows the limits set by the Gene Ontology on the granularity limit for GO:cellular_component. Note that substances produced by an organism (sweat, feaces, urine) do not need to be part of an organism to qualify as an anatomical structure.', 'A part of a cellular organism that is either an immaterial entity or a material entity with granularity above the level of a protein complex.  Or, a substance produced by a cellular organism with granularity above the level of a protein complex.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_32898">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_32679"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hindbrain ventricular layer</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_32782">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">continuant</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001062">
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CARO_0000000"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anatomical entity</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entity</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_17560">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_32851"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medulla oblongata basal plate ventricular layer</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_35932">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_32743"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">venous blood vessel</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_35209">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ventricular layer</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004121">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000000"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ectoderm-derived structure</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ectodermal deriviative</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An anatomical structure that develops (entirely or partially) from the ectoderm.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_35147">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35144"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">artery</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_32743">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35993"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood vessel</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_35949">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organ</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010000">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicellular anatomical structure</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicellular structure</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An anatomical structure that has more than one cell as a part.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_35999">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_18425"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endocrine gland</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_35993">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vascular element</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18769">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hair</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0000006">
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material anatomical entity</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An anatomical entity that has mass.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18768">
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002370"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_18766"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thymus</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18766">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_18425"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hemolymphoid system gland</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haemolymphoid system gland</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010314">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000000"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">structure with developmental contribution from neural crest</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An anatomical structure that has some part that develops from the neural crest.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002370">
+    <ns2:xref rdf:resource="http://purl.obolibrary.org/obo/EMAPA_18768"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/EMAPA_18768"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thymus</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thymus organ, thymus gland</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Anatomical structure of largely lymphoid tissue that functions in cell-mediated immunity by being the site where T cells develop.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0013703">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">integumentary projection</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skin projection</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Anatomical projection that is part of the integumentl system.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_16103">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organ system</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_35580">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nail</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">claw</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_36457">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35580"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hindlimb nail</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hindlimb claw</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000064">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organ part</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regional part of organ, cardinal organ part</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A multicellular structure that is a part of an organ.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_18425">
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002530"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35949"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gland</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA</ns1:ontology_acronm>
+  </owl:Class>
+</rdf:RDF>

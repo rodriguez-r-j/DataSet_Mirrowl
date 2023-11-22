@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#o_e_-_hess_test_for_purpura">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o e - hess test for purpura</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - HESS TEST FOR PURPUR</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - HESS TEST FOR PURPUR</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/RCTV2/2D1..00">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/RCTV2/2D...00"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENT examination - general</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RCTV2</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/RCTV2/2Ba2200">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/RCTV2/2Ba2.00"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCPE class predom patt C.3 infarct of middle cerebral artery</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RCTV2</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#o_e_-_anaemia">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o e - anaemia</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - ANAEMI</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - ANAEMI</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/RCTV2/2C1Z.00">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/RCTV2/2C1..00"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General haemopoietic exam. NOS</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RCTV2</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#o_e_-_haemopoietic_system_nos">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o e - haemopoietic system nos</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - HAEMOPOIETIC SYSTEM NO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - HAEMOPOIETIC SYSTEM NO</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#o_e_-popliteal_lymphadenopathy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o e -popliteal lymphadenopathy</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E -POPLITEAL LYMPHADENOPATH</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E -POPLITEAL LYMPHADENOPATH</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#o_e_-_lymph_nodes_firm">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o e - lymph nodes firm</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - LYMPH NODES FIR</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - LYMPH NODES FIR</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#o_e_-_no_lymphadenopathy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o e - no lymphadenopathy</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - NO LYMPHADENOPATH</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - NO LYMPHADENOPATH</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#o_e_-axillary_lymphadenopathy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o e -axillary lymphadenopathy</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E -AXILLARY LYMPHADENOPATH</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E -AXILLARY LYMPHADENOPATH</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/RCTV2/2Ba1200">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/RCTV2/2Ba1.00"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCPE cls prd pat B.3 comb periven leucoml intravent haem seq</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RCTV2</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#ear">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ear</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#nose_+_throat_examination">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nose + throat examination</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OSE + THROAT EXAMINATIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OSE + THROAT EXAMINATIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#o_e_-_lymph_nodes_discrete">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o e - lymph nodes discrete</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - LYMPH NODES DISCRET</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - LYMPH NODES DISCRET</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#o_e_-_lymph_node_character_nos">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o e - lymph node character nos</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - LYMPH NODE CHARACTER NO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - LYMPH NODE CHARACTER NO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#o_e_-_hess_test_positive">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o e - hess test positive</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - HESS TEST POSITIV</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - HESS TEST POSITIV</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/RCTV2/2Ba2000">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/RCTV2/2Ba2.00"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCPE class predm patt C.1 basal ganglia and thalamus lesions</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RCTV2</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/RCTV2/2Ba1100">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/RCTV2/2Ba1.00"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCPE class pred pat B.2 seql intravent haem perivent infarct</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RCTV2</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#o_e-sub-mental_lymphadenopathy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o e-sub-mental lymphadenopathy</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E-SUB-MENTAL LYMPHADENOPATH</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E-SUB-MENTAL LYMPHADENOPATH</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#o_e-supraclav.lymphadenopathy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o e-supraclav.lymphadenopathy</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E-SUPRACLAV.LYMPHADENOPATH</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E-SUPRACLAV.LYMPHADENOPATH</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#o_e_-_lymph_nodes_tethered">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o e - lymph nodes tethered</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - LYMPH NODES TETHERE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - LYMPH NODES TETHERE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#o_e_-_inguinal_lymphadenopathy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o e - inguinal lymphadenopathy</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - INGUINAL LYMPHADENOPATH</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - INGUINAL LYMPHADENOPATH</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#o_e_-_moderate_splenomegaly">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o e - moderate splenomegaly</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - MODERATE SPLENOMEGAL</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - MODERATE SPLENOMEGAL</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#o_e_-_equivocally_anaemic">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o e - equivocally anaemic</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - EQUIVOCALLY ANAEMI</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - EQUIVOCALLY ANAEMI</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#o_e_-_lymph_nodes_fluctuant">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o e - lymph nodes fluctuant</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - LYMPH NODES FLUCTUAN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - LYMPH NODES FLUCTUAN</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#o_e_-_lymphadenopathy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o e - lymphadenopathy</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - LYMPHADENOPATH</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - LYMPHADENOPATH</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/RCTV2/2Ba3.00">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/RCTV2/2Ba..00"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCPE classification - predominant pattern D - unspecified</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RCTV2</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#o_e_-_splenomegaly_nos">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o e - splenomegaly nos</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - SPLENOMEGALY NO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - SPLENOMEGALY NO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#o_e_-_post-auricular_lymphadenopathy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o e - post-auricular lymphadenopathy</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - POST-AURICULAR LYMPHADENOPATH</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - POST-AURICULAR LYMPHADENOPATH</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#o_e_-_lymph_node_character">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o e - lymph node character</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - LYMPH NODE CHARACTE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - LYMPH NODE CHARACTE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#o_e_-_lymph_nodes_tender">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o e - lymph nodes tender</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - LYMPH NODES TENDE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - LYMPH NODES TENDE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/RCTV2/2Ba4.00">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/RCTV2/2Ba..00"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCPE classification predominant pattern E - normal</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RCTV2</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#o_e_-_hess_test_nos">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o e - hess test nos</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - HESS TEST NO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - HESS TEST NO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#o_e_-_painful_splenomegaly">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o e - painful splenomegaly</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - PAINFUL SPLENOMEGAL</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - PAINFUL SPLENOMEGAL</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#o_e_-_anaemia_nos">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o e - anaemia nos</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - ANAEMIA NO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - ANAEMIA NO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#o_e_-_not_clinically_anaemic">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o e - not clinically anaemic</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - NOT CLINICALLY ANAEMI</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - NOT CLINICALLY ANAEMI</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#o_e_-_profoundly_anaemic">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o e - profoundly anaemic</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - PROFOUNDLY ANAEMI</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - PROFOUNDLY ANAEMI</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#o_e_-_haemopoietic_system_nad">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o e - haemopoietic system nad</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - HAEMOPOIETIC SYSTEM NA</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - HAEMOPOIETIC SYSTEM NA</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#o_e_-_lymphadenopathy_nos">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o e - lymphadenopathy nos</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - LYMPHADENOPATHY NO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - LYMPHADENOPATHY NO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#o_e_-cervical_lymphadenopathy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o e -cervical lymphadenopathy</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E -CERVICAL LYMPHADENOPATH</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E -CERVICAL LYMPHADENOPATH</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#o_e_-_gross_splenomegaly">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o e - gross splenomegaly</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - GROSS SPLENOMEGAL</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - GROSS SPLENOMEGAL</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#o_e_-_spleen_not_palpable">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o e - spleen not palpable</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - SPLEEN NOT PALPABL</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - SPLEEN NOT PALPABL</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#o_e_-_spleen_just_palpable">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o e - spleen just palpable</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - SPLEEN JUST PALPABL</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - SPLEEN JUST PALPABL</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#o_e_-_hess_test_negative">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o e - hess test negative</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - HESS TEST NEGATIV</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - HESS TEST NEGATIV</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/RCTV2/2Ba2100">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/RCTV2/2Ba2.00"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCPE classification predomnt patt C.2 - parasagittal lesions</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RCTV2</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#o_e_-_lymph_nodes_hard">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o e - lymph nodes hard</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - LYMPH NODES HAR</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - LYMPH NODES HAR</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#o_e_-_splenomegaly">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o e - splenomegaly</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - SPLENOMEGAL</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - SPLENOMEGAL</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#o_e_-_clinically_anaemic">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o e - clinically anaemic</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - CLINICALLY ANAEMI</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> E - CLINICALLY ANAEMI</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/RCTV2/2Ba2.00">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/RCTV2/2Ba..00"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCPE classif predominant patt C predominant grey mattr injry</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RCTV2</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/RCTV2/2C...00">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/RCTV2/2....00"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haemopoietic system exam.</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RCTV2</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/RCTV2/2D...00">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/RCTV2/2....00"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ear, nose + throat examination</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RCTV2</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/RCTV2/2C1..00">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/RCTV2/2C...00"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General haemopoietic exam.</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RCTV2</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/RCTV2/2B...00">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/RCTV2/2....00"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Central nervous system exam.</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RCTV2</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/RCTV2/2....00">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Examination / Signs</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RCTV2</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/RCTV2/2Ba..00">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/RCTV2/2B...00"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding SCPE class neonatl neuroimag results children wth CP</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RCTV2</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/RCTV2/2Ba1.00">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/RCTV2/2Ba..00"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCPE classif predominant patt B predomnt white matter injury</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RCTV2</ns1:ontology_acronm>
+  </owl:Class>
+</rdf:RDF>

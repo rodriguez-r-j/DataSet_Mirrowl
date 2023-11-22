@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns2="http://www.w3.org/2004/02/skos/core#"
+>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/A8467_0000060">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Body</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/B8467_0000100">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/B8467_0000094"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kneeling Side-Step</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Side stepping across the top of the egg chamber.  H&amp;E p. 17.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/B8467_0000085">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/B8467_0000082"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Posterior spray dump</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Variant of Posterolateral sand dump.  H&amp;E p. 11, 24.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/B8467_0000101">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EKBE_0000050"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sand pulling</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Set of sand movement motions of the hindlimbs rotated such that their anterior edge is against the substrate while the limb moves backward.  H&amp;E p. 15.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/B8467_0000097">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/B8467_0000093"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ventral Pack</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'flipper pushes downward on the sand with ventral surface.  H&amp;E p. 16.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/B8467_0000083">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/B8467_0000082"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contralateral sand dump</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Variant of Posterolateral sand dump.  H&amp;E p. 11,24.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/B8467_0000090">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/B8467_0000107"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LH flick</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Flicking motion with the left hindlimb.  Inferred from parent B8467:0000107.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/B8467_0000091">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/B8467_0000107"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RH flick</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Flicking motion with the right hindlimb.  Inferred from parent B8467:0000107.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/B8467_0000095">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/B8467_0000093"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Foot Grind</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Foot is rotated so the anterior edge is on the sand, usually accompanied by circular grinding.  H&amp;E p. 17.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/B8467_0000089">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/B8467_0000235"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Concurrent actions</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#rh_scoop_pull">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rh scoop pull</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H SCOOP PUL</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H SCOOP PUL</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/B8467_0000099">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/B8467_0000094"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kneeling Pack</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'brings hindlimbs close together and raises posterior end by pushing downward.  H&amp;E p. 17.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/A8467_0000064">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EKB_0000012"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Head</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/A8467_0000070">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/A8467_0000066"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left hind leg</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/A8467_0000073">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hind flipper</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/A8467_0000069">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/A8467_0000067"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right front leg</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/B8467_0000087">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EKBE_0000050"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hindlimb sand flicks</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Flicking denotes moving sand with a forward movement of the limb.  H&amp;E p. 9.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/A8467_0000068">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/A8467_0000067"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left front leg</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/B8467_0000084">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/B8467_0000082"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ipsilateral sand dump</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Varient of Posterolateral sand dump.  H&amp;E p. 11,24.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/B8467_0000086">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/B8467_0000082"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Posterolateral sand dump</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The common variant of the Hindlimb sand dump.  H&amp;E p. 11, 24.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#single_hindlimb_scoop_pull">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single hindlimb scoop pull</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INGLE HINDLIMB SCOOP PUL</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INGLE HINDLIMB SCOOP PUL</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/A8467_0000062">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chin</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/B8467_0000092">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EKBE_0000050"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sand packing</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Sequence of motions to pile and compact the sand over the egg chamber.  H&amp;E p. 16.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/B8467_0000051">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/B8467_0000234"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loggerhead nesting sequence</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A modified version of the sequence given in Bustard et al. 1975.', 'The 10-step top level sequence for female loggerhead nesting.  H&amp;E p. 3.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/A8467_0000074">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EKB_0000009"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mucus</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/A8467_0000059">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/A8467_0000056"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Body Pit</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The turtle digs this out of the substrate with limb sweeps.  H&amp;E p. 7.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/A8467_0000071">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/A8467_0000066"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right hind leg</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/A8467_0000080">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EKB_0000017"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Naive polar</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/B8467_0000104">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/B8467_0000261"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sand Throwing</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Sand Throwing is done by digging the anterior edge of the flipper into the substrate and moving sand backward with the flipper's ventral surface.  Sand Throwing is far more vigorous than Sand Pulling and gives the impression of being even more vigorous than the Sand Sweeping movements.  H&amp;E p. 18.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#alternate_hindlimb_scoop_pull">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alternate hindlimb scoop pull</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LTERNATE HINDLIMB SCOOP PUL</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LTERNATE HINDLIMB SCOOP PUL</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/B8467_0000063">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EKBE_0000050"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flipper digging</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/A8467_0000079">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/A8467_0000078"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tube</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/A8467_0000077">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EKB_0000009"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Air</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/B8467_0000096">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/B8467_0000093"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heel Grind</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The bend of the heel carries the force to the sand.  H&amp;E p. 17.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/A8467_0000076">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EKB_0000009"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/B8467_0000098">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/B8467_0000094"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kneading Pack</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Presses alternately with the hindlimbs.  H&amp;E p. 17.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/B8467_0000088">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EKBE_0000050"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alternate hindlimb flick</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Flicking the sand alternately with the hindlimbs.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/A8467_0000072">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Front flipper</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/A8467_0000061">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EKB_0000011"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caretta caretta</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Common name loggerhead sea turtle'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/A8467_0000057">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/A8467_0000056"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dune</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Todo: describe a set of these, up to 1 meter in height.', 'Elevated area of sand.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/A8467_0000075">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EKB_0000009"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sand</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/A8467_0000058">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/A8467_0000056"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tidal Ridge</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A sand substrate with ridges formed by tidal action.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">notation</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EKB_0000012">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EKB:0000012</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EKB_0000010"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Part of Organism</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EKB_0000017">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EKB:0000017</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EKB_0000013"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coordinate System</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EKB_0000014">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EKB:0000014</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EKB_0000013"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shape</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/B8467_0000287">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/B8467_0000151"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Packing action</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Superclass of the two types of packing action observed during the Sand-packing phase.  H&amp;E p. 16,17'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/B8467_0000106">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/B8467_0000261"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sand Sweeping/Flicking</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Flipper movements involved in sand moving.  H&amp;E p. 9.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/B8467_0000107">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/B8467_0000106"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Single hindlimb flick</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Flicking denotes moving sand with a forward movement of the limb.  H&amp;E p. 9.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/B8467_0000235">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EKBE_0000049"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Action unit</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EKB_0000013">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EKB:0000013</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EKB_0000003"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schema</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EKB_0000003">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EKB:0000003</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intangible</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EKBE_0000047">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EKBE:0000047</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EKB_0000003"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Process</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#NamedIndividual">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EKBE_0000049">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EKBE:0000049</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EKBE_0000048"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Action</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EKBE_0000052">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EKBE:0000052</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/B8467_0000323"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Script</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EKB_0000006">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EKB:0000006</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EKB_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Substrate</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/B8467_0000151">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/B8467_0000261"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Move leg</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/A8467_0000066">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/A8467_0000065"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hind leg</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/B8467_0000082">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EKBE_0000050"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hindlimb sand dump</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'the hindlimb carrying the sand rotates such that the anterior edge moves down, the forward, which...dumps the sand.  H&amp;E p.11.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EKBE_0000050">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EKBE:0000050</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EKBE_0000054"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Action Pattern</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/B8467_0000261">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/B8467_0000176"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Folding</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EKBE_0000054">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EKBE:0000054</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EKBE_0000049"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Action group</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EKB_0000008">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EKB:0000008</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EKB_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physical Object</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EKB_0000009">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EKB:0000009</ns2:notation>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EKB_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stuff</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/A8467_0000056">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EKB_0000006"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sand Substrate</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EKB_0000011">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EKB:0000011</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EKB_0000010"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organism</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EKB_0000001">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EKB:0000001</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Location</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/B8467_0000176">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/B8467_0000235"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shape change</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An action that at the physical level is a change in shape, e.g, no change in topology.  Folds and expansions/contractions are the most common subtypes.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/A8467_0000067">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/A8467_0000065"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Front leg</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EKBE_0000048">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EKBE:0000048</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EKBE_0000047"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Event</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/B8467_0000234">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/B8467_0000242"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EKBE_0000052"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simple script</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EKB_0000004">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EKB:0000004</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EKB_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Relative Location</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/B8467_0000093">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/B8467_0000287"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Foot packing</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Sand packing actions performed with the foot.  H&amp;E p. 16.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/A8467_0000065">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EKB_0000012"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Limb</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EKB_0000016">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EKB:0000016</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EKB_0000014"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3D Shape</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/B8467_0000242">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EKBE_0000054"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Action sequence</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/B8467_0000094">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/B8467_0000287"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Knee packing</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Sand packing actions performed with the knee.  H&amp;E p. 17.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EKB_0000010">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EKB:0000010</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EKB_0000008"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/A8467_0000078">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EKB_0000016"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cylinder</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/EKB_0000002">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EKB:0000002</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tangible</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/B8467_0000323">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EKBE_0000047"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sequence</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHN</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

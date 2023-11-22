@@ -1,0 +1,1656 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://purl.bioontology.org/ontology/CSP/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:ns2="http://ontology.test.es/comment#"
+  xmlns:ns3="http://purl.obolibrary.org/obo/"
+  xmlns:ns4="http://www.w3.org/2004/02/skos/core#"
+  xmlns:ns5="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns6="http://www.geneontology.org/formats/oboInOWL#"
+>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002214">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has prototype</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000123">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has spatial occupant at some time</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#computer_science">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">computer science</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMPUTER SCIENC</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMPUTER SCIENC</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D011584">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D001525"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Psychology</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Psychological Factors</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The science dealing with the study of mental processes and behavior in man and animals.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D004813">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D011634"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epidemiology</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epidemiology, Social</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Branch of epidemiology primarily concerned with the role of social factors-such as socioeconomic class, gender, or ethnicity on patterns of health.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D000074266">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D013672"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D010811"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Materials Science</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sciences, Materials</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An interdisciplinary study of the microstructure and composition of various materials such as metals, semiconductors, ceramics, and polymers, in relation to their macromolecular physical and chemical properties. Materials science enables the custom creation of new materials with specific properties and uses.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D009791">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D056448"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oceanography</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oceanographies</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The science that deals with the ocean and its phenomena. (Webster, 3d ed)'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bigdatau.org/dseo#computer_science">
+    <rdfs:subClassOf rdf:resource="http://bigdatau.org/dseo#domain"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computer Science</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Study of theory, experimentation, and engineering for the design and use of computers'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DSEO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000070">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">s depends on</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#data_science">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data science</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATA SCIENC</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATA SCIENC</ns2:definition>
+  </owl:Class>
+  <rdf:Description rdf:about="http://bioportal.bioontology.org/.well-known/genid/33a788b7-3805-4d08-ac1b-7a77008c8926/15b05f0000000055">
+    <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domain of part of</rdfs:label>
+  </rdf:Description>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000175">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proper part of continuant at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D005823">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D001695"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genetics</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The branch of science concerned with the means and consequences of transmission and generation of the components of biological inheritance. (Stedman, 26th ed)'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000124">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has location at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P106">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Semantic_Type</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C19349">
+    <ns5:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The application of engineering and mathematical principles to electrical problems</ns5:P97>
+    <ns5:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0334748</ns5:P207>
+    <ns5:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Electrical Engineering</ns5:P108>
+    <ns5:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C19349</ns5:code>
+    <ns5:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Electrical_Engineering</ns5:P366>
+    <ns5:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Occupation or Discipline</ns5:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16548"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Electrical Engineering</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Electrical Engineering</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The application of engineering and mathematical principles to electrical problems'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002215">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">capable_of</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#A1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role_Has_Domain</rdfs:label>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43743"/>
+    <rdfs:range rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#physical_science">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">physical science</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HYSICAL SCIENC</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HYSICAL SCIENC</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#materials_engineering">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">materials engineering</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATERIALS ENGINEERIN</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATERIALS ENGINEERIN</ns2:definition>
+  </owl:Class>
+  <owl:FunctionalProperty rdf:about="http://purl.obolibrary.org/obo/inheres_in">
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#ObjectProperty">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inheres_in</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:FunctionalProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#geodesy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geodesy</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EODES</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EODES</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D001703">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D001690"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D010825"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biophysics</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanobiology</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The study of PHYSICAL PHENOMENA and PHYSICAL PROCESSES as applied to living things.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/Q000193">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">education</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">training</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Used for education, training programs, and courses in various fields and disciplines, and for training groups of persons.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D005844">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D056448"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geology</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The science of the earth and other celestial bodies and their history as recorded in the rocks. It includes the study of geologic processes of an area such as rock formations, weathering and erosion, and sedimentation. (From McGraw-Hill Dictionary of Scientific and Technical Terms, 6th ed)'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00052">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00050"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Materials Engineering</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#agricultural_research">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agricultural research</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GRICULTURAL RESEARC</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GRICULTURAL RESEARC</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16337">
+    <ns5:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The study of the chemical substances and vital processes occurring in living organisms.</ns5:P97>
+    <ns5:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0005477</ns5:P207>
+    <ns5:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochemistry</ns5:P108>
+    <ns5:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C16337</ns5:code>
+    <ns5:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochemistry</ns5:P366>
+    <ns5:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemistry, Biological</ns5:P90>
+    <ns5:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biomedical Occupation or Discipline</ns5:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16344"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochemistry</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochemistry, Chemistry, Biological</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The study of the chemical substances and vital processes occurring in living organisms.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000115">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has member part at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#academic_discipline">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">academic discipline</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CADEMIC DISCIPLIN</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CADEMIC DISCIPLIN</ns2:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">notation</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#education">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">education</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUCATIO</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUCATIO</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#soil_science">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soil science</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OIL SCIENC</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OIL SCIENC</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#geophysics">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geophysics</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EOPHYSIC</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EOPHYSIC</ns2:definition>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000178">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has continuant part at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002205">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has gene product</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17147">
+    <ns5:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The application of a systematic, disciplined, quantifiable approach to the development, operation, and maintenance of computer software.</ns5:P97>
+    <ns5:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0037588</ns5:P207>
+    <ns5:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Software Engineering</ns5:P108>
+    <ns5:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C17147</ns5:code>
+    <ns5:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computer_Software_Engineering</ns5:P366>
+    <ns5:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computer Software Engineering</ns5:P90>
+    <ns5:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Occupation or Discipline</ns5:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18141"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Software Engineering</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computer Software Engineering, Software Engineering</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The application of a systematic, disciplined, quantifiable approach to the development, operation, and maintenance of computer software.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#psychology">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">psychology</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYCHOLOG</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYCHOLOG</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#developmental_biology">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">developmental biology</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EVELOPMENTAL BIOLOG</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EVELOPMENTAL BIOLOG</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#epidemiology">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epidemiology</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PIDEMIOLOG</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PIDEMIOLOG</ns2:definition>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002204">
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene product of</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:SymmetricProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002220">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adjacent_to</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:SymmetricProperty>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00021">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00010"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant Science</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002337">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">related via localization to</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FULL_SYN</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17964">
+    <ns5:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bioinformatics derives knowledge from computer analysis of biological data. These can consist of the information stored in the genetic code, but also experimental results from various sources, patient statistics, and scientific literature. Research in bioinformatics includes method development for storage, retrieval, and analysis of the data. Bioinformatics is a rapidly developing branch of biology and is highly interdisciplinary, using techniques and concepts from informatics, statistics, mathematics, chemistry, biochemistry, physics, and linguistics. It has many practical applications in different areas of biology and medicine. (M. Nilges and Jens P. Linge, Unite de Bio-informatique Structurale, Institut Pasteur, Paris)</ns5:P97>
+    <ns5:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1140694</ns5:P207>
+    <ns5:P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[<ncicp:ComplexDefinition xmlns:ncicp='http://ncicb.nci.nih.gov/xml/owl/EVS/ComplexProperties.xsd#'><ncicp:def-definition>The science of using computers, databases, and math to organize and analyze large amounts of biological, medical, and health information. Information may come from many sources, including patient statistics, tissue specimens, genetics research, and clinical trials.</ncicp:def-definition><ncicp:def-source>NCI-GLOSS</ncicp:def-source></ncicp:ComplexDefinition>]]></ns5:P325>
+    <ns5:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bioinformatics</ns5:P108>
+    <ns5:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C17964</ns5:code>
+    <ns5:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bioinformatics</ns5:P366>
+    <ns5:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computational Biology</ns5:P90>
+    <ns5:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biomedical Occupation or Discipline</ns5:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18145"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bioinformatics</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bioinformatics, Computational Biology, Bioinformatics</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Bioinformatics derives knowledge from computer analysis of biological data. These can consist of the information stored in the genetic code, but also experimental results from various sources, patient statistics, and scientific literature. Research in bioinformatics includes method development for storage, retrieval, and analysis of the data. Bioinformatics is a rapidly developing branch of biology and is highly interdisciplinary, using techniques and concepts from informatics, statistics, mathematics, chemistry, biochemistry, physics, and linguistics. It has many practical applications in different areas of biology and medicine. (M. Nilges and Jens P. Linge, Unite de Bio-informatique Structurale, Institut Pasteur, Paris)'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000171">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">located in at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000129">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">member part of at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002200">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has phenotype</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#astronomy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">astronomy</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STRONOM</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STRONOM</ns2:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor preferred label</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor_preferred_term</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor preferred term</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#life_science">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">life science</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IFE SCIENC</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IFE SCIENC</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#zoology">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zoology</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OOLOG</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OOLOG</ns2:definition>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002150">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">connected to</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17167">
+    <ns5:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A branch of applied mathematics concerned with the collection and interpretation of quantitative data and the use of probability theory to estimate population parameters.</ns5:P97>
+    <ns5:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0038215</ns5:P207>
+    <ns5:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Statistics</ns5:P108>
+    <ns5:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C17167</ns5:code>
+    <ns5:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Statistics</ns5:P366>
+    <ns5:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Statistical</ns5:P90>
+    <ns5:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Statistically</ns5:P90>
+    <ns5:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Occupation or Discipline</ns5:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16825"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Statistics</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Statistically, Statistics, Statistical</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A branch of applied mathematics concerned with the collection and interpretation of quantitative data and the use of probability theory to estimate population parameters.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000066">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">occurs in</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000087">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_role</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#bioinformatics">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bioinformatics</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IOINFORMATIC</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IOINFORMATIC</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D008829">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D001695"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microbiology</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The study of microorganisms such as fungi, bacteria, algae, archaea, and viruses.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002206">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">expressed in</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#social_science">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social science</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OCIAL SCIENC</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OCIAL SCIENC</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#biophysics">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biophysics</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IOPHYSIC</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IOPHYSIC</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#economics">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">economics</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CONOMIC</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CONOMIC</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#atmospheric_science">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmospheric science</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMOSPHERIC SCIENC</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMOSPHERIC SCIENC</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#engineering">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">engineering</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGINEERIN</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGINEERIN</ns2:definition>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000157">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">during which exists</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D001256">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D010825"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astronomy</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The science concerned with celestial bodies and the observation and interpretation of the radiation received in the vicinity of the earth from the component parts of the universe (McGraw Hill Dictionary of Scientific and Technical Terms, 5th ed)'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#R27">
+    <rdfs:range rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual_Part_Of</rdfs:label>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000314">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is_proxy_for</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#oceanography">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oceanography</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CEANOGRAPH</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CEANOGRAPH</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#systems_engineering">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">systems engineering</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YSTEMS ENGINEERIN</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YSTEMS ENGINEERIN</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D015509">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D001695"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Developmental Biology</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biology, Developmental</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Study of human growth and development.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:TransitiveProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000187">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has continuant part at all times that part exists</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:TransitiveProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#cyberinfrastructure">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cyberinfrastructure</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YBERINFRASTRUCTUR</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YBERINFRASTRUCTUR</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#cell_biology">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell biology</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ELL BIOLOG</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ELL BIOLOG</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#political_science">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">political science</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OLITICAL SCIENC</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OLITICAL SCIENC</ns2:definition>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000056">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">participates in</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alternative term</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000053">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is bearer of</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#A2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role_Has_Range</rdfs:label>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43743"/>
+    <rdfs:range rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OBIws_0000062">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_description</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+  </owl:DatatypeProperty>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">example_of_usage</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">example of usage</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00055">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00050"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Systems Engineering</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#physical_geography">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">physical geography</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HYSICAL GEOGRAPH</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HYSICAL GEOGRAPH</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#anthropology">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anthropology</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NTHROPOLOG</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NTHROPOLOG</ns2:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="https://w3id.org/skgo/modsci#Geophysics">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/skgo/modsci#EarthScience"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geophysics</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Geophysics the physics of the Earth and its environment in space, and study of earth sciences using quantitative physics methods.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MODSCI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:TransitiveProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002202">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">develops from</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:TransitiveProperty>
+  <owl:TransitiveProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is part of</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+  </owl:TransitiveProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#physics">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">physics</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HYSIC</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HYSIC</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#geochemistry">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geochemistry</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EOCHEMISTR</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EOCHEMISTR</ns2:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D000077488">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D007254"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data Science</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data-Driven Science</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An interdisciplinary field involving processes, theories, concepts, tools, and technologies, that enable the review, analysis, and extraction of valuable knowledge and information from structured and unstructured (raw) data.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#ecology">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ecology</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COLOG</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COLOG</ns2:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P108">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preferred_Name</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="https://w3id.org/skgo/modsci#SoilScience">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/skgo/modsci#EarthScience"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soil Science</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Soil science is the study of soil as a natural resource on the surface of the Earth including soil formation, classification and mapping; physical, chemical, biological, and fertility properties of soils; and these properties in relation to the use and management of soils.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MODSCI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000065">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has course</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#geoscience">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geoscience</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EOSCIENC</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EOSCIENC</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D003585">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D001695"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D000715"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Biology</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biologies, Cellular</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The study of the structure, behavior, growth, reproduction, and pathology of cells; and the function and chemistry of cellular components.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002162">
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in taxon</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00062">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00050"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyberinfrastructure</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#chemistry">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemistry</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEMISTR</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEMISTR</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#microbiology">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microbiology</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICROBIOLOG</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICROBIOLOG</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_003852">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_003850"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social science</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social and behavioral sciences</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A category of academic disciplines concerned with society and the relationships among individuals within a society. The disciplines include, but are not limited to: anthropology, archaeology, communication studies, economics, folkloristics, history, musicology, human geography, jurisprudence, linguistics, political science, psychology, public health, and sociology.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GSSO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D004467">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D004472"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D012942"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Economics</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Policy, Economic</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The science of utilization, distribution, and consumption of services and materials.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#biochemistry">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biochemistry</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IOCHEMISTR</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IOCHEMISTR</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#anatomy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anatomy</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NATOM</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NATOM</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00039">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00038"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atmospheric Science</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#neuroscience">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuroscience</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EUROSCIENC</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EUROSCIENC</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#geology">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geology</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EOLOG</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EOLOG</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D062070">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D004738"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D004463"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hydrology</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hydrologies</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Science dealing with the properties, distribution, and circulation of water on and below the earth's surface, and atmosphere.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#structural_biology">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">structural biology</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRUCTURAL BIOLOG</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRUCTURAL BIOLOG</ns2:definition>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000069">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">existence_ends_during</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="https://w3id.org/skgo/modsci#Geodesy">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/skgo/modsci#EarthScience"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geodesy</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Geodesy is the Earth science of accurately measuring and understanding Earth's geometric shape, orientation in space and gravitational field.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MODSCI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/skgo/modsci#Geochemistry">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/skgo/modsci#Chemistry"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geochemistry</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Geochemistry is the science that uses the tools and principles of chemistry to explain the mechanisms behind major geological systems such as the Earth's crust and its oceans.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MODSCI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor note</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor_note</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000057">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has participant</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#plant_science">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant science</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANT SCIENC</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANT SCIENC</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00030">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00010"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Agricultural Research</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P366">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Legacy_Concept_Name</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#mathematics">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mathematics</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATHEMATIC</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATHEMATIC</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#statistics">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">statistics</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TATISTIC</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TATISTIC</ns2:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P325">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALT_DEFINITION</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#archaeology">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">archaeology</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RCHAEOLOG</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RCHAEOLOG</ns2:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preferred label</rdfs:label>
+  </owl:AnnotationProperty>
+  <rdf:Description rdf:about="http://bioportal.bioontology.org/.well-known/genid/33a788b7-3805-4d08-ac1b-7a77008c8926/1466560100000051">
+    <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domain of part of</rdfs:label>
+  </rdf:Description>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000176">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part of continuant at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:TransitiveProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001000">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">derives from</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:TransitiveProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#hydrology">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydrology</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YDROLOG</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YDROLOG</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#genetics">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetics</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENETIC</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENETIC</ns2:definition>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000174">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has proper continuant part at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#software_engineering">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">software engineering</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OFTWARE ENGINEERIN</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OFTWARE ENGINEERIN</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#forestry">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forestry</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORESTR</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORESTR</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D001106">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D000884"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Archaeology</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Archeology</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Study of the ancient and recent human or animal past through material remains. It analyzes the physical remains of the past in pursuit of a broad and comprehensive understanding of human culture.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D015046">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D001695"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zoology</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The study of animals - their morphology, growth, distribution, classification, and behavior.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D016468">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D007221"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Forestry</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The science of developing, caring for, or cultivating forests.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:FunctionalProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000052">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inheres in at all times</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:FunctionalProperty>
+  <owl:Class rdf:about="https://w3id.org/skgo/modsci#PhysicalGeography">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/skgo/modsci#EarthScience"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physical Geography</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Physical geography is a subfield of geography, closely related to geology, that focuses on the spatial characteristics of natural processes, within the hydrosphere, biosphere, atmosphere and lithosphere.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MODSCI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:TransitiveProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000186">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part of continuant at all times that whole exists</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:TransitiveProperty>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P97">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DEFINITION</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#materials_science">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">materials science</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATERIALS SCIENC</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATERIALS SCIENC</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#electrical_engineering">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electrical engineering</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LECTRICAL ENGINEERIN</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LECTRICAL ENGINEERIN</ns2:definition>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000085">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has function at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <rdf:Description rdf:about="http://bioportal.bioontology.org/.well-known/genid/33a788b7-3805-4d08-ac1b-7a77008c8926/7a67b010000001f">
+    <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domain of part of</rdfs:label>
+  </rdf:Description>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000108">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exists at</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P207">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000083">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is located at</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000068">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">existence_starts_during</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alternative label</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+  </owl:AnnotationProperty>
+  <rdf:Description rdf:about="http://bioportal.bioontology.org/.well-known/genid/33a788b7-3805-4d08-ac1b-7a77008c8926/987c0100000081">
+    <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domain of part of</rdfs:label>
+  </rdf:Description>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#code">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">code</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000084">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">g depends on</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Axiom">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#bearer_of">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bearer_of</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181">
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1908">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug, Food, Chemical or Biomedical Material</rdfs:label>
+        <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug, Food, Chemical or Biomedical Material</ns2:synonym>
+        <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An organic or inorganic substance, element, isotope, food or other materials derived from microorganism, plant, or animal sources. They can be used for the prevention, diagnosis, treatment or research of disease states, for industrial purposes, or for the promotion or maintenance of organism viability or health.'</ns2:definition>
+        <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20189">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Property or Attribute</rdfs:label>
+        <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Property or Attribute</ns2:synonym>
+        <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A distinguishing quality or prominent aspect of a person, object, action, process, or substance.'</ns2:definition>
+        <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26548">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gene Product</rdfs:label>
+        <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genome Encoded Entity, Gene Product</ns2:synonym>
+        <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein, RNA or a complex that contains proteins and/or RNA.'</ns2:definition>
+        <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20047">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnostic or Prognostic Factor</rdfs:label>
+        <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnostic or Prognostic Factor</ns2:synonym>
+        <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A characteristic of an organism that contributes to the diagnosis or treatment of a disease or to the prediction of clinical outcomes.'</ns2:definition>
+        <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C7057">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease, Disorder or Finding</rdfs:label>
+        <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease, Disorder or Finding</ns2:synonym>
+        <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A condition that is relevant to human neoplasms and non-neoplastic disorders.  This includes observations, test results, history and other concepts relevant to the characterization of human pathologic conditions.'</ns2:definition>
+        <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C22187">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Experimental Organism Diagnosis</rdfs:label>
+        <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-Human or Experimental Organism Diagnosis, Experimental Organism Diagnosis</ns2:synonym>
+        <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A condition or observation that is relevant to disease states, models of disease or characterization of those conditions in a non-human organism; this includes conditions or observations in organisms used in research settings.'</ns2:definition>
+        <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C22188">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Experimental Organism Anatomical Concept</rdfs:label>
+        <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-Human or Experimental Organism Anatomical Concept, Experimental Organism Anatomical Concept</ns2:synonym>
+        <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A biological structure, fluid or other substance that is present in a non-human organism; this includes anatomic entities found in organisms used in research settings. However, this grouping excludes single molecular entities.'</ns2:definition>
+        <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3910">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular Abnormality</rdfs:label>
+        <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular Alteration, Genetic Abnormality, Molecular Abnormality, Cytogenetic or Molecular Genetic Abnormality, Chromosomal, Gene, or Protein Abnormality, MOLECULAR_ABNORMALITY</ns2:synonym>
+        <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A molecular or cytogenetic abnormality which occurs in either human disease states or disease models.'</ns2:definition>
+        <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14250">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organism</rdfs:label>
+        <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BiologicEntity, organism, Organismal, Taxon, Organism, Organisms</ns2:synonym>
+        <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A living entity.'</ns2:definition>
+        <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C19238">
+        <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C97325"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnostic, Therapeutic, or Research Equipment</rdfs:label>
+        <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnostic, Therapeutic, and Research Equipment, Hardware, Diagnostic, Therapeutic, or Research Equipment, Equipment</ns2:synonym>
+        <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A manufactured object that is used to perform diagnostic, therapeutic or research activities.'</ns2:definition>
+        <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28428">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Retired Concept</rdfs:label>
+        <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isRetired, Retired Concept, All Retired Concepts, Retired Concepts</ns2:synonym>
+        <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Concept has been retired, and should not be used except to deal with old data.'</ns2:definition>
+        <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C97325">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manufactured Object</rdfs:label>
+        <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manufactured Object</ns2:synonym>
+        <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A physical object created by hand or machine.'</ns2:definition>
+        <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16612">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gene</rdfs:label>
+        <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene, Gene, Genes</ns2:synonym>
+        <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A functional unit of heredity which occupies a specific position on a particular chromosome and serves as the template for a product that contributes to a phenotype or a biological function.'</ns2:definition>
+        <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <ns5:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organizational header for concepts representing mostly abstract entities.</ns5:P97>
+    <ns5:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1254372</ns5:P207>
+    <ns5:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</ns5:P108>
+    <ns5:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C20181</ns5:code>
+    <ns5:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual_Entities</ns5:P366>
+    <ns5:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Classification</ns5:P106>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An organizational header for concepts representing mostly abstract entities.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
+    <ns3:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entity doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. For example Werner Ceusters 'portions of reality' include 4 sorts, entities (as BFO construes them), universals, configurations, and relations. It is an open question as to whether entities as construed in BFO will at some point also include these other portions of reality. See, for example, 'How to track absolutely everything' at http://www.referent-tracking.com/_RTU/papers/CeustersICbookRevised.pdf</ns3:IAO_0000116>
+    <ns3:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO 2 Reference: In all areas of empirical inquiry we encounter general terms of two sorts. First are general terms which refer to universals or types:animaltuberculosissurgical procedurediseaseSecond, are general terms used to refer to groups of entities which instantiate a given universal but do not correspond to the extension of any subuniversal of that universal because there is nothing intrinsic to the entities in question by virtue of which they – and only they – are counted as belonging to the given group. Examples are: animal purchased by the Emperortuberculosis diagnosed on a Wednesdaysurgical procedure performed on a patient from Stockholmperson identified as candidate for clinical trial #2056-555person who is signatory of Form 656-PPVpainting by Leonardo da VinciSuch terms, which represent what are called ‘specializations’ in [81</ns3:IAO_0000116>
+    <ns3:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entity</ns3:IAO_0000111>
+    <ns3:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">your body mass index</ns3:IAO_0000112>
+    <ns3:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verdi’s Requiem</ns3:IAO_0000112>
+    <ns3:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Julius Caesar</ns3:IAO_0000112>
+    <ns3:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the Second World War</ns3:IAO_0000112>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TRAK_0000001"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entity</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An entity is anything that exists or has existed or will exist.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GSSO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/CSP/1816-2382">
+    <ns4:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scientific study of quantities, including their relationships, operations and measurement, expressed by numbers and symbols.</ns4:definition>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1816-2382</ns4:notation>
+    <ns4:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mathematics</ns4:prefLabel>
+    <ns4:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fractal</ns4:altLabel>
+    <ns4:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">algorithm</ns4:altLabel>
+    <ns4:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biomathematics</ns4:altLabel>
+    <ns1:RN rdf:resource="http://purl.bioontology.org/ontology/CSP/4000-0292"/>
+    <owl:equivalentClass rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16825"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/CSP/4000-0292"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mathematics</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biomathematics</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'scientific study of quantities, including their relationships, operations and measurement, expressed by numbers and symbols.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CRISP</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16825">
+    <ns5:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The study of numbers, shapes, patterns, and logical reasoning.</ns5:P97>
+    <ns5:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0024934</ns5:P207>
+    <ns5:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mathematics</ns5:P108>
+    <ns5:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C16825</ns5:code>
+    <ns5:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mathematics</ns5:P366>
+    <ns5:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Math</ns5:P90>
+    <ns5:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mathematical</ns5:P90>
+    <ns5:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Occupation or Discipline</ns5:P106>
+    <owl:equivalentClass rdf:resource="http://purl.bioontology.org/ontology/CSP/1816-2382"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mathematics</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mathematical, Math, Mathematics</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The study of numbers, shapes, patterns, and logical reasoning.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/CSP/2729-3530">
+    <ns1:RN rdf:resource="http://purl.bioontology.org/ontology/CSP/4000-0125"/>
+    <ns4:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">header term for two closely related sciences; sociology is the social science dealing with group relationships, patterns of collective behavior, and social organization; anthropology is the science devoted to the comparative study of man.</ns4:definition>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2729-3530</ns4:notation>
+    <ns4:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sociology/anthropology</ns4:prefLabel>
+    <ns4:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anthropology</ns4:altLabel>
+    <ns4:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sociology</ns4:altLabel>
+    <ns1:RB rdf:resource="http://purl.bioontology.org/ontology/CSP/2729-4516"/>
+    <owl:equivalentClass rdf:resource="http://purl.bioontology.org/ontology/MESH/D000883"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/CSP/4000-0125"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sociology/anthropology</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sociology</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'header term for two closely related sciences; sociology is the social science dealing with group relationships, patterns of collective behavior, and social organization; anthropology is the science devoted to the comparative study of man.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CRISP</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D004738">
+    <owl:equivalentClass rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16548"/>
+    <owl:equivalentClass rdf:resource="https://purl.dataone.org/odo/ADCAD_00050"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Engineering</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Engineerings</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The practical application of physical, mechanical, and mathematical principles. (Stedman, 25th ed)'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#AnnotationProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/CSP/1945-8597">
+    <ns1:SIB rdf:resource="http://purl.bioontology.org/ontology/CSP/2060-1161"/>
+    <ns4:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">study of biological processes at the molecular level, including membrane biochemistry, cytoskeleton biochemistry, and structural biology in addition to molecular genetics (see NTs and RTs).</ns4:definition>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1945-8597</ns4:notation>
+    <ns4:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular biology</ns4:prefLabel>
+    <ns1:RN rdf:resource="http://purl.bioontology.org/ontology/CSP/0418-4282"/>
+    <ns1:RB rdf:resource="http://purl.bioontology.org/ontology/CSP/4003-0058"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/CSP/0418-4282"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular biology</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'study of biological processes at the molecular level, including membrane biochemistry, cytoskeleton biochemistry, and structural biology in addition to molecular genetics (see NTs and RTs).'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CRISP</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D011154">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Population Characteristics</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Characteristics, Population</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Qualities and characterization of various types of populations within a social or geographic group, with emphasis on demography, health status, and socioeconomic factors.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <ns3:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the color of a tomato</ns3:IAO_0000112>
+    <ns3:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a person</ns3:IAO_0000112>
+    <ns3:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the mass of a cloud</ns3:IAO_0000112>
+    <ns3:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a heart</ns3:IAO_0000112>
+    <ns3:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a symphony orchestra</ns3:IAO_0000112>
+    <ns3:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the lawn and atmosphere in front of our building</ns3:IAO_0000112>
+    <ns3:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the disposition of blood to coagulate</ns3:IAO_0000112>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">occurrent</rdfs:label>
+        <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An occurrent is an entity that unfolds itself in time or it is the instantaneous boundary of such an entity (for example a beginning or an ending) or it is a temporal or spatiotemporal region which such an entity occupies a temporal region or a spatiotemporal region.'</ns2:definition>
+        <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GSSO</ns2:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <ns3:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO 2 Reference: Continuant entities are entities which can be sliced to yield parts only along the spatial dimension, yielding for example the parts of your table which we call its legs, its top, its nails. ‘My desk stretches from the window to the door. It has spatial parts, and can be sliced (in space) in two. With respect to time, however, a thing is a continuant.’ [60, p. 240</ns3:IAO_0000116>
+    <ns3:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Continuant doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. For example, in an expansion involving bringing in some of Ceuster's other portions of reality, questions are raised as to whether universals are continuants</ns3:IAO_0000116>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endurant</ns3:IAO_0000118>
+    <ns3:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">continuant</ns3:IAO_0000111>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An entity  that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.</ns3:IAO_0000115>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TRAK_0000409"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">continuant</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GSSO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#FunctionalProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_003848">
+    <owl:equivalentClass rdf:resource="https://w3id.org/skgo/modsci#ModernScience"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_002345"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">science</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scientific</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The study of natural phenomena by observation, measurement, and experimentation.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GSSO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D000715">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D001690"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomy</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomies</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A branch of biology dealing with the structure of organisms.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D000883">
+    <owl:equivalentClass rdf:resource="http://purl.bioontology.org/ontology/CSP/2729-3530"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anthropology</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The science devoted to the comparative study of man.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/CSP/4000-0292">
+    <ns1:RB rdf:resource="http://purl.bioontology.org/ontology/CSP/1816-2382"/>
+    <ns4:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tree section heading for chemistry, physics, and related terms.</ns4:definition>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4000-0292</ns4:notation>
+    <ns4:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">physical science</ns4:prefLabel>
+    <ns1:SIB rdf:resource="http://purl.bioontology.org/ontology/CSP/0418-4282"/>
+    <ns1:SIB rdf:resource="http://purl.bioontology.org/ontology/CSP/4000-0125"/>
+    <owl:equivalentClass rdf:resource="https://purl.dataone.org/odo/ADCAD_00033"/>
+    <owl:equivalentClass rdf:resource="http://purl.bioontology.org/ontology/MESH/D010811"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">physical science</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'tree section heading for chemistry, physics, and related terms.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CRISP</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/CSP/0418-4282">
+    <ns1:RB rdf:resource="http://purl.bioontology.org/ontology/CSP/2060-1161"/>
+    <ns1:RB rdf:resource="http://purl.bioontology.org/ontology/CSP/1945-8597"/>
+    <ns1:SIB rdf:resource="http://purl.bioontology.org/ontology/CSP/4000-0292"/>
+    <ns1:SIB rdf:resource="http://purl.bioontology.org/ontology/CSP/4000-0125"/>
+    <ns4:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">science concerned with the phenomena of life and living organisms.</ns4:definition>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0418-4282</ns4:notation>
+    <ns4:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biology</ns4:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentClass rdf:resource="http://purl.bioontology.org/ontology/MESH/D001695"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biology</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'science concerned with the phenomena of life and living organisms.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CRISP</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43743">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43643"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual_Part_Of</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual_Part_Of</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A role used to indicate that a conceptual entity is a sub-entity of another conceptual entity. Both the domain and the range for this role are 'Conceptual Entity'.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#DatatypeProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C19160">
+    <ns5:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A grouping of occupations and fields of study.</ns5:P97>
+    <ns5:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1518533</ns5:P207>
+    <ns5:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Occupation or Discipline</ns5:P108>
+    <ns5:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C19160</ns5:code>
+    <ns5:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Occupation_or_Discipline</ns5:P366>
+    <ns5:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Occupation or Discipline</ns5:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Occupation or Discipline</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Occupation or Discipline</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A grouping of occupations and fields of study.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/CSP/4003-0058">
+    <ns1:RN rdf:resource="http://purl.bioontology.org/ontology/CSP/1945-8597"/>
+    <ns4:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">study of structure-function relationships in biological macromolecules, especially using X-ray crystallography, 2D and 3D NMR, genetic sequence analysis, and computer simulation; for thorough searching, see the Tree Structure under CHEMICAL STRUCTURE, and consider these RTs.</ns4:definition>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4003-0058</ns4:notation>
+    <ns4:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">structural biology</ns4:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/CSP/1945-8597"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">structural biology</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'study of structure-function relationships in biological macromolecules, especially using X-ray crystallography, 2D and 3D NMR, genetic sequence analysis, and computer simulation; for thorough searching, see the Tree Structure under CHEMICAL STRUCTURE, and consider these RTs.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CRISP</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18141">
+    <ns5:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The study of the structure and dynamics of computational systems using mathematical, logical, and empirical tools.</ns5:P97>
+    <ns5:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0599726</ns5:P207>
+    <ns5:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computer Sciences</ns5:P108>
+    <ns5:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C18141</ns5:code>
+    <ns5:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computer_Sciences</ns5:P366>
+    <ns5:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Occupation or Discipline</ns5:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17187"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computer Sciences</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computer Technology, Computer Sciences</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The study of the structure and dynamics of computational systems using mathematical, logical, and empirical tools.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/skgo/modsci#ModernScience">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/GSSO_003848"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Science</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Science is a systematic enterprise that builds and organizes knowledge in the form of testable explanations and predictions about the universe.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MODSCI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D004472">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Health Care Economics and Organizations</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Health Care Economics</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The economic aspects of health care, its planning, and delivery. It includes government agencies and organizations in the private sector.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/Q000737">
+    <owl:equivalentClass rdf:resource="https://w3id.org/skgo/modsci#Chemistry"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemistry</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical composition</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Used with chemicals, biological, and non-biological substances for their composition, structure, characterization, and properties; also used for the chemical composition or content of organs, tissue, tumors, body fluids, organisms, and plants. Excludes chemical analysis and determination of substances for which 'analysis' is used; excludes synthesis for which 'chemical synthesis' is used; excludes isolation and purification of substances for which 'isolation &amp; purification' is used.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D010825">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D010811"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physics</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physic</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The study of those aspects of energy and matter in terms of elementary principles and laws. (From McGraw-Hill Dictionary of Scientific and Technical Terms, 6th ed)'</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42698">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Terminology Entity</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Terminology Entity</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Terminology entities represent the elements that form and define an ontology.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00000">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Academic Discipline</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43643">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43639"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI Thesaurus Role</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role, NCI Thesaurus Role</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A specific non-hierarchical, named relationship between concepts present in the NCI Thesaurus.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D000884">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D000883"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anthropology, Cultural</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Culture, Material</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Study of social phenomena which characterize the learned, shared, and transmitted social activities of particular ethnic groups with focus on the causes, consequences, and complexities of human social and cultural variability.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000004">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <ns3:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the interior of your mouth</ns3:IAO_0000112>
+    <ns3:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a person</ns3:IAO_0000112>
+    <ns3:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a leg</ns3:IAO_0000112>
+    <ns3:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an organism</ns3:IAO_0000112>
+    <ns3:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a heart</ns3:IAO_0000112>
+    <ns3:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a spatial region</ns3:IAO_0000112>
+    <ns3:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a molecule</ns3:IAO_0000112>
+    <ns3:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a chair</ns3:IAO_0000112>
+    <ns3:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the lawn and atmosphere in front of our building</ns3:IAO_0000112>
+    <ns3:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an atom</ns3:IAO_0000112>
+    <ns3:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the bottom right portion of a human torso</ns3:IAO_0000112>
+    <ns3:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a symphony orchestra</ns3:IAO_0000112>
+    <ns3:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an orchestra.</ns3:IAO_0000112>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">substantial entity</ns3:IAO_0000118>
+    <ns3:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">independent continuant</ns3:IAO_0000111>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])</ns3:IAO_0000115>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A continuant  that is a bearer of quality  and realizable entity  entities, in which other entities inhere and which itself cannot inhere in anything.</ns3:IAO_0000115>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">independent continuant</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GSSO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_000492">
+    <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000015"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">knowledge content entity</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Information content entity that is an empirical result found to be meaningful to one or more person(s) or a community, such that it can be interpreted by them in ways that they value, and which arises from a systematic analytic and/or deliberative process of investigation and study of other information content entities, that are often, but not exclusively other data item(s), thereby accounting for those other information content entities.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GSSO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/skgo/modsci#Chemistry">
+    <owl:equivalentClass rdf:resource="http://purl.bioontology.org/ontology/MESH/Q000737"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemistry</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Chemistry is defined as the science of matter, different from physics, in terms of matter's chemical structure, reactivity, properties and reactions or transformations.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MODSCI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16344">
+    <ns5:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The division of the natural sciences that is concerned with the phenomenon of life and vital processes.</ns5:P97>
+    <ns5:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0005526</ns5:P207>
+    <ns5:P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[<ncicp:ComplexDefinition xmlns:ncicp='http://ncicb.nci.nih.gov/xml/owl/EVS/ComplexProperties.xsd#'><ncicp:def-definition>All of the divisions of the natural sciences dealing with the various aspects of the phenomena of life and vital processes. The concept includes anatomy and physiology, biochemistry and biophysics, and the biology of animals, plants, and microorganisms. It should be differentiated from BIOLOGY, one of its subdivisions, concerned specifically with the origin and life processes of living organisms.</ncicp:def-definition><ncicp:def-source>MSH2001</ncicp:def-source></ncicp:ComplexDefinition>]]></ns5:P325>
+    <ns5:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological Sciences</ns5:P108>
+    <ns5:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C16344</ns5:code>
+    <ns5:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological_Sciences</ns5:P366>
+    <ns5:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biomedical Occupation or Discipline</ns5:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C19160"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological Sciences</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological Sciences</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The division of the natural sciences that is concerned with the phenomenon of life and vital processes.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D013676">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Technology, Industry, and Agriculture</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The science and application of techniques for the extraction of raw materials, provision of services, manufacture of goods, cultivation of crops, and raising of livestock.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16548">
+    <ns5:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The discipline concerned with the application of scientific knowledge to solve practical issues in commerce or industry.</ns5:P97>
+    <ns5:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0014279</ns5:P207>
+    <ns5:P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[<ncicp:ComplexDefinition xmlns:ncicp='http://ncicb.nci.nih.gov/xml/owl/EVS/ComplexProperties.xsd#'><ncicp:def-definition>The practical application of physical, mechanical, and mathematical principles. (Stedman, 25th ed)</ncicp:def-definition><ncicp:def-source>MSH2001</ncicp:def-source></ncicp:ComplexDefinition>]]></ns5:P325>
+    <ns5:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Engineering</ns5:P108>
+    <ns5:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C16548</ns5:code>
+    <ns5:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Engineering</ns5:P366>
+    <ns5:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Occupation or Discipline</ns5:P106>
+    <owl:equivalentClass rdf:resource="https://purl.dataone.org/odo/ADCAD_00050"/>
+    <owl:equivalentClass rdf:resource="http://purl.bioontology.org/ontology/MESH/D004738"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Engineering</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Engineering</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The discipline concerned with the application of scientific knowledge to solve practical issues in commerce or industry.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000030">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">object</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An object is an entity that is wholly identifiable at any instant of time during which it exists.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GSSO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D004463">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D001695"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D056448"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ecology</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bionomics</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The branch of science concerned with the interrelationship of organisms and their ENVIRONMENT, especially as manifested by natural cycles and rhythms, community development and structure, interactions between different kinds of organisms, geographic distributions, and population alterations. (Webster's, 3d ed)'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#TransitiveProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D011634">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D004778"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D006262"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D008511"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Public Health</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Health, Community</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Branch of medicine concerned with the prevention and control of disease and disability, and the promotion of physical and mental health of the population on the international, national, state, or municipal level.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/skgo/modsci#EarthScience">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/skgo/modsci#NaturalScience"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Earth Science</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Earth science (also known as geoscience, the geosciences, or the Earth sciences) includes all the sciences related to the planet Earth.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MODSCI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000015">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information content entity</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information artifact</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A generically dependent continuant that is about some thing.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GSSO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D001690">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D010811"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological Science Disciplines</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biologic Science</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'All of the divisions of the natural sciences dealing with the various aspects of the phenomena of life and vital processes. The concept includes anatomy and physiology, biochemistry and biophysics, and the biology of animals, plants, and microorganisms. It should be differentiated from BIOLOGY, one of its subdivisions, concerned specifically with the origin and life processes of living organisms.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16733">
+    <ns5:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The sciences concerned with gathering and manipulating and storing and retrieving and classifying recorded information.</ns5:P97>
+    <ns5:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0021423</ns5:P207>
+    <ns5:P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[<ncicp:ComplexDefinition xmlns:ncicp='http://ncicb.nci.nih.gov/xml/owl/EVS/ComplexProperties.xsd#'><ncicp:def-definition>The field of knowledge, theory, and technology dealing with the collection of facts and figures, and the processes and methods involved in their manipulation, storage, dissemination, publication, and retrieval. It includes the fields of COMMUNICATION, PUBLISHING, LIBRARY SCIENCE and informatics.</ncicp:def-definition><ncicp:def-source>MSH2001</ncicp:def-source></ncicp:ComplexDefinition>]]></ns5:P325>
+    <ns5:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Sciences</ns5:P108>
+    <ns5:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C16733</ns5:code>
+    <ns5:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information_Sciences</ns5:P366>
+    <ns5:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Technology</ns5:P90>
+    <ns5:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Occupation or Discipline</ns5:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17187"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Sciences</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Technology, Information Sciences</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The sciences concerned with gathering and manipulating and storing and retrieving and classifying recorded information.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRAK_0000001">
+    <ns6:xref rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entity</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRAK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/CSP/2729-4516">
+    <ns1:RN rdf:resource="http://purl.bioontology.org/ontology/CSP/2729-3530"/>
+    <ns4:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">activities or affairs engaged in by a government, politician, or political party.</ns4:definition>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2729-4516</ns4:notation>
+    <ns4:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">politics</ns4:prefLabel>
+    <ns4:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">political science</ns4:altLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/CSP/2729-3530"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">politics</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">political science</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'activities or affairs engaged in by a government, politician, or political party.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CRISP</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00010">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00067"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Life Science</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/CSP/2060-1161">
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2060-1161</ns4:notation>
+    <ns4:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuroscience</ns4:prefLabel>
+    <ns1:RN rdf:resource="http://purl.bioontology.org/ontology/CSP/0418-4282"/>
+    <ns1:SIB rdf:resource="http://purl.bioontology.org/ontology/CSP/1945-8597"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/CSP/0418-4282"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuroscience</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CRISP</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18145">
+    <ns5:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An occupational discipline which unites information science with computer science.  It is concerned with the development of techniques for the collection and manipulation of data, and the use of such data.</ns5:P97>
+    <ns5:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0599807</ns5:P207>
+    <ns5:P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[<ncicp:ComplexDefinition xmlns:ncicp='http://ncicb.nci.nih.gov/xml/owl/EVS/ComplexProperties.xsd#'><ncicp:def-definition>the representation, processing, and development of information and information systems; has computational aspects; central notion is the transformation of information; includes the development in information technology, computer science, telematics, telecommunications, etc.</ncicp:def-definition><ncicp:def-source>CSP2000</ncicp:def-source></ncicp:ComplexDefinition>]]></ns5:P325>
+    <ns5:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Informatics</ns5:P108>
+    <ns5:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C18145</ns5:code>
+    <ns5:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Informatics</ns5:P366>
+    <ns5:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Occupation or Discipline</ns5:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16733"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Informatics</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Informatics</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An occupational discipline which unites information science with computer science.  It is concerned with the development of techniques for the collection and manipulation of data, and the use of such data.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D013672">
+    <owl:equivalentClass rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17187"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Technology</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Industrial Arts</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The application of scientific knowledge to practical purposes in any field. It includes methods, techniques, and instrumentation.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D012942">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D001525"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Social Sciences</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sciences, Social</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43639">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42698"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI Thesaurus Entity</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI Thesaurus Entity</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The terminology entities that represent the elements that form and define the NCI Thesaurus.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17187">
+    <ns5:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Technology is the discipline dealing with the art or science of applying scientific knowledge to practical problems.</ns5:P97>
+    <ns5:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0039421</ns5:P207>
+    <ns5:P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[<ncicp:ComplexDefinition xmlns:ncicp='http://ncicb.nci.nih.gov/xml/owl/EVS/ComplexProperties.xsd#'><ncicp:def-definition>The application of scientific knowledge to practical purposes in any field. It includes methods, techniques, and instrumentation.</ncicp:def-definition><ncicp:def-source>MSH2001</ncicp:def-source></ncicp:ComplexDefinition>]]></ns5:P325>
+    <ns5:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Technology</ns5:P108>
+    <ns5:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C17187</ns5:code>
+    <ns5:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Technology</ns5:P366>
+    <ns5:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Occupation or Discipline</ns5:P106>
+    <owl:equivalentClass rdf:resource="http://purl.bioontology.org/ontology/MESH/D013672"/>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C19160"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Technology</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Technology</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Technology is the discipline dealing with the art or science of applying scientific knowledge to practical problems.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/CSP/4000-0125">
+    <ns1:SIB rdf:resource="http://purl.bioontology.org/ontology/CSP/4000-0292"/>
+    <ns1:SIB rdf:resource="http://purl.bioontology.org/ontology/CSP/0418-4282"/>
+    <ns4:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heading term for psychology, sociology, anthropology, and related disciplines; also see BEHAVIORAL/SOCIAL SCIENCE RESEARCH TAG.</ns4:definition>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4000-0125</ns4:notation>
+    <ns4:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral/social science</ns4:prefLabel>
+    <ns1:RB rdf:resource="http://purl.bioontology.org/ontology/CSP/2729-3530"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral/social science</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'heading term for psychology, sociology, anthropology, and related disciplines; also see BEHAVIORAL/SOCIAL SCIENCE RESEARCH TAG.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CRISP</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bigdatau.org/dseo#domain">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Domain</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'is a dimension name; field or topic of study covered by a resource'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DSEO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D001695">
+    <owl:equivalentClass rdf:resource="http://purl.bioontology.org/ontology/CSP/0418-4282"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biology</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'One of the BIOLOGICAL SCIENCE DISCIPLINES concerned with the origin, structure, development, growth, function, genetics, and reproduction of animals, plants, and microorganisms.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00038">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00033"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geoscience</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_003850">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_003848"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basic science</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The development of scientific knowledge and predictions, principally in natural sciences but also in other empirical sciences, which are used as the scientific foundation for applied science. Basic science develops and establishes information to predict phenomena and perhaps to understand nature.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GSSO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D007254">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Science</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Science, Information</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The field of knowledge, theory, and technology dealing with the collection of facts and figures, and the processes and methods involved in their manipulation, storage, dissemination, publication, and retrieval. It includes the fields of COMMUNICATION; PUBLISHING; LIBRARY SCIENCE; and informatics.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D006262">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D011154"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Health</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Normalcies</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The state of conforming to a type, standard, or regular pattern. (Merriam-Webster's Collegiate Dictionary, 10th ed)'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_002345">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_000492"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">knowledge field</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">content area</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A branch of knowledge.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GSSO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D001525">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D004191"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behavioral Sciences</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proxemic</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The study of the spatial requirements of humans and animals and the effects of POPULATION DENSITY on BEHAVIOR, COMMUNICATION, and SOCIAL INTERACTION. Proxemics is a subcategory of the study of nonverbal communication along with haptics (touch), KINESICS (body movement), vocalics (paralanguage), and chronemics (structure of time).'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D004191">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behavioral Disciplines and Activities</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The specialties in psychiatry and psychology, their diagnostic techniques and tests, their therapeutic methods, and psychiatric and psychological services.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00033">
+    <owl:equivalentClass rdf:resource="http://purl.bioontology.org/ontology/CSP/4000-0292"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physical Science</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D007221">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D013676"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Industry</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tertiary Sectors</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Any enterprise centered on the processing, assembly, production, or marketing of a line of products, services, commodities, or merchandise, in a particular field often named after its principal product. Examples include the automobile, fishing, music, publishing, insurance, and textile industries.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D004778">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Environment and Public Health</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Natural and man-made environments and their impact on public health.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/skgo/modsci#NaturalScience">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/skgo/modsci#ModernScience"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Natural Sciences</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The natural sciences are those branches of empirical science that produce a comprehension of the natural world through the use of data collected from it by observation and measurement to construct deterministic and/or stochastic quantitative models of its phenomena.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MODSCI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#SymmetricProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D008511">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D006281"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medicine</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Speciality, Medical</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Various branches of medical practice limited to specialized areas.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#ReflexiveProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D010811">
+    <owl:equivalentClass rdf:resource="http://purl.bioontology.org/ontology/CSP/4000-0292"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Natural Science Disciplines</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physical Sciences</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The sciences dealing with processes observable in nature.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D006281">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Health Occupations</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Professions, Health</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Professions or other business activities directed to the cure and prevention of disease. For occupations of medical personnel who are not physicians but who are working in the fields of medical technology, physical therapy, etc., ALLIED HEALTH OCCUPATIONS is available.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D056448">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D010811"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Earth Sciences</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Earth Science</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns2:ontology_acronm>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Fields of science encompassing studies and research from the disciplines of PHYSICS; CHEMISTRY; BIOLOGICAL SCIENCES; and MATHEMATICS; that are related to the planet EARTH. Subfields include atmospheric chemistry; CLIMATOLOGY; ENVIRONMENTAL SCIENCES; GEOGRAPHY; GEOLOGY; geophysics; METEOROLOGY; OCEANOGRAPHY; PALEONTOLOGY; mineralogy; and seismology.'</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00067">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Natural Science</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRAK_0000409">
+    <ns6:xref rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">continuant</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endurant</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRAK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00050">
+    <owl:equivalentClass rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16548"/>
+    <owl:equivalentClass rdf:resource="http://purl.bioontology.org/ontology/MESH/D004738"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Engineering</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns2:ontology_acronm>
+  </owl:Class>
+</rdf:RDF>

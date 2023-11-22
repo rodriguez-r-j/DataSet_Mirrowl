@@ -1,0 +1,1150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:ns1="http://purl.obolibrary.org/obo/"
+  xmlns:ns2="http://ontology.test.es/comment#"
+  xmlns:ns3="http://www.geneontology.org/formats/oboInOwl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns4="http://www.geneontology.org/formats/oboInOWL#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+>
+  <owl:TransitiveProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000187">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has continuant part at all times that part exists</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:TransitiveProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003532">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000018"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mus musculus miR-494 stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of a Mus musculus ortholog of human gene MIR323B'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000124">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has location at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003515">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000436"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homo sapiens miR-544a stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of human gene MIR544'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003542">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000018"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rattus norvegicus miR-494 stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of a Rattus norvegicus ortholog of human gene MIR323B'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000056">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">participates in</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000461">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is_stereoisomer_of</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+  </owl:ObjectProperty>
+  <owl:TransitiveProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001000">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">derives from</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:TransitiveProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003560">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000013"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homo sapiens miR-92b stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of human gene MIR92B'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor preferred label</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor_preferred_term</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor preferred term</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:FunctionalProperty rdf:about="http://purl.obolibrary.org/obo/inheres_in">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inheres_in</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:FunctionalProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003558">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000487"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homo sapiens miR-553 stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of human gene MIR553'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003492">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000201"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mus musculus miR-485 stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of a Mus musculus ortholog of human gene MIR485'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003531">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000162"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mus musculus miR-367 stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of a Mus musculus ortholog of human gene MIR367'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003514">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000018"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homo sapiens miR-539 stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of human gene MIR539'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000178">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has continuant part at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003559">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000551"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homo sapiens miR-554 stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of human gene MIR554'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003539">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000068"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mus musculus miR-291b stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of a Mus musculus ortholog of human gene MIR371B'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000171">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">located in at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003537">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000128"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mus musculus miR-450a-2 stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of a Mus musculus ortholog of human gene MIR450B'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003554">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000001"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rattus norvegicus miR-20b stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of a Rattus norvegicus ortholog of human gene MIR20B'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003564">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000538"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homo sapiens miR-558 stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of human gene MIR558'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition source</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition_source</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003527">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000213"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rattus norvegicus miR-541 stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of a Rattus norvegicus ortholog of human gene MIR541'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000462">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_same_connectivity_as</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003533">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000091"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mus musculus miR-376c stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of a Mus musculus ortholog of human gene MIR376A2'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://bioportal.bioontology.org/.well-known/genid/33a788b7-3805-4d08-ac1b-7a77008c8926/987c0100000081">
+    <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domain of part of</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003521">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000213"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mus musculus miR-541 stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of a Mus musculus ortholog of human gene MIR541'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003544">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000091"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rattus norvegicus miR-376b stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of a Rattus norvegicus ortholog of human gene MIR376A2'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000066">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">occurs in</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003534">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000018"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mus musculus miR-487b stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of a Mus musculus ortholog of human gene MIR323B'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003549">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000201"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rattus norvegicus miR-485 stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of a Rattus norvegicus ortholog of human gene MIR485'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:FunctionalProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000185">
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#InverseFunctionalProperty">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has history</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+  </owl:FunctionalProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000069">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">existence_ends_during</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002214">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has prototype</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000108">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exists at</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+  </owl:ObjectProperty>
+  <owl:TransitiveProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is part of</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+  </owl:TransitiveProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000127">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material basis of at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003516">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000098"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homo sapiens miR-545 stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of human gene MIR545'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0003001">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">produced_by</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+  </owl:ObjectProperty>
+  <owl:SymmetricProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0001637">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has disposition to bind</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+  </owl:SymmetricProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003548">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000018"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rattus norvegicus miR-382 stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of a Rattus norvegicus ortholog of human gene MIR323B'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003535">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000018"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mus musculus miR-369 stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of a Mus musculus ortholog of human gene MIR323B'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003552">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000288"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rattus norvegicus miR-374 stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of a Rattus norvegicus ortholog of human gene MIR374C'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003536">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000001"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mus musculus miR-20b stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of a Mus musculus ortholog of human gene MIR20B'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002204">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene product of</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000480">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has component with uncharged counterpart</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000304">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is_manufactured_by</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+  </owl:ObjectProperty>
+  <owl:FunctionalProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000184">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">history of</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+  </owl:FunctionalProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003543">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000091"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rattus norvegicus miR-376c stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of a Rattus norvegicus ortholog of human gene MIR376A2'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003513">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000129"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homo sapiens miR-455 stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of human gene MIR455'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003550">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000018"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rattus norvegicus miR-409 stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of a Rattus norvegicus ortholog of human gene MIR323B'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002205">
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has gene product</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:FunctionalProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000052">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inheres in at all times</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:FunctionalProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003555">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000183"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rattus norvegicus miR-503-1 stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of a Rattus norvegicus ortholog of human gene MIR503'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000459">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_isotopically_unspecified_parent</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#bearer_of">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bearer_of</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000053">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is bearer of</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000175">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proper part of continuant at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003547">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000018"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rattus norvegicus miR-487b stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of a Rattus norvegicus ortholog of human gene MIR323B'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002150">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">connected to</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003538">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000183"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mus musculus miR-503 stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of a Mus musculus ortholog of human gene MIR503'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003520">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000018"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mus musculus miR-539 stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of a Mus musculus ortholog of human gene MIR323B'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003545">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000091"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rattus norvegicus miR-376a stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of a Rattus norvegicus ortholog of human gene MIR376A2'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003561">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000583"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homo sapiens miR-555 stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of human gene MIR555'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000454">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ligates</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">example_of_usage</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">example of usage</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0003000">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">produces</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000113">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has material basis at all times</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003519">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000110"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mus musculus miR-543 stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of a Mus musculus ortholog of human gene MIR543'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:SymmetricProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002220">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adjacent_to</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:SymmetricProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003540">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000230"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rattus norvegicus miR-493 stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of a Rattus norvegicus ortholog of human gene MIR493'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000115">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has member part at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000129">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">member part of at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000087">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_role</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003522">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000185"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mus musculus miR-542 stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of a Mus musculus ortholog of human gene MIR542'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003528">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000185"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rattus norvegicus miR-542-1 stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of a Rattus norvegicus ortholog of human gene MIR542'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003563">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000520"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homo sapiens miR-557 stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of human gene MIR557'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003529">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000091"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homo sapiens miR-376a-2 stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of human gene MIR376A2'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003526">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000018"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rattus norvegicus miR-539 stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of a Rattus norvegicus ortholog of human gene MIR323B'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002215">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">capable_of</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <rdf:Description rdf:about="http://bioportal.bioontology.org/.well-known/genid/33a788b7-3805-4d08-ac1b-7a77008c8926/15b05f0000000055">
+    <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domain of part of</rdfs:label>
+  </rdf:Description>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000163">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material basis of at all times</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alternative term</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003551">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000018"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rattus norvegicus miR-369 stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of a Rattus norvegicus ortholog of human gene MIR323B'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000647">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_supplier</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000458">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has OPS normalized counterpart</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_related_synonym</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002200">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has phenotype</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003562">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000475"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homo sapiens miR-556 stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of human gene MIR556'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OBIws_0000062">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_description</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Axiom">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003556">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000360"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homo sapiens miR-551a stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of human gene MIR551A'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003541">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000126"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rattus norvegicus miR-379 stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of a Rattus norvegicus ortholog of human gene MIR1197'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003553">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000138"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rattus norvegicus miR-363 stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of a Rattus norvegicus ortholog of human gene MIR363'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000457">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_normalized_counterpart</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000157">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">during which exists</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000065">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has course</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000176">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part of continuant at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000123">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has spatial occupant at some time</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003530">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000018"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homo sapiens miR-487b stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of human gene MIR487B'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003546">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000018"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rattus norvegicus miR-381 stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of a Rattus norvegicus ortholog of human gene MIR323B'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000478">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has component</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000314">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is_proxy_for</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000456">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_stereoundefined_parent</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003493">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000220"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mus musculus miR-486a stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of a Mus musculus ortholog of human gene NIL'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003557">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000501"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homo sapiens miR-552 stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of human gene MIR552'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000085">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has function at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:TransitiveProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000186">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part of continuant at all times that whole exists</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:TransitiveProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MI0003525">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/NCRO_MIPF0000110"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rattus norvegicus miR-543 stem-loop</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-miRNA processed from the primary transcript of a Rattus norvegicus ortholog of human gene MIR543'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">notation</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002206">
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">expressed in</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000068">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">existence_starts_during</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000463">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is_diastereomer_of</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000460">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_uncharged_counterpart</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+  </owl:ObjectProperty>
+  <owl:TransitiveProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002202">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">develops from</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:TransitiveProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000073">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is granular part of</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+  </owl:ObjectProperty>
+  <rdf:Description rdf:about="http://bioportal.bioontology.org/.well-known/genid/33a788b7-3805-4d08-ac1b-7a77008c8926/1466560100000051">
+    <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domain of part of</rdfs:label>
+  </rdf:Description>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor note</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor_note</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002162">
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in taxon</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_alternative_id</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000174">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has proper continuant part at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_subset</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000455">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is_isotopologue_of</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002337">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">related via localization to</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000083">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is located at</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <rdf:Description rdf:about="http://bioportal.bioontology.org/.well-known/genid/33a788b7-3805-4d08-ac1b-7a77008c8926/7a67b010000001f">
+    <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domain of part of</rdfs:label>
+  </rdf:Description>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000084">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">g depends on</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000057">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has participant</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000070">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">s depends on</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCRO_0004020">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004021"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pre-miRNA</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A miRNA gene product cleaved from a pri-miRNA by Drosha ribonuclease III enzyme to produce an approximately 70-nt stem-loop precursor to mature miRNA, which is cleaved from the pre-miRNA by cytoplasmic Dicer ribonuclease .'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MIPF0000475">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miRNA family (mir-556)</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An evolutionary conserved group of miRNA gene products including the human hsa-mir-556, their precursors and their orthologs and paralogs'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#AnnotationProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MIPF0000487">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miRNA family (mir-553)</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An evolutionary conserved group of miRNA gene products including the human hsa-mir-553, their precursors and their orthologs and paralogs'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MIPF0000551">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miRNA family (mir-554)</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An evolutionary conserved group of miRNA gene products including the human hsa-mir-554, their precursors and their orthologs and paralogs'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCRO_0004021">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miRNA precursor</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An miRNA gene product from which a mature miRNA is capable of being derived.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
+    <ns1:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entity doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. For example Werner Ceusters 'portions of reality' include 4 sorts, entities (as BFO construes them), universals, configurations, and relations. It is an open question as to whether entities as construed in BFO will at some point also include these other portions of reality. See, for example, 'How to track absolutely everything' at http://www.referent-tracking.com/_RTU/papers/CeustersICbookRevised.pdf</ns1:IAO_0000116>
+    <ns1:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO 2 Reference: In all areas of empirical inquiry we encounter general terms of two sorts. First are general terms which refer to universals or types:animaltuberculosissurgical procedurediseaseSecond, are general terms used to refer to groups of entities which instantiate a given universal but do not correspond to the extension of any subuniversal of that universal because there is nothing intrinsic to the entities in question by virtue of which they – and only they – are counted as belonging to the given group. Examples are: animal purchased by the Emperortuberculosis diagnosed on a Wednesdaysurgical procedure performed on a patient from Stockholmperson identified as candidate for clinical trial #2056-555person who is signatory of Form 656-PPVpainting by Leonardo da VinciSuch terms, which represent what are called ‘specializations’ in [81</ns1:IAO_0000116>
+    <ns1:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entity</ns1:IAO_0000111>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">your body mass index</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verdi’s Requiem</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Julius Caesar</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the Second World War</ns1:IAO_0000112>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TRAK_0000001"/>
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entity</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MIPF0000001">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miRNA family (mir-17)</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An evolutionary conserved group of miRNA gene products including the human hsa-mir-20b, hsa-mir-18b, hsa-mir-106b, hsa-mir-106-X, hsa-mir-93-7.1, hsa-mir-20, hsa-mir-18, hsa-mir-17, their precursors and their orthologs and paralogs'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MIPF0000183">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miRNA family (mir-503)</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An evolutionary conserved group of miRNA gene products including the human hsa-mir-503, their precursors and their orthologs and paralogs'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MIPF0000091">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miRNA family (mir-368)</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An evolutionary conserved group of miRNA gene products including the human hsa-mir-376a-2, hsa-mir-376b, hsa-mir-376a, hsa-mir-368, their precursors and their orthologs and paralogs'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MIPF0000201">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miRNA family (mir-485)</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An evolutionary conserved group of miRNA gene products including the human hsa-mir-485, their precursors and their orthologs and paralogs'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MIPF0000230">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miRNA family (mir-493)</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An evolutionary conserved group of miRNA gene products including the human hsa-mir-493, their precursors and their orthologs and paralogs'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MIPF0000288">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miRNA family (mir-374)</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An evolutionary conserved group of miRNA gene products including the human hsa-mir-374c, hsa-mir-374b, hsa-mir-374, their precursors and their orthologs and paralogs'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MIPF0000520">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miRNA family (mir-557)</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An evolutionary conserved group of miRNA gene products including the human hsa-mir-557, their precursors and their orthologs and paralogs'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCRO_0004019">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miRNA gene product</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A non-coding RNA product initially transcribed from a DNA gene, or derived from such RNA by post-transcriptional processing to become capable of forming part of a RNA silencing complex and participating in gene silencing.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000004">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a molecule</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a person</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a leg</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an organism</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a heart</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a spatial region</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the bottom right portion of a human torso</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a symphony orchestra</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an orchestra.</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the interior of your mouth</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an atom</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the lawn and atmosphere in front of our building</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a chair</ns1:IAO_0000112>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">substantial entity</ns1:IAO_0000118>
+    <ns1:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">independent continuant</ns1:IAO_0000111>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])</ns1:IAO_0000115>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A continuant  that is a bearer of quality  and realizable entity  entities, in which other entities inhere and which itself cannot inhere in anything.</ns1:IAO_0000115>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">independent continuant</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the color of a tomato</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a person</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the mass of a cloud</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a heart</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a symphony orchestra</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the lawn and atmosphere in front of our building</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the disposition of blood to coagulate</ns1:IAO_0000112>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">occurrent</rdfs:label>
+        <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <ns1:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO 2 Reference: Continuant entities are entities which can be sliced to yield parts only along the spatial dimension, yielding for example the parts of your table which we call its legs, its top, its nails. ‘My desk stretches from the window to the door. It has spatial parts, and can be sliced (in space) in two. With respect to time, however, a thing is a continuant.’ [60, p. 240</ns1:IAO_0000116>
+    <ns1:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Continuant doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. For example, in an expansion involving bringing in some of Ceuster's other portions of reality, questions are raised as to whether universals are continuants</ns1:IAO_0000116>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endurant</ns1:IAO_0000118>
+    <ns1:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">continuant</ns1:IAO_0000111>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An entity  that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.</ns1:IAO_0000115>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TRAK_0000409"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">continuant</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MIPF0000126">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miRNA family (mir-379)</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An evolutionary conserved group of miRNA gene products including the human hsa-mir-1197, hsa-mir-758, hsa-mir-411, hsa-mir-380, hsa-mir-379, their precursors and their orthologs and paralogs'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33697">
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yeast nucleic acid</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNS</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ribose nucleic acid</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ribonukleinsaeure</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pentosenucleic acids</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ribonucleic acid</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ribonucleic acids</ns1:IAO_0000118>
+    <ns3:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns3:hasOBONamespace>
+    <ns5:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33697</ns5:notation>
+    <ns1:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ribonucleic acids</ns1:IAO_0000111>
+    <ns3:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChemIDplus:63231-63-0</ns3:hasDbXref>
+    <ns3:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNAO_0000000</ns3:hasDbXref>
+    <ns3:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yeast nucleic acid</ns3:hasRelatedSynonym>
+    <ns3:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNS</ns3:hasRelatedSynonym>
+    <ns3:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ribose nucleic acid</ns3:hasRelatedSynonym>
+    <ns3:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ribonukleinsaeure</ns3:hasRelatedSynonym>
+    <ns3:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ribonucleic acids</ns3:hasRelatedSynonym>
+    <ns3:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA</ns3:hasRelatedSynonym>
+    <ns3:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pentosenucleic acids</ns3:hasRelatedSynonym>
+    <ns1:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33697</ns1:IAO_0000119>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Naturally occurring polyribonucleotides.</ns1:IAO_0000115>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High molecular weight, linear polymers, composed of nucleotides containing ribose and linked by phosphodiester bonds; RNA is central to the synthesis of proteins.</ns1:IAO_0000115>
+    <ns3:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ribonucleic acid</ns3:hasExactSynonym>
+    <ns3:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ribonucleic acids</ns3:hasExactSynonym>
+    <ns3:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FGED</ns3:inSubset>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ribonucleic acid</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'High molecular weight, linear polymers, composed of nucleotides containing ribose and linked by phosphodiester bonds; RNA is central to the synthesis of proteins.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#ObjectProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MIPF0000538">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miRNA family (mir-558)</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An evolutionary conserved group of miRNA gene products including the human hsa-mir-558, their precursors and their orthologs and paralogs'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRAK_0000409">
+    <ns4:xref rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">continuant</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endurant</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRAK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MIPF0000128">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miRNA family (mir-450)</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An evolutionary conserved group of miRNA gene products including the human hsa-mir-450b, hsa-mir-450-2, hsa-mir-450, their precursors and their orthologs and paralogs'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a forest fire</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a tornado</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an energy wave</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a puff of smoke</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a hurricane</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the undetached arm of a human being</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a flame</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a photon</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an aggregate of human beings.</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a sea wave</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an epidemic</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a human being</ns1:IAO_0000112>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000141">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immaterial entity</rdfs:label>
+        <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <ns1:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Examples: collection of random bacteria, a chair, dorsal surface of the body</ns1:IAO_0000116>
+    <ns1:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Material entity [snap:MaterialEntity] subsumes object [snap:Object], fiat object part [snap:FiatObjectPart], and object aggregate [snap:ObjectAggregate], which assume a three level theory of granularity, which is inadequate for some domains, such as biology.</ns1:IAO_0000116>
+    <ns1:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO 2 Reference: Object, Fiat Object Part and Object Aggregate are not intended to be exhaustive of Material Entity. Users are invited to propose new subcategories of Material Entity.</ns1:IAO_0000116>
+    <ns1:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO 2 Reference: Material entities (continuants) can preserve their identity even while gaining and losing material parts. Continuants are contrasted with occurrents, which unfold themselves in successive temporal parts or phases [60</ns1:IAO_0000116>
+    <ns1:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Material entity [snap:MaterialEntity] subsumes object [snap:Object], fiat object part [snap:FiatObjectPart], and object aggregate [snap:ObjectAggregate], which assume a three level theory of granularity, which is inadequate for some domains, such as biology.
+Examples: collection of random bacateria, a chair, dorsal surface of the body.</ns1:IAO_0000116>
+    <ns1:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO 2 Reference: ‘Matter’ is intended to encompass both mass and energy (we will address the ontological treatment of portions of energy in a later version of BFO). A portion of matter is anything that includes elementary particles among its proper or improper parts: quarks and leptons, including electrons, as the smallest particles thus far discovered; baryons (including protons and neutrons) at a higher level of granularity; atoms and molecules at still higher levels, forming the cells, organs, organisms and other material entities studied by biologists, the portions of rock studied by geologists, the fossils studied by paleontologists, and so on.Material entities are three-dimensional entities (entities extended in three spatial dimensions), as contrasted with the processes in which they participate, which are four-dimensional entities (entities extended also along the dimension of time).According to the FMA, material entities may have immaterial entities as parts – including the entities identified below as sites; for example the interior (or ‘lumen’) of your small intestine is a part of your body. BFO 2.0 embodies a decision to follow the FMA here.</ns1:IAO_0000116>
+    <ns1:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity</ns1:IAO_0000111>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An independent continuant  that is spatially extended whose identity is independent of that of other entities and can be maintained through time.</ns1:IAO_0000115>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An independent continuant that is spatially extendedn whose identity is independent of that of other entities and can be maintained through time.</ns1:IAO_0000115>
+    <ns1:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO_0000040</ns1:IAO_0000119>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TRAK_0000086"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#ReflexiveProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23367">
+    <ns1:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We are assuming that every molecular entity has to be completely connected by chemical bonds. This excludes protein complexes, which are comprised of minimally two separate molecular entities. We will follow up with Chebi to ensure this is their understanding as well</ns1:IAO_0000116>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entite moleculaire</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molekulare Entitaet</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entidades moleculares</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular entity</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular entities</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entidad molecular</ns1:IAO_0000118>
+    <ns3:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns3:hasOBONamespace>
+    <ns3:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI</ns3:hasOBONamespace>
+    <ns5:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:23367</ns5:notation>
+    <ns1:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular entity</ns1:IAO_0000111>
+    <ns3:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molekulare Entitaet</ns3:hasRelatedSynonym>
+    <ns3:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entite moleculaire</ns3:hasRelatedSynonym>
+    <ns3:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entidades moleculares</ns3:hasRelatedSynonym>
+    <ns3:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entidad molecular</ns3:hasRelatedSynonym>
+    <ns3:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular entities</ns3:hasRelatedSynonym>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity.</ns1:IAO_0000115>
+    <ns3:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:23367</ns3:hasAlternativeId>
+    <ns3:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular entity</ns3:hasExactSynonym>
+    <ns3:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FGED</ns3:inSubset>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular entity</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRAK_0000001">
+    <ns4:xref rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entity</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRAK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCRO_0004000">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33697"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-coding RNA</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A non-coding RNA (ncRNA) is an RNA molecule that is not translated into a protein.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MIPF0000213">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miRNA family (mir-541)</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An evolutionary conserved group of miRNA gene products including the human hsa-mir-541, their precursors and their orthologs and paralogs'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MIPF0000129">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miRNA family (mir-455)</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An evolutionary conserved group of miRNA gene products including the human hsa-mir-455, their precursors and their orthologs and paralogs'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MIPF0000098">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miRNA family (mir-95)</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An evolutionary conserved group of miRNA gene products including the human hsa-mir-1264, hsa-mir-421, hsa-mir-545, hsa-mir-95-4, their precursors and their orthologs and paralogs'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#FunctionalProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRAK_0000086">
+    <ns4:xref rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">physical object</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRAK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MIPF0000220">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miRNA family (mir-486)</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An evolutionary conserved group of miRNA gene products including the human hsa-mir-486-2, hsa-mir-486, their precursors and their orthologs and paralogs'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MIPF0000360">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miRNA family (mir-551)</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An evolutionary conserved group of miRNA gene products including the human hsa-mir-551b, hsa-mir-551a, their precursors and their orthologs and paralogs'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MIPF0000162">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miRNA family (mir-367)</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An evolutionary conserved group of miRNA gene products including the human hsa-mir-367, their precursors and their orthologs and paralogs'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#SymmetricProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MIPF0000436">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miRNA family (mir-544)</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An evolutionary conserved group of miRNA gene products including the human hsa-mir-544b, hsa-mir-544, their precursors and their orthologs and paralogs'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MIPF0000583">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miRNA family (mir-555)</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An evolutionary conserved group of miRNA gene products including the human hsa-mir-555, their precursors and their orthologs and paralogs'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#DatatypeProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MIPF0000013">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miRNA family (mir-25)</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An evolutionary conserved group of miRNA gene products including the human hsa-mir-92b, hsa-mir-92-X, hsa-mir-92-13, hsa-mir-25, their precursors and their orthologs and paralogs'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MIPF0000138">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miRNA family (mir-363)</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An evolutionary conserved group of miRNA gene products including the human hsa-mir-363, their precursors and their orthologs and paralogs'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MIPF0000018">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miRNA family (mir-154)</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An evolutionary conserved group of miRNA gene products including the human hsa-mir-323b, hsa-mir-300, hsa-mir-1185-1, hsa-mir-1185-2, hsa-mir-656, hsa-mir-655, hsa-mir-487b, hsa-mir-539, hsa-mir-496, hsa-mir-494, hsa-mir-487, hsa-mir-410, hsa-mir-409, hsa-mir-323, hsa-mir-382, hsa-mir-381, hsa-mir-377, hsa-mir-369, hsa-mir-154, their precursors and their orthologs and paralogs'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MIPF0000068">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miRNA family (mir-290)</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An evolutionary conserved group of miRNA gene products including the human hsa-mir-371b, hsa-mir-372, hsa-mir-371, their precursors and their orthologs and paralogs'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MIPF0000185">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miRNA family (mir-542)</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An evolutionary conserved group of miRNA gene products including the human hsa-mir-542, their precursors and their orthologs and paralogs'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MIPF0000501">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miRNA family (mir-552)</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An evolutionary conserved group of miRNA gene products including the human hsa-mir-552, their precursors and their orthologs and paralogs'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/NCRO_MIPF0000110">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miRNA family (mir-329)</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An evolutionary conserved group of miRNA gene products including the human hsa-mir-543, hsa-mir-495, hsa-mir-329-2, hsa-mir-329-1, their precursors and their orthologs and paralogs'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#TransitiveProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+</rdf:RDF>

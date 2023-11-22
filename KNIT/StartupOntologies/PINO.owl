@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Surrogacy">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Infertility"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Pre-pregnancy"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surrogacy</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PINO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#risks_of_chd_in_future_pregnancy">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">risks of chd in future pregnancy</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISKS OF CHD IN FUTURE PREGNANC</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISKS OF CHD IN FUTURE PREGNANC</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#private_health_care_coverage">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">private health care coverage</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RIVATE HEALTH CARE COVERAG</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RIVATE HEALTH CARE COVERAG</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#self-care_after_birth">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">self-care after birth</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ELF-CARE AFTER BIRT</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ELF-CARE AFTER BIRT</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#quality_of_oocyte_embryo_or_semen">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality of oocyte embryo or semen</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UALITY OF OOCYTE EMBRYO OR SEME</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UALITY OF OOCYTE EMBRYO OR SEME</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#presentation_of_the_multidisciplinary_team_in_care_of_the_child">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presentation of the multidisciplinary team in care of the child</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RESENTATION OF THE MULTIDISCIPLINARY TEAM IN CARE OF THE CHIL</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RESENTATION OF THE MULTIDISCIPLINARY TEAM IN CARE OF THE CHIL</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#research_and_breakthroughs_on_miscarriage">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">research and breakthroughs on miscarriage</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ESEARCH AND BREAKTHROUGHS ON MISCARRIAG</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ESEARCH AND BREAKTHROUGHS ON MISCARRIAG</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#side_effects_of_induction">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">side effects of induction</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IDE EFFECTS OF INDUCTIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IDE EFFECTS OF INDUCTIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#quality_of_life_for_the_family">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality of life for the family</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UALITY OF LIFE FOR THE FAMIL</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UALITY OF LIFE FOR THE FAMIL</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#sterile_water_injection">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sterile water injection</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TERILE WATER INJECTIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TERILE WATER INJECTIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#quality_of_life_for_the_child">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality of life for the child</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UALITY OF LIFE FOR THE CHIL</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UALITY OF LIFE FOR THE CHIL</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Rhogam">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Prenatal_care"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhogam</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PINO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#seeking_support_with_friends_family_and_your_doctor">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seeking support with friends family and your doctor</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EEKING SUPPORT WITH FRIENDS FAMILY AND YOUR DOCTO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EEKING SUPPORT WITH FRIENDS FAMILY AND YOUR DOCTO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#termination_of_pregnancy_due_to_chd">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">termination of pregnancy due to chd</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ERMINATION OF PREGNANCY DUE TO CH</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ERMINATION OF PREGNANCY DUE TO CH</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#success_rates">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">success rates</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UCCESS RATE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UCCESS RATE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#side_effects_of_vaccine">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">side effects of vaccine</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IDE EFFECTS OF VACCIN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IDE EFFECTS OF VACCIN</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Test">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Multi-stage"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Test</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PINO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#solid_food">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">solid food</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OLID FOO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OLID FOO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#specific_chd">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">specific chd</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECIFIC CH</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECIFIC CH</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#preparation_for_delivery">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preparation for delivery</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REPARATION FOR DELIVER</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REPARATION FOR DELIVER</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Stooling">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Newborn_Care"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stooling</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PINO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#preparing_for_a_new_pregnancy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preparing for a new pregnancy</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REPARING FOR A NEW PREGNANC</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REPARING FOR A NEW PREGNANC</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#side_effect_of_labor_analgesia">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">side effect of labor analgesia</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IDE EFFECT OF LABOR ANALGESI</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IDE EFFECT OF LABOR ANALGESI</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#risks_of_invasive_methods">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">risks of invasive methods</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISKS OF INVASIVE METHOD</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISKS OF INVASIVE METHOD</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#spacing_of_new_foods">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spacing of new foods</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PACING OF NEW FOOD</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PACING OF NEW FOOD</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#symptoms_of_miscarriage">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms of miscarriage</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YMPTOMS OF MISCARRIAG</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YMPTOMS OF MISCARRIAG</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#side_effects_of_infertility_treatment">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">side effects of infertility treatment</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IDE EFFECTS OF INFERTILITY TREATMEN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IDE EFFECTS OF INFERTILITY TREATMEN</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#special_tests_during_pregnancy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">special tests during pregnancy</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECIAL TESTS DURING PREGNANC</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECIAL TESTS DURING PREGNANC</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#surgery_for_chd">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">surgery for chd</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URGERY FOR CH</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URGERY FOR CH</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#side_effects">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">side effects</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IDE EFFECT</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IDE EFFECT</ns1:definition>
+  </owl:Class>
+  <rdf:Description rdf:about="http://ontologies.khaos.uma.es#solid_foods_–_timing">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">solid foods – timing</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OLID FOODS – TIMIN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OLID FOODS – TIMIN</ns1:definition>
+  </rdf:Description>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#suggestion_to_await_for_labor_at_or_over_39_weeks">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">suggestion to await for labor at or over 39 weeks</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UGGESTION TO AWAIT FOR LABOR AT OR OVER 39 WEEK</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UGGESTION TO AWAIT FOR LABOR AT OR OVER 39 WEEK</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Radiography">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Postnatal_diagnostic_methods"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Radiography</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PINO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#prognosis_of_chd">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prognosis of chd</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROGNOSIS OF CH</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROGNOSIS OF CH</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#relaxation_techniques">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relaxation techniques</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ELAXATION TECHNIQUE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ELAXATION TECHNIQUE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#risks_of_treatment_of_chd">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">risks of treatment of chd</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISKS OF TREATMENT OF CH</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISKS OF TREATMENT OF CH</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#symptoms_of_chd">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms of chd</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YMPTOMS OF CH</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YMPTOMS OF CH</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#stress_management">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stress management</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRESS MANAGEMEN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRESS MANAGEMEN</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#pulse_oximeter">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pulse oximeter</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ULSE OXIMETE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ULSE OXIMETE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Teething">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Newborn_Care"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Teething</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PINO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#scheduled_c-section">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scheduled c-section</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEDULED C-SECTIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEDULED C-SECTIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#prenatal_diagnostic_and_screening_methods">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prenatal diagnostic and screening methods</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RENATAL DIAGNOSTIC AND SCREENING METHOD</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RENATAL DIAGNOSTIC AND SCREENING METHOD</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#prevalence_of_chd">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prevalence of chd</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REVALENCE OF CH</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REVALENCE OF CH</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#symptoms_of_pregnancy_and_diagnosis">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms of pregnancy and diagnosis</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YMPTOMS OF PREGNANCY AND DIAGNOSI</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YMPTOMS OF PREGNANCY AND DIAGNOSI</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Smoking">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Pregnancy_taboo"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smoking</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PINO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#provider_for_infertility_treatment">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">provider for infertility treatment</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROVIDER FOR INFERTILITY TREATMEN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROVIDER FOR INFERTILITY TREATMEN</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Sleep">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Newborn_Care"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sleep</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PINO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#spinal_anesthesia">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spinal anesthesia</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PINAL ANESTHESI</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PINAL ANESTHESI</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Swaddling">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Postpartum_planning"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swaddling</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PINO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#sexual_activity_in_pregnancy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sexual activity in pregnancy</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXUAL ACTIVITY IN PREGNANC</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXUAL ACTIVITY IN PREGNANC</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Postpartum">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Common_Themes"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Postpartum</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PINO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Fetal_complication">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Symptoms_of_pregnancy_and_diagnosis"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fetal_complication</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PINO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Pre-pregnancy">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Common_Themes"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pre-pregnancy</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PINO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Symptoms_of_pregnancy_and_diagnosis">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Pregnancy"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Symptoms_of_pregnancy_and_diagnosis</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PINO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Prenatal_care">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Pregnancy"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal_care</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PINO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Pregnancy">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Common_Themes"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pregnancy</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'e.g. stress, age, diet'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PINO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Pregnancy_taboo">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Pregnancy"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pregnancy_taboo</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PINO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Congenital_abnormality">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Fetal_complication"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Congenital_abnormality</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PINO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Postpartum_planning">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Postpartum"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Postpartum_planning</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PINO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Newborn_Care">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Postpartum"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Newborn_Care</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PINO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Multi-stage">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Common_Themes"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multi-stage</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PINO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Common_Themes">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Common_Themes</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PINO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Infertility">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Pre-pregnancy"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infertility</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PINO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Postnatal_diagnostic_methods">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnancy_information_needs_ontology#Congenital_abnormality"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Postnatal_diagnostic_methods</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PINO</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

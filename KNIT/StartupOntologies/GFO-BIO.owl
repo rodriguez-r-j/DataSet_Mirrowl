@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:ns2="http://www.geneontology.org/formats/oboInOwl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns3="http://purl.org/dc/elements/1.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#uracil_symbol">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uracil symbol</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RACIL SYMBO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RACIL SYMBO</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:TransitiveProperty rdf:about="http://www.onto-med.de/ontologies/gfo.owl#has_part">
+    <rdfs:range rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Concrete"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has-part</rdfs:label>
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#ObjectProperty">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdfs:domain rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Concrete"/>
+  </owl:TransitiveProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#plant_anatomical_development">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant anatomical development</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANT ANATOMICAL DEVELOPMEN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANT ANATOMICAL DEVELOPMEN</ns1:definition>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://www.onto-med.de/ontologies/gfo.owl#role_of">
+    <rdfs:range rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Entity"/>
+    <rdfs:range rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Individual"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">role of</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://edamontology.org/operation_0004">
+    <ns2:hasRelatedSynonym rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Process"/>
+    <ns2:hasRelatedSynonym rdf:resource="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Method"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Operation</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computational procedure, Computational subroutine, Computational tool, Computational operation, Function (programming), Lambda abstraction, sumo:Function, Mathematical function, Process, Mathematical operation, Function, Computational method</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A function that processes a set of inputs and results in a set of outputs, or associates arguments (inputs) with values (outputs).', 'Special cases are: a) An operation that consumes no input (has no input arguments). Such operation is either a constant function, or an operation depending only on the underlying state. b) An operation that may modify the underlying state but has no output. c) The singular-case operation with no input or output, that still may modify the underlying state.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDAM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:TransitiveProperty rdf:about="http://www.onto-med.de/ontologies/gfo.owl#temporal_part_of">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal part-of</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Time"/>
+  </owl:TransitiveProperty>
+  <owl:InverseFunctionalProperty rdf:about="http://www.onto-med.de/ontologies/gfo.owl#projection_of">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">projection of</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Time"/>
+  </owl:InverseFunctionalProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#nucleotide_symbol">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleotide symbol</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UCLEOTIDE SYMBO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UCLEOTIDE SYMBO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#nucleotide_molecule">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleotide molecule</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UCLEOTIDE MOLECUL</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UCLEOTIDE MOLECUL</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Zebrafish">
+    <rdfs:subClassOf rdf:resource="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Animal"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zebrafish</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:TransitiveProperty rdf:about="http://www.onto-med.de/ontologies/gfo.owl#necessary_for">
+    <rdfs:range rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Item"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">necessary for</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Item"/>
+  </owl:TransitiveProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#multicellular_organism">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicellular organism</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ULTICELLULAR ORGANIS</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ULTICELLULAR ORGANIS</ns1:definition>
+  </owl:Class>
+  <owl:TransitiveProperty rdf:about="http://www.onto-med.de/ontologies/gfo.owl#abstract_part_of">
+    <rdfs:range rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Item"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abstract part-of</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Item"/>
+  </owl:TransitiveProperty>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.onto-med.de/ontologies/gfo.owl#Action">
+    <rdfs:subClassOf rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Occurrent"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Action</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Actions are occurents which are caused by some presential (the agent) at every (inner and outer) time-boundary of the chronoid framing the occurent.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#po_0007021">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">po 0007021</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O 000702</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O 000702</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Mouse">
+    <rdfs:subClassOf rdf:resource="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Animal"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mouse</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#plant_development_stage">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant development stage</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANT DEVELOPMENT STAG</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANT DEVELOPMENT STAG</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#ma_0000001">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ma 0000001</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A 000000</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A 000000</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Mosquito">
+    <rdfs:subClassOf rdf:resource="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Animal"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mosquito</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:FunctionalProperty rdf:about="http://www.onto-med.de/ontologies/gfo.owl#occupies">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">occupies</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Presential"/>
+  </owl:FunctionalProperty>
+  <owl:InverseFunctionalProperty rdf:about="http://www.onto-med.de/ontologies/gfo.owl#has_time_boundary">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has time boundary</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Chronoid"/>
+    <rdfs:domain rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Temporal_region"/>
+  </owl:InverseFunctionalProperty>
+  <owl:ObjectProperty rdf:about="http://www.onto-med.de/ontologies/gfo.owl#exhibits">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exhibits</rdfs:label>
+    <rdfs:range rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Presential"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.onto-med.de/ontologies/gfo.owl#has_participant">
+    <rdfs:domain rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Occurrent"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has participant</rdfs:label>
+    <rdfs:range rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Presential"/>
+  </owl:ObjectProperty>
+  <owl:TransitiveProperty rdf:about="http://www.onto-med.de/ontologies/gfo.owl#depends_on">
+    <rdfs:range rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Item"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">depends on</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Item"/>
+  </owl:TransitiveProperty>
+  <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Description</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">description</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://www.onto-med.de/ontologies/gfo.owl#has_role">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has role</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Entity"/>
+  </owl:ObjectProperty>
+  <owl:TransitiveProperty rdf:about="http://www.onto-med.de/ontologies/gfo.owl#part_of">
+    <rdfs:range rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Concrete"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part of</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Concrete"/>
+  </owl:TransitiveProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#ddanat_0000001">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ddanat 0000001</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DANAT 000000</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DANAT 000000</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#plant_development">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant development</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANT DEVELOPMEN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANT DEVELOPMEN</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Mammal">
+    <rdfs:subClassOf rdf:resource="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Animal"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mammal</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://edamontology.org/topic_0003">
+    <ns2:hasRelatedSynonym rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Category"/>
+    <ns2:hasRelatedSynonym rdf:resource="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Method"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Topic</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sumo:FieldOfStudy</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A category denoting a rather broad domain or field of interest, of study, application, work, data, or technology. Topics have no clearly defined borders between each other.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDAM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://www.onto-med.de/ontologies/gfo.owl#instantiated_by">
+    <rdfs:domain rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Category"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">instantiated by</rdfs:label>
+    <rdfs:range rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Entity"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#monocellular_organism">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monocellular organism</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONOCELLULAR ORGANIS</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONOCELLULAR ORGANIS</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#thymine_symbol">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thymine symbol</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HYMINE SYMBO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HYMINE SYMBO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Maize">
+    <rdfs:subClassOf rdf:resource="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Plant"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maize</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:FunctionalProperty rdf:about="http://www.onto-med.de/ontologies/gfo.owl#played_by">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">played by</rdfs:label>
+    <rdfs:range rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Entity"/>
+  </owl:FunctionalProperty>
+  <owl:Class rdf:about="http://reliant.teknowledge.com/DAML/SUMO.owl#ElementalSubstance">
+    <rdfs:subClassOf rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Material_object"/>
+    <rdfs:subClassOf rdf:resource="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Chemical_presential"/>
+    <rdfs:subClassOf rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Material_structure"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ElementalSubstance</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'This is the entry point for a Period Table OWL File. Unfortunately, Pellet seems to die with
+every publicly available Period Table in OWL, therefore this is just the entry point. Declare
+the appropriate class equivalent with this one or Atom if you want to use elements.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#awareness_level">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">awareness level</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WARENESS LEVE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WARENESS LEVE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#tair_0000022">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tair 0000022</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIR 000002</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIR 000002</ns1:definition>
+  </owl:Class>
+  <owl:InverseFunctionalProperty rdf:about="http://www.onto-med.de/ontologies/gfo.owl#plays_role">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plays role</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Entity"/>
+  </owl:InverseFunctionalProperty>
+  <owl:ObjectProperty rdf:about="http://www.onto-med.de/ontologies/gfo.owl#has_token">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has token</rdfs:label>
+    <rdfs:range rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Concrete"/>
+  </owl:ObjectProperty>
+  <owl:TransitiveProperty rdf:about="http://www.onto-med.de/ontologies/gfo.owl#abstract_has_part">
+    <rdfs:range rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Item"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abstract has-part</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Item"/>
+  </owl:TransitiveProperty>
+  <owl:ObjectProperty rdf:about="http://www.onto-med.de/ontologies/gfo.owl#token_of">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">token of</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Concrete"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#tair_0000205">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tair 0000205</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIR 000020</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIR 000020</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#tair_0000021">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tair 0000021</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIR 000002</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIR 000002</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#RNA">
+    <rdfs:subClassOf rdf:resource="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Polynucleotide_molecule"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://www.onto-med.de/ontologies/gfo.owl#participates_in">
+    <rdfs:range rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Occurrent"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">participates in</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Presential"/>
+  </owl:ObjectProperty>
+  <owl:FunctionalProperty rdf:about="http://www.onto-med.de/ontologies/gfo.owl#projects_to">
+    <rdfs:range rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Temporal_region"/>
+    <rdfs:range rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Time"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">projects to</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Occurrent"/>
+  </owl:FunctionalProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#organism_development">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organism development</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RGANISM DEVELOPMEN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RGANISM DEVELOPMEN</ns1:definition>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_related_synonym</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:FunctionalProperty rdf:about="http://www.onto-med.de/ontologies/gfo.owl#time_boundary_of">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">time boundary of</rdfs:label>
+    <rdfs:range rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Chronoid"/>
+    <rdfs:range rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Temporal_region"/>
+  </owl:FunctionalProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#chemical_level">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical level</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEMICAL LEVE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEMICAL LEVE</ns1:definition>
+  </owl:Class>
+  <owl:FunctionalProperty rdf:about="http://www.onto-med.de/ontologies/gfo.owl#exists_at">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exists at</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Presential"/>
+  </owl:FunctionalProperty>
+  <owl:Class rdf:about="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Pathway">
+    <rdfs:subClassOf rdf:resource="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Chemical_reaction"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#nucleotide_sequence">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleotide sequence</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UCLEOTIDE SEQUENC</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UCLEOTIDE SEQUENC</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Protein">
+    <rdfs:subClassOf rdf:resource="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Molecule"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#rna_sequence">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rna sequence</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NA SEQUENC</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NA SEQUENC</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#plasmodium_falciparum">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plasmodium falciparum</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LASMODIUM FALCIPARU</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LASMODIUM FALCIPARU</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Tissue">
+    <rdfs:subClassOf rdf:resource="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Biological_material_object"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tissue</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#polynucleotide_molecule">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polynucleotide molecule</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OLYNUCLEOTIDE MOLECUL</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OLYNUCLEOTIDE MOLECUL</ns1:definition>
+  </owl:Class>
+  <owl:InverseFunctionalProperty rdf:about="http://www.onto-med.de/ontologies/gfo.owl#occupied_by">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">occupied by</rdfs:label>
+    <rdfs:range rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Presential"/>
+  </owl:InverseFunctionalProperty>
+  <owl:InverseFunctionalProperty rdf:about="http://www.onto-med.de/ontologies/gfo.owl#has_property">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has property</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Entity"/>
+  </owl:InverseFunctionalProperty>
+  <owl:InverseFunctionalProperty rdf:about="http://www.onto-med.de/ontologies/gfo.owl#frames">
+    <rdfs:range rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Material_object"/>
+    <rdfs:range rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Presential"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">frames</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </owl:InverseFunctionalProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#amount_of_substrate">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amount of substrate</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOUNT OF SUBSTRAT</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOUNT OF SUBSTRAT</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Species">
+    <rdfs:subClassOf rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Species</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#po_0007033">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">po 0007033</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O 000703</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O 000703</ns1:definition>
+  </owl:Class>
+  <owl:FunctionalProperty rdf:about="http://www.onto-med.de/ontologies/gfo.owl#framed_by">
+    <rdfs:domain rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Material_object"/>
+    <rdfs:domain rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Presential"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">framed by</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </owl:FunctionalProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#go_0005575">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">go 0005575</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O 000557</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O 000557</ns1:definition>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://www.onto-med.de/ontologies/gfo.owl#instance_of">
+    <rdfs:range rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Category"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">instance of</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Entity"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#medaka_fish">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medaka fish</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDAKA FIS</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDAKA FIS</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#biological_level">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological level</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IOLOGICAL LEVE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IOLOGICAL LEVE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.onto-med.de/ontologies/gfo.owl#Chronoid">
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronoids are entities sui generis.
+
+Every chronoid has exactly two extremal and
+infinitely many inner time boundaries which are
+equivalently called time-points.</ns3:description>
+    <rdfs:subClassOf rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Temporal_region"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronoid</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Chronoids are entities sui generis.
+
+Every chronoid has exactly two extremal and
+infinitely many inner time boundaries which are
+equivalently called time-points.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.onto-med.de/ontologies/gfo.owl#Space_time">
+    <owl:disjointWith rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Concrete"/>
+    <owl:disjointWith rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Abstract"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A space-time-entity is something in which concrete entities can be located.
+[FL, 2008-02-27]</ns3:description>
+    <rdfs:subClassOf rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Individual"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Space_time</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.onto-med.de/ontologies/gfo.owl#Material_object">
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A material structure is an individual which satisfies the following conditions: 
+it is a presential, it occupies space, it is a bearer of qualities,  but other entities cannot have
+it as quality, and it consists of an amount of substrate, and it instantiates a persistant ('has identity').</ns3:description>
+    <rdfs:subClassOf rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Discrete_presential"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Material_object</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A material structure is an individual which satisfies the following conditions: 
+it is a presential, it occupies space, it is a bearer of qualities,  but other entities cannot have
+it as quality, and it consists of an amount of substrate, and it instantiates a persistant ('has identity').'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.onto-med.de/ontologies/gfo.owl#Abstract">
+    <owl:disjointWith rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Concrete"/>
+    <owl:disjointWith rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Space_time"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract individuals are independent from time and space (they are not in time and space).
+Examples: the number '2' or pi.
+[RH, 2006]</ns3:description>
+    <rdfs:subClassOf rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Individual"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Abstract individuals are independent from time and space (they are not in time and space).
+Examples: the number '2' or pi.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Chemical_process">
+    <rdfs:subClassOf rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Process"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical_process</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.onto-med.de/ontologies/gfo.owl#Process">
+    <owl:disjointWith rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Change"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Processes are directly in time, they develop over and unfold in time. Processes have characteristics which cannot be captured by a collection of time boundaries. In particular, processes exhibit internal coherence.
+[FL, 2008-03-13]</ns3:description>
+    <rdfs:subClassOf rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Occurrent"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Process</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Processes are a special kind of occurent. Processes are directly in time, they have characteristics which cannot be captured by a collection of time boundaries.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.co-ode.org/ontologies/amino-acid/2005/10/11/amino-acid.owl#AminoAcid">
+    <owl:equivalentClass rdf:resource="http://www.loria.fr/~coulet/ontology/snpontology/version1.6/snpontology_full.owl#amino_acid"/>
+    <rdfs:subClassOf rdf:resource="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Molecule"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AminoAcid</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.onto-med.de/ontologies/gfo.owl#Temporal_region">
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Time Regions are defined as the mereological sum of chronoids,
+i.e. time regions may consist of non-connected intervals of time.</ns3:description>
+    <rdfs:subClassOf rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Time"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temporal_region</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Time Regions are defined as the mereological sum of chronoids,
+i.e. time regions may consist of non-connected intervals of time.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.onto-med.de/ontologies/gfo.owl#Discrete">
+    <rdfs:subClassOf rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Individual"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Discrete</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.onto-med.de/ontologies/gfo.owl#Discrete_presential">
+    <rdfs:subClassOf rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Discrete"/>
+    <rdfs:subClassOf rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Presential"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Discrete_presential</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.onto-med.de/ontologies/gfo.owl#Material_structure">
+    <owl:equivalentClass rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Material_object"/>
+    <rdfs:subClassOf rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Discrete_presential"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Material_structure</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#FunctionalProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="http://www.onto-med.de/ontologies/gfo.owl#Item">
+    <rdfs:subClassOf rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Entity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Item</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An item is everything which is not a set. Also called ur-element.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.onto-med.de/ontologies/gfo.owl#Presential">
+    <owl:disjointWith rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Occurrent"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presential exists wholly at exactly one time boundary.</ns3:description>
+    <rdfs:subClassOf rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Individual"/>
+    <rdfs:subClassOf rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Concrete"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Presential</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A presential exists wholly at exactly one time boundary.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Chemical_presential">
+    <rdfs:subClassOf rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Presential"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical_presential</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.onto-med.de/ontologies/gfo.owl#Time">
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The time model of GFO is based on Brentano and the glass continuum of Allen&amp;Hayes.</ns3:description>
+    <rdfs:subClassOf rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Space_time"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Time</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The time model of GFO is based on Brentano and the glass continuum of Allen&amp;Hayes.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.onto-med.de/ontologies/gfo.owl#Change">
+    <owl:disjointWith rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Process"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A change refers to a structure centered around two presentials, which are boundaries of one and the same process. If they exist at coinciding time boundaries, the change comes close to notions in the literature like 'punctual' or 'instantaneous event' as well as 'moment' (in a temporal reading). Alternatively, the presentials may be boundaries at the opposite ends of a process of arbitrary extension.
+
+Either notion of change is relative to contradictory conditions between which a transition takes place. These conditions refer to some collection of pairwise disjoint subcategories of one category.
+
+[FL, 2008-03-13]</ns3:description>
+    <rdfs:subClassOf rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Occurrent"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Change</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A change in the technical sense refers to a pair of process
+boundaries. Either at coinciding boundaries (then it comes close to
+notions like ``punctual'' or ``instantaneous event'' as well as
+``moment'' -- in a temporal reading), or at boundaries at the opposite
+ends of a process of arbitrary extension.
+
+The notion of change is relative to contradictory conditions
+between which a transition takes place. These contradictions refer to
+some collection of pairwise disjoint universals.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Method">
+    <rdfs:subClassOf rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Method</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.onto-med.de/ontologies/gfo.owl#Individual">
+    <owl:disjointWith rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Category"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Individuals are entities that are not instantiable.
+[herre-h-2006--a, p.19]</ns3:description>
+    <rdfs:subClassOf rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Item"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Individual</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Individuals are entities which cannot be further instantiated.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.onto-med.de/ontologies/gfo.owl#Concept">
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Concepts are categories that are expressed by linguistic signs and are present in someone’s mind.
+[herre-h-2006--a, p.6]</ns3:description>
+    <rdfs:subClassOf rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Category"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Concept</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Plant">
+    <rdfs:subClassOf rdf:resource="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Organism"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Polynucleotide_molecule">
+    <rdfs:subClassOf rdf:resource="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Molecule"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polynucleotide_molecule</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.onto-med.de/ontologies/gfo.owl#Category">
+    <owl:disjointWith rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Individual"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Categories satisfy the following conditions: (1) Categories can be instantiated; (2) Categories can be predicated of other entities.
+Categories are defined intensional-with-an-s. They are, therefore, closely related to language.
+[RH, 2006]</ns3:description>
+    <rdfs:subClassOf rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Item"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Categories satisfy the following conditions: (1) Categories can be instantiated; (2) Categories can be predicated of other entities.
+Categories are defined intensional-with-an-s. They are, therefore, closely related to language.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Molecule">
+    <rdfs:subClassOf rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Material_object"/>
+    <rdfs:subClassOf rdf:resource="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Chemical_presential"/>
+    <rdfs:subClassOf rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Material_structure"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecule</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.loria.fr/~coulet/ontology/snpontology/version1.6/snpontology_full.owl#amino_acid">
+    <owl:equivalentClass rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2005/10/11/amino-acid.owl#AminoAcid"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amino_acid</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.onto-med.de/ontologies/gfo.owl#Concrete">
+    <owl:disjointWith rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Abstract"/>
+    <owl:disjointWith rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Space_time"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Concrete individuals have a relation to time or space (they are in time and space).</ns3:description>
+    <rdfs:subClassOf rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Individual"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Concrete</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Concrete individuals have a relation to time or space (they are in time and space).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.onto-med.de/ontologies/gfo.owl#Occurrent">
+    <owl:disjointWith rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Process"/>
+    <owl:disjointWith rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Presential"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The category of occurrents comprises several categories that can be derived from processes.
+[FL, 2008-03-06 based on part1-v.1.0.1, p.30]</ns3:description>
+    <rdfs:subClassOf rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Concrete"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Occurrent</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Occurents have temporal parts and thus cannot be present at a time-boundary. Time
+belongs to them, because they happen in time and the time of the occurent
+is built into it. The relation between an occurent and a chronoid is
+determined by the projection relation.
+
+Occurents are also called generalized processes in the GFO.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.onto-med.de/ontologies/gfo.owl#Entity">
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Everything is an entity, i.e., entity is the category which everything instantiates.
+[FL, 2008-02-27]</ns3:description>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We use the term entity for everything that exists where existence is understood in the broadest sense.
+[part1-v1.0.1, p.5]</ns3:description>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entity</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Everything which exists is called an entity.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Biological_material_object">
+    <rdfs:subClassOf rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Material_object"/>
+    <rdfs:subClassOf rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Material_structure"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological_material_object</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Multicellular_organism">
+    <rdfs:subClassOf rdf:resource="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Organism"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multicellular_organism</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Animal">
+    <rdfs:subClassOf rdf:resource="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Multicellular_organism"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Animal</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Chemical_reaction">
+    <rdfs:subClassOf rdf:resource="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Chemical_process"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical_reaction</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#InverseFunctionalProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Organism">
+    <rdfs:subClassOf rdf:resource="http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Biological_material_object"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organism</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFO_BIO</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#TransitiveProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

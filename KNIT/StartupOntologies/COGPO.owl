@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns2="http://purl.obolibrary.org/obo/"
+  xmlns:ns3="http://www.geneontology.org/formats/oboInOwl#"
+  xmlns:ns4="http://www.cogpo.org/ontologies/CogPOver1.owl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00037">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Jessica Turner#funding:NIH1R01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Behavioral Experimental Paradigm in which, in at least one of the conditions,  subjects chew an oral stimulus that is not food (e.g., gum) or swallow their own saliva. If the oral stimulus is food or liquid that is swallowed, then the correct paradigm class is Eating/Drinking.</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00049"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chewing or Swallowing Paradigm</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Expect this concept to split into several in later versions.', 'A Behavioral Experimental Paradigm in which, in at least one of the conditions,  subjects chew an oral stimulus that is not food (e.g., gum) or swallow their own saliva. If the oral stimulus is food or liquid that is swallowed, then the correct paradigm class is Eating/Drinking.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/COGPO_00160">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON:Jessica Turner#funding:NIHR01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fractals. (n.d.). The American Heritage  Science Dictionary. Retrieved April 16, 2010, from Dictionary.com website: http://dictionary.reference.com/browse/fractals</ns2:IAO_0000119>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a complex geometric pattern exhibiting self-similarity in that small details of its structure viewed at any scale repeat elements of the overall pattern</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver2010.owl#COGPO_00177"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fractals</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a complex geometric pattern exhibiting self-similarity in that small details of its structure viewed at any scale repeat elements of the overall pattern'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://www.cogpo.org/ontologies/CogPOver2010.owl#COGPO_00011">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_stimulus_modality</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00122"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00042">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Jessica Turner#funding:NIH1R01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Behavioral Experimental Paradigm in which, in at least one of the conditions,  Subjects are presented with paired stimuli (usually involving presentation of an eye puff with an auditory tone) in an attempt to study associative learning.</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00049"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Classical Conditioning Paradigm</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A Behavioral Experimental Paradigm in which, in at least one of the conditions,  Subjects are presented with paired stimuli (usually involving presentation of an eye puff with an auditory tone) in an attempt to study associative learning.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition source</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition_source</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00048">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Jessica Turner#funding:NIH1R01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Behavioral Experimental Paradigm in which at least one of the conditions includes the application of acupuncture.</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00049"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acupuncture Paradigm</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A Behavioral Experimental Paradigm in which at least one of the conditions includes the application of acupuncture.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/COGPO_00162">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON:Jessica Turner#funding:NIHR01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">digits. (n.d.). Dictionary.com Unabridged. Retrieved April 19, 2010, from Dictionary.com website: http://dictionary.reference.com/browse/digits</ns2:IAO_0000119>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">any of the Arabic figures of 1 through 9 and 0</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver2010.owl#COGPO_00177"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Digits</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'any of the Arabic figures of 1 through 9 and 0'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/COGPO_00168">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON:Jessica Turner#funding:NIHR01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shapes. (n.d.). Dictionary.com Unabridged. Retrieved April 16, 2010, from Dictionary.com website: http://dictionary.reference.com/browse/shapes</ns2:IAO_0000119>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a distinct body characterized with an outline of specific form or figure</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver2010.owl#COGPO_00177"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shapes</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a distinct body characterized with an outline of specific form or figure'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00046">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Jessica Turner#funding:NIH1R01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Behavioral Experimental Paradigm in which, Subjects perform a type of reward task (correct performance is associated with reward, often monetary reward) in which they choose between earning a small reward immediately or a larger reward at a later time.</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00049"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Delay Discounting Task Paradigm</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A Behavioral Experimental Paradigm in which, Subjects perform a type of reward task (correct performance is associated with reward, often monetary reward) in which they choose between earning a small reward immediately or a larger reward at a later time.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000833">
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#AnnotationProperty">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">objective_achieved_by</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00041">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Jessica Turner#funding:NIH1R01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Behavioral Experimental Paradigm in which, in at least one of the conditions,  subjects hold their breath</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00049"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breath-Holding Paradigm</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A Behavioral Experimental Paradigm in which, in at least one of the conditions,  subjects hold their breath'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/COGPO_00169">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON:Jessica Turner#funding:NIHR01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">word. (n.d.). The American Heritage  Dictionary of the English Language, Fourth Edition. Retrieved April 16, 2010, from Dictionary.com website: http://dictionary.reference.com/browse/word</ns2:IAO_0000119>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a sound or a combination of sounds, or its representation in writing or printing, that symbolizes and communicates a meaning and may consist of a single morpheme or of a combination of morphemes'</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver2010.owl#COGPO_00177"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Words</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''a sound or a combination of sounds, or its representation in writing or printing, that symbolizes and communicates a meaning and may consist of a single morpheme or of a combination of morphemes''</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor preferred label</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor_preferred_term</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor preferred term</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00053">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Jessica Turner#funding:NIH1R01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Behavioral Experimental Paradigm in which, in at least one of the conditions, Subjects fixate on a visual target. </ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00049"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fixation Paradigm</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The expectation is that the other conditions are not more interesting and fixation is a baseline, but that the experiment is geared toward measuring outcomes during a fixation condition.', 'A Behavioral Experimental Paradigm in which, in at least one of the conditions, Subjects fixate on a visual target. '</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000417">
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#ObjectProperty">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">achieves objective</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00039">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Jessica Turner#funding:NIH1R01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Behavioral Experimental Paradigm in which, in at least one of the conditions,  Subjects are asked to perform a task and either lie or be truthful in their responses.</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00049"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deception Task Paradigm</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A Behavioral Experimental Paradigm in which, in at least one of the conditions,  Subjects are asked to perform a task and either lie or be truthful in their responses.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Thing rdf:about="http://www.cogpo.org/ontologies/CogPOver2010.owl#COGPO_00007">
+    <rdf:type rdf:resource="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00049"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBIRNIIAudOddTask</rdfs:label>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000312">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is_specified_output_of</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00045">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Jessica Turner#funding:NIH1R01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Behavioral Experimental Paradigm in which, in at least one of the conditions,  blind subjects read Braille words with their finger(s). </ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00049"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Braille Reading Paradigm</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A Behavioral Experimental Paradigm in which, in at least one of the conditions,  blind subjects read Braille words with their finger(s). '</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00050">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Jessica Turner#funding:NIH1R01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Behavioral Experimental Paradigm in which, in at least one of the conditions,  a target is presented and then removed from view. This target must be maintained in working memory for a delay, after which it is presented together with non-target(s). The subject's task is to identify the non-target.</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00049"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Delayed Non Match To Sample Paradigm</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A Behavioral Experimental Paradigm in which, in at least one of the conditions,  a target is presented and then removed from view. This target must be maintained in working memory for a delay, after which it is presented together with non-target(s). The subject's task is to identify the non-target.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://www.cogpo.org/ontologies/CogPOver1.owl#has_stimulus">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_stimulus</rdfs:label>
+    <rdfs:range rdf:resource="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00122"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/COGPO_00158">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON:Jessica Turner#funding:NIHR01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infusion. (n.d.). Dictionary.com Unabridged. Retrieved April 16, 2010, from Dictionary.com website: http://dictionary.reference.com/browse/infusion</ns2:IAO_0000119>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'the introduction of liquid solution (e.g., saline) into a vein'</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver2010.owl#COGPO_00177"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infusion</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''the introduction of liquid solution (e.g., saline) into a vein''</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00067">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Jessica Turner#funding:NIH1R01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Behavioral Experimental Paradigm in which, in at least one of the conditions, Subjects void urine</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00049"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Micturition Task Paradigm</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A Behavioral Experimental Paradigm in which, in at least one of the conditions, Subjects void urine'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor note</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor_note</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/COGPO_00166">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON:Jessica Turner#funding:NIHR01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Transcranial_magnetic_stimulation Retrieved April 16, 2010</ns2:IAO_0000119>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Transcranial Magnetic Stimulation, a noninvasive method to excite neurons in the brain by inducing electrical currents in tissue as a result of rapidly changing magnetic fields'</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver2010.owl#COGPO_00177"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMS</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''Transcranial Magnetic Stimulation, a noninvasive method to excite neurons in the brain by inducing electrical currents in tissue as a result of rapidly changing magnetic fields''</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00040">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Jessica Turner#funding:NIH1R01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Behavioral Experimental Paradigm in which, in at least one of the conditions, subjects draw lines, circles, or drawings using a pen or stylus. </ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00049"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drawing Paradigm</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A Behavioral Experimental Paradigm in which, in at least one of the conditions, subjects draw lines, circles, or drawings using a pen or stylus. '</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/COGPO_00167">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON:Jessica Turner#funding:NIHR01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">odor. (n.d.). Dictionary.com Unabridged. Retrieved April 16, 2010, from Dictionary.com website: http://dictionary.reference.com/browse/odor</ns2:IAO_0000119>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a sensation perceived by the sense of smell; scent</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver2010.owl#COGPO_00177"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Odor</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a sensation perceived by the sense of smell; scent'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/COGPO_00170">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON:Jessica Turner#funding:NIHR01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'an object such as a stop sign would be classified under ''Pictures'''</ns2:IAO_0000116>
+    <ns2:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Example of stimuli used in Error monitoring using external feedback: Specific roles of the habenular complex, the reward system, and the cingulate motor area revealed by the functional magnetic resonance imaging. Ullsperger M, Yves von Cramon D. Journal of Neuroscience 2003 May; 23:4308-4314; PMID = 12764119.</ns2:IAO_0000119>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'an arbitrary sign, written or printed, that conveys meaning, e.g., plus signs, arrows, asterisks'</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver2010.owl#COGPO_00177"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Symbols</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''an arbitrary sign, written or printed, that conveys meaning, e.g., plus signs, arrows, asterisks''</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00056">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Jessica Turner#funding:NIH1R01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Behavioral Experimental Paradigm in which, in at least one of the conditions, Subjects tap their fingers according to a visual, auditory, or no cue.</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00049"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finger Tapping Paradigm</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A Behavioral Experimental Paradigm in which, in at least one of the conditions, Subjects tap their fingers according to a visual, auditory, or no cue.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00044">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Jessica Turner#funding:NIH1R01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Behavioral Experimental Paradigm in which at least one of the conditions includes viewing moving body parts.</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00049"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Action Observation Paradigm</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A Behavioral Experimental Paradigm in which at least one of the conditions includes viewing moving body parts.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00066">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Jessica Turner#funding:NIH1R01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Behavioral Experimental Paradigm in which, in at least one of the conditions, Subjects use their hands or fingers to apply isometric force or complete a precision grip task.</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00049"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Isometric Force Paradigm</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A Behavioral Experimental Paradigm in which, in at least one of the conditions, Subjects use their hands or fingers to apply isometric force or complete a precision grip task.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00064">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Jessica Turner#funding:NIH1R01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An Oddball Discrimination Paradigm which has visual stimuli as its oddball and standard stimuli.</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00071"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Visual Oddball Paradigm</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An Oddball Discrimination Paradigm which has visual stimuli as its oddball and standard stimuli.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/COGPO_00159">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON:Jessica Turner#funding:NIHR01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gender differences in pain perception and patterns of cerebral activation during noxious heat stimulation in humans. Paulson P E, Minoshima S, Morrow T J, Casey K L. Pain 1998 May; 76:223-229; PMID = 9696477.</ns2:IAO_0000119>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stimuli which create the sensation of warmth or hotness</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver2010.owl#COGPO_00177"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heat</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'stimuli which create the sensation of warmth or hotness'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#pain_monitor_discrimination_paradigm">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pain monitor discrimination paradigm</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIN MONITOR DISCRIMINATION PARADIG</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIN MONITOR DISCRIMINATION PARADIG</ns1:definition>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000299">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_output</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00062">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Jessica Turner#funding:NIH1R01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Behavioral Experimental Paradigm in which, in at least one of the conditions, Subjects move (flex and extend) their hands, arms, legs, feet, lips, tongue, etc</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00049"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flexion or Extension Paradigm</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A Behavioral Experimental Paradigm in which, in at least one of the conditions, Subjects move (flex and extend) their hands, arms, legs, feet, lips, tongue, etc'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00038">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Jessica Turner#funding:NIH1R01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Behavioral Experimental Paradigm in which, in at least one of the conditions,  Subjects are required to utilize problem-solving skills and logic to determine the correct solution; feedback is often given but not necessarily.</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00049"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deductive Reasoning Paradigm</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A Behavioral Experimental Paradigm in which, in at least one of the conditions,  Subjects are required to utilize problem-solving skills and logic to determine the correct solution; feedback is often given but not necessarily.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00063">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Jessica Turner#funding:NIH1R01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Behavioral Experimental Paradigm in which, in at least one of the conditions, Subjects view letters and discriminate according to some orthographic feature (uppercase/lowercase, alphabetic order, same/different spelling of words, vowel/consonant, font size, etc.).</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00049"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orthographic Discrimination Paradigm</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A Behavioral Experimental Paradigm in which, in at least one of the conditions, Subjects view letters and discriminate according to some orthographic feature (uppercase/lowercase, alphabetic order, same/different spelling of words, vowel/consonant, font size, etc.).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_subset</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00059">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Jessica Turner#funding:NIH1R01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Behavioral Experimental Paradigm in which, in at least one of the conditions, Subjects are instructed to perform a task (often discriminating the direction of a central arrow) while ignoring flanking stimuli on either side, which indicate a different response than the central stimuli.</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00049"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flanker Task Paradigm</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A Behavioral Experimental Paradigm in which, in at least one of the conditions, Subjects are instructed to perform a task (often discriminating the direction of a central arrow) while ignoring flanking stimuli on either side, which indicate a different response than the central stimuli.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#go_no-go_paradigm">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">go no-go paradigm</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O NO-GO PARADIG</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O NO-GO PARADIG</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/COGPO_00171">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON:Jessica Turner#funding:NIHR01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">syllable. (n.d.). The American Heritage Dictionary of the English Language, Fourth Edition. Retrieved April 16, 2010, from Dictionary.com website: http://dictionary.reference.com/browse/syllable</ns2:IAO_0000119>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a unit of spoken language consisting of a single uninterrupted sound formed by a vowel, diphthong, or syllabic consonant alone, or by any of these sounds preceded, followed, or surrounded by one or more consonants'</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver2010.owl#COGPO_00177"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Syllables</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''a unit of spoken language consisting of a single uninterrupted sound formed by a vowel, diphthong, or syllabic consonant alone, or by any of these sounds preceded, followed, or surrounded by one or more consonants''</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/COGPO_00161">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON:Jessica Turner#funding:NIHR01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Functional anatomy of musical processing in listeners with absolute pitch and relative pitch. Zatorre R J, Perry D W, Beckett C A, Westbury C F, Evans A C. Proc Natl Acad Sci USA 1998 May; 95:3172-3177; PMID = 9501235.</ns2:IAO_0000119>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a group of sounds with a broad distribution of intensities across a wide range of frequencies or  an image that carries a broad amount of energy across a wide range of spatial frequencies but is not structured to carry meaning, e.g., white noise or salt-and-pepper noise'</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver2010.owl#COGPO_00177"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Noise</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''a group of sounds with a broad distribution of intensities across a wide range of frequencies or  an image that carries a broad amount of energy across a wide range of spatial frequencies but is not structured to carry meaning, e.g., white noise or salt-and-pepper noise''</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00052">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Jessica Turner#funding:NIH1R01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Behavioral Experimental Paradigm in which, in at least one of the conditions, Subjects view stimuli (words, pictures, letters) and are instructed to memorize them.</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00049"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Encoding Paradigm</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A Behavioral Experimental Paradigm in which, in at least one of the conditions, Subjects view stimuli (words, pictures, letters) and are instructed to memorize them.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00055">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Jessica Turner#funding:NIH1R01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Behavioral Experimental Paradigm in which, in at least one of the conditions, Subjects recall items from episodic memory (autobiographical history, long-term event memories). This class is commonly used in generating a type of emotion linked to a specific memory. This class does NOT include tasks which probe semantic memory (memory of facts or concepts) in which subjects are asked to recall stimuli that were memorized prior to scanning - those are coded as Cued Explicit Recognition.</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00049"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Episodic Recall Paradigm</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A Behavioral Experimental Paradigm in which, in at least one of the conditions, Subjects recall items from episodic memory (autobiographical history, long-term event memories). This class is commonly used in generating a type of emotion linked to a specific memory. This class does NOT include tasks which probe semantic memory (memory of facts or concepts) in which subjects are asked to recall stimuli that were memorized prior to scanning - those are coded as Cued Explicit Recognition.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00061">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Jessica Turner#funding:NIH1R01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Behavioral Experimental Paradigm in which, in at least one of the conditions, Subjects view a list of words and after a delay are asked to freely recall the words presented.</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00049"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Free Word List Recall Paradigm</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A Behavioral Experimental Paradigm in which, in at least one of the conditions, Subjects view a list of words and after a delay are asked to freely recall the words presented.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/COGPO_00163">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON:Jessica Turner#funding:NIHR01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">letters. (n.d.). Dictionary.com Unabridged. Retrieved April 16, 2010, from Dictionary.com website: http://dictionary.reference.com/browse/letters</ns2:IAO_0000119>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a symbol or character used in writing and printing to represent a speech sound and that is part of an alphabet</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver2010.owl#COGPO_00177"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Letters</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a symbol or character used in writing and printing to represent a speech sound and that is part of an alphabet'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00058">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Jessica Turner#funding:NIH1R01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Behavioral Experimental Paradigm in which, in at least one of the conditions, Subjects eat food (e.g., chocolate) or drink liquids (e.g., juice).</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00049"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eating or Drinking Paradigm</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'This term may get split into several in later versions.', 'A Behavioral Experimental Paradigm in which, in at least one of the conditions, Subjects eat food (e.g., chocolate) or drink liquids (e.g., juice).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/COGPO_00165">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON:Jessica Turner#funding:NIHR01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'audiovisual presentation of painful stimulation events are classified as ''Film Clips'''</ns2:IAO_0000116>
+    <ns2:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pain. (n.d.). Dictionary.com Unabridged. Retrieved April 16, 2010, from Dictionary.com website: http://dictionary.reference.com/browse/pain</ns2:IAO_0000119>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a physically distressing sensation in a particular part of the body</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver2010.owl#COGPO_00177"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pain</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a physically distressing sensation in a particular part of the body'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00043">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Jessica Turner#funding:NIH1R01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Behavioral Experimental Paradigm in which, in at least one of the conditions,subjects simultaneously respond to auditory stimuli (tone or word discrimination, with or without distractors) while performing a 2nd unrelated task. Also often co-coded with Tone Monitor or Discrimination.</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00049"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Divided Auditory Attention Paradigm</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A Behavioral Experimental Paradigm in which, in at least one of the conditions,subjects simultaneously respond to auditory stimuli (tone or word discrimination, with or without distractors) while performing a 2nd unrelated task. Also often co-coded with Tone Monitor or Discrimination.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00051">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Jessica Turner#funding:NIH1R01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Behavioral Experimental Paradigm in which, in at least one of the conditions, Subjects view a flashing checkerboard</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00049"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flashing Checkerboard Paradigm</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A Behavioral Experimental Paradigm in which, in at least one of the conditions, Subjects view a flashing checkerboard'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#chord_sequences">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chord sequences</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HORD SEQUENCE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HORD SEQUENCE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/COGPO_00172">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON:Jessica Turner#funding:NIHR01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pictures. (n.d.). The American Heritage  Dictionary of the English Language, Fourth Edition. Retrieved April 16, 2010, from Dictionary.com website: http://dictionary.reference.com/browse/pictures</ns2:IAO_0000119>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a representation or image that is painted, drawn, photographed, or otherwise rendered on a flat surface'</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver2010.owl#COGPO_00177"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pictures</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''a representation or image that is painted, drawn, photographed, or otherwise rendered on a flat surface''</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00035">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Jessica Turner#funding:NIH1R01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Behavioral Experimental Paradigm in which, in at least one of the conditions,  subjects view a list of items (words, pictures, sounds, or abstract patterns) prior to scanning. During scanning, probe words are presented and subject recall if the words are familiar or unfamiliar.</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00049"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cued Explicit Recognition Paradigm</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A Behavioral Experimental Paradigm in which, in at least one of the conditions,  subjects view a list of items (words, pictures, sounds, or abstract patterns) prior to scanning. During scanning, probe words are presented and subject recall if the words are familiar or unfamiliar.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/COGPO_00164">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON:Jessica Turner#funding:NIHR01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'if the tones are presented as music, stimuli should be classified as ''Music'''</ns2:IAO_0000116>
+    <ns2:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Example of stimuli found in Amplitopicity of the human auditory cortex: An fMRI study. Bilecen D, Seifritz E, Scheffler K, Henning J, Schulte A C. Neuroimage 2002 Oct; 17:710-718; PMID = 12377146.</ns2:IAO_0000119>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">one or more musical sounds that individually have a single frequency</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver2010.owl#COGPO_00177"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tones</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'one or more musical sounds that individually have a single frequency'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00047">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Jessica Turner#funding:NIH1R01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Behavioral Experimental Paradigm in which, in at least one of the conditions,  subjects view a target and are instructed to make a saccade away from the target (to the opposite visual field).</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00049"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-Saccades Paradigm</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A Behavioral Experimental Paradigm in which, in at least one of the conditions,  subjects view a target and are instructed to make a saccade away from the target (to the opposite visual field).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00060">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Jessica Turner#funding:NIH1R01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Behavioral Experimental Paradigm in which, in at least one of the conditions, Subjects view movie or film clips passively or are required to make a discrimination when the clip is over.</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00049"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Film Viewing Paradigm</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A Behavioral Experimental Paradigm in which, in at least one of the conditions, Subjects view movie or film clips passively or are required to make a discrimination when the clip is over.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00057">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Jessica Turner#funding:NIH1R01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Behavioral Experimental Paradigm in which, in at least one of the conditions, Subjects are presented with human faces and are instructed to view them passively or discriminate according to their order, gender, location, emotion, or appearance. If the subjects view the faces passively, then the experiment is NOT co-coded with Passive Viewing.</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00049"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Face Monitor or Discrimination Paradigm</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A Behavioral Experimental Paradigm in which, in at least one of the conditions, Subjects are presented with human faces and are instructed to view them passively or discriminate according to their order, gender, location, emotion, or appearance. If the subjects view the faces passively, then the experiment is NOT co-coded with Passive Viewing.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00036">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Jessica Turner#funding:NIH1R01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Behavioral Experimental Paradigm in which, in at least one of the conditions,  Subjects count, add, subtract, multiply, or divide various stimuli (numbers, bars, dots, etc).</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00049"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Counting or Calculation Paradigm</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Expect this concept to split into several in later versions.', 'A Behavioral Experimental Paradigm in which, in at least one of the conditions,  Subjects count, add, subtract, multiply, or divide various stimuli (numbers, bars, dots, etc).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000295">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is_input_of</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definiton_editor</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">term editor</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition editor</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">example_of_usage</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">example of usage</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000293">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has specified input</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.cogpo.org/ontologies/CogPOver1.owl#has_instructions">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_instructions</rdfs:label>
+    <rdfs:range rdf:resource="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00028"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00028">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Jessica Turner#funding:NIH1R01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instructions are the information-bearing entity that sets up the rules for desired behavior from the subjects. An explicit direction that guides the behavior of the subject during the experimental conditions. 
+Instructions serve the function that they lay out what the response behaviors should be for any set of stimuli in the experiment.</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000007"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instructions</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Instructions are the information-bearing entity that sets up the rules for desired behavior from the subjects. An explicit direction that guides the behavior of the subject during the experimental conditions. 
+Instructions serve the function that they lay out what the response behaviors should be for any set of stimuli in the experiment.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.ifomis.org/bfo/1.1/snap#FiatObjectPart">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fiat Object Part</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </rdf:Description>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00122">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Jessica Turner#funding:NIH1R01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The  object or set of objects, internal or external to the subject, which is intended to generate either an overt or covert response in the subject as part of an experimental condition.</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#ObjectAggregate"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stimulus</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'These 'things' play the role of a stimulus in an experimental condition.', 'The  object or set of objects, internal or external to the subject, which is intended to generate either an overt or covert response in the subject as part of an experimental condition.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000011">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bjoern Peters</ns2:IAO_0000117>
+    <ns2:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We are only considering successfully completed planned processes. A plan may be modified, and details added during execution. For a given planned process, the associated realized plan specification is the one encompassing all changes made during execution. This means that all processes in which an agent acts towards achieving some 
+objectives is a planned process.</ns2:IAO_0000116>
+    <ns2:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Plan' includes a future direction sense. That can be problematic if plans are changed during their execution. There are however implicit contingencies for protocols that an agent has in his mind that can be considered part of the plan, even if the agent didn't have them in mind before. Therefore, a planned process can diverge from what the agent would have said the plan was before executing it, by adjusting to problems encountered during execution (e.g. choosing another reagent with equivalent properties, if the originally planned one has run out.)</ns2:IAO_0000116>
+    <ns2:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">planned process</ns2:IAO_0000111>
+    <ns2:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Injecting mice with a vaccine in order to test its efficacy</ns2:IAO_0000112>
+    <ns2:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">branch derived</ns2:IAO_0000119>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A processual entity that realizes a plan which is the concretization of a plan specification.</ns2:IAO_0000115>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A planned process is the realization of a plan  borne by an agent that initiates this process in order to bring about the objective(s) specified as part of the plan specification.</ns2:IAO_0000115>
+    <ns3:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FGED</ns3:inSubset>
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#NamedIndividual">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">planned process</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00071">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Jessica Turner#funding:NIH1R01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Behavioral Experimental Paradigm in which, in at least one of the conditions, stimuli are presented in a continuous stream and participants must detect the presence of an oddball stimulus. The oddball is a stimulus that occurs infrequently relative to all other stimuli, and has distinct characteristics (e.g., a different tone among auditory stimuli).</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00049"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oddball Discrimination Paradigm</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A Behavioral Experimental Paradigm in which, in at least one of the conditions, stimuli are presented in a continuous stream and participants must detect the presence of an oddball stimulus. The oddball is a stimulus that occurs infrequently relative to all other stimuli, and has distinct characteristics (e.g., a different tone among auditory stimuli).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000007">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alan Ruttenberg</ns2:IAO_0000117>
+    <ns2:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pour the contents of flask 1 into flask 2</ns2:IAO_0000112>
+    <ns2:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI Plan and Planned Process branch</ns2:IAO_0000119>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a directive information entity that describes an action the bearer will take</ns2:IAO_0000115>
+    <ns3:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FGED</ns3:inSubset>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">action specification</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <rdfs:Class rdf:about="http://www.ifomis.org/bfo/1.1/snap#ObjectAggregate">
+    <owl:disjointWith rdf:resource="http://www.ifomis.org/bfo/1.1/snap#FiatObjectPart"/>
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ObjectAggregate</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </rdfs:Class>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00049">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Jessica Turner#funding:NIH1R01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Within an Experimental Paradigm, the behavioral paradigm describes the behavioral aspects of the experiment: what stimuli are presented to the subject when, and under what conditions, and what the subject's responses are supposed to be.</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behavioral Experimental Paradigm</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Really should be has min 2 conditions, but OWL-DL doesn't allow cardinality restrictions on transitive properties...', 'should be harmonized from NeuroLex', 'Within an Experimental Paradigm, the behavioral paradigm describes the behavioral aspects of the experiment: what stimuli are presented to the subject when, and under what conditions, and what the subject's responses are supposed to be.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="http://www.cogpo.org/ontologies/CogPOver2010.owl#COGPO_00177">
+    <ns2:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Jessica Turner#funding:NIH1R01MH084812
+PERSON: Angela Laird#funding:NIHR01MH084812</ns2:IAO_0000117>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A stimulus which exists at least in part externally to the subject--e.g., a flashing checkerboard, a drop of juice, a set of digits, an electrical charge, etc.</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00122"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Explicit Stimulus</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A stimulus which exists at least in part externally to the subject--e.g., a flashing checkerboard, a drop of juice, a set of digits, an electrical charge, etc.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGPO</ns1:ontology_acronm>
+  </owl:Class>
+</rdf:RDF>

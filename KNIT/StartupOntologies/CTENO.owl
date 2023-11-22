@@ -1,0 +1,1271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:ns1="http://purl.obolibrary.org/obo/"
+  xmlns:ns2="http://www.geneontology.org/formats/oboInOwl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns3="http://www.ifomis.org/bfo/1.1/snap#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns4="http://ontology.test.es/comment#"
+  xmlns:ns5="http://www.ifomis.org/bfo/1.1#"
+  xmlns:ns6="http://www.geneontology.org/formats/oboInOWL#"
+  xmlns:ns7="http://www.w3.org/2004/02/skos/core#"
+>
+  <ns1:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000010">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">version 4</rdfs:label>
+  </ns1:IAO_0000129>
+  <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000123">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1#Entity"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metadata incomplete</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_140467">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:140467</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_140466"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aulacoctena acuminata</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000226">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1#Entity"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000225"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder removed</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000420">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1#Entity"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000409"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">defined class</rdfs:label>
+  </owl:NamedIndividual>
+  <ns1:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000009">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">version 3</rdfs:label>
+  </ns1:IAO_0000129>
+  <owl:Class rdf:about="http://edamontology.org/operation_0004">
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Operation</rdfs:label>
+    <ns4:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computational procedure, Computational subroutine, Computational tool, Computational operation, Function (programming), Lambda abstraction, sumo:Function, Mathematical function, Process, Mathematical operation, Function, Computational method</ns4:synonym>
+    <ns4:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A function that processes a set of inputs and results in a set of outputs, or associates arguments (inputs) with values (outputs).', 'Special cases are: a) An operation that consumes no input (has no input arguments). Such operation is either a constant function, or an operation depending only on the underlying state. b) An operation that may modify the underlying state but has no output. c) The singular-case operation with no input or output, that still may modify the underlying state.'</ns4:definition>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDAM</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000143">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is descriptor of</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000331">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">should execute with output</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+  </owl:ObjectProperty>
+  <ns1:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000029">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ClustalX version 2.1</rdfs:label>
+  </ns1:IAO_0000129>
+  <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000122">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1#Entity"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ready for release</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000120">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1#Entity"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metadata complete</rdfs:label>
+  </owl:NamedIndividual>
+  <ns1:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000006">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft 95 version</rdfs:label>
+  </ns1:IAO_0000129>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005575">
+    <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular_component</ns2:hasOBONamespace>
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0005575</ns7:notation>
+    <ns1:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular_component</ns1:IAO_0000111>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NIF_Subcellular:sao1337158144</ns2:hasDbXref>
+    <ns1:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0005575</ns1:IAO_0000119>
+    <ns2:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bioportal.bioontology.org/.well-known/genid/33a788b7-3805-4d08-ac1b-7a77008c8926/1bf25b000000006c</ns2:hasNarrowSynonym>
+    <ns2:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular component unknown</ns2:hasNarrowSynonym>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The part of a cell or its extracellular environment in which a gene product is located. A gene product may be located in one or more parts of a cell and its location may be as specific as a particular macromolecular complex, that is, a stable, persistent association of macromolecules that function together.</ns1:IAO_0000115>
+    <ns2:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0008372</ns2:hasAlternativeId>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bioportal.bioontology.org/.well-known/genid/33a788b7-3805-4d08-ac1b-7a77008c8926/1bf25b000000006d</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular component</ns2:hasExactSynonym>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/go#goslim_metagenomics</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/go#goslim_plant</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/go#goslim_aspergillus</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/go#goslim_yeast</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/obo/owl/obo#goslim_generic</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/obo/owl/obo#goslim_goa</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/go#gosubset_prok</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/obo/owl/obo#goslim_plant</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/go#goslim_generic</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/obo/owl/obo#goslim_yeast</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/go#goslim_pir</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/obo/owl/obo#goslim_candida</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/obo/owl/obo#gosubset_prok</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/go#goslim_candida</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/obo/owl/obo#goslim_pir</ns2:inSubset>
+    <ns6:xref rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular_component</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000002">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1#Entity"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">example to be eventually removed</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000228">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1#Entity"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000225"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">term imported</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <ns1:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000031">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MUSCLE version 3.8.31</rdfs:label>
+  </ns1:IAO_0000129>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition source</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition_source</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000423">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1#Entity"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">to be replaced with external ontology term</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_12997">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:12997</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_12996"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cestum veneris</rdfs:label>
+    <ns4:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cestus veneris</ns4:synonym>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000125">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1#Entity"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pending final vetting</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10200">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:10200</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10199"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beroe mitrata</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBIws_0000130">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is_encoded_in</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_140470">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:140470</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_140468"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haeckelia rubra</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <ns1:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000004">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft 2001 version</rdfs:label>
+  </ns1:IAO_0000129>
+  <ns1:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000003">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft 98 version</rdfs:label>
+  </ns1:IAO_0000129>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#go_0045444">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">go 0045444</rdfs:label>
+    <ns4:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O 004544</ns4:synonym>
+    <ns4:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O 004544</ns4:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_140477">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:140477</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_140476"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leucothea pulchra</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_127145">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:127145</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_127144"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lampocteis cruentiventer</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <ns1:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000028">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ClustalW version 2.1</rdfs:label>
+  </ns1:IAO_0000129>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_140462">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:140462</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_140461"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Charistephane fugiens</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_140456">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:140456</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_86009"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hormiphora plumosa</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0099568">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044444"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005737"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cytoplasmic region</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://edamontology.org/data_0006">
+    <ns2:hasRelatedSynonym rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <ns2:hasRelatedSynonym rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data</rdfs:label>
+    <ns4:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data record, Data set, Datum</ns4:synonym>
+    <ns4:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Information, represented in an information artefact (data record) that is 'understandable' by dedicated computational tools that can use the data as input or produce it as output.'</ns4:definition>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDAM</ns4:ontology_acronm>
+  </owl:Class>
+  <ns1:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000021">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.6.9</rdfs:label>
+  </ns1:IAO_0000129>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044441">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular_component</ns2:hasOBONamespace>
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0044441</ns7:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any constituent part of a cilium, a specialized eukaryotic organelle that consists of a filiform extrusion of the cell surface. Each cilium is bounded by an extrusion of the cytoplasmic membrane, and contains a regular longitudinal array of microtubules, anchored basally in a centriole.</ns1:IAO_0000115>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/go#high_level_annotation_qc</ns2:inSubset>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044422"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044463"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ciliary part</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000229">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1#Entity"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000225"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">term split</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_140453">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:140453</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10199"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beroe forskalii</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000227">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1#Entity"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000225"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">terms merged</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_140455">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:140455</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_51106"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bolinopsis infundibulum</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definiton_editor</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">term editor</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition editor</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:DatatypeProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000012">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has value</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_140457">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:140457</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_34498"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pleurobrachia pileus</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <ns1:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000030">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clustal Omega version 1.1</rdfs:label>
+  </ns1:IAO_0000129>
+  <ns1:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000011">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matlab R14</rdfs:label>
+  </ns1:IAO_0000129>
+  <ns1:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000012">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matlab R12</rdfs:label>
+  </ns1:IAO_0000129>
+  <ns1:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000024">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.3.0</rdfs:label>
+  </ns1:IAO_0000129>
+  <ns1:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000008">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft 2010 version</rdfs:label>
+  </ns1:IAO_0000129>
+  <ns1:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000020">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.0.1</rdfs:label>
+  </ns1:IAO_0000129>
+  <ns1:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/6.0">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.0</rdfs:label>
+  </ns1:IAO_0000129>
+  <ns1:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000013">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R2011a</rdfs:label>
+  </ns1:IAO_0000129>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#go_0050962">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">go 0050962</rdfs:label>
+    <ns4:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O 005096</ns4:synonym>
+    <ns4:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O 005096</ns4:definition>
+  </owl:Class>
+  <ns1:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000022">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.02</rdfs:label>
+  </ns1:IAO_0000129>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_related_synonym</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000121">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1#Entity"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organizational term</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000421">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1#Entity"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000409"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">named class expression</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000136">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is about</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  </owl:NamedIndividual>
+  <owl:FunctionalProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000009">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has uncertainty value</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  </owl:FunctionalProperty>
+  <ns1:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000002">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha</rdfs:label>
+  </ns1:IAO_0000129>
+  <ns1:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000014">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft XP</rdfs:label>
+  </ns1:IAO_0000129>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#go_0050906">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">go 0050906</rdfs:label>
+    <ns4:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O 005090</ns4:synonym>
+    <ns4:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O 005090</ns4:definition>
+  </owl:Class>
+  <ns1:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000007">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft 2007 version</rdfs:label>
+  </ns1:IAO_0000129>
+  <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000124">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1#Entity"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uncurated</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000201">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is attribute of</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+  </owl:ObjectProperty>
+  <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000103">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1#Entity"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000225"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">failed exploratory term</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000230">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1#Entity"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000225"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000428">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1#Entity"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">requires discussion</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#go_0060591">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">go 0060591</rdfs:label>
+    <ns4:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O 006059</ns4:synonym>
+    <ns4:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O 006059</ns4:definition>
+  </owl:Class>
+  <ns1:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000017">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.5.1</rdfs:label>
+  </ns1:IAO_0000129>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_140474">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:140474</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_140473"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coeloplana bannwarthii</rdfs:label>
+    <ns4:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coeloplana banwarthii</ns4:synonym>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#go_0048870">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">go 0048870</rdfs:label>
+    <ns4:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O 004887</ns4:synonym>
+    <ns4:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O 004887</ns4:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_140454">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:140454</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10199"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beroe gracilis</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#go_0050974">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">go 0050974</rdfs:label>
+    <ns4:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O 005097</ns4:synonym>
+    <ns4:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O 005097</ns4:definition>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.org/obo/IAO_0000136">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is about</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  </owl:ObjectProperty>
+  <ns1:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000015">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14</rdfs:label>
+  </ns1:IAO_0000129>
+  <ns1:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000005">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft 2003 version</rdfs:label>
+  </ns1:IAO_0000129>
+  <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000224">
+    <rdf:type rdf:resource="http://www.geneontology.org/formats/oboInOwl#Subset"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1#Entity"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">core</rdfs:label>
+  </owl:NamedIndividual>
+  <ns1:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000019">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</rdfs:label>
+  </ns1:IAO_0000129>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_alternative_id</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000200">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has attribute</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#go_0055007">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">go 0055007</rdfs:label>
+    <ns4:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O 005500</ns4:synonym>
+    <ns4:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O 005500</ns4:definition>
+  </owl:Class>
+  <ns1:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000032">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CRG TCoffee version 9.02.r1228</rdfs:label>
+  </ns1:IAO_0000129>
+  <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000410">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1#Entity"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000409"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">universal</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alternative term</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000330">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">should execute with input</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">example_of_usage</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">example of usage</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000124">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is_supported_by_data</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor note</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor_note</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10201">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:10201</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10199"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beroe ovata</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <ns1:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000023">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Helios Service Release 2</rdfs:label>
+  </ns1:IAO_0000129>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_subset</rdfs:label>
+  </owl:AnnotationProperty>
+  <ns1:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000016">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.1</rdfs:label>
+  </ns1:IAO_0000129>
+  <ns1:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000018">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1</rdfs:label>
+  </ns1:IAO_0000129>
+  <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000606">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is execution output of</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_140469">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:140469</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_140468"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haeckelia beehleri</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_narrow_synonym</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
+  </owl:AnnotationProperty>
+  <ns1:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000027">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BLAST+ version 2.2.26</rdfs:label>
+  </ns1:IAO_0000129>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor preferred label</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor_preferred_term</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor preferred term</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBIws_0000132">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is_encoded_of</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  </owl:ObjectProperty>
+  <ns1:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000001">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta</rdfs:label>
+  </ns1:IAO_0000129>
+  <owl:ObjectProperty rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0224">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is described by </rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_140464">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:140464</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_140463"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Callianira cristata</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000047">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conforms to</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  </owl:ObjectProperty>
+  <ns1:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000025">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.0.0</rdfs:label>
+  </ns1:IAO_0000129>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">notation</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_140471">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:140471</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_140492"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Platyctenida</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_51105">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:51105</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_27921"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bolinopsidae</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_37538">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:37538</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_140493"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beroida</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10199">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:10199</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_37539"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beroe</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33154">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unknown</ns2:hasOBONamespace>
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:33154</ns7:notation>
+    <ns1:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Opisthokonta</ns1:IAO_0000111>
+    <ns1:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fungi/Metazoa group</ns1:IAO_0000111>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2759"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fungi/Metazoa group</rdfs:label>
+    <ns4:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">opisthokonts, Opisthokonta</ns4:synonym>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044464">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular_component</ns2:hasOBONamespace>
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0044464</ns7:notation>
+    <ns2:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protoplast</ns2:hasRelatedSynonym>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any constituent part of a cell, the basic structural and functional unit of all organisms.</ns1:IAO_0000115>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/go#high_level_annotation_qc</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/go#gosubset_prok</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/go#goslim_pir</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/obo/owl/obo#gosubset_prok</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/obo/owl/obo#goslim_pir</ns2:inSubset>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000470"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell part</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2759">
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eucaryotes</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eukaryotes</ns1:IAO_0000118>
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</ns2:hasOBONamespace>
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unknown</ns2:hasOBONamespace>
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:2759</ns7:notation>
+    <ns1:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eukaryota</ns1:IAO_0000111>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:23020233</ns2:hasDbXref>
+    <ns2:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eukaryotae</ns2:hasRelatedSynonym>
+    <ns2:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eukarya</ns2:hasRelatedSynonym>
+    <ns2:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eucarya</ns2:hasRelatedSynonym>
+    <ns2:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eucaryotae</ns2:hasRelatedSynonym>
+    <ns2:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eukaryotes</ns2:hasRelatedSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eucaryotes</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eukaryotes</ns2:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_131567"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eukaryota</rdfs:label>
+    <ns4:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eukaryotes, Eucaryotae, Eucarya, Eukarya, Eukaryotae, eucaryotes</ns4:synonym>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_50341">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:50341</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_140492"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cydippida</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000027">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a data item is an information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements.</ns1:IAO_0000115>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data is an information entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements.</ns1:IAO_0000115>
+    <ns1:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Alan Ruttenberg</ns1:IAO_0000117>
+    <ns1:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chris Stoeckert</ns1:IAO_0000117>
+    <ns1:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Jonathan Rees</ns1:IAO_0000117>
+    <ns1:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-03-16: data item deliberatly ambiguous: we merged data set and datum to be one entity, not knowing how to define singular versus plural. So data item is more general than datum.</ns1:IAO_0000116>
+    <ns1:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JAR: datum     -- well, this will be very tricky to define, but maybe some 
+information-like stuff that might be put into a computer and that is 
+meant, by someone, to denote and/or to be interpreted by some 
+process... I would include lists, tables, sentences... I think I might 
+defer to Barry, or to Brian Cantwell Smith
+
+JAR: A data item is an approximately justified approximately true approximate belief</ns1:IAO_0000116>
+    <ns1:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2/2/2009 Alan and Bjoern discussing FACS run output data. This is a data item because it is about the cell population. Each element records an event and is typically further composed a set of measurment data items that record the fluorescent intensity stimulated by one of the lasers.</ns1:IAO_0000116>
+    <ns1:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-03-16: removed datum as alternative term as datum specifically refers to singular form, and is thus not an exact synonym.</ns1:IAO_0000116>
+    <ns1:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-03-16: removed datum as alternative term as datum specifically refers to singular form, and is thus not an exact synonym.
+
+2/2/2009 Alan and Bjoern discussing FACS run output data. This is a data item because it is about the cell population. Each element records an event and is typically further composed a set of measurment data items that record the fluorescent intensity stimulated by one of the lasers.
+
+JAR: datum -- well, this will be very tricky to define, but maybe some information-like stuff that might be put into a computer and that is meant, by someone, to denote and/or to be interpreted by some process... I would include lists, tables, sentences... I think I might defer to Barry, or to Brian Cantwell Smith JAR: A data item is an approximately justified approximately true approximate belief
+
+2009-03-16: data item deliberatly ambiguous: we merged data set and datum to be one entity, not knowing how to define singular versus plural. So data item is more general than datum.</ns1:IAO_0000116>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data</ns1:IAO_0000118>
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO:0000027</ns7:notation>
+    <ns1:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data item</ns1:IAO_0000111>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data items include counts of things, analyte concentrations, and statistical summaries.</ns1:IAO_0000112>
+    <ns1:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO</ns1:IAO_0000119>
+    <ns1:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO_0000027</ns1:IAO_0000119>
+    <ns1:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO:imported 'http://purl.obolibrary.org/obo/iao.owl'</ns1:IAO_0000119>
+    <ns2:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data</ns2:hasNarrowSynonym>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FGED</ns2:inSubset>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TRAK_0000148"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TRAK_0001281"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data item</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10197">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:10197</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33208"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ctenophora</rdfs:label>
+    <ns4:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">comb jellies, ctenophores, sea walnuts, coelenterates, Coelenterata</ns4:synonym>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_140465">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:140465</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_50341"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haeckeliidae</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_86008">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:86008</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_50341"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pleurobrachiidae</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005737">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular_component</ns2:hasOBONamespace>
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0005737</ns7:notation>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Cytoplasm</ns2:hasDbXref>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All of the contents of a cell excluding the plasma membrane and nucleus, but including other subcellular structures.</ns1:IAO_0000115>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/go#goslim_metagenomics</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/go#goslim_plant</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/go#goslim_yeast</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/obo/owl/obo#goslim_generic</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/obo/owl/obo#goslim_goa</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/go#gosubset_prok</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/obo/owl/obo#goslim_plant</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/go#goslim_generic</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/obo/owl/obo#goslim_yeast</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/obo/owl/obo#goslim_candida</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/obo/owl/obo#gosubset_prok</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/go#goslim_candida</ns2:inSubset>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044424"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cytoplasm</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_131567">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unknown</ns2:hasOBONamespace>
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:131567</ns7:notation>
+    <ns2:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biota</ns2:hasRelatedSynonym>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular organisms</rdfs:label>
+    <ns4:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biota</ns4:synonym>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000030">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <ns1:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert</ns1:IAO_0000117>
+    <ns1:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chris Stoeckert</ns1:IAO_0000117>
+    <ns1:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information_content_entity 'is_encoded_in' some digital_entity in obi before split (040907). information_content_entity 'is_encoded_in' some physical_document in obi before split (040907).
+
+Previous. An information content entity is a non-realizable information entity that 'is encoded in' some digital or physical entity.</ns1:IAO_0000116>
+    <ns1:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information_content_entity 'is_encoded_in' some digital_entity in obi before split (040907). information_content_entity 'is_encoded_in' some physical_document in obi before split (040907). Previous. An information content entity is a non-realizable information entity that 'is encoded in' some digital or physical entity.</ns1:IAO_0000116>
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO:0000030</ns7:notation>
+    <ns1:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information content entity</ns1:IAO_0000111>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Examples of information content entites include journal articles, data, graphical layouts, and graphs.</ns1:IAO_0000112>
+    <ns1:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI_0000142</ns1:IAO_0000119>
+    <ns1:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI:0000142</ns1:IAO_0000119>
+    <ns1:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO:sourced 'OBI:0000142'</ns1:IAO_0000119>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information is a statement about some entity.</ns1:IAO_0000115>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an information content entity is an entity that is generically dependent on some artifact and stands in relation of aboutness to some entity</ns1:IAO_0000115>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An information content entity is an entity that is generically dependent on some artifact and stands in relation of aboutness to some entity.</ns1:IAO_0000115>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FGED</ns2:inSubset>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TRAK_0000148"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information content entity</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#FunctionalProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044463">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular_component</ns2:hasOBONamespace>
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0044463</ns7:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any constituent part of a cell projection, a prolongation or process extending from a cell, e.g. a flagellum or axon.</ns1:IAO_0000115>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/go#high_level_annotation_qc</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/go#gosubset_prok</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/obo/owl/obo#gosubset_prok</ns2:inSubset>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044464"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell projection part</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_51106">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:51106</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_51105"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bolinopsis</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000102">
+    <ns1:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person:Alan Ruttenberg</ns1:IAO_0000117>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data about an ontology part is a data item about a part of an ontology, for example a term</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data about an ontology part</rdfs:label>
+    <ns4:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Data about an ontology part is a data item about a part of an ontology, for example a term'</ns4:definition>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_140461">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:140461</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_140460"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Charistephane</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_27921">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:27921</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_140493"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lobata</rdfs:label>
+    <ns4:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Labata</ns4:synonym>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_86009">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:86009</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_86008"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hormiphora</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_140472">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:140472</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_140471"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coeloplanidae</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_140493">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:140493</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10197"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyclocoela</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_148608">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:148608</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_27921"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lampoctenidae</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33208">
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicellular animals</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metazoans</ns1:IAO_0000118>
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unknown</ns2:hasOBONamespace>
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:33208</ns7:notation>
+    <ns1:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metazoa</ns1:IAO_0000111>
+    <ns2:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Animals</ns2:hasRelatedSynonym>
+    <ns2:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Animalia</ns2:hasRelatedSynonym>
+    <ns2:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animals</ns2:hasRelatedSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicellular animals</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metazoans</ns2:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33154"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metazoa</rdfs:label>
+    <ns4:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animals, Animalia, metazoans, multicellular animals</ns4:synonym>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000003">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">occurrent</rdfs:label>
+        <ns4:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An entity that has temporal parts and that happens, unfolds or develops through time.'</ns4:definition>
+        <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">process</rdfs:label>
+    <ns4:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t.'</ns4:definition>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </rdf:Description>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000225">
+    <ns1:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Melanie Courtot</ns1:IAO_0000117>
+    <ns1:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Alan Ruttenberg</ns1:IAO_0000117>
+    <ns1:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The creation of this class has been inspired in part by Werner Ceusters' paper, Applying evolutionary terminology auditing to the Gene Ontology.</ns1:IAO_0000116>
+    <ns1:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolescence reason specification</ns1:IAO_0000111>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The reason for which a term has been deprecated. The allowed values come from an enumerated list of predefined terms. See the specification of these instances for more detailed definitions of each enumerated value.</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolescence reason specification</rdfs:label>
+    <ns4:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The reason for which a term has been deprecated. The allowed values come from an enumerated list of predefined terms. See the specification of these instances for more detailed definitions of each enumerated value.'</ns4:definition>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000078">
+    <ns1:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON:Bill Bug</ns1:IAO_0000117>
+    <ns1:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Better to represent curation as a process with parts and then relate labels to that process (in IAO meeting)</ns1:IAO_0000116>
+    <ns1:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">curation status specification</ns1:IAO_0000111>
+    <ns1:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI_0000266</ns1:IAO_0000119>
+    <ns1:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[GROUP:OBI:<http://purl.obolibrary.org/obo/obi>]]></ns1:IAO_0000119>
+    <ns1:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI:0000266</ns1:IAO_0000119>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The curation status of the term. The allowed values come from an enumerated list of predefined terms. See the specification of these instances for more detailed definitions of each enumerated value.</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">curation status specification</rdfs:label>
+    <ns4:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The curation status of the term. The allowed values come from an enumerated list of predefined terms. See the specification of these instances for more detailed definitions of each enumerated value.'</ns4:definition>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044444">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular_component</ns2:hasOBONamespace>
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0044444</ns7:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any constituent part of the cytoplasm, all of the contents of a cell excluding the plasma membrane and nucleus, but including other subcellular structures.</ns1:IAO_0000115>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bioportal.bioontology.org/.well-known/genid/33a788b7-3805-4d08-ac1b-7a77008c8926/4e75b0000000090</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cytoplasm component</ns2:hasExactSynonym>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/go#high_level_annotation_qc</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/go#gosubset_prok</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/obo/owl/obo#gosubset_prok</ns2:inSubset>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044424"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cytoplasmic part</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_140463">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:140463</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_140460"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Callianira</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_12996">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:12996</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_27920"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cestum</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_27920">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:27920</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_27919"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cestidae</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_27919">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:27919</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_140493"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cestida</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1#Entity">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_140475">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:140475</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_27921"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leucotheidae</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_37539">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:37539</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_37538"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beroidae</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044424">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular_component</ns2:hasOBONamespace>
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0044424</ns7:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any constituent part of the living contents of a cell; the matter contained within (but not including) the plasma membrane, usually taken to exclude large vacuoles and masses of secretory or ingested material. In eukaryotes it includes the nucleus and cytoplasm.</ns1:IAO_0000115>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/go#high_level_annotation_qc</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/go#gosubset_prok</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/obo/owl/obo#gosubset_prok</ns2:inSubset>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044464"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intracellular part</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_34498">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:34498</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_86008"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pleurobrachia</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044422">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular_component</ns2:hasOBONamespace>
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0044422</ns7:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any constituent part of an organelle, an organized structure of distinctive morphology and function. Includes constituent parts of the nucleus, mitochondria, plastids, vacuoles, vesicles, ribosomes and the cytoskeleton, but excludes the plasma membrane.</ns1:IAO_0000115>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/go#high_level_annotation_qc</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/go#gosubset_prok</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/obo/owl/obo#gosubset_prok</ns2:inSubset>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organelle part</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_140466">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:140466</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_140465"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aulacoctena</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008150">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_140492">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:140492</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10197"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Typhlocoela</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRAK_0001281">
+    <ns6:xref rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data item</rdfs:label>
+    <ns4:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A data item is an information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements.'</ns4:definition>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRAK</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000470">
+    <ns6:xref rdf:resource="http://purl.obolibrary.org/obo/GO_0044464"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/GO_0044464"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete cell part</rdfs:label>
+    <ns4:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell component</ns4:synonym>
+    <ns4:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Anatomical structure that is a direct part of the cell.'</ns4:definition>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_127144">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:127144</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_148608"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lampocteis</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_140468">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:140468</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_140465"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haeckelia</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.geneontology.org/formats/oboInOwl#Subset">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#AnnotationProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000409">
+    <ns1:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alan Ruttenberg</ns1:IAO_0000117>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Basic Formal Ontology ontology makes a distinction between Universals and defined classes, where the formal are 'natural kinds' and the latter arbitrary collections of entities.</ns1:IAO_0000112>
+    <ns1:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barry Smith, Werner Ceusters</ns1:IAO_0000119>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A denotator type indicates how a term should be interpreted from an ontological perspective.</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">denotator type</rdfs:label>
+    <ns4:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A denotator type indicates how a term should be interpreted from an ontological perspective.'</ns4:definition>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRAK_0000148">
+    <ns6:xref rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information content entity</rdfs:label>
+    <ns4:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An information content entity is an entity that is generically dependent on some artifact and stands in relation of aboutness to some entity.'</ns4:definition>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRAK</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_140473">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:140473</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_140472"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coeloplana</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#ObjectProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_140476">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:140476</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_140475"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leucothea</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#DatatypeProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1/snap#Continuant">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_140460">
+    <ns7:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:140460</ns7:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_50341"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mertensiidae</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTENO</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000129">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#NamedIndividual">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+</rdf:RDF>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <owl:Class rdf:about="http://www.semanticweb.org/AD-DROP#veryFrequentdisease-relevantProcess">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/AD-DROP#disease-relevantProcessByFrequency"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">very frequent disease-relevant process</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AD_DROP</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/AD-DROP#gene-relateddisease-relevantProcess">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/AD-DROP#identifieddisease-relevantProcess"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene-related disease-relevant process</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AD_DROP</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.semanticweb.org/AD-DROP#AlzheimerDiseaseTypedisease-relevantProcess">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/AD-DROP#disease-relevantProcessBySpecificity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alzheimer Disease type disease-relevant process</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AD_DROP</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/AD-DROP#lowlyImpactingdisease-relevantProcess">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/AD-DROP#disease-relevantProcessByPathogenicIntensity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lowly impacting disease-relevant process</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AD_DROP</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/AD-DROP#pathogenicdisease-relevantProcess">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/AD-DROP#disease-relevantProcessBySpecificity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathogenic disease-relevant process</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AD_DROP</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/AD-DROP#life-styledisease-relevantProcess">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/AD-DROP#disease-relevantProcessBySpecificity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">life-style disease-relevant process</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AD_DROP</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/AD-DROP#environmentaldisease-relevantProcess">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/AD-DROP#identifieddisease-relevantProcess"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental disease-relevant process</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AD_DROP</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/AD-DROP#physiologicaldisease-relevantProcess">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/AD-DROP#identifieddisease-relevantProcess"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">physiological disease-relevant process</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AD_DROP</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/AD-DROP#moleculardisease-relevantProcess">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/AD-DROP#identifieddisease-relevantProcess"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular disease-relevant process</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AD_DROP</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/AD-DROP#midlyImpactingdisease-relevantProcess">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/AD-DROP#disease-relevantProcessByPathogenicIntensity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">midly impacting disease-relevant process</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AD_DROP</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/AD-DROP#communlyFrequentdisease-relevantProcess">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/AD-DROP#disease-relevantProcessByFrequency"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">communly frequent disease-relevant process</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AD_DROP</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/AD-DROP#lifedisease-relevantProcess">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/AD-DROP#disease-relevantProcessBySpecificity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">life disease-relevant process</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AD_DROP</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/AD-DROP#otherdisease-relevantProcess">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/AD-DROP#identifieddisease-relevantProcess"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other disease-relevant process</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AD_DROP</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/AD-DROP#frequentdisease-relevantProcess">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/AD-DROP#disease-relevantProcessByFrequency"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">frequent disease-relevant process</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AD_DROP</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/AD-DROP#highlyImpactingdisease-relevantProcess">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/AD-DROP#disease-relevantProcessByPathogenicIntensity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">highly impacting disease-relevant process</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AD_DROP</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/AD-DROP#occasionaldisease-relevantProcess">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/AD-DROP#disease-relevantProcessByFrequency"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">occasional disease-relevant process</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AD_DROP</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/AD-DROP#neurodegenerativeDiseasedisease-relevantProcess">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/AD-DROP#disease-relevantProcessBySpecificity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neurodegenerative disease disease-relevant process</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AD_DROP</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.semanticweb.org/AD-DROP#AlzheimerDiseasedisease-relevantProcess">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/AD-DROP#disease-relevantProcessBySpecificity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alzheimer Disease disease-relevant process</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AD_DROP</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/AD-DROP#pathologicaldisease-relevantProcess">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/AD-DROP#identifieddisease-relevantProcess"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathological disease-relevant process</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AD_DROP</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/AD-DROP#individualdisease-relevantProcess">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/AD-DROP#disease-relevantProcessBySpecificity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">individual disease-relevant process</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AD_DROP</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/AD-DROP#disease-relevantProcessByFrequency">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/AD-DROP#classifieddisease-relevantProcessByProperties"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease-relevant process by Frequency</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'DRP by pathogenic intensity is the upper class of 4 classes wich represente 4 levels of frequency on a scale from occasional DRP to very frequent DRP. These levels depend to the DRP value (occasional [1-24%], commun [25-49%], frequent [50-74%] and very frequent [75-100])'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AD_DROP</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/AD-DROP#disease-relevantProcessBySpecificity">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/AD-DROP#classifieddisease-relevantProcessByProperties"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease-relevant process by specificity</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'DRP by specificity is the upper class of 7 classes wich represente 7 levels of specificities on a scale from individual DRP to life-style DRP. These levels depend to the DRP value.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AD_DROP</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/AD-DROP#classifieddisease-relevantProcessByProperties">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">classified disease-relevant process by properties</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Upper class of a branch where DRPs are classified through their properties of specificity, frequency and/or pathogenic intensity toward Alzheimer disease. No DRPs should be asserted in this branch, they will be classified according logical reasoning.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AD_DROP</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/AD-DROP#identifieddisease-relevantProcess">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">identified disease-relevant process</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Upper class of a branch where DRPs are classified through their traditionnal biological level (gene-related, molecular, physiological…). Any DRPs should be asserted in this branch.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AD_DROP</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/AD-DROP#disease-relevantProcessByPathogenicIntensity">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/AD-DROP#classifieddisease-relevantProcessByProperties"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease-relevant process by pathogenic intensity</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'DRP by pathogenic intensity is the upper class of 3 classes wich represente 3 levels of pathogenic intensity on a scale from lowly intense DRP to highly DRP. These levels depend to the DRP value (low [1-3], middle [4-7], high [8-] according lancet score (Lancet's “population attributable fraction” attributed to this DRP (p. 428, Livingston et al., 2020)))'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AD_DROP</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

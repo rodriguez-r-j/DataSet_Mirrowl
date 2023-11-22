@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:ns2="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/ICD10/K00-K93.9">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K00-K93.9</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diseases of the digestive system</ns2:prefLabel>
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diseases of the digestive system</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#illness_and_injury">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">illness and injury</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LLNESS AND INJUR</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LLNESS AND INJUR</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/ICD10/J00-J99.9">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J00-J99.9</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diseases of the respiratory system</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diseases of the respiratory system</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="urn:agi-folder:diseases_of_the_eye">
+    <rdfs:subClassOf rdf:resource="urn:agi-folder:disease"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diseases of the eye</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NodeType: Folder</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BPT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#Cancers">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/unnamed.owl#IllnessInjury"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cancers</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neoplasms</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ILLNESSINJURY</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/ICD10/G00-G99.9">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G00-G99.9</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diseases of the nervous system</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diseases of the nervous system</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="urn:agi-folder:diseases_of_the_musculoskeletal_system">
+    <rdfs:subClassOf rdf:resource="urn:agi-folder:disease"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diseases of the musculoskeletal system</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NodeType: Folder</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BPT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#injuries">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">injuries</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NJURIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NJURIE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#infectious_diseases">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infectious diseases</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFECTIOUS DISEASE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFECTIOUS DISEASE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/ICD10/I00-I99.9">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I00-I99.9</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diseases of the circulatory system</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diseases of the circulatory system</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#infant_death">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infant_death</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFANT_DEAT</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFANT_DEAT</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preferred label</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#diseases_of_the_respiratory_system">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diseases_of_the_respiratory_system</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISEASES_OF_THE_RESPIRATORY_SYSTE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISEASES_OF_THE_RESPIRATORY_SYSTE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D066088">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D003643"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infant Death</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infant Deaths</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The death of a live-born INFANT within its first year of life.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#diseases_of_the_blood">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diseases_of_the_blood</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISEASES_OF_THE_BLOO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISEASES_OF_THE_BLOO</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="urn:agi-folder:diseases_of_the_blood">
+    <rdfs:subClassOf rdf:resource="urn:agi-folder:disease"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diseases of the blood</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NodeType: Folder</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BPT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#diseases_of_the_skin">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diseases_of_the_skin</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISEASES_OF_THE_SKI</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISEASES_OF_THE_SKI</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#congenital_malformations_deformations_and_chromosomal_abnormalities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">congenital_malformations_deformations_and_chromosomal_abnormalities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONGENITAL_MALFORMATIONS_DEFORMATIONS_AND_CHROMOSOMAL_ABNORMALITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONGENITAL_MALFORMATIONS_DEFORMATIONS_AND_CHROMOSOMAL_ABNORMALITIE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="urn:agi-folder:diseases_of_the_skin">
+    <rdfs:subClassOf rdf:resource="urn:agi-folder:disease"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diseases of the skin</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NodeType: Folder</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BPT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/DIASUS/OntoSIM#CausasExternas">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/DIASUS/OntoSIM#CausasDoObito"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">External causes</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOSIM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/LNC/LP97560-4">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LP97560-4</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infectious diseases</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/LNC/LP33025-5"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infectious diseases</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOINC</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#diseases_of_the_ear">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diseases_of_the_ear</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISEASES_OF_THE_EA</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISEASES_OF_THE_EA</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#diseases_of_the_genitourinary_system">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diseases_of_the_genitourinary_system</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISEASES_OF_THE_GENITOURINARY_SYSTE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISEASES_OF_THE_GENITOURINARY_SYSTE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/Q000293">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">injuries</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trauma</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Used with anatomic headings, animals, and sports for wounds and injuries. Excludes cell damage, for which 'pathology' is used.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#mental_and_behavioural_disorders">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mental_and_behavioural_disorders</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENTAL_AND_BEHAVIOURAL_DISORDER</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENTAL_AND_BEHAVIOURAL_DISORDER</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#diseases_of_the_eye">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diseases_of_the_eye</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISEASES_OF_THE_EY</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISEASES_OF_THE_EY</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#diseases_of_the_nervous_system">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diseases_of_the_nervous_system</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISEASES_OF_THE_NERVOUS_SYSTE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISEASES_OF_THE_NERVOUS_SYSTE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#endocrine_nutritional_and_metabolic_diseases">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endocrine_nutritional_and_metabolic_diseases</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NDOCRINE_NUTRITIONAL_AND_METABOLIC_DISEASE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NDOCRINE_NUTRITIONAL_AND_METABOLIC_DISEASE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#pregnancy_childbirth">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pregnancy_childbirth</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGNANCY_CHILDBIRT</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGNANCY_CHILDBIRT</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/ICD10/N00-N99.9">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N00-N99.9</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diseases of the genitourinary system</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diseases of the genitourinary system</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#diseases_of_the_circulatory_system">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diseases_of_the_circulatory_system</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISEASES_OF_THE_CIRCULATORY_SYSTE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISEASES_OF_THE_CIRCULATORY_SYSTE</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">notation</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#external_causes">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">external_causes</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XTERNAL_CAUSE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XTERNAL_CAUSE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="urn:agi-folder:diseases_of_the_ear">
+    <rdfs:subClassOf rdf:resource="urn:agi-folder:disease"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diseases of the ear</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NodeType: Folder</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BPT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#symptoms_unspecified_unknown">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms_unspecified_unknown</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YMPTOMS_UNSPECIFIED_UNKNOW</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YMPTOMS_UNSPECIFIED_UNKNOW</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#diseases_of_the_musculoskeletal_system">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diseases_of_the_musculoskeletal_system</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISEASES_OF_THE_MUSCULOSKELETAL_SYSTE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISEASES_OF_THE_MUSCULOSKELETAL_SYSTE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#diseases_of_the_digestive_system">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diseases_of_the_digestive_system</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISEASES_OF_THE_DIGESTIVE_SYSTE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISEASES_OF_THE_DIGESTIVE_SYSTE</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#IllnessInjury">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Illness and Injury</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morbidity and Mortality</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ILLNESSINJURY</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/LNC/LP33025-5">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LP33025-5</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Newborn screening panel</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/LNC/LP7786-9"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/LNC/LP7834-7"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Newborn screening panel</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOINC</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/LNC/LP7834-7">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LP7834-7</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PANEL.CHEM</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/LNC/LP7786-9"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemistry Panels</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PANEL.CHEM</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOINC</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/LNC/LP7786-9">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LP7786-9</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEM</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/LNC/LP343631-0"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemistry - non-challenge</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEM</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOINC</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="urn:agi-folder:pathways">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathways</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NodeType: Folder</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BPT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D010335">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D013568"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathologic Processes</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Processes, Pathologic</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The abnormal mechanisms and forms involved in the dysfunctions of tissues and organs.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D013568">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathological Conditions, Signs and Symptoms</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Symptoms and General Pathology</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Abnormal anatomical or physiological conditions and objective or subjective manifestations of disease, not classified as disease or syndrome.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D003643">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D010335"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Death</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cardiac Death</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Irreversible cessation of all bodily functions, manifested by absence of spontaneous breathing and total loss of cardiovascular and cerebral functions.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/LNC/LP343631-0">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/LNC/LP29693-6"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemistry and Chemistry - challenge</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemistry and Chemistry challenge</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOINC</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/DIASUS/OntoSIM#CausasDoObito">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Causas do óbito</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOSIM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/LNC/LP29693-6">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/LNC/LP432695-7"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laboratory</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lab</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOINC</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/LNC/MTHU000999">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MTHU000999</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOINCPARTS</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOINCPARTS</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOINC</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/LNC/LP432695-7">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/LNC/MTHU000999"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">{component}</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOINC</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="urn:agi-folder:disease">
+    <rdfs:subClassOf rdf:resource="urn:agi-folder:pathways"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NodeType: Folder</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BPT</ns1:ontology_acronm>
+  </owl:Class>
+</rdf:RDF>

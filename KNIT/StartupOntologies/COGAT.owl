@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#con_4dfb9a322be5a">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-back</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'participants are asked to identify the spatial location of the dot in the current picture'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_55315226076d3">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cue</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_55315323a698b">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Average minus Left Foot</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_553152bf58a31">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right Foot minus Average</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_553999f2c69ef">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">go-critical minus go-noncritical</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_553152a7a0b6c">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left Foot minus Average</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_5531515c422fe">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Negative 0-back</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_553151ccb63f4">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Negative Tool</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_553151539f545">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Negative 2-back</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_55314b5e393d2">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-back Tool</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_55315270d1e14">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left Foot</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_55315317b4224">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Average minus Cue</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_5531519b47d97">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tool minus Average</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_553152c97dd5d">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right Hand minus Average</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_55315184e74dd">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Face minus Average</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_553152e128eb4">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Negative Left Foot</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_55314b688f165">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-back</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_5531530759866">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Negative Tongue</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_553151eda891e">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Average minus Place</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_553151fe97771">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Average minus Tool</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_55314b56bceed">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-back Place</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_55314b1edb310">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-back Tool</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_553152908ac51">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tongue</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_5531516762fb2">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-back minus 2-back</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_553151b0cb13c">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Negative Body</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_5531534a03607">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Average minus Right Hand</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_5531518f600cf">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Place minus Average</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_553152d8c233d">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Negative Cue</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_55314b49e5c9d">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-back Face</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_55314b78d85fd">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-back minus 0-back</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_5531528173117">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right Foot</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_553152f4dbf86">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Negative Right Foot</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_5531529f4645b">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cue minus Average</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_5531533c43e15">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Average minus Right Foot</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_55315278ea6cc">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left Hand</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_55314b2a72bee">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-back Body</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_553152984f850">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Average</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_553151ba0be1f">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Negative Face</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_553152b1dfd37">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left Hand minus Average</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_553153113dfc5">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Negative Average</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_553152e8980dd">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Negative Left Hand</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_4de6c00e51eda">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">right hand</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_553151dd37b0d">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Average minus Body</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_553151e627665">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Average minus Face</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_553152d16cfe1">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tongue minus Average</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_5531532dc579d">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Average minus Left Hand</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_553152fd52bf1">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Negative Right Hand</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_5531517957741">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Body minus Average</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_55315357c5638">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Average minus Tongue</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="file:/srv/ncbo/repository/COGAT/8/cogat.owl#cnt_553151c3b05f5">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Negative Place</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COGAT</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

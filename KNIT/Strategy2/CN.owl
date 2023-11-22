@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns1="http://ontology.test.es/comment#"
+>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#10base2">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10base2</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0BASE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0BASE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#802.11_n">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">802.11_n</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02.11_</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02.11_</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks#100BASET2">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Ethernet"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100BASET2</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#802.11_ad">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">802.11_ad</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02.11_A</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02.11_A</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#10basef">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10basef</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0BASE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0BASE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks#Rigndael/AES">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Block_Cipher"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rigndael/AES</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#802.11_g">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">802.11_g</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02.11_</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02.11_</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks#FDM/WDM">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Circuit_Mode"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FDM/WDM</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks#100BASEFX">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Ethernet"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100BASEFX</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#ssl/tls">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ssl/tls</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SL/TL</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SL/TL</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#2g">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2g</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks#802.11-1997">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/WLAN"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">802.11-1997</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#10base5">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10base5</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0BASE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0BASE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#100basefx">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100basefx</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">00BASEF</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">00BASEF</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#sonet/sdh">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sonet/sdh</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONET/SD</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONET/SD</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks#SSL/TLS">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Virtual_Private_Network"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SSL/TLS</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#glass/plastics">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glass/plastics</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LASS/PLASTIC</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LASS/PLASTIC</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#1000baset">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1000baset</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">000BASE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">000BASE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#802.11_a_ofdm_waveform">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">802.11_a_ofdm_waveform</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02.11_A_OFDM_WAVEFOR</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02.11_A_OFDM_WAVEFOR</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#1000basex">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1000basex</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">000BASE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">000BASE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#rigndael/aes">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rigndael/aes</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IGNDAEL/AE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IGNDAEL/AE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#10baset">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10baset</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0BASE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0BASE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks#802.3X">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks#1000BASEX"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">802.3X</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks#10BASEF">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Ethernet"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10BASEF</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#100baset2">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100baset2</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">00BASET</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">00BASET</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#802.11_ac">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">802.11_ac</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02.11_A</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02.11_A</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks#10BASET">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Ethernet"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10BASET</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#802.11-2012">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">802.11-2012</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02.11-201</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02.11-201</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks#Glass/Plastics">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Optical_Fibre"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glass/Plastics</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#9p">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9p</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks/Google">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/World_Wide_Web"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Google</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#100vg-any_lan">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100vg-any_lan</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">00VG-ANY_LA</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">00VG-ANY_LA</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks#802.11-2012">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/WLAN"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">802.11-2012</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#t">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">t</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#802.3ab">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">802.3ab</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02.3A</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02.3A</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks#SONET/SDH">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Protocol"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SONET/SDH</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Synchronous Optical Networking (SONET) and Synchronous Digital Hierarchy (SDH)'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#lucifer/des">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lucifer/des</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UCIFER/DE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UCIFER/DE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks#100BASET4">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Ethernet"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100BASET4</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks#Lucifer/DES">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Block_Cipher"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lucifer/DES</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks#802.3">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Ethernet"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">802.3</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#100basetx">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100basetx</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">00BASET</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">00BASET</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#802.11_b">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">802.11_b</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02.11_</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02.11_</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#100baset4">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100baset4</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">00BASET</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">00BASET</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#google+">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">google+</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OOGLE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OOGLE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks#802.11-2007">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/WLAN"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">802.11-2007</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks#A5/2">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Stream_Cipher"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A5/2</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks#A5/1">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Stream_Cipher"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A5/1</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks#10BASE2">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Ethernet"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10BASE2</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#4g">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4g</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#802.3">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">802.3</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02.</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02.</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#802.3x">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">802.3x</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02.3</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02.3</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#802.11-2007">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">802.11-2007</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02.11-200</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02.11-200</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#3g">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3g</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#fdm/wdm">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fdm/wdm</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DM/WD</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DM/WD</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#client/server">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">client/server</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIENT/SERVE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIENT/SERVE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks#CSMA/CD">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Ethernet"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CSMA/CD</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#802.11-1997">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">802.11-1997</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02.11-199</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02.11-199</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#csma/cd">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">csma/cd</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SMA/C</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SMA/C</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#a5/2">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a5/2</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5/</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5/</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#a5/1">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a5/1</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5/</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5/</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks#802.3ab">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks#1000BASET"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">802.3ab</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks#10BASE5">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Ethernet"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10BASE5</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks#Client/Server">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Network_Operating_System"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Client/Server</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks#100BASETX">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Ethernet"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100BASETX</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks/Gigabit_Ethernet">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Ethernet"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gigabit_Ethernet</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks/System_Security">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Security"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System_Security</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks#Wired/Guided_Media">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Communication_Media"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wired/Guided_Media</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks#1000BASET">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Gigabit_Ethernet"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1000BASET</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks/Communication_Media">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Computer_Networks"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Communication_Media</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks/Stream_Cipher">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Symmetrie_Encryption"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stream_Cipher</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks/Wireless">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Communication_Media"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wireless</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks/Ethernet">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Protocol"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ethernet</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks/Internet">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Scope"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Internet</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks/Symmetrie_Encryption">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Security"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Symmetrie_Encryption</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks/WLAN">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/IEEE_802.11"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLAN</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'wireless local area network'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks/World_Wide_Web">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Internet"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">World_Wide_Web</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks/Security">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Computer_Networks"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Security</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks/Scope">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Computer_Networks"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scope</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks/Network_Operating_System">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Computer_Networks"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Network_Operating_System</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks/IEEE_802.11">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Wireless"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IEEE_802.11</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Institute of Electrical and Electronics Engineers 802.11'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks/Block_Cipher">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Symmetrie_Encryption"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Block_Cipher</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks/Protocol">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Computer_Networks"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protocol</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks/Multiplexing">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Radio_and_Spread_Spectrum"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multiplexing</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks/Circuit_Mode">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Multiplexing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circuit_Mode</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks/Optical_Fibre">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks#Wired/Guided_Media"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optical_Fibre</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks/Virtual_Private_Network">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/System_Security"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Virtual_Private_Network</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks#1000BASEX">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Gigabit_Ethernet"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1000BASEX</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks/Radio_and_Spread_Spectrum">
+    <rdfs:subClassOf rdf:resource="http://mmisw.org/ont/Technology/ComputerNetworks/Wireless"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Radio_and_Spread_Spectrum</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://mmisw.org/ont/Technology/ComputerNetworks/Computer_Networks">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computer_Networks</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000439">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000440"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long non-coding rna</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Any RNA longer than 200 nucleotides that does not encode a protein.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000357">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000203"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stable microtubule</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A microtubule with a relatively long lifetime in the cell (in contrast to a dynamic microtubule), and characterized by the presence of detyrosinated and acetylated tubulin dimers'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000377">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000353"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mrna translation</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The process by which a particular sequence of bases in messenger RNA (mRNA) determines a sequence of amino acids in a polypeptide chain during protein and peptide biosynthesis.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000437">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000486"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">measurement</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A quantitative description that reflects the magnitude of some attribute.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000436">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000486"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plane of section</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A body plane of section is an imaginary flat surface that is used to define a particular area of anatomy.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000351">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000150"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chronic pain</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Pain lasting longer than 3-6 months, or beyond the 'normal' period of healing.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000355">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000022"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">growth cone filopodium</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A long thin spike-like cell projection containing actin filaments that extends from a growth cone.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000367">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000112"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spinal cord injury</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The process of causing damage to the spinal cord.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000432">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000062"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sagittal section</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A tissue section cut in a sagittal plane.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000434">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000062"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coronal section</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A tissue section cut in a coronal plane.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000431">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000485"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription factor</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein that binds to a specific DNA sequence upstream of a coding region and triggers the assembly of an RNA polymerase complex and the production of mRNA or other RNA species.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000447">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000190"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">collapsed morphology</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Morphology of a growth cone in which filopodia and lamellipodia have retracted, leaving a smooth convex tip.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000448">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000190"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filopodial</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Morphological feature involving slender elongated cytoplasmic projections containing actin filaments.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000372">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000020"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mechanical stimulation</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The process of producing a reaction in a sensory end organ by a mechanical agent or stimulus that initiates a nerve impulse and results in functional activity of an effector.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000458">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000457"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neurotransmitter stimulation</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The process of exposing a cell or tissue to a neurotransmitter to provoke a specific response.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000444">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000443"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dendrite shaft</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The part of a dendrite proximal to the tip or growth cone, normally delineated from the tip by differing cytoskeletal features.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000435">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000062"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">longitudinal section</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A tissue section cut in a longitudinal plane.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000350">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000319"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuronal development</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The process of growth and differentiation of neurons.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_000046">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000500"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryo</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The developmental stage of an animal while it is isolated from the external environment by egg membranes, fetal membranes, etc.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000369">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000485"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subunit</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A distinct component of something.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000374">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000264"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuron degeneration</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The death and subsequent loss of neurons following disease, insult, or injury.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000449">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000190"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lamellipodial</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Morphological feature involving sheet-like cytoplasmic protrusions containing actin meshwork.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000366">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000095"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dendrite guidance</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Any process that influences the direction of dendrite growth.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000362">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000353"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">growth</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">extension</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The process of undergoing development by increasing in size and changing physically; maturation.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000363">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000359"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sensory neuron</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A neuron with a peripheral axon or specialized terminal that is activated by sensory input, and transmits a signal to the CNS.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000354">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000152"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuronal cell death</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Any biological process that results in permanent cessation of all vital functions of a neuronal cell.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000376">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000051"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">corticospinal tract axon</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An axon extending from a neuron in the primary motor cortex, supplementary motor area, the premotor cortex, or the somatosensory cortex.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000352">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000156"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">secondary damage</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Secondary damage is a state that is an indirect result of an insult. It results from processes initiated by trauma.  It occurs in the hours and days following a primary injury and may play a large role in the damage and death that results from spinal cord injury or traumatic brain injury.  Factors that contribute to secondary damage include excitotoxicity, breakdown of the blood–brain barrier, edema, ischemia hypoxia, and immune system reaction.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000365">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000359"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">propriospinal neuron</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A neuron with both cell body and axonal projections confined to the spinal cord.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000438">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000069"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dependence receptor</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Receptor that induces apoptosis in the absence of the required stimulus (when occupied by a trophic ligand, or possibly when bound by a competing, nontrophic ligand), but blocks apoptosis following binding to its ligand.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000445">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000442"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dendrite branch</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A segment of a dendrite that splits off from the main projection.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000364">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000095"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuron projection guidance</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Any process that influences the direction of neuron projection migration.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000459">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000457"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">growth factor stimulation</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The process of exposing a cell or tissue to a growth factor to provoke a specific response.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000361">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000481"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cavity</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A hollow place or space, or a potential space, within the body or one of its organs. The thoracic cavity is an example.  An abnormal cavity can also occur in a tissue, like the spinal cord, as a result of some injury followed by an inflammatory reaction.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000358">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000061"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vascular endothelial growth factor</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEGF</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A member of VEGF subfamily of the PDGF growth factor family; the mature form is a disulfide linked homodimer. This protein is a glycosylated mitogen that acts through receptor tyrosine kinases and other receptors on endothelial cells and numerous other cell types.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000371">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000339"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuron regeneration</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The process of neuron regrowth following injury.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000375">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000500"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An organism of the kingdom Animalia.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000368">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000038"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">serine-threonine phosphorylation</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The addition of phosphates to a protein on hydroxyl groups either of serine or threonine residues or both. A common method for regulating activity, the effect being reversed by protein phosphatases.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000370">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000502"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spinal cord</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The part of the central nervous system lodged in the spinal canal, extending from the medulla oblongata down through the spinal column and from which the spinal nerves branch off to various parts of the body. It is composed of an inner core of gray substance in which nerve cells predominate and an outer layer of white substance in which myelinated nerve fibers predominate.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000373">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000071"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lesion</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An area of damaged tissue that is the result of an injury.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000360">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000232"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dual specificity kinase</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein kinase that phosphorylates its substrate proteins both on serine or threonine and on tyrosine residues.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000393">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000138"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">growth inhibitor</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A chemical (typically a polypeptide) that binds to cell surface receptors to inhibit cell division, cell growth and/or cell survival.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000203">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000259"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microtubule</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A component of the cytoskeleton, a tubule of 25 nm outside diameter with a wall 5 nm thick, assembled from heterodimers of tubulin packed in a regular fashion and associated with various other proteins (including microtubule associated proteins (MAPs), dynein, and kinesin).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000485">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000483"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">role</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A realizable entity that describes behaviors, rights and obligations of an entity in some particular circumstance.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000457">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000020"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical stimulation</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The process of exposing a cell or tissue to a chemical to provoke a specific response.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000353">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0008000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological process</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Any process specifically pertinent to the functioning of integrated living units: cells, tissues, organs, and organisms. A process is a collection of molecular events with a defined beginning and end.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000483">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">attribute</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A characteristic of some entity.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000232">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000126"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein kinase</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Kinase that acts on proteins, phosphorylating them on their serine, threonine, tyrosine, or histidine residues.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000441">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000482"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuronal process part</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A substructure of a neuronal process.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0008003">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000484"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">condition</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The state of something with regard to its appearance, quality, or working order.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000112">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000287"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nervous system injury</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neural injury</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The process of causing damage to the nervous system.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000356">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000045"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">axon</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nerve fiber</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The process extending from the cell body of a neuron that normally carries outgoing action potentials towards the target cell. These are generally of a constant radius and may be very long (millimeters to centimeters).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000266">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000084"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macromolecule</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A molecule containing a very large number of atoms, such as a protein, nucleic acid, or synthetic polymer.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000301">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000500"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A self-replicating biological unit enclosed by a plasma membrane and containing cytoplasm, ribosomes, and DNA.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000481">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A physical entity that is spatially extended, exists as a whole at any point in time and has mass.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000022">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000482"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filopodium</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A long thin spike-like cell projection containing actin filaments.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000359">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000301"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuron</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An excitable cell that transmits electrical signals to recipient cells through synapses.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000229">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000266"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleic acid</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A linear nucleotide polymer with 3′,5′-phosphodiester linkages.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000332">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000353"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">development</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The process of growth and differentiation.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000499">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000498"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterogeneous substance</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A material entity that is composed of more than one different kind of chemical component.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000259">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000500"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cytoskeleton</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The cytoplasmic elements that confer mechanical properties and motility to a cell. The main components are long polymers of actin (microfilaments) that form a meshwork, polymers of tubulin (microtubules), and the intermediate filaments(polymers of various proteins), together with a range of anchoring, crosslinking, and motor proteins.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000071">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000500"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tissue</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A group or layer of cells that perform a particular function. Tissues represent a level of organization intermediate between cells and organs; organs are made up of more than one tissue.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000484">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000483"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An attribute that is intrinsically associated with its bearer (or its parts), but whose presence/absence and observed/measured value may vary.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000062">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000502"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">histological tissue section</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A histological tissue section is a thin piece of tissue sliced from an organ or piece of tissue.  Typically the section is used for some histological study using dyes or antibodies.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000442">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000441"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">branch</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A segment of a neuronal process that splits off from the main projection.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000069">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000485"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">receptor</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A cell-surface or intracellular molecule, typically a protein, that binds a ligand selectively to yield a cellular response.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000486">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information content entity</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An object that requires some background knowledge or procedure to correctly interpret.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000051">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000356"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cortical axon</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An axon extending from a neuron in the cerebral cortex.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000287">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0008000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">injury</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The process of causing damage to an entity or tissue.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000264">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000353"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">degeneration</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The process whereby a cell, tissue, or organ changes to a less specialized or functionally less active form.
+'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000482">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000500"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell projection</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A prolongation or process extending from a cell.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000095">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000353"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">guidance</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Any process that influences the direction of growth or extension.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000443">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000441"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shaft</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The part of a neurite proximal to the tip or growth cone, normally delineated from the tip by differing cytoskeletal features.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000038">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000353"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phosphorylation</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The addition of phosphate groups to a molecule.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000061">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000266"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A linear polymer of amino acids linked by peptide bonds in a sequence specified by mRNA.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000319">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000332"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neural development</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The process of growth and differentiation of the neural system.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000156">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000121"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tissue damage</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A state of injury to tissue.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0008000">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">process</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An entity that is identifiable only through the unfolding of time, has temporal parts, and unless otherwise specified/predicted, cannot be identified from any instant of time in which it exists.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000339">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000353"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regeneration</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The process of tissue regrowth following damage or injury.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000500">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000499"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological entity</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A heterogeneous substance that contains genomic material or is the product of a biological process.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000498">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000481"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical entity</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A material entity composed of chemical(s).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000045">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000482"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuronal process</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A projection extending from a neuron.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000020">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0008000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stimulation</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The process of applying energy to a cell or tissue to provoke a specific response.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000138">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000485"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inhibitor</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A substance which slows down or prevents a particular chemical reaction or other process or which reduces the activity of a particular reactant, catalyst, or enzyme.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000152">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000353"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell death</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Any biological process that results in permanent cessation of all vital functions of a cell.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000084">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000498"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecule</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The mereological maximal sum of a collection of covalently bonded atoms.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000440">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000229"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ribonucleic acid</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A linear polymer of ribose units linked through 3′ and 5′ positions by a phosphodiester bond and with a purine or pyrimidine base attached in the 1′ position.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000150">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0008003"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pain</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Unpleasant physical sensation caused by illness or injury.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000190">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000484"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">morphology</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A set of defining structural features.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000502">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000500"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organ part</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A subsection of an organ.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000126">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0008001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kinase</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An enzyme that transfers phosphate groups from high-energy donor molecules, such as adenosine triphosphate, to specific substrates, a process referred to as phosphorylation.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0008001">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0000061"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enzyme</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Macromolecules that are selective catalysts, accelerating both the rate and specificity of metabolic reactions. Most known enzymes are proteins, although catalytic RNA molecules have been identified. Enzymes adopt a specific three-dimensional structure, and may employ organic (e.g. biotin) and inorganic (e.g. magnesium ion) cofactors to assist in catalysis.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000121">
+    <rdfs:subClassOf rdf:resource="http://regenbase.org/ontology#RB_0008003"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">damage</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A state of physical harm that impairs the value, usefulness, or normal function of something.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

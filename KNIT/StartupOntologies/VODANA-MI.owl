@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/Bad">
+    <rdfs:subClassOf rdf:resource="https://www.vodan-totafrica.info/vocs/miv/HealthAccess"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bad</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The health access situation of the population of interviewee is bad'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/HomeRented">
+    <rdfs:subClassOf rdf:resource="https://www.vodan-totafrica.info/vocs/miv/Shelter"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Home Rented</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Place rented by UNHCR (United Nations High Commissioner for Refugees) and used as a permanent semi-permanent residence for the interviewee'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/Authority">
+    <rdfs:subClassOf rdf:resource="https://www.vodan-totafrica.info/vocs/miv/SourcePerson"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Authority</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Entity having executive power on given entity'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/CaritasInternationalis">
+    <rdfs:subClassOf rdf:resource="https://www.vodan-totafrica.info/vocs/miv/MigrantHelpOrganization"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caritas Internationalis</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Confederation of over 160 members who are working at the grassroots in almost every country of the world. It is the helping hand of the Church reaching out to the poor, vulnerable and excluded, regardless of race or religion'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/FearOfCovid">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fear Of Covid</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Indicates whether the interviewee is afraid of COVID-19 infection'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/EconomicHelp">
+    <rdfs:subClassOf rdf:resource="https://www.vodan-totafrica.info/vocs/miv/Help"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Economic Help</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Indicates whether the interviewee has received any economic help action'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/EAA">
+    <rdfs:subClassOf rdf:resource="https://www.vodan-totafrica.info/vocs/miv/MigrantHelpOrganization"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EAA</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Entraide et Avenir d’Afrique'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/IllegallyThroughLibya">
+    <rdfs:subClassOf rdf:resource="https://www.vodan-totafrica.info/vocs/miv/Illegally"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Illegally - Through Libya</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Someone who wants even to leave illegally to Europe through Libya'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/MSF">
+    <rdfs:subClassOf rdf:resource="https://www.vodan-totafrica.info/vocs/miv/MigrantHelpOrganization"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSF</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Médecins sans frontiéres'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="https://www.vodan-totafrica.info/vocs/miv/CelluleDeSolidaritéAfricaine">
+    <rdfs:subClassOf rdf:resource="https://www.vodan-totafrica.info/vocs/miv/MigrantHelpOrganization"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cellule De Solidarité Africaine</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Cellule de solidarité africaine-COVID-19-Tunisie'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </rdf:Description>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#did_not_leave">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">did not leave</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID NOT LEAV</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID NOT LEAV</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/IOM">
+    <rdfs:subClassOf rdf:resource="https://www.vodan-totafrica.info/vocs/miv/MigrantHelpOrganization"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IOM</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'International Organization for Migration'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#is_not_ill">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is not ill</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S NOT IL</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S NOT IL</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/DifficultEconomicSituation">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficult Economic Situation</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Indicates whether the interviewee has difficult economic situation due to lockdown'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/Migrant">
+    <rdfs:subClassOf rdf:resource="https://www.vodan-totafrica.info/vocs/miv/Interviewee"/>
+    <rdfs:subClassOf rdf:resource="https://www.vodan-totafrica.info/vocs/miv/Migrant"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Migrant</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Someone who voluntarily chooses to leave his or her own country and make a new life in another country'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/MedicalAssistance">
+    <rdfs:subClassOf rdf:resource="https://www.vodan-totafrica.info/vocs/miv/Help"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medical Assistance</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Indicates whether the interviewee has received any medical assistance action'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#has_not_difficult_economic_situation">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has not difficult economic situation</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AS NOT DIFFICULT ECONOMIC SITUATIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AS NOT DIFFICULT ECONOMIC SITUATIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/IllegallyThroughTunisia">
+    <rdfs:subClassOf rdf:resource="https://www.vodan-totafrica.info/vocs/miv/Illegally"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Illegally - Through Tunisia</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Someone who wants even to leave illegally to Europe through Tunisia'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/Legally">
+    <rdfs:subClassOf rdf:resource="https://www.vodan-totafrica.info/vocs/miv/WillingToLeave"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Legally</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Someone who wants to leave legally to Europe'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/Journalist">
+    <rdfs:subClassOf rdf:resource="https://www.vodan-totafrica.info/vocs/miv/Expert"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Journalist</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Someone who collects, writes and distributes news and other information'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/Baraacharityorganization">
+    <rdfs:subClassOf rdf:resource="https://www.vodan-totafrica.info/vocs/miv/MigrantHelpOrganization"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baraa charity organization</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Baraa charity organization, a non governmental organization'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/IllegallyThroughAlgeria">
+    <rdfs:subClassOf rdf:resource="https://www.vodan-totafrica.info/vocs/miv/Illegally"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Illegally - Through Algeria</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Someone who wants even to leave illegally to Europe through Algeria'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/Civilsociety">
+    <rdfs:subClassOf rdf:resource="https://www.vodan-totafrica.info/vocs/miv/MigrantHelpOrganization"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Civil society</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The third sector of society, distinct from government and business'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#not_enough_">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">not enough </rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OT ENOUGH</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OT ENOUGH</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#do_not_receive_medical_assistance">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">do not receive medical assistance</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O NOT RECEIVE MEDICAL ASSISTANC</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O NOT RECEIVE MEDICAL ASSISTANC</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/Interviews">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interviews</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Qualitative research technique which involves asking open-ended questions to converse with respondents and collect elicit data about a subject. Interviews are conducted with a sample from a population and the key characteristic they exhibit is their conversational tone'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/Ill">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ill</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Indicates whether someone is suffering from a disease or a health problem'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#do_not_receive_economic_help">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">do not receive economic help</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O NOT RECEIVE ECONOMIC HEL</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O NOT RECEIVE ECONOMIC HEL</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/Good">
+    <rdfs:subClassOf rdf:resource="https://www.vodan-totafrica.info/vocs/miv/HealthAccess"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Good</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The health access situation of the population of interviewee is good'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#do_not_receive_enough_economic_help">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">do not receive enough economic help</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O NOT RECEIVE ENOUGH ECONOMIC HEL</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O NOT RECEIVE ENOUGH ECONOMIC HEL</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/Ghetto">
+    <rdfs:subClassOf rdf:resource="https://www.vodan-totafrica.info/vocs/miv/Shelter"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ghetto</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A part of a city in which members of a minority group live, especially as a result of social, legal, or economic pressure'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/CNSS">
+    <rdfs:subClassOf rdf:resource="https://www.vodan-totafrica.info/vocs/miv/MigrantHelpOrganization"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CNSS</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Caisse Nationale de Sécurité Sociale (National Social Security Fund)'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/Failedseacrossing">
+    <rdfs:subClassOf rdf:resource="https://www.vodan-totafrica.info/vocs/miv/Leavingaftertheinterview"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Failed sea crossing</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The interviewee failed to leave after the interview to another location'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/NonGovernmentalOrganisation">
+    <rdfs:subClassOf rdf:resource="https://www.vodan-totafrica.info/vocs/miv/SourcePerson"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non Governmental Organisation</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Organization that is neither a part of a government nor a conventional for-profit business'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/AsylumSeeker">
+    <rdfs:subClassOf rdf:resource="https://www.vodan-totafrica.info/vocs/miv/Migrant"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asylum Seeker</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Someone who has fled from his or her own country due to fear of persecution and has applied for (legal and physical) protection in another country but has not yet had their claim for protection assessed'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/Espaceamisdesjeunes">
+    <rdfs:subClassOf rdf:resource="https://www.vodan-totafrica.info/vocs/miv/MigrantHelpOrganization"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Espace amis des jeunes</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Service provided by the National Office for Family and Population'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/Citizens">
+    <rdfs:subClassOf rdf:resource="https://www.vodan-totafrica.info/vocs/miv/MigrantHelpOrganization"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citizens</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Member of a state and a community'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#do_not_receive_enough_medical_assistance">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">do not receive enough medical assistance</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O NOT RECEIVE ENOUGH MEDICAL ASSISTANC</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O NOT RECEIVE ENOUGH MEDICAL ASSISTANC</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#no">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/CICR">
+    <rdfs:subClassOf rdf:resource="https://www.vodan-totafrica.info/vocs/miv/MigrantHelpOrganization"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CICR</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Comité international de la Croix-Rouge (CICR)=International Committee of the Red Cross (ICRC)'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/MDM">
+    <rdfs:subClassOf rdf:resource="https://www.vodan-totafrica.info/vocs/miv/MigrantHelpOrganization"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MDM</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Medecins Du Monde'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#not_afraid_of_covid">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">not afraid of covid</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OT AFRAID OF COVI</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OT AFRAID OF COVI</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/APBE">
+    <rdfs:subClassOf rdf:resource="https://www.vodan-totafrica.info/vocs/miv/MigrantHelpOrganization"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APBE</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''Action Pour le Bien être » A non governmental Organization based in Niger'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/CTR">
+    <rdfs:subClassOf rdf:resource="https://www.vodan-totafrica.info/vocs/miv/MigrantHelpOrganization"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTR</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Tunisian Council for Refugees(Conseil Tunisien des réfugiés):a non governmental organisation, partner of UN Refugee Agency which works with refugees and asylum seekers'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/Expert">
+    <rdfs:subClassOf rdf:resource="https://www.vodan-totafrica.info/vocs/miv/SourcePerson"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Expert</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Someone with broad and profound competence in a particular field'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/HealthAccess">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Health Access</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Indicates whether the health access situation of the population of interviewee is bad or good'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/Leavingaftertheinterview">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leaving after the interview</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Indicates whether the interviewee left after the interview to another location'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/Interviewee">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interviewee</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Someone who answers the questions during an interview'</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/MigrantHelpOrganization">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Migrant Help Organization</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The organization or other that gives all type of help or assistance to migrants'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/SourcePerson">
+    <rdfs:subClassOf rdf:resource="https://www.vodan-totafrica.info/vocs/miv/Interviewee"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Source Person</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Someone who provides information through formal or informal conversation.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/Shelter">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shelter</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A vital survival mechanism in times of crisis or displacement. It is also key to restoring personal security, self-sufficiency and dignity'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/Help">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Help</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Action of receiving any type of help actions'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/WillingToLeave">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Willing To Leave</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Indicates whether someone is fairly happy to leave'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://www.vodan-totafrica.info/vocs/miv/Illegally">
+    <rdfs:subClassOf rdf:resource="https://www.vodan-totafrica.info/vocs/miv/WillingToLeave"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Illegally</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Someone who wants even to leave illegally to Europe'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VODANA_MI</ns1:ontology_acronm>
+  </owl:Class>
+</rdf:RDF>

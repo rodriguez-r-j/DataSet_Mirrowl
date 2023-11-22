@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#owlclass_22d2571e_bd30_4d70_a199_6040930c4ffd">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">owlclass 22d2571e bd30 4d70 a199 6040930c4ffd</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS 22D2571E BD30 4D70 A199 6040930C4FF</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS 22D2571E BD30 4D70 A199 6040930C4FF</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#owlclass_a13e5cf3_78ae_4dd0_abda_9990085d508a">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">owlclass a13e5cf3 78ae 4dd0 abda 9990085d508a</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS A13E5CF3 78AE 4DD0 ABDA 9990085D508</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS A13E5CF3 78AE 4DD0 ABDA 9990085D508</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#owlclass_1b9a3204_7a00_4c40_9072_5752511b9b6e">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">owlclass 1b9a3204 7a00 4c40 9072 5752511b9b6e</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS 1B9A3204 7A00 4C40 9072 5752511B9B6</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS 1B9A3204 7A00 4C40 9072 5752511B9B6</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#owlclass_d2dbcf41_9798_4757_b955_a01edc227b2e">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">owlclass d2dbcf41 9798 4757 b955 a01edc227b2e</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS D2DBCF41 9798 4757 B955 A01EDC227B2</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS D2DBCF41 9798 4757 B955 A01EDC227B2</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#owlclass_1ef10fca_2476_40e7_a624_cb276cd73428">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">owlclass 1ef10fca 2476 40e7 a624 cb276cd73428</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS 1EF10FCA 2476 40E7 A624 CB276CD7342</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS 1EF10FCA 2476 40E7 A624 CB276CD7342</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#owlclass_d6fa5b10_d722_4749_ad42_04d9456b35b0">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">owlclass d6fa5b10 d722 4749 ad42 04d9456b35b0</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS D6FA5B10 D722 4749 AD42 04D9456B35B</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS D6FA5B10 D722 4749 AD42 04D9456B35B</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#owlclass_e8ed9a57_2e44_4ca1_a326_f146b1361407">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">owlclass e8ed9a57 2e44 4ca1 a326 f146b1361407</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS E8ED9A57 2E44 4CA1 A326 F146B136140</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS E8ED9A57 2E44 4CA1 A326 F146B136140</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/1/Ontology1423442513400.owl#BeingWithViraemia">
+    <rdfs:subClassOf rdf:resource="http://bioportal/bioontology.org/ontologies/HIVO0004#BiomedicalPatternRelatingToAIDS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BeingWithViraemia</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIVMT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioportal/bioontology.org/ontologies/HIVO0004#V179D-RT">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">V179D-RT</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIVMT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#owlclass_1f38eb03_a012_4873_801e_edabc48c9026">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">owlclass 1f38eb03 a012 4873 801e edabc48c9026</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS 1F38EB03 A012 4873 801E EDABC48C902</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS 1F38EB03 A012 4873 801E EDABC48C902</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/1/Ontology1423442513400.owl#BeingWithHIV1NonBSubtype">
+    <rdfs:subClassOf rdf:resource="http://bioportal/bioontology.org/ontologies/HIVO0004#BiomedicalPatternRelatingToAIDS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BeingWithHIV1NonBSubtype</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIVMT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioportal/bioontology.org/ontologies/HIVO0004#PatternRelatingToHIV-MutationInRTaseGene">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PatternRelatingToHIV-MutationInRTaseGene</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIVMT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioportal/bioontology.org/ontologies/HIVO0004#PatientGoup-HIV1">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PatientGroup-HIV1</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIVMT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#owlclass_d3559554_2866_4cd3_821a_5f4bb4842db2">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">owlclass d3559554 2866 4cd3 821a 5f4bb4842db2</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS D3559554 2866 4CD3 821A 5F4BB4842DB</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS D3559554 2866 4CD3 821A 5F4BB4842DB</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#owlclass_c0ff43aa_49fd_4c9a_a593_3d7b2cf10fa1">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">owlclass c0ff43aa 49fd 4c9a a593 3d7b2cf10fa1</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS C0FF43AA 49FD 4C9A A593 3D7B2CF10FA</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS C0FF43AA 49FD 4C9A A593 3D7B2CF10FA</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioportal/bioontology.org/ontologies/HIVO0004#PatternOfPhysicalOrLogicCombinationOfHIV-Genome">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PatternOfPhysicalOrLogicCombinationOfHIV-Genome</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIVMT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#owlclass_1195682f_8ae9_4389_a3ba_2d9b6456492e">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">owlclass 1195682f 8ae9 4389 a3ba 2d9b6456492e</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS 1195682F 8AE9 4389 A3BA 2D9B6456492</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS 1195682F 8AE9 4389 A3BA 2D9B6456492</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/1/Ontology1423442513400.owl#BeingWithHIV1BSubtype">
+    <rdfs:subClassOf rdf:resource="http://bioportal/bioontology.org/ontologies/HIVO0004#BiomedicalPatternRelatingToAIDS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BeingWithHIV1BSubtype</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIVMT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#owlclass_00000015155553636356">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">owlclass 00000015155553636356</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS 0000001515555363635</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS 0000001515555363635</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioportal/bioontology.org/ontologies/HIVO0004#V179F-RT">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">V179F-RT</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIVMT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#owlclass_00000017974604189673">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">owlclass 00000017974604189673</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS 0000001797460418967</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS 0000001797460418967</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#owlclass_03d64962_9d8f_4dc4_89e5_a3b1a1c2e34a">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">owlclass 03d64962 9d8f 4dc4 89e5 a3b1a1c2e34a</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS 03D64962 9D8F 4DC4 89E5 A3B1A1C2E34</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS 03D64962 9D8F 4DC4 89E5 A3B1A1C2E34</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/1/Ontology1423442513400.owl#CisActingDNA-Element">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/1/Ontology1423442513400.owl#SiteBindingCellularTranscriptionFactor"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/owner/ontologies/2014/2/HIVandAIDS.owl#OWLClass_00000006759062364141"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CisActingDNA-Element</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIVMT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioportal/bioontology.org/ontologies/HIVO0004#V181I-RT">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">V181I-RT</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIVMT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/1/Ontology1423442513400.owl#APOBEC-FamilyOfCellularCytidineDeaminases">
+    <rdfs:subClassOf rdf:resource="http://bioportal/bioontology.org/ontologies/HIVO0004#DynamicalEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APOBEC-FamilyOfCellularCytidineDeaminases</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIVMT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#owlclass_0064d729_c7dd_4640_ae46_3eeafb1b7e35">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">owlclass 0064d729 c7dd 4640 ae46 3eeafb1b7e35</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS 0064D729 C7DD 4640 AE46 3EEAFB1B7E3</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS 0064D729 C7DD 4640 AE46 3EEAFB1B7E3</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#owlclass_b1386349_01a4_4bb4_a238_9562e7f6b6f7">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">owlclass b1386349 01a4 4bb4 a238 9562e7f6b6f7</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS B1386349 01A4 4BB4 A238 9562E7F6B6F</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS B1386349 01A4 4BB4 A238 9562E7F6B6F</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#v106a_m-rt">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">v106a m-rt</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">106A M-R</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">106A M-R</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#owlclass_00000017727981930315">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">owlclass 00000017727981930315</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS 0000001772798193031</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS 0000001772798193031</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioportal/bioontology.org/ontologies/HIVO0004#PatternOfMultipleMutationOrTheirLogicalCombinationOfHIV-Genome">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PatternOfMultipleMutationOrTheirLogicalCombinationOfHIV-Genome</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIVMT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#owlclass_c10889ca_aa91_434b_be96_6c1221b1ee79">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">owlclass c10889ca aa91 434b be96 6c1221b1ee79</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS C10889CA AA91 434B BE96 6C1221B1EE7</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS C10889CA AA91 434B BE96 6C1221B1EE7</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioportal/bioontology.org/ontologies/HIVO0004#V81C-RT">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">V81C-RT</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIVMT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/1/Ontology1423442513400.owl#ComparativeValueOfStrengthOfK103N-RT-Mutation-InIdentifiedTDR-RAMs">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/1/Ontology1423442513400.owl#ComparativeValueOfStrengthOfNNRTI-MutationInIdentifiedTDR-RAMs"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ComparativeValueOfStrengthOfK103N-RT-Mutation-InIdentifiedTDR-RAMs</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIVMT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#owlclass_00dbc67b_1548_4a0f_820d_8e8c38537260">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">owlclass 00dbc67b 1548 4a0f 820d 8e8c38537260</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS 00DBC67B 1548 4A0F 820D 8E8C3853726</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS 00DBC67B 1548 4A0F 820D 8E8C3853726</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#owlclass_00000018071530700829">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">owlclass 00000018071530700829</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS 0000001807153070082</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS 0000001807153070082</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#owlclass_cc1b7a0e_fdac_42af_a26d_e1c81029b880">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">owlclass cc1b7a0e fdac 42af a26d e1c81029b880</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS CC1B7A0E FDAC 42AF A26D E1C81029B88</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS CC1B7A0E FDAC 42AF A26D E1C81029B88</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#owlclass_9ec22d4b_13b8_412a_b81d_d1ed2a65cc14">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">owlclass 9ec22d4b 13b8 412a b81d d1ed2a65cc14</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS 9EC22D4B 13B8 412A B81D D1ED2A65CC1</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS 9EC22D4B 13B8 412A B81D D1ED2A65CC1</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/1/Ontology1423442513400.owl#BeingRaltegravirRecipient">
+    <rdfs:subClassOf rdf:resource="http://bioportal/bioontology.org/ontologies/HIVO0004#BiomedicalPatternRelatingToAIDS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BeingRaltegravirRecipient</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIVMT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#owlclass_16468f0a_2173_480a_aae8_d6576d7144b8">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">owlclass 16468f0a 2173 480a aae8 d6576d7144b8</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS 16468F0A 2173 480A AAE8 D6576D7144B</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS 16468F0A 2173 480A AAE8 D6576D7144B</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#owlclass_efe4e531_adc8_4c7e_a4a7_cfff998e42cb">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">owlclass efe4e531 adc8 4c7e a4a7 cfff998e42cb</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS EFE4E531 ADC8 4C7E A4A7 CFFF998E42C</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS EFE4E531 ADC8 4C7E A4A7 CFFF998E42C</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#owlclass_7d961e80_a582_49f4_b53d_58103b7f9def">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">owlclass 7d961e80 a582 49f4 b53d 58103b7f9def</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS 7D961E80 A582 49F4 B53D 58103B7F9DE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS 7D961E80 A582 49F4 B53D 58103B7F9DE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioportal/bioontology.org/ontologies/HIVO0004#PatternOfSingleMutationOfHIV-Genome">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PatternOfSingleMutationOfHIV-Genome</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIVMT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioportal/bioontology.org/ontologies/HIVO0004#T251Y-RT">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T251Y-RT</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIVMT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#owlclass_7a74bf04_3381_4332_b844_57dbc666f979">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">owlclass 7a74bf04 3381 4332 b844 57dbc666f979</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS 7A74BF04 3381 4332 B844 57DBC666F97</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLCLASS 7A74BF04 3381 4332 B844 57DBC666F97</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioportal/bioontology.org/ontologies/HIVO0004#V179E-RT">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">V179E-RT</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIVMT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/1/Ontology1423442513400.owl#CytidineToUridineEditingDuringReverseTranscription">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/1/Ontology1423442513400.owl#CytidineToUridineEditingInSpecialDynamicalContext"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CytidineToUridineEditingDuringReverseTranscription</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIVMT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioportal/bioontology.org/ontologies/HIVO0004#PatternOfMultipleMutationOrTheirPhysicalCombinationOfHIV-Genome">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PatternOfMultipleMutationOrTheirPhysicalCombinationOfHIV-Genome</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIVMT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://bioportal/bioontology.org/ontologies/HIVO0004#T251F-RT">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T251F-RT</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIVMT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/1/Ontology1423442513400.owl#ComparativeValueOfStrengthOfNNRTI-MutationInIdentifiedTDR-RAMs">
+    <rdfs:subClassOf rdf:resource="http://bioportal/bioontology.org/ontologies/HIVO0004#ComparativeValue"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ComparativeValueOfStrengthOfNNRTI-MutationInIdentifiedTDR-RAMs</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIVMT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioportal/bioontology.org/ontologies/HIVO0004#ComparativeValue">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ComparativeValue</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIVMT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioportal/bioontology.org/ontologies/HIVO0004#DynamicalFunctionWithDynamicalContext">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DynamicalFunctionWithDynamicalContext</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIVMT</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="http://www.semanticweb.org/owner/ontologies/2014/2/HIVandAIDS.owl#OWLClass_00000006759062364141">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OWLClass_00000006759062364141</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIVMT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/1/Ontology1423442513400.owl#SiteBindingCellularTranscriptionFactor">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/owner/ontologies/2014/2/HIVandAIDS.owl#OWLClass_00000006759062364141"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SiteBindingCellularTranscriptionFactor</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIVMT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioportal/bioontology.org/ontologies/HIVO0004#DynamicalEntity">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DynamicalEntity</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIVMT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/1/Ontology1423442513400.owl#CytidineToUridineEditingInSpecialDynamicalContext">
+    <rdfs:subClassOf rdf:resource="http://bioportal/bioontology.org/ontologies/HIVO0004#DynamicalFunctionWithDynamicalContext"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CytidineToUridineEditingInSpecialDynamicalContext</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIVMT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioportal/bioontology.org/ontologies/HIVO0004#BiomedicalPatternRelatingToAIDS">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BiomedicalPatternRelatingToAIDS</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIVMT</ns1:ontology_acronm>
+  </owl:Class>
+</rdf:RDF>

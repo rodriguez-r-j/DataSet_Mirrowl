@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000041">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000039"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">externally managed control</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://ontologies.khaos.uma.es#c57bl_6ncrl">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c57bl 6ncrl</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">57BL 6NCR</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">57BL 6NCR</ns1:definition>
+  </rdf:Description>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000051">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000046"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">casual randomisation and minimisation instrumentation strategy</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000010">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000038"/>
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000008"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MRC Harwell</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000054">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000046"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">minimisation instrumentation strategy</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000034">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000033"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">line mate control</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000061">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000059"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">active operator randomisation and minimisation</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000047">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000046"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">active randomisation and minimisation instrumentation strategy</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000065">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000064"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alternate mouse order</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000040">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000039"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">control breeding</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000028">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000084"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single batch per sex</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000022">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genotype free blinding</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A process in which the person performing the procedure knows the genotype information but not the allele information of the subject being phenotyped.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000045">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000043"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">internally sourced</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#b6brd">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b6brd</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6BR</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6BR</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000042">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000039"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uncontrolled stock management</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000009">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000038"/>
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000008"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baylor College of Medicine</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000060">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000059"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">active operator randomisation</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000011">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000038"/>
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000008"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wellcome Trust Sanger Institute</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000053">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000046"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">controlled instrumentation strategy</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000063">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000059"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">minimized operator</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000001">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000089"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">control mouse genetic background</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <rdf:Description rdf:about="http://ontologies.khaos.uma.es#b6n-tyr&lt;c-brd&gt;">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[b6n-tyr<c-brd>]]></rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6N-TYR&lt;C-BRD</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6N-TYR&lt;C-BRD</ns1:definition>
+  </rdf:Description>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000052">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000046"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">casual randomisation instrumentation strategy</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#c57bl_6n">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c57bl 6n</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">57BL 6</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">57BL 6</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000044">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000043"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">externally sourced</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000066">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000064"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cage active randomisation</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000062">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000059"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">balanced operator</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#c57bl_6j-tyr&lt;c-brd&gt;">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[c57bl 6j-tyr<c-brd>]]></rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">57BL 6J-TYR&lt;C-BRD</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">57BL 6J-TYR&lt;C-BRD</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000036">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000033"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pooled genetic control</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#c57bl_6ntac">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c57bl 6ntac</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">57BL 6NTA</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">57BL 6NTA</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000021">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blinded</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#c57bl_6nj">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c57bl 6nj</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">57BL 6N</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">57BL 6N</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000020">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">allele free blinding</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000027">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000084"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single batch mixed sex</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000023">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unblinded</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000048">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000046"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">active randomisation instrumentation strategy</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000035">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000033"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">littermate control</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000037">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000033"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">production colony control</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000049">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000046"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">balanced and minimisation instrumentation strategy</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000050">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000046"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">balanced instrumentation strategy</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000024">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000012"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">batch processing strategy</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000046">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000086"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">instrumentation bias management</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000092">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">process</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'organisational class'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000033">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000012"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">control design</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000019">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000012"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blinding strategy</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Where possible, experiments should be performed “blind” with respect to the treatments, particularly for tests with outcomes dependent on personal judgement. Ie. Providing the mice are not visually different, the operator should not know which is the knockout and which is the control mouse.  If you are not running controls, this question is still relevant; the operator should not know the specific details of the knockout. This includes both the genotype and the allele.  '</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000089">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'organisational class'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000008">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000090"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">core colony source</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'This class will be extended as new locations are added.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000064">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000086"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">order effect control strategy</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000038">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000090"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">control mouse production location</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'This class will be extended as new locations are added. '</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000043">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000081"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">core colony provider</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000081">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000092"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse production</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000059">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000086"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">operator effect control strategy</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000012">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000092"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse phenotyping experimental design strategy</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000039">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000081"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">control stock management</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000090">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'organisational class'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000084">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000082"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single batch</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000082">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000024"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">knockout phenotyping design</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ebi.ac.uk/efo/medo/MEDO_0000086">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/medo/MEDO_0000012"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bias reduction management</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDO</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

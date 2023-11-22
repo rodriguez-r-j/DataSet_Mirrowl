@@ -1,0 +1,1599 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://purl.obolibrary.org/obo/"
+  xmlns:ns2="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:ns3="http://www.w3.org/2004/02/skos/core#"
+  xmlns:ns4="http://www.geneontology.org/formats/oboInOWL#"
+  xmlns:ns5="http://ontology.test.es/comment#"
+  xmlns:ns6="http://www.geneontology.org/formats/oboInOwl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15841">
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polypeptides</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polypeptide</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C4H6N2O3R2(C2H2NOR)n</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polypeptide</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polipeptido</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polypeptid</ns1:IAO_0000118>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:15841</ns3:notation>
+    <ns1:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://goldbook.iupac.org/P04749.html</ns1:IAO_0000119>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A peptide containing ten or more amino acid residues.</ns1:IAO_0000115>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">containing ten or more amino acid residues.</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33839"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16670"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polypeptide</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polypeptide, polipeptido, Polypeptid, polypeptides</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A peptide containing ten or more amino acid residues.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAXO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000087">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_role</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002215">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">capable_of</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#A1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role_Has_Domain</rdfs:label>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43732"/>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43734"/>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43733"/>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43737"/>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43738"/>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43740"/>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43741"/>
+    <rdfs:range rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1908"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002204">
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene product of</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:TransitiveProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002202">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">develops from</rdfs:label>
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#ObjectProperty">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:TransitiveProperty>
+  <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000455">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is_isotopologue_of</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+  </owl:ObjectProperty>
+  <rdf:Description rdf:about="http://bioportal.bioontology.org/.well-known/genid/33a788b7-3805-4d08-ac1b-7a77008c8926/7a67b010000001f">
+    <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domain of part of</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioportal.bioontology.org/.well-known/genid/33a788b7-3805-4d08-ac1b-7a77008c8926/57e9c0100000015">
+    <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51143"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG COMPOUND</rdfs:label>
+  </rdf:Description>
+  <owl:TransitiveProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001000">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">derives from</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:TransitiveProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000178">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has continuant part at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000314">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is_proxy_for</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#code">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">code</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000457">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_normalized_counterpart</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#R123">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemotherapy_Regimen_Has_Component</rdfs:label>
+    <rdfs:range rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1908"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002206">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">expressed in</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#R29">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological_Process_Has_Result_Chemical_Or_Drug</rdfs:label>
+    <rdfs:range rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1908"/>
+  </owl:ObjectProperty>
+  <owl:SymmetricProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002220">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adjacent_to</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:SymmetricProperty>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">example_of_usage</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">example of usage</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000084">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">g depends on</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#bearer_of">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bearer_of</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#A2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role_Has_Range</rdfs:label>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C45462"/>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43726"/>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43730"/>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43742"/>
+    <rdfs:range rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1908"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FULL_SYN</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002162">
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in taxon</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#cto">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cto</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T</ns5:definition>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000157">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">during which exists</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16991">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33696"/>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNAn+1</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNS</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">desoxyribose nucleic acid</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thymus nucleic acid</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Deoxyribonucleotide)m</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desoxyribonukleinsaeure</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Deoxyribonucleotide)n+m</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deoxyribonucleic acid</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Deoxyribonucleotide)n</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deoxyribonucleic acids</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNAn</ns1:IAO_0000118>
+    <ns6:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FGED</ns6:inSubset>
+    <ns6:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deoxyribonucleic acid</ns6:hasExactSynonym>
+    <ns6:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deoxyribonucleic acids</ns6:hasExactSynonym>
+    <ns6:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33698</ns6:hasAlternativeId>
+    <ns6:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:13302</ns6:hasAlternativeId>
+    <ns6:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:4291</ns6:hasAlternativeId>
+    <ns6:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:21123</ns6:hasAlternativeId>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High molecular weight, linear polymers, composed of nucleotides containing deoxyribose and linked by phosphodiester bonds; DNA contain the genetic information of organisms.</ns1:IAO_0000115>
+    <ns1:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:16991</ns1:IAO_0000119>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desoxyribonukleinsaeure</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Deoxyribonucleotide)n+m</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Deoxyribonucleotide)n</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNAn+1</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNAn</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deoxyribonucleic acids</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thymus nucleic acid</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">desoxyribose nucleic acid</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNS</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Deoxyribonucleotide)m</ns6:hasRelatedSynonym>
+    <ns6:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG COMPOUND:C00039</ns6:hasDbXref>
+    <ns6:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChemIDplus:9007-49-2</ns6:hasDbXref>
+    <ns6:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG COMPOUND:9007-49-2</ns6:hasDbXref>
+    <ns1:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deoxyribonucleic acids</ns1:IAO_0000111>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:16991</ns3:notation>
+    <ns6:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns6:hasOBONamespace>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deoxyribonucleic acid</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'High molecular weight, linear polymers, composed of nucleotides containing deoxyribose and linked by phosphodiester bonds; DNA contain the genetic information of organisms.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEAR</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:TransitiveProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is part of</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+  </owl:TransitiveProperty>
+  <owl:TransitiveProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000187">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has continuant part at all times that part exists</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:TransitiveProperty>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000456">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_stereoundefined_parent</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">notation</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002200">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has phenotype</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000480">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has component with uncharged counterpart</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000459">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_isotopically_unspecified_parent</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P366">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Legacy_Concept_Name</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000460">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_uncharged_counterpart</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#R32">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological_Process_Has_Initiator_Chemical_Or_Drug</rdfs:label>
+    <rdfs:range rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1908"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000175">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proper part of continuant at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000462">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_same_connectivity_as</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000463">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is_diastereomer_of</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#nucleic_acid">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleic acid</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UCLEIC ACI</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UCLEIC ACI</ns5:definition>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000461">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is_stereoisomer_of</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C91090">
+    <ns2:P329 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">671851</ns2:P329>
+    <ns2:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The orotate salt form of carboxyamidotriazole (CAI), an orally bioavailable small molecule with potential antiangiogenic and antiproliferative activities. Carboxyamidotriazole binds to and inhibits non-voltage-operated calcium channels, blocking both Ca2+ influx into cells and Ca2+ release from intracellular stores, resulting in the disruption of calcium channel-mediated signal transduction. CAI inhibits PI3 activity and vascular endothelial growth factor (VEGF) signaling. This may inhibit endothelial proliferation, tumor cell growth, invasion and metastasis.</ns2:P97>
+    <ns2:P208 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL421478</ns2:P208>
+    <ns2:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carboxyamidotriazole Orotate</ns2:P108>
+    <ns2:P330 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">671851</ns2:P330>
+    <ns2:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C91090</ns2:code>
+    <ns2:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1,2,3-Carboxyamido-triazole Orotate</ns2:P90>
+    <ns2:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTO</ns2:P90>
+    <ns2:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pharmacologic Substance</ns2:P106>
+    <ns2:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organic Chemical</ns2:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1742"/>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C2189"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carboxyamidotriazole Orotate</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTO, 1,2,3-Carboxyamido-triazole Orotate, Carboxyamidotriazole Orotate, CARBOXYAMIDOTRIAZOLE OROTATE</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The orotate salt form of carboxyamidotriazole (CAI), an orally bioavailable small molecule with potential antiangiogenic and antiproliferative activities. Carboxyamidotriazole binds to and inhibits non-voltage-operated calcium channels, blocking both Ca2+ influx into cells and Ca2+ release from intracellular stores, resulting in the disruption of calcium channel-mediated signal transduction. CAI inhibits PI3 activity and vascular endothelial growth factor (VEGF) signaling. This may inhibit endothelial proliferation, tumor cell growth, invasion and metastasis.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:TransitiveProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000186">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part of continuant at all times that whole exists</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:TransitiveProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000085">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has function at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OBIws_0000062">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_description</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#macromolecule">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macromolecule</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACROMOLECUL</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACROMOLECUL</ns5:definition>
+  </owl:Class>
+  <rdf:Description rdf:about="http://bioportal.bioontology.org/.well-known/genid/33a788b7-3805-4d08-ac1b-7a77008c8926/8709c01000000a1">
+    <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36963"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed citation</rdfs:label>
+  </rdf:Description>
+  <owl:ObjectProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#R66">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical_Or_Drug_Plays_Role_In_Biological_Process</rdfs:label>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1908"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000070">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">s depends on</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#A11">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_NICHD_Parent</rdfs:label>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C307"/>
+    <rdfs:range rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1909"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#R160">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allele_Plays_Role_In_Metabolism_Of_Chemical_Or_Drug</rdfs:label>
+    <rdfs:range rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1908"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#R122">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical_Or_Drug_Is_Metabolized_By_Enzyme</rdfs:label>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1908"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000108">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exists at</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_related_synonym</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#R150">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical_Or_Drug_Affects_Abnormal_Cell</rdfs:label>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1908"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000171">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">located in at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P98">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DesignNote</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002150">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">connected to</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000053">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is bearer of</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002214">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has prototype</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000069">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">existence_ends_during</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:FunctionalProperty rdf:about="http://purl.obolibrary.org/obo/inheres_in">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inheres_in</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000052">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inheres in at all times</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:FunctionalProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000176">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part of continuant at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P208">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI_META_CUI</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002205">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has gene product</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000458">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has OPS normalized counterpart</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alternative term</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000057">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has participant</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000174">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has proper continuant part at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition source</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition_source</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002337">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">related via localization to</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000065">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has course</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_alternative_id</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#molecular_entity">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular entity</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OLECULAR ENTIT</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OLECULAR ENTIT</ns5:definition>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#R125">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical_Or_Drug_Has_Physiologic_Effect</rdfs:label>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1908"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P108">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preferred_Name</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#R72">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical_Or_Drug_Affects_Cell_Type_Or_Tissue</rdfs:label>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1908"/>
+  </owl:ObjectProperty>
+  <rdf:Description rdf:about="http://bioportal.bioontology.org/.well-known/genid/33a788b7-3805-4d08-ac1b-7a77008c8926/15b05f0000000055">
+    <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domain of part of</rdfs:label>
+  </rdf:Description>
+  <owl:ObjectProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#R124">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical_Or_Drug_Has_Mechanism_Of_Action</rdfs:label>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1908"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000454">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ligates</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000129">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">member part of at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000068">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">existence_starts_during</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P106">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Semantic_Type</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#deoxyribonucleic_acid">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deoxyribonucleic acid</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EOXYRIBONUCLEIC ACI</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EOXYRIBONUCLEIC ACI</ns5:definition>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000124">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has location at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P97">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DEFINITION</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#R146">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical_Or_Drug_Affects_Gene_Product</rdfs:label>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1908"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000123">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has spatial occupant at some time</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000478">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has component</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P329">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDQ_Open_Trial_Search_ID</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_subset</rdfs:label>
+  </owl:AnnotationProperty>
+  <rdf:Description rdf:about="http://bioportal.bioontology.org/.well-known/genid/33a788b7-3805-4d08-ac1b-7a77008c8926/1466560100000051">
+    <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domain of part of</rdfs:label>
+  </rdf:Description>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000115">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has member part at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P322">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contributing_Source</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000083">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is located at</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000066">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">occurs in</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000056">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">participates in</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P368">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI_ID</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor note</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor_note</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P325">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALT_DEFINITION</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor preferred label</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor_preferred_term</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor preferred term</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P330">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDQ_Closed_Trial_Search_ID</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P207">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI</rdfs:label>
+  </owl:AnnotationProperty>
+  <rdf:Description rdf:about="http://bioportal.bioontology.org/.well-known/genid/33a788b7-3805-4d08-ac1b-7a77008c8926/987c0100000081">
+    <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domain of part of</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Axiom">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15986">
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C10H17O10PR2(C5H8O6PR)n</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polynucleotide</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polynucleotides</ns1:IAO_0000118>
+    <ns6:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns6:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:15986</ns3:notation>
+    <ns6:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG COMPOUND:C00419</ns6:hasDbXref>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C10H17O10PR2(C5H8O6PR)n</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polynucleotides</ns6:hasRelatedSynonym>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nucleobase-containing molecular entity with an oligomeric structure comprised of a linear sequence of 13 or more nucleotide residues.</ns1:IAO_0000115>
+    <ns6:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:14859</ns6:hasAlternativeId>
+    <ns6:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:13672</ns6:hasAlternativeId>
+    <ns6:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:8312</ns6:hasAlternativeId>
+    <ns6:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polynucleotide</ns6:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33695"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_61120"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polynucleotide</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polynucleotides, Polynucleotide</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A nucleobase-containing molecular entity with a polymeric structure comprised of a linear sequence of 13 or more nucleotide residues.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NIFSTD</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36963">
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organooxygen compounds</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organooxygen compound</ns1:IAO_0000118>
+    <ns6:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns6:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36963</ns3:notation>
+    <ns6:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CiteXplore:17586126</ns6:hasDbXref>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organooxygen compounds</ns6:hasRelatedSynonym>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organochalcogen compound containing at least one carbon-oxygen bond.</ns1:IAO_0000115>
+    <ns6:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organooxygen compound</ns6:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25806"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36962"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organooxygen compound</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organooxygen compound, organooxygen compounds</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An organochalcogen compound containing at least one carbon-oxygen bond.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAXO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42698">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Terminology Entity</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Terminology Entity</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Terminology entities represent the elements that form and define an ontology.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25367">
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecula</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecule</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecules</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neutral molecular compounds</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molekuel</ns1:IAO_0000118>
+    <ns6:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns6:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:25367</ns3:notation>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecula</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neutral molecular compounds</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecules</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molekuel</ns6:hasRelatedSynonym>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An electrically neutral entity consisting of more than one atom.</ns1:IAO_0000115>
+    <ns6:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecule</ns6:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36357"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecule</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molekuel, molecules, molecula, neutral molecular compounds, molecule</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Any polyatomic entity that is an electrically neutral entity consisting of more than one atom.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NIFSTD</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33304">
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chalcogen compounds</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chalcogen molecular entity</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chalcogen molecular entities</ns1:IAO_0000118>
+    <ns6:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns6:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33304</ns3:notation>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chalcogen compounds</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chalcogen molecular entities</ns6:hasRelatedSynonym>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any p-block molecular entity containing a chalcogen.</ns1:IAO_0000115>
+    <ns6:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chalcogen molecular entity</ns6:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33675"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chalcogen molecular entity</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chalcogen molecular entities, chalcogen molecular entity, chalcogen compounds</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Any p-block molecular entity containing a chalcogen.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAXO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33675">
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p-block compounds</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p-block molecular entitiy</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p-block molecular entities</ns1:IAO_0000118>
+    <ns6:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns6:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33675</ns3:notation>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p-block molecular entitiy</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p-block molecular entities</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p-block compounds</ns6:hasRelatedSynonym>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A p-block molecular entity is a molecular entity containing one or more atoms of a p-block element.</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33579"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p-block molecular entity</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p-block molecular entities, p-block molecular entitiy, p-block compounds</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A main group molecular entity that contains one or more atoms of a p-block element.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAXO</ns5:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26548">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gene Product</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genome Encoded Entity, Gene Product</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein, RNA or a complex that contains proteins and/or RNA.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns5:ontology_acronm>
+  </rdf:Description>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C274">
+    <ns2:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A substance that inhibits the maturation, growth or spread of tumor cells.</ns2:P97>
+    <ns2:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0003392</ns2:P207>
+    <ns2:P368 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:35610</ns2:P368>
+    <ns2:P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[<ncicp:ComplexDefinition xmlns:ncicp='http://ncicb.nci.nih.gov/xml/owl/EVS/ComplexProperties.xsd#'><ncicp:def-definition>A drug used to treat cancer.</ncicp:def-definition><ncicp:def-source>NCI-GLOSS</ncicp:def-source></ncicp:ComplexDefinition>]]></ns2:P325>
+    <ns2:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antineoplastic Agent</ns2:P108>
+    <ns2:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C274</ns2:code>
+    <ns2:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antineoplastic_Agent</ns2:P366>
+    <ns2:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-Tumor Agents</ns2:P90>
+    <ns2:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-Cancer Agents</ns2:P90>
+    <ns2:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemotherapeutic agent</ns2:P90>
+    <ns2:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antiproliferative Drugs</ns2:P90>
+    <ns2:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cancer Drug</ns2:P90>
+    <ns2:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-Tumor Drugs</ns2:P90>
+    <ns2:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antiproliferative Agents</ns2:P90>
+    <ns2:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antineoplastic Drugs</ns2:P90>
+    <ns2:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemotherapeutic Agents, Neoplastic Disease</ns2:P90>
+    <ns2:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tumor-Specific Treatment Agents</ns2:P90>
+    <ns2:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antineoplastics</ns2:P90>
+    <ns2:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antineoplastic</ns2:P90>
+    <ns2:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical Viewed Functionally</ns2:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1909"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antineoplastic Agent</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antineoplastic Drugs, Antiproliferative Agents, Chemotherapeutic Agents, Neoplastic Disease, Anti-Tumor Drugs, Cancer Drug, Tumor-Specific Treatment Agents, ANTINEOPLASTIC_AGENT, Antineoplastic Drug, antineoplastic, Antineoplastics, Anti-Tumor Agents, chemotherapeutic agent, Antineoplastic Agent, Anti-Cancer Agents, Antiproliferative Drugs</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A substance that inhibits the maturation, growth or spread of tumor cells.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1908">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <ns2:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug, Food, Chemical or Biomedical Material</ns2:P108>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20189">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Property or Attribute</rdfs:label>
+        <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Property or Attribute</ns5:synonym>
+        <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A distinguishing quality or prominent aspect of a person, object, action, process, or substance.'</ns5:definition>
+        <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns5:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26548"/>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C22187">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Experimental Organism Diagnosis</rdfs:label>
+        <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-Human or Experimental Organism Diagnosis, Experimental Organism Diagnosis</ns5:synonym>
+        <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A condition or observation that is relevant to disease states, models of disease or characterization of those conditions in a non-human organism; this includes conditions or observations in organisms used in research settings.'</ns5:definition>
+        <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns5:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C22188">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Experimental Organism Anatomical Concept</rdfs:label>
+        <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-Human or Experimental Organism Anatomical Concept, Experimental Organism Anatomical Concept</ns5:synonym>
+        <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A biological structure, fluid or other substance that is present in a non-human organism; this includes anatomic entities found in organisms used in research settings. However, this grouping excludes single molecular entities.'</ns5:definition>
+        <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns5:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3910">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular Abnormality</rdfs:label>
+        <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular Alteration, Genetic Abnormality, Molecular Abnormality, Cytogenetic or Molecular Genetic Abnormality, Chromosomal, Gene, or Protein Abnormality, MOLECULAR_ABNORMALITY</ns5:synonym>
+        <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A molecular or cytogenetic abnormality which occurs in either human disease states or disease models.'</ns5:definition>
+        <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns5:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28389">
+        <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C167277"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI Administrative Concept</rdfs:label>
+        <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI Administrative Concept</ns5:synonym>
+        <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An entity which is used by NCI for administrative, financial or organizational purposes.'</ns5:definition>
+        <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns5:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14250">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organism</rdfs:label>
+        <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BiologicEntity, organism, Organismal, Taxon, Organism, Organisms</ns5:synonym>
+        <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A living entity.'</ns5:definition>
+        <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns5:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28428">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Retired Concept</rdfs:label>
+        <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isRetired, Retired Concept, All Retired Concepts, Retired Concepts</ns5:synonym>
+        <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Concept has been retired, and should not be used except to deal with old data.'</ns5:definition>
+        <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns5:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C97325">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manufactured Object</rdfs:label>
+        <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manufactured Object</ns5:synonym>
+        <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A physical object created by hand or machine.'</ns5:definition>
+        <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns5:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16612">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gene</rdfs:label>
+        <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene, Gene, Genes</ns5:synonym>
+        <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A functional unit of heredity which occupies a specific position on a particular chromosome and serves as the template for a product that contributes to a phenotype or a biological function.'</ns5:definition>
+        <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns5:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <ns2:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organic or inorganic substance, element, isotope, food or other materials derived from microorganism, plant, or animal sources. They can be used for the prevention, diagnosis, treatment or research of disease states, for industrial purposes, or for the promotion or maintenance of organism viability or health.</ns2:P97>
+    <ns2:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1880421</ns2:P207>
+    <ns2:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Classification</ns2:P106>
+    <ns2:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drugs_and_Chemicals</ns2:P366>
+    <ns2:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1908</ns2:code>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug, Food, Chemical or Biomedical Material</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug, Food, Chemical or Biomedical Material</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An organic or inorganic substance, element, isotope, food or other materials derived from microorganism, plant, or animal sources. They can be used for the prevention, diagnosis, treatment or research of disease states, for industrial purposes, or for the promotion or maintenance of organism viability or health.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the lawn and atmosphere in front of our building</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a person</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the mass of a cloud</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a heart</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the color of a tomato</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the disposition of blood to coagulate</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a symphony orchestra</ns1:IAO_0000112>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">occurrent</rdfs:label>
+        <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An entity that has temporal parts and that happens, unfolds or develops through time.'</ns5:definition>
+        <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAXO</ns5:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <ns1:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO 2 Reference: Continuant entities are entities which can be sliced to yield parts only along the spatial dimension, yielding for example the parts of your table which we call its legs, its top, its nails. ‘My desk stretches from the window to the door. It has spatial parts, and can be sliced (in space) in two. With respect to time, however, a thing is a continuant.’ [60, p. 240</ns1:IAO_0000116>
+    <ns1:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Continuant doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. For example, in an expansion involving bringing in some of Ceuster's other portions of reality, questions are raised as to whether universals are continuants</ns1:IAO_0000116>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endurant</ns1:IAO_0000118>
+    <ns1:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">continuant</ns1:IAO_0000111>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An entity  that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.</ns1:IAO_0000115>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TRAK_0000409"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">continuant</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAXO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33655">
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aromatische Verbindungen</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aromatics</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aromatic compounds</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aromatic molecular entity</ns1:IAO_0000118>
+    <ns6:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns6:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33655</ns3:notation>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aromatics</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aromatische Verbindungen</ns6:hasRelatedSynonym>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cyclically conjugated molecular entity with a stability (due to delocalization) significantly greater than that of a hypothetical localized structure (e.g. Kekule structure) is said to possess aromatic character.</ns1:IAO_0000115>
+    <ns6:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aromatic molecular entity</ns6:hasExactSynonym>
+    <ns6:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aromatic compounds</ns6:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33595"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aromatic compound</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aromatic molecular entity, aromatic compounds, aromatics, aromatische Verbindungen</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A cyclically conjugated molecular entity with a stability (due to delocalization) significantly greater than that of a hypothetical localized structure (e.g. Kekule structure) is said to possess aromatic character.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NIFSTD</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33694">
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biopolymer</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biomacromolecules</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biopolymere</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biopolymers</ns1:IAO_0000118>
+    <ns6:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns6:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33694</ns3:notation>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biomacromolecules</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biopolymere</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biopolymers</ns6:hasRelatedSynonym>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A macromolecule formed by a living organism.</ns1:IAO_0000115>
+    <ns6:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biopolymer</ns6:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33839"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biomacromolecule</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biopolymers, Biopolymere, biomacromolecules, biopolymer</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A macromolecule formed by a living organism.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NIFSTD</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33696">
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NA</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleic acids</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acido nucleico</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nukleinsaeuren</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acides nucleiques</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nukleinsaeure</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acidos nucleicos</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acide nucleique</ns1:IAO_0000118>
+    <ns6:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns6:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33696</ns3:notation>
+    <ns1:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleic acid</ns1:IAO_0000111>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NA</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acides nucleiques</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acido nucleico</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nukleinsaeuren</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acidos nucleicos</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acide nucleique</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nukleinsaeure</ns6:hasRelatedSynonym>
+    <ns1:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33696</ns1:IAO_0000119>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A macromolecule made up of nucleotide units and hydrolyzable into certain pyrimidine or purine bases (usually adenine, cytosine, guanine, thymine, uracil), D-ribose or 2-deoxy-D-ribose and phosphoric acid.</ns1:IAO_0000115>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A macromolecule made up of nucleotide units and hydrolysable into certain pyrimidine or purine bases (usually adenine, cytosine, guanine, thymine, uracil), D-ribose or 2-deoxy-D-ribose and phosphoric acid.</ns1:IAO_0000115>
+    <ns6:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleic acids</ns6:hasExactSynonym>
+    <ns6:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FGED</ns6:inSubset>
+    <ns6:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NIAID_GSC_BRC</ns6:inSubset>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15986"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33839"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleic acid</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A macromolecule made up of nucleotide units and hydrolysable into certain pyrimidine or purine bases (usually adenine, cytosine, guanine, thymine, uracil), D-ribose or 2-deoxy-D-ribose and phosphoric acid.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEAR</ns5:ontology_acronm>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NIFSTD</ns5:ontology_acronm>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acides nucleiques, Nukleinsaeuren, acido nucleico, acidos nucleicos, acide nucleique, Nukleinsaeure, NA, nucleic acids</ns5:synonym>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1909">
+    <ns2:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any natural, endogenously-derived, synthetic or semi-synthetic compound with pharmacologic activity. A pharmacologic substance has one or more specific mechanism of action(s) through which it exerts one or more effect(s) on the human or animal body. They can be used to potentially prevent, diagnose, treat or relieve symptoms of a disease. Formulation specific agents and some combination agents are also classified as pharmacologic substances.</ns2:P97>
+    <ns2:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1254351</ns2:P207>
+    <ns2:P368 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:52217</ns2:P368>
+    <ns2:P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[<ncicp:ComplexDefinition xmlns:ncicp='http://ncicb.nci.nih.gov/xml/owl/EVS/ComplexProperties.xsd#'><ncicp:def-definition>Any substance, other than food, that is used to prevent, diagnose, treat or relieve symptoms of a disease or abnormal condition. Also refers to a substance that alters mood or body function, or that can be habit-forming or addictive, especially a narcotic.</ncicp:def-definition><ncicp:def-source>NCI-GLOSS</ncicp:def-source></ncicp:ComplexDefinition>]]></ns2:P325>
+    <ns2:P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[<ncicp:ComplexDefinition xmlns:ncicp='http://ncicb.nci.nih.gov/xml/owl/EVS/ComplexProperties.xsd#'><ncicp:def-definition>An active natural, synthetic or semi-synthetic ingredient including endogenous body substance that is intended to furnish pharmacological activity or other direct effect in the diagnosis, cure, mitigation, treatment, or prevention of disease or to affect the structure or any function of the human body, but does not include intermediates used in the synthesis of such ingredient (21 CFR 314.3(b)).</ncicp:def-definition><ncicp:def-source>CDISC</ncicp:def-source></ncicp:ComplexDefinition>]]></ns2:P325>
+    <ns2:P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[<ncicp:ComplexDefinition xmlns:ncicp='http://ncicb.nci.nih.gov/xml/owl/EVS/ComplexProperties.xsd#'><ncicp:def-definition>An article other than food intended for use in the diagnosis, cure, mitigation, treatment, or prevention of disease; or intended to affect the structure or any function of the body. EXAMPLE(S): aspirin</ncicp:def-definition><ncicp:def-source>BRIDG</ncicp:def-source></ncicp:ComplexDefinition>]]></ns2:P325>
+    <ns2:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pharmacologic Substance</ns2:P108>
+    <ns2:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1909</ns2:code>
+    <ns2:P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRIDG</ns2:P322>
+    <ns2:P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NICHD</ns2:P322>
+    <ns2:P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDISC</ns2:P322>
+    <ns2:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pharmacologic_Substance</ns2:P366>
+    <ns2:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pharmaceuticals</ns2:P90>
+    <ns2:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pharmaceutical Agent</ns2:P90>
+    <ns2:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug Substance</ns2:P90>
+    <ns2:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pharmacological Substance</ns2:P90>
+    <ns2:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRUG</ns2:P90>
+    <ns2:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pharmacologic Agent</ns2:P90>
+    <ns2:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Agent</ns2:P90>
+    <ns2:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pharmacologic Substance</ns2:P106>
+    <ns2:P98 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This category represents ingredients, not drug products.</ns2:P98>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1908"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pharmacologic Substance</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pharmacologic Substance, Agent, DRUG, Pharmacologic Agent, therapeutic agents, Pharmaceuticals, Pharmaceutical Agent, Drug Substance, Drug, drug, Pharmacological Substance, therapeutic_agents, Therapeutic Agent</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Any natural, endogenously-derived, synthetic or semi-synthetic compound with pharmacologic activity. A pharmacologic substance has one or more specific mechanism of action(s) through which it exerts one or more effect(s) on the human or animal body. They can be used to potentially prevent, diagnose, treat or relieve symptoms of a disease. Formulation specific agents and some combination agents are also classified as pharmacologic substances.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43732">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43643"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical_Or_Drug_Affects_Abnormal_Cell</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical_Or_Drug_Affects_Abnormal_Cell</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A role used to establish the relationship between a therapeutic agent and an abnormal cell type associated with a disease condition. By pointing to abnormal cells, the therapeutic target of a drug can be more clearly conveyed. The domain and range for this role are 'Drug, Food, Chemical or Biomedical Material' and 'Abnormal Cell', respectively.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35352">
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organonitrogens</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organonitrogen compounds</ns1:IAO_0000118>
+    <ns6:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns6:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:35352</ns3:notation>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organonitrogens</ns6:hasRelatedSynonym>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any heteroorganic entity containing at least one carbon-nitrogen bond.</ns1:IAO_0000115>
+    <ns6:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organonitrogen compounds</ns6:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33285"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51143"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organonitrogen compound</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organonitrogens, organonitrogen compounds</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Any heteroorganic entity containing at least one carbon-nitrogen bond.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAXO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C307">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1909"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological Agent</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biologic, Immunologics, Biological Products, BIOLOGIC, Biologics, biological agent, biological drug, Biological Drug, Biopharmaceuticals, Immunologic, Immunochemical, biological product, Biological Agent, biologic agent, Biologicals</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Biotechnology-derived pharmaceutical agents made from living organisms or their products. Includes recombinant proteins, monoclonal antibodies, and nucleic acids.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_5686">
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heterocyclic compound</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compuesto heterociclico</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compuestos heterociclicos</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterocyclic compounds</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterocycle</ns1:IAO_0000118>
+    <ns6:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns6:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:5686</ns3:notation>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compuesto heterociclico</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compuestos heterociclicos</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterocycle</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterocyclic compounds</ns6:hasRelatedSynonym>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cyclic compound having as ring members atoms of at least two different elements.</ns1:IAO_0000115>
+    <ns6:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heterocyclic compound</ns6:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33595"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterocyclic compound</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterocycle, heterocyclic compounds, compuestos heterociclicos, Heterocyclic compound, compuesto heterociclico</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A cyclic compound having as ring members atoms of at least two different elements.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NIFSTD</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_61120">
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleobase-containing compounds</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleobase-containing molecular entities</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleobase-containing compound</ns1:IAO_0000118>
+    <ns6:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns6:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:61120</ns3:notation>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleobase-containing compound</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleobase-containing compounds</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleobase-containing molecular entities</ns6:hasRelatedSynonym>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any compound that has a nucleobase as a part.</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33833"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51143"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleobase-containing molecular entity</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleobase-containing compound, nucleobase-containing molecular entities, nucleobase-containing compounds</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Any compound that has a nucleobase as a part.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NIFSTD</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43730">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43643"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological_Process_Has_Result_Chemical_Or_Drug</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological_Process_Has_Result_Chemical_Or_Drug</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A role used to assert that the endpoint of a biological process is the creation of a drug, chemical or biomedical material. The domain and range for this role are 'Biological Process' and 'Drug, Food, Chemical or Biomedical Material', respectively.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33832">
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic cyclic compounds</ns1:IAO_0000118>
+    <ns6:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns6:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33832</ns3:notation>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic cyclic compounds</ns6:hasRelatedSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33595"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_72695"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic cyclic compound</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic cyclic compounds</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Any organic molecule that consists of atoms connected in the form of a ring.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NIFSTD</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33285">
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organoelement compounds</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heteroorganic entities</ns1:IAO_0000118>
+    <ns6:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns6:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33285</ns3:notation>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organoelement compounds</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heteroorganic entities</ns6:hasRelatedSynonym>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A heteroorganic entity is an organic molecular entity in which carbon atoms or organic groups are bonded directly to one or more heteroatoms.</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heteroorganic entity</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heteroorganic entities, organoelement compounds</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A heteroorganic entity is an organic molecular entity in which carbon atoms or organic groups are bonded directly to one or more heteroatoms.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAXO</ns5:ontology_acronm>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NIFSTD</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33695">
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information biopolymers</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information macromolecule</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information biomacromolecules</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information macromolecules</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetically encoded biomacromolecules</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetically encoded biopolymers</ns1:IAO_0000118>
+    <ns6:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns6:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33695</ns3:notation>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information biomacromolecules</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information macromolecule</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information macromolecules</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information biopolymers</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetically encoded biomacromolecules</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetically encoded biopolymers</ns6:hasRelatedSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33694"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information biomacromolecule</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetically encoded biopolymers, genetically encoded biomacromolecules, information biopolymers, information macromolecule, information macromolecules, information biomacromolecules</ns5:synonym>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NIFSTD</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23367">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molekulare Entitaet</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entite moleculaire</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entidad molecular</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular entities</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular entity</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entidades moleculares</ns1:IAO_0000118>
+    <ns1:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We are assuming that every molecular entity has to be completely connected by chemical bonds. This excludes protein complexes, which are comprised of minimally two separate molecular entities. We will follow up with Chebi to ensure this is their understanding as well</ns1:IAO_0000116>
+    <ns6:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FGED</ns6:inSubset>
+    <ns6:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular entity</ns6:hasExactSynonym>
+    <ns6:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:23367</ns6:hasAlternativeId>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity.</ns1:IAO_0000115>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular entities</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entidad molecular</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entidades moleculares</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entite moleculaire</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molekulare Entitaet</ns6:hasRelatedSynonym>
+    <ns1:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular entity</ns1:IAO_0000111>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:23367</ns3:notation>
+    <ns6:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI</ns6:hasOBONamespace>
+    <ns6:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns6:hasOBONamespace>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/BiPOm#molecular_entity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular entity</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular entities, entidad molecular, molecular entity, molekulare Entitaet, entite moleculaire, entidades moleculares</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAXO</ns5:ontology_acronm>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEAR</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33256">
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary amide</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary amides</ns1:IAO_0000118>
+    <ns6:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns6:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33256</ns3:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A derivative of an oxoacid RkE(=O)l(OH)m (l =/= 0) in which an acidic hydroxy group has been replaced by an amino or substituted amino group.</ns1:IAO_0000115>
+    <ns6:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary amide</ns6:hasExactSynonym>
+    <ns6:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary amides</ns6:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_32988"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary amide</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary amides, primary amide</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A derivative of an oxoacid RkE(=O)l(OH)m (l =/= 0) in which an acidic hydroxy group has been replaced by an amino or substituted amino group.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAXO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36962">
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organochalcogen compounds</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organochalcogen compound</ns1:IAO_0000118>
+    <ns6:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns6:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36962</ns3:notation>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organochalcogen compounds</ns6:hasRelatedSynonym>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organochalcogen compound is a compound containing at least one carbon-chalcogen bond.</ns1:IAO_0000115>
+    <ns6:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organochalcogen compound</ns6:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33285"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33304"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organochalcogen compound</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organochalcogen compound, organochalcogen compounds</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An organochalcogen compound is a compound containing at least one carbon-chalcogen bond.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAXO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37622">
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary carboxamide</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carboxamides</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[*]C(=O)N([*])[*]</ns1:IAO_0000118>
+    <ns6:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns6:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:37622</ns3:notation>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carboxamides</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary carboxamide</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CNOR3</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[*]C(=O)N([*])[*]</ns6:hasRelatedSynonym>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An amide of a carboxylic acid, having the structure RC(=O)NR2. The term is used as a suffix in systematic name formation to denote the -C(=O)NH2 group including its carbon atom.</ns1:IAO_0000115>
+    <ns6:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:35354</ns6:hasAlternativeId>
+    <ns6:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:35355</ns6:hasAlternativeId>
+    <ns6:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carboxamides</ns6:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36963"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33256"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35352"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carboxamide</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carboxamides, primary carboxamide</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An amide of a carboxylic acid, having the structure RC(=O)NR2. The term is used as a suffix in systematic name formation to denote the -C(=O)NH2 group including its carbon atom.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAXO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43740">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43643"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical_Or_Drug_Is_Metabolized_By_Enzyme</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical_Or_Drug_Is_Metabolized_By_Enzyme</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A role used to specify that an enzyme is directly responsible for metabolizing a chemical or drug into an active form, inactive form, or both. The domain and range for this role are 'Drug, Food, Chemical or Biomedical Material' and 'Gene Product', respectively.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33582">
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbon group molecular entities</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbon group molecular entity</ns1:IAO_0000118>
+    <ns6:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns6:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33582</ns3:notation>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbon group molecular entities</ns6:hasRelatedSynonym>
+    <ns6:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbon group molecular entity</ns6:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33675"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbon group molecular entity</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbon group molecular entity, carbon group molecular entities</ns5:synonym>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAXO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_32988">
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amides</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amide</ns1:IAO_0000118>
+    <ns6:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns6:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:32988</ns3:notation>
+    <ns6:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG COMPOUND:C00241</ns6:hasDbXref>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An amide is a derivative of an oxoacid RkE(=O)l(OH)m (l =/= 0) in which an acidic hydroxy group has been replaced by an amino or substituted amino group.</ns1:IAO_0000115>
+    <ns6:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:2633</ns6:hasAlternativeId>
+    <ns6:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:22473</ns6:hasAlternativeId>
+    <ns6:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amides</ns6:hasExactSynonym>
+    <ns6:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amide</ns6:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51143"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amide</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amides, Amide</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An amide is a derivative of an oxoacid RkE(=O)l(OH)m (l =/= 0) in which an acidic hydroxy group has been replaced by an amino or substituted amino group.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAXO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36357">
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polyatomic entities</ns1:IAO_0000118>
+    <ns6:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns6:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36357</ns3:notation>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polyatomic entities</ns6:hasRelatedSynonym>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any molecular entity consisting of more than one atom.</ns1:IAO_0000115>
+    <ns6:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36357</ns6:hasAlternativeId>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polyatomic entity</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polyatomic entity</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polyatomic entities</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Any molecular entity consisting of more than one atom.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAXO</ns5:ontology_acronm>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NIFSTD</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24532">
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic heterocyclic compounds</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic heterocycle</ns1:IAO_0000118>
+    <ns6:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns6:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:24532</ns3:notation>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic heterocyclic compounds</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic heterocycle</ns6:hasRelatedSynonym>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cyclic compound having as ring members atoms of carbon and at least of one other element.</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5686"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33832"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33285"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic heterocyclic compound</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic heterocycle, organic heterocyclic compounds</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A cyclic compound having as ring members atoms of carbon and at least of one other element.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NIFSTD</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33595">
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cyclic compounds</ns1:IAO_0000118>
+    <ns6:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns6:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33595</ns3:notation>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cyclic compounds</ns6:hasRelatedSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25367"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cyclic compound</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cyclic compounds</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Any molecule that consists of a series of atoms joined together to form a ring.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NIFSTD</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16670">
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peptido</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peptidos</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peptid</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peptide</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peptide</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peptides</ns1:IAO_0000118>
+    <ns6:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns6:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:16670</ns3:notation>
+    <ns1:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peptide</ns1:IAO_0000111>
+    <ns6:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG COMPOUND:C00012</ns6:hasDbXref>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peptidos</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peptido</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peptid</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2H4NO2R(C2H2NOR)n</ns6:hasRelatedSynonym>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amide derived from two or more amino carboxylic acid molecules (the same or different) by formation of a covalent bond from the carbonyl carbon of one to the nitrogen atom of another with formal loss of water. The term is usually applied to structures formed from alpha-amino acids, but it includes those derived from any amino carboxylic acid.</ns1:IAO_0000115>
+    <ns6:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:7990</ns6:hasAlternativeId>
+    <ns6:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:14753</ns6:hasAlternativeId>
+    <ns6:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:25906</ns6:hasAlternativeId>
+    <ns6:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peptides</ns6:hasExactSynonym>
+    <ns6:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peptide</ns6:hasExactSynonym>
+    <ns6:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FGED</ns6:inSubset>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50047"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37622"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peptide</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peptides, Peptide, peptidos, peptido, Peptid</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Amide derived from two or more amino carboxylic acid molecules (the same or different) by formation of a covalent bond from the carbonyl carbon of one to the nitrogen atom of another with formal loss of water. The term is usually applied to structures formed from alpha-amino acids, but it includes those derived from any amino carboxylic acid. X = OH, OR, NH2, NHR, etc.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAXO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50860">
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic compounds</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic entity</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic molecular entities</ns1:IAO_0000118>
+    <ns6:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns6:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:50860</ns3:notation>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic compounds</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic entity</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic molecular entities</ns6:hasRelatedSynonym>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any molecular entity that contains carbon.</ns1:IAO_0000115>
+    <ns6:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33244</ns6:hasAlternativeId>
+    <ns6:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:25700</ns6:hasAlternativeId>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33582"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic molecular entity</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic molecular entities, organic compounds, organic entity</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Any molecular entity that contains carbon.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAXO</ns5:ontology_acronm>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NIFSTD</ns5:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C167277">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28428"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Retired Concept 2019</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Retired Concept 2019</ns5:synonym>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns5:ontology_acronm>
+  </rdf:Description>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43639">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42698"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI Thesaurus Entity</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI Thesaurus Entity</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The terminology entities that represent the elements that form and define the NCI Thesaurus.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33659">
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic aromatic compounds</ns1:IAO_0000118>
+    <ns6:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns6:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33659</ns3:notation>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic aromatic compounds</ns6:hasRelatedSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33832"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33655"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic aromatic compound</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic aromatic compounds</ns5:synonym>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NIFSTD</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1742">
+    <ns2:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An agent or endogenous substance that inhibits the formation of capillaries from existing blood vessels. In cancer therapy, angiogenesis inhibitors preferentially target the new blood vessels that tumors require for oxygen and nutrition, thereby inhibiting the growth and spread of these tumors.</ns2:P97>
+    <ns2:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0596087</ns2:P207>
+    <ns2:P368 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:48422</ns2:P368>
+    <ns2:P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[<ncicp:ComplexDefinition xmlns:ncicp='http://ncicb.nci.nih.gov/xml/owl/EVS/ComplexProperties.xsd#'><ncicp:def-definition>A substance that may prevent the formation of blood vessels. In anticancer therapy, an angiogenesis inhibitor may prevent the growth of new blood vessels that tumors need to grow.</ncicp:def-definition><ncicp:def-source>NCI-GLOSS</ncicp:def-source></ncicp:ComplexDefinition>]]></ns2:P325>
+    <ns2:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angiogenesis Inhibitor</ns2:P108>
+    <ns2:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1742</ns2:code>
+    <ns2:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angiogenesis_Inhibitor</ns2:P366>
+    <ns2:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antiangiogenic</ns2:P90>
+    <ns2:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angiogenesis Blockers</ns2:P90>
+    <ns2:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antiangiogenesis Agents</ns2:P90>
+    <ns2:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-Angiogenic Agents</ns2:P90>
+    <ns2:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antiangiogenic Agent</ns2:P90>
+    <ns2:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angiogenesis Antagonists</ns2:P90>
+    <ns2:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical Viewed Functionally</ns2:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C274"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angiogenesis Inhibitor</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angiogenesis Blockers, angiogenesis inhibitor, Angiogenesis Inhibitor, Antiangiogenesis Agents, Angiogenesis Antagonists, Anti-Angiogenic Agents, Antiangiogenic Agent, Angiogenesis Inhibitors, antiangiogenic</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An agent or endogenous substance that inhibits the formation of capillaries from existing blood vessels. In cancer therapy, angiogenesis inhibitors preferentially target the new blood vessels that tumors require for oxygen and nutrition, thereby inhibiting the growth and spread of these tumors.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#molecular_entity">
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular entity</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular entities, entidad molecular, molecular entity, entidades moleculares, entite moleculaire, molekulare Entitaet</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33302">
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pnictogen molecular entity</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pnictogen molecular entities</ns1:IAO_0000118>
+    <ns6:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns6:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33302</ns3:notation>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pnictogen molecular entities</ns6:hasRelatedSynonym>
+    <ns6:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pnictogen molecular entity</ns6:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33675"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pnictogen molecular entity</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pnictogen molecular entities, pnictogen molecular entity</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A p-block molecular entity containing any pnictogen.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAXO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000004">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a symphony orchestra</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a person</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a leg</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an organism</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a heart</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a spatial region</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a molecule</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a chair</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the lawn and atmosphere in front of our building</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an atom</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the interior of your mouth</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an orchestra.</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the bottom right portion of a human torso</ns1:IAO_0000112>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">substantial entity</ns1:IAO_0000118>
+    <ns1:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">independent continuant</ns1:IAO_0000111>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])</ns1:IAO_0000115>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A continuant  that is a bearer of quality  and realizable entity  entities, in which other entities inhere and which itself cannot inhere in anything.</ns1:IAO_0000115>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">independent continuant</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAXO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C45462">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43643"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allele_Plays_Role_In_Metabolism_Of_Chemical_Or_Drug</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allele_Plays_Role_In_Metabolism_Of_Chemical_Or_Drug</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A role used to assert a relationship between a specific allele (product; enzyme) and drug-metabolizing efficacy. The domain and range for this role are 'Gene' and 'Drug, Food, Chemical or Biomedical Material', respectively.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRAK_0000001">
+    <ns4:xref rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entity</rdfs:label>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRAK</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_72695">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25367"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic molecule</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic compounds, organic compound, organic molecules</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Any molecule that consists of at least one carbon atom as part of the electrically neutral entity.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NIFSTD</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33833">
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heteroarenes</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hetarenes</ns1:IAO_0000118>
+    <ns6:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns6:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33833</ns3:notation>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hetarenes</ns6:hasRelatedSynonym>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A heterocyclic compound formally derived from an arene by replacement of one or more methine (-C=) and/or vinylene (-CH=CH-) groups by trivalent or divalent heteroatoms, respectively, in such a way as to maintain the continuous pi-electron system characteristic of aromatic systems and a number of out-of-plane pi-electrons corresponding to the Hueckel rule (4n+2).</ns1:IAO_0000115>
+    <ns6:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heteroarenes</ns6:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24532"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33659"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heteroarene</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hetarenes, heteroarenes</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A heterocyclic compound formally derived from an arene by replacement of one or more methine (-C=) and/or vinylene (-CH=CH-) groups by trivalent or divalent heteroatoms, respectively, in such a way as to maintain the continuous pi-electron system characteristic of aromatic systems and a number of out-of-plane pi-electrons corresponding to the Hueckel rule (4n+2).'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NIFSTD</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33579">
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">main group compounds</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">main group molecular entities</ns1:IAO_0000118>
+    <ns6:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns6:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33579</ns3:notation>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">main group compounds</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">main group molecular entities</ns6:hasRelatedSynonym>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A molecular entity containing one or more atoms from any of groups 1, 2, 13, 14, 15, 16, 17, and 18 of the periodic table.</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">main group molecular entity</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">main group molecular entities, main group compounds</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A molecular entity containing one or more atoms from any of groups 1, 2, 13, 14, 15, 16, 17, and 18 of the periodic table.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAXO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43726">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43643"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological_Process_Has_Initiator_Chemical_Or_Drug</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological_Process_Has_Initiator_Chemical_Or_Drug</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A role used to assert the relationship between a biological process and a drug or chemical that stimulates the process. The role implies the direct physical interaction of a chemical or drug with a target molecule or complex that results in the initiation of the process. The domain and range for this role are 'Biological Process' and 'Drug, Food, Chemical or Biomedical Material', respectively.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50047">
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic amino compounds</ns1:IAO_0000118>
+    <ns6:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns6:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:50047</ns3:notation>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic amino compounds</ns6:hasRelatedSynonym>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A compound formally derived from ammonia by replacing one, two or three hydrogen atoms by organyl groups.</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35352"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic amino compound</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic amino compounds</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A compound formally derived from ammonia by replacing one, two or three hydrogen atoms by organyl groups.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAXO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
+    <ns1:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entity doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. For example Werner Ceusters 'portions of reality' include 4 sorts, entities (as BFO construes them), universals, configurations, and relations. It is an open question as to whether entities as construed in BFO will at some point also include these other portions of reality. See, for example, 'How to track absolutely everything' at http://www.referent-tracking.com/_RTU/papers/CeustersICbookRevised.pdf</ns1:IAO_0000116>
+    <ns1:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO 2 Reference: In all areas of empirical inquiry we encounter general terms of two sorts. First are general terms which refer to universals or types:animaltuberculosissurgical procedurediseaseSecond, are general terms used to refer to groups of entities which instantiate a given universal but do not correspond to the extension of any subuniversal of that universal because there is nothing intrinsic to the entities in question by virtue of which they – and only they – are counted as belonging to the given group. Examples are: animal purchased by the Emperortuberculosis diagnosed on a Wednesdaysurgical procedure performed on a patient from Stockholmperson identified as candidate for clinical trial #2056-555person who is signatory of Form 656-PPVpainting by Leonardo da VinciSuch terms, which represent what are called ‘specializations’ in [81</ns1:IAO_0000116>
+    <ns1:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entity</ns1:IAO_0000111>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">your body mass index</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verdi’s Requiem</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Julius Caesar</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the Second World War</ns1:IAO_0000112>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TRAK_0000001"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entity</rdfs:label>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAXO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51143">
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitrogen molecular entities</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nitrogenous compounds</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitrogen compounds</ns1:IAO_0000118>
+    <ns6:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns6:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:51143</ns3:notation>
+    <ns6:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG COMPOUND:C06061</ns6:hasDbXref>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitrogen molecular entities</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nitrogenous compounds</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitrogen compounds</ns6:hasRelatedSynonym>
+    <ns6:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:7594</ns6:hasAlternativeId>
+    <ns6:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:25556</ns6:hasAlternativeId>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33302"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitrogen molecular entity</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitrogen compounds, nitrogen molecular entities, Nitrogenous compounds</ns5:synonym>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAXO</ns5:ontology_acronm>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NIFSTD</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33839">
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polymer</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macromolecule</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macromolecules</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polymers</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polymer molecule</ns1:IAO_0000118>
+    <ns6:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns6:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33839</ns3:notation>
+    <ns1:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macromolecule</ns1:IAO_0000111>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polymer</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polymers</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macromolecules</ns6:hasRelatedSynonym>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polymer molecule</ns6:hasRelatedSynonym>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A macromolecule is a molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass.</ns1:IAO_0000115>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is a molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass.</ns1:IAO_0000115>
+    <ns6:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macromolecule</ns6:hasExactSynonym>
+    <ns6:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FGED</ns6:inSubset>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36357"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macromolecule</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polymers, macromolecules, polymer molecule, polymer, macromolecule</ns5:synonym>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polymer molecule, macromolecules, polymers, macromolecule, polymer</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A macromolecule is a molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAXO</ns5:ontology_acronm>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEAR</ns5:ontology_acronm>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NIFSTD</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43741">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43643"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical_Or_Drug_Plays_Role_In_Biological_Process</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical_Or_Drug_Plays_Role_In_Biological_Process</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A role used to assert that an active ingredient of a drug or chemical agent influences a biological process. The role implies a direct association with a target biological molecule or complex involved in the process. The domain and range for this role are 'Drug, Food, Chemical or Biomedical Material' and 'Biological Process', respectively.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43734">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43643"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical_Or_Drug_Affects_Gene_Product</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical_Or_Drug_Affects_Gene_Product</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A role used to assert that a gene product is the target of a therapeutic agent. The role implies a direct interaction between the product and the therapeutic agent but it does not specify the type of association (e.g., involvement, interference, inhibition or cleavage). The domain and range for this role are 'Drug, Food, Chemical or Biomedical Material' and 'Gene Product', respectively.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43742">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43643"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemotherapy_Regimen_Has_Component</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemotherapy_Regimen_Has_Component</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A role used to specify the component agents which are used in a particular chemotherapy regimen or agent combination. The domain and the range for this role are 'Chemotherapy Regimen or Agent Combination' and 'Drug, Food, Chemical or Biomedical Material', respectively.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRAK_0000409">
+    <ns4:xref rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">continuant</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endurant</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRAK</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C2189">
+    <ns2:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A substance that inhibits kinase enzymes and other proteins involved in signal transduction pathways to prevent tumor cell growth and induce apoptosis.</ns2:P97>
+    <ns2:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1519313</ns2:P207>
+    <ns2:P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[<ncicp:ComplexDefinition xmlns:ncicp='http://ncicb.nci.nih.gov/xml/owl/EVS/ComplexProperties.xsd#'><ncicp:def-definition>A substance that blocks signals passed from one molecule to another inside a cell. Blocking these signals can affect many functions of the cell, including cell division and cell death, and may kill cancer cells. Certain signal transduction inhibitors are being studied in the treatment of cancer.</ncicp:def-definition><ncicp:def-source>NCI-GLOSS</ncicp:def-source></ncicp:ComplexDefinition>]]></ns2:P325>
+    <ns2:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Signal Transduction Inhibitor</ns2:P108>
+    <ns2:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2189</ns2:code>
+    <ns2:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Signal_Transduction_Inhibitor</ns2:P366>
+    <ns2:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical Viewed Functionally</ns2:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C274"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Signal Transduction Inhibitor</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signal transduction inhibitor, Signal Transduction Inhibitor</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A substance that inhibits kinase enzymes and other proteins involved in signal transduction pathways to prevent tumor cell growth and induce apoptosis.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43737">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43643"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical_Or_Drug_Has_Mechanism_Of_Action</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical_Or_Drug_Has_Mechanism_Of_Action</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A role used to imply the interaction or binding of an active ingredient of a drug/chemical agent at the molecular level with its target. When possible, the role value should reflect the direct alteration of function of a target molecule or complex. The domain and range for this role are 'Drug, Food, Chemical or Biomedical Material' and 'Biological Process', respectively.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#FunctionalProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43643">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43639"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI Thesaurus Role</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role, NCI Thesaurus Role</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A specific non-hierarchical, named relationship between concepts present in the NCI Thesaurus.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#ReflexiveProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An organizational header for concepts representing mostly abstract entities.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25806">
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxygen molecular entities</ns1:IAO_0000118>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxygen molecular entity</ns1:IAO_0000118>
+    <ns6:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns6:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:25806</ns3:notation>
+    <ns6:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxygen molecular entities</ns6:hasRelatedSynonym>
+    <ns6:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxygen molecular entity</ns6:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33304"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxygen molecular entity</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxygen molecular entities, oxygen molecular entity</ns5:synonym>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAXO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#SymmetricProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43733">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43643"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical_Or_Drug_Affects_Cell_Type_Or_Tissue</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical_Or_Drug_Affects_Cell_Type_Or_Tissue</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A role used to represent the intended target cells for a chemical or drug. This does not include unintended target cells or tissues that are associated with side effects or toxicity of the chemical or drug. The domain and range for this role are 'Drug, Food, Chemical or Biomedical Material' and 'Anatomic Structure, System, or Substance', respectively.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#AnnotationProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431">
+    <ns6:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns6:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:24431</ns3:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical entity</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical entity</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAXO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43738">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43643"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical_Or_Drug_Has_Physiologic_Effect</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical_Or_Drug_Has_Physiologic_Effect</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A role used to describe the primary detectable alterations of subcellular, cellular, tissue, or organ functions that directly result from alteration of function of a target biological molecule or complex caused by interaction of a therapeutic agent with a target molecule or complex. The domain and range for this role are 'Drug, Food, Chemical or Biomedical Material' and 'Biological Process', respectively.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns5:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#TransitiveProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#DatatypeProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+</rdf:RDF>

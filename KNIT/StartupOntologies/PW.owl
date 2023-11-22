@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns2="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001880">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0000300"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iminoglycinuria pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SMP:00193, iminoglycinuria disease pathway</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A condition associated with impaired renal tubular transport.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001881">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001816"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypophosphatasia pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypophosphatasia disease pathway, SMP:00503</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A genetic metabolic disorder due to impaired bone alkaline phosphatase activity and manifesting in a range of phenotypes.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001887">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001885"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pentazocine pharmacodynamics pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SMP:00686</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pathway of pentazocine-target interaction and of the biochemical or physiological responses to drug. Pentazocine is an opioid analgesic used to treat moderate to more severe pain. Genetic variations can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001873">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001477"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y-linked genetic disease pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Those conditions resulting from alterations in pathways involving genes on the Y-chromosome in humans or in other species.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001893">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001892"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-dihydropyridine calcium channel blocker drug pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pharmacokinetics and pharmacodynamics pathway of non-dihydropyridine calcium channel blockers - agents often used to treat angina and relatively selective for myocardium. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001863">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001862"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prednisone pharmacokinetics pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SMP:00631</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pathway of processing - absorption, distribution, metabolism or elimination - of prednisone, a synthetic glucocorticoid. Genetic variations can result in changes in the availability of the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001890">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001888"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pantoprazole pharmacodynamics pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SMP:00228</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pathway of pantoprazole-target interaction and of the biochemical or physiological responses to drug. Pantoprazole is a compound in the class of proton pump inhibitors used in the treatment of acid-related disorders. Genetic variations can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001857">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001855"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">procaine pharmacodynamics pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">novocaine pharmacodynamics pathway, SMP:00402</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pathway of procaine-target interaction and of the biochemical or physiological responses to drug. Genetic variations can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001889">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001888"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pantoprazole pharmacokinetics pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SMP:00615</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pathway of processing - absorption, distribution, metabolism or elimination - of pantoprazole, a compound in the class of proton pump inhibitors. Genetic variations can result in changes in the availability of the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001850">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001849"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quinidine pharmacokinetics pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pathway of processing - absorption, distribution, metabolism or elimination - of quinidine, a class I antiarrhythmic agent. Genetic variations can result in changes in the availability of the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001877">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001876"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plasmalogen biosynthetic pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmalogen\xa0biosynthesis</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Those metabolic reactions involved in the synthesis of plasmalogen.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001869">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001643"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medium chain acyl-CoA dehydrogenase deficiency pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACADM deficiency pathway, SMP:00542, MCAD deficiency pathway, medium-chain acyl-CoA dehydrogenase deficiency pathway, MCADH deficiency pathway</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An inherited condition resulting from impaired lipid metabolic pathways.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001874">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001645"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isovaleric acidemia pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isovaleryl-CoA dehydrogenase deficiency pathway, SMP:00524, isovaleric aciduria pathway, isovaleric acid CoA dehydrogenase deficiency pathway, SMP:00238, isovaleric aciduria disease pathway, isovaleric acidemia disease pathway</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A rare autosomal condition resulting from an impaired amino acid metabolism.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001884">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001882"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pirenzepine pharmacodynamics pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SMP:00246</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pathway of pirenzepine-target interaction and of the biochemical or physiological responses to drug.  Genetic variations can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001875">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001645"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isobutyryl-CoA dehydrogenase deficiency pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SMP:00523</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A condition resulting from impaired amino acid metabolism.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001854">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001852"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">propranolol pharmacodynamics pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SMP:00307</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pathway of propanolol-target interaction and of the biochemical or physiological responses to drug. The drug is non-selective blocker of adrenergic receptor beta. Genetic variations can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001886">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001885"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pentazocine pharmacokinetics pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pathway of processing - absorption, distribution, metabolism or elimination - of pentazocine, an opioid analgesic. Genetic variations can result in changes in the availability of the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001879">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001878"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001646"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001776"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lesch-Nyhan syndrome pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete hypoxanthine-guanine phosphoribosyltransferase deficiency pathway, hypoxanthine guanine phosphoribosyltransferase deficiency pathway, X-linked hyperuricemia pathway, deficiency of IMP pyrophosphorylase pathway, HG-PRT deficiency pathway, SMP:00364</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An inherited disorder with several psychomotor phenotypes resulting from altered purine metabolism, particularly the salvage pathway, due to defects in the hypoxanthine phosphoribosyltransferase 1 (HPRT1) gene, located on the X chromosome.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001856">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001855"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">procaine pharmacokinetics pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">novocaine pharmacokinetics pathway</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pathway of processing - absorption, distribution, metabolism or elimination - of procaine. Genetic variations can result in changes in the availability of the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001860">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001858"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">procainamide pharmacodynamics pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SMP:00324</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pathway of procainamide-target interaction and of the biochemical or physiological responses to drug. The drug is a class Ia antiarrhythmic drug that can also elicit serious cytotoxic effects.  Genetic variations can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001870">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001646"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001645"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maple syrup urine disease pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">branched chain ketoaciduria pathway, SMP:00199, ketoacidemia pathway, dihydrolipoamide dehydrogenase deficiency pathway</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An autosomal recessive condition resulting from alterations in branched-chain amino acid metabolic pathways. It has several forms and a range of phenotypes.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001851">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001849"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quinidine pharmacodynamics pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SMP:00323</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pathway of quinidine-target interaction and of the biochemical or physiological responses to drug. Its primary action is blocking the fast inward sodium current. However, it can impact on other currents and channels, such as the slow inward calcium, the rapid and slow components of the delayed potassium, and the inward potassium rectifier currents, and the ATP-sensitive potassium channel. Genetic variations can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001864">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001862"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prednisone pharmacodynamics pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SMP:00440</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pathway of prednisone-target interaction and of the biochemical or physiological responses to drug. The drug is particularly effective as an immunosuppressant. Genetic variations can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001861">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001434"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">procainamide response pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pathway triggered by administration of procainamide, a class Ia antiarrhythmic drug. The cytotoxic effects impact on lymphocytes and interfere with pacemaker, among others. Many of the toxic effects may result from acetylation of the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001871">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001645"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lysinuric protein intolerance pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lysinuric protein intolerance disease pathway, SMP:00585, SMP:00197, LPI pathway, dibasic amino aciduria II pathway, hyperdibasic aminoaciduria pathway</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A disorder resulting from an impaired transport pathway of positively charged amino acids.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001883">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001882"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pirenzepine pharmacokinetics pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pathway of processing - absorption, distribution, metabolism or elimination - of pirenzepine. Genetic variations can result in changes in the availability of the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001848">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001846"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rabeprazole pharmacodynamics pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SMP:00229</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pathway of rabeprazole-target interaction and of the biochemical or physiological responses to drug. Rabeprazole is a compound in the class of proton pump inhibitors used in the treatment of acid-related disorders. Genetic variations can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001868">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001645"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypermethioninemia pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAT deficiency pathway, isolated persistent hypermethioninemia pathway, SMP:00221, methionine adenosyltransferase deficiency pathway, methionine adenosyltransferase I/III deficiency pathway, MAT I/III deficiency pathway</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An inborn metabolic disorder resulting from alterations in the methionine cycle/metabolic pathway.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001867">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001865"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">piroxicam pharmacodynamics pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SMP:00077</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pathway of piroxicam-target interaction and of the biochemical or physiological responses to drug. The drug is a non-selective cyclooxygenase (COX) inhibitor. Genetic variations can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001859">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001858"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">procainamide pharmacokinetics pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pathway of processing - absorption, distribution, metabolism or elimination - of procainamide. Genetic variations can result in changes in the availability of the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001853">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001852"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">propranolol pharmacokinetics pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pathway of processing - absorption, distribution, metabolism or elimination - of propanolol. The drug is a non-selective adrenergic beta receptor blocker. Genetic variations can result in changes in the availability of the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001845">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001843"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ranitidine pharmacodynamics pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SMP:00230</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pathway of ranitidine-target interaction and of the biochemical or physiological responses to drug. The drug is a specific antagonist H2 receptor and it is used for the treatment of various acid disorders. Genetic variations can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">notation</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001866">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001865"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">piroxicam pharmacokinetics pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pathway of processing - absorption, distribution, metabolism or elimination - of piroxicam, an anti-inflammatory drug. Genetic variations can result in changes in the availability of the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001847">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001846"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rabeprazole pharmacokinetics pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SMP:00616</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pathway of processing - absorption, distribution, metabolism or elimination - of rabeprazole, a compound in the class of proton pump inhibitors. Genetic variations can result in changes in the availability of the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001844">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001843"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ranitidine pharmacokinetics pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pathway of processing - absorption, distribution, metabolism or elimination - of ranitidine. Genetic variations can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001891">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001803"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">streptomycin pharmacokinetics pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pathway of processing - absorption, distribution, metabolism or elimination of streptomycin - an antibiotic that interferes with bacterial protein synthesis. Genetic variations can result in changes in the availability of the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0000001">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000001</ns2:notation>
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pathway is a set of inter-connected  reactions and interactions whose delineation and scope are used as a model for exploring and studying, describing and understanding the working of and relationships between biomolecules within a context.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001776">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001589"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inborn error of purine-pyrimidine metabolism pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inborn error of purine-pyrimidine metabolism disease pathway</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Those diseases that are caused by inborn errors of purine and/or pyrimidine metabolism. The mutations can disrupt one or several pathways.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0000920">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000920</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0000754"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardiovascular system drug pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dermatological drug pathway</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pharmacokinetics and pharmacodynamics of compounds used for the treatment of various cardiovascular conditions. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001646">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001414"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001589"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inborn error of brain metabolic pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inborn error of brain metabolic disease pathway</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Those brain diseases that are caused by inborn metabolic errors. The mutations can disrupt one or several pathways.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0000354">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000354</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0000010"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glycerophospholipid metabolic pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glycerophospholipid metabolic process, phospholipid metabolic pathway</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Those metabolic reactions involved in the synthesis, utilization and/or degradation of glycerophospholipids, also known as phospholipids. They are key components of membranes and some are also involved in signaling.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0000002">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000002</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">classic metabolic pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metabolic process, Metabolism</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The definition was compiled based on a number of available defintions in various dictionaries.', 'The various, enzyme-controlled, series of reactions allowing for the conversion of materials, energy availability and biodegradation of xenobiotics.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0000918">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000918</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0000921"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proton pump inhibitor drug pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pharmacokinetics and pharmacodynamics of proton pump inhibitor (PPI), a class of compounds that block the acid secretion from parietal cells in the stomach. A representative PPI compound is omeprazole. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0002336">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0000920"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antiarrhythmic drug pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pharmacokinetics and pharmacodynamics pathway of drugs used in the treatment of arrythmias.  Some beta receptor and channel blockers may also act as antiarrhythmic agents. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001878">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001872"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X-linked intellectual disability pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X-linked mental retardation disease pathway</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Genetic disorders involving intellectual disabilty resulting from alterations in pathways whose component genes are located on the X chromosome.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001872">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001477"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X-linked genetic disease pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Those conditions resulting from alterations in pathways involving genes on the X-chromosome in humans or in other species.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0002243">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0000923"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anesthetic drug pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pharmacokinetics and pharmacodynamics of compounds used to cause reversible loss of sensation and generally administered to facilitate surgery.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0000010">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000010</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lipid metabolic pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lipid metabolic process, Metabolism of lipids</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The metabolic reactions involved in the oxidation, utilization and/or synthesis of lipids in tissues.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001643">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001473"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001589"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inborn error of lipid metabolism pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inborn error of lipid metabolism disease pathway</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Those diseases that are caused by inborn errors of lipid metabolism. The mutations can disrupt one or several pathways.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001852">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001738"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">propranolol drug pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pharmacokinetics and pharmacodynamics pathway of propanolol - a non-selective adrenergic beta receptor blocker, used for the treatment of hypertension and other cardiovascular conditions. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0000996">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000996</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0000754"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anti-infective drug pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pharmacokinetics and pharmacodynamics of compounds used as anti-infective agents. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0002369">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0000919"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immunosuppressant drug pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pharmacokinetics and pharmacodynamics pathway of drugs used as immunosupressants. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0000124">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000124</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular detoxification pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular detoxification</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pathway triggered by exogenous or endogenous elements, compounds or molecules that can be harmful to the system. The phase I (oxidative) and phase II (conjugative) metabolizing enzymes and the phase III transport systems and other pathways are involved in the response mechanisms resulting in processing and subsequent elimination of such elements. Others induce downstream effects such as antioxidant, cell death or inflammatory response pathways.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0000923">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000923</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0000754"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nervous system drug pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pharmacokinetics and pharmacodynamics of compounds used for the treatment of conditions associated with the nervous system. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001855">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0002243"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">procaine drug pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">novocaine drug pathway</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pharmacokinetics and pharmacodynamics pathway of procaine, a drug used as a local anesthetic. It also has anti--inflammatory and mood enhancing effects. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001589">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001477"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001472"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inborn error of metabolism pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inborn error of metabolism disease pathway</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Those diseases resulting from alterations in metabolic pathways that are caused by genetic mutations present during fetal development and that may be inherited from a parent or acquired in utero. The mutations can disrupt one or several pathways, giving rise to a broad spectrum of conditions affecting many types of organs and/or tissues.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001546">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0000923"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">analgesic and/or antipyretic drug pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pharmacokinetics and pharmacodynamics of compounds used to alleviate pain and/or reduce fever. Examples include the nonsteroidal anti-inflammatory drugs such as aspirin or ibuprofen and the widely used paracetamol, known as acetaminophen, among others.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001865">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001170"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">piroxicam drug pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pharmacokinetics and pharmacodynamics pathway of piroxicam, a non-steroidal anti-inflammatory drug used in the treatment of inflammatory conditions and to relieve pain. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0000300">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000300</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001700"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kidney disease pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nephropathy pathway</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The congenital and acquired diseases affecting the kidney.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0000013">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000013</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complex human diseases, Disease</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Complex human diseases encompass a spectrum of genetic and environmental attributes that together affect the normal functioning of several molecular and cellular pathways. Their combined and accumulated effect is manifested in the anomalous phenotype of the complex condition.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001892">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0000920"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">calcium channel blocker drug pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pharmacokinetics and pharmacodynamics pathway of calcium channel blockers - agents used as antihypertensive drugs. They are further classified as dihydropyridine and non-dihydropyridine drugs, and both classes are rather selective. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0000754">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000754</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drug pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pharmacokinetics and the pharmacodynamics pathway elicited by the administration of specific drugs. The systems involved in drug processing and responses are also those handling exogenous, xenobiotic compounds in the cellular detoxification pathway. The distinction between a random encounter with a foreign compound and the processing of a substance administered for treatment along with the importance of genetic variation for the individual responses to particular drugs warrant their separate consideration.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001414">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001412"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brain disease pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The congenital and acquired diseases affecting the brain, including but not limited to the cerebral cortex, basal ganglia, thalamus and hypothalamus, brain stem, cerebellum.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001203">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0000754"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">systemic hormones drug pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pharmacokinetics and pharmacodynamics of hormonal preparations that may contain natural hormones or are synthetic hormonal analogs and their derivatives. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001700">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001699"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urologic disease pathway</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0002443">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001546"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">opioid drug pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pharmacokinetics and pharmacodynamics of compounds used to alleviate pain and which act on the nervous system in a way similar to opiate. They can be natural opiates, like morphine or codeine, endogenous opioid peptide, like endorphins, semi- or fully synthetic opioids, or drugs that chemically are not of the opioid class but act as agonists of opioid receptors. Others can act as antagonists or mixed agonists/antagonists. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001473">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001472"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lipid metabolism disease pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Those diseases and disorders that are caused by deregulation of lipid metabolic pathways. The condition(s) can be inherited or acquired.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001803">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0000996"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">streptomycin drug pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pharmacokinetics and pharmacodynamics of streptomycin, a bactericidal antibiotic that inhibits bacterial protein synthesis. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001170">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001170</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0000754"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">musculo-skeletal system drug pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pharmacokinetics and pharmacodynamics of compounds used for the treatment of conditions associated with the musculo-skeletal system. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0000921">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000921</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0000754"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alimentary tract and metabolism drug pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pharmacokinetics and pharmacodynamics of compounds used for the treatment of alimentary tract and metabolism-related conditions. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001645">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001589"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inborn error of amino acid metabolism pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inborn error of amino acid metabolism disease pathway</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Those diseases that are caused by inborn errors of amino acid metabolism. The mutations can disrupt one or several pathways.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001882">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0000921"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pirenzepine drug pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pharmacokinetics and pharmacodynamics of pirenzepine, a muscarinic receptor antagonist used in the treatment of peptic ulcers. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001862">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0000921"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0002369"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001203"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prednisone drug pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pharmacokinetics and pharmacodynamics of prednisone - a synthetic glucocorticoid that is particularly effective as a immunosuppressant drug. Both short- and long-term effects can occur. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001816">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001589"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inborn error of metal metabolism pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inborn error of metal metabolism disease pathway</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Those diseases that are caused by inborn errors of metal metabolism. The mutations can disrupt one or several pathways.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0000004">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000004</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulatory pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pathways that control the processes by which a cell or organism develops, adjusts, behaves, responds to conditions or changes in these conditions, or in any manner helps promote and maintain its efficient functioning.', 'The definition was complied based on a number of definitions available in several dictionaries'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001885">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0002443"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pentazocine drug pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pharmacokinetics and pharmacodynamics pathway of pentazocine, an opioid analgesic. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001472">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001583"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metabolic disease pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diseases of metabolism</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Those diseases and disorders that are caused by deregulation of a metabolic pathway. It can be due to an inherited defect in an enzyme function and thus congenital, or acquired, when resulting from the failure or malfunctioning of an important metabolic organ.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001849">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0002336"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quinidine drug pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pharmacokinetics and pharmacodynamics pathway of quinidine, a class I antiarrhythmic agent that can increase cardiac action potential. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001477">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001476"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inborn genetic disease pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Those diseases that are caused by genetic mutations present during fetal development and that may be inherited from a parent or acquired in utero. The mutations can disrupt one or several pathways that give rise to a broad spectrum of conditions affecting many types of organs and/or tissues.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001412">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0000013"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nervous system disease pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Any disease that affects the central or peripheral nervous system. It includes disorders of the brain, neurological, neurodegenerative, cerebrovascular disorders, syndromes, dystrophies, diseases of the central and peripheral nervous system, and others. However, mental or neuropsychiatric disorders are not included.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001876">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0000354"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plasmalogen metabolic pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SMP:00479</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Those metabolic reactions involved in the synthesis, utilization and/or degradation of plasmalogen, a type of ether phospholipid found in many tissues, particularly in the cardiovascular, immune and nervous system.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0000919">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000919</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0000754"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antineoplastic and immunomodulatory drug pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pharmacokinetics and pharmacodynamics of compounds used as antineoplastic or as immunomodulatory agents. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001434">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0000124"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">toxin and toxicant response pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The responses triggered by exposure to a toxin or a toxicant, a poisonous substance naturally produced by an organism or made by humans, respectively. A toxicant can be a poison, such as a pesticide. It can also be a compound for use in certain applications or a drug, the exposure to which may be toxic. Inflammatory responses, various types of cell death, changes in gene and protein expression can be induced upon exposure.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001583">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0000013"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nutritional and metabolic disease pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Those disorders and diseases resulting from nutritional imbalances and by alterations in various aspects of metabolism.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001846">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0000918"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rabeprazole drug pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pharmacokinetics and pharmacodynamics pathway of rabeprazole, a proton pump inhibitor. It is administered for the treatment of acid-related disorders. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001699">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0000013"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urogenital disease pathway</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001843">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0000921"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ranitidine drug pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pharmacokinetics and pharmacodynamics pathway of ranitidine acetate - a histamine H2 specific receptor antagonist used in the treatment of acid disorders. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001888">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0000918"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pantoprazole drug pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pharmacokinetics and pharmacodynamics pathway of pantoprazole, a proton pump inhibitor. It is administered for the treatment of acid-related disorders. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001476">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0000013"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">congenital disease pathway</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">congenital disorder pathway</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Those diseases present at birth and also before birth, or those that develop during the first month of life. Alteration(s) in one or several pathways can contribute to the development of the condition usually manifested in structural deformities.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001735">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0000920"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adrenergic beta receptor antagonist drug pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pharmacokinetics and pharmacodynamics pathway of adrenergic beta receptors blockers. Adrenergic beta receptors, in response to epinephrine or norepinephrine couple to the Gs alpha subunit of heterotrimeric G protein to elicit several responses. Beta receptor antagonists are used to inhibit these responses and they are either selective or non-selective. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001738">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0001735"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adrenergic beta receptor non-selective antagonist drug pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pharmacokinetics and pharmacodynamics pathway of non-selective adrenergic beta receptors blockers. Adrenergic beta receptors, in response to epinephrine or norepinephrine couple to the Gs alpha subunit of heterotrimeric G protein to elicit several responses. Beta receptor antagonists are used to inhibit these responses. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PW_0001858">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0002336"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">procainamide drug pathway</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The pharmacokinetics and pharmacodynamics pathway of procainamide, a class Ia antiarrhythmic drug. There are many adverse side effects and the cytotoxicity of the drug is documented. Genetic variations can result in changes in drug availability and can cause differences in the response of the organism to the drug.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

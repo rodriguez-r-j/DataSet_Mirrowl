@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#active_enzyme">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#Enzyme"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#active_gene_product"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">active enzyme</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#Protein_Complex_Subunit">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#simple_proteinv"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#contributor_entity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein Complex Subunit</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#Chaperone">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#Protein_Organized_by_Function"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chaperone</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#Activation">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#protein_modification_process"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activation</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#organized_by_function">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organized by function</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RGANIZED BY FUNCTIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RGANIZED BY FUNCTIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#ATPase_activity">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#hydrolase_activity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATPase activity</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">"adenosine 5-triphosphatase activity", adenosine triphosphatase activity, complex V (mitochondrial electron transport), ATP phosphohydrolase activity, HCO3--ATPase, ATP monophosphatase activity, ATP hydrolase activity, adenosinetriphosphatase activity, (Ca2+ + Mg2+)-ATPase, SV40 T-antigen</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Catalysis of the reaction: ATP + H2O = ADP + phosphate + 2 H+. May or may not be coupled to another reaction.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#Isomerase">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#Enzyme"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Isomerase</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#0000912">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#0002721"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ligation</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''EC:6 catalyzed process' [EC:6.-.-.-]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#Apoenzyme">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#apoprotein"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">apoenzyme</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#binding">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#spontaneous_activity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">binding</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ligand</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The selective, non-covalent, often stoichiometric, interaction of a molecule with one or more specific sites on another molecule.', 'Note that this term is in the subset of terms that should not be used for direct, manual gene product annotation. Please choose a more specific child term, or request a new one if no suitable term is available. For ligands that bind to signal transducing receptors, consider the molecular function term 'receptor binding ; GO:0005102' and its children.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#C19939">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#0000184"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP Hydrolysis</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#0000915">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#0002721"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Isomerization</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''EC:5 catalyzed process' [EC:5.-.-.-]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#biological_spontaneous_process">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#biological_process"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological spontaneous process</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-mediated process</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#Glycoprotein">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#conjugated_protein"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glycoprotein</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#Transferase">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#Enzyme"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transferase</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#Metabolic_reaction">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#Biochemical_Reaction"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#metabolic_process"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metabolic reaction</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#Phosphoprotein">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#conjugated_protein"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phosphoprotein</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#0000913">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#0002721"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transference</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''EC:2 catalyzed process' [EC:2.-.-.-]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#0000180">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#0000344"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dissociation</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Transformation of a non-covalent complex that results in the formation of several independent biochemical entities'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#addition_of_a_chemical_group">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#post-translational_protein_modification"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">addition of a chemical group</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Covalent reaction that results in the addition of a chemical group on a molecule.', 'Added on September 13 2006 by Nicolas Le Novere based on Patika ontology.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#Holoenzyme">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#Enzyme"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">holoenzyme</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#Ligasev">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#Enzyme"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ligase</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#Lipoprotein">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#conjugated_protein"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lipoprotein</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#Metabolic_pathway">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#C20633"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#metabolic_process"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metabolic pathway</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#Lyase">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#Enzyme"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lyase</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#oxidation_reduction">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxidation reduction</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XIDATION REDUCTIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XIDATION REDUCTIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#carbamoylated_protein">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#conjugated_protein"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbamoylated protein</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#Oxidoreductase">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#Enzyme"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oxidoreductase</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#acceptor">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#Gene_Product"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acceptor</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Akzeptor, A, Acceptor, Oxidized donor, acceptor, accepteur, Hydrogen-acceptor</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A molecular entity that can accept an electron, a pair of electrons, an atom or a group from another molecular entity.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#ATP-dependent_chaperone_mediated_protein_complex_assembly">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#chaperone-mediated_protein_complex_assembly"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP-dependent chaperone mediated protein complex assembly</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#0000917">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#0002721"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lyase process</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''EC:4 catalyzed processn\n[STKE:0456] Enzyme that catalyzes the cleavage of C-C, C-O, C-S, C-N or other bonds by other means than by hydrolysis or oxidation, with two substrates in one reaction direction, and one in the other. In the latter direction, a molecule (of carbon dioxide, water, etc) is eliminated, thus creating a new double bond or a new ring.\n\n[GO:0016829] Catalysis of the cleavage of C-C, C-O, C-N and other bonds by other means than by hydrolysis or oxidation, or conversely adding a group to a double bond. They differ from other enzymes in that two substrates are involved in one reaction direction, but only one in the other direction. When acting on the single substrate, a molecule is eliminated and this generates either a new double bond or a new ring.' [GO:0016829, STKE:0456]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#Hydrolase">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#Enzyme"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hydrolase</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#Activity">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activity</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#protein">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#Gene_Product"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proteins</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A biological macromolecule minimally consisting of one polypeptide chain synthesized at the ribosome.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#post-translational_protein_modification">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#Biochemical_Reaction"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#cellular_protein_modification_process"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#protein_modification_process"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">post-translational protein modification</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">posttranslational modification, post-translational modification, post-translational amino acid modification, posttranslational amino acid modification, posttranslational protein modification, PTM</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'This term should only be used to annotate a protein modification process that occurs after the protein has been released from the ribosome, and is therefore strictly post-translational. Modification of a free protein (one not attached to a ribosome) and modification of a C-terminal residue are post-translational processes. Some protein modifications occur while the protein is still in the ribosome but before translation has been completed; these modification processes are considered co-translational and should not be annotated using this term.', 'The process of covalently altering one or more amino acids in a protein after the protein has been completely translated and released from the ribosome.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#conjugated_protein">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#protein"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conjugated protein</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conjugated proteins, complex protein</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Conjugated protein is a protein that contains a non-peptide component, usually in stoichiometric proportion.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#Enzyme">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#Protein_Organized_by_Function"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enzyme</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#metabolic_process">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#Biochemical_Process"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metabolic process</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metabolic process resulting in cell growth, metabolism resulting in cell growth, metabolism</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Note that metabolic processes do not include single functions or processes such as protein-protein interactions, protein-nucleic acids, nor receptor-ligand interactions.', 'The chemical reactions and pathways, including anabolism and catabolism, by which living organisms transform chemical substances. Metabolic processes typically transform small molecules, but also include macromolecular processes such as DNA repair and replication, and protein synthesis and degradation.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#biological_mediated_reaction">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#biological_mediated_process"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological mediated reaction</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#chaperone-mediated_protein_complex_assembly">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#chaperone-mediated_protein_modification_reaction"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#protein_complex_assembly"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chaperone-mediated protein complex assembly</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein complex assembly, multichaperone pathway, cellular chaperone-mediated protein complex assembly, chaperone activity</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The aggregation, arrangement and bonding together of a set of components to form a protein complex, mediated by chaperone molecules that do not form part of the finished complex.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#chaperone-mediated_protein_modification_reaction">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#biological_mediated_reaction"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chaperone-mediated protein modification reaction</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#active_entity">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#participant"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">active participant</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#0000177">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#0000344"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-covalent binding</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">association</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Interaction between several biochemical entities that results in the formation of a non-covalent complex', ''non-covalent' added on February 26 2008 by Nicolas Le Novere.nadded synonym [SF req #3503970]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#active_gene_product">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#active_entity"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#Gene_Product"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">active gene product</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#Gene_Product">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#Chemical"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gene Product</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#Biochemical_Process">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#biological_process"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochemical Process</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#Chemical">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#participant"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#0002721">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#biological_mediated_reaction"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enzymatic reaction</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''Terms aiming to represent biochemical reactions referring to their resulting product modifications.' [MI:0414]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#apoprotein">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#protein"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">apoprotein</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">apoproteins, apoprotein</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An apoprotein is a protein devoid of its characteristic prosthetic group or metal.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#protein_modification_process">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#Biochemical_Process"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein modification process</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein modification</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The covalent alteration of one or more amino acids occurring in proteins, peptides and nascent polypeptides (co-translational, post-translational modifications). Includes the modification of charged tRNAs that are destined to occur in a protein (pre-translation modification).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#biological_process">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological process</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process, physiological process</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Note that, in addition to forming the root of the biological process ontology, this term is recommended for use for the annotation of gene products whose biological process is unknown. Note that when this term is used for annotation, it indicates that no information was available about the biological process of the gene product annotated as of the date the annotation was made; the evidence code ND, no data, is used to indicate this.', 'Any process specifically pertinent to the functioning of integrated living units: cells, tissues, organs, and organisms. A process is a collection of molecular events with a defined beginning and end.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#protein_complex_assembly">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#protein_complex_subunit_organization"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#0000177"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein complex assembly</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chaperone activity, protein complex formation</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The aggregation, arrangement and bonding together of a set of components to form a protein complex.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#catalytic_activity">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#molecular_function"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">catalytic activity</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enzyme activity</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#contributor_entity">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#participant"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contributor entity</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#cellular_protein_modification_process">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#Biochemical_Reaction"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#protein_modification_process"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular protein modification process</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein modification process, protein tagging activity, process resulting in protein modification</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The covalent alteration of one or more amino acids occurring in proteins, peptides and nascent polypeptides (co-translational, post-translational modifications) occurring at the level of an individual cell. Includes the modification of charged tRNAs that are destined to occur in a protein (pre-translation modification).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#0000344">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#biological_process"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular interaction</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Created on February 26 2008 by Nicolas Le Novere on the suggestion of Samuel Kerrien.', ''Relationship between molecular entities, based on contacts, direct or indirect.  [src_code:NR]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#0000184">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#0002721"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hydrolysis</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''EC:3 catalyzed process' [EC:3.-.-.-]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#0000001">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#biological_process"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#hydrolase_activity">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#catalytic_activity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydrolase activity</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#molecular_function">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#Activity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediated activity</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#protein_complex_subunit_organization">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#post-translational_protein_modification"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein complex subunit organization</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein complex subunit organisation</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Any process in which macromolecules aggregate, disaggregate, or are modified, resulting in the formation, disassembly, or alteration of a protein complex.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#Biochemical_Reaction">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#Biochemical_Process"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochemical Reaction</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#simple_proteinv">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#protein"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">simple protein</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">simple proteins</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#spontaneous_activity">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#Activity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spontaneous activity</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#C20633">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochemical Pathway</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#participant">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">participant</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#biological_mediated_process">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#biological_process"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological mediated process</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BiPOm#Protein_Organized_by_Function">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BiPOm#protein"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein, Organized by Function</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIPOM</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

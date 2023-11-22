@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:ns2="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#acid_fast_stain">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acid fast stain</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CID FAST STAI</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CID FAST STAI</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C0205163">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1700835"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">equivalent</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<b>Description:</b>Substitution occurred or is permitted with another bioequivalent and therapeutically equivalent product.']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C0215600">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1554000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTP-Hib</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>DTP-Haemophilus influenzae type b conjugate vaccine</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C0205160">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C3242591"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Negative</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>An absence finding of the specified component / analyte, organism or clinical sign based on the established threshold of the performed test or procedure.</p><p>[Note: Negative does not necessarily imply the complete absence of the specified item.\]</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C0205258">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C3242591"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indeterminate</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>The specified component / analyte, organism or clinical sign could neither be declared positive / negative nor detected / not detected by the performed test or procedure.</p><i>Usage Note:</i>For example, if the specimen was degraded, poorly processed, or was missing the required anatomic structures, then 'indeterminate' (i.e. 'cannot be determined') is the appropriate response, not 'equivocal'.']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C0220806">
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A substance that is fully defined by an organic or inorganic chemical formula, includes mixtures of other chemical substances. Refine using, e.g., IUPAC codes.</ns2:definition>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0220806</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical substance</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C0520510"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical substance</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>A substance that is fully defined by an organic or inorganic chemical formula, includes mixtures of other chemical substances. Refine using, e.g., IUPAC codes.</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C0201747">
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Electrochemical, Ion Selective Electrode</ns2:definition>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0201747</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ion selective electrode (ISE)</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1553848"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ion selective electrode (ISE)</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>Electrochemical, Ion Selective Electrode</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C1554161">
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identifies training type of processing.</ns2:definition>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1554161</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Training</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1553723"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Training</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>Identifies training type of processing.</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#2">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C0220808">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C3242190"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">payment</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>**Description:**Administrative, financial, and contractual processes related to payment for an activity, product, or service</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#other">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C0014441">
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ELISA</ns2:definition>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0014441</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ELISA</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1553848"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ELISA</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>ELISA</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C0201123">
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identification, Staphaurex</ns2:definition>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0201123</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Staphaurex</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1553848"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Staphaurex</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>Identification, Staphaurex</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#macrodilution">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macrodilution</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACRODILUTIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACRODILUTIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C0201242">
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bioassay, Animal Inoculation</ns2:definition>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0201242</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Animal Inoculation</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1553848"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Animal Inoculation</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>Bioassay, Animal Inoculation</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C0204192">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1699593"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orthodontic service</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>The service provided is required for orthodontic purposes. If the covered party has orthodontic coverage, then the service may be paid.</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C0201683">
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical</ns2:definition>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0201683</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical method</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1553848"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical method</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>Chemical</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C0201450">
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immunofluorescence, Anti-Complement</ns2:definition>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0201450</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-complement immunofluorescence (ACIF)</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1553848"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-complement immunofluorescence (ACIF)</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>Immunofluorescence, Anti-Complement</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C0205202">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1553812"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">corrected</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>**Description:**Indicates that result data has been corrected.</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#pad_culture">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pad culture</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AD CULTUR</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AD CULTUR</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C0206275">
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The spouse has died</ns2:definition>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0206275</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Widowed</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1553797"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Widowed</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>The spouse has died</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C0205332">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C3858441"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactive</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>A presence finding used to indicate that the specified component / analyte reacted with the reagent above the reliably measurable limit of the performed test.</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://purl.bioontology.org/ontology/HL7/C0205539">
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[<p><b>Definition:</b>The event occurred due to it being scheduled in the research protocol.</p>]]></ns2:definition>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0205539</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scheduled</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C3243315"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scheduled</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>**Definition:**The event occurred due to it being scheduled in the research protocol.</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </rdf:Description>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C0200974">
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stain, Acid fast</ns2:definition>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0200974</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acid fast stain</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1553848"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acid fast stain</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>Stain, Acid fast</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#droplet">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">droplet</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROPLE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROPLE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C0009669">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1610738"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C0009669"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Confidentiality</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#avidin_biotin_peroxidase_complex">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">avidin biotin peroxidase complex</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIDIN BIOTIN PEROXIDASE COMPLE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIDIN BIOTIN PEROXIDASE COMPLE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C0004048">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inhalation</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>Inhalation</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#bioassay">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bioassay</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IOASSA</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IOASSA</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C0206755">
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X-ray crystallography</ns2:definition>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0206755</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X-ray crystallography</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1553848"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X-ray crystallography</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>X-ray crystallography</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#kinyouns_cold_carbolfuchsin">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kinyouns cold carbolfuchsin</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INYOUNS COLD CARBOLFUCHSI</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INYOUNS COLD CARBOLFUCHSI</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#4">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C0205081">
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indicates the condition may result in noticable adverse adverse consequences but is unlikely to be life-threatening or cause permanent injury.</ns2:definition>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0205081</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moderate</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1698254"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C0009669"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moderate</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">moderate</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>Indicates the condition may result in noticable adverse adverse consequences but is unlikely to be life-threatening or cause permanent injury.</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C0205420">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C3242303"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C3242300"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ActRelationshipConcurrentWith</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concurrent with</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>A relationship in which the source act's effective time is the same as the target act's effective time.</p><i>UsageNote:</i>This code is reflexive. Therefore its inverse code is itself.']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#fluorochrome">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fluorochrome</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LUOROCHROM</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LUOROCHROM</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C0201717">
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Radial Immunodiffusion</ns2:definition>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0201717</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Radial immunodiffusion (RID)</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1553848"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Radial immunodiffusion (RID)</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>Radial Immunodiffusion</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C0205548">
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">With highest priority (e.g., emergency).</ns2:definition>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0205548</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stat</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1553836"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stat</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>With highest priority (e.g., emergency).</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C0200971">
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stain, Calcofluor white fluorescent</ns2:definition>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0200971</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calcofluor white fluorescent stain</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1553848"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calcofluor white fluorescent stain</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>Stain, Calcofluor white fluorescent</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C0005507">
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bioassay</ns2:definition>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0005507</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bioassay</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1553848"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bioassay</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>Bioassay</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#minimum_bactericidal_concentration_test">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">minimum bactericidal concentration test</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INIMUM BACTERICIDAL CONCENTRATION TES</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INIMUM BACTERICIDAL CONCENTRATION TES</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C0204601">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1698550"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug Rehab</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>Provision of treatment for drug abuse.</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#surface_streak">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">surface streak</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URFACE STREA</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URFACE STREA</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C0220896">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0220896</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polish</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C0239307"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polish</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C0205544">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C3242344"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1553406"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancel</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancelled</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>Change the status of an object representing an Act to 'cancelled', i.e., abandoned before activation. For an HL7 Act, the state transitions per the HL7 Reference Information Model.</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#quantitative_microbial_culture">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quantitative microbial culture</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UANTITATIVE MICROBIAL CULTUR</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UANTITATIVE MICROBIAL CULTUR</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preferred label</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C1550043">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1698515"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identified</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>Used by one system to inform another that it has received a container.</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C1610738">
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Code systems used in HL7 standards.</ns2:definition>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1610738</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CodeSystem</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1610738"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CodeSystem</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>Code systems used in HL7 standards.</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#elisa">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">elisa</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIS</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIS</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C0206255">
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">malaria vaccine</ns2:definition>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0206255</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">malaria</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1554000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">malaria</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>malaria vaccine</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">notation</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#intrapulmonary">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intrapulmonary</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NTRAPULMONAR</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NTRAPULMONAR</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#qualitative">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qualitative</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UALITATIV</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UALITATIV</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#pour_plate">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pour plate</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUR PLAT</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUR PLAT</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#cup">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cup</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">U</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">U</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#quantitative">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quantitative</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UANTITATIV</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UANTITATIV</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#microdilution">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microdilution</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICRODILUTIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICRODILUTIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#1">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</rdfs:label>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C0206578">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C3242477"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Czech Republic</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<b>Description:</b>Realm code for use of Czech Republic']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#peroxidase-antiperoxidase">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peroxidase-antiperoxidase</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EROXIDASE-ANTIPEROXIDAS</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EROXIDASE-ANTIPEROXIDAS</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C0226986">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C4521193"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Facial surface of tooth</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>The side of a tooth adjacent to the inside of the cheek or lips.</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#filter_paper">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filter paper</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ILTER PAPE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ILTER PAPE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C3242300">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C3858683"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C3858935"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C3858662"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1948020"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ends concurrent with</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ActRelationshipEndsConcurrentWith</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C1553812">
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The table that provides the detailed or rich codes for the Act classes.</ns2:definition>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1553812</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ActCode</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1610738"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ActCode</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>The table that provides the detailed or rich codes for the Act classes.</p><i>Open Issue:</i>The hierarchy has issues and several of the existing domains may be moved under this new one; this must be examined and a proposal to clean up the hierarncy in the near future is needed<i>Open Issue:</i>The description of this domain seems odd and may be a leftover from long ago and needs improvement.']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C3858683">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C3858687"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ends before or concurrent with end of</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>A relationship in which the source act's effective time ends before or concurrent with the end of the target act's effective time.</p><i>Usage Note:</i>Inverse code is EAEORECW']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C4521193">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1610738"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Systematized Nomenclature of Dentistry (SNODENT)</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>Systematized Nomenclature of Dentistry (SNODENT) is owned, maintained and distributed by the American Dental Association (ADA). SNODENT is a vocabulary designed for use in the electronic environment - for electronic health and dental records. The intended purpose is to:</p><p>* Provide standardized terms for describing dental disease * Capture clinical detail and patient characteristics * Permit analysis of patient care services and outcomes * To be interoperable with Electronic Health Records (EHR) and Electronic Dental Records (EDR)</p><p>SNODENT licensing information can be found at: http://www.ada.org/8466.aspx</p><p>URL for Official Source: http://www.ada.org/snodent.aspx</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C1553814">
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Classifies the Entity class and all of its subclasses. The terminology is hierarchical. At the top is this HL7-defined domain of high-level categories (such as represented by the Entity subclasses). Each of these terms must be harmonized and is specializable. The value sets beneath are drawn from multiple, frequently external, domains that reflect much more fine-grained typing.</ns2:definition>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1553814</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EntityClass</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1610738"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EntityClass</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>Classifies the Entity class and all of its subclasses. The terminology is hierarchical. At the top is this HL7-defined domain of high-level categories (such as represented by the Entity subclasses). Each of these terms must be harmonized and is specializable.</p><p>The value sets beneath are encoded in Entity.code and are drawn from multiple, frequently external, domains that reflect much more fine-grained typing.</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C1553723">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1553723</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProcessingID</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1610738"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProcessingID</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>This attribute defines whether the message is part of a production, training, or debugging system.</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://purl.bioontology.org/ontology/HL7/C3243314">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1553844"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ClinicalResearchReason</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </rdf:Description>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C1553836">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1553836</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ActPriority</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1610738"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ActPriority</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>A set of codes (e.g., for routine, emergency), specifying the urgency under which the Act happened, can happen, is happening, is intended to happen, or is requested/demanded to happen.</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C1553406">
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The 'typical' state. Excludes 'nullified' which represents the termination state of an Entity record instance that was created in error.</ns2:definition>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1553406</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">normal</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1553753"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C3858442"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">normal</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EntityStatusNormal</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C1553847">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1553847</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ObservationInterpretation</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1610738"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ObservationInterpretation</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>The domain of possible values for a categorical assessment of an observation value.</p><i>Discussion:</i>These interpretation codes are sometimes called 'abnormal flags', however, the judgment of normalcy is just one of the common rough interpretations, and is often not relevant. For example, the susceptibility interpretations are not about 'normalcy', and for any observation of a pathologic condition, it does not make sense to state the normalcy, since pathologic conditions are never considered 'normal.'']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C3242475">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C5421473"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">namespace realms</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<b>Description:</b>Codes that can be used in the 'realm' portion of HL7 v3 artifact identifiers.']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C3244319">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C3242339"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revise</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>Fundamental operation in an Information System (IS) that results only in the revision or alteration of an object. Note: The preceding definition is taken from the HL7 RBAC specification. There is no restriction on how the operation is invoked, e.g., via a user interface.</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C5441727">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1610738"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Race</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>In the United States, federal standards for classifying data on race determine the categories used by federal agencies and exert a strong influence on categorization by state and local agencies and private sector organizations. The federal standards do not conceptually define race, and they recognize the absence of an anthropological or scientific basis for racial classification. Instead, the federal standards acknowledge that race is a social-political construct in which an individual's own identification with one more race categories is preferred to observer identification. The standards use a variety of features to define five minimum race categories. Among these features are descent from 'the original peoples' of a specified region or nation. The minimum race categories are American Indian or Alaska Native, Asian, Black or African American, Native Hawaiian or Other Pacific Islander, and White. The federal standards stipulate that race data need not be limited to the five minimum categories, but any expansion must be collapsible to those categories.</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C1553755">
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This domain is the root domain to which all HL7-recognized value sets for the Observation.value attribute will be linked when Observation.value has a coded data type.</ns2:definition>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1553755</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ObservationValue</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1610738"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ObservationValue</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>This domain is the root domain to which all HL7-recognized value sets for the Observation.value attribute will be linked when Observation.value has a coded data type.</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C1551338">
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corresponds to the Entity class</ns2:definition>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1551338</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entity</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1553814"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entity</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>Corresponds to the Entity class</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C3242477">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C3242475"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C3242474"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Affiliate Realms</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<b>Description:</b>Realm codes for official HL7 organizational bodies. This includes both the HL7 International organization as well as all recognized international affiliates (past and present). These groups have the ability to bind vocabulary and develop artifacts. As well, they have the ability to have 'ownership' over other binding realms and namespace realms via the owningAffiliate property of those other realm codes.']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C1553725">
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The source is an excerpt from the target.</ns2:definition>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1553725</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ActRelationshipType</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1610738"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ActRelationshipType</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>A code specifying the meaning and purpose of every ActRelationship instance. Each of its values implies specific constraints to what kinds of Act objects can be related and in which way.</p><i>Discussion:</i>The types of act relationships fall under one of 5 categories:<p>1.) (De)-composition, with composite (source) and component (target)</p><p>2.) Sequel which includes follow-up, fulfillment, instantiation, replacement, transformation, etc. that all have in common that source and target are Acts of essentially the same kind but with variances in mood and other attributes, and where the target exists before the source and the source refers to the target that it links back to.</p><p>3.) Pre-condition, trigger, reason, contraindication, with the conditioned Act at the source and the condition or reason at the target.</p><p>4.) Post-condition, outcome, goal and risk, with the Act at the source having the outcome or goal at the target.</p><p>5.) A host of functional relationships including support, cause, derivation, etc. generalized under the notion of 'pertinence'.</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C1554000">
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The kind of vaccine.</ns2:definition>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1554000</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VaccineType</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1698721"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1610738"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VaccineType</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>Types of manufactured material that when administered are intended to confer protection against specific disease(s).</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C1553763">
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identifies what sort of change is permitted or has occurred between the therapy that was ordered and the therapy that was/will be provided.</ns2:definition>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1553763</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SubstanceAdminSubstitution</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1610738"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SubstanceAdminSubstitution</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Substance Admin Substitution</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>Identifies what sort of change is permitted or has occurred between the therapy that was ordered and the therapy that was/will be provided.</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C3244104">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1553812"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">act care provision</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>**Description:**The type and scope of responsibility taken-on by the performer of the Act for a specific subject of care.</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C0520510">
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any thing that has extension in space and mass, may be of living or non-living origin.</ns2:definition>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0520510</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1551338"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>Any thing that has extension in space and mass, may be of living or non-living origin.</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C3242303">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C3858665"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C3858661"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C3858684"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1948020"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">starts concurrent with</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>A relationship in which the source act's effective time starts with the start of the target act's effective time.</p><i>UsageNote:</i>This code is reflexive. Therefore its inverse code is itself.']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C1698254">
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Potential values for observations of severity.</ns2:definition>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1698254</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SeverityObservation</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1553755"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SeverityObservation</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>Potential values for observations of severity.</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C1698721">
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Types of Material for EntityClass 'MAT'</ns2:definition>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1698721</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MaterialEntityClassType</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1553752"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MaterialEntityClassType</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>Types of Material for EntityClass 'MAT'</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C1553753">
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The status of an instance of the RIM Entity class.</ns2:definition>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1553753</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EntityStatus</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1610738"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EntityStatus</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>Codes representing the defined possible states of an Entity, as defined by the Entity class state machine.</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C3858929">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C3243258"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">starts before or concurrent with end of</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>A relationship in which the source act's effective time starts before or concurrent with the end of the target act's effective time.</p><i>Usage Note:</i>Inverse code is SAEORSCWE']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C3243315">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1553844"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C3243314"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ClinicalResearchEventReason</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>**Definition:**Specifies the reason that an event occurred in a clinical research study.</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C0239307">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C0007457"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">European</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C1699593">
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Includes coded responses that will occur as a result of the adjudication of an electronic invoice at a summary level and provides guidance on interpretation of the referenced adjudication results.</ns2:definition>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1699593</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ActInvoiceOverrideCode</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1553812"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ActInvoiceOverrideCode</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>Includes coded responses that will occur as a result of the adjudication of an electronic invoice at a summary level and provides guidance on interpretation of the referenced adjudication results.</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C3242591">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1553847"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ObservationInterpretationDetection</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>Interpretations of the presence or absence of a component / analyte or organism in a test or of a sign in a clinical observation. In keeping with laboratory data processing practice, these concepts provide a categorical interpretation of the 'meaning' of the quantitative value for the same observation.</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C3858661">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C3243258"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">starts after or concurrent with start of</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C3243258">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C3858928"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ActRelationshipTemporallyPertains</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>Abstract collector for ActRelationhsip types that relate two acts by their timing.</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C1700835">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1700835</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ActSubstanceAdminSubstitutionCode</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1553763"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1553812"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ActSubstanceAdminSubstitutionCode</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>**Definition:**Identifies the types of substitution that may be permitted when ordering a medication, as well as those which have actually occurred during the act of dispensing.</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C3858687">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C3858929"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">starts before end of</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>The source Act starts before the end of the target Act (i.e. if we say 'ActOne SBE ActTwo', it means that ActOne starts before the end of ActTwo, therefore ActOne is the source and ActTwo is the target).</p><i>UsageNote:</i>Inverse code is<b>EAS</b>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C1698515">
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Constrains the ActCode to the domain of Container Registration</ns2:definition>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1698515</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ActContainerRegistrationCode</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1553812"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ActContainerRegistrationCode</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>Constrains the ActCode to the domain of Container Registration</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C3242163">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1553844"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ActInformationManagementReason</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>**Description:**The rationale or purpose for an act relating to information management, such as archiving information for the purpose of complying with an enterprise data retention policy.</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C1553797">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1553797</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MaritalStatus</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1610738"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MaritalStatus</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>* \* \* No description supplied \* \* \*</p><i>Open Issue:</i>The specific meanings of these codes can vary somewhat by jurisdiction and implementation so caution should be used when determining equivalency.<i>Open Issue:</i>fixing and completion of the hierarchy and proper good definitions of all the concepts is badly needed.']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C3242190">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C3242163"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1553844"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ActInformationPrivacyReason</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<b>Description:</b>The rationale or purpose for an act relating to the management of personal information, such as disclosing personal tax information for the purpose of complying with a court order.']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C5421473">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7Realm</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<b>Description:</b>Coded concepts representing Binding Realms (used for Context Binding of terminology in HL7 models) and/or Namespace Realms (used to help ensure unique identification of HL7 artifacts). This code system is partitioned into three sections: Affiliate realms, Binding realms and Namespace realms. All affiliate realm codes may automatically be used as both binding realms and namespace realms. Furthermore, affiliate realms are the only realms that have authority over the creation of binding realms. (Note that 'affiliate' includes the idea of both international affiliates and the HL7 International organization.) All other codes must be associated with an owning affiliate realm and must appear as a specialization of _BindingRealm or \_NamespaceRealm. For affiliates whose concepts align with nations, the country codes from ISO 3166-1 2-character alpha are used for the code when possible so these codes should not be used for other realm types. It is recommended that binding realm and namespace codes submitted by affiliates use the realm code as a prefix to avoid possible collisions with ISO codes. However, tooling does not currently support namepace realm codes greater than 2 characters.<i>Open Issue:</i>The name of the concept property 'owningAffiliate' should be changed to better reflect that the property value is the human readable name of the organizational entity that manages the Realm identified by the Realm Code.<i>Open Issue:</i>In spite of the inability of tooling to process codes longer than 2 characters, there is at least one realm codes ('SOA') that was added that is 3 characters in length.']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C0007457">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0007457</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C5441727"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C1698550">
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General category of medical service provided to the patient during their encounter.</ns2:definition>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1698550</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ActMedicalServiceCode</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C3244104"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ActMedicalServiceCode</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>General category of medical service provided to the patient during their encounter.</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C1948020">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C3858929"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">overlaps with</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C3858684">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C3858687"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">starts before or concurrent with start of</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>A relationship in which the source act's effective time starts before or concurrent with the start of the target act's effective time.</p><i>Usage Note:</i>Inverse code is SASORSCW']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C3242339">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C3242345"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">operate</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>Act on an object or objects.</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C1553752">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1553752</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EntityCode</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1610738"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EntityCode</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>A value representing the specific kind of Entity the instance represents.</p><i>Examples:</i>A medical building, a Doberman Pinscher, a blood collection tube, a tissue biopsy.<i>Rationale:</i>For each Entity, the value for this attribute is drawn from one of several coding systems depending on the Entity classCode, such as living subjects (animal and plant taxonomies), chemical substance (e.g., IUPAC code), organizations, insurance company, government agency, hospital, park, lake, syringe, etc. It is possible that Entity.code may be so fine grained that it represents a single instance. An example is the CDC vaccine manufacturer code, modeled as a concept vocabulary, when in fact each concept refers to a single instance.']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C3858665">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C3858657"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">starts near start</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>A relationship in which the source act's effective time starts near the start of the target act's effective time. Near is defined separately as a time interval.</p><i>Usage Note:</i>Inverse code is SNE']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C3242344">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C3244319"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modify status</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>Change the status of an object representing an Act.</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C3242474">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C5421473"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">binding realms</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C1553848">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1553848</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ObservationMethod</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1610738"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ObservationMethod</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>A code that provides additional detail about the means or technique used to ascertain the observation.</p><i>Examples:</i>Blood pressure measurement method: arterial puncture vs. sphygmomanometer (Riva-Rocci), sitting vs. supine position, etc.<i>OpenIssue:</i>Description copied from Concept Domain of same name. Must be verified. Note that the Domain has a full discussion about use of the attribute and constraining that is not appropriate for the code system description. Needs to be improved.']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C3858441">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1553847"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ReactivityObservationInterpretation</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>Interpretations of the presence and level of reactivity of the specified component / analyte with the reagent in the performed laboratory test.</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C1553844">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1553844</ns2:notation>
+    <ns2:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ActReason</ns2:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1610738"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ActReason</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>A set of codes specifying the motivation, cause, or rationale of an Act, when such rationale is not reasonably represented as an ActRelationship of type 'has reason' linking to another Act.</p><i>Examples:</i>Example reasons that might qualify for being coded in this field might be: 'routine requirement', 'infectious disease reporting requirement', 'on patient request', 'required by law'.']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C3242345">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1610738"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DataOperation</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C3858657">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C3243258"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ActRelationshipTemporallyPertainsApproximates</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>Pro-forma value set for each head code in the ActRelationshipType code system; all codes present and future below the head code.</p>']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C3858662">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C3858657"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ends near end</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>A relationship in which the source act's effective time ends near the end of the target act's effective time. Near is defined separately as a time interval.</p><i>Usage Note:</i>Inverse code is ENS']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C3858935">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C3858658"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ends after or concurrent with end of</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C3858928">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1553725"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">act relationship type</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<b>Description:</b>A directed association between a source Act and a target Act.<b>Usage Note:</b>This code should never be transmitted in an instance as the value of ActRelationship.typeCode (attribute)']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C3858658">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C3243258"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ends after or concurrent with start of</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['<p>A relationship in which the source act's effective time ends after or concurrent with the start of the target act's effective time.</p><i>Usage Note:</i>Inverse code is EBSORECWS']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HL7/C3858442">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RoleLinkStatus</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7</ns1:ontology_acronm>
+  </owl:Class>
+</rdf:RDF>

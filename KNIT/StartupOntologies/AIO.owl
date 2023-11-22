@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+>
+  <owl:Class rdf:about="https://w3id.org/aio/Softmax_Layer">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Activation_Layer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Softmax Layer</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Softmax activation function.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/ThresholdedReLU_Layer">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Activation_Layer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ThresholdedReLU Layer</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Thresholded Rectified Linear Unit.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/UpSampling2D_Layer">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Layer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UpSampling2D Layer</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Upsampling layer for 2D inputs. Repeats the rows and columns of the data by size[0] and size[1] respectively.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/User_Interaction_Bias">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Individual_Bias"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">User Interaction Bias</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Arises when a user imposes their own self-selected biases and behavior during interaction with data, output, results, etc.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Time_Series_Forecasting">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Machine_Learning"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Time Series Forecasting</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Methods that predict future values based on previously observed values.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Use_And_Interpretation_Bias">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Computational_Bias"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Use And Interpretation Bias</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interpretive Bias</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An information-processing bias, the tendency to inappropriately analyze ambiguous stimuli, scenarios and events.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/UnitNormalization_Layer">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Recurrent_Layer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UnitNormalization Layer</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Unit normalization layer. Normalize a batch of inputs so that each input in the batch has a L2 norm equal to 1 (across the axes specified in axis).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/TimeDistributed_Layer">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Recurrent_Layer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TimeDistributed Layer</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'This wrapper allows to apply a layer to every temporal slice of an input. Every input should be at least 3D, and the dimension of index one of the first input will be considered to be the temporal dimension. Consider a batch of 32 video samples, where each sample is a 128x128 RGB image with channels_last data format, across 10 timesteps. The batch input shape is (32, 10, 128, 128, 3). You can then use TimeDistributed to apply the same Conv2D layer to each of the 10 timesteps, independently:'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Softmax_Function">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Function"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Softmax Function</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The elements of the output vector are in range (0, 1) and sum to 1. Each vector is handled independently. The axis argument sets which axis of the input the function is applied along. Softmax is often used as the activation for the last layer of a classification network because the result could be interpreted as a probability distribution. The softmax of each vector x is computed as exp(x) / tf.reduce_sum(exp(x)). The input values in are the log-odds of the resulting probability.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Softsign_Function">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Function"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Softsign Function</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'softsign(x) = x / (abs(x) + 1)'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/SimpleRNNCell_Layer">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Layer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SimpleRNNCell Layer</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Cell class for SimpleRNN. This class processes one step within the whole time sequence input, whereas tf.keras.layer.SimpleRNN processes the whole sequence.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Uncertainty_Bias">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Selection_And_Sampling_Bias"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uncertainty Bias</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Arises when predictive algorithms favor groups that are better represented in the training data, since there will be less uncertainty associated with those predictions.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Streetlight_Effect_Bias">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Individual_Bias"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Streetlight Effect Bias</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Streetlight Effect</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A bias whereby people tend to search only where it is easiest to look.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/SpatialDropout3D_Layer">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Regularization_Layer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SpatialDropout3D Layer</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Spatial 3D version of Dropout. This version performs the same function as Dropout, however, it drops entire 3D feature maps instead of individual elements. If adjacent voxels within feature maps are strongly correlated (as is normally the case in early convolution layers) then regular dropout will not regularize the activations and will otherwise just result in an effective Learning rate decrease. In this case, SpatialDropout3D will help promote independence between feature maps and should be used instead.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Spatial_Regression">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Regression_Analysis"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spatial Regression</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Regression method used to model spatial relationships.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Unsupervised_Clustering">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Clustering"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unsupervised Clustering</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cluster analysis</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Methods that group a set of objects in such a way that objects without labels in the same group (called a cluster) are more similar (in some sense) to each other than to those in other groups (clusters).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/TextVectorization_Layer">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Text_Preprocessing_Layer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TextVectorization Layer</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A preprocessing layer which maps text features to integer sequences.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/W2V_CBOW">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/ANN"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">word2vec-CBOW</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">W2V-CBOW, CBOW</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'In the continuous bag-of-words architecture, the model predicts the current word from a window of surrounding context words. The order of context words does not influence prediction (bag-of-words assumption). (https://en.wikipedia.org/wiki/Word2vec)', 'Input, Hidden, Output'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Supervised_Clustering">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Clustering"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Supervised Clustering</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cluster analysis</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Methods that group a set of labeled objects in such a way that objects in the same group (called a cluster) are more similarly labeled (in some sense) relative to those in other groups (clusters).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="https://w3id.org/aio/Unsupervised_Learning">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Machine_Learning"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unsupervised Learning</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Algorithms that learns patterns from unlabeled data.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Sunk_Cost_Fallacy_Bias">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Group_Bias"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sunk Cost Fallacy Bias</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sunk Cost Fallacy</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A human tendency where people opt to continue with an endeavor or behavior due to previously spent or invested resources, such as money, time, and effort, regardless of whether costs outweigh benefits. For example, in AI, the sunk cost fallacy could lead development teams and organizations to feel that because they have already invested so much time and money into a particular AI application, they must pursue it to market rather than deciding to end the effort, even in the face of significant technical debt and/or ethical debt.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Tanh_Function">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Function"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tanh Function</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hyperbolic tangent</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Hyperbolic tangent activation function.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Survivorship_Bias">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Processing_Bias"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Survivorship Bias</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Tendency for people to focus on the items, observations, or people that “survive” or make it past a selection process, while overlooking those that did not.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Softplus_Function">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Function"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Softplus Function</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'softplus(x) = log(exp(x) + 1)'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/SpatialDropout1D_Layer">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Regularization_Layer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SpatialDropout1D Layer</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Spatial 1D version of Dropout. This version performs the same function as Dropout, however, it drops entire 1D feature maps instead of individual elements. If adjacent frames within feature maps are strongly correlated (as is normally the case in early convolution layers) then regular dropout will not regularize the activations and will otherwise just result in an effective Learning rate decrease. In this case, SpatialDropout1D will help promote independence between feature maps and should be used instead.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Systemic_Bias">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Bias"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Systemic Bias</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Societal Bias, Institutional Bias</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Biases that result from procedures and practices of particular institutions that operate in ways which result in certain social groups being advantaged or favored and others being disadvantaged or devalued.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/SpatialDropout2D_Layer">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Regularization_Layer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SpatialDropout2D Layer</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Spatial 2D version of Dropout. This version performs the same function as Dropout, however, it drops entire 2D feature maps instead of individual elements. If adjacent pixels within feature maps are strongly correlated (as is normally the case in early convolution layers) then regular dropout will not regularize the activations and will otherwise just result in an effective Learning rate decrease. In this case, SpatialDropout2D will help promote independence between feature maps and should be used instead.a'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Temporal_Bias">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Selection_And_Sampling_Bias"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temporal Bias</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Bias that arises from differences in populations and behaviors over time.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/W2V_SkipGram">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/ANN"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">word2vec-SkipGram</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SkipGram, W2V-SkipGram</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Input, Hidden, Output', 'In the continuous skip-gram architecture, the model uses the current word to predict the surrounding window of context words. The skip-gram architecture weighs nearby context words more heavily than more distant context words.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/UpSampling3D_Layer">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Layer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UpSampling3D Layer</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Upsampling layer for 3D inputs.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Supervised_Biclustering">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Biclustering"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Supervised Biclustering</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Supervised Co-clustering, Supervised Two-way Clustering, Supervised Joint Clustering, Supervised Two-mode Clustering, Supervised Block Clustering</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Methods that simultaneously cluster the rows and columns of a labeled matrix, also taking into account the data label contributions to cluster coherence.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Unsupervised_Biclustering">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Biclustering"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unsupervised Biclustering</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Two-mode Clustering, Joint Clustering, Two-way Clustering, Block Clustering, Co-clustering</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Methods that simultaneously cluster the rows and columns of an unlabeled input matrix.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Time_Series_Analysis">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Machine_Learning"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Time Series Analysis</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Methods for analyzing time series data in order to extract meaningful statistics and other characteristics of the data.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Societal_Bias">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Bias"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Societal Bias</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Social Bias</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Can be positive or negative, and take a number of different forms, but is typically characterized as being for or against groups or individuals based on social identities, demographic factors, or immutable physical characteristics. Societal or social biases are often stereotypes. Common examples of societal or social biases are based on concepts like race, ethnicity, gender, sexual orientation, socioeconomic status, education, and more. Societal bias is often recognized and discussed in the context of NLP (Natural Language Processing) models.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/StringLookup_Layer">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Categorical_Features_Preprocessing_Layer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">StringLookup Layer</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A preprocessing layer which maps string features to integer indices.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Subtract_Layer">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Merging_Layer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subtract Layer</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Layer that subtracts two inputs. It takes as input a list of tensors of size 2, both of the same shape, and returns a single tensor, (inputs[0] - inputs[1]), also of the same shape.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Survival_Analysis">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Machine_Learning"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Survival Analysis</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Methods for nalyzing the expected duration of time until one event occurs, such as death in biological organisms and failure in mechanical systems.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Transformer">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/DNN"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transformer Network</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A transformer is a deep Learning model that adopts the mechanism of attention, differentially weighing the significance of each part of the input data. It is used primarily in the field of natural language processing (NLP) and in computer vision (CV). (https://en.wikipedia.org/wiki/Transformer_(machine_Learning_model))'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/UpSampling1D_Layer">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Reshaping_Layer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UpSampling1D Layer</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Upsampling layer for 1D inputs. Repeats each temporal step size times along the time axis.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/VAE">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/AE"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Variational Auto Encoder</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VAE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Input, Probabilistic Hidden, Matched Output-Input', 'Variational autoencoders are meant to compress the input information into a constrained multivariate latent distribution (encoding) to reconstruct it as accurately as possible (decoding). (https://en.wikipedia.org/wiki/Variational_autoencoder)'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Swish_Function">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Function"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swish Function</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'x*sigmoid(x). It is a smooth, non-monotonic function that consistently matches or outperforms ReLU on deep networks, it is unbounded above and bounded below.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Transfer_Learning">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Machine_Learning"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transfer Learning</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Methods which can reuse or transfer information from previously learned tasks for the Learning of new tasks.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Sigmoid_Function">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Function"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sigmoid Function</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['Applies the sigmoid activation function sigmoid(x) = 1 / (1 + exp(-x)). For small values (<-5), sigmoid returns a value close to zero, and for large values (>5) the result of the function gets close to 1. Sigmoid is equivalent to a 2-element Softmax, where the second element is assumed to be zero. The sigmoid function always returns a value between 0 and 1.']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Sparse_Learning">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Representation_Learning"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sparse Learning</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sparse dictionary Learning, Sparse coding</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Methods which aim to find sparse representations of the input data in the form of a linear combination of basic elements as well as those basic elements themselves.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/SimpleRNN_Layer">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Recurrent_Layer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SimpleRNN Layer</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Fully-connected RNN where the output is to be fed back to input.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="https://w3id.org/aio/StackedRNNCells_Layer">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Layer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">StackedRNNCells Layer</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Wrapper allowing a stack of RNN cells to behave as a single cell. Used to implement efficient stacked RNNs.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Computational_Bias">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Bias"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computational Bias</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Statistical Bias</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A systematic tendency which causes differences between results and facts. The bias exists in numbers of the process of data analysis, including the source of the data, the estimator chosen, and the ways the data was analyzed.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Processing_Bias">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Computational_Bias"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Processing Bias</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Validation Bias</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Judgement modulated by affect, which is influenced by the level of efficacy and efficiency in information processing; in cognitive sciences, processing bias is often referred to as an aesthetic judgement.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Individual_Bias">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Bias"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Individual Bias</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Individual bias is a persistent point of view or limited list of such points of view that one applies ('parent', 'academic', 'professional', or etc.).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Clustering">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Machine_Learning"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clustering</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cluster analysis</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Methods that group a set of objects in such a way that objects in the same group (called a cluster) are more similar (in some sense) to each other than to those in other groups (clusters).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/AE">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/UPN"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Auto Encoder Network</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Input, Hidden, Matched Output-Input', 'An autoencoder is a type of artificial neural network used to learn efficient codings of unlabeled data (unsupervised Learning). The encoding is validated and refined by attempting to regenerate the input from the encoding. The autoencoder learns a representation (encoding) for a set of data, typically for dimensionality reduction, by training the network to ignore insignificant data (“noise”). (https://en.wikipedia.org/wiki/Autoencoder)'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Categorical_Features_Preprocessing_Layer">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Layer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Categorical Features Preprocessing Layer</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A layer that performs categorical data preprocessing operations.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Layer">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Layer</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Network layer parent class'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Network">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Network</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Network parent class'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Activation_Layer">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Layer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activation Layer</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Applies an activation function to an output.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/DNN">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/ANN"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deep Neural Network</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A deep neural network (DNN) is an artificial neural network (ANN) with multiple layers between the input and output layers.[13][2] There are different types of neural networks but they always consist of the same components: neurons, synapses, weights, biases, and functions. (https://en.wikipedia.org/wiki/Deep_Learning#:~:text=A%20deep%20neural%20network%20(DNN,weights%2C%20biases%2C%20and%20functions.)'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Regularization_Layer">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Layer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regularization Layer</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Regularizers allow you to apply penalties on layer parameters or layer activity during optimization. These penalties are summed into the loss function that the network optimizes. Regularization penalties are applied on a per-layer basis.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Supervised_Learning">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Machine_Learning"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Supervised Learning</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Methods that can learn a function that maps an input to an output based on example input-output pairs.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Human_Bias">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Bias"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Bias</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Systematic errors in human thought based on a limited number of heuristic principles and predicting values to simpler judgmental operations.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Group_Bias">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Human_Bias"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Group Bias</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In-group bias, Intergroup bias, In-group–out-group Bias, In-group preference, In-group Favoritism</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pattern of favoring members of one's in-group over out-group members. This can be expressed in evaluation of others, in allocation of resources, and in many other ways.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/ANN">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Network"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Artificial Neural Network</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANN, NN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An ANN is based on a collection of connected units or nodes called artificial neurons, which loosely model the neurons in a biological brain. Each connection, like the synapses in a biological brain, can transmit a signal to other neurons. An artificial neuron receives a signal then processes it and can signal neurons connected to it. The 'signal' at a connection is a real number, and the output of each neuron is computed by some non-linear function of the sum of its inputs. The connections are called edges. Neurons and edges typically have a weight that adjusts as Learning proceeds. The weight increases or decreases the strength of the signal at a connection. Neurons may have a threshold such that a signal is sent only if the aggregate signal crosses that threshold. Typically, neurons are aggregated into layers. Different layers may perform different transformations on their inputs. Signals travel from the first layer (the input layer), to the last layer (the output layer), possibly after traversing the layers multiple times.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Representation_Learning">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/DNN"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Representation Learning</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Feature Learning</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Methods that allow a system to discover the representations required for feature detection or classification from raw data.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/UPN">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Network"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unsupervised Pretrained Network</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UPN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Unsupervised pre-training initializes a discriminative neural net from one which was trained using an unsupervised criterion, such as a deep belief network or a deep autoencoder. This method can sometimes help with both the optimization and the overfitting issues.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Text_Preprocessing_Layer">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Layer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Text Preprocessing Layer</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A layer that performs text data preprocessing operations.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Reshaping_Layer">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Layer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reshaping Layer</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Reshape layers are used to change the shape of the input.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Machine_Learning">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Method"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Machine Learning</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A field of inquiry devoted to understanding and building methods that 'learn', that is, methods that leverage data to improve performance on some set of tasks.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Function">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Function</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Bias">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bias</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Systematic error introduced into sampling or testing by selecting or encouraging one outcome or answer over others.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Merging_Layer">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Layer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Merging Layer</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A layer used to merge a list of inputs.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Regression_Analysis">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Supervised_Learning"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regression Analysis</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regression analysis, Regression model</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A set of statistical processes for estimating the relationships between a dependent variable (often called the 'outcome' or 'response' variable, or a 'label' in machine learning parlance) and one or more independent variables (often called 'predictors', 'covariates', 'explanatory variables' or 'features').'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Biclustering">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Machine_Learning"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biclustering</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Two-mode Clustering, Joint Clustering, Two-way Clustering, Block Clustering, Co-clustering</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Methods that simultaneously cluster the rows and columns of a matrix.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Selection_And_Sampling_Bias">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Computational_Bias"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Selection And Sampling Bias</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Selection Bias, Sampling Bias, Selection Effect</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Bias introduced by the selection of individuals, groups, or data for analysis in such a way that proper randomization is not achieved, thereby failing to ensure that the sample obtained is representative of the population intended to be analyzed.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Method">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Method</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Method parent class.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/aio/Recurrent_Layer">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/aio/Layer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recurrent Layer</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A layer of an RNB, composed of recurrent units and with the number of which is the hidden size of the layer.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIO</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

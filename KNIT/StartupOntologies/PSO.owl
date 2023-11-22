@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#zustand_identifikation">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zustand identifikation</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USTAND IDENTIFIKATIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USTAND IDENTIFIKATIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#wrong_states">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wrong states</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RONG STATE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RONG STATE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#_functional_medical_device">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> functional medical device</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FUNCTIONAL MEDICAL DEVIC</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FUNCTIONAL MEDICAL DEVIC</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#hoch">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Attributes"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Standardloyalitaet"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Prioritaet"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Fehlerkorrekturaktivititaet_durch_das_Team"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hoch</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#eine_hierarchische_ebene">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eine hierarchische ebene</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INE HIERARCHISCHE EBEN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INE HIERARCHISCHE EBEN</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#fehlend">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Content_Diagnostic"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Attributes"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Persoenliche_Identifikation"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Medizinische_Geraete"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Content_Sender"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Content_Receiver"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Content_Therapy"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Drug_Administration"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Administrative_Identifikation"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Zustand_Diagnostik"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Medizinische_Verbrauchsmaterialien"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Content_PatientName"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Zustand_Identifikation_Lokalisation_Koerper"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Content_Clinical_History"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Medikamente"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Zustand_Therapie"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fehlend</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Zuwiderhandlung">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Aktives_Versagen"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_Test_v001#Aktiver_Fehler"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zuwiderhandlung</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#genuegend">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genuegend</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENUEGEN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENUEGEN</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#wrong_route">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wrong route</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RONG ROUT</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RONG ROUT</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#geschrieben">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Attributes"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Informationstyp"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geschrieben</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#zustand_dokumentation">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zustand dokumentation</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USTAND DOKUMENTATIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USTAND DOKUMENTATIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#wrong_patient">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wrong patient</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RONG PATIEN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RONG PATIEN</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#zustand_medizinische_geraete">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zustand medizinische geraete</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USTAND MEDIZINISCHE GERAET</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USTAND MEDIZINISCHE GERAET</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#appropriate">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">appropriate</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PPROPRIAT</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PPROPRIAT</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#zustand_identifikation_lokalisation_koerper">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zustand identifikation lokalisation koerper</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USTAND IDENTIFIKATION LOKALISATION KOERPE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USTAND IDENTIFIKATION LOKALISATION KOERPE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#wrong_presentation-packaging">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wrong presentation-packaging</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RONG PRESENTATION-PACKAGIN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RONG PRESENTATION-PACKAGIN</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#wrong_storage">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wrong storage</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RONG STORAG</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RONG STORAG</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#gleiche_medizinische_domaene_zwischen_patientproblem_und_aerztin">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gleiche medizinische domaene zwischen patientproblem und aerztin</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEICHE MEDIZINISCHE DOMAENE ZWISCHEN PATIENTPROBLEM UND AERZTI</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEICHE MEDIZINISCHE DOMAENE ZWISCHEN PATIENTPROBLEM UND AERZTI</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#involvierte_personen">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">involvierte personen</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NVOLVIERTE PERSONE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NVOLVIERTE PERSONE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#drei_oder_mehr_quellen">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drei oder mehr quellen</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REI ODER MEHR QUELLE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REI ODER MEHR QUELLE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#existent">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">existent</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XISTEN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XISTEN</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#_non_functional_medical_device">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> non functional medical device</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NON FUNCTIONAL MEDICAL DEVIC</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NON FUNCTIONAL MEDICAL DEVIC</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#gedruckt">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Attributes"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Informationstyp"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gedruckt</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#haptisch">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Verfügbare_Informationskanaele">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Task-Process"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verfügbare_Informationskanaele</rdfs:label>
+        <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haptisch</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://ontologies.khaos.uma.es#_nicht_einfach_verfügbar_und_verwendet">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> nicht einfach verfügbar und verwendet</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NICHT EINFACH VERFÜGBAR UND VERWENDE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NICHT EINFACH VERFÜGBAR UND VERWENDE</ns1:definition>
+  </rdf:Description>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#digital">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Attributes"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Informationstyp"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">digital</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#invasiv">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Art_der_Prozedur"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">invasiv</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'PRIME: eine invasive Prozedur hat immer eine manifeste Kontaminationsgefahr'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#ein">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#involvierte_Fachdomaenen"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Attributes"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Anzahl_der_Sender/Empfaenger"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Number_of_specimen_items"/>
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Notwendige_Anzahl_von_Informationsentitäten">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Task-Process"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Notwendige_Anzahl_von_Informationsentitäten</rdfs:label>
+        <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Benutzung_von_Verbrauchsmaterialien"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#involvierte_Personen"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Benutzung_von_medizinischen_Geraeten"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ein</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#wrong_oxygen-gas-vapour">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wrong oxygen-gas-vapour</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RONG OXYGEN-GAS-VAPOU</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RONG OXYGEN-GAS-VAPOU</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#falsch">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Content_Diagnostic"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Attributes"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Persoenliche_Identifikation"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Content_Sender"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Content_Receiver"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Content_Therapy"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Drug_Administration"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Administrative_Identifikation"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Zustand_Diagnostik"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Content_PatientName"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Zustand_Identifikation_Lokalisation_Koerper"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Content_Clinical_History"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Zustand_Therapie"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">falsch</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#akustisch">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Verfügbare_Informationskanaele"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">akustisch</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#haufig">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Haufigkeit_des_medizinischen_Problems"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Attributes"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haufig</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#angemessene_raeumliche_situation">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">angemessene raeumliche situation</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGEMESSENE RAEUMLICHE SITUATIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGEMESSENE RAEUMLICHE SITUATIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#einzeln">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Informationsaustausch"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">einzeln</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#zustand_diagnostik">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zustand diagnostik</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USTAND DIAGNOSTI</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USTAND DIAGNOSTI</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#fehlender_raum">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fehlender raum</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHLENDER RAU</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHLENDER RAU</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#zustand_therapie">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zustand therapie</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USTAND THERAPI</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USTAND THERAPI</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#wrong_frequency">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wrong frequency</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RONG FREQUENC</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RONG FREQUENC</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#gesprochen">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Attributes"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Informationstyp"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gesprochen</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#drei_oder_mehr">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drei oder mehr</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REI ODER MEH</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REI ODER MEH</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#wrong_quantity">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wrong quantity</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RONG QUANTIT</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RONG QUANTIT</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#involvierte_fachdomaenen">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">involvierte fachdomaenen</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NVOLVIERTE FACHDOMAENE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NVOLVIERTE FACHDOMAENE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#_nicht_angemessen_ausgebildetes_personal">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> nicht angemessen ausgebildetes personal</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NICHT ANGEMESSEN AUSGEBILDETES PERSONA</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NICHT ANGEMESSEN AUSGEBILDETES PERSONA</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#existent_und_nicht_verwendet">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">existent und nicht verwendet</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XISTENT UND NICHT VERWENDE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XISTENT UND NICHT VERWENDE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#fehlendes_geraet">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fehlendes geraet</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHLENDES GERAE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHLENDES GERAE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#_angemessen_ausgebildetes_personal">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> angemessen ausgebildetes personal</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANGEMESSEN AUSGEBILDETES PERSONA</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANGEMESSEN AUSGEBILDETES PERSONA</ns1:definition>
+  </owl:Class>
+  <rdf:Description rdf:about="http://ontologies.khaos.uma.es#_einfach_verfügbar_und_verwendet">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> einfach verfügbar und verwendet</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EINFACH VERFÜGBAR UND VERWENDE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EINFACH VERFÜGBAR UND VERWENDE</ns1:definition>
+  </rdf:Description>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#wrong_rate-flow-concentration">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wrong rate-flow-concentration</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RONG RATE-FLOW-CONCENTRATIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RONG RATE-FLOW-CONCENTRATIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#wrong_process-service">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wrong process-service</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RONG PROCESS-SERVIC</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RONG PROCESS-SERVIC</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#angemessene_verbrauchsmaterialien">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">angemessene verbrauchsmaterialien</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGEMESSENE VERBRAUCHSMATERIALIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGEMESSENE VERBRAUCHSMATERIALIE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#eine_quelle">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eine quelle</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INE QUELL</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INE QUELL</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#ja">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ja</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Input-Patient">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#ICPS_HelperClasses"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Input"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Patient"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patient (Input)</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#HL7-RIM">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Standard_Models"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7-RIM</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Prioritaet">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Properties"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Anforderungen"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Input-Patient"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Output-Patient"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prioritaet</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Die Priorisierung des Patienten basiert auf einer Triagierung (wobei unterschiedliche Systeme verwendet werden können).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Output">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#System-Systemparts"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Output</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Zustand_Identifikation">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#CorrectnessState"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zustand_Identifikation</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#ICPS_HelperClasses">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#ICPS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICPS_HelperClasses</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Classification">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Classification</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#ICPS">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Classification"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICPS</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_Test_v001#Fehler">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Terminologie-Ontologie"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fehler</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Task-Process">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#System-Systemparts"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Task-Process</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Drug_Administration">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#CorrectnessState"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug_Administration</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Zustand_Therapie">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#CorrectnessState"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zustand_Therapie</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Anforderungen">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Gleichgewichtsmodell"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anforderungen</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Administrative_Identifikation">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Zustand_Identifikation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Administrative_Identifikation</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Specimen">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Output"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Material"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Input"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Specimen</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Informationstyp">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Properties"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Information"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Anforderungen"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Informationstyp</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Content_Sender">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Zustand_Dokumentation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Content_Sender</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Aktives_Versagen">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Fehlerursachen"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Fehler"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aktives_Versagen</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'AEZQ: Unter einem 'aktiven Versagen' versteht man unsichere Handlungen oder Unterlassungen durch Personen, deren Handlungen unmittelbar unerwünschte Folgen haben können'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Zustand_Identifikation_Lokalisation_Koerper">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#CorrectnessState"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zustand_Identifikation_Lokalisation_Koerper</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Haufigkeit_des_medizinischen_Problems">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Properties"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Anforderungen"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Input-Patient"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haufigkeit_des_medizinischen_Problems</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#involvierte_Personen">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Task-Process"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">involvierte_Personen</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Standard_Models">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Standard_Models</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Properties">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#OPT-Model"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Properties</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'PRIME: sind die Eigenschaften, die eine Systemkomponente aufweist, die Eigenschaften nehmen eine bestimmte Menge von Attributen an (value sets, Wertebereich)'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Benutzung_von_Verbrauchsmaterialien">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Task-Process"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benutzung_von_Verbrauchsmaterialien</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Content_Clinical_History">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Zustand_Dokumentation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Content_Clinical_History</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Content_Diagnostic">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Zustand_Dokumentation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Content_Diagnostic</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Number_of_specimen_items">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Properties"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Specimen"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Anforderungen"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Number_of_specimen_items</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Fehlerkorrekturaktivititaet_durch_das_Team">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Lösungsmöglichkeiten">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Gleichgewichtsmodell"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">solving capacity</rdfs:label>
+        <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'PRIME: Die Lösungskapazitäten umfassen alle Eigenschaften von Personal, Team, Ausrüstung und Einrichtung, die zum direkten Gelingen einer Aufgabe betragen können.'</ns1:definition>
+        <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fehlerkorrekturaktivititaet_durch_das_Team</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Standardloyalitaet">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Lösungsmöglichkeiten"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Standardloyalitaet</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Zustand">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#OPT-Model"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zustand</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Duden: die Verfassung oder Lage, in der sich jmd. oder etwas zu einem Zeitpunkt befindet, und die bestimmte Eigenschaften hat.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#OPT-Model">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#PRIME"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OPT-Model</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Zustand_Dokumentation">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#CorrectnessState"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zustand_Dokumentation</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Input">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#System-Systemparts"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Input</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Gleichgewichtsmodell">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#PRIME"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gleichgewichtsmodell</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Benutzung_von_medizinischen_Geraeten">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Task-Process"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benutzung_von_medizinischen_Geraeten</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Anzahl_der_Sender/Empfaenger">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Properties"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Information"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Number_of_specimen_items"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Specimen"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Anforderungen"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anzahl_der_Sender/Empfaenger</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Attributes">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#OPT-Model"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Attributes</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'PRIME: Attribute sind die moeglichen Werte, die eine Eigenschaft haben kann - entspricht den value sets'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#PRIME">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Analysis_Methods"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRIME</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'PRIME - Prospective Risk analysis in Medical Environments
+ist inzwischen ein Framework bestehend aus
+- einem allgemeinen Prozessmodell für Fehlerhandlung, Schadenseintritt
+- einem Balance-Modell zur Darstellung des Gleichgewichts zwischen Anforderungen und Lösungskapazitäten
+- einer Ontologie (u.a. zur terminologischen Begriffsbestimmung)'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Content_Receiver">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Zustand_Dokumentation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Content_Receiver</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Art_der_Prozedur">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Task-Process"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Art_der_Prozedur</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Medizinische_Geraete">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#CorrectnessState"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Lösungsmöglichkeiten"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medizinische_Geraete</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Terminologie-Ontologie">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#PRIME"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Terminologie-Ontologie</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Fehler">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Usefull_Terms"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fehler</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'AEZQ: Eine Handlung oder ein Unterlassen bei dem eine Abweichung vom Plan, ein falscher Plan oder kein Plan vorliegt. Ob daraus ein Schaden entsteht, ist für die Definition des Fehlers irrelevant.
+Beispiel: Bei der Visite wird bei Verschreiben des Penicillins nicht auf Warnhinweise in der Patientenakte geachtet.', 'THB - 2017-June: Ein Fehler ist eine unerwünschte Zustandseigenschaft eines Objektes, einer Komponenten, eines Patienten oder einer Aufgabe. Dieser Zustand kann Ausgangspunkt vor einer Veränderung oder das Ergebnis einer Veränderung/Aktion sein.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Role">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#HL7-RIM"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Usefull_Terms">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Usefull_Terms</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#System-Systemparts">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#OPT-Model"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-Systemparts</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Patient">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Role"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patient</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Content_PatientName">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Zustand_Dokumentation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Content_PatientName</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Informationsaustausch">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Properties"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Information"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Anforderungen"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Informationsaustausch</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Information">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Output"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Input"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Content_Therapy">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Zustand_Dokumentation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Content_Therapy</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Entity">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#HL7-RIM"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entity</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Medikamente">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Lösungsmöglichkeiten"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medikamente</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Fehlerarten">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_Test_v001#Fehler"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fehlerarten</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_Test_v001#Aktiver_Fehler">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Fehlerursachen"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Fehler"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aktiver_Fehler</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Medizinische_Verbrauchsmaterialien">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#CorrectnessState"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Lösungsmöglichkeiten"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medizinische_Verbrauchsmaterialien</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Zustand_Diagnostik">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#CorrectnessState"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zustand_Diagnostik</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Analysis_Methods">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Analysis_Methods</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Output-Patient">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Output"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Patient"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patient (Output)</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Material">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Entity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Material</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Fehlerursachen">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Fehlerarten"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fehlerursachen</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#CorrectnessState">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Zustand"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qualitaetszustand</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#involvierte_Fachdomaenen">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Task-Process"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">involvierte_Fachdomaenen</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Persoenliche_Identifikation">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schra/ontologies/2017/4/PRIME_NewOntology#Zustand_Identifikation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Persoenliche_Identifikation</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO</ns1:ontology_acronm>
+  </owl:Class>
+</rdf:RDF>

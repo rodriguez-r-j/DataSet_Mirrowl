@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_Death_receptor">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_root"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Death-receptor</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">death receptors, death receptor</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_Activin_A">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_Activin"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activin-A</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">activinA, activin-A, Activin A, activin A, Activin A protein</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_GPIb_IX_V">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_root"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GPIb-IX-V</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glycoprotein Ib/V/IX, GPIb-IX-V, GpIb-V-IX, GPIb-IX-V complex, glycoprotein Ib-V-IX complex, Glycoprotein Ib-V-IX</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_EGFR_ligand">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_root"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EGFR-ligand</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EGFR ligands</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_Cyclin_E">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_Cyclin"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyclin-E</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cyclin E</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_ETC_complex_II">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_root"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ETC-complex-II</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">succinate dehydrogenase, complex II</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_AMPK_A1B2G1">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_AMPK"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMPK-A1B2G1</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMPK (A1/B2/G1), AMPK (alpha 1, beta 2, gamma 1), AMPK alpha1beta2gamma1, AMPK a1b2g1, alpha1beta2gamma1</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_ABL_family">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_root"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABL-family</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABL</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_Cyclin_D">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_Cyclin"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyclin-D</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyclin D</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_AMPK_A2B2G1">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_AMPK"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMPK-A2B2G1</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMPK (A2/B2/G1), AMPK a2b2g1, AMPK (alpha 2, beta 2, gamma 1), AMPK alpha2beta2gamma1, alpha2beta2gamma1</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_AMPK_A2B2G2">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_AMPK"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMPK-A2B2G2</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMPK (A2/B2/G2), AMPK alpha2beta2gamma2, AMPK (alpha 2, beta 2, gamma 2), AMPK a2b2g2, alpha2beta2gamma2</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_AMPK_A1B2G2">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_AMPK"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMPK-A1B2G2</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMPK (alpha 1, beta 2, gamma 2), AMPK alpha1beta2gamma2, alpha1beta2gamma2, AMPK (A1/B2/G2), AMPK a1b2g2</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_ETC_complex_III">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_root"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ETC-complex-III</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cytochrome bc1 complex, complex III</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_GAS6_receptor">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_root"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAS6-receptor</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gas6 receptors</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_CAMK2_complex">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_root"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAMK2-complex</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ca(2+)-calmodulin-dependent protein kinase II, CaMKII, CaMK II, Ca(2+)/calmodulin-dependent kinase II, CaM kinase II</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_BMP_receptor_type_II">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_root"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMP-receptor-type-II</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMP Receptor Type II, bone morphogenetic protein receptor 2, BRII, BMP type II receptor, bone morphogenetic protein receptor type II, bone morphogenetic protein type II receptors</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_AMPK_gamma">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMPK-gamma</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRKAG</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_CXCL_ELR_negative">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_Chemokine"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CXCL-ELR-negative</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ELR (-) CXC chemokines, ELR-negative CXC chemokine, ELR-negative CXC family, non-ELR-CXC chemokines</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_Acetyl_CoA_synthetase">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_root"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acetyl-CoA-synthetase</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACS, acetyl CoA ligase, Acetate-CoA ligase, acetyl CoA synthase, acetyl-coenzyme A synthase, Acetyl-CoA synthetase, acetyl-CoA synthetase</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_AMPK_A1B1G1">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_AMPK"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMPK-A1B1G1</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMPK alpha1beta1gamma1, AMPK a1b1g1, alpha1beta1gamma1, AMPK (alpha 1, beta 1, gamma 1), AMPK (A1/B1/G1)</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_Caspase_3_7">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_Caspase"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caspase-3-7</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">caspase-3/7</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_9_1_1">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_root"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9-1-1</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h9-1-1 complex, 9-1-1 complex, 9-1-1, (9-1-1) complex</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_DNA_polymerase_delta">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_root"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA-polymerase-delta</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pol delta, DNA polymerase delta, Pol delta</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_CAMK2_family">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_CAMK"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAMK2-family</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAMKII, CaMK2, calmodulindependent kinase II, CAMK2</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_E3_Ub_ligase">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_root"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E3-Ub-ligase</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E3 ubiquitin ligase, E3</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_Annexin_II_heterotetramer">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_root"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annexin-II-heterotetramer</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">annexin II heterotetramer, ANXA2 heterotetramer, A2t, annexin A2 heterotetramer</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_CCT_complex">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_root"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CCT-complex</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CCT complex, chaperonin-containing t-complex polypeptide 1, TRiC, chaperonin-containing TCP1 complex, chaperonin containing TCP-1, chaperonin, CCT</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_Ephrin_receptor">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_root"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ephrin-receptor</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ephrin receptor, Eph receptor, Eph receptors</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_AMPK_A2B2G3">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_AMPK"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMPK-A2B2G3</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMPK alpha2beta2gamma3, AMPK a2b2g3, alpha2beta2gamma3, AMPK (A2/B2/G3), AMPK (alpha 2, beta 2, gamma 3)</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_AMPK_A2B1G3">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_AMPK"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMPK-A2B1G3</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMPK (alpha 2, beta 1, gamma 3), AMPK alpha2beta1gamma3, AMPK (A2/B1/G3)</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_Activin_AB">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_Activin"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activin-AB</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">activin AB</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_AMPK_A2B1G2">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_AMPK"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMPK-A2B1G2</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMPK alpha2beta1gamma2, AMPK (alpha 2, beta 1, gamma 2), AMPK (A2/B1/G2)</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_AMPK_A1B2G3">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_AMPK"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMPK-A1B2G3</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMPK (A1/B2/G3), AMPK (alpha 1, beta 2, gamma 3), AMPK alpha1beta2gamma3</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_Cyclin_A">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_Cyclin"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyclin-A</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyclin A, Cyclin-A, cyclin A</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_Activin_B">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_Activin"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activin-B</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">activin-B</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_AMPK_beta">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMPK-beta</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRKAB</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_ATP_synthase">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_root"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP-synthase</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP synthase</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_FOS_family">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FOS-family</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fos, FOS</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_CXCL_ELR_positive">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_Chemokine"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CXCL-ELR-positive</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ELR (+) CXC chemokines, ELR-positive CXC chemokine, ELR-positive CXC family</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_AMPK_A2B1G1">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_AMPK"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMPK-A2B1G1</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMPK a2b1g1, alpha2beta1gamma1, AMPK (alpha 2, beta 1, gamma 1), AMPK (A2/B1/G1), AMPK alpha2beta1gamma1</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_F_actin">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_Actin"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F-actin</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F-actin</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_BMP_receptor_type_I">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_root"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMP-receptor-type-I</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMP Receptor Type I, BMP type I receptor, bone morphogenetic protein receptor type I, BRI, bone morphogenetic protein type I receptors, bone morphogenetic protein receptor 1</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_AMPK_A1B1G2">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_AMPK"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMPK-A1B1G2</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMPK a1b1g2, AMPK (A1/B1/G2), AMPK (alpha 1, beta 1, gamma 2), alpha1beta1gamma2, AMPK alpha1beta1gamma2</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_Cytoplasmic_dynein">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_root"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cytoplasmic-dynein</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cytoplasmic dynein</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_Chemokine_receptor">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_root"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemokine-receptor</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemoattractant receptor</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_Adaptor_protein_III">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_root"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adaptor-protein-III</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AP3, adaptor protein complex 3, AP-3</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_APC_C">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_root"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APC-C</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APC/C</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_AMPK_A1B1G3">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_AMPK"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMPK-A1B1G3</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMPK alpha1beta1gamma3, AMPK a1b1g3, AMPK (A1/B1/G3), AMPK (alpha 1, beta 1, gamma 3), alpha1beta1gamma3</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_Arp2_3_protein">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_root"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arp2-3-protein</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arp2/3</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE#_AMPK_alpha">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMPK-alpha</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMPKalpha, PRKAA</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE_Chemokine">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_root"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemokine</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemokine, chemokines</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE_CAMK">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_root"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAMK</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CaMK</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE_Caspase">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_root"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caspase</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">caspases, caspase</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE_AMPK">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_root"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMPK</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMPK</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE_Cyclin">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_root"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyclin</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyclin, cyclin, cyclins</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE_root">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROTEIN-FAMILY-OR-COMPLEX</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE_Activin">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_root"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activin</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activin, activins, activin, activin protein</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BE_Actin">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BE_root"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Actin</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">actin</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BE</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

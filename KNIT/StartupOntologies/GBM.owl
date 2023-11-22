@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#abnormal_connective_tissue">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal connective tissue</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BNORMAL CONNECTIVE TISSU</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BNORMAL CONNECTIVE TISSU</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#aunt">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#relative"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aunt</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GBM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#bladder_disease">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bladder disease</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LADDER DISEAS</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LADDER DISEAS</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#asian">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#race"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asian</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GBM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#back_abnormality">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">back abnormality</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACK ABNORMALIT</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACK ABNORMALIT</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#demographic_characteristics">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">demographic characteristics</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMOGRAPHIC CHARACTERISTIC</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMOGRAPHIC CHARACTERISTIC</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#cranial_nerves_abnormality">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cranial nerves abnormality</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RANIAL NERVES ABNORMALIT</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RANIAL NERVES ABNORMALIT</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#emphysema">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#pulmonary_disorder"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">emphysema</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GBM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#autoimmune_disorder">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune disorder</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UTOIMMUNE DISORDE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UTOIMMUNE DISORDE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#extremities_abnormality">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">extremities abnormality</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XTREMITIES ABNORMALIT</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XTREMITIES ABNORMALIT</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#african_american">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">african american</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FRICAN AMERICA</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FRICAN AMERICA</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#bronchitis">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#pulmonary_disorder"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bronchitis</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GBM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#esophageal_varix">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">esophageal varix</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOPHAGEAL VARI</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOPHAGEAL VARI</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://webprotege.stanford.edu/RDhDgib4q2pnZNfUcxtsaYO">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GBM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#esophageal_disease">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">esophageal disease</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOPHAGEAL DISEAS</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOPHAGEAL DISEAS</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#bacterial_infection">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bacterial infection</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTERIAL INFECTIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTERIAL INFECTIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#caucasian">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#race"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">caucasian</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GBM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#female">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#sex"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GBM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#gastrointestinal_disorder">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gastrointestinal disorder</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASTROINTESTINAL DISORDE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASTROINTESTINAL DISORDE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#fungal_infection">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fungal infection</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UNGAL INFECTIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UNGAL INFECTIO</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#gastric_ulcer">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gastric ulcer</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASTRIC ULCE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASTRIC ULCE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#daughter">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#relative"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">daughter</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GBM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#ear_nose_mouth_throat_abnormality">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ear nose mouth throat abnormality</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AR NOSE MOUTH THROAT ABNORMALIT</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AR NOSE MOUTH THROAT ABNORMALIT</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#age">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#demographic_characteristics"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">age</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GBM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#cerebral_aneurysm">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cerebral aneurysm</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EREBRAL ANEURYS</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EREBRAL ANEURYS</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#father">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#relative"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">father</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GBM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#brother">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#relative"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brother</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GBM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#disease_or_disorder">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease or disorder</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISEASE OR DISORDE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISEASE OR DISORDE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#bronchiectasis">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#pulmonary_disorder"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bronchiectasis</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GBM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#family">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#history"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">family</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GBM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#angiodysplasia">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_disorder"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">angiodysplasia</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GBM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#coordination_abnormality">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coordination abnormality</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OORDINATION ABNORMALIT</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OORDINATION ABNORMALIT</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#ethnicity">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#demographic_characteristics"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ethnicity</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GBM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#esophageal_tear">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">esophageal tear</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOPHAGEAL TEA</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOPHAGEAL TEA</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://webprotege.stanford.edu/RDuDJsY0l36QJUqGX5Tf0c9">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medication</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GBM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://webprotege.stanford.edu/RDxK3IALQKTDOqH4AraLbFD">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">surgery</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GBM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastritis">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_disorder"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gastritis</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GBM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#duodenal_ulcer">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">duodenal ulcer</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UODENAL ULCE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UODENAL ULCE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#gait_abnormality">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gait abnormality</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIT ABNORMALIT</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIT ABNORMALIT</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#cardiovascular_abnormality">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardiovascular abnormality</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARDIOVASCULAR ABNORMALIT</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARDIOVASCULAR ABNORMALIT</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#eye_abnormality">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eye abnormality</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YE ABNORMALIT</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YE ABNORMALIT</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#constitutional">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">constitutional</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GBM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#colon_polyp">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colon polyp</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OLON POLY</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OLON POLY</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#cirrhosis">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#liver_disease"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cirrhosis</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GBM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#cushings_syndrome">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cushings syndrome</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USHINGS SYNDROM</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USHINGS SYNDROM</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#gastrointestinal_malignancy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gastrointestinal malignancy</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASTROINTESTINAL MALIGNANC</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASTROINTESTINAL MALIGNANC</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#abdomen_gi_abnormality">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abdomen gi abnormality</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BDOMEN GI ABNORMALIT</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BDOMEN GI ABNORMALIT</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#diverticular_disease">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diverticular disease</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IVERTICULAR DISEAS</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IVERTICULAR DISEAS</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#chest_breast_abnormality">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chest breast abnormality</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEST BREAST ABNORMALIT</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEST BREAST ABNORMALIT</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://webprotege.stanford.edu/RizslBkOdWGiRWZZLIIuJ8">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">allergies</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GBM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#liver_disease">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_disorder"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liver_disease</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GBM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#other_disease_or_disorder">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other_disease_or_disorder</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'close off classes with anatomic locations'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GBM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#person">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">person</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GBM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#race">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#demographic_characteristics"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">race</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GBM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#relative">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#person"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relative</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''Relative' refers to family members of the study subject, e.g., the subject's mother or father.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GBM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#demographic_characteristics">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">demographic_characteristics</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GBM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_disorder">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#other_disease_or_disorder"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gastrointestinal_disorder</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GBM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_or_disorder</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GBM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">physical_finding</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GBM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#sex">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#demographic_characteristics"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sex</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GBM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#history">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">history</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GBM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#pulmonary_disorder">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#other_disease_or_disorder"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pulmonary_disorder</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GBM</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

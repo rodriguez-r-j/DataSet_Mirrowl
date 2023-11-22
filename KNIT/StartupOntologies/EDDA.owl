@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#longitudinal_cohort_study">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#cohort_study"/>
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#longitudinal_study"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">longitudinal cohort study</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">longitudinal cohort study</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#intervention_model">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#model"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intervention model</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intervention model, Intervention Model</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#medical_device_usage_and_evaluation">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#device_evaluation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medical device usage and evaluation</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medical device usage and evaluation, Medical Device Usage and Evaluation</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#medical_records_review">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#clinical_audit"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medical records review</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medical audit, medical record review, Medical Audits, Med Audit, Audits, Medical, medical records review, Audit, Medical, review of medical records</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A detailed review and evaluation of selected clinical records by qualified professional personnel for evaluating quality of medical care. [MeSH_2014]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#meta_ethnographic_study">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#meta_analysis"/>
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#ethnographic_study"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meta-ethnographic study</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meta-ethnography, meta-ethnographic study, meta-ethnographic studies</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#interdisciplinary_study">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#study_design"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interdisciplinary study</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interdisciplinary Studies, Interdisciplinary Study, Interdisciplinary Research, Studies, Interdisciplinary, Study, Interdisciplinary, interdisciplinary study, interdisciplinary research</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Studies that bring together multiple scientific disciplines to address specific issues. [NCI 2014_12E]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#matched_case_control_design">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#case_control_design"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">matched case control design</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">matched case control studies, Matched Case Control Studies, matched case-control designs, Matched Case-Control Studies, matched case-control design, matched case control designs, Matched Case-Control Study, matched case-control studies, matched case control, matched case-control trial, matched case-control trials, Studies, Matched Case-Control, Study, Matched Case-Control, matched case control trial, matched case control trials, matched case control study, matched case control design, matched case-control study</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#literature_based_study">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#secondary_study"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">literature-based study</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">literature-based studies, literature-based study</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#individual_patient_data_review">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#meta_analysis"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">individual patient data meta-analysis</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ipd meta-analysis, metaanalysis of individual patient data, meta-analysis of individual participant data, MIPD, ipd meta analysis, ipd metaanalysis, metaanalysis of individual participant data, individual patient data meta analysis, individual patient data meta-analysis, meta analysis of individual patient data, individual patient data metaanalysis, ipd review, meta analysis of individual participant data, meta-analysis of individual patient data, individual patient data review</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#laboratory_study">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#study_design"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">laboratory study</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laboratory Study, Laboratory studies, laboratory study</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#laboratory_animal_model">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#animal_model"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">laboratory animal model</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Models, Laboratory Animal, laboratory animal model, Animal Model, Laboratory, Laboratory Animal Models, Model, Laboratory Animal, Animal Models, Laboratory, Laboratory Animal Model</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#label_comprehension_study">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#regulatory_assessment"/>
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#study_design"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">label comprehension study</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">label comprehension study, Label Comprehension Studies</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#management_case_study">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#case_study"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">management case study</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Studies, Management Case, Case Studies, Management, Management Case Studies, management case study</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#international_review">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#literature_review"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">international review</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">international review</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#meta_epidemiological_study">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#meta_analysis"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meta-epidemiological study</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meta-epidemiological studies, meta-epidemiological study</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#metabolic_assessment">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#evaluation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metabolic assessment</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metabolism studies, metabolic assessment, Metabolic Assessment, Metabolism Studies, Metabolic Assessment, Abnormality, assessment of metabolism, Metabolic Abnormality Assessment, metabolic abnormality assessment, Abnormal Assessment of Metabolism, Metabolic Studies</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#masked_clinical_study">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#blind_design"/>
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#clinical_trial"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masked clinical study</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masked clinical study, blinded study, Blinded Clinical Study, Masked Clinical Study, Blind Clinical Study, Blinded Clinical Trial, blind study</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A clinical study that is designed using a procedure in which one or more parties to the study [subject(s), investigator(s), monitor, or/and data analyst(s)] are kept unaware of the treatment assignment(s). [NCI 2014_12E]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#interpretive_synthesis">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#research_synthesis"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpretive synthesis</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpretive synthesis</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#level_I_sleep_study">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#sleep_study"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">level I sleep study</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">level I sleep studies, level I sleep study</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#level_II_sleep_study">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#sleep_study"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">level II sleep study</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">level II sleep study, level II sleep studies</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#interrupted_time_series_without_comparison_group">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#interrupted_time_series_design"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interrupted time series without comparison group</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interrupted time series without comparison groups, interrupted time series without comparison group</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#mapping_study">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#literature_review"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mapping study</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mapping study, mapping studies</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#medical_product_usage_and_evaluation">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#health_technology_assessment"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medical product usage and evaluation</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medical Product Usage and Evaluation, medical product usage and evaluation</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#interrupted_time_series_with_comparison_group">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#interrupted_time_series_design"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interrupted time series with comparison group</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interrupted time series with comparison groups, interrupted time series with comparison group</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#level_3_sleep_study">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#sleep_study"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">level III sleep study</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">level 3 sleep study, level 3 sleep studies, level III sleep study, level III sleep studies</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#minimal_risk_study">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#clinical_trial"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">minimal risk study</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">minimal risk study, Minimal Risk Study</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The clinical research that involves testing an approved drug with a well-known adverse event profile, and includes physiologic measurements and procedures that carry little risk to the participant. [NCI 2014_12E]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#intervention_community_trial">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#community_study"/>
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#controlled_design"/>
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#interventional_study"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intervention community trial</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intervention community trial, Intervention Community Trial</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The Intervention Community Trial is a controlled study that involves modification of causal or conjectural causal factors in a population to test a cause-effect relationship. [NCI 2014_12E]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#joinpoint_model">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#statistical_model"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">joinpoint model</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">joinpoint model, Joinpoint Model</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#mixed_methods_feasibility_study">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#pilot_study_"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mixed-methods feasibility study</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mixed-methods feasibility study</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#mixed_methods_case_study">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#case_study"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mixed-methods case study</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mixed-methods case study</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#interview_study">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#study_design"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interview study</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oral history, interview studies, interview study</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Work consisting of a conversation with an individual regarding his or her background and other personal and professional details, opinions on specific subjects posed by the interviewer, etc. [MeSH_2014]', 'A conversation with an individual regarding his or her background and other personal and professional details, opinions on specific subjects posed by the interviewer, etc. [NCIT_14.05d]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#library_survey">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#survey"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">library survey</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Library Surveys, Survey, Library, Surveys, Library, Library Survey, library survey</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Collection and analysis of data pertaining to operations of a particular library, library system, or group of independent libraries, with recommendations for improvement and/or ordered plans for further development. [MeSH 2014_2014_02_10]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#literature_synthesis">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#research_synthesis"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">literature synthesis</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">literature synthesis, synthesis of the literature</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#mixed_method_evaluation">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#evaluation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mixed-method evaluation</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mixed-method evaluation, mixed-methods evaluation</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#knowledge_synthesis">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#research_synthesis"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">knowledge synthesis</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">knowledge synthesis</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#integrative_research_review">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#integrative_review"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">integrative research review</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">integrative research review</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#integrated_fitness_assessment">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#evaluation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">integrated fitness assessment</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Integrated Fitness Assessment, integrated fitness assessment</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An assessment used to indicate a person's overall level of fitness, including tests used to assess a person's muscle strength, endurance, and flexibility. [NCI 2014_12E]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#incidence_study">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#population_study"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">incidence study</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Study, Incidence, incidence study, Incidence Studies, Studies, Incidence, incidence studies, Incidence Study</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#maternal_and_child_health_study">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#familial_study"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maternal and child health study</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maternal and Child Health Study, maternal and child health study</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Studies focusing on the involvement of maternal factors (and efforts to modify these factors) that may affect the health of the child or fetus: smoking or exposure to drugs or toxic chemicals during pregnancy, maternal/fetal immunologic interactions. [NCI 2014_12E]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#meta_review">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#literature_review"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">overview of reviews</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meta-reviews, umbrella reviews, overview review, meta-review, overview reviews, overview of reviews, umbrella review, review of reviews</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#methodological_study">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#study_design"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">methodological study</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">METHODOL STUDIES, Study, Methodological, METHODOL STUDY, STUDIES METHODOL, methodological study, Methodological Study, STUDY METHODOL, Methodological Studies, Studies, Methodological</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#medical_assessment">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#evaluation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medical assessment</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medical Exam, Medical Inspection, Medical assessment (procedure), Medical assessment, Medical Assessment, medical examination, medical assessment, Medical Examination</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An appraisal or evaluation of a patient's condition by a clinician that is based on a physical exam, medical history, and the patient's account of symptoms. [NCI 2014_12E]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#animal_model">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#biological_model"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal model</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">model, animal, Models, Animal, animal models , animal model</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Non-human animals, selected because of specific characteristics, for use in experimental research, teaching, or testing. [MeSH_2016]', ' An animal that is amenable to experimentation and whose physiological or pathologic mechanisms are sufficiently similar to those of a human for the animal to serve as a model. [NCIT_16.01]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#survey">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#study_design"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">survey</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surveys, survey, Survey, surveys</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An examination or inspection carried out with specific aims in mind, a search for particular kinds of information. This sense is carried in a number of specific kinds of research designs in which questionnaires, inventories or interviews may be employed to gather information about attitudes, opinions or preferences in a society or some segment of it. [The Penguin Dictionary of Psychology, 2009]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#clinical_trial">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#study_design"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clinical trial</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical Trials Design, Clinical Trials, Unspecified, Clinical Study, clinical study, clinical trials, Clinical Studies, Clinical Trials, trial, clinical, clinical studies, Clinical Trial, clinical trial</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A type of research study that tests how well new medical approaches work in people. These studies test new methods of screening, prevention, diagnosis, or treatment of a disease. [NCIT_14.05d] ', 'A research study that prospectively assigns human participants or groups of humans to one or more health-related interventions to evaluate the effects on health outcomes. [NCIT_14.05d] ', 'The detailed planning of studies of the safety, efficacy, or optimum dosage schedule (if appropriate) of one or more diagnostic, therapeutic, or prophylactic drugs, devices, or techniques selected according to predetermined criteria of eligibility and observed for predefined evidence of favorable and unfavorable effects. [NCI 2014_12E]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#meta_analysis">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#research_synthesis"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meta-analysis</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meta-studies, meta-analyses, meta-syntheses, metaanal, Meta-analysis, meta study, metaanalysis, analysis, meta, meta analysis, metaanalyses, meta-synthesis, meta anal, meta analyses, Meta-Analysis, meta-study, meta-analysis</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Works consisting of studies using a quantitative method of combining the results of independent studies (usually drawn from the published literature) and synthesizing summaries and conclusions which may be used to evaluate therapeutic effectiveness, plan new studies, etc. It is often an overview of clinical trials. It is usually called a meta-analysis by the author or sponsoring body and should be differentiated from reviews of literature. [MeSH_2015]', 'A set of statistical procedures designed to accumulate experimental and correlational results across independent studies that address a related set of research questions. [NCIT_14.05d] ', 'Used for original reports evaluating medical interventions by the statistical analysis of a large collection of analysis results from individual studies, for the purpose of integrating the findings; not limited to clinical trials. [Emtree_2014]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#interrupted_time_series_design">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#time_series_design"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interrupted time series design</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interrupted time series analyses, interrupted time series trial, interrupted time series trials, ITS study, interrupted time series analysis, interrupted time series, interrupted time series studies, interrupted time series study, interrupted time series design, interrupted time series designs, ITS studies</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A study that uses observations at multiple time points before and after an intervention (the 'interruption'), in an attempt to detect whether the intervention has had an effect significantly greater than any underlying trend over time. [Interrupted Time Series Analysis | MeSH_2015]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#sleep_study">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#study_design"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sleep study</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sleep Study, sleep study, sleep studies</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Measurement of physiologic parameters during sleep. [NCIT_16.02d]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#familial_study">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#study_design"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">familial study</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Familial Studies, household study, Familial Study, family study, familial study, Family Study</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Research conducted on members of families, examining the affects of genetics, the environment, or twin offspring. [NCI 2014_12E]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#biological_model">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#model"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological model</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological Model, biological model, Biologic Model, MODEL BIOL, Models, Biological, Models, Biologic, Biological Models, Model, Biologic, BIOL MODEL, Model, Biological, MODELS BIOL, Biologic Models, BIOL MODELS</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Theoretical representations that simulate the behavior or activity of biological processes or diseases. For disease models in living animals, DISEASE MODELS, ANIMAL is available. Biological models include the use of mathematical equations, computers, and other electronic equipment. [MeSH 2014_2014_02_10]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#study_design">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">study design</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Design, Research, Research Designs, Study Type, study design, Designs, Research, Research Design, STYPE, Study Design</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A plan detailing how a study will be performed in order to represent the phenomenon under examination, to answer the research questions that have been asked, and defining the methods of data analysis. Study design is driven by research hypothesis being posed, study subject/population/sample available, logistics/resources: technology, support, networking, collaborative support, etc.
+Describes the role the study plays in determining the interventions a subject receives. [NCIT_14.05d] [Contributing_Source_CDISC]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#blind_design">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#study_design"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blind design</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blind trial, blind trials, blind design, blind designs</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#regulatory_assessment">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#evaluation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulatory assessment</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RegulatoryAssessment, Regulatory Assessment, regulatory assessment</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A regulatory action or inaction undertaken by the regulatory authority as a result of a submission analysis and evaluation. [NCI 2014_12E]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#mathematical_model">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#model"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mathematical model</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">math model, Model, Theoretical, Mathematical Models, Theoretical model, Model (Theoretical), mathematical modelling, mathematical modeling, mathematical model, Theoretical Model, Models (Theoretical), Math Models, theoretical model, Theoretical Models, Models, Theoretical, Models, Theoretic</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Theoretical representations that simulate the behavior or activity of systems, processes, or phenomena. [NCI 2014_12E]', 'Theoretical representations that simulate the behavior or activity of systems, processes, or phenomena. They include the use of mathematical equations, computers, and other electronic equipment. [MeSH 2014_2014_02_10]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#longitudinal_study">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#study_design"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">longitudinal study</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">longitudinal design, longitudinal designs, longitudinal evaluation, Surveys, Longitudinal, longitudinal survey, longitudinal trials, Studies, Longitudinal, Longitudinal Survey, longitudinal studies, longitudinal study, Longitudinal Surveys, Survey, Longitudinal, Longitudinal Studies, longitudinal trial, Longitudinal Study, Study, Longitudinal</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Studies in which variables relating to an individual or group of individuals are assessed over a period of time. [MeSH_2014]', 'a study in which participants, processes, or systems are studied over time, with data being collected at multiple intervals. The two main types are prospective s. and retrospective s. Cf. cross-sectional study [Emtree_2014] [Doralnd's Medaical Dictionary_2011]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#clinical_audit">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#records_review"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clinical audit</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clinical audit</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A detailed review and evaluation of selected clinical records by qualified professional personnel to improve the quality of patient care and outcomes. The clinical audit was formally introduced in 1993 into the United Kingdom's National Health Service. [MeSH_2014]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#interventional_study">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#study_design"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interventional study</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intervention Studies, Studies, Intervention, Intervention Trial, interventional study, Study, Intervention, Intervention Study, Interventional Study</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A pre-clinical or clinical study in human beings in which individuals are assigned by an investigator based on a protocol to receive specific interventions. The individuals are then followed and biomedical and/or health outcomes are assessed. [NCI 2014_12E]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#secondary_study">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#study_design"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">secondary study</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">secondary study, secondary studies</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#community_study">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#study_design"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">community study</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">community studies, community trials, community designs, community study, community design, Community Trial</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">' The Community Trial is a planned experiment that involves administering an exposure within a community in order to elucidate its impact on the incidence of a specific disease in that community. The community trial is a choice when exposure cannot be prevented among control group. [NCIT_14.05d] '</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#health_technology_assessment">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#technology_assessment"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health technology assessment</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Health Technology Assessment, health technology assessments, health technology assessment, Health technology assessment, HTA</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#evaluation">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#study_design"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">evaluation</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">evaluation studies, evaluation designs, Evaluations, assessments, Assessment, evaluation design, assessment, Evaluation, Evaluation Studies, evaluations, evaluation study, evaluation, Assessments</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Systematic, objective appraisal of the significance, effectiveness, and impact of activities or condition according to specified objectives and criteria. [NCIT_16.03d]', 'Studies determining the effectiveness or value of processes, personnel, and equipment, or the material on conducting such studies. [Evaluation Studies as Topic | MeSH_2015]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#statistical_model">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#mathematical_model"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">statistical model</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MODEL STATIST, Models, Probabilistic, MODELS STATIST, STATIST MODEL, Model, Probabilistic, statistical modeling, Probabilistic Models, Statistical Modeling, statistical modelling, STATIST MODELS, Statistical Models, Probabilistic Model, Statistical Model, Model, Statistical, Models, Statistical, statistical model</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Statistical formulations or analyses which, when applied to data and found to fit the data, are then used to verify the assumptions and parameters used in the analysis. Examples of statistical models are the linear model, binomial model, polynomial model, two-parameter model, etc. [MeSH 2014_2014_02_10]', 'The statistical characterization of a system to estimate its future behavior based on past behavior and extrapolation. [NCI 2014_12E]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#case_study">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#study_design"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">case study</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">case trials, case design, Case Study, case report, Case Studies, case reports, case studies, case histories, case study, case designs, case history, case trial</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An uncontrolled observational study containing a detailed report of the diagnosis, treatment, and follow-up of an individual patient. Case reports also contain some demographic information about the patient (for example, age, gender, ethnic origin). [NCIT_14.05d]', 'Clinical presentations that may be followed by evaluative studies that eventually lead to a diagnosis. [Case report | MeSH_2014] '</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#research_synthesis">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#literature_review"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">research synthesis</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">synthesis of research, research synthesis, synthesis studies, synthesis study, research syntheses</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#case_control_design">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#controlled_design"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">case control design</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Case-Compeer Study, Case-Control Studies, Study, Case-Referent, case control trials, Case Comparison Studies, Case Control Study, case-base design, case control studies, case-control design, case-comparison studies, case control design, case base study, Case-Comparison Studies, Case-Compeer Studies, Studies, Case-Comparison, case-control study, case base designs, case-compeer studies, case-control designs, Study, Case-Comparison, case control study, case control designs, Case-Comparison Study, case-control studies, Studies, Case Control, case-base designs, Case Referent Studies, Studies, Case-Control, case-control trial, Case Control Studies, Study, Case-Control, case-referrent study, Case-Referent Study, case base studies, Case-Control Study, case-referent studies, Studies, Case-Referent, Study, Case-Compeer, case control trial, Case-Referent Studies, case-control trials, Case Compeer Studies, case-base study, case-base studies, control study, case, case base design, Study, Case Control</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A study that compares two groups of people: those with the disease or condition under study (cases) and a very similar group of people who do not have the disease or condition (controls). Researchers study the medical and lifestyle histories of the people in each group to learn what factors may be associated with the disease or condition. For example, one group may have been exposed to a particular substance that the other was not.  [NCIT_14.05d]', 'Studies which start with the identification of persons with a disease of interest and a control (comparison, referent) group without the disease. The relationship of an attribute to the disease is examined by comparing diseased and non-diseased persons with regard to the frequency or levels of the attribute in each group. [MeSH_2014]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#qualitative_study">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#study_design"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qualitative study</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qualitative designs, qualitative design, qualitative studies, qualitative study</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Research that derives data from observation, interviews, or verbal interactions and focuses on the meanings and interpretations of the participants (From Holloway and Wheeler, 'Ethical issues in qualitative nursing research,' Nursing Ethics, 1995 Sep; 2(3): 223-232). [MeSH_2014]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#technology_assessment">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#evaluation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">technology assessment</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Technology Assessment, Technology assessment, Technology Assessments, technology assessment, ASSESS TECHNOL, Assessments, Technology, Assessment, Technology, TECHNOL ASSESS, technological evaluation, technology evaluation, Technology evaluation</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Technology assessment (TA) arose in the mid-1960s from an appreciation of the critical role of technology in modern society and its potential for unintended, and sometimes harmful, consequences. TA was conceived as a way to identify the desirable first-order, intended effects of technologies as well as the higher-order, unintended social, economic and environmental effects. TA methodology draws upon a variety of analytical, evaluative and planning techniques. Among these are systems analysis, cost-benefit analysis, consensus methods (e.g., Delphi method), engineering feasibility studies, clinical trials, market research, technological forecasting, and others. TA practitioners and policy makers recognized that TA is evolving, flexible, and should be tailored to the task (Brooks and Bowers 1970 and U.S. Congress, Office of Technology Assessment 1977). [NCI 2014_12E]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#device_evaluation">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#evaluation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">device evaluation</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Device Evaluation, device evaluation</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#integrative_review">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#literature_review"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">integrative review</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">integrative review</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#ethnographic_study">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#qualitative_study"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ethnographic study</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ethnographic studies, ethnographic study</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'... qualitative research developed by anthropologists, in which the researcher attends to and interprets communication while participating in the research context. [ Jonas: Mosby's Dictionary of Complementary and Alternative Medicine. 2005. http://medical-dictionary.thefreedictionary.com/ethnographic+studies ]
+'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#cohort_study">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#study_design"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cohort study</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Study, Cohort, cohort trials, cohort analysis, Cohort Study, analysis, cohort, cohort trial, Cohort Studies, cohort study, cohort design, cohort studies, cohort designs, Studies, Cohort</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">' A research study that compares a particular outcome (such as lung cancer) in groups of individuals who are alike in many ways but differ by a certain characteristic (for example, female nurses who smoke compared with those who do not smoke). [NCIT_14.05d] ', 'Studies in which subsets of a defined population are identified. These groups may or may not be exposed to factors hypothesized to influence the probability of the occurrence of a particular disease or other outcome. Cohorts are defined populations which, as a whole, are followed in an attempt to determine distinguishing subgroup characteristics. [Cohort studies | MeSH_2014]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#population_study">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#study_design"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">population study</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">population study, Population Study</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#pilot_study_">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#study_design"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feasibility study</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feasibility designs, pilot study
+, Studies, Feasibility, Pilot study, Pilot Study, Studies, Pilot, pilot study, Study, Feasibility, preliminary study, pilot project, Pilot Studies, Feasibility Study, Study, Pilot, feasibility study, feasibility design, feasibility studies, feasibility trial, pilot studies, feasibility trials, Feasibility Studies, pilot projects</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Small-scale tests of methods and procedures to be used on a larger scale if the pilot study demonstrates that these methods and procedures can work. [Pilot Projects | MeSH_2015]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#records_review">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#study_design"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">records review</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">records review, record review, review of records</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#time_series_design">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#study_design"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">time series design</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">time series study, time series, multiple time series, time series analysis, time trials, time study, time series studies, time trial, time series designs, time designs, time design, time series design, time studies</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#literature_review">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#study_design"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">literature review</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">review literature, review of the literature, literature review, review, academic, literature reviews, review of literature, review of literatures</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Significant review of original research. [Emtree_2014]', '... examination of published material on a subject. It may be comprehensive to various degrees and the time range of material scrutinized may be broad or narrow, but the reviews most often desired are reviews of the current literature. The textual material examined may be equally broad and can encompass, in medicine specifically, clinical material as well as experimental research or case reports. State-of-the-art reviews tend to address more current matters. [MeSH_2014]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#controlled_design">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#study_design"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">controlled design</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">controlled study, controlled trial, controlled design, controlled studies, Controlled Study, controlled trials, controlled designs</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Used for original studies with a control group, i.e. in which previously defined groups are compared with each other. Also used for studies with control material or control procedures. Retrospective studies may also be included. [Emtree_2014]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#model">
+    <rdfs:subClassOf rdf:resource="http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#study_design"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">model</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">models, Model, Modeling, Model System, model, Models, Modeling System
+, modelling</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">' A representation of something, often idealized or modified to make it conceptually easier to understand. [NCIT_15.09d]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDDA</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

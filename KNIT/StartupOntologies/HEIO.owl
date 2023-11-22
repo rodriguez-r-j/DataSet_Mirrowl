@@ -1,0 +1,1436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801523207837">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801590813916"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Teaching Hospital Entities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Derived from:
+Q1_TypeOfOrg
+
+Value=1', 'Teaching hospitals are those acute and paediatric hospitals that have membership in the Council of Academic Hospitals of Ontario. They provide highly complex care, are affiliated witha medical or health sciences school and have significant research activity and post-graduate training
+
+Scope:
+Providing services at least within the regional geographic boundaries of the Wellington Waterloo Local Health Integration Network and receiving provincial health ministry public funding.   
+  
+Examples:
+
+Census Population in Region:
+0
+
+Acronyms:
+
+Synonyms:
+
+Exclusions:
+Community hospitals, CCC/Rehab hospitals, mental health hospitals, small/rural hospitals
+
+sameAs
+'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000004435667147659">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Application Type</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Type of clinical software applications and technologies installed and used in the acute hospital setting in Ontario and that contribute to the suite of applications which in their aggregate are referred as 'health information systems' or that contribute to the 'electronic health record', 'electronic medical record' and the 'electronic medical record'
+
+Source:
+List of vendors extracted from Ontario Hospital Association eHealth Technologies and Applications Inventory January 14, 2009.
+
+Source of application descriptions in quotation marks: Health Information and Management Systems Society (HIMSS)
+ http://www.himss.org/DorenfestInstitute/docs/ClinicalSystemsHospitalMarket.pdf accessed Sept 1, 2012
+
+Scope:
+61 discrete application classes were identified
+
+Categories:
+Abstracting
+Chart Tracking/Locator
+Clinical Data Repository
+Computerized Practitioner Order Entry (CPOE)
+Dictation
+Dictation with Speech Recognition
+Document Management - HIM
+Electronic Medication Administration Record (EMAR)
+EleElectronic Patient Record (EPR)
+Encoder
+In-House Transcription
+Nursing Documentation
+Order Entry (Includes Order Communications)
+Outsourced Transcription
+Physician Documentation
+Cardiology Information System
+DI/PACS Data Repository
+Diagnostic Imaging (DI) System
+Radiology Bar Coding
+Radiology Information System
+Drug Information System
+Patient Bar Coding
+Pharmacy Bar Coding
+Pharmacy Management System
+Case Cart Management
+Emergency Department Information System (EDIS)
+Operating Room (Surgery) - Peri-Operative
+Operating Room (Surgery) - Post-Operative
+Operating Room (Surgery) - Pre-Operative
+OR Scheduling
+Respiratory Care Information System
+eReferral System
+Browser
+Business Process Management
+Computers on Wheels (COWS)
+Data Warehouse Management
+Fixed Asset Equipment Tracking
+Interface Engines 
+Materials Management
+Materials Management Bar Coding
+Single Sign-On
+Turnkey Portal
+Virtual Terminal (VT) (e.g. Citrix)
+Web Development Tool
+Wireless Local Area Network (WLAN)
+Anatomical Pathology
+Blood Bank
+Genetics Testing
+Laboratory Information System
+Microbiology
+Specimen Bar Coding
+Synoptic Reporting
+Admission Discharge Transfer (ADT)/Registration
+Client Registry
+Consent Management
+Nursing Bar Coding
+Patient Registration Bar Coding
+Patient Scheduling
+Provider Registry
+Release of Information Tracking
+RFID - Patient Tracking
+'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801568140084">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801599868419"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Community Counselling Entities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A health entity providing community-based counselling, mental health, and addication services focussed on inpatient treatment. 
+
+Scope:
+Providing services at least within the regional geographic boundaries of the Wellington Waterloo Local Health Integration Network and receiving provincial health ministry public funding.   
+
+Examples:
+non-profit counselling centres, addictions agencies
+
+Census Population in Region:
+2
+
+Acronyms:
+
+Synonyms:
+
+Exclusions:
+Hospitals, primary care, specialist care
+
+sameAs
+', 'Derived from:
+Q1_TypeOfOrg
+
+Value=24 '</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#patient___client_information">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">patient   client information</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATIENT   CLIENT INFORMATIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATIENT   CLIENT INFORMATIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#LowSendingSumEntities">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000046447405077740"/>
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_0004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low Sending Sum Entities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'LowSendingSumEntities is a subClass of ScoredEntities derived from Q7-9 on eHIE survey.  
+
+Constraints: 
+HealthEntities and (hasSendingSum some integer[&lt;= 9])
+
+Range: 0-98
+
+Scope:
+Related to exchanges within the regional geographic boundaries of the Wellington Waterloo Local Health Integration Network. 
+
+', 'LowSendingSumEntities are those entities where the sum of scores (highest value=98) on the eHIE survey that measure the ability to send information (one to one or one to many), the number of different types of information sent and the amount sent is lower than the mean sum of scores of all responding entities.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#LowIntegrationEntities">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000046447405077740"/>
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_0004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low Integration Entities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['LowIntegrationEntities describe those who self-reported on the eHIE survey being less integrated with the regional health system i.e. <3 on a 5 point Likert Scale from Not at all Integrated, to Fully Integrated', 'LowIntegrationEntities is a subClass of ScoredEntities derived from Q14 on eHIE survey.  
+
+Constraints: 
+HealthEntities and (hasSystemIntegration some integer[> 3])
+
+Range: 1-5
+
+Scope:
+Related to exchanges within the regional geographic boundaries of the Wellington Waterloo Local Health Integration Network. ']]></ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801558801467">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000046447405077740"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Public Health Unit Entities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Derived from:
+Q1_TypeOfOrg
+
+Value=18', 'A publicly funded [provincial, municipal, or city] health entity which administers and manages health promotion and disease prevention programs, communicable disease surveillance and control, immunization, and food inspections, under the oversight of a local Board of Health [with governance structures which are autonomous, regional/single-tier or municiapl]. Oversight comes from the Public Health Agency of Canada, Public Health Ontario, and the Ministry of Health and Long Term Care.
+
+Scope:
+Providing services at least within the regional geographic boundaries of the Wellington Waterloo Local Health Integration Network and receiving provincial health ministry public funding.   
+
+Examples:
+
+Census Population in Region:
+2
+
+Acronyms:
+
+Synonyms:
+
+Exclusions:
+
+sameAs
+'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#Lireless_Local_Area_Network_(WLAN)">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_0003"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wireless Local Area Network (WLAN)</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A communication system that transmits and receives data using modulated electromagnetic waves, implemented as an extension to or as an alternative for a hard-wired LAN. WLANs are typically found within a small client node-dense locale (e.g. a campus or office building), or anywhere a traditional network cannot be deployed for logistical reasons.
+OHA 2013'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801572455158">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801595442716"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CollegeHealthServicesEntities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Derived from:
+Q1_TypeOfOrg
+
+Value=27', 'A not for profit entity providing primary care located within and under the governance of a college or university, and providing services exclusively to students and or their families and employees of the college or university. 
+
+Scope:
+Providing services at least within the regional geographic boundaries of the Wellington Waterloo Local Health Integration Network and receiving provincial health ministry public funding.     
+
+Examples:
+student health services
+
+Census Population in Region:
+4
+
+Acronyms:
+
+Synonyms:
+
+Exclusions:
+
+sameAs
+'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801536086010">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801590813916"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Small Hospital Entities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Derived from:
+Q1_TypeOfOrg
+
+Value=3', 'A small hospital is defined by size, isolation and geographic location, and by inpatient weighted cases. A small hospital completes less than or equal to 4000 weighted cases in a year.
+
+Scope:
+Providing services at least within the regional geographic boundaries of the Wellington Waterloo Local Health Integration Network and receiving provincial health ministry public funding.   
+
+Examples:
+
+Census Population in Region:
+2
+
+Acronyms:
+
+Synonyms:
+
+Exclusions:
+Teaching hospitals, community hospitals, CCC/Rehab hospitals, mental health hospitals
+
+sameAs
+'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801557347651">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801599868419"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pharmacy Entities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Derived from:
+Q1_TypeOfOrg
+
+Value=17', 'Pharmacy is a retail site where medications/pharmaceuticals are inventoried and dispensed. Pharmacies may be located at the same site as another health entity but has separate corporate governance structures. 
+
+Scope:
+Providing services at least within the regional geographic boundaries of the Wellington Waterloo Local Health Integration Network and receiving provincial health ministry public funding.   .  
+
+Examples:
+
+Census Population in Region:
+98
+
+Acronyms:
+
+Synonyms:
+Drug store, chemist, pharmacy
+
+Exclusions:
+Online pharmacies, hospital pharmacies, in-clinic dispensaries unless under separate corporate control from the clinic
+
+sameAs
+'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801539104830">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801590813916"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mental Health Hospital Entities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Derived from:
+Q1_TypeOfOrg
+
+Value=5', 'Mental health hospitals are those hospitals for which the diagnosis and treatment of psychiatric and mental illness are the primary source of funding and focus of care.
+
+Scope:
+Providing services at least within the regional geographic boundaries of the Wellington Waterloo Local Health Integration Network and receiving provincial health ministry public funding.   
+  
+Examples:
+
+Census Population in Region:
+1
+
+Acronyms:
+
+Synonyms:
+
+Exclusions:
+Teaching hospitals, small/rural hospitals, community hospitals, CCC/rehab hospitals
+
+sameAs
+'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801561709099">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801595442716"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CommunityHealthCentreEntities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A non-profit, community governed health organization that provides primary health care, ehalth promotion and community development services using inter-disciplinary teams. The CHC's target hard to service populations such as refugees, and include social and non-medical determinants of health therefore staff may include allied healht professionals such as social workers and mental health workers. Physicians are employees of the CHC
+
+Scope:
+Providing services at least within the regional geographic boundaries of the Wellington Waterloo Local Health Integration Network and receiving provincial health ministry public funding.   
+  
+Examples:
+
+Census Population in Region:
+4
+
+Acronyms:
+
+Synonyms:
+
+Exclusions:
+Other types of primary care models
+
+sameAs
+', 'Derived from:
+Q1_TypeOfOrg
+
+Value=20'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801546522253">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801595442716"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FamilyHealthTeamEntities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Derived from:
+Q1_TypeOfOrg
+
+Value=10', 'Definition:
+Family Health Teams are groups of health care professionals, such as physicians, nurse practitioners, nurses, social workers and dieticians who work together to provide primary care for a group of patients. They provide a wide range of services including health promotion, treatment services, chronic disease management and prevention, rehabilitation and palliative care. They are available nights and weekends to provide health advice and care so their patients do not have to go to busy hospital emergency departments for non-emergency care. They also help their patients navigate their way through the other parts of the health care system to receive the best possible care (www.healthforceontario.ca). Family health teams are funded on a blended capitation basis similar to FHOs - the corporations may be governed by a community or provider board.
+
+Scope:
+Providing services at least within the regional geographic boundaries of the Wellington Waterloo Local Health Integration Network and receiving provincial health ministry public funding.   
+ 
+Examples:
+
+Census Population in Region:
+11
+
+Acronyms:
+
+Synonyms:
+
+Exclusions:
+
+sameAs
+'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#HighReceivingSumEntities">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000046447405077740"/>
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_0004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High Receiving Sum Entities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'HighReceivingSumEntities is a subClass of ScoredEntities derived from Q10-12 on eHIE survey.  
+
+Constraints: 
+HealthEntities and (hasReceivingSum some integer[&gt; 11])
+
+Range: 0-98
+
+Scope:
+Related to exchanges within the regional geographic boundaries of the Wellington Waterloo Local Health Integration Network. ', 'HighReceivingSumEntities are those entities where the sum of scores (highest value=98) on the eHIE survey that measure the ability to syntactically or semantically receive information, the number of different types of information received and the amount received is higher than the mean sum of scores of all responding entities.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000004147060153734">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000047080427386162"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scheduling Information</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Electronic scheduling information is generated from an encounter of an individual patient or group of patients with healthcare organizations or providers where the individual or group is seeking care from another healthcare provider in digital format for clinical decision-making, diagnosis or treatment. It might include healthEntities/providers' or patients' non-clinical information required to idenitify or provide context for the the scheduling information.
+
+Scope:
+Related to HealthEntities operating within the regional geographic boundary of the Waterloo Wellington Local Health Integration Network.  
+
+Examples:
+Surgical or procedure time available either inpatient or outpatient, specialists or consultant appointment availability, wait time information.
+
+Acronyms:
+
+Synonyms:
+
+Exclusions:
+See examples above
+
+sameAs'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#LowReceivingSumEntities">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000046447405077740"/>
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_0004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low Receiving Sum Entities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'LowReceivingSumEntities is a subClass of ScoredEntities derived from Q10-12 on eHIE survey.  
+
+Constraints: 
+HealthEntities and (hasReceivingSum some integer[&lt;=11])
+
+Range: 0-98
+
+Scope:
+Related to exchanges within the regional geographic boundaries of the Wellington Waterloo Local Health Integration Network. ', 'LowReceivingSumEntities are those entities where the sum of scores (highest value=98) on the eHIE survey that measure the ability to syntactically or semantically receive information, the number of different types of information received and the amount received is lower than the mean sum of scores of all responding entities.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000004147050078990">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000047080427386162"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medication Information</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Electronic medication  information is information generated from an encounter of an individual patient or group of patients with healthcare organizations or providers where pharmaceutical or medication information is generated in digital format for clinical decision-making, diagnosis or treatment. It might include healthEntities/providers' or patients' non-clinical information required to idenitify or provide context for the medication information.
+
+Scope:
+Related to HealthEntities operating within the regional geographic boundary of the Waterloo Wellington Local Health Integration Network.
+
+Examples:
+Medication administration records, prescriptions, prescription dispensing, barcode information, point-or-care administration records, medication administration reconciliation records
+
+Acronyms:
+Rx
+
+Synonyms:
+Drug information, prescription drug information, see examples above
+
+Exclusions:
+
+sameAs'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#inpatient___outpatient_treatment_information">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inpatient   outpatient treatment information</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPATIENT   OUTPATIENT TREATMENT INFORMATIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPATIENT   OUTPATIENT TREATMENT INFORMATIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000004147053116248">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000047080427386162"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnostic Imaging Information</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Electronic diagnostic imaging  information is information generated from an encounter between an individual patient or group of patients with healthcare organizations or providers which results in images of the human body (or its function), and clinical reports on those images in digital format for clinical decision-making, diagnosis or treatment. It might include healthEntities/providers' or patients' non-clinical information required to idenitify or provide context for the diagnostic imaging information.
+
+Scope:
+Related to healthEntities within the regional geographic boundary of the Waterloo Wellington Local Health Integration Network.  
+
+Examples:
+Images and/or procedures from radiography, ultrasound, magnetic resonance imagine (MRI), computed tomography (CT), Positron Emission Tomography (PET), nuclear medicine and mammography. Orders for and reports related to each of these images/procedures.
+
+Acronyms:
+DI
+
+Synonyms:
+See examples above
+
+Exclusions:
+Some overlap with other classes of electronicHealthInformation may occur 
+
+sameAs
+'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801563224096">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801595442716"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FamilyHealthOrganizationEntities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Derived from:
+Q1_TypeOfOrg
+
+Value=21', 'Definition:
+The Family Health Organization Model represents the alignment of Primary Care Networks and Health Service Organizations into one model. FHOs are groups of physicians who provide comprehensive primary health care services to their patients with a focus on illness prevention. Through Institutional Substitution Program Grants, allied health professionals are part of some of the teams as well. FHOs provide care during regular and extended office hours and patients have access to a nurse staffed Telephone Health Advisory Service.Funding is provided on a blended capitation model which is capitation based on a defined basket of primary care services provided to enrolled patients based on age/sex of each patient. Fee-for-service paid for other services. Additionally, physicians receive monthly comprehensive care capitation payments for all enrolled patients. Rostering and Patient Fees (i.e. New Patient Fee), and bonuses, premiums and special payments are paid for services such as chronic disease management, preventative care, pre-natal care and home visits for enrolled patients, and for hospital visits, obstetrical care and palliative care for all patients. (www.healthforceontario.ca).
+
+
+Scope:
+Providing services at least within the regional geographic boundaries of the Wellington Waterloo Local Health Integration Network and receiving provincial health ministry public funding.   
+.  
+Examples:
+
+Census Population in Region:
+3
+
+Acronyms:
+
+Synonyms:
+
+Exclusions:
+
+sameAs
+'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801566712249">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801599868419"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sport Medicine Clinic Entities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Sport medicine clinics are stand alone multi-disciplinary sports medicine treatment and rehabilitation clinics which may have publicly funded revenue [generally through the billing and oversight of an on-site sports medicine physician].
+
+Scope:
+Providing services at least within the regional geographic boundaries of the Wellington Waterloo Local Health Integration Network and receiving provincial health ministry public funding.   
+
+Examples:
+
+Census Population in Region:
+3
+
+Acronyms:
+
+Synonyms:
+
+Exclusions:
+Physiotherapy clinics, massage therapy clinics, exercise clinics
+
+sameAs
+', 'Derived from:
+Q1_TypeOfOrg
+
+Value=23'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801569552554">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801593638297"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palliative Care Entities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Derived from:
+Q1_TypeofOrg
+
+Value=25', 'A palliative care entity is an organization which exclusively provides end-of-life residential nursing care to patients; these facilities may provide serivces such as palliatives specilists, grief and bereavement services.
+
+Scope:
+Providing services at least within the regional geographic boundaries of the Wellington Waterloo Local Health Integration Network and receiving provincial health ministry public funding.   
+  
+Examples:
+
+Census Population in Region:
+3
+
+Acronyms:
+
+Synonyms:
+Hospice
+
+Exclusions:
+Hospital-based palliative care
+
+sameAs
+'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801542060233">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801595442716"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SoloPractice-PrimaryCareEntities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A physician in a solo practice providing primary health care to patients or groups or patients either as a sole proprietor or incorporated in some fashion.  Funding is primarily on a fee for service  basis.
+
+Scope:
+Providing services at least within the regional geographic boundaries of the Wellington Waterloo Local Health Integration Network and receiving provincial health ministry public funding.    
+
+Examples:
+
+Census Population in Region:
+106
+
+Acronyms:
+GP, FP
+
+Synonyms:
+Family physician, general practitioner
+
+Exclusions:
+Physician non-members of the College of Physicians and Surgeons of Ontario
+
+sameAs
+', 'Derived from:
+Q1_TypeOfOrg
+
+Value=7'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000004147051708527">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000047080427386162"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laboratory Information</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Electronic laboratory  information is information generated from an encounter of an individual patient or group of patients with healthcare organizations or providerswhere clinical specimens are collected and/ or tested in digital format for clinical decision-making, diagnosis or treatment. It might include healthEntities/providers' or patients' non-clinical information required to idenitify or provide context for the laboratory information.
+
+Scope:
+Related to HealthEntities operating within the regional geographic boundary of the Waterloo Wellington Local Health Integration Network.   
+
+Examples:
+Lab requestion forms and lab results, for histopathology, cytopathology (anatomic pathology), clinical microbiology, clnical chemistry, haematology, genetics, reproduction biology electocardiograms, electroencephalograms, test result interpretation
+
+Acronyms:
+
+Synonyms:
+See examples above
+
+Exclusions:
+
+
+sameAs'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#ccc___rehab_hospital_entities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ccc   rehab hospital entities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CC   REHAB HOSPITAL ENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CC   REHAB HOSPITAL ENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801543524945">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801595442716"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GroupPractice-PrimaryCareEntities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Derived from:
+Q1_TypeOfOrg
+
+Value=8', 'A physician or group of primary care providers such as nurse practitioners and physicians, in a group practice providing primary health care to patients or groups or patients which is not one of the other types of primary care class, as a limited liability partnership or professional corporation. Funding is primarily on a fee for service basis.
+
+Scope:
+Providing services at least within the regional geographic boundaries of the Wellington Waterloo Local Health Integration Network and receiving provincial health ministry public funding.   
+  
+Examples:
+
+Census Population in Region:
+34
+
+Acronyms:
+
+Synonyms:
+
+Exclusions:
+
+sameAs
+'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801534502848">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801590813916"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Community Hospital Entities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Derived from:
+Q1_TypeOfOrg
+
+Value=2', 'Those hospital entities which are not teaching, small, or CCC/mental health
+
+Scope:
+Providing services at least within the regional geographic boundaries of the Wellington Waterloo Local Health Integration Network and receiving provincial health ministry public funding.     
+
+Examples:
+
+Census Population in Region:
+4
+
+Acronyms:
+
+Synonyms:
+
+Exclusions:
+Teaching hospitals, CCC/rehab hospitals, mental health hospitals, small/rural hospitals
+
+sameAs
+'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801592245383">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000046447405077740"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Community Care Access Centre Entities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Definition:
+A regional entity which brokers access to, and coordination of, out-patient community and home based healthcare services. Includes case management, tendering of treatment services and oversight of contracted health care service providers and organizations.
+
+Scope:
+Providing services at least within the regional geographic boundaries of the Wellington Waterloo Local Health Integration Network and receiving provincial health ministry public funding.   
+
+Examples:
+Waterloo Wellington Community Care Access Centre
+
+Census Population in Region:
+1
+
+Acronyms:
+CCAC
+
+Synonyms:
+NA
+
+Exclusions:
+
+
+sameAs
+', 'Source:
+Q1_TypeOfOrg
+
+Value=6'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801548381428">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801595442716"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FamilyHealthNetworkEntities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Family health networks (FHNs) are groups of physicians who work as a network along with a nurse-staffed after hours telephone advisory service to provide primary care for their patients 24 hours a day, seven days a week. The networks emphasize illness prevention and comprehensive care for patients.  Funding is provided on a blended capitation model which is capitation based on a defined basket of primary care services provided to enrolled patients based on age/sex of each patient. Fee-for-service paid for other services. Additionally, physicians receive monthly comprehensive care capitation payments for all enrolled patients. Rostering and Patient Fees (i.e. New Patient Fee), and bonuses, premiums and special payments are paid for services such as chronic disease management, preventative care, pre-natal care and home visits for enrolled patients, and for hospital visits, obstetrical care and palliative care for all patients. (www.healthforceontario.ca).
+
+Scope:
+Providing services at least within the regional geographic boundaries of the Wellington Waterloo Local Health Integration Network and receiving provincial health ministry public funding.   
+  
+Examples:
+
+Census Population in Region:
+6
+
+Acronyms:
+
+Synonyms:
+
+Exclusions:
+
+sameAs
+', 'Derived from:
+Q1_TypeOfOrg
+
+Value=11'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801545045808">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801595442716"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FamilyHealthGroupEntities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Family Health Groups (FHG) offer comprehensive primary health care services to their enrolled patients.  Family Health Groups offer regular office hours plus extra After Hours blocks of office time.   FHG physicians are also on call to a ministry funded Telephone Health Advisory Service (THAS) outside of regular office hours that takes phone calls from their enrolled patients. Funding is Fee-for-service plus some incentives and bonuses for services to enrolled patients. Rostering and Patient Fees (i.e. New Patient Fee) and some incentives, premiums and bonuses, chronic disease management and preventive care are paid for eligible services to enrolled patients. Additionally, physicians receive monthly comprehensive care capitation payments for all enrolled patients. (www.healthforceontario.ca)
+
+Scope:
+Providing services at least within the regional geographic boundaries of the Wellington Waterloo Local Health Integration Network and receiving provincial health ministry public funding.   
+
+Examples:
+
+Census Population in Region:
+6
+
+Acronyms:
+
+Synonyms:
+
+Exclusions:
+
+sameAs
+', 'Derived from:
+Q1_TypeOfOrg
+
+Value=9'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801555894394">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801598404545"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnostic Imaging Entities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A diagnostic imagingin entity is an entity [not a hospital], licensed by the provincial government as an Independent Health Facility, and performing diagnostic imaging services such as x-ray, ultrasound, nuclear medicine, computed tomography and magnetic resonance imaging in the community.
+
+Scope:
+Providing services at least within the regional geographic boundaries of the Wellington Waterloo Local Health Integration Network and receiving provincial health ministry public funding.    
+
+Examples:
+1. Independent Health Facility (IHF) providing diagnostic imaging services
+
+Census Population in Region:
+6
+
+Acronyms:
+NA
+
+Synonyms:
+X-Ray, Ultrasound
+
+Exclusions:
+Hospital imaging departments  [whose information exchange is accounted for under a 'hospital'  entity's response to diagnostic information exchange]
+
+sameAs
+', 'Derived from:
+Q1_TypeOfOrg
+
+Value=16'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801549997276">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801595442716"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ComprehensiveCareModelEntities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The Comprehensive Care Model is designed specifically for solo primary care physicians. These physicians offer comprehensive primary health care services to their enrolled patients including regular office hours plus one three hour block of after hours services per week. Like their group counterparts, CCM physicians also emphasize illness prevention for their enrolled patients. Fee-for-service plus some incentives and bonuses for services to enrolled patients.Rostering and Patient Fees (i.e. New Patient Fee) and some incentives, premiums and bonuses, chronic disease management and preventive care are paid for eligible services to enrolled patients. Additionally, physicians receive monthly comprehensive care capitation payments for all enrolled patients. (www.healthforceontario.ca)
+
+Scope:
+Providing services at least within the regional geographic boundaries of the Wellington Waterloo Local Health Integration Network and receiving provincial health ministry public funding.   
+  
+Examples:
+
+Census Population in Region:
+0
+
+Acronyms:
+
+Synonyms:
+
+Exclusions:
+Other types of primary care models
+
+sameAs
+', 'Derived from:
+Q1_TypeOfOrg
+
+Value=12'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#HighSendingSumEntities">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000046447405077740"/>
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_0004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High Sending Sum Entities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'HighSendingSumEntities are those entities where the sum of scores (highest value=98) on the eHIE survey that measure the ability to send information (one to one or one to many), the number of different types of information sent and the amount sent is higher than the mean sum of scores of all responding entities.', 'HighSendingSumEntities is a subClass of ScoredEntities derived from Q7-9 on eHIE survey.  
+
+Constraints: 
+HealthEntities and (hasSendingSum some integer[&gt; 9])
+
+Range: 0-98
+
+Scope:
+Related to exchanges within the regional geographic boundaries of the Wellington Waterloo Local Health Integration Network. '</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801554442813">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801598404545"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laboratory Entities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A laboratory entity is a medical laboratory, licensed (Ontario Laboratory Accreditation) by the provincial government, performing diagnostic tests on patients &amp; clinical specimens for the diagnosis, treatment and prevention of disease.
+
+Scope:
+Providing services at least within the regional geographic boundaries of the Wellington Waterloo Local Health Integration Network and receiving provincial health ministry public funding.     
+
+Examples:
+1. Community laboratory - privately or publicly owned for-profit corporate entity 
+2. Public Health Laboratory – publicly provides clinical and environmental lab testing for the prevention of disease, and protection and promotion of the public's health
+
+Census Population in Region:
+5
+
+Acronyms:
+NA
+
+Synonyms:
+Lab, Medical Laboratory
+
+Exclusions:
+Hospital laboratories [whose information exchange is accounted for under a 'hospital'  entity's response to laboratory information exchange]
+
+sameAs
+', 'Derived from:
+Q1_TypeOfOrg
+
+Value=15'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801560256121">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801593638297"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Long Term Care Nursing Home Entities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Derived from:
+Q1_TypeOfOrg
+
+Value=19', 'A long term care/nursing home entity [also referred to as a nursing home and home for the aged] is a corporation which provides residential care for patients or clients who require non-acute 24-hour nursing or supportive services on a permanent or temporary basis, across one or more locations. 
+
+Scope:
+Providing services at least within the regional geographic boundaries of the Wellington Waterloo Local Health Integration Network and receiving provincial health ministry public funding.   
+
+Examples:
+
+Census Population in Region:
+34
+
+Acronyms:
+
+Synonyms:
+
+Exclusions:
+
+sameAs
+'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801551462825">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801596995707"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Solo Practice - Physician Specialist Entities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Derived from:
+Q1_TypeOfOrg
+
+Value=13', 'A physician specialist who practices in solo practice - sole proprietorship or corporation of some kind. Funding may be fee for service or an Alternative Payment Plan but funding is primarily public. They are certified by the Royal College of Physicians and Surgeons of Canada in one or more of 60 specialties or sub-specialties:
+Anatomical Pathology
+Anesthesiology
+Cardiac Surgery
+Cardiology
+Clinical Immunology and Allergy
+Clinical Pharmacology
+Community Medicine
+Critical Care Medicine (Pediatric or Adult)
+Dermatology
+Diagnostic Radiology
+Emergency Medicine
+Endocrinology and Metabolism
+Gastroenterology
+General Pathology
+General Surgery
+Geriatric Medicine
+Gynecologic Oncology
+Hematological Pathology
+Hematology
+Infectious Diseases
+Internal Medicine
+Maternal-fetal Medicine
+Medical Biochemistry
+Medical Genetics
+Medical Microbiology
+Medical Oncology
+Neonatal-Perinatal Medicine
+Nephrology
+Neurology
+Neuropathology
+Neuroradiology
+Neurosurgery
+Nuclear Medicine
+Obstetrics and Gynecology
+Occupational Medicine
+Ophthalmology
+Orthopedic Surgery
+Otolaryngology
+Palliative Medicine
+Pediatric Emergency Medicine
+Pediatric General Surgery
+Pediatric Hematology / Oncology
+Pediatric Radiology
+Pediatrics
+Physical Medicine and Rehabilitation
+Plastic Surgery
+Psychiatry
+Radiation Oncology
+Respirology (Adult or Pediatric)
+Rheumatology
+Thoracic Surgery
+Transfusion Medicine
+Urology
+Vascular Surgery
+
+Scope:
+Providing services at least within the regional geographic boundaries of the Wellington Waterloo Local Health Integration Network and receiving provincial health ministry public funding.   
+
+Examples:
+
+Census Population in Region:
+141
+
+Acronyms:
+
+Synonyms:
+
+Exclusions:
+
+sameAs
+'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000004147057452553">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000047080427386162"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Referral Information</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Electronic referral information is information generated from an encounter of an individual patient or group of patients with healthcare organizations or providers where one healthcare provider refers the individual or group of individual to another healthcare provider in digital format for clinical decision-making, consultation or care.  It might include healthEntities/providers' or patients' non-clinical information required to idenitify or provide context for the referral information.
+
+Scope:
+Related to HealthEntities operating within the regional geographic boundary of the Waterloo Wellington Local Health Integration Network.
+
+Examples:
+Physician referral letters to a specialist or other HealthEntity such as a CCAC or long term care home, encounter reports from a specialist back to a referring clinician.
+
+Acronyms:
+
+Synonyms:
+eReferral, see examples above
+
+Exclusions:
+
+sameAs'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801552973632">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801596995707"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Group Practice - Physician Specialist Entities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A group of specilialists who practice together under a governance arrangement such as a limited parternship or incorporation or some kind. Funding may be fee for service or Alternative Payment Plan but the majority of revenue is public funding. They are certified by the Royal College of Physicians and Surgeons of Canada in one or more of 60 specialties or sub-specialties:
+Anatomical Pathology
+Anesthesiology
+Cardiac Surgery
+Cardiology
+Clinical Immunology and Allergy
+Clinical Pharmacology
+Community Medicine
+Critical Care Medicine (Pediatric or Adult)
+Dermatology
+Diagnostic Radiology
+Emergency Medicine
+Endocrinology and Metabolism
+Gastroenterology
+General Pathology
+General Surgery
+Geriatric Medicine
+Gynecologic Oncology
+Hematological Pathology
+Hematology
+Infectious Diseases
+Internal Medicine
+Maternal-fetal Medicine
+Medical Biochemistry
+Medical Genetics
+Medical Microbiology
+Medical Oncology
+Neonatal-Perinatal Medicine
+Nephrology
+Neurology
+Neuropathology
+Neuroradiology
+Neurosurgery
+Nuclear Medicine
+Obstetrics and Gynecology
+Occupational Medicine
+Ophthalmology
+Orthopedic Surgery
+Otolaryngology
+Palliative Medicine
+Pediatric Emergency Medicine
+Pediatric General Surgery
+Pediatric Hematology / Oncology
+Pediatric Radiology
+Pediatrics
+Physical Medicine and Rehabilitation
+Plastic Surgery
+Psychiatry
+Radiation Oncology
+Respirology (Adult or Pediatric)
+Rheumatology
+Thoracic Surgery
+Transfusion Medicine
+Urology
+Vascular Surgery
+
+Scope:
+Providing services at least within the regional geographic boundaries of the Wellington Waterloo Local Health Integration Network and receiving provincial health ministry public funding.     
+
+Examples:
+
+Census Population in Region:
+34
+
+Acronyms:
+
+Synonyms:
+
+Exclusions:
+
+sameAs
+', 'Derived from:
+Q1_TypeOfOrg
+
+Value=14'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#HighIntegrationEntities">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000046447405077740"/>
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_0004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High Integration Entities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'HighIntegrationEntities is a subClass of ScoredEntities derived from Q14 on eHIE survey.  
+
+Constraints: 
+HealthEntities and (hasSystemIntegration some integer[&gt; 3])
+
+Range: 1-5
+
+Scope:
+Related to exchanges within the regional geographic boundaries of the Wellington Waterloo Local Health Integration Network. ', 'HighIntegrationEntities describe those who self-reported on the eHIE survey being more integrated with the regional health system i.e. &gt;=3 on a 5 point Likert Scale from Not at all Integrated, to Fully Integrated'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#problem_list___history_information">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">problem list   history information</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROBLEM LIST   HISTORY INFORMATIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROBLEM LIST   HISTORY INFORMATIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_0000">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000046447405077740"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conflicted Health Entities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'ConflictedHealthEntities are those instances where information reported by the entity in HEIO is logically inconsistent with data independently submitted to the Ontario Health Association’s Clinical Capabilities and eHealth Adoption: Technologies and Applications Survey (2010). '</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000004147055879448">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000047080427386162"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Public Health Information</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Electronic public health information is information generated from an encounter of an individual patient or group of patients with healthcare organizations or providers where clinical information related to immunization, prevention and control of communicable and chronic disease in digital format for clinical decision-making, diagnosis or treatment. It includes information related to travel, food safety, surveillance,and emergency preparedness and response. It might include healthEntities/providers' or patients' non-clinical information required to idenitify or provide context for the diagnostic imaging information.
+
+Scope:
+Related to HealthEntities operating within the regional geographic boundary of the Waterloo Wellington Local Health Integration Network. 
+
+Examples:
+Immunization records, cases of reportable diseases, outbreak information, travel advisories 
+
+Acronyms:
+PHI
+
+Synonyms:
+see examples above
+
+Exclusions:
+Some overlap with other classes of electronicHealthInformation may occur
+
+sameAs'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801571032072">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801595442716"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GovernmentDepartmentEntities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Primary care type services, fully funded by the federal government, and delivered by primary care providers (generally physicians or nurses)
+ 
+Scope:
+Providing services at least within the regional geographic boundaries of the Wellington Waterloo Local Health Integration Network and receiving provincial health ministry public funding.   
+
+Examples:
+Citizenship &amp; Immigration Canada health services , Correctional Service of Canada health services  
+
+Census Population in Region:
+2
+
+Acronyms:
+
+Synonyms:
+
+Exclusions:
+
+sameAs
+', 'Derived from:
+Q1_TypeOfOrg
+
+Value=26'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801595442716">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000046447405077740"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Primary Care Entities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Derived from:
+Q1_Groups
+
+Value=7', 'Health entities which provide care to patients as their first contact with the healthcare system. Each of the types of primary care organization has a different funding and governance model which may be for-profit or not-for-profit. All operate primarily on public funding revenues.
+
+Scope:
+Providing services at least within the regional geographic boundaries of the Wellington Waterloo Local Health Integration Network and receiving provincial health ministry public funding.    
+
+Examples:
+Family physicians, nurse practitioner led clinics, walk in clinics, out of hours clinics
+
+Census Population in Region:
+166
+
+Acronyms:
+
+Synonyms:
+
+Exclusions:
+Emergency departments in hospitals
+
+sameAs
+'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801590813916">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000046447405077740"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hospital Entities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A hospital is a health entity which provides diagnosis and treatment by specialized staff such as physicians and nurses, who may or may not be employees of the organization, and equipment, and either on an inpatient or outpatient basis, for patients with acute or emergent conditions. All hospitals in Ontario are publicly funded, some are privately owned; all are governed by independent boards. Hospitals in Ontario are governed by the Public Hospital Act, and other relevant legislation i.e. Execellent Care for All Act.
+
+Scope:
+Providing services at least within the regional geographic boundaries of the Wellington Waterloo Local Health Integration Network and receiving provincial health ministry public funding.   
+
+Examples:
+
+Census Population in Region:
+8 over 10 sites
+
+Acronyms:
+
+Synonyms:
+Complex continuing care and/or rehabilitation hospital, community hospital, teaching hospital, small or rural hospital, mental health hospital
+
+Exclusions:
+
+sameAs
+', 'Derived from:
+Q1_Groups
+
+Value=1'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_0004">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000046447405077740"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scored Entities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'ScoredEntities are the subClass of health entities in the region that responded to the eHIE survey, and provided responses that were summed to provide an eHIE score'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801598404545">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000046447405077740"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnostic Services Entities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Source:
+Q1_Groups
+
+Value=15 (LaboratoryEntities) + 16 (DiagnosticImagingEntities)', 'Health entities whose primary activities are to provide community-based diagnostic laboratory and imaging services
+
+Scope:
+Providing services at least within the regional geographic boundaries of the Wellington Waterloo Local Health Integration Network and receiving provincial health ministry public funding.   
+
+Examples:
+X-Ray and ultrasound clinics, stand alone labs and specimen collection centres
+
+Census Population in Region:
+10
+
+Acronyms:
+
+Synonyms:
+X-Ray, Lab
+
+Exclusions:
+
+sameAs
+'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801593638297">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000046447405077740"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Residential Care Entities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Derived from:
+Q1_Groups
+
+Value=19+25', 'Definition:
+
+Scope:
+Providing services at least within the regional geographic boundaries of the Wellington Waterloo Local Health Integration Network and receiving provincial health ministry public funding.   
+ 
+Examples:
+
+Census Population in Region:
+34
+
+Acronyms:
+
+Synonyms:
+
+Exclusions:
+
+sameAs
+'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_0003">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enabling Technology</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000047080427386162">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Electronic Health Information Type</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Electronic health information is information generated from an encounter of an individual patient or group of patients with healthcare organizations or providers, pertaining to the observation, diagnosis, treatment, management and decisionmaking related to disease or wellness, and gathered and/or stored in digital format. It broadly includes clinical information as well as non-clinical information required to idenitify or provide context for the clinical information. It is assumed that sending and receiving healthcare provider or organization identification information is available with each instance of information
+
+Scope:
+Related to health care services/entities  at least within the regional geographic boundary of the Waterloo Wellington Local Health Integration Network.  
+
+Examples:
+Diagnostic imaging information such as ultrasound images and radiologist reports; Inpatient/OutpatientTreatmentInformation such as emergency room encounter summaries, hospital discharge summaries and surgical reports
+
+Acronyms:
+eHI
+
+Synonyms:
+digital health information
+
+Exclusions:
+Faxed health information, phone communication of health information
+
+sameAs'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000046447405077740">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Health Entities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A Health Entity is any health care service provider or organization, governed by a single corporate body and delivering clinical care in one or more locations under one or more corporate names, to individual patients or groups of patients, and where the predominant funding is from public sources. In relation to ElectronicHealthInformation the entity may be represented by a server, URI or URL associated with a healthcare service provider or organization which may or may not be within the 'scope' i.e. within the geographic boundaries of the WWLHIN. An entity must deliver care from one or more geographic location within the healthcare system, but the corporate head office may be from outside the boundaries of the healthcare system.
+
+Scope:
+Related to HealthEntities operating within the regional geographic boundary of the Waterloo Wellington Local Health Integration Network.
+
+Examples:
+Primary care practices and clinics, specialists practices and clinics, community services funded through the Community Care Access Centre (CCAC) or other public funding (LHIN), pharmacies, CCAC, diagnostic imaging facilities, public health units, community health centres, hospitals, palliative care centres, long term care, laboratories, diagnostic imaging organizations, emergency medical services, sport medicine clinics
+
+Census Population in Region:
+517
+
+Acronyms:
+CCAC, LHIN, MD, EMS, DI
+
+Synonyms:
+Acute care, residential care, psychiatric institutions, hospice, see examples above
+
+Exclusions:
+Service providers not providing services through the CCAC or receiving public funding for health services such as stand alone optometrists, dentists, midwives, psychologists, respiratory therapists, speech-language pathologists, physiotherapists, occupational therapists, dietitians and counsellors, 'complementary medicine' such as homeopaths, naturopaths, wellness educators.
+
+sameAs
+'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801596995707">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000046447405077740"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Specialist Care Entities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Derived from:
+Q1_Groups
+
+Value=13', 'Specialist care entities are physicians or groups of physicians compensated through fee for service or an alternative funding plan or alternative payment plan. They may be governed as corporations, sole proprietorships or limited partnerships of some kind and are certified by the Royal College of Physicians and Surgeons of Canada in one or more of 60 specialties or sub-specialties:
+Anatomical Pathology
+Anesthesiology
+Cardiac Surgery
+Cardiology
+Clinical Immunology and Allergy
+Clinical Pharmacology
+Community Medicine
+Critical Care Medicine (Pediatric or Adult)
+Dermatology
+Diagnostic Radiology
+Emergency Medicine
+Endocrinology and Metabolism
+Gastroenterology
+General Pathology
+General Surgery
+Geriatric Medicine
+Gynecologic Oncology
+Hematological Pathology
+Hematology
+Infectious Diseases
+Internal Medicine
+Maternal-fetal Medicine
+Medical Biochemistry
+Medical Genetics
+Medical Microbiology
+Medical Oncology
+Neonatal-Perinatal Medicine
+Nephrology
+Neurology
+Neuropathology
+Neuroradiology
+Neurosurgery
+Nuclear Medicine
+Obstetrics and Gynecology
+Occupational Medicine
+Ophthalmology
+Orthopedic Surgery
+Otolaryngology
+Palliative Medicine
+Pediatric Emergency Medicine
+Pediatric General Surgery
+Pediatric Hematology / Oncology
+Pediatric Radiology
+Pediatrics
+Physical Medicine and Rehabilitation
+Plastic Surgery
+Psychiatry
+Radiation Oncology
+Respirology (Adult or Pediatric)
+Rheumatology
+Thoracic Surgery
+Transfusion Medicine
+Urology
+Vascular Surgery
+
+Scope:
+Providing services at least within the regional geographic boundaries of the Wellington Waterloo Local Health Integration Network and receiving provincial health ministry public funding.   
+  
+Examples:
+
+Census Population in Region:
+176
+
+Acronyms:
+
+Synonyms:
+
+Exclusions:
+Specialists who are employees of hospitals or another publicly funded institution
+
+sameAs
+'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000003801599868419">
+    <rdfs:subClassOf rdf:resource="http://whistl.uwaterloo.ca/heio.owl#OWLClass_00000046447405077740"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Community Based Health Services Entities</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Source:
+Q1_Groups
+
+Value=22 (community-based health services) + 17 (pharmacies)', 'An entity providing healthcare services, primarily treatment based, such as nursing, physiotherapy, social work, dietetics, occupational therapy, speech therapy, pharmacy, mental health and counselling, in the community.
+
+Scope:
+Providing services at least within the regional geographic boundaries of the Wellington Waterloo Local Health Integration Network and receiving provincial health ministry public funding.  
+
+Examples:
+Drug stores, pharmacies, multi-disciplinary sport medicine clinics, clinical home care services, outpatient and inpatient mental health
+
+Census Population in Region:
+117
+
+Acronyms:
+
+Synonyms:
+
+Exclusions:
+
+sameAs
+'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEIO</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

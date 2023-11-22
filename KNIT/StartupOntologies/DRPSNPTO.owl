@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/KnowledgeAboutEnvironmentalEtiologyOfPsychoticSymptom">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/KnowledgeOfHealthCareProfessional"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Knowledge about Environmental Etiology of Psychotic Symptom</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the environmental causes of psychotic symptoms in dementia.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/InterpersonalSkillTraning">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/PsychosocialRehabilitation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interpersonal Skill Training</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the behaviours and tactics a person uses to interact with others effectively.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/InvestigatingSuspicion">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/ComprehensiveInitialAssessment"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Investigating Suspicion</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the activity that health care professionals investigate suspicions to check their accuracy. For example, if a resident's belonging was really stolen by other people or it's a delusion.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/InternetGamingAddiction">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/Addiction"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Internet Gaming Addiction</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''It is generally defined as the problematic, compulsive use of video games that results in significant impairment to an individual's ability to function in various life domains over a prolonged period of time.' (Wikipedia)'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/MisidentificationDelusion">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/Delusion"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Misidentification Delusion</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''A delusion that people in one's enviornment, which may include family members and loved ones, are imposters or actors or are otherwise not who they seem to be.' (ICD-11)'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/InterpretingVerbalCommunication">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/CommunicatingActionSuggested"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interpreting Verbal Communication</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the communication technique of interpreting confused verbal communication.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/MedicationChange">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/MedicationEffect"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medication Change</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the changes of medication prescribed for the person with dementia.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/LiaisingWithPharmacist">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/GeneralNursingCareIntervention"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liaising with Pharmacist</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the act of cooperating with the pharmacist of a person with dementia on a matter of mutual concern.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/MirrorReflection">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/EnvironmentalCausativeFactor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mirror Reflection</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the concept that a reflection in a mirror may lead a person with dementia to believe that someone is in the same room.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/LanguageInformation">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/DemographicInformation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Language Information</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the information about language used by a person.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/IntroducingOneselfEachEncounter">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/CommunicatingActionSuggested"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Introducing Oneself Each Encounter</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the concept that health care professionals should introduce themselves to people with dementia with each encounter positively.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/LiaisingWithPhysician">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/GeneralNursingCareIntervention"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liaising with Physician</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the act of cooperating with the physician of a person with dementia on a matter of mutual concern.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/Monitoring">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/GeneralNursingCareIntervention"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monitoring</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the act of regularly watch and check a person or condition to see if there is any change.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/MoodDisorder">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/HarmToSelf"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mood Disorder</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''Those disorders that have a disturbance in mood as their predominant feature.' - MESH'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/MemoryImpairment">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/CognitiveImpairment"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Memory Impairment</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''Deterioration in memory function' (National Cancer Institute)'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/MassageTherapy">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/HumanContactIntervention"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Massage Therapy</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''A therapeutic method of manipulation, methodical pressure, friction, and kneading of the body. (from Taber's)' - National Cancer Institute Thesaurus'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/KnittingHobby">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/Hobby"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Knitting Hobby</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the hobby of knitting.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/MakingBizarreNoise">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/VerballyNonaggressiveBehaviour"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Making Bizarre Noise</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the behaviour of making very strange or unusual noise.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/Isolation">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/IndividualTherapyForPsychoticSymptom"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Isolation</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the intervention of keeping people alone or apart from others.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/LegalStatus">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/BackgroundOfPersonWithDementia"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Legal Status</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the legal status of patient.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/MoodSwing">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/EmotionalDistress"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mood Swing</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''Tendency to dispaly unpredictable and rapidly changing emotions or moods.' - PsycINFO Thesaurus'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/MedicalOfficer">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/HealthCareProfessional"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medical Officer</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''A doctor in charge of the health services of a civilian or military authority or other organization.' - LEXICO Powered by OXFORD'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/LunchTime">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/Time"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lunch Time</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the time of people having midday meal.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/Irritability">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/EmotionalDistress"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Irritability</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''Abnormal or excessive excitability with easily triggered anger, annoyance, or impatience.' - MESH'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/InterpretingNonverbalCommunication">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/CommunicatingActionSuggested"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interpreting Nonverbal Communication</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the communication technique of interpreting nonverbal communication, such as gestures, facial expressions, eye contact, tone of voice, body language, and other ways people using for cammunicating without using language.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/Institutionalization">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/EnvironmentalCausativeFactor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Institutionalization</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the caring for individuals in institutions. Institutionalization can cause some psychotic symptoms in dementia. For example, a person with dementia may have the delusion that he or she is abandoned by his or her family members when the person is placed in a long-term care facility.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/Interpreter">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/Person"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interpreter</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''It refers to someone who mediates between speakers of different languages.' (National Cancer Institute)'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/MaritalStatus">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/DemographicInformation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marital Status</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''A demographic parameter indicating a person's status with respect to marriage, divorce, widowhood, singleness, etc.' (MESH)'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/JealousDelusion">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/Delusion"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jealous Delusion</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''A delusion that one's sexual partner is unfaithful.' (ICD-11) A person with dementia may accuse his or her spouse of infidelity.  Because when a married person is placed in a long-term care facility, he or she frequently experiences feelings of betrayal and a loss of trust. Accusing his or her spouse of infidelity can represent the person's attempt to explain these feelings.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/Kicking">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/PhysicallyAggressiveBehaviour"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kicking</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the behaviour of hitting or striking someone or something with the foot.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/MedicationToxicity">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/MedicationEffect"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medication Toxicity</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the health problems that occur as a result of the over-ingestion of a medication - having too much of a drug in a person's system at once.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/Loneliness">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/IntrapersonalCausativeFactor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loneliness</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the concept of feeling sad and unhappy as a result of lack of companionship or being separated from others.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/MentalStatusAssessment">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/ComprehensiveInitialAssessment"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mental Status Assessment</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the activity of assessing the mental status of a person with the focus on decreased arousal, decreased attention, and disorientation.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/MedicalPractitioner">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/HealthCareProfessional"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medical Practitioner</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Australian Government Department of Health, 'Medical Practitioner means a person registered or licensed as a medical practitioner under a law of a State or Territory that provides for the registration or licensing of medical practititioners.''</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/IronDeficiency">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/Malnutrition"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iron Deficiency</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''Subnormal concentrations of iron resulting from low iron intake, inefficient iron absorption in the gastrointestinal tract, or increased iron loss.' - National Cancer Institute'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/MedicationSideEffect">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/MedicationEffect"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medication Side Effect</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to any unwanted or unexpected effects of a medicine.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/MedicareNumber">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/DemographicInformation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medicare Number</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the patient's medicare number.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/MOUSEPAD">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/PsychoticSymptomAssessmentTool"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manchester and Oxford Universities Scale for the Psychological Assessment of Dementia</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'MOUSEPAD stands for Manchester and Oxford Universities Scale for the Psychological Assessment of Dementia. It is a 59-time instrument for assessing the psychopathological and behavioural changes in dementia. It was developed by Allen et al. in 1996.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/MedicationInteraction">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/MedicationEffect"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medication Interaction</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to a reaction between two (or more) drugs or between a drug and a food, beverage, or supplement. https://aidsinfo.nih.gov/understanding-hiv-aids/fact-sheets/21/95/what-is-a-drug-interaction-'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/LiasingWithRelative">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/GeneralNursingCareIntervention"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liaising with Relative</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the act of cooperating with relatives of a person with dementia on a matter of mutual concern.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/Insomnia">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/SleepDisturbance"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insomnia</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Insomnia is a sleep disorder in which a person has trouble falling and/or staying asleep.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/Insecurity">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/EnvironmentalCausativeFactor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insecurity</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the concept that a person does not feeling confident in a situation he/she are in.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/PersonWithDementiaFocusedIntervention">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/NonpharmacologicalIntervention"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person with Dementia Focused Intervention</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the interventions targeting people with dementia.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/CommunicationSkill">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Communication Skill</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the technique for communicating with person with dementia.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/Hobby">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/BackgroundOfPersonWithDementia"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hobby</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''Leisure activities engaged in for pleasure.' - MESH'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/HealthCareProfessional">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/Person"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Health Care Professional</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to all service providers working within the context of the health system, such as doctors, nurses, physiotherapists and medical social workers.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/Delusion">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/PsychoticSymptomInDementia"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Delusion</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''A belief that is demonstrably untrue or not shared by others, usually based on incorrect inference about external reality. The belief is firmly held with conviction and is not, or is only briefly, susceptibel to modification by experience or evidence that contradicts it. The belief is not ordinarily accepted by other members or the person's culture or subculture (i.e., it is not an article of religious faith).' (ICD-11)'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/PsychosocialRehabilitation">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/PsychosocialTherapy"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Psychosocial Rehabilitation</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Psychosocial rehabilitation helps people with mental health problems to develop the social, emotional and intellectual skills they need in order to live happily.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/MedicalIllness">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/IntrapersonalCausativeFactor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medical Illness</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the medical condition that normally receives medical treatment.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/FactorAffectingImplementationOfNonpharmacologicalInterventionToPsychoticSymptom">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Factor Affecting Implementation of Nonpharmacological Intervention to Psychotic Symptom</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the factors that could affect the implementation of nonpharmacological interventions to psychotic symptoms in dementia.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/ComprehensiveInitialAssessment">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/PsychoticSymptomManagementActivity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Comprehensive Initial Assessment</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the activity that the health care professionals perform a comprehensive assessment to establish antecedents and consequences of the patient's behaviours, noting his/her present interactions with others as well as his/her family and social history.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/CommunicatingActionSuggested">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/CommunicationSkill"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Communicating Action Suggested</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the communicating actions that are suggested to do during a communication.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/PsychoticSymptomInDementia">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Psychotic Symptom in Dementia</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Psychotic symptoms in dementia are defined as 'a disturbance in the perception and/or appreciation of objective reality that could present in people with dementia'. (Burns, Jayasinha, and Brodaty 2014 - A Clinician's field guide to good practice: managing behavioural and psychological symptoms of dementia')'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/PsychoticSymptomCausativeFactor">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Psychotic Symptom Causative Factor</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the factors that could cause the psychotic symptoms in dementia.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/HarmToSelf">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/EffectOfPsychoticSymptom"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Harm to Self</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the harm of dementia-related psychotic symptoms to oneself.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/HumanContactIntervention">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/IndividualTherapyForPsychoticSymptom"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Contact Intervention</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the treatment that involves having interaction with other people.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/Time">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Time</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'MESH: 'The dimension of the physical universe which, at a given place, orders the sequence of events.''</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/MetabolicDisorder">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/MedicalIllness"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metabolic Disorder</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A metabolic disorder occurs when the metabolism fails and causes the body to have either too much or too little of the essential substances needed to stay healthy.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/EnvironmentalCausativeFactor">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/PrecipitatingFactor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Environmental Causative Factor</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the environmental factors that can cause psychotic symptoms in dementia.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/Intervention">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/PsychoticSymptomManagementActivity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intervention</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the actual treatments and actions that are performed to treat, or improve psychotic symptoms of a person with dementia.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/NonpharmacologicalIntervention">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/Intervention"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nonpharmacological Intervention</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the intervention which does not use drugs.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/PrecipitatingFactor">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/PsychoticSymptomCausativeFactor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Precipitating Factor</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''The factor(s) that cause or trigger the onset of an occurrence.' (National Cancer Institute)'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/BackgroundOfPersonWithDementia">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Background of Person with Dementia</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the information about the background of person with dementia which is associated with psychotic symptoms in dementia.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/EffectOfPsychoticSymptom">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Effect of Psychotic Symptom</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the consequence causing by dementia-related psychotic symptoms.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/MedicalHistory">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/BackgroundOfPersonWithDementia"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medical History</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''A collection of information about a person's health. It may include information about allergies, illnesses and surgeries, and dates and results of physical exams, tests, screenings, and immunizations. It may also include information about medicines taken and about diet and exercise.' - U.S. National Cancer Institute'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/VerballyNonaggressiveBehaviour">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/DisruptiveVocalisation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verbally Nonaggressive Behaviour</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the verbal and vocal behaviours that are not aggressive.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/SleepDisturbance">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/IntrapersonalCausativeFactor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sleep Disturbance</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Sleep disorders are conditions that result in changes in the way that a person sleep. Sleep disturbances lead to altered dream phenomena, which later lead to frank daytime hallucinations and delusions.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/PsychoticSymptomManagementActivity">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Psychotic Symptom Management Activity</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the activities conducted for managing psychotic symptoms in dementia.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/EmotionalDistress">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/Agitation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emotional Distress</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the highly unpleasant emotional reaction.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/KnowledgeOfHealthCareProfessional">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/FactorAffectingImplementationOfNonpharmacologicalInterventionToPsychoticSymptom"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Knowledge of Health Care Professional</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the knowledge that health care professionals have about nonpharmacological intervention to pscyhotic symptoms in dementia.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/Person">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to human beings related to the management of psychotic symptoms in people with dementia.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/DemographicInformation">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/BackgroundOfPersonWithDementia"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Demographic Information</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the demographic information of person with dementia.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/PsychosocialTherapy">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/IndividualTherapyForPsychoticSymptom"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Psychosocial Therapy</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the treatments that attempt to effect change through the manipulation of social or psychological factors. From Psychiatric Rehabilitation (Third Edition), 2014.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/CognitiveImpairment">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/PsychoticSymptomCausativeFactor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cognitive Impairment</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the damaged cognitive ability.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/Malnutrition">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/MetabolicDisorder"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malnutrition</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the lack of sufficient nutrients in the body.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/MedicationEffect">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/IntrapersonalCausativeFactor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medication Effect</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the therapeutic and adverse effects of prescribed medication.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/GeneralNursingCareIntervention">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/PersonWithDementiaFocusedIntervention"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Nursing Care Intervention</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the basic care practices that health care professionals can provide to intervene the psychotic symptoms in dementia.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/IndividualTherapyForPsychoticSymptom">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/PersonWithDementiaFocusedIntervention"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Individual Therapy for Psychotic Symptom</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the individual therapy used for managing psychotic symptoms in dementia.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/DisruptiveVocalisation">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/Agitation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disruptive Vocalisation</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''Making vocal utterances that are distressing sounding and socially inappropriate due to their intensity, frequency, duration and/or setting, as a manifestation of some form of brain disease, usually dementia.' - SNOMEDCT'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/IntrapersonalCausativeFactor">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/PrecipitatingFactor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intrapersonal Causative Factor</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the things that can cause psychotic symptoms exclusively related to himself/herself.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/PhysicallyAggressiveBehaviour">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/Agitation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physically Aggressive Behaviour</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the behaviour that is aggressive or combative to self or others.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/PsychoticSymptomAssessmentTool">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Psychotic Symptom Assessment Tool</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It refers to the tool or scale which is used to assess the psychotic symptoms of person with dementia.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/Agitation">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/HarmToSelf"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Agitation</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''Agitated behaviour is defined as any inappropriate physical or verbal, aggressive or non-aggressive, act that is not an obvious expression of need or disorientation.' - Cohen-Mansfield, Libin and Marx 2007'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/Addiction">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/MedicalHistory"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Addiction</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''Addiction is a complex condition, a brain disease that is manifested by compulsive substance use despite harmful consequence. People with addiction (severe substance use disorder) have an intense focus on using a certain substance(s), such as alcohol or drugs, to the point that it takes over their life.' (American Psychiatric Association)'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRPSNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

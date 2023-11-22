@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://www.geneontology.org/formats/oboInOWL#"
+  xmlns:ns2="http://ontology.test.es/comment#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns3="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0208">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI:0208</ns3:notation>
+    <ns1:xref rdf:resource="http://purl.obolibrary.org/obo/MI_0208"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MI_2402"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_2402"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetic interaction (sensu unexpected)</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fisher epistasis</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An effect in which two genetic perturbations, when combined, result in a phenotype that does not appear to be merely explained by the superimposition or addition of effects of the original perturbations.
+ab (not=) E'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1264">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0489"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ntnu</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NTNU</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Norwegian University of Science and Technology. www.ntnu.no/home.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1269">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_1341"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">duplicated protein</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An identical protein sequence is coded for by the multiple genes within the same organism. These proteins may previously be merged into a single entry by UniProt and subsequently demerged.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1238">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0069"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mass spectrometry studies of subunit exchange</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ms subunit exchange</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Heavy/light isotope-labelled subunits are prepared and allowed to form their respective mature oligomeric structure. Oligomers are then mixed and subunit exchange is monitored, usually by electrospray ionisation-ion mobility spectrometry-mass spectrometry.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1263">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0973"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0461"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular connections</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular Connections, MolCon</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Molecular Connections Private Limited is an in silico discovery Services Company  with expertise in drug-discovery, informatics and information technology. They perform pro bono work for the IMEx Consortium. http://www.molecularconnections.com'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1255">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0857"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stilbene label</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'1,2-Diphenylethene'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1285">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete opposing epistasis</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'OBSOLETE: An effect in which individual perturbations of two different genes result in opposite mutant phenotypes (traits measured on the same scale but each on opposing sides relative to the wild type phenotype), and the resulting phenotype of their combination is equal to that of only one of the perturbations. With respect to any single quantifiable phenotype, this may be expressed as an inequality as:
+(a &lt; wt &lt; b) AND (ab = a OR ab = b) 
+where 'a' and 'b' are the observed phenotype values of the individual perturbations, 'ab' is the observed phenotype value of the double perturbation, and 'wt' is the wild type phenotype value.', 'Term replaced by
+http://purl.obolibrary.org/obo/MI_1276'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1254">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_1092"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atto 647</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atto 647 maleimide, atto647</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Fluorescent tag - maleimide couples to thiols.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1258">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_1257"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tetramethyl rhodamine label</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Tetramethyl rhodamine - a derivative of rhodamine.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1245">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0732"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mkate</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TagFP635</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Monomeric far-red fluorescent protein generated from the wild-type RFP from sea anemone Entacmaea quadricolor. It possesses bright fluorescence with excitation/emission maxima at 588 and 635 nm, respectively.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1244">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0732"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mkate2</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Monomeric far-red fluorescent protein generated from the wild-type RFP from sea anemone Entacmaea quadricolor. It possesses bright fluorescence with excitation/emission maxima at 588 and 635 nm, respectively.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1268">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_1267"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nubg</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ile13Gly N-terminal ubiquitin tag</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'N-terminal ubiquitin moiety (residues 1-34) containing a Ile13Gly mutation.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1266">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_1265"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cub</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c-terminal ubiquitin tag</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A C-terminal ubiquitin moiety (cub, residues 35-76) plus a  transcription factor that can be cleaved off by ubiquitin specific proteases. Regarded as attached to the bait molecules in ubiquitin reconstruction assays.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1276">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_1284"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_2387"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">opposing genetic epistasis</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transphenotypic masking genetic interaction</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An effect in which individual perturbations of two different genes result in opposite mutant phenotypes (traits measured on the same scale but each on opposing sides relative to the wild type phenotype), and the resulting phenotype of their combination is equal to that of only one of the perturbations. With respect to any single quantifiable phenotype, this may be expressed as an inequality as:
+(a &lt; wt &lt; b) AND (ab = a OR ab = b) 
+where 'a' and 'b' are the observed phenotype values of the individual perturbations, 'ab' is the observed phenotype value of the double perturbation, and 'wt' is the wild type phenotype value.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1259">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0857"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acrylodan label</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6-acryloyl-2-dimethylaminonaphthalene</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The thiol reactive acrylodan (6-acryloyl-2-dimethylaminonaphthalene) generally reacts with thiols more slowly than iodoacetamides or maleimides, but does form very strong thioether bonds that are expected to remain stable under conditions required for complete amino acid analysis. The fluorescence emission peak and intensity of these adducts are particularly sensitive to conformational changes or ligand binding.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1243">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0975"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fc-igg2</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A fusion protein tag consisting of a portion of the constant region of IgG2.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1262">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0973"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0461"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iid</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I2D, Interologous Interaction Database, IID</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Interologous Interaction Database is an on-line database of known and predicted mammalian and eukaryotic protein-protein interactions.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1283">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_1282"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cisphenotypic inter-suppressing genetic interaction</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetic suppression-enhancement, cisphenotypic inter-suppressing converging genetic interaction</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An effect in which individual perturbations of different genes result in the same mutant phenotype to varying degrees of severity/penetrance and the resulting phenotype of their combination has a phenotype more severe/penetrant than the least severe/penetrant and less severe/penetrant than the most severe/penetrant of the individual perturbations. With respect to any single quantifiable phenotype, this may be expressed as an inequality as:
+a* &lt; ab &lt; b &lt; wt [E = a*]
+OR
+wt &lt; b &lt; ab &lt; a* [E = a*]
+where 'a' and 'b' are the observed phenotype values of the individual perturbations ('a*' being the most severe of the two), 'ab' is the observed phenotype value of the double perturbation, 'E' is the expected phenotype value of the double perturbation, and 'wt' is the wild type phenotype value.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1278">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_1271"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_2401"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mutual genetic enhancement (sensu unexpected)</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cisphenotypic enhancing diverging genetic interaction</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An effect in which individual perturbations of different genes result in the same mutant phenotype (but, perhaps, to varying degrees of severity/penetrance) and the resulting phenotype of their combination is more severe/penetrant (further from wild type) than expected by the superimposition or addition of effects of the individual perturbations. With respect to any single quantifiable phenotype, this may be expressed as an inequality as:
+ab &lt; a* &lt;= b &lt; wt [E = a*]
+OR
+wt &lt; b &lt;= a* &lt; ab [E = a*]
+where 'a' and 'b' are the observed phenotype values of the individual perturbations ('a*' being the most severe of the two), 'ab' is the observed phenotype value of the double perturbation, 'E' is the expected phenotype value of the double perturbation, and 'wt' is the wild type phenotype value.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1247">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0013"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microscale thermophoresis</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mst</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Measurement of the directed movement of particles in a microscopic temperature gradient. Any change of the hydration shell of biomolecules due to changes in their structure/conformation results in a relative change of movement along the temperature gradient and is used to determine binding affinities, binding kinetics and activity kinetics. Events such as the phosphorylation of a protein or the binding of small molecules to a target can be monitored.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1286">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0208"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">surpassing genetic interaction</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An effect in which the observed phenotype of a double perturbation is opposite (relative to the wild type phenotype) to that which is expected upon the double perturbation. With respect to any single quantifiable phenotype, this may be expressed as an inequality as:
+ab &lt; wt &lt; E
+OR
+E &lt; wt &lt; ab
+where 'ab' is the observed phenotype value of the double perturbation, 'E' is the expected phenotype value of the double perturbation, and 'wt' is the wild type phenotype value.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1237">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_1250"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proline isomerization  reaction</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The conversion between cis- and trans- peptide bonds formed by the amine group of a proline.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1242">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0975"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fc-igg1</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A fusion protein tag consisting of a portion of the constant region of IgG1.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1281">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_2389"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_1290"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mutual genetic suppression (complete)</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An effect in which individual perturbations of different genes result in the same mutant phenotype (but, perhaps, to varying degrees of severity/penetrance) and the resulting combination is wild type. With respect to any single quantifiable phenotype, this may be expressed as an inequality as:
+a* &lt;= b &lt; ab = wt
+OR
+wt = ab &lt; b &lt;= a*
+OR
+a &lt; wt = ab &lt; b
+where 'a' and 'b' are the observed phenotype values of the individual perturbations ('a*' being the most severe of the two), 'ab' is the observed phenotype value of the double perturbation, and 'wt' is the wild type phenotype value.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1274">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_1272"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_1282"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">minimal genetic epistasis</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cisphenotypic semi-suppressing genetic interaction, cisphenotypic semi-suppressing converging genetic interaction</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An effect in which individual perturbations of two different genes result in the same mutant phenotype to varying degrees of severity/penetrance and the resulting phenotype of their combination is equal in severity/penetrance to the least severe/penetrant of the individual perturbations. With respect to any single quantifiable phenotype, this may be expressed as an inequality as:
+a* &lt; ab = b &lt; wt
+OR
+wt &lt; b = ab &lt; a*
+where 'a' and 'b' are the observed phenotype values of the individual perturbations ('a*' being the most severe of the two), 'ab' is the observed phenotype value of the double perturbation, and 'wt' is the wild type phenotype value.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1253">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_1092"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atto 532</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atto 532 maleimide, atto532</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Fluorescent tag - maleimide couples to thiols.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1256">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0373"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">luminscent dye label</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Luminescent dyes such as cyanines,commonly used for DNA labelling.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1277">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0797"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qualitative genetic epistasis</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An effect in which individual perturbations of two different genes result in different mutant phenotypes (which are traits that cannot be measured on the same scale and, hence, qualitatively different), and the resulting phenotype of their combination is equal to that of only one of the perturbations. This may be expressed as an inequality as:
+(a != wt AND b != wt AND a != b) AND (ab = a OR ab = b)    
+where 'a' and 'b' are the observed phenotypes of the individual perturbations, 'ab' is the observed phenotype of the double perturbation, 'wt' is the wild type phenotype and 'a != b' indicates qualitatively different phenotypes.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1240">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_1239"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease causing amino-acid variant</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease sap, disease aa variant, disease single amino acid polymorphism</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A naturally-occuring amino-acid variation to the reference sequence which results in the organism developing, or becoming susceptible to a particular disease condition.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1260">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0857"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pyrene label</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Pyrene is a polycyclic aromatic hydrocarbon (PAH) consisting of four fused benzene rings, resulting in a flat aromatic system. The chemical formula is C16H10. Its derivatives are  valuable molecular probes via fluorescence spectroscopy, having a high quantum yield and lifetime.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1279">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_2382"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_1271"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monophenotypic genetic enhancement</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monophenotypic enhancing diverging genetic interaction, monophenotypic enhancing genetic interaction, unilateral genetic enhancement</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An effect in which the phenotype of one genetic perturbation is enhanced by a second perturbation (which, on its own, has no effect on the phenotype in question) to a severity/penetrance beyond (further from wild type) that of the original phenotype. With respect to any single quantifiable phenotype, this may be expressed as an inequality as:
+ab &lt; a &lt; b = wt [E = a]
+OR
+wt = b &lt; a &lt; ab [E = a]
+where 'a' and 'b' are the observed phenotype values of the individual perturbations, 'ab' is the observed phenotype value of the double perturbation, 'E' is the expected phenotype value of the double perturbation, and 'wt' is the wild type phenotype value.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1261">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0939"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oregon green label</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Oregon Green 488 and Oregon Green 514 dyes are fluorinated analogs of fluoresceins'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1248">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0857"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bodipy label</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">boron-dipyrromethene label, 4,4-difluoro-4-bora-3a,4a-diaza-s-indacene</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Composed of dipyrromethene complexed with a disubstituted boron atom, typically a BF2 unit. Notable for their uniquely small Stokes shift, high, environment-independent fluorescence quantum yields.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1251">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_1250"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">methylmalonyl-CoA isomerase reaction</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The catalysis of the conversion of methylmalonyl-CoA to succinyl-CoA by transfer of the carbonyl group. It requires a cobamide coenzyme. EC 5.4.99.2.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1270">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0507"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xpress tag</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Contains a polyhistidine sequence, the Xpress epitope (part of bacteriophage T7 gene 10 protein) and an enterokinase cleavage site. Anti-Xpress antibodies recognise the Xpress epitope sequence found in this leader peptide. Asp-Leu-Tyr-Asp-Asp-Asp-Asp-Lys.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">notation</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1273">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_1272"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maximal genetic epistasis</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cisphenotypic masking genetic interaction</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An effect in which individual perturbations of two different genes result in the same mutant phenotype to varying degrees of severity/penetrance and the resulting phenotype of their combination is equal in severity/penetrance to the most severe/penetrant of the individual perturbations. With respect to any single quantifiable phenotype, this may be expressed as an inequality as:
+ab = a* &lt; b &lt; wt
+OR
+wt &lt; b &lt; a* = ab
+where 'a' and 'b' are the observed phenotype values of the individual perturbations ('a*' being the most severe of the two), 'ab' is the observed phenotype value of the double perturbation, and 'wt' is the wild type phenotype value.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1246">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0069"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ion mobility mass spectrometry of complexes</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iM-MS, ion mobility mass spec</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'IM-MS analysis is performed by first ionizing the protein complex of interest followed by ion mobility separation according to their cross-section-to-charge (Q/z) ratio. After separation, ions are sampled by a mass spectrometer and analyzed according to their mass-to-charge (m/z) ratio. Combined knowledge of both Q/z and m/z can be used to infer the size and shape of the complex.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1252">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_1249"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">methylmalonyl-CoA isomerase asf say</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The catalysis othe conversion of methylmalonyl-CoA to succinyl-CoA by transfer of the carbonyl group. It requires a cobamide coenzyme. EC 5.4.99.2'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1275">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete neutral epistasis</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'OBSOLETE: An effect in which individual perturbations of two different genes result in different mutant phenotypes (which are EITHER traits measured on the same quantitative scale but each significantly deviating, in opposite directions, from wild type, OR completely (qualitatively) different phenotypes), and the resulting phenotype of their combination is equal to that of only one of the perturbations. With respect to any single quantifiable phenotype, this may be expressed as an inequality as:
+(a &lt; wt &lt; b) AND (ab = a OR ab = b)
+OR
+(a != wt AND b != wt AND a != b) AND (ab = a OR ab = b)
+where 'a' and 'b' are the observed phenotype values of the individual perturbations, 'ab' is the observed phenotype value of the double perturbation, 'wt' is the wild type phenotype value, and 'a != b' indicates qualitatively different phenotypes.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0069">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI:0069</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0943"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mass spectrometry studies of complexes</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ms of complexes</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Mass spectrometric approaches to the study of macromolecular complexes permits the identification of subunit stoichiometry and transient associations. By preserving complexes intact in the mass spectrometer, mass measurement can be used for monitoring changes in different experimental conditions, or to investigate how variations of collision energy affect their dissociation.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0000">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI:0000</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MI_0190"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular interaction</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mi</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Controlled vocabularies originally created for protein protein interactions, extended to other molecules interactions.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_2384">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_2383"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multiple perturbation phenotype result</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A phenotype result in which multiple perturbations affect an organism individually and in combination.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1092">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0857"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atto label</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atto label</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Fluorescent dyes - spectral range 500 to 700 nm.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_2402">
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MI_0208"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetic interaction</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A multigenic phenotype result in which (1) the phenotype of a single genetic perturbation has been modified by the introduction of one or more additional genetic perturbations AND/OR (2) an effect in which two genetic perturbations, when combined, result in a phenotype that does not appear to be merely explained by the superimposition or addition of effects of the original perturbations.
+ab (not=) E'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0914">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI:0914</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_2232"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">association</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Interaction between molecules that may participate in formation of one, but possibly more, physical complexes. Often describes a set of molecules that are co-purified in a single pull-down or coimmunoprecipitation but might participate in formation of distinct physical complexes sharing a common bait.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0797">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI:0797</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0208"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetic epistasis (sensu Bateson)</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epistatic genetic interaction (sensu inequality), masking genetic interaction, Bateson genetic epistasis, epistatic</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An effect in which individual perturbations of two different genes result in different mutant phenotypes, and the resulting phenotype of their combination (the double mutant) is equal to that of only one of the perturbations. With respect to any single quantifiable phenotype, this may be expressed as an inequality as:
+(a != wt AND b != wt AND a != b) AND (ab = a OR ab = b)
+where 'a' and 'b' are the observed phenotype values of the individual perturbations, 'ab' is the observed phenotype value of the double perturbation, 'wt' is the wild type phenotype value and 'a != b' indicates qualitatively or quantitatively different phenotypes.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1280">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0796"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_2389"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_2385"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cisphenotypic genetic suppression</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cisphenotypic suppressing converging genetic interaction, cisphenotypic suppressing genetic interaction</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An effect in which individual perturbations of different genes result in the same mutant phenotype (but, perhaps, to varying degrees of severity/penetrance) and the resulting phenotype of their combination is less severe/penetrant than expected from the original phenotypes. With respect to any single quantifiable phenotype, this may be expressed as an inequality as:
+(a* &lt;= b &lt; wt) AND (a* &lt; ab &lt;= wt) [E = a*]
+OR
+(wt &lt; b &lt;= a*) AND (wt &lt;= ab &lt; a*) [E = a*]
+where 'a' and 'b' are the observed phenotype values of the individual perturbations ('a*' being the most severe of the two), 'ab' is the observed phenotype value of the double perturbation, 'E' is the expected phenotype value of the double perturbation, and 'wt' is the wild type phenotype value.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1290">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_2379"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetic suppression (complete)</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">all-suppressing genetic interaction</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An effect in which the perturbation of one gene results in complete suppression (to wild type) of the mutant phenotype caused by perturbation of another gene. The phenotype of the suppressing perturbation may or may not be known. With respect to any single quantifiable phenotype, this may be expressed as an inequality as:
+wt = ab != a = E
+where 'a' is the observed phenotype values of an individual perturbation, 'ab' is the observed phenotype value of the double perturbation, 'E' is the expected phenotype value of the double perturbation, and 'wt' is the wild type phenotype value.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1272">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_1284"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0935"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_2385"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">converging genetic epistasis</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An effect in which individual perturbations of two different genes result in different mutant phenotypes (which are traits measured on the same quantitative scale but each significantly deviating, in the same direction, from wild type), and the resulting phenotype of their combination is equal to that of only one of the perturbations. With respect to any single quantifiable phenotype, this may be expressed as an inequality as:
+((a* &lt; b &lt; wt) OR (wt &lt; b &lt; a*)) AND (ab = a OR ab = b)
+where 'a' and 'b' are the observed phenotype values of the individual perturbations ('a*' being the most severe of the two), 'ab' is the observed phenotype value of the double perturbation, and 'wt' is the wild type phenotype value.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0732">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI:0732</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0687"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">red fluorescent protein tag</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rfp tag, red fluorescent protein, RFP</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The red fluorescent protein derived from, for example, marine anemone Discosoma striata and reef corals belonging to the class Anthozoacan can be fused to individual proteins which then acquire fluorescence excitation and emission spectra virtually identical to those of the native.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_2382">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_2384"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monophenotypic phenotype result</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A phenotype result in which only one of multiple perturbations results in the phenotype in question.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1265">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0240"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ubiquitin reconstruction tag</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'In the split-ubiquitin system, two integral membrane proteins to be studied are fused to two different ubiquitin moieties: a C-terminal ubiquitin moiety (residues 35-76) and an N-terminal ubiquitin moiety  (residues 1-34). These fused proteins are called the bait and prey, respectively. In addition to being fused to an integral membrane protein, the Cub moiety is also fused to a transcription factor  that can be cleaved off by ubiquitin specific proteases.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0045">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI:0045</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">experimental interaction detection</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">experimental interac</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Methods based on laboratory experiments to determine an interaction.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_2385">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_2384"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cisphenotypic phenotype result</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A phenotype result in which both of two perturbations result in the phenotype in question and do so in the same manner compared to wild type. For example, both perturbations result in an increased quality phenotype, or both perturbations result in a decreased quality phenotype.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0001">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI:0001</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interaction detection method</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interaction detect</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Method to determine the interaction.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1267">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_1265"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nub</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N-terminal ubiquitin tag</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'N-terminal ubiquitin moiety (nub, residues 1-34).'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0915">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI:0915</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0914"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">physical association</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Interaction between molecules within the same physical complex. Often identified under conditions which suggest that the molecules are in close proximity but not necessarily in direct contact with each other.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_2380">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_2367"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetic enhancement</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enhancing genetic interaction</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A genetic phenotype modification whereby one genetic perturbation enhances, or exacerbates, the phenotype of another genetic perturbation. Note that this may be an expected result.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0353">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI:0353</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cross-reference type</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CvXrefQualifier, refType, xref type</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Qualifier to describe the type of information a cross-reference is pointing to.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_2401">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_2380"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_2385"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mutual genetic enhancement</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cisphenotypic enhancing genetic interaction</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A phenotype result in which both of two genetic perturbations result in the phenotype in question and do so in the same manner compared to wild type (for example, both genetic perturbations result in an increased quality phenotype, or both genetic perturbations result in a decreased quality phenotype) and the resulting double genetic perturbation results in a phenotype that is more severe than the most severe single genetic perturbation phenotype. Note that this may be an expected result.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0407">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI:0407</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0915"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">direct interaction</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Interaction between molecules that are in direct contact with each other.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0415">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI:0415</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0401"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enzymatic study</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Participants are enzyme or substrate in a biochemical reaction.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0190">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI:0190</ns3:notation>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MI_0000"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interaction type</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Connection between molecule.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0444">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI:0444</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database citation</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Database citation list names of databases commonly used to cross reference interaction data. http://purl.obolibrary.org/obo/clo.owl'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0252">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI:0252</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0116"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological feature</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Property of a subsequence that may be involved with or interfere with the binding of a molecule and are supported by experimental evidences.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0856">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI:0856</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0505"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fluorophore</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A fluorophore is a component of a molecule which causes a molecule to be fluorescent. It is a functional group in a molecule which will absorb energy of a specific wavelength and re-emit energy at a different (but equally specific) wavelength. The amount and wavelength of the emitted energy depend on both the fluorophore and the chemical environment of the fluorophore.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1241">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0252"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">variant</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A natural change in a sequence or structure in comparison to a reference entity.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0013">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI:0013</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0045"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biophysical</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The application of physical principles and methods to biological experiments.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1239">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_1241"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amino-acid variant</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single amino-acid polymorphism, SAP</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A naturally-occuring amino-acid variation to the reference sequence, including polymorphisms, variations between strains, isolates or cultivars, disease-associated mutations and RNA editing events.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1271">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_2380"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0933"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetic enhancement (sensu unexpected)</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enhancing diverging genetic interaction, aggravating interaction</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An effect in which the phenotype of one genetic perturbation is enhanced by a second perturbation to a severity/penetrance beyond (further from wild type) that expected by the superimposition or addition of effects of the individual perturbations. With respect to any single quantifiable phenotype, this may be expressed as an inequality as:
+ab &lt; E &lt; wt
+OR
+wt &lt; E &lt; ab
+where 'ab' is the observed phenotype value of the double perturbation, 'E' is the expected phenotype value of the double perturbation, and 'wt' is the wild type phenotype value.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0507">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI:0507</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0505"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tag</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Small molecules, peptides or full proteins that can be used as label as they confer some property that facilitates identification purification and monitoring to the labeled molecule.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1291">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_2379"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetic suppression (partial)</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sub-suppressing genetic interaction</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An effect in which the perturbation of one gene results in the amelioration or lessening of the severity/penetrance of a mutant phenotype caused by perturbation of another gene, in effect making the organism more, but not completely, 'wild type' in character with regards to the phenotype in question. The phenotype of the suppressing perturbation may or may not be known. With respect to any single quantifiable phenotype, this may be expressed as an inequality as:
+a* &lt; ab &lt; wt [E = a*]
+OR
+wt &lt; ab &lt; a* [E = a*]
+where 'a' and 'b' are the observed phenotype values of the individual perturbations ('a*' being the most severe of the two), 'ab' is the observed phenotype value of the double perturbation, 'E' is the expected phenotype value of the double perturbation, and 'wt' is the wild type phenotype value.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0505">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI:0505</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0116"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">experimental feature</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The form of a molecule that was actually used to experimentally demonstrate the interaction, that may differ from the sequence described by the identifying accession number.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0373">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI:0373</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0505"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dye label</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dye labelled</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Dye coupled to a molecule allowing its identification isolation and monitoring.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0687">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI:0687</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0240"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fluorescent protein tag</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fluorescent prot tag</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Protein having well characterized fluorescence excitation and emission spectra used as fusion with a protein under study to facilitate its  localisation or identification.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0943">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0013"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">detection by mass spectrometry</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ms interact detect</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''Study of interactions by an analytical technique based on measurements of mass-to-charge ratio of charged particles in a mass spectrometer.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0973">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0489"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">imex source</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Databases that contain curated experimental interaction data and exchanging it with other IMEx databases.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0933">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI:0933</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0208"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diverging genetic interaction</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An effect in which two genetic perturbations, when combined, result in a phenotype that is more severe/penetrant than expected given the phenotypes of the individual perturbations. With respect to any single quantifiable phenotype, this may be expressed as an inequality as:
+ab &lt; E &lt;= wt
+OR
+wt &lt;= E &lt; ab
+where 'ab' is the observed phenotype value of the double perturbation, 'E' is the expected phenotype value of the double perturbation, and 'wt' is the wild type phenotype value.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_2383">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0190"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phenotype result</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The expression of a phenotype in an organism or a population of organisms resulting from one or more organismal perturbations, including genetic perturbations and environmental (including chemical/drug exposure) perturbations.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0857">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI:0857</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0856"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0373"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fluorescent dye label</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fluorescent dye</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Dye label containing a  fluorophore  which  absorb energy of a specific wavelength and re-emit energy at a different (but equally specific) wavelength.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0935">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI:0935</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0208"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">converging genetic interaction</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An effect in which two genetic perturbations, when combined, result in a phenotype that is less severe/penetrant than would be expected from the original phenotypes, in effect making the organism more 'wild type' in character with regards to the phenotype in question. With respect to any single quantifiable phenotype, this may be expressed as an inequality as: 
+E &lt; ab &lt;= wt
+OR
+wt &lt;= ab &lt; E
+where 'ab' is the observed phenotype value of the double perturbation, 'E' is the expected phenotype value of the double perturbation, and 'wt' is the wild type phenotype value.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1284">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0797"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quantitative genetic epistasis</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An effect in which individual perturbations of two different genes result in different mutant phenotypes (which are traits measured on the same quantitative scale but each significantly deviating, in any direction, from wild type), and the resulting phenotype of their combination is equal to that of only one of the perturbations. With respect to any single quantifiable phenotype, this may be expressed as an inequality as:
+(a != wt AND b != wt AND a != b) AND (ab = a OR ab = b)   
+where 'a' and 'b' are the observed phenotype values of the individual perturbations, 'ab' is the observed phenotype value of the double perturbation, 'wt' is the wild type phenotype value and 'a != b' indicates quantitatively different phenotypes.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1282">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_1291"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_1280"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cisphenotypic genetic suppression (partial)</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cisphenotypic sub-suppressing converging genetic interaction, cisphenotypic sub-suppressing genetic interaction</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An effect in which individual perturbations of different genes result in the same mutant phenotype (but, perhaps, to varying degrees of severity/penetrance) and the resulting phenotype of their combination is less severe/penetrant than expected, but not wild type. With respect to any single quantifiable phenotype, this may be expressed as an inequality as:
+(a* &lt;= b &lt; wt) AND (a* &lt; ab &lt; wt) [E = a*]
+OR
+(wt &lt; b &lt;= a*) AND (wt &lt; ab &lt; a*) [E = a*]
+where 'a' and 'b' are the observed phenotype values of the individual perturbations ('a*' being the most severe of the two), 'ab' is the observed phenotype value of the double perturbation, 'E' is the expected phenotype value of the double perturbation, and 'wt' is the wild type phenotype value.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_2379">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_2367"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetic suppression</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">suppressing genetic interaction</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A genetic phenotype modification whereby one genetic perturbation suppresses, or alleviates, the phenotype of another genetic perturbation. Note that if the individual genetic perturbations have opposite phenotypes, this may be an expected result.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1341">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0353"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">set member</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Indicates that this protein is a member of a set of proteins with similar sequence and/or function.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0461">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI:0461</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0444"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interaction database</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interaction xref</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Databases that contain experimental or predictive molecular interaction data.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0401">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI:0401</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0045"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biochemical</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The application of chemical principles and methods to biological experiments to demonstrate an interaction.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0116">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI:0116</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feature type</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Property of a subsequence that may interfere with the binding of a molecule.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0975">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0240"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fc-igg tag</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A fusion protein tag consisting of a portion of the constant region of IgG.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0240">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI:0240</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0507"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fusion protein</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The protein under study is expressed as a fusion with a labelling protein, having either fluorescence properties or an enzymatic activity that facilitates its purification, identification, localisation or quantification.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0796">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI:0796</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_2379"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0935"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetic suppression (sensu unexpected)</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alleviating interaction, suppression, suppressive genetic interaction (sensu inequality)</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An effect in which two genetic perturbations, when combined, result in a phenotype that is less severe/penetrant than the most severe phenotype of the original perturbations, in effect making the organism more 'wild type' in character with regards to the phenotype in question. With respect to any single quantifiable phenotype, this may be expressed as an inequality as:
+a* &lt; ab &lt;= wt [E = a*]
+OR
+wt &lt;= ab &lt; a* [E = a*]
+where 'a*' is the most severe observed phenotype value of the individual perturbations, 'ab' is the observed phenotype value of the double perturbation, 'E' is the expected phenotype value of the double perturbation, and 'wt' is the wild type phenotype value.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0414">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI:0414</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0407"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enzymatic reaction</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochemical reaction</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'terms aiming to represent biochemical reactions referring to their resulting product modifications.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0489">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI:0489</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0444"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">source database</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Database that originally provided the interaction record for exchange purposes.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1249">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0415"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isomerase assay</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Measurement of the catalysis of the structural rearrangement of isomers.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1250">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0414"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isomerase reaction</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The catalysis of the structural rearrangement of isomers.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_2389">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_2379"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mutual genetic suppression</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A genetic phenotype modification whereby each of two genetic perturbations suppress, or alleviate, the phenotype of the other genetic perturbation. Note that if the individual genetic perturbations have opposite phenotypes, this may be an expected result.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_2387">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_2384"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transphenotypic phenotype result</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A phenotype result in which two perturbations result in the opposite phenotype compared to wild type. For example, one perturbation results in an increased quality phenotype and the second perturbation results in a decreased quality phenotype.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0939">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0857"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fluorescein label</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fluorescein</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Fluorescence label used to monitor the presence of a protein.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1257">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0857"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhodamine label</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Rhodamines are supplements to fluoresceins, as they offer longer wavelength emission maxima and provide opportunities for multicolor labeling or staining.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_2232">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0190"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular association</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular association</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A particular way two or more molecules influence one another.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_2367">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_2402"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetic interaction (sensu phenotype modification)</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A multigenic phenotype result in which the phenotype of a single genetic perturbation has been modified by the introduction of one or more additional genetic perturbations.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ns2:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

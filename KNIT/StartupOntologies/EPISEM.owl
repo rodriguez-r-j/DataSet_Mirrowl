@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#muscle_atrophy_proximal_leg">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle atrophy proximal leg</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USCLE ATROPHY PROXIMAL LE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USCLE ATROPHY PROXIMAL LE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/metamorphopsia">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/abnormal_vision"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metamorphopsia</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPISEM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#migraine_with_aura">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">migraine with aura</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IGRAINE WITH AUR</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IGRAINE WITH AUR</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#mental_status_finding">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mental status finding</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENTAL STATUS FINDIN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENTAL STATUS FINDIN</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#muscle_atrophy_distal_upper_limb">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle atrophy distal upper limb</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USCLE ATROPHY DISTAL UPPER LIM</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USCLE ATROPHY DISTAL UPPER LIM</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#monoplegia_leg">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monoplegia leg</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONOPLEGIA LE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONOPLEGIA LE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#motor_tic">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">motor tic</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OTOR TI</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OTOR TI</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#mild_ataxia">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mild ataxia</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ILD ATAXI</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ILD ATAXI</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#muscle_atrophy_shoulder">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle atrophy shoulder</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USCLE ATROPHY SHOULDE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USCLE ATROPHY SHOULDE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#muscle_atrophy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle atrophy</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USCLE ATROPH</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USCLE ATROPH</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#mild_tremor">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mild tremor</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ILD TREMO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ILD TREMO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#muscle_atrophy_foot">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle atrophy foot</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USCLE ATROPHY FOO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USCLE ATROPHY FOO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#movement_disorder">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">movement disorder</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OVEMENT DISORDE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OVEMENT DISORDE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#mild_facial_weakness">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mild facial weakness</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ILD FACIAL WEAKNES</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ILD FACIAL WEAKNES</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#muscle_atrophy_interosseous_muscles_of_hand">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle atrophy interosseous muscles of hand</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USCLE ATROPHY INTEROSSEOUS MUSCLES OF HAN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USCLE ATROPHY INTEROSSEOUS MUSCLES OF HAN</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#monoplegia_arm">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monoplegia arm</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONOPLEGIA AR</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONOPLEGIA AR</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#mental_retardation">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mental retardation</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENTAL RETARDATIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENTAL RETARDATIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/monoplegia">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/monoparesis"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monoplegia</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPISEM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#motor_finding">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">motor finding</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OTOR FINDIN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OTOR FINDIN</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#muscle_fatigue">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle fatigue</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USCLE FATIGU</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USCLE FATIGU</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#mesencephalic_light_near_dissociation">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mesencephalic light near dissociation</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ESENCEPHALIC LIGHT NEAR DISSOCIATIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ESENCEPHALIC LIGHT NEAR DISSOCIATIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/microcephaly">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/small_head_circumference"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microcephaly</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPISEM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#muscle_atrophy_arm">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle atrophy arm</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USCLE ATROPHY AR</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USCLE ATROPHY AR</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#muscle_atrophy_hand">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle atrophy hand</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USCLE ATROPHY HAN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USCLE ATROPHY HAN</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/miosis">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/pupil_finding"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miosis</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPISEM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/micrographia">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/hypokinesia"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">micrographia</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPISEM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#mild_upper_limb_ataxia">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mild upper limb ataxia</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ILD UPPER LIMB ATAXI</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ILD UPPER LIMB ATAXI</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#motor_impersistence">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">motor impersistence</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OTOR IMPERSISTENC</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OTOR IMPERSISTENC</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#muscle_atrophy_primarily_in_legs">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle atrophy primarily in legs</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USCLE ATROPHY PRIMARILY IN LEG</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USCLE ATROPHY PRIMARILY IN LEG</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#muscle_cramps">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle cramps</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USCLE CRAMP</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USCLE CRAMP</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#mild_memory_disturbance">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mild memory disturbance</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ILD MEMORY DISTURBANC</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ILD MEMORY DISTURBANC</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#morbid_thoughts">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">morbid thoughts</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORBID THOUGHT</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORBID THOUGHT</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/misconduct">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/behavioral_symptoms"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">misconduct</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPISEM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#muscle_atrophy_lower_limb">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle atrophy lower limb</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USCLE ATROPHY LOWER LIM</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USCLE ATROPHY LOWER LIM</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#mixed_dysarthria">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mixed dysarthria</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IXED DYSARTHRI</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IXED DYSARTHRI</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#muscle_atrophy_shoulder_girdle">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle atrophy shoulder girdle</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USCLE ATROPHY SHOULDER GIRDL</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USCLE ATROPHY SHOULDER GIRDL</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/meningism">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/neck_stiffness"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meningism</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPISEM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#muscle_atrophy_deltoid">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle atrophy deltoid</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USCLE ATROPHY DELTOI</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USCLE ATROPHY DELTOI</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#muscle_atrophy_distal_leg">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle atrophy distal leg</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USCLE ATROPHY DISTAL LE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USCLE ATROPHY DISTAL LE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#mental_and_psychological_observations">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mental and psychological observations</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENTAL AND PSYCHOLOGICAL OBSERVATION</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENTAL AND PSYCHOLOGICAL OBSERVATION</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#mask_like_facies">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mask like facies</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASK LIKE FACIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASK LIKE FACIE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#muscle_atrophy_intrinsic_hand_muscle">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle atrophy intrinsic hand muscle</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USCLE ATROPHY INTRINSIC HAND MUSCL</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USCLE ATROPHY INTRINSIC HAND MUSCL</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#mild_dysarhria">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mild dysarhria</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ILD DYSARHRI</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ILD DYSARHRI</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#mixed_aphasia">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mixed aphasia</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IXED APHASI</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IXED APHASI</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#muscle_atrophy_in_distal_forearm_and_hands">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle atrophy in distal forearm and hands</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USCLE ATROPHY IN DISTAL FOREARM AND HAND</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USCLE ATROPHY IN DISTAL FOREARM AND HAND</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#motor_dysprosody">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">motor dysprosody</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OTOR DYSPROSOD</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OTOR DYSPROSOD</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#memory_lapses">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory lapses</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMORY LAPSE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMORY LAPSE</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#muscle_atrophy_hip_girdle">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle atrophy hip girdle</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USCLE ATROPHY HIP GIRDL</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USCLE ATROPHY HIP GIRDL</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#mood_swings">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mood swings</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OOD SWING</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OOD SWING</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/visual_symptoms">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/symptom"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visual_symptoms</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPISEM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/head_finding">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/interictal_finding"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">head_finding</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPISEM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/cranial_nerve_finding">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/interictal_finding"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cranial_nerve_finding</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPISEM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/monoparesis">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/limb_weakness"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monoparesis</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPISEM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/behavioral_symptoms">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/symptom"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral_symptoms</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPISEM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/abnormal_vision">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/visual_symptoms"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal_vision</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPISEM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/pupil_finding">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/cranial_nerve_finding"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pupil_finding</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPISEM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/weakness_of_muscle_group">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/paresis"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">weakness_of_muscle_group</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPISEM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/motor_finding">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/interictal_finding"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">motor_finding</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPISEM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/movement_disorder">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/motor_finding"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">movement_disorder</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPISEM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/small_head_circumference">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/head_finding"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">small_head_circumference</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPISEM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/hypokinesia">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/movement_disorder"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypokinesia</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPISEM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/symptom">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/interictal_finding"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptom</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPISEM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/neck_stiffness">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/neck_finding"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neck_stiffness</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPISEM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/interictal_finding">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interictal_finding</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPISEM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/neck_finding">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/interictal_finding"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neck_finding</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPISEM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/paresis">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/motor_finding"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paresis</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPISEM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/limb_weakness">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/weakness_of_muscle_group"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">limb_weakness</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPISEM</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

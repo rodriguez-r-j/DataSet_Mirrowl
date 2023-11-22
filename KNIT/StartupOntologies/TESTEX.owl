@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns1="http://ontology.test.es/comment#"
+>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Database_name">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Structure_reference"/>
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Structure"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Database name</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Compound_form">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Structure"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compound form</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Compound_type">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Structure_reference"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compound type</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Derivative">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Structure_reference"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Derivative</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Locus_ref">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Drug_target"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Locus ref</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Comments">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Drug_target"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Comments</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Drug_chembl_id">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Drug_master"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug chembl id</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Locus_id">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Drug_target"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Locus id</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Gvk_id">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Structure_reference"/>
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Therapeutic_area"/>
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Clinical_study"/>
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Drug_target"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gvk id</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Compound_no">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Structure_reference"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compound no</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Disease_st_type">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Disease_master"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease st type</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Disease_synonyms_type">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Disease_master"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease synonyms type</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Conclusions">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Clinical_study"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conclusions</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Compound_name">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Structure_reference"/>
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Structure"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compound name</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Example">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Structure_reference"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Example</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Genecard">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Disease_master"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genecard</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Journal_patent_name">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Structure_reference"/>
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Clinical_study"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Journal patent name</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Alias">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Drug_target"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alias</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Generic_name">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Drug_master"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Generic name</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Drug_description">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Drug_master"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug description</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Classification_code">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Therapeutic_area"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Classification code</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Icd10_code">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Therapeutic_area"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Icd10 code</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Iupac_name">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Structure"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iupac name</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Disease_onto_syn">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Disease_master"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease onto syn</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Issn_no">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Structure_reference"/>
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Clinical_study"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Issn no</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Issue">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Structure_reference"/>
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Clinical_study"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Issue</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Inchikey">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Structure"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inchikey</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Drug_name">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Drug_master"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug name</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Descriptionmaster">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Disease_master"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Descriptionmaster</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Inchi">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Structure"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inchi</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Application_type">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Structure_reference"/>
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Clinical_study"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Application type</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#End_page">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Structure_reference"/>
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Clinical_study"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">End page</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Disease_id">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Disease_master"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease id</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Disease_name">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Disease_master"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease name</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Abstract">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Structure_reference"/>
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Clinical_study"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Family">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Drug_target"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Intervention_type">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Drug_master"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intervention type</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Disease_synonyms">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Disease_master"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease synonyms</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Mechanism_of_action">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Drug_master"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanism of action</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Common_name">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Drug_target"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Common name</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Approved_disease_name">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Drug_master"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Approved disease name</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Drug_id">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Drug_master"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug id</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#A_synonyms">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Drug_master"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A synonyms</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Claim">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Structure_reference"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Claim</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Cas_id">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Drug_master"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cas id</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Line_no">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Structure_reference"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Line no</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Disease_master">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Drug_master"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease master</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Drug_master">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Structure"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug master</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Structure_reference">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Structure"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structure reference</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Therapeutic_area">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Structure"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Therapeutic area</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Clinical_study">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Structure"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical study</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Structure">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structure</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://bioportal.databiology.com/test1.owl#Drug_target">
+    <rdfs:subClassOf rdf:resource="https://bioportal.databiology.com/test1.owl#Structure"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug target</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TESTEX</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

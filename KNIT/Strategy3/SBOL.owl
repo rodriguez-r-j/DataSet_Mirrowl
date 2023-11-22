@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:ns2="http://www.geneontology.org/formats/oboInOwl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#_3_sticky_restriction_site_symbol">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 3 sticky restriction site symbol</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 STICKY RESTRICTION SITE SYMBO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 STICKY RESTRICTION SITE SYMBO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#blunt_restriction_site_symbol">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blunt restriction site symbol</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LUNT RESTRICTION SITE SYMBO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LUNT RESTRICTION SITE SYMBO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/SBOL_0000008">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SBOL_0000000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ribonuclease site symbol</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Symbol to represent a region of DNA sequence that codes for a ribonuclease cleavage site on the RNA transcript.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SBOL</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_broad_synonym</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/SBOL_0000010">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SBOL_0000000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protease site symbol</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Symbol to represent a polypeptide_region that codes for a protease cleavage site.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SBOL</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#ribosome_entry_site_symbol">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ribosome entry site symbol</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IBOSOME ENTRY SITE SYMBO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IBOSOME ENTRY SITE SYMBO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/SBOL_0000011">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SBOL_0000000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein stability element symbol</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Symbol to represent a polypeptide region that proves structure in a protein that affects the stability of the protein.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SBOL</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/SBOL_0000006">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SBOL_0000000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">terminator symbol</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Symbol to represent the sequence of DNA located either at the end of the transcript that causes RNA polymerase to terminate transcription.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SBOL</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/SBOL_0000002">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SBOL_0000000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">assembly scar symbol</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Symbol to represent a region of DNA sequence formed from the ligation of two sticky ends where the palindrome is broken and no longer comprises the recognition site and thus cannot be re-cut by the restriction enzymes used to create the sticky ends.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SBOL</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/SBOL_0000005">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SBOL_0000000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ribosome entry site symbol</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Symbol to represent a region in mRNA where ribosome assembles.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SBOL</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/SBOL_0000009">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SBOL_0000000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rna stability element symbol</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Symbol to represent a RNA secondary structure that affects the stability of an RNA molecule.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SBOL</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#operator_symbol">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">operator symbol</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERATOR SYMBO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERATOR SYMBO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#_3_overhang_symbol">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 3 overhang symbol</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 OVERHANG SYMBO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 OVERHANG SYMBO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/SBOL_0000015">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SBOL_0000014"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blunt restriction site symbol</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Symbol to represent a restriction enzyme recognition site that, when cleaved, results in no overhangs.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SBOL</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#restriction_enzyme_recognition_site_symbol">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">restriction enzyme recognition site symbol</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ESTRICTION ENZYME RECOGNITION SITE SYMBO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ESTRICTION ENZYME RECOGNITION SITE SYMBO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/SBOL_0000020">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SBOL_0000000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signature symbol</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Symbol to represent a region of DNA sequence where developer information is encoded.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SBOL</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#sbol">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sbol</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/SBOL_0000004">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SBOL_0000000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cds symbol</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Symbol to represent a contiguous sequence which begins with, and includes, a start codon and ends with, and includes, a stop codon.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SBOL</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#primer_binding_site_symbol">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primer binding site symbol</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RIMER BINDING SITE SYMBO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RIMER BINDING SITE SYMBO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#_5_overhang_symbol">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 5 overhang symbol</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 OVERHANG SYMBO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 OVERHANG SYMBO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#insulator_symbol">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insulator symbol</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NSULATOR SYMBO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NSULATOR SYMBO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/SBOL_0000007">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SBOL_0000000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insulator symbol</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Symbol to represent a transcriptional cis regulatory region that when located between a CM and a gene's promoter prevents the CRM from modulating that genes expression.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SBOL</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_subset</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/SBOL_0000012">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SBOL_0000000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">origin of replication symbol</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Symbol to represent the origin of replication; starting site for duplication of a nucleic acid molecule to give two identical copies.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SBOL</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/SBOL_0000021">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SBOL_0000000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">user defined symbol</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Symbol to represent a region of a DNA sequence not covered by other SBOL Visual symbols.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SBOL</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#user_defined_symbol">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">user defined symbol</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SER DEFINED SYMBO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SER DEFINED SYMBO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#protease_site_symbol">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protease site symbol</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROTEASE SITE SYMBO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROTEASE SITE SYMBO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#promoter_symbol">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">promoter symbol</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROMOTER SYMBO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROMOTER SYMBO</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_related_synonym</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_narrow_synonym</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#rna_stability_element_symbol">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rna stability element symbol</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NA STABILITY ELEMENT SYMBO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NA STABILITY ELEMENT SYMBO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/SBOL_0000003">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SBOL_0000000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">operator symbol</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Symbol to represent a regulatory element of an operon to which activators or repressors bind thereby effecting translation of genes in that operon.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SBOL</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://edamontology.org/has_format">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has format</rdfs:label>
+    <rdfs:range rdf:resource="http://edamontology.org/format_1915"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#protein_stability_element_symbol">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein stability element symbol</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROTEIN STABILITY ELEMENT SYMBO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROTEIN STABILITY ELEMENT SYMBO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#origin_of_replication_symbol">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">origin of replication symbol</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RIGIN OF REPLICATION SYMBO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RIGIN OF REPLICATION SYMBO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#assembly_scar_symbol">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">assembly scar symbol</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SSEMBLY SCAR SYMBO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SSEMBLY SCAR SYMBO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/SBOL_0000013">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SBOL_0000000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primer binding site symbol</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Symbol to represent a non-covalent primer binding site for initiation of replication, transcription, or reverse transcription.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SBOL</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://edamontology.org/format_3725">
+    <rdfs:subClassOf rdf:resource="http://edamontology.org/format_2332"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SBOL</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'SBOL introduces a standardised format for the electronic exchange of information on the structural and functional aspects of biological designs.', 'Synthetic Biology Open Language (SBOL) is an XML format for the specification and exchange of biological design information in synthetic biology.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDAM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#signature_symbol">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signature symbol</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IGNATURE SYMBO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IGNATURE SYMBO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/SBOL_0000001">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SBOL_0000000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">promoter symbol</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Symbol to represent a regulatory_region composed of the TSS(s) and binding sites for TF_complexes of the basal transcription machinery.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SBOL</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://edamontology.org/is_format_of">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is format of</rdfs:label>
+    <rdfs:domain rdf:resource="http://edamontology.org/format_1915"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#ribonuclease_site_symbol">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ribonuclease site symbol</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IBONUCLEASE SITE SYMBO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IBONUCLEASE SITE SYMBO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#terminator_symbol">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">terminator symbol</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ERMINATOR SYMBO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ERMINATOR SYMBO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#_5_sticky_restriction_site_symbol">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 5 sticky restriction site symbol</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 STICKY RESTRICTION SITE SYMBO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 STICKY RESTRICTION SITE SYMBO</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#cds_symbol">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cds symbol</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DS SYMBO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DS SYMBO</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://edamontology.org/format_1915">
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#DeprecatedClass">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DeprecatedClass</rdfs:label>
+        <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDAM</ns1:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://edamontology.org/topic_0003">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Topic</rdfs:label>
+        <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sumo:FieldOfStudy</ns1:synonym>
+        <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A category denoting a rather broad domain or field of interest, of study, application, work, data, or technology. Topics have no clearly defined borders between each other.'</ns1:definition>
+        <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDAM</ns1:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://edamontology.org/operation_0004">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Operation</rdfs:label>
+        <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computational procedure, Computational subroutine, Computational tool, Computational operation, Function (programming), Lambda abstraction, sumo:Function, Mathematical function, Process, Mathematical operation, Function, Computational method</ns1:synonym>
+        <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A function that processes a set of inputs and results in a set of outputs, or associates arguments (inputs) with values (outputs).', 'Special cases are: a) An operation that consumes no input (has no input arguments). Such operation is either a constant function, or an operation depending only on the underlying state. b) An operation that may modify the underlying state but has no output. c) The singular-case operation with no input or output, that still may modify the underlying state.'</ns1:definition>
+        <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDAM</ns1:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://edamontology.org/data_0006">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data</rdfs:label>
+        <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data record, Data set, Datum</ns1:synonym>
+        <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Information, represented in an information artefact (data record) that is 'understandable' by dedicated computational tools that can use the data as input or produce it as output.'</ns1:definition>
+        <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDAM</ns1:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <ns2:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://semanticscience.org/resource/SIO_000618</ns2:hasRelatedSynonym>
+    <ns2:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/IAO_0000098</ns2:hasRelatedSynonym>
+    <ns2:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.onto-med.de/ontologies/gfo.owl#Symbol_structure</ns2:hasRelatedSynonym>
+    <ns2:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://wsio.org/compression_004</ns2:hasRelatedSynonym>
+    <ns2:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/List_of_file_formats</ns2:hasRelatedSynonym>
+    <ns2:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/File_format</ns2:hasRelatedSynonym>
+    <ns2:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://semanticscience.org/resource/SIO_000612</ns2:hasRelatedSynonym>
+    <ns2:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/biotop/biotop.owl#MachineLanguage</ns2:hasRelatedSynonym>
+    <ns2:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ifomis.org/bfo/1.1/snap#Quality</ns2:hasRelatedSynonym>
+    <ns2:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.onto-med.de/ontologies/gfo.owl#Perpetuant</ns2:hasRelatedSynonym>
+    <ns2:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#quality</ns2:hasRelatedSynonym>
+    <ns2:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">File format</ns2:hasNarrowSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data format</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exchange format</ns2:hasExactSynonym>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">edam</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">formats</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bioinformatics</ns2:inSubset>
+    <ns2:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/dc/elements/1.1/format</ns2:hasBroadSynonym>
+    <ns2:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ifomis.org/bfo/1.1/snap#Continuant</ns2:hasBroadSynonym>
+    <ns2:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/biotop/biotop.owl#Quality</ns2:hasBroadSynonym>
+    <ns2:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data model</ns2:hasBroadSynonym>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Format</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exchange format, Data model, Data format, File format</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.', 'The main focus in EDAM lies on formats as means of structuring data exchanged between different tools or resources. The serialisation, compression, or encoding of concrete data formats/models is not in scope of EDAM. Format 'is format of' Data.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDAM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://edamontology.org/format_2332">
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://filext.com/file-extension/XML</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extensible Markup Language</ns2:hasExactSynonym>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">edam</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">formats</ns2:inSubset>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bioinformatics</ns2:inSubset>
+    <rdfs:subClassOf rdf:resource="http://edamontology.org/format_1915"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XML</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eXtensible Markup Language</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Data in XML format can be serialised into text, or binary format.', 'eXtensible Markup Language (XML) format.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDAM</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/SBOL_0000014">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SBOL_0000000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">restriction enzyme recognition site symbol</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Symbol to represent a nucleotide region (usually a palindrome) that is recognized by a restriction enzyme. This may or may not be equal to the restriction enzyme binding site.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SBOL</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#ObjectProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/SBOL_0000000">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SBOL Visual Symbol</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Pictogram that serves as representation of a DNAComponent, indicating the function of the DNAComponent in the enclosing design.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SBOL</ns1:ontology_acronm>
+  </owl:Class>
+</rdf:RDF>

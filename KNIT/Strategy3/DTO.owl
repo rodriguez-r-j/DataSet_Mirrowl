@@ -1,0 +1,1620 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
+  xmlns:ns2="http://purl.obolibrary.org/obo/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:ns3="http://www.w3.org/2004/02/skos/core#"
+  xmlns:ns4="http://www.geneontology.org/formats/oboInOWL#"
+  xmlns:ns5="http://ontology.test.es/comment#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0005415">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0005415</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000018"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000886"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gastroduodenal mucosa</rdfs:label>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000087">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_role</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0005426">
+    <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000018"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000932"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB-69 cell</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Human neuroblastoma brain (Stage III) cell line, isolated from a 16 month old male.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002215">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">capable_of</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#oral_cell_line">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oral cell line</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAL CELL LIN</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAL CELL LIN</ns5:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TAO_0001487">
+    <ns4:xref rdf:resource="http://purl.obolibrary.org/obo/CARO_0000006"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portion of organism substance</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Material anatomical entity in a gaseous, liquid, semisolid or solid state; produced by anatomical structures or derived from inhaled and ingested substances that have been modified by anatomical structures as they pass through the body.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002204">
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene product of</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003072">
+    <ns1:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</ns1:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0003072</ns3:notation>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO:0001202</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0001202</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:16674</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncithesaurus:Optic_Cup</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA:2912</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA2:0001303</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0231109</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0000167</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID:308789007</ns1:hasDbXref>
+    <ns1:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ocular cup</ns1:hasRelatedSynonym>
+    <ns1:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eye cup</ns1:hasRelatedSynonym>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multi-tissue structure that is comprised of neural and non-neural epithelial layers which will form the retina and retinal pigmented epithelium of the mature eye[ZFA]. double walled structured formed by expansion and invagination of the distal end of the optic vesicle that develops into the pigmented and sensory layers of the retina while the mouth of the optic cup eventually forms the pupil of the eye[MP].</ns2:IAO_0000115>
+    <ns1:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/uberon#vertebrate_core</ns1:inSubset>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004121"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000481"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">optic cup</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ocular cup, eye cup, eyecup, ophtalmic cup</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Multi-tissue structure that is comprised of neural and non-neural epithelial layers which will form the retina and retinal pigmented epithelium of the mature eye[ZFA]. double walled structured formed by expansion and invagination of the distal end of the optic vesicle that develops into the pigmented and sensory layers of the retina while the mouth of the optic cup eventually forms the pupil of the eye[MP].'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XPO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005800">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WBbt:0005800</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0016885"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005733"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rectal epithelium</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['epithelium connecting intestine and anus.', 'LINKOUT::WORMATLAS::<http://www.wormatlas.org/ver1/handbook/alimentary/alimentary3.htm#rectepith>']]></ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UPHENO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:TransitiveProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002202">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">develops from</rdfs:label>
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#ObjectProperty">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:TransitiveProperty>
+  <rdf:Description rdf:about="http://bioportal.bioontology.org/.well-known/genid/33a788b7-3805-4d08-ac1b-7a77008c8926/7a67b010000001f">
+    <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domain of part of</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Axiom">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:TransitiveProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001000">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">derives from</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:TransitiveProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#panicle">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">panicle</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANICL</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANICL</ns5:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0005397">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0005397</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000018"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SH-EP cell</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The SHEP human neuroblastoma cell line was subcloned from SK-N-SH.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000178">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has continuant part at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#gastroduodenal_mucosa">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gastroduodenal mucosa</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASTRODUODENAL MUCOS</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASTRODUODENAL MUCOS</ns5:definition>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000314">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is_proxy_for</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#culture_condition">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">culture condition</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ULTURE CONDITIO</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ULTURE CONDITIO</ns5:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0005264">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0005264</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000018"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000551"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mucoepidermoid carcinoma cell</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Mucoepidermoid carcinoma (MEC) is the most common primary salivary gland-type tumour of the lung. It arises from the excretory ducts of the bronchial mucosa.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ERO_0001516">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">derives_from_material_anatomical_entity</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002206">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">expressed in</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000073">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is granular part of</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#cl-48_cell">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl-48 cell</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L-48 CEL</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L-48 CEL</ns5:definition>
+  </owl:Class>
+  <owl:SymmetricProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002220">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adjacent_to</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:SymmetricProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0005403">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0005403</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000018"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glycogen cell</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The junctional zone of the mouse placenta consists of two main trophoblast populations, spongiotrophoblasts and glycogen cells (GCs), but the development and function of both cell types are unknown.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#rectal_epithelium">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rectal epithelium</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ECTAL EPITHELIU</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ECTAL EPITHELIU</ns5:definition>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/uberon#existence_starts_and_ends_during">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">existence_starts_and_ends_during</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">example of usage</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">example_of_usage</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000084">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">g depends on</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#bearer_of">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bearer_of</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#c6/36_cell">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c6/36 cell</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6/36 CEL</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6/36 CEL</ns5:definition>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/uberon#existence_ends_before">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">existence_ends_before</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#glycogen_cell">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glycogen cell</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LYCOGEN CEL</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LYCOGEN CEL</ns5:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0020121">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0020121</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009005"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0000016"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lateral root</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ra&amp;#237z lateral (Spanish, exact), 側根 (Japanese, exact)</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A lateral root primordium may develops on any root, including a primary root (PO:0020127), on an existing lateral root (PO:0020121), or a shoot-borne root (PO:0000042). In seed plants, a lateral root primordium generally develops from pericycle cells (PO:0025261), but cells of an endodermis (PO:0000252) may also participate in its formation in some species. In ferns, lateral root primordia develop from the endodermis.', 'A root (PO:0009005) that develops from a lateral root primordium (PO:0000016) that is part of another root on the same plant.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:FunctionalProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000184">
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#InverseFunctionalProperty">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">history of</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+  </owl:FunctionalProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ERO_0001825">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_phenotype_anatomical_entity</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#corn_ear">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">corn ear</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORN EA</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORN EA</ns5:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0005332">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0005332</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000018"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0002580"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RWLeu-4 cell</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'RWLeu4 is a chronic myelogenous leukemia cell line.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/uberon#existence_starts_with">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">existence_starts_with</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002162">
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in taxon</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0005364">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0005364</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000018"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000711"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D-54MG cell</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Human glioma cell line.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:FunctionalProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000185">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has history</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+  </owl:FunctionalProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000157">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">during which exists</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#nci-h2170_cell">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nci-h2170 cell</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CI-H2170 CEL</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CI-H2170 CEL</ns5:definition>
+  </owl:Class>
+  <owl:TransitiveProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000187">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has continuant part at all times that part exists</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:TransitiveProperty>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:TransitiveProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is part of</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+  </owl:TransitiveProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0003000">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">produces</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">notation</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002200">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has phenotype</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0003001">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">produced_by</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#lateral_root">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lateral root</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATERAL ROO</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATERAL ROO</ns5:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#optic_cup">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">optic cup</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTIC CU</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTIC CU</ns5:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0005425">
+    <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000018"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0002202"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI-H2170 cell</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Human lung squamous cell carcinoma cell line.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0005277">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0005277</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000018"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000899"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAG cell</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'CAG cell line; established from a bone marrow aspirate of a patient with myeloma.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000175">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proper part of continuant at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#rwleu-4_cell">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rwleu-4 cell</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLEU-4 CEL</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WLEU-4 CEL</ns5:definition>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000127">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material basis of at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0005288">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0005288</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL-48 cell</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Normal human fetal liver cell line.', 'Is a synonym to WRL-68 cell with the ATCC number CL-48 due to a misspelling.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0005436">
+    <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000018"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000628"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">panicle</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A branched indeterminate inflorescence in which the branches are racemes, so that each flower has its own stalk attached to the branch. Oats and sorghum have panicles.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#nb-69_cell">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nb-69 cell</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-69 CEL</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-69 CEL</ns5:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#sh-ep_cell">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sh-ep cell</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-EP CEL</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-EP CEL</ns5:definition>
+  </owl:Class>
+  <owl:TransitiveProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000186">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part of continuant at all times that whole exists</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:TransitiveProperty>
+  <owl:Class rdf:about="http://purl.jp/bio/10/mccv#MCCV_000005">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Culture condition</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A culture condition of a microbial strain'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MCCV</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000085">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has function at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OBIws_0000062">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_description</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0005375">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0005375</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000018"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oral cell line</rdfs:label>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000070">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">s depends on</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/uberon#existence_ends_at">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">existence_ends_at</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#ho-8910_cell">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ho-8910 cell</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O-8910 CEL</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O-8910 CEL</ns5:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0005401">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0005401</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000018"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">junctional zone</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The murine placenta consists of two main fetally derived compartments: the labyrinthine zone and the junctional zone.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000108">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exists at</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_related_synonym</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/uberon#existence_starts_at">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">existence_starts_at</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HAO_0001053">
+    <ns1:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAO</ns1:hasOBONamespace>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The area that is lamella-like and is located on the calcar.</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HAO_0000146"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">velum</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The area that is lamella-like and is located on the calcar.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_narrow_synonym</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000171">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">located in at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#velum">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">velum</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ELU</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ELU</ns5:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002150">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">connected to</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/uberon#existence_starts_after">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">existence_starts_after</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#d-54mg_cell">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">d-54mg cell</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-54MG CEL</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-54MG CEL</ns5:definition>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000053">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is bearer of</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002214">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has prototype</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000069">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">existence_ends_during</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:FunctionalProperty rdf:about="http://purl.obolibrary.org/obo/inheres_in">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inheres_in</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000052">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inheres in at all times</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:FunctionalProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000176">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part of continuant at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002205">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has gene product</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0005452">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0002632"/>
+    <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000018"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C6/36 cell</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Aedes albopictus, mosquito, Asian tiger larval cell line.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000647">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_supplier</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alternative term</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0005305">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0005305</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000628"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">corn ear</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The ears are female inflorescences, tightly covered over by several layers of leaves, and so closed-in by them to the stem that they do not show themselves easily until the emergence of the pale yellow silks from the leaf whorl at the end of the ear, e.g. by Zea mays.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000057">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has participant</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000174">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has proper continuant part at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002303">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has habitat</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CARO_0000006"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0005438">
+    <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000018"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000811"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HO-8910 cell</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Human epithelial ovarian cancer cell line.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition_source</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition source</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002337">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">related via localization to</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/SP_0000020">
+    <ns4:xref rdf:resource="http://purl.obolibrary.org/obo/PO_0009005"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SP_0001000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root modifications</rdfs:label>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SPTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000065">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has course</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000163">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material basis of at all times</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+  </owl:ObjectProperty>
+  <rdf:Description rdf:about="http://bioportal.bioontology.org/.well-known/genid/33a788b7-3805-4d08-ac1b-7a77008c8926/15b05f0000000055">
+    <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domain of part of</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#junctional_zone">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">junctional zone</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UNCTIONAL ZON</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UNCTIONAL ZON</ns5:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000129">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">member part of at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000068">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">existence_starts_during</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000304">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is_manufactured_by</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000124">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has location at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/uberon#existence_starts_or_ends_during">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">existence_starts_or_ends_during</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/uberon#existence_ends_with">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">existence_ends_with</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000123">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has spatial occupant at some time</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#cag_cell">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cag cell</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AG CEL</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AG CEL</ns5:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_subset</rdfs:label>
+  </owl:AnnotationProperty>
+  <rdf:Description rdf:about="http://bioportal.bioontology.org/.well-known/genid/33a788b7-3805-4d08-ac1b-7a77008c8926/1466560100000051">
+    <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domain of part of</rdfs:label>
+  </rdf:Description>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000115">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has member part at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000083">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is located at</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000066">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">occurs in</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000056">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">participates in</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000113">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has material basis at all times</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor note</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor_note</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:SymmetricProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0001637">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has disposition to bind</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+  </owl:SymmetricProperty>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor preferred label</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor_preferred_term</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor preferred term</rdfs:label>
+  </owl:AnnotationProperty>
+  <rdf:Description rdf:about="http://bioportal.bioontology.org/.well-known/genid/33a788b7-3805-4d08-ac1b-7a77008c8926/987c0100000081">
+    <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domain of part of</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025498">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009011"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025496"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardinal part of multi-tissue plant structure</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">複数の組織からなる植物構造の基本（主要）部分 (Japanese, exact), parte cardinal de estructura vegetal con m&amp;#250ltiples tejidos (Spanish, exact)</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Includes cardinal parts of plant organs (PO:0025001) as well as parts of other multi-tissue plant structures. Cardinal refers to the fact that these are biologically meaningful and not arbitrary parts. Most cardinal parts of multi-tissue plant structures have both fiat and bona-fide boundaries, including parts with large fiat boundaries, such as leaf base (PO:0020040) or fruit distal end (PO:0008001), and parts with primarily bona-fide boundaries, such as leaflet (PO:0020049).', 'A plant structure (PO:0009011) that is a proper part of a multi-tissue plant structure (PO:0025496) and includes portions of plant tissues (PO:0009007) of at least two different types.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000061">
+    <ns4:xref rdf:resource="http://purl.obolibrary.org/obo/HAO_0000003"/>
+    <ns2:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological structure</ns2:IAO_0000118>
+    <ns1:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</ns1:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000061</ns3:notation>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAID:781</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO:0003000</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0000037</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:A13</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0010825</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARO:0000003</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0001759</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0003000</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID:362889002</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA2:0003003</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BILA:0000003</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGMA:0001823</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAO:0000003</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:67135</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbt:00007001</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO:0000037</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AEO:0000003</ns1:hasDbXref>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Material anatomical entity that has inherent 3D shape and is generated by coordinated expression of the organism's own genome.</ns2:IAO_0000115>
+    <ns1:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological structure</ns1:hasExactSynonym>
+    <ns1:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/uberon#upper_level</ns1:inSubset>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/HAO_0000003"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anatomical structure</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">connected biological structure, biological structure</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Material anatomical entity that is a single connected structure with inherent 3D shape generated by coordinated expression of the organism's own genome.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XPO</ns5:ontology_acronm>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UPHENO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0002202">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0002202</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000018"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0002024"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000762"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung squamous cell carcinoma cell line</rdfs:label>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0005029">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0005029</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025433"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025127"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root primordium</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">根原基（可視的）  (Japanese, exact), portion of root primordium tissue (exact), root primordia (exact, plural), primordio de ra&amp;#237z (Spanish, exact)</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A primordium (PO:0025127) that develops from a root anlagen (PO:0025433) and is committed to the development of a root (PO:0009005).', 'A root primordium may arise from cells of a pericycle (PO:0006203) in a root in most seed plant (pericyclic lateral root primordium; PO:0025492), from cells of an endodermis (PO:0000252) in ferns and some seed plants (non-pericyclic lateral root primordium: PO:0025493), or from cells of a shoot axis (PO:0025029), in the case of a basal root primordium (PO:0025479) or shoot-borne root primordium (PO:0025480). Transition from root primordium to root occurs with the formation of a root cap (PO:0020123), shortly after the development of a root apical meristem (PO:0020147).'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <ns2:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the color of a tomato</ns2:IAO_0000112>
+    <ns2:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a person</ns2:IAO_0000112>
+    <ns2:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the mass of a cloud</ns2:IAO_0000112>
+    <ns2:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a heart</ns2:IAO_0000112>
+    <ns2:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a symphony orchestra</ns2:IAO_0000112>
+    <ns2:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the lawn and atmosphere in front of our building</ns2:IAO_0000112>
+    <ns2:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the disposition of blood to coagulate</ns2:IAO_0000112>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">occurrent</rdfs:label>
+        <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An entity that has temporal parts and that happens, unfolds or develops through time.'</ns5:definition>
+        <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XPO</ns5:ontology_acronm>
+        <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UPHENO</ns5:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <ns2:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO 2 Reference: Continuant entities are entities which can be sliced to yield parts only along the spatial dimension, yielding for example the parts of your table which we call its legs, its top, its nails. ‘My desk stretches from the window to the door. It has spatial parts, and can be sliced (in space) in two. With respect to time, however, a thing is a continuant.’ [60, p. 240</ns2:IAO_0000116>
+    <ns2:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Continuant doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. For example, in an expansion involving bringing in some of Ceuster's other portions of reality, questions are raised as to whether universals are continuants</ns2:IAO_0000116>
+    <ns2:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endurant</ns2:IAO_0000118>
+    <ns2:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">continuant</ns2:IAO_0000111>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An entity  that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.</ns2:IAO_0000115>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TRAK_0000409"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">continuant</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XPO</ns5:ontology_acronm>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UPHENO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000483">
+    <ns1:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</ns1:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000483</ns3:notation>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0000387</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:A10.272</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARO:0000066</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0010055</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAO:0000066</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:9639</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncithesaurus:Epithelium</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO:0001486</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO:0003045</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAID:402</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA2:0003066</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID:31610004</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbt:00007005</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000416</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0000144</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://upload.wikimedia.org/wikipedia/commons/c/c3/Tkanka_nablonkowa.png</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Epithelium</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0014609</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BILA:0000066</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0001486</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AEO:0000066</ns1:hasDbXref>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portion of tissue, that consists of one or more layers of epithelial cells connected to each other by cell junctions and which is underlain by a basal lamina. Examples: simple squamous epithelium, glandular cuboidal epithelium, transitional epithelium, myoepithelium[CARO].</ns2:IAO_0000115>
+    <ns1:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portion of epithelium</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epithelial tissue</ns1:hasExactSynonym>
+    <ns1:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/uberon#uberon_slim</ns1:inSubset>
+    <ns1:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/uberon#vertebrate_core</ns1:inSubset>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epithelium</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epithelial tissue, portion of epithelium</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Portion of tissue, that consists of one or more layers of epithelial cells connected to each other by cell junctions and which is underlain by a basal lamina. Examples: simple squamous epithelium, glandular cuboidal epithelium, transitional epithelium, myoepithelium[CARO].', 'Editor note: surface epithelium may contain non-epithelial cells, such as melanocytes, lymphocytes and dendritic cells, within the sheet of epithelial cells. Do we consider these part of the epithelium, or located-in it?'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UPHENO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000479">
+    <ns2:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portion of tissue</ns2:IAO_0000118>
+    <ns2:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tissue portion</ns2:IAO_0000118>
+    <ns2:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">simple tissue</ns2:IAO_0000118>
+    <ns1:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</ns1:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000479</ns3:notation>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0040300</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NIF_GrossAnatomy:birnlex_19</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO:0001477</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAO:0000043</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AEO:0000043</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0001757</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:A10</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA2:0003043</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:9637</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BILA:0000043</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0010054</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0001477</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARO:0000043</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO:0003040</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGMA:0001844</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WBbt:0005729</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:Tissue</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0000607</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0003002</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbt:00007003</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncithesaurus:Tissue</ns1:hasDbXref>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical structure, that consists of similar cells and intercellular matrix, aggregated according to genetically determined spatial relationships.</ns2:IAO_0000115>
+    <ns1:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portion of tissue</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tissue portion</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">simple tissue</ns1:hasExactSynonym>
+    <ns1:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/uberon#upper_level</ns1:inSubset>
+    <ns4:xref rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005729"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005729"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tissue</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">simple tissue, portion of tissue, tissue portion</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Multicellular anatomical structure that consists of many cells of one or a few types, arranged in an extracellular matrix such that their long-range organisation is at least partly a repetition of their short-range organisation.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UPHENO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001062">
+    <ns4:xref rdf:resource="http://purl.obolibrary.org/obo/CARO_0000000"/>
+    <ns1:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</ns1:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0001062</ns3:notation>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARO:0000000</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAO:0000000</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncithesaurus:Anatomic_Structure_System_or_Substance</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0100000</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGMA:0001822</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:62955</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BILA:0000000</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C1515976</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0010841</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NIF_GrossAnatomy:birnlex_6</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO:0100000</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0000001</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA2:0002229</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AEO:0000000</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbt:10000000</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbt_root:00000000</ns1:hasDbXref>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species.</ns2:IAO_0000115>
+    <ns1:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/uberon#upper_level</ns1:inSubset>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CARO_0000000"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anatomical entity</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XPO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <ns2:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an aggregate of human beings.</ns2:IAO_0000112>
+    <ns2:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a forest fire</ns2:IAO_0000112>
+    <ns2:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a human being</ns2:IAO_0000112>
+    <ns2:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an epidemic</ns2:IAO_0000112>
+    <ns2:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a sea wave</ns2:IAO_0000112>
+    <ns2:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a tornado</ns2:IAO_0000112>
+    <ns2:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an energy wave</ns2:IAO_0000112>
+    <ns2:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a puff of smoke</ns2:IAO_0000112>
+    <ns2:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a hurricane</ns2:IAO_0000112>
+    <ns2:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the undetached arm of a human being</ns2:IAO_0000112>
+    <ns2:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a flame</ns2:IAO_0000112>
+    <ns2:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a photon</ns2:IAO_0000112>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000141">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immaterial entity</rdfs:label>
+        <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO</ns5:ontology_acronm>
+        <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UPHENO</ns5:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <ns2:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Examples: collection of random bacteria, a chair, dorsal surface of the body</ns2:IAO_0000116>
+    <ns2:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Material entity [snap:MaterialEntity] subsumes object [snap:Object], fiat object part [snap:FiatObjectPart], and object aggregate [snap:ObjectAggregate], which assume a three level theory of granularity, which is inadequate for some domains, such as biology.</ns2:IAO_0000116>
+    <ns2:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO 2 Reference: Object, Fiat Object Part and Object Aggregate are not intended to be exhaustive of Material Entity. Users are invited to propose new subcategories of Material Entity.</ns2:IAO_0000116>
+    <ns2:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO 2 Reference: Material entities (continuants) can preserve their identity even while gaining and losing material parts. Continuants are contrasted with occurrents, which unfold themselves in successive temporal parts or phases [60</ns2:IAO_0000116>
+    <ns2:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Material entity [snap:MaterialEntity] subsumes object [snap:Object], fiat object part [snap:FiatObjectPart], and object aggregate [snap:ObjectAggregate], which assume a three level theory of granularity, which is inadequate for some domains, such as biology.
+Examples: collection of random bacateria, a chair, dorsal surface of the body.</ns2:IAO_0000116>
+    <ns2:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO 2 Reference: ‘Matter’ is intended to encompass both mass and energy (we will address the ontological treatment of portions of energy in a later version of BFO). A portion of matter is anything that includes elementary particles among its proper or improper parts: quarks and leptons, including electrons, as the smallest particles thus far discovered; baryons (including protons and neutrons) at a higher level of granularity; atoms and molecules at still higher levels, forming the cells, organs, organisms and other material entities studied by biologists, the portions of rock studied by geologists, the fossils studied by paleontologists, and so on.Material entities are three-dimensional entities (entities extended in three spatial dimensions), as contrasted with the processes in which they participate, which are four-dimensional entities (entities extended also along the dimension of time).According to the FMA, material entities may have immaterial entities as parts – including the entities identified below as sites; for example the interior (or ‘lumen’) of your small intestine is a part of your body. BFO 2.0 embodies a decision to follow the FMA here.</ns2:IAO_0000116>
+    <ns2:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity</ns2:IAO_0000111>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An independent continuant  that is spatially extended whose identity is independent of that of other entities and can be maintained through time.</ns2:IAO_0000115>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An independent continuant that is spatially extendedn whose identity is independent of that of other entities and can be maintained through time.</ns2:IAO_0000115>
+    <ns2:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO_0000040</ns2:IAO_0000119>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TRAK_0000086"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO</ns5:ontology_acronm>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UPHENO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0007376">
+    <ns1:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</ns1:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0007376</ns3:notation>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAO:0000298</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Epidermis_(zoology)</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TADS:0000109</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WBbt:0005733</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbt:00004993</ns1:hasDbXref>
+    <ns1:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypodermis</ns1:hasRelatedSynonym>
+    <ns1:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epidermis</ns1:hasNarrowSynonym>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The epidermis is the entire outer epithelial layer of an animal, it may be a single layer that produces an extracellular material (e.g. the cuticle of arthropods) or a complex stratified squamous epithelium, as in the case of many vertebrate species[GO]. The epidermis of a more complex invertebrate is just one-layer deep, and may be protected by a non-cellular cuticle. The epidermis of a higher vertebrate has many layers, and the outer layers are reinforced with keratin and then die[WP].</ns2:IAO_0000115>
+    <ns1:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">outer epidermal layer</ns1:hasExactSynonym>
+    <ns1:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/uberon#grouping_class</ns1:inSubset>
+    <ns4:xref rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005733"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010371"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000483"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003102"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000006"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">outer epithelium</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epidermis, hypodermis, outer epidermal layer, hypoderm, epidermis (sensu Metazoa), outer epithelial layer</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The epidermis is the entire outer epithelial layer of an animal, it may be a single layer that produces an extracellular material (e.g. the cuticle of arthropods) or a complex stratified squamous epithelium, as in the case of many vertebrate species[GO].'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UPHENO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000297">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000297</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000018"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0001120"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carcinoma cell line</rdfs:label>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTO</ns5:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0008150">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">process</rdfs:label>
+        <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t.'</ns5:definition>
+        <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UPHENO</ns5:ontology_acronm>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single-organism process, biological process, physiological process, single organism process</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Note that, in addition to forming the root of the biological process ontology, this term is recommended for use for the annotation of gene products whose biological process is unknown. When this term is used for annotation, it indicates that no information was available about the biological process of the gene product annotated as of the date the annotation was made; the evidence code 'no data' (ND), is used to indicate this.', 'A biological process represents a specific objective that the organism is genetically programmed to achieve. Biological processes are often described by their outcome or ending state, e.g., the biological process of cell division results in the creation of two daughter cells (a divided cell) from a single parent cell. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UPHENO</ns5:ontology_acronm>
+  </rdf:Description>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003102">
+    <ns1:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</ns1:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0003102</ns3:notation>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA2:0003010</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:SurfaceRegion</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AEO:0000010</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VSAO:0000001</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Surface_structure</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0000292</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO:0003028</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0010337</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO:0000292</ns1:hasDbXref>
+    <ns1:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">surface feature</ns1:hasRelatedSynonym>
+    <ns1:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">surface region</ns1:hasRelatedSynonym>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organism subdivision that is the collection of anatomical structures on the body surface[ZFA].</ns2:IAO_0000115>
+    <ns1:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anatomical surface feature</ns1:hasExactSynonym>
+    <ns1:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/uberon#upper_level</ns1:inSubset>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">surface structure</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">surface structures, anatomical surface feature, surface region, surface feature</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Anatomical structure that overlaps the outer epithelial layer and is adjacent to the space surrounding the organism.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UPHENO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000737">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000737</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000018"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0001035"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leukemia cell line</rdfs:label>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003929">
+    <ns1:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</ns1:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0003929</ns3:notation>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA2:0004567</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO:0003200</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0836205</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO:0005123</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncithesaurus:Gut_Epithelium</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000956</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0005123</ns1:hasDbXref>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An epithelium that is part of a digestive tract [Automatically generated definition].</ns2:IAO_0000115>
+    <ns1:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epithelial tissue of lower gastrointestinal tract</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lower gastrointestinal tract epithelial tissue</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epithelial tissue of digestive tract</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epithelium of gut</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epithelial tissue of gut</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epithelium of lower gastrointestinal tract</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">digestive tract epithelial tissue</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">digestive tract epithelium</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gut epithelial tissue</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lower gastrointestinal tract epithelium</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epithelium of digestive tract</ns1:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000483"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000006"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">digestive tract epithelium</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">digestive tract epithelial tissue, gut epithelial tissue, epithelium of digestive tract, gastrodermis, epithelial tissue of digestive tract, gut epithelium, epithelium of gut, epithelial tissue of gut, alimentary tract epithelium</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An epithelium that lines the lumen of the digestive tract.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UPHENO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000000">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000000</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tissues, cell types and enzyme sources</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A structured controlled vocabulary for the source of an enzyme. It comprises terms of tissues, cell lines, cell types and cell cultures from uni- and multicellular organisms.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001461">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001461</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0001481"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">whole plant</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pflanzenkoerper</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The main part of a plant.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025269">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025497"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">collective organ part structure</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&amp;#243rgano colectivo de una parte de la estructura (Spanish, exact), 集合的器官の部分構造 (Japanese, exact)</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A collective plant structure (PO:0025497) composed of two or more cardinal organ parts (PO:0025001) that are part of adjacent plant organs (PO:0009008) and any associated portions of plant tissue (PO:0009007).', 'A collective organ part structure is composed of parts of multiple organs, but no complete organs. The organ parts are often of the same type but may be of different types. Includes plant structures like a septum (PO:0000030) that consists of the walls of two fused carpels (PO:0009030) or a pseudostem (PO:0025248) that consist of multiple, overlapping leaf sheaths (PO:0020104). Unlike a collective plant organ structure (PO:0025007), a collective organ part structure does not contain any complete plant organs.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRAK_0000086">
+    <ns4:xref rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">physical object</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRAK</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000811">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000811</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000018"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000977"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovary cancer cell line</rdfs:label>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/VHOG_0001721">
+    <ns4:xref rdf:resource="http://purl.obolibrary.org/obo/CARO_0000006"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CARO_0000006"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TAO_0001836"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material anatomical entity</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Anatomical entity that has mass.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025497">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0025497</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009011"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">collective plant structure</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">estructura vegetal colectiva (Spanish, exact), 集合的植物構造 (Japanese, exact)</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'This is a parent term to describe both collective organ part structure (PO:0025269)  (e.g. septum), as well as collective plant organ structure (PO:0025007) (which was formerly named collective plant structure), for example shoot system (PO:0009006).', 'A plant structure (PO:0009011) that is a proper part of a whole plant (PO:0000003) and includes two or more adjacent plant organs (PO:0009008) or adjacent cardinal organ parts (PO:0025001), along with any associated portions of plant tissue (PO:0009007).'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025025">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0025025</ns3:notation>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/PO_0009005"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025007"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root system</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">根系 (Japanese, exact), root (broad), sistema de ra&amp;#237z (Spanish, exact)</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A collective plant organ structure (PO:0025007) that produces root meristems (PO:0006085), the plant structures (PO:0009011) that arise from them and the parts thereof.', 'Generally the below ground portion of a vascular plant.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000353">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000353</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000018"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung cell line</rdfs:label>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TAO_0001836">
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/VHOG_0001721"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CARO_0000006"/>
+    <ns4:xref rdf:resource="http://purl.obolibrary.org/obo/CARO_0000006"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material anatomical entity</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Anatomical entity that has mass.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000344">
+    <ns4:xref rdf:resource="http://purl.obolibrary.org/obo/BTO_0000886"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/BTO_0000886"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mucosa</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mucosal region, mucosa of organ, mucous membrane, region of mucosa, mucosa of organ part, organ mucosa, tunica mucosa</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A lining of mostly endodermal origin, covered in epithelium, which is involved in absorption and secretion. They line various body cavities that are exposed to the external environment and internal organs. It is at several places continuous with skin: at the nostrils, the lips, the ears, the genital area, and the anus. The sticky, thick fluid secreted by the mucous membranes and gland is termed mucus. The term mucous membrane refers to where they are found in the body and not every mucous membrane secretes mucus[WP].'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005733">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WBbt:0005733</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005729"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007376"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypodermis</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epidermis</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA['LINKOUT::WORMATLAS::<http://www.wormatlas.org/ver1/handbook/hypodermis/hypodermis.htm>', 'Epidermal layer.']]></ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UPHENO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0000000">
+    <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality</rdfs:label>
+        <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trait</ns5:synonym>
+        <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities.', 'A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities'</ns5:definition>
+        <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UPHENO</ns5:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <ns1:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sponge</ns1:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARO:0000000</ns3:notation>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species.</ns2:IAO_0000115>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anatomical entity</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Following BFO, material anatomical entities may have immaterial parts (the lumen of your stomach is part of your stomach).  The granularity limit follows the limits set by the Gene Ontology on the granularity limit for GO:cellular_component. Note that substances produced by an organism (sweat, feaces, urine) do not need to be part of an organism to qualify as an anatomical structure.', 'A part of a cellular organism that is either an immaterial entity or a material entity with granularity above the level of a protein complex.  Or, a substance produced by a cellular organism with granularity above the level of a protein complex.', 'Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UPHENO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000481">
+    <ns1:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</ns1:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000481</ns3:notation>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAO:0000055</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BILA:0000055</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA2:0003055</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AEO:0000055</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO:0003037</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGMA:0001847</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbt:00007010</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0001762</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0010048</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARO:0000055</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO:0001488</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0001488</ns1:hasDbXref>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical structure that has as its parts two or more portions of tissue of at least two different types and which through specific morphogenetic processes forms a single distinct structural unit demarcated by bona-fide boundaries from other distinct structural units of different types.</ns2:IAO_0000115>
+    <ns1:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/uberon#upper_level</ns1:inSubset>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multi-tissue structure</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multi-tissue structures</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Anatomical structure that has as its parts two or more portions of tissue of at least two different types and which through specific morphogenetic processes forms a single distinct structural unit demarcated by bona-fide boundaries from other distinct structural units of different types.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XPO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000628">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000628</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0001461"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflorescence</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flower cluster</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A flower cluster with a definite arrangement.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO</ns5:ontology_acronm>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025004">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0025004</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009008"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant axis</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eje de la planta (Spanish, exact), 植物軸（軸柱） (Japanese, exact), plant axes (exact, plural)</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Includes roots and shoots.', 'An axial plant organ (PO:0009008).'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0016885">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000483"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003929"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epithelium of terminal part of digestive tract</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rectum epithelium</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Epithelium lining the distalmost portion of the digestive tract.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UPHENO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009013">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0009013</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009007"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portion of meristem tissue</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meristema (Spanish, exact), meristem (exact), 分裂組織 (Japanese, exact), meristematic tissue (exact)</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A portion of plant tissue (PO:0009007) in which plant cells (PO:0009002) have retained their embryonic characteristics, or have reverted to them secondarily, and that divide to produce new cells that can undergo differentiation to form mature tissues, i.e. they have a capacity for morphogenesis and growth.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004121">
+    <ns1:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</ns1:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0004121</ns3:notation>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anatomical structure that develops (entirely or partially) from the ectoderm.</ns2:IAO_0000115>
+    <ns1:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/uberon#grouping_class</ns1:inSubset>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ectoderm-derived structure</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ectodermal deriviative</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An anatomical structure that develops (entirely or partially) from the ectoderm.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XPO</ns5:ontology_acronm>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UPHENO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009007">
+    <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/PO_0025007"/>
+    <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/PO_0025269"/>
+    <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/PO_0009008"/>
+    <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/PO_0025001"/>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0009007</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009011"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portion of plant tissue</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant tissue (related), portion of tissue (broad), tissue (broad), porci&amp;#243n de un tejido vegetal (Spanish, exact), 植物組織の一部 (Japanese, exact)</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A portion of plant tissue may contain one or several types of cells that are organized in a specific spatial arrangement into a structural unit (which includes a mass of callus) and may include an intercellular matrix. May include other types of isolated cells, such as idioblasts.', 'A plant structure (PO:0009011) that consists predominantly of similarly specialized plant cells (PO:0009002) of one or more types.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000004">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <ns2:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the interior of your mouth</ns2:IAO_0000112>
+    <ns2:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a person</ns2:IAO_0000112>
+    <ns2:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a leg</ns2:IAO_0000112>
+    <ns2:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an organism</ns2:IAO_0000112>
+    <ns2:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a heart</ns2:IAO_0000112>
+    <ns2:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a spatial region</ns2:IAO_0000112>
+    <ns2:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a molecule</ns2:IAO_0000112>
+    <ns2:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a chair</ns2:IAO_0000112>
+    <ns2:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the lawn and atmosphere in front of our building</ns2:IAO_0000112>
+    <ns2:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an atom</ns2:IAO_0000112>
+    <ns2:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the bottom right portion of a human torso</ns2:IAO_0000112>
+    <ns2:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a symphony orchestra</ns2:IAO_0000112>
+    <ns2:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an orchestra.</ns2:IAO_0000112>
+    <ns2:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">substantial entity</ns2:IAO_0000118>
+    <ns2:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">independent continuant</ns2:IAO_0000111>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])</ns2:IAO_0000115>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A continuant  that is a bearer of quality  and realizable entity  entities, in which other entities inhere and which itself cannot inhere in anything.</ns2:IAO_0000115>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">independent continuant</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.'</ns5:definition>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XPO</ns5:ontology_acronm>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO</ns5:ontology_acronm>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UPHENO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009008">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0009008</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025496"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant organ</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&amp;#243rgano vegetal (Spanish, exact), simple plant organ (related), 植物 器官 (Japanese, exact), organ (broad), compound plant organ (related)</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Examples include stem (PO:0009047), leaf (PO:0025034), and root (PO:0009005). May include individual plant cells (PO:0009002) that are not part of a portion of plant tissue (e.g., idioblasts, PO:0000283). A plant organ may have one or more different plant organs as parts, such as a sporophyll (PO:0009026) that may have as part a sporangium (PO:0025094) or a carpel (PO:0009030) that may have as part a plant ovule (PO:0020003).', 'A multi-tissue plant structure (PO:0025496) that is a functional unit, is a proper part of a whole plant (PO:0000003), and includes portions of plant tissue (PO:0009007) of at least two different types that derive from a common developmental path.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025433">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0025433</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009013"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root anlagen</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">precursor de ra&amp;#237 (Spanish, exact), 根原基 (Japanese, exact)</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A portion of meristem tissue (PO:0009013) that is committed to the development of a root primordium (PO:0005029).', 'Only detectable by gene expression, not morphology. May arise in a pericycle (PO:0006203), as for lateral roots in most seed plants, an endodermis (PO:0000252), as for lateral roots in ferns, or from parenchyma cells (PO:0000074) that are part a shoot axis (PO:0025029), in the case of a basal root (PO:0025002) or shoot-borne root (PO:0000042).'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRAK_0000001">
+    <ns4:xref rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entity</rdfs:label>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRAK</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001120">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001120</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000018"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epithelial cell line</rdfs:label>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010371">
+    <ns1:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</ns1:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0010371</ns3:notation>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:69064</ns1:hasDbXref>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epithelium that derives from the ectoderm. Examples: epithelium of acinus of lactiferous duct, subscapular lens epithelium, epithelium of posterior surface of cornea.</ns2:IAO_0000115>
+    <ns1:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ectoderm-derived epithelium</ns1:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000483"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004121"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000006"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ecto-epithelium</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ectoderm-derived epithelium</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Epithelium composed of cells that develops from the ectoderm[FMA,modified].'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UPHENO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HAO_0000003">
+    <ns1:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAO</ns1:hasOBONamespace>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARO:0000003</ns1:hasDbXref>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Material anatomical entity which has inherent 3D shape and is generated by coordinated expression of the organism's own genome.</ns2:IAO_0000115>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anatomical structure</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Material anatomical entity which has inherent 3D shape and is generated by coordinated expression of the organism's own genome.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HAO_0000146">
+    <ns1:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAO</ns1:hasOBONamespace>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The anatomical structure that is delimited by material or immaterial anatomical entities.</ns2:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HAO_0000003"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portion of cuticle</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The anatomical structure of the cuticle that is delimited by material or immaterial anatomical entities.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0000006">
+    <ns1:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sponge</ns1:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARO:0000006</ns3:notation>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical entity that has mass.</ns2:IAO_0000115>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/VHOG_0001721"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TAO_0001836"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material anatomical entity</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An anatomical entity that has mass.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UPHENO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000762">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000762</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000018"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000353"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000297"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung cancer cell line</rdfs:label>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025127">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0025127</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009013"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primordium</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portion of primordium tissue (exact), primordia (exact, plural), 原基（可視的）  (Japanese, exact), portion of primordial tissue (exact), primordio (Spanish, exact)</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A portion of meristem tissue (PO:0009013) that has as parts protoderm (PO:0006210) and sub-epidermal meristematic tissue and is committed to the development of a particular plant structure (PO:0009011).', 'A primordium appears as a protrusion and is the first distinct form of a plant organ (PO:0009008), cardinal organ part (PO:0025001), or collective plant organ structure (PO:0025007). The transition from a primordium to the plant structure it develops into is marked by the development of non-meristematic cells, although meristematic cells may be present after the transition.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025001">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025498"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009008"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardinal organ part</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardinal part of plant organ (exact), parte de un &amp;#243rgano cardinal (Spanish, exact), 基本的な（主要な）器官部 (Japanese, exact)</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Cardinal refers to the fact that these are biologically meaningful and not arbitrary parts. Examples include petiole (PO:0020038), lamina (PO:0025060), and leaflet (PO:0020049). See also collective organ part structure (PO:0025269), for plant structures composed of parts of multiple organs.', 'A cardinal part of multi-tissue plant structure (PO:0025498) that is a proper part of a plant organ (PO:0009008) and includes portions of plant tissue (PO:0009007) of at least two different types.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
+    <ns2:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entity doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. For example Werner Ceusters 'portions of reality' include 4 sorts, entities (as BFO construes them), universals, configurations, and relations. It is an open question as to whether entities as construed in BFO will at some point also include these other portions of reality. See, for example, 'How to track absolutely everything' at http://www.referent-tracking.com/_RTU/papers/CeustersICbookRevised.pdf</ns2:IAO_0000116>
+    <ns2:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO 2 Reference: In all areas of empirical inquiry we encounter general terms of two sorts. First are general terms which refer to universals or types:animaltuberculosissurgical procedurediseaseSecond, are general terms used to refer to groups of entities which instantiate a given universal but do not correspond to the extension of any subuniversal of that universal because there is nothing intrinsic to the entities in question by virtue of which they – and only they – are counted as belonging to the given group. Examples are: animal purchased by the Emperortuberculosis diagnosed on a Wednesdaysurgical procedure performed on a patient from Stockholmperson identified as candidate for clinical trial #2056-555person who is signatory of Form 656-PPVpainting by Leonardo da VinciSuch terms, which represent what are called ‘specializations’ in [81</ns2:IAO_0000116>
+    <ns2:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entity</ns2:IAO_0000111>
+    <ns2:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">your body mass index</ns2:IAO_0000112>
+    <ns2:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verdi’s Requiem</ns2:IAO_0000112>
+    <ns2:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Julius Caesar</ns2:IAO_0000112>
+    <ns2:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the Second World War</ns2:IAO_0000112>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TRAK_0000001"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entity</rdfs:label>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XPO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025496">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0025496</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009011"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multi-tissue plant structure</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">複数の組織からなる植物構造 (Japanese, exact), estructura vegetal con m&amp;#250ltiples tejidos (Spanish, exact)</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Most multi-tissue plant structures have at least a small connection to other plant structures via a fiat boundary, such as where a leaf (PO:0025034) connects to a shoot axis (PO:0025029), a petal (PO:0009032) connects to a receptacle (PO:0009064), or a branch (PO:0025073) connects to a stem (PO:0009047).  Refers to CARO:0000055 multi-tissue structure, def'n: Anatomical structure that has as parts two or more portions of tissue of at least two different types, and which through specific morphogenetic processes, form a single distinct structural unit demarcated by bona-fide boundries from other structural units of differnt types.', 'A plant structure (PO:0009011) that has as parts two or more portions of plant tissue (PO:0009007) of at least two different types and which through specific morphogenetic processes forms a single structural unit demarcated by primarily bona-fide boundaries from other structural units of different types.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005729">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WBbt:0005729</ns3:notation>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tissue</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Association of cells with a common embryological origin or pathway and similar structure and function. Usually, cells of a tissue are contiguous at cell membranes and may be of one or more types. Tissues aggregate to form organs.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UPHENO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0002024">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0002024</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000018"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">squamous cell carcinoma cell line</rdfs:label>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000465">
+    <ns4:xref rdf:resource="http://purl.obolibrary.org/obo/CARO_0000006"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/VHOG_0001721"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TAO_0001836"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CARO_0000006"/>
+    <ns1:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</ns1:hasOBONamespace>
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000465</ns3:notation>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0001721</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA2:0003006</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO:0001836</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGMA:0001826</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AEO:0000006</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAO:0000006</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:67165</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0010264</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BILA:0000006</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARO:0000006</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbt:00007016</ns1:hasDbXref>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical entity that has mass.</ns2:IAO_0000115>
+    <ns1:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/uberon#upper_level</ns1:inSubset>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material anatomical entity</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Anatomical entity that has mass.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XPO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000740">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000740</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000018"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000737"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myeloid leukemia cell line</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A cell line of leukemia characterized by proliferation of myeloid tissue (as of the bone marrow and spleen) and an abnormal increase in the number of granulocytes, myelocytes, and myeloblasts in the circulating blood.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000551">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000551</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000018"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung cancer cell</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Cancer cell of the major organ of respiration the lung.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0000016">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0000016</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009005"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0005029"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lateral root primordium</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primordio de ra&amp;#237z lateral (Spanish, exact), 側根原基 (Japanese, exact), portion of lateral root primordium tissue (exact)</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A lateral root primordium may arise from cells of a pericycle (PO:0006203) in a root, as in most seed plants (pericyclic lateral root primordium; PO:0025492), or from cells of an endodermis (PO:0000252) or other tissue in ferns and some seed plants (non-pericyclic lateral root primordium: PO:0025493). Transition from lateral root primordium to lateral root occurs with the formation of a root cap (PO:0020123), shortly after the development of a root apical meristem (PO:0020147), which can occur before the lateral root penetrates the exterior of the parent root.', 'A root primordium (PO:0005029) that is part of a root (PO:0009005) and is committed to the development of a lateral root (PO:0020121).'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000711">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000711</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000018"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0001531"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glioma cell line</rdfs:label>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000255">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000255</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000018"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brain cell line</rdfs:label>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000977">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000977</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000018"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovary cell line</rdfs:label>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010000">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicellular anatomical structure</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicellular structure</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An anatomical structure that has more than one cell as a part.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XPO</ns5:ontology_acronm>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UPHENO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001035">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001035</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000018"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hematopoietic cell line</rdfs:label>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRAK_0000409">
+    <ns4:xref rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">continuant</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endurant</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRAK</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#FunctionalProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025007">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0025007</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025497"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">collective plant organ structure</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">estructura vegetal colectiva de &amp;#243rgano (Spanish, exact), 集合植物器官構造 (Japanese, exact)</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A collective plant structure (PO:0025497) that is a proper part of a whole plant (PO:0000003), and is composed of two or more adjacent plant organs (PO:0009008) and the associated portions of plant tissue (PO:0009007).', 'Organs can be of the same type or different types. Examples include flower (PO:0009046), perianth (PO:0009058), and inflorescence (PO:0009049). See also collective organ part structure (PO:0025269), for plant structures composed of parts of multiple organs, but no complete plant organs. This was formerly named collective plant structure.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025131">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0025131</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant anatomical entity</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">植物 解剖学（形態）的実体 (Japanese, exact), entidad anat&amp;#243mica vegetal (Spanish, exact)</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An anatomical entity that is or was part of a plant.', 'Includes both material entities such as plant structures and immaterial entities such as plant anatomical spaces. CARO:0000000 'anatomical entity' is defined as: A part of a cellular organism that is either an immaterial entity or a material entity with granularity aboove the level of a protein complex.  Or, a substance produced by a cellular organism with granularity above the level of a protein complex.  Refers to BFO:0000004 'independent continuant'.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0002632">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0002632</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000018"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">larval cell line</rdfs:label>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000634">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000634</ns3:notation>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002199"/>
+    <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000018"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">integument</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Something that covers or encloses; especially: an enveloping layer (as a skin, membrane, or husk) of an organism or one of its parts.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#ReflexiveProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001481">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001481</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">viridiplantae, plantae, Pflanze</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Any of a kingdom (Plantae) of living things typically lacking locomotive movement or obvious nervous or sensory organs and possessing cellulose cell walls.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#SymmetricProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002199">
+    <ns4:xref rdf:resource="http://purl.obolibrary.org/obo/BTO_0000634"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/BTO_0000634"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">integument</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dermal system, dermis plus epidermis plus hypodermis, skin plus hypodermis, skin, integumentum commune, the integument, tegument, dermoid system, skin and subcutaneous tissue, vertebrate integument</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The dermis, epidermis and hypodermis.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/SP_0001000">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Solanaceae phenotype ontology</rdfs:label>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SPTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00000018">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRENDA tissues and cell lines</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An umbrella term created for tissues and cell lines imported from BRENDA ontology.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0002580">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0002580</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000018"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000740"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chronic myeloid leukemia cell line</rdfs:label>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000886">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000886</ns3:notation>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000344"/>
+    <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000018"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000634"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mucosa</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A membrane lining all body passages that communicate with the air, such as the respiratory and alimentary tracts, and having cells and associated glands that secrete mucus.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009011">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0009011</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025131"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant structure</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">estructura vegetal (Spanish, exact), 植物 構造 (Japanese, exact)</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''Part' includes both proper parts and the whole plant. CARO:0000003 'connected anatomical structure' is defined as: Material anatomical entity that is a single connected structure with inherent 3D shape, generated by coordinated expression of the organism's own genome.', 'A plant anatomical entity (PO:0025131) that is, or was, part of a plant, or was derived from a part of a plant.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#AnnotationProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001531">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001531</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000018"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000255"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glial cell line</rdfs:label>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000583">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000583</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000018"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone marrow cancer cell</rdfs:label>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000932">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000932</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000018"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuroblastoma cell line</rdfs:label>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTO</ns5:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009005">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0009005</ns3:notation>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/PO_0025025"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0005029"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025025"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root</rdfs:label>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">根 (Japanese, exact), aerial root (narrow), radices (exact, plural), ra&amp;#237z (Spanish, exact), radix (exact), climbing root (narrow)</ns5:synonym>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Roots function in the absorption of water and inorganic nutrients, anchoring the plant body to the substrate and supporting it, storage of food and nutrients, and vegetative reproduction. The roots of most vascular plant species enter into symbiosis with soil-borne microorganisms. Roots are usually positively geotropic and found underground, although there are many exceptions such as the aerial roots of orchids. Roots often form secondary thickening from the root lateral meristem (PO:0006308). Commonly thought of as one of the three basic parts of the plant body, along with the shoot axis (PO:0025029) and leaves (PO:0025034).', 'A plant axis (PO:0025004) that lacks shoot axis nodes (PO:0005004) and usually grows indeterminately.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO</ns5:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000020">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">specifically dependent continuant</rdfs:label>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same.'</ns5:definition>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UPHENO</ns5:ontology_acronm>
+  </rdf:Description>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000899">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000899</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000583"/>
+    <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000018"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myeloma cell line</rdfs:label>
+    <ns5:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTO</ns5:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#TransitiveProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#DatatypeProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+</rdf:RDF>

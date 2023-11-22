@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000052">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000048"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">employment advice service</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000023">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000021"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">loss of work</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000014">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000011"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">volunteering service</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000018">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000006"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">creative arts class</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000045">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000037"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">luncheon club</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000027">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000026"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">addiction</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000050">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000048"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">financial advice service</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000024">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000020"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lack of self-esteem</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000044">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000037"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">book club</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000039">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000010"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">community transport</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000030">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000029"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obesity</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000015">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000010"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">befriending service</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000043">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000005"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-team excercise provider</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000041">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000010"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">support around disability</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000022">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000021"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bereavement</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000025">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000020"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stress</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000049">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000048"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relationship advice service</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000016">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000053"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gardening club</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000031">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetic vulnarebility</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000032">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000021"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relationship issue</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000001">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social prescription</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000028">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disability</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000051">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000048"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">legal advice service</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000054">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000010"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peer support group</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000042">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000005"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sports club</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000017">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000006"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cooking class</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000038">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000037"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">day club</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000003">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social prescription recipient</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000036">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000010"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carer support</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000034">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000020"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">life satisfaction</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000007">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000008"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">be mindful service</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000013">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000021"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">living alone</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000033">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000020"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anxiety</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000010">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000009"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social connect service</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000019">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000012"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological characteristic</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000059">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">direct wellbeing service</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000002">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social prescription service</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000037">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000010"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">community centre activity</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000026">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exposure</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000021">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000012"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social characteristic</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000029">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">physical health</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000006">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000008"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">keep learning service</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000060">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indirect wellbeing service</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000053">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000010"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eco-therapy</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000000">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social prescribing entity</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000020">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000012"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">psychological characteristic</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000012">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social prescription recipient characteristic</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000008">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000059"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">service to make you feel good</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000009">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000059"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">service to assist you function well</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000005">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000008"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">be active service</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000048">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000060"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information support and advice service</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/social-prescribing#mdo000011">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/social-prescribing#mdo000009"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">give to others service</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOCPRES</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

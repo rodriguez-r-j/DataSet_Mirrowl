@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns1="http://purl.obolibrary.org/obo/"
+  xmlns:ns2="http://ontology.test.es/comment#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="https://w3id.org/timebank#ClothesWashing">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#Cleaning"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clothes Washing</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The skill to assist with washing clothes.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/timebank#Cats">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#Pets"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cats</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Indicates that cats might be present.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor preferred label</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor_preferred_term</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor preferred term</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#hasInvestigatorRole">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">investigator on</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#orcidId">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID id</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="https://w3id.org/timebank#AddressPart">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Address Part</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An address part indicates part of an address like region, city, etc. If two places share the same address part, they also share the same environmental factors.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#adviseeIn">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">advisee in</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="https://w3id.org/timebank#Catering">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#FoodService"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Catering</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The skill to assist with catering requirements.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:FunctionalProperty rdf:about="http://xmlns.com/foaf/0.1/firstName">
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#DatatypeProperty">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">firstName</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:FunctionalProperty>
+  <owl:Class rdf:about="https://w3id.org/timebank#ElectronicRepair">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#Repair"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Electronic Repair</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The skill to repair electronic devices.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2006/time#ProperInterval">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProperInterval</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/workInfoHomepage">
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#ObjectProperty">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">work info homepage</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Property>
+  <owl:Class rdf:about="https://w3id.org/timebank#Carpeting">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#WoodCrafting"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carpenting</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The skill to do carpenting.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/timebank#DancingCompanion">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#Recreation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dancing Companion</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The ability to act as a dancing companion.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/geekcode">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geekcode</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Property>
+  <owl:FunctionalProperty rdf:about="http://vivoweb.org/ontology/core#researchOverview">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">research overview</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:FunctionalProperty>
+  <owl:Class rdf:about="http://www.w3.org/2006/time#DurationDescription">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DurationDescription</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/plan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plan</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Property>
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#hasPrincipalInvestigatorRole">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">principal investigator on</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="https://w3id.org/timebank#ComputerProcessing">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#OfficeWork"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computer Processing</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The skill to assist with processing data computers.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/timebank#CognitiveImpairment">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#MentalDisorder"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cognitive Impairment</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A person with cognitive impairment can't think and remember things clearly.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#credentialOf">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">credential of</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ERO_0001047">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is_contact_for</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#co-PrincipalInvestigatorRoleOf">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">co-principal investigator role of</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/publications">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publications</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Property>
+  <owl:FunctionalProperty rdf:about="http://vivoweb.org/ontology/core#middleName">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">middle name or initial</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:FunctionalProperty>
+  <owl:Class rdf:about="https://w3id.org/timebank#DrivingTractors">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#DrivingHeavyVehicles"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Driving Tractors</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Experience in driving tractors.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#hasServiceProviderRole">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">service to the profession</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://rdf.geospecies.org/ont/gsontology#specimenIdentifier">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">specimenIdentifier</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ERO_0000033">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_expertise</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="https://w3id.org/timebank#DressingAssistance">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#PersonalService"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dressing Assistance</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The skill to assist someone with dressing.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <rdf:Property rdf:about="http://usefulinc.com/ns/doap#helper">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">貢献者</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://usefulinc.com/ns/doap#tester">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">testeur</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Property>
+  <owl:Class rdf:about="https://w3id.org/timebank#EventPlanning">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#Recreation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Event Planning</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The skill to assist in planning and hosting events.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2006/time#DayOfWeek">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DayOfWeek</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/ERO_0000042">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">first_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:DatatypeProperty>
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#educationalTrainingOf">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">education or training of</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="https://w3id.org/timebank#AutomobileRepair">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#Repair"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Automobile Repair</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The skill to repair automobiles.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/timebank#Dogs">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#Pets"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dogs</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Indicates that dogs might be present.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#researcherId">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISI researcher id</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:DatatypeProperty>
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#serviceProviderRoleOf">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">service provider role of</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="https://w3id.org/timebank#DrivingWithTrailers">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#DrivingHeavyVehicles"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Driving with Trailers</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Experience in driving with trailers.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/workplaceHomepage">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">workplace homepage</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/pastProject">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">past project</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Property>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ERO_0000232">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_author</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="https://w3id.org/timebank#Cooking">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#FoodService"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooking</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The skill to assist with cooking in general.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/timebank#EnvironmentalAllergy">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#Allergy"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Environmental Allergy</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An allergy to something in the environment such as dust mites, pollen, pet hair and cigarette smoke.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <rdf:Property rdf:about="http://usefulinc.com/ns/doap#maintainer">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">desarrollador principal</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Property>
+  <owl:Class rdf:about="https://w3id.org/timebank#AccessibleByPublicTransport">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#Accessibility"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Accessible by Public Transport</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The location is accessible by public transport.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definiton_editor</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">term editor</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition editor</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ERO_0000596">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_director</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="https://w3id.org/timebank#Dishwashing">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#FoodService"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dishwashing</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The skill to assist with washing dishes.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/surname">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surname</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Property>
+  <owl:Class rdf:about="https://w3id.org/timebank#EggAllergy">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#FoodAllergy"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg Allergy</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Allergy to eggs.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#advisorIn">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">advisees</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#positionForPerson">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">position for person</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <owl:FunctionalProperty rdf:about="http://vivoweb.org/ontology/core#teachingOverview">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">teaching overview</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:FunctionalProperty>
+  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/schoolHomepage">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schoolHomepage</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Property>
+  <owl:FunctionalProperty rdf:about="http://xmlns.com/foaf/0.1/lastName">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">last name</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:FunctionalProperty>
+  <owl:Class rdf:about="https://w3id.org/timebank#Assembling">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#Crafting"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Assembling</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The skill to assemble items like furniture and other things.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/familyName">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">familyName</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/knows">
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">knows</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Property>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ERO_0000021">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_contact</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alternative term</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="https://w3id.org/timebank#ComputerRepair">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#Repair"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computer Repair</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The skill to fix problems with computers.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/ERO_0000052">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">title</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:DatatypeProperty>
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#editorOf">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor of </rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#personInPosition">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positions</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="https://w3id.org/timebank#ChildCare">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#PeopleCare"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Child Care</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The skill to provide care for children.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/timebank#Depression">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#MentalDisorder"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Depression</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A person with depression has a depressed mood over a long period and may even have thoughts of suicide.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/timebank#Diabetes">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#CommonDisease"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diabetes Mellitus</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A disorder characterized by high blood sugar levels during a long period.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#advisor">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">advisor</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#hasEditorRole">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">collection or series editor for</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#researcherRoleOf">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">researcher role of</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="https://w3id.org/timebank#ClimbingStairsDifficulty">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#MobilityProblem"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty in Climbing Stairs</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The person has difficulty in climbing up stairs.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.org/ontology/bibo/editor">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/myersBriggs">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myersBriggs</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Property>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ERO_0000022">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_PI</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#hasResearcherRole">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">research activities</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ERO_0000024">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is_member_of</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="https://w3id.org/timebank#Baking">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#FoodService"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The skill to assist with baking.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/currentProject">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">current project</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://usefulinc.com/ns/doap#developer">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">developer</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Property>
+  <owl:Class rdf:about="https://w3id.org/timebank#DrivingVans">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#DrivingLightVehicles"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Driving Vans</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Experience in driving vans.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:FunctionalProperty rdf:about="http://vivoweb.org/ontology/core#outreachOverview">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">outreach overview</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:FunctionalProperty>
+  <owl:Class rdf:about="https://w3id.org/timebank#DrivingCars">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#DrivingLightVehicles"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Driving Cars</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Experience in driving cars.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/ERO_0000049">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">last_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#eRACommonsId">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eRA Commons id</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:DatatypeProperty>
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#reviewerRoleOf">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reviewer role of</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <owl:FunctionalProperty rdf:about="http://purl.org/ontology/bibo/suffixName">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">name suffix</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:FunctionalProperty>
+  <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#scopusId">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scopus id</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:DatatypeProperty>
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#hasTeacherRole">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">teaching activities</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/img">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">image</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Property>
+  <owl:Class rdf:about="https://w3id.org/timebank#DrugAllergy">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#Allergy"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug Allergy</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An allergy to drugs.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:FunctionalProperty rdf:about="http://purl.org/ontology/bibo/prefixName">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">name prefix</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:FunctionalProperty>
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#advisee">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">advisee</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#editorRoleOf">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor role of</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="https://w3id.org/timebank#Electricity">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#Supplies"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Electricity</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Electric outlet available.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/family_name">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">family_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Property>
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#hasCredential">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">credentials</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <rdf:Property rdf:about="http://usefulinc.com/ns/doap#translator">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">translator</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Property>
+  <owl:FunctionalProperty rdf:about="http://vivoweb.org/ontology/core#preferredTitle">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preferred title</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:FunctionalProperty>
+  <owl:Class rdf:about="https://w3id.org/timebank#CraftingClothes">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#Crafting"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crafting Clothes</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The ability to craft any kind of clothes.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#editor">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#educationalTraining">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">education and training</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#currentlyHeadOf">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">currently head of</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#hasReviewerRole">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reviewer of</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://rdf.geospecies.org/ont/gsontology#specimenCollector">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">specimenCollector</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#principalInvestigatorRoleOf">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">principal investigator role of</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="https://w3id.org/timebank#DrivingTrucks">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#DrivingHeavyVehicles"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Driving Trucks</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Experience in driving with trucks.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ERO_0001598">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">author_of</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="https://w3id.org/timebank#ElderlyCare">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#PeopleCare"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Care for Elderly</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The skill to provide care and support for the elderly.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <rdf:Property rdf:about="http://usefulinc.com/ns/doap#documenter">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">文章制作者</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Property>
+  <owl:Class rdf:about="https://w3id.org/timebank#Counseling">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#Advice"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Counseling</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The skill to advice people on psychological matters.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#hasCo-PrincipalInvestigatorRole">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">co-principal investigator on</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://www.w3.org/2006/time#Instant">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instant</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ERO_0001768">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_member</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="https://w3id.org/timebank#DressingProblem">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#MobilityProblem"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dressing Problem</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The person has difficulties dressing himself.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#currentlyHeadedBy">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">currently headed by</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#investigatorRoleOf">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">investigator role of</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#teacherRoleOf">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">teacher role of</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="https://w3id.org/timebank#Accessibility">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#Environment"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Accessibility</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Describes any revelant information regarding the accessibility of a location of a request.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/timebank#FoodService">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#Skill"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Food Service</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The skill to provide services related to food products.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/timebank#Skill">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Skills define the capabilities of a user. Users and Timebank requests can be associated to a certain skill (or multiple skills) to facilitate the matching of helper and requester.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/timebank#DrivingLightVehicles">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#Transportation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Driving Light Vehicles</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Experience in driving light vehicles.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/timebank#OfficeWork">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#Skill"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Office Work</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The skill to provide help with office related work.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/timebank#Recreation">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#Skill"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recreation</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The skill to provide services related to recreation.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/timebank#Cleaning">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#Maintenance"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cleaning</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The skill to assist with general cleaning tasks.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#FunctionalProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Class">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <ns1:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Melissa Haendel</ns1:IAO_0000117>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ns1:IAO_0000118>
+    <ns1:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">person</ns1:IAO_0000111>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An instance of a human being (Homo sapiens)</ns1:IAO_0000115>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/timebank#Supplies">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#Environment"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Supplies</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Availability of specific supplies to complete a task.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/timebank#PeopleCare">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#Skill"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Care for People</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The skill to provide care for people.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/timebank#Environment">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Environment</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The environment describes relevant environmental factors of a request.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/timebank#PersonalService">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#Skill"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal Service</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Personal services which include hygiene and daily care.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/timebank#Limitation">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Limitation</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Limitations can be anything which prevents or limits the extent to which a user can help somebody else.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/timebank#Repair">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#Skill"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Repair</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The Skill to repair equipment and facilities.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/timebank#Crafting">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#Skill"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crafting</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Crafting skills.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/timebank#CommonDisease">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#Limitation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Common Disease</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A collection of diseases that are common, especially for elderly people'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/timebank#MentalDisorder">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#Limitation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mental Disorder</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Disorders that affect the mental states of a person.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/timebank#WoodCrafting">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#Crafting"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wood Crafting</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Crafting skill with wood as base material.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/timebank#Maintenance">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#Skill"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maintenance</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The skill to help with maintenance of equipment.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/timebank#Advice">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#Skill"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Advice</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Skills to provide particular services which requires some sort of education or training.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/timebank#Pets">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#Environment"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pets</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Indicates that pets might be present.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/timebank#PhysicalInconvenience">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#Limitation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physical Inconvenience</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'This is a collection of physical disorders that negatively affect a person's daily life.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/timebank#Transportation">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#Skill"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TransportationServices</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The skill to provide services related to transportation.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/timebank#DrivingHeavyVehicles">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#Transportation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Driving Heavy Vehicles</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Experience in driving heavy vehicles.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/timebank#FoodAllergy">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#Allergy"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Food Allergy</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An allergy to food such as milk, peanuts, eggs, fish, tree nuts, and fruit.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/timebank#MobilityProblem">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#PhysicalInconvenience"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mobility Problem</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Difficulties with moving around physically such as having difficulties using toliet, dressing, walking and so on.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/timebank#Allergy">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#Limitation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allergy</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A collection of allergies, which is caused by hypersensitivity of the immune system.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIMEBANK</ns2:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

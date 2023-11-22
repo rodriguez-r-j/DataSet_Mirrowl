@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:ns2="http://omv.ontoware.org/2005/05/ontology#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <ns2:OntologySyntax rdf:about="http://omv.ontoware.org/2005/05/ontology#OWL-XML">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OWL-XML</rdfs:label>
+  </ns2:OntologySyntax>
+  <ns2:OntologyLanguage rdf:about="http://omv.ontoware.org/2005/05/ontology#RDF-S">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RDF(S)</rdfs:label>
+  </ns2:OntologyLanguage>
+  <ns2:LicenseModel rdf:about="http://omv.ontoware.org/2005/05/ontology#ApplePublicSourceLicense_APSL">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple Public Source License (APSL)</rdfs:label>
+  </ns2:LicenseModel>
+  <owl:ObjectProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#isIncompatibleWith">
+    <rdfs:range rdf:resource="http://omv.ontoware.org/2005/05/ontology#Ontology"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isIncompatibleWith</rdfs:label>
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Ontology"/>
+  </owl:ObjectProperty>
+  <ns2:LicenseModel rdf:about="http://omv.ontoware.org/2005/05/ontology#AcademicFreeLicense_AFL">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Academic Free License (AFL)</rdfs:label>
+  </ns2:LicenseModel>
+  <owl:DatatypeProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#firstName">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">firstName</rdfs:label>
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Person"/>
+  </owl:DatatypeProperty>
+  <owl:ObjectProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#hasContributor">
+    <rdfs:range rdf:resource="http://omv.ontoware.org/2005/05/ontology#Party"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasContributor</rdfs:label>
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Ontology"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#usedKnowledgeRepresentationParadigm">
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Ontology"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">usedKnowledgeRepresentationParadigm</rdfs:label>
+    <rdfs:range rdf:resource="http://omv.ontoware.org/2005/05/ontology#KnowledgeRepresentationParadigm"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#hasContactPerson">
+    <rdfs:range rdf:resource="http://omv.ontoware.org/2005/05/ontology#Person"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasContactPerson</rdfs:label>
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Organisation"/>
+  </owl:ObjectProperty>
+  <ns2:OntologyTask rdf:about="http://omv.ontoware.org/2005/05/ontology#PersonalizationTask">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PersonalizationTask</rdfs:label>
+  </ns2:OntologyTask>
+  <owl:DatatypeProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#country">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">country</rdfs:label>
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Location"/>
+  </owl:DatatypeProperty>
+  <owl:ObjectProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#developedBy">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">developedBy</rdfs:label>
+    <rdfs:range rdf:resource="http://omv.ontoware.org/2005/05/ontology#Party"/>
+  </owl:ObjectProperty>
+  <ns2:KnowledgeRepresentationParadigm rdf:about="http://protege.stanford.edu/ontologies/metadata/BioPortalMetadata.owl#DAG">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DAG</rdfs:label>
+  </ns2:KnowledgeRepresentationParadigm>
+  <owl:DatatypeProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#numberOfIndividuals">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">numIndividuals</rdfs:label>
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Ontology"/>
+  </owl:DatatypeProperty>
+  <owl:ObjectProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#developesOntologyLanguage">
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Party"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">developesOntologyLanguage</rdfs:label>
+    <rdfs:range rdf:resource="http://omv.ontoware.org/2005/05/ontology#OntologyLanguage"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#isOfType">
+    <rdfs:range rdf:resource="http://omv.ontoware.org/2005/05/ontology#OntologyType"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isOfType</rdfs:label>
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Ontology"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#isLocatedAt">
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Party"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isLocatedAt</rdfs:label>
+    <rdfs:range rdf:resource="http://omv.ontoware.org/2005/05/ontology#Location"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#naturalLanguage">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">naturalLanguage</rdfs:label>
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Ontology"/>
+  </owl:DatatypeProperty>
+  <ns2:FormalityLevel rdf:about="http://omv.ontoware.org/2005/05/ontology#Vocabulary">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vocabulary</rdfs:label>
+  </ns2:FormalityLevel>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <ns2:KnowledgeRepresentationParadigm rdf:about="http://omv.ontoware.org/2005/05/ontology#DescriptionLogics">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Description Logics</rdfs:label>
+  </ns2:KnowledgeRepresentationParadigm>
+  <ns2:FormalityLevel rdf:about="http://omv.ontoware.org/2005/05/ontology#Taxonomy">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taxonomy</rdfs:label>
+  </ns2:FormalityLevel>
+  <owl:DatatypeProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#keywords">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">keywords</rdfs:label>
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Ontology"/>
+  </owl:DatatypeProperty>
+  <ns2:OntologyTask rdf:about="http://omv.ontoware.org/2005/05/ontology#ConfigurationTask">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ConfigurationTask</rdfs:label>
+  </ns2:OntologyTask>
+  <owl:ObjectProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#hasAffiliatedParty">
+    <rdfs:range rdf:resource="http://omv.ontoware.org/2005/05/ontology#Party"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasAffiliatedParty</rdfs:label>
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Party"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#supportsRepresentationParadigm">
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#OntologyLanguage"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">supportsRepresentationParadigm</rdfs:label>
+    <rdfs:range rdf:resource="http://omv.ontoware.org/2005/05/ontology#KnowledgeRepresentationParadigm"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#hasPriorVersion">
+    <rdfs:range rdf:resource="http://omv.ontoware.org/2005/05/ontology#Ontology"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasPriorVersion</rdfs:label>
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Ontology"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#numberOfAxioms">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">numAxioms</rdfs:label>
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Ontology"/>
+  </owl:DatatypeProperty>
+  <owl:ObjectProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#isBackwardCompatibleWith">
+    <rdfs:range rdf:resource="http://omv.ontoware.org/2005/05/ontology#Ontology"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isBackwardCompatibleWith</rdfs:label>
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Ontology"/>
+  </owl:ObjectProperty>
+  <ns2:OntologyLanguage rdf:about="http://omv.ontoware.org/2005/05/ontology#OWL-DL">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OWL-DL</rdfs:label>
+  </ns2:OntologyLanguage>
+  <owl:ObjectProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#hasSyntax">
+    <rdfs:range rdf:resource="http://omv.ontoware.org/2005/05/ontology#OntologySyntax"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasSyntax</rdfs:label>
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#OntologyLanguage"/>
+  </owl:ObjectProperty>
+  <ns2:OntologyLanguage rdf:about="http://omv.ontoware.org/2005/05/ontology#OWL-Full">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OWL-Full</rdfs:label>
+  </ns2:OntologyLanguage>
+  <ns2:OntologyTask rdf:about="http://omv.ontoware.org/2005/05/ontology#AnnotationTask">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AnnotationTask</rdfs:label>
+  </ns2:OntologyTask>
+  <owl:DatatypeProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#phoneNumber">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phoneNumber</rdfs:label>
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Person"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#numberOfClasses">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">numClasses</rdfs:label>
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Ontology"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#version">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">version</rdfs:label>
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Ontology"/>
+  </owl:DatatypeProperty>
+  <owl:ObjectProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#specifiesLicense">
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Party"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">specifiesLicense</rdfs:label>
+    <rdfs:range rdf:resource="http://omv.ontoware.org/2005/05/ontology#LicenseModel"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#specifiesKnowledgeRepresentationParadigm">
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Party"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">specifiesKnowledgeRepresentationParadigm</rdfs:label>
+    <rdfs:range rdf:resource="http://omv.ontoware.org/2005/05/ontology#KnowledgeRepresentationParadigm"/>
+  </owl:ObjectProperty>
+  <ns2:OntologyTask rdf:about="http://omv.ontoware.org/2005/05/ontology#MatchingTask">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MatchingTask</rdfs:label>
+  </ns2:OntologyTask>
+  <owl:ObjectProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#isContactPerson">
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Person"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isContactPerson</rdfs:label>
+    <rdfs:range rdf:resource="http://omv.ontoware.org/2005/05/ontology#Organisation"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#usedOntologyEngineeringTool">
+    <rdfs:range rdf:resource="http://omv.ontoware.org/2005/05/ontology#OntologyEngineeringTool"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">usedOntologyEngineeringTool</rdfs:label>
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Ontology"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#numberOfProperties">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">numProperties</rdfs:label>
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Ontology"/>
+  </owl:DatatypeProperty>
+  <ns2:OntologyLanguage rdf:about="http://protege.stanford.edu/ontologies/metadata/BioPortalMetadata.owl#OBO">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO</rdfs:label>
+  </ns2:OntologyLanguage>
+  <ns2:LicenseModel rdf:about="http://omv.ontoware.org/2005/05/ontology#GeneralPublicLicense_GPL">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Public License (GPL)</rdfs:label>
+  </ns2:LicenseModel>
+  <owl:DatatypeProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#city">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">city</rdfs:label>
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Location"/>
+  </owl:DatatypeProperty>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#developesOntologyEngineeringMethodology">
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Party"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">developesOntologyEngineeringMethodology</rdfs:label>
+    <rdfs:range rdf:resource="http://omv.ontoware.org/2005/05/ontology#OntologyEngineeringMethodology"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#specifiedBy">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">specifiedBy</rdfs:label>
+    <rdfs:range rdf:resource="http://omv.ontoware.org/2005/05/ontology#Party"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#hasOntologySyntax">
+    <rdfs:range rdf:resource="http://omv.ontoware.org/2005/05/ontology#OntologySyntax"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasOntologySyntax</rdfs:label>
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Ontology"/>
+  </owl:ObjectProperty>
+  <ns2:LicenseModel rdf:about="http://omv.ontoware.org/2005/05/ontology#ModifiedBSDLicense_mBSD">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Modified BSD License (mBSD)</rdfs:label>
+  </ns2:LicenseModel>
+  <owl:ObjectProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#definedBy">
+    <rdfs:range rdf:resource="http://omv.ontoware.org/2005/05/ontology#Party"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definedBy</rdfs:label>
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#OntologyType"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#eMail">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eMail</rdfs:label>
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Person"/>
+  </owl:DatatypeProperty>
+  <ns2:LicenseModel rdf:about="http://omv.ontoware.org/2005/05/ontology#OpenSoftwareLicense_OSL">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Open Software License (OSL)</rdfs:label>
+  </ns2:LicenseModel>
+  <owl:DatatypeProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#resourceLocator">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">resourceLocator</rdfs:label>
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Ontology"/>
+  </owl:DatatypeProperty>
+  <owl:ObjectProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#hasCreator">
+    <rdfs:range rdf:resource="http://omv.ontoware.org/2005/05/ontology#Party"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasCreator</rdfs:label>
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Ontology"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#modificationDate">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modificationDate</rdfs:label>
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Ontology"/>
+  </owl:DatatypeProperty>
+  <ns2:OntologyLanguage rdf:about="http://omv.ontoware.org/2005/05/ontology#OWL">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OWL</rdfs:label>
+  </ns2:OntologyLanguage>
+  <owl:ObjectProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#developesOntologyEngineeringTool">
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Party"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">developesOntologyEngineeringTool</rdfs:label>
+    <rdfs:range rdf:resource="http://omv.ontoware.org/2005/05/ontology#OntologyEngineeringTool"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#createsOntology">
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Party"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">createsOntology</rdfs:label>
+    <rdfs:range rdf:resource="http://omv.ontoware.org/2005/05/ontology#Ontology"/>
+  </owl:ObjectProperty>
+  <ns2:OntologyLanguage rdf:about="http://protege.stanford.edu/ontologies/metadata/BioPortalMetadata.owl#RRF">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RRF</rdfs:label>
+  </ns2:OntologyLanguage>
+  <ns2:OntologyTask rdf:about="http://omv.ontoware.org/2005/05/ontology#QueryRewritingTask">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">QueryRewritingTask</rdfs:label>
+  </ns2:OntologyTask>
+  <ns2:LicenseModel rdf:about="http://omv.ontoware.org/2005/05/ontology#LesserGeneralPublicLicense_LGPL">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lesser General Public License (LGPL)</rdfs:label>
+  </ns2:LicenseModel>
+  <owl:DatatypeProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#street">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">street</rdfs:label>
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Location"/>
+  </owl:DatatypeProperty>
+  <ns2:OntologyTask rdf:about="http://omv.ontoware.org/2005/05/ontology#FilteringTask">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FilteringTask</rdfs:label>
+  </ns2:OntologyTask>
+  <owl:ObjectProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#useImports">
+    <rdfs:range rdf:resource="http://omv.ontoware.org/2005/05/ontology#Ontology"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">useImports</rdfs:label>
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Ontology"/>
+  </owl:ObjectProperty>
+  <ns2:FormalityLevel rdf:about="http://omv.ontoware.org/2005/05/ontology#Schema">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schema</rdfs:label>
+  </ns2:FormalityLevel>
+  <ns2:OntologyTask rdf:about="http://omv.ontoware.org/2005/05/ontology#SearchTask">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SearchTask</rdfs:label>
+  </ns2:OntologyTask>
+  <owl:ObjectProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#hasFormalityLevel">
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Ontology"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasFormalityLevel</rdfs:label>
+    <rdfs:range rdf:resource="http://omv.ontoware.org/2005/05/ontology#FormalityLevel"/>
+  </owl:ObjectProperty>
+  <ns2:FormalityLevel rdf:about="http://omv.ontoware.org/2005/05/ontology#Terminology">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Terminology</rdfs:label>
+  </ns2:FormalityLevel>
+  <ns2:OntologySyntax rdf:about="http://omv.ontoware.org/2005/05/ontology#RDF-XML">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RDF/XML</rdfs:label>
+  </ns2:OntologySyntax>
+  <ns2:OntologyTask rdf:about="http://omv.ontoware.org/2005/05/ontology#IntegrationTask">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IntegrationTask</rdfs:label>
+  </ns2:OntologyTask>
+  <owl:DatatypeProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#status">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">status</rdfs:label>
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Ontology"/>
+  </owl:DatatypeProperty>
+  <owl:ObjectProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#developesOntologySyntax">
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Party"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">developesOntologySyntax</rdfs:label>
+    <rdfs:range rdf:resource="http://omv.ontoware.org/2005/05/ontology#OntologySyntax"/>
+  </owl:ObjectProperty>
+  <ns2:OntologyTask rdf:about="http://omv.ontoware.org/2005/05/ontology#IndexingTask">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IndexingTask</rdfs:label>
+  </ns2:OntologyTask>
+  <owl:DatatypeProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#creationDate">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">creationDate</rdfs:label>
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Ontology"/>
+  </owl:DatatypeProperty>
+  <owl:ObjectProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#hasLicense">
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Ontology"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasLicense</rdfs:label>
+    <rdfs:range rdf:resource="http://omv.ontoware.org/2005/05/ontology#LicenseModel"/>
+  </owl:ObjectProperty>
+  <ns2:OntologyLanguage rdf:about="http://protege.stanford.edu/ontologies/metadata/BioPortalMetadata.owl#LexGrid-XML">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LexGrid-XML</rdfs:label>
+  </ns2:OntologyLanguage>
+  <ns2:OntologyLanguage rdf:about="http://omv.ontoware.org/2005/05/ontology#OWL-Lite">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OWL-Lite</rdfs:label>
+  </ns2:OntologyLanguage>
+  <owl:ObjectProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#hasDomain">
+    <rdfs:range rdf:resource="http://omv.ontoware.org/2005/05/ontology#OntologyDomain"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domain</rdfs:label>
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Ontology"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#usedOntologyEngineeringMethodology">
+    <rdfs:range rdf:resource="http://omv.ontoware.org/2005/05/ontology#OntologyEngineeringMethodology"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">usedOntologyEngineeringMethodology</rdfs:label>
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Ontology"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#state">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">state</rdfs:label>
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Location"/>
+  </owl:DatatypeProperty>
+  <owl:ObjectProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#hasOntologyLanguage">
+    <rdfs:range rdf:resource="http://omv.ontoware.org/2005/05/ontology#OntologyLanguage"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasOntologyLanguage</rdfs:label>
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Ontology"/>
+  </owl:ObjectProperty>
+  <ns2:OntologyLanguage rdf:about="http://protege.stanford.edu/ontologies/metadata/BioPortalMetadata.owl#Protege-Frames">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protege-Frames</rdfs:label>
+  </ns2:OntologyLanguage>
+  <ns2:KnowledgeRepresentationParadigm rdf:about="http://omv.ontoware.org/2005/05/ontology#Frames">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frames</rdfs:label>
+  </ns2:KnowledgeRepresentationParadigm>
+  <ns2:OntologyLanguage rdf:about="http://omv.ontoware.org/2005/05/ontology#DAML-OIL">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DAML-OIL</rdfs:label>
+  </ns2:OntologyLanguage>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#designedForOntologyTask">
+    <rdfs:range rdf:resource="http://omv.ontoware.org/2005/05/ontology#OntologyTask"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">designedForOntologyTask</rdfs:label>
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Ontology"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#definesOntologyType">
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Party"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definesOntologyType</rdfs:label>
+    <rdfs:range rdf:resource="http://omv.ontoware.org/2005/05/ontology#OntologyType"/>
+  </owl:ObjectProperty>
+  <ns2:FormalityLevel rdf:about="http://omv.ontoware.org/2005/05/ontology#Thesaurus">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</rdfs:label>
+  </ns2:FormalityLevel>
+  <ns2:OntologyType rdf:about="http://omv.ontoware.org/2005/05/ontology#UpperLevelOntology">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Upper Level Ontology</rdfs:label>
+  </ns2:OntologyType>
+  <ns2:LicenseModel rdf:about="http://omv.ontoware.org/2005/05/ontology#INTELOpenSourceLicenseINTEL_OSL">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INTEL Open Source License (INTEL OSL)</rdfs:label>
+  </ns2:LicenseModel>
+  <owl:DatatypeProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#faxNumber">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">faxNumber</rdfs:label>
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Person"/>
+  </owl:DatatypeProperty>
+  <ns2:LicenseModel rdf:about="http://omv.ontoware.org/2005/05/ontology#CommonPublicLicense_CPL">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Common Public License (CPL)</rdfs:label>
+  </ns2:LicenseModel>
+  <ns2:OntologyTask rdf:about="http://omv.ontoware.org/2005/05/ontology#QueryFormulationTask">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">QueryFormulationTask</rdfs:label>
+  </ns2:OntologyTask>
+  <ns2:OntologyType rdf:about="http://omv.ontoware.org/2005/05/ontology#CoreOntology">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Core Ontology</rdfs:label>
+  </ns2:OntologyType>
+  <ns2:OntologyType rdf:about="http://omv.ontoware.org/2005/05/ontology#ApplicationOntology">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Application Ontology</rdfs:label>
+  </ns2:OntologyType>
+  <ns2:OntologyTask rdf:about="http://omv.ontoware.org/2005/05/ontology#MediationTask">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MediationTask</rdfs:label>
+  </ns2:OntologyTask>
+  <ns2:OntologyType rdf:about="http://omv.ontoware.org/2005/05/ontology#TaskOntology">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Task Ontology</rdfs:label>
+  </ns2:OntologyType>
+  <ns2:OntologyType rdf:about="http://omv.ontoware.org/2005/05/ontology#DomainOntology">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Domain Ontology</rdfs:label>
+  </ns2:OntologyType>
+  <ns2:OntologyEngineeringTool rdf:about="http://protege.stanford.edu/ontologies/metadata/BioPortalMetadata.owl#Protege">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protégé</rdfs:label>
+  </ns2:OntologyEngineeringTool>
+  <owl:ObjectProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#contributesToOntology">
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Party"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contributesToOntology</rdfs:label>
+    <rdfs:range rdf:resource="http://omv.ontoware.org/2005/05/ontology#Ontology"/>
+  </owl:ObjectProperty>
+  <ns2:OntologyEngineeringTool rdf:about="http://protege.stanford.edu/ontologies/metadata/BioPortalMetadata.owl#OBOEdit">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO-Edit</rdfs:label>
+  </ns2:OntologyEngineeringTool>
+  <owl:DatatypeProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#lastName">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lastName</rdfs:label>
+    <rdfs:domain rdf:resource="http://omv.ontoware.org/2005/05/ontology#Person"/>
+  </owl:DatatypeProperty>
+  <ns2:LicenseModel rdf:about="http://omv.ontoware.org/2005/05/ontology#IBMPublicLicenseIBM_PL">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IBM Public License (IBM PL)</rdfs:label>
+  </ns2:LicenseModel>
+  <owl:Class rdf:about="http://omv.ontoware.org/2005/05/ontology#OntologyLanguage">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OntologyLanguage</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Information about the language in which the ontology is implemented'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://omv.ontoware.org/2005/05/ontology#OntologyEngineeringTool">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OntologyEngineeringTool</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A tool used to create the ontology'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMV</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#DatatypeProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="http://omv.ontoware.org/2005/05/ontology#OntologyTask">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OntologyTask</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Information about the task the ontology was intended to be used for'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://omv.ontoware.org/2005/05/ontology#OntologyEngineeringMethodology">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OntologyEngineeringMethodology</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Information about the ontology engineering methodology'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://omv.ontoware.org/2005/05/ontology#FormalityLevel">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FormalityLevel</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The level of formality of an ontology'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://omv.ontoware.org/2005/05/ontology#OntologySyntax">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OntologySyntax</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Information about the syntax used in an Ontology'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://omv.ontoware.org/2005/05/ontology#Organisation">
+    <rdfs:subClassOf rdf:resource="http://omv.ontoware.org/2005/05/ontology#Party"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organisation</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An organisation of some kind. Represents social institutions such as universities, companies, societies etc.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://omv.ontoware.org/2005/05/ontology#LicenseModel">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LicenseModel</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A license model describing the usage conditions for an ontology'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://omv.ontoware.org/2005/05/ontology#Location">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Location</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The geographical location of a party. To keep things simple we use only DatatypeProperties instead of introducing classes for country, street, etc.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://omv.ontoware.org/2005/05/ontology#OntologyDomain">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OntologyDomain</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'While the domain can refer to any topic ontology it is advised to use one of the established general purpose topic hierarchy like DMOZ or domain specific topic hierarchy like ACM for the computer science domain.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://omv.ontoware.org/2005/05/ontology#Person">
+    <rdfs:subClassOf rdf:resource="http://omv.ontoware.org/2005/05/ontology#Party"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A named individual. Represents an individual responsible for the creation, or contribution to an ontology'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://omv.ontoware.org/2005/05/ontology#Party">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Party</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A party is a person or an organisation'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://omv.ontoware.org/2005/05/ontology#OntologyType">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OntologyType</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'This class subsumes types of ontologies according to well-known classifications in the
+Ontology Engineering literature.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://omv.ontoware.org/2005/05/ontology#Ontology">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ontology</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Aspects of specific realizations are covered modular (and extendable) by the class Ontology.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://omv.ontoware.org/2005/05/ontology#KnowledgeRepresentationParadigm">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KnowledgeRepresentationParadigm</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Information about a knowledge representation paradigm a particular language adheres to'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMV</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#ObjectProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

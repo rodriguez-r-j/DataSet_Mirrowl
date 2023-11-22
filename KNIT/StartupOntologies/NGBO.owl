@@ -1,0 +1,1671 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:ns1="http://purl.obolibrary.org/obo/"
+  xmlns:ns2="http://www.geneontology.org/formats/oboInOwl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns3="http://ontology.test.es/comment#"
+  xmlns:ns4="http://www.w3.org/2004/02/skos/core#"
+  xmlns:ns5="http://www.geneontology.org/formats/oboInOWL#"
+>
+  <owl:TransitiveProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000187">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has continuant part at all times that part exists</rdfs:label>
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#ObjectProperty">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:TransitiveProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000124">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has location at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000873">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000873</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A splenic macrophage found in the areas surrounding the white pulp of the spleen, adjacent to the marginal sinus. Markers include F4/80-negative, Dectin2-low, sialoadhesin-positive.</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000871"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">splenic metallophillic macrophage</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000948">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000948</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A class switched memory B cell that expresses IgE on the cell surface.</ns1:IAO_0000115>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory IgE B cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory IgE B lymphocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory IgE B-lymphocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgE memory B-cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory IgE B-cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgE memory B-lymphocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgE memory B lymphocyte</ns2:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000972"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgE memory B cell</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:TransitiveProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001000">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">derives from</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:TransitiveProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000178">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has continuant part at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000171">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">located in at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000881">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000881</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A central nervous system macrophage found in small blood vessels in the brain. Markers include CD14+CD16+CD163+.</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000878"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">perivascular macrophage</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000890">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000890</ns4:notation>
+    <ns2:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M2 macrophage</ns2:hasRelatedSynonym>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An elicited macrophage characterized by low production of pro-inflammatory and Th1 polarizing cytokines and high expression of arginase-1, and associated with tissue remodelling.</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000861"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alternatively activated macrophage</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TAO_0009354">
+    <ns5:xref rdf:resource="http://purl.obolibrary.org/obo/CL_0000837"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TAO_0009014"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hematopoietic progenitor cell</rdfs:label>
+    <ns3:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hemopoietic progenitor cell</ns3:synonym>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A progenitor cell of any hematopoietic lineage, potentially multipotent.', 'Note that this is a class of cell types, not an identified single cell type.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000875">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000875</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subset of monocytes characterized by low expression of CCR2, low responsiveness to monocyte chemoattractant CCL2/MCP1, low phagocytic activity, but increased co-stimulatory activity. May also play a role in tissue repair.</ns1:IAO_0000115>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">resident monocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">patrolling monocyte</ns2:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000576"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-classical monocyte</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000738">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000738</ns4:notation>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000751</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:62852</ns2:hasDbXref>
+    <ns1:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</ns1:IAO_0000119>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An achromatic cell of the myeloid or lymphoid lineages capable of ameboid movement, found in blood or other tissue.</ns1:IAO_0000115>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nucleated cell of the myeloid or lymphoid lineages, found in blood or other tissue.</ns1:IAO_0000115>
+    <ns2:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IDOMAL:0000715</ns2:hasAlternativeId>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immune cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">white blood cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leucocyte</ns2:hasExactSynonym>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TAO_0009309"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/ZFA_0009309"/>
+    <ns5:xref rdf:resource="http://purl.obolibrary.org/obo/CL_0000738"/>
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000324"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leukocyte</rdfs:label>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A nucleated cell of the myeloid or lymphoid lineages, found in blood or other tissue.', 'Any of the blood cells that are colorless, lack hemoglobin, contain a nucleus, and include the lymphocytes, monocytes, neutrophils, eosinophils, and basophils.', 'An achromatic cell of the myeloid or lymphoid lineages capable of ameboid movement, found in blood or other tissue.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition source</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition_source</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000967">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000967</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A memory B cell arising in the germinal center that is IgD-negative and has undergone somatic mutation of the variable region of the immunoglobulin heavy and light chain genes.</ns1:IAO_0000115>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bm5 B lymphocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bm5 B-cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bm5 B-lymphocyte</ns2:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000787"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bm5 B cell</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000066">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">occurs in</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:FunctionalProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000185">
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#InverseFunctionalProperty">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has history</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+  </owl:FunctionalProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000108">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exists at</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000944">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000944</ns4:notation>
+    <ns2:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B effector cell type 2</ns2:hasRelatedSynonym>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Be cell that facilitates development of T-helper 2 (Th2) phenotype T cells, and secretes high levels of interleukin-2, interleukin-10, interleukin-4, and interleukin-6.</ns1:IAO_0000115>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B effector 2 cell</ns2:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000968"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Be2 cell</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002204">
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene product of</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:FunctionalProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000184">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">history of</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+  </owl:FunctionalProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000963">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000963</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A germinal center B cell that develops from a Bm3 B cell. This cell has the phenotype IgM-negative, IgD-positive, and CD38-positive.</ns1:IAO_0000115>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bm3-delta B-lymphocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bm3-delta B-cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bm3-delta B lymphocyte</ns2:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000844"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bm3-delta B cell</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000876">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000876</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A splenic macrophage found in the white pulp of the spleen. Markers include F4/80-negative, CD68-positive, and macrosialin-positive.</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000871"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">splenic white pulp macrophage</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000943">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000943</ns4:notation>
+    <ns2:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B effector cell type 1</ns2:hasRelatedSynonym>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Be cell that facilitates development of T-helper 1 (Th1) phenotype in CD4-positive T cells, and secretes high levels of interleukin-2, tumor necrosis factor-alpha and interferon-gamma.</ns1:IAO_0000115>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B effector 1 cell</ns2:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000968"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Be1 Cell</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000961">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000961</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A follicular B cell that is IgD-positive, CD23-negative, and CD38-negative. This naive cell type is activated in the extrafollicular areas through interaction with interdigitating dendritic cells and antigen-specific CD4-positive T cells.</ns1:IAO_0000115>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bm1 B-cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bm1 B-lymphocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bm1 B lymphocyte</ns2:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000843"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bm1 B cell</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://purl.org/obo/owl/CL#CL_0000542">
+    <ns4:broader rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000324"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphocyte</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </owl:NamedIndividual>
+  <owl:FunctionalProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000052">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inheres in at all times</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:FunctionalProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000978">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000978</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A short lived plasma cell that secretes IgM.</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000975"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgM short lived plasma cell</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#bearer_of">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bearer_of</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000874">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000874</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A splenic macrophage found in the red-pulp of the spleen, and involved in immune responses to blood-borne pathogens and in the clearance of senescent erythrocytes. Markers include F4/80-positive, CD68-positive, MR-positive, Dectin2-positive, macrosialin-positive, and sialoadhesin-low.</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000871"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">splenic red pulp macrophage</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000880">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000880</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A central nervous system macrophage found at the interface between the blood and the cerebrospinal fluid in the brain. This cell expresses scavenger receptors.</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000878"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">choroid-plexus macrophage</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000886">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000886</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mucosa-associated lymphoid tissue macrophage found in the nasal and bronchial mucosa-associated lymphoid tissues.</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000884"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nasal and broncial associated lymphoid tissue macrophage</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000973">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000973</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A class switched memory B cell that expresses IgA.</ns1:IAO_0000115>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgA memory B lymphocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory IgA B-cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgA memory B-lymphocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgA memory B-cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory IgA B cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory IgA B lymphocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory IgA B-lymphocyte</ns2:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000972"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgA memory B cell</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0003000">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">produces</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000951">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000951</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A short lived plasma cell that secretes IgE.</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000975"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgE short lived plasma cell</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000941">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000941</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dendritic cell arising in thymus that has the phenotype CD11c-positive, CD11b-negative, and CD45RA-negative.</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000990"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thymic conventional dendritic cell</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000966">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000966</ns4:notation>
+    <ns2:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">centrocyte</ns2:hasRelatedSynonym>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A germinal center B cell that has the phenotype CD77-negative, IgD-negative, and CD38-positive. These cells have undergone somatic mutation of the B cell receptor.</ns1:IAO_0000115>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bm4 B-cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bm4 B-lymphocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bm4 B lymphocyte</ns2:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000844"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bm4 B cell</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://purl.org/obo/owl/CL#CL_0000738">
+    <ns4:broader rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000324"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leukocyte</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </owl:NamedIndividual>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000129">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">member part of at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:TransitiveProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is part of</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+  </owl:TransitiveProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000947">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000947</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A long lived plasma cell that secretes IgE.</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000974"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgE plasma cell</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:SymmetricProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0001637">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has disposition to bind</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+  </owl:SymmetricProperty>
+  <rdf:Description rdf:about="http://bioportal.bioontology.org/.well-known/genid/33a788b7-3805-4d08-ac1b-7a77008c8926/15b05f0000000055">
+    <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domain of part of</rdfs:label>
+  </rdf:Description>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000163">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material basis of at all times</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000647">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_supplier</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000304">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is_manufactured_by</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_related_synonym</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000969">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000969</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mature B cell that has the phenotype CD1d-positive and expresses interleukin-10. This cell type has been associated with suppression of chronic inflammatory responses and T cell responses.</ns1:IAO_0000115>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B10 cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B(reg)</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulatory B lymphocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulatory B-cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulatory B-lymphocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breg</ns2:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000785"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulatory B cell</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OBIws_0000062">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_description</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000979">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000979</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An IgG memory B cell is a class switched memory B cell that is class switched and expresses IgG on the cell surface.</ns1:IAO_0000115>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory IgG B-cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgG memory B-cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory IgG B cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory IgG B lymphocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgG memory B-lymphocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgG memory B lymphocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory IgG B-lymphocyte</ns2:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000972"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgG memory B cell</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000981">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000981</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A memory B cell with the phenotype IgD-negative and CD27-negative.</ns1:IAO_0000115>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dn memory B-lymphocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double negative memory B lymphocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dn memory B cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double negative memory B-cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dn memory B-cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dn memory B lymphocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double negative memory B-lymphocyte</ns2:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000787"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double negative memory B cell</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000977">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000977</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A short lived plasma cell that secretes IgG.</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000975"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgG short lived plasma cell</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000950">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000950</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plasmablast that secretes IgE.</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000980"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgE plasmablast</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000157">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">during which exists</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000176">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part of continuant at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0003001">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">produced_by</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000123">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has spatial occupant at some time</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000314">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is_proxy_for</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:NamedIndividual rdf:about="http://purl.org/obo/owl/CL#CL_0000988">
+    <ns4:broader rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000324"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hematopoietic cell</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </owl:NamedIndividual>
+  <rdf:Description rdf:about="http://bioportal.bioontology.org/.well-known/genid/33a788b7-3805-4d08-ac1b-7a77008c8926/987c0100000081">
+    <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domain of part of</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000888">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000888</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A lymph node macrophage found in the cortex of lymph nodes, in particular in and around the germinal centers, and that participates in phagocytosis of apoptotic B cells from the germinal centers.</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000868"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymph node tingible body macrophage</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002214">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has prototype</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:NamedIndividual rdf:about="http://purl.org/obo/owl/CL#CL_0000084">
+    <ns4:broader rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000324"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T cell</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000885">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000885</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mucosa-associated lymphoid tissue macrophage found in the mucosa-associated lymphoid tissues of the gut.</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000884"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gut-associated lymphoid tissue macrophage</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002206">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">expressed in</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000962">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000962</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A follicular B cell that is IgD-positive and CD23-positive and CD38-positive. This naive cell type is activated in the extrafollicular areas via interaction with dendritic cells and antigen specific T cells.</ns1:IAO_0000115>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bm2 B-lymphocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bm2 B lymphocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bm2 B-cell</ns2:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000843"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bm2 B cell</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000068">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">existence_starts_during</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002200">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has phenotype</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000879">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000879</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A central nervous system macrophage found in the meninges (the three membranes that surround the brain). This macrophage types is highly phagocytic and expresses scavenger receptors.</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000878"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meningeal macrophage</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000949">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000949</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plasmablast that secretes IgD, and which occur in a small proportion of B cells in the adult.</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000980"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgD plasmablast</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:TransitiveProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002202">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">develops from</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:TransitiveProperty>
+  <owl:NamedIndividual rdf:about="http://purl.org/obo/owl/CL#CL_0000763">
+    <ns4:broader rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000324"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myeloid cell</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </owl:NamedIndividual>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000053">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is bearer of</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:NamedIndividual rdf:about="http://purl.org/obo/owl/CL#CL_0000576">
+    <ns4:broader rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000324"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monocyte</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </owl:NamedIndividual>
+  <owl:SymmetricProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002220">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adjacent_to</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:SymmetricProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000113">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has material basis at all times</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002162">
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in taxon</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_alternative_id</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002205">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has gene product</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000175">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proper part of continuant at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000976">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000976</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A short lived plasma cell that secretes IgA. These cells may be found in the bone marrow as well as in the mucosal immune system.</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000975"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgA short lived plasma cell</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000936">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000936</ns4:notation>
+    <ns2:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GMLP</ns2:hasRelatedSynonym>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A lymphoid progenitor cell that is found in bone marrow, gives rise to B cells, T cells, natural killer cells and dendritic cells, and has the phenotype Lin-negative, Kit-positive, Sca-1-positive, FLT3-positive, CD34-positive, CD150 negative, and GlyA-negative.</ns1:IAO_0000115>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LMPP</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ELP</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphoid-primed multipotent progenitor</ns2:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000837"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">early lymphoid progenitor</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000889">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000889</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An immature myeloid leukocyte of heterogeneous phenotype found particularly in cancer and sepsis patients that is capable of suppressing activity of T cells in ex vivo assays. This cell type is CD45-positive, CD11b-positive.</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000766"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myeloid suppressor cell</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000965">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000965</ns4:notation>
+    <ns2:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">centroblast</ns2:hasRelatedSynonym>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A germinal center B cell that is rapidly dividing and has the phenotype IgD-negative, CD38-positive, and CD77-positive. Somatic hypermutation of the immunoglobulin V gene region can occur during proliferation of this cell type.</ns1:IAO_0000115>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bm3 B-lymphocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bm3 B-cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bm3 B lymphocyte</ns2:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000844"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bm3 B cell</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alternative term</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">example_of_usage</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">example of usage</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000971">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000971</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An IgM memory B cell is an unswitched memory B cell with the phenotype IgM-positive and IgD-negative.</ns1:IAO_0000115>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory IgM B cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory IgM B-lymphocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgM memory B-cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory IgM B lymphocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgM memory B-lymphocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory IgM B-cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgM memory B lymphocyte</ns2:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000970"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgM memory B cell</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:FunctionalProperty rdf:about="http://purl.obolibrary.org/obo/inheres_in">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inheres_in</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:FunctionalProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000085">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has function at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:TransitiveProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000186">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part of continuant at all times that whole exists</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:TransitiveProperty>
+  <rdf:Description rdf:about="http://bioportal.bioontology.org/.well-known/genid/33a788b7-3805-4d08-ac1b-7a77008c8926/1466560100000051">
+    <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domain of part of</rdfs:label>
+  </rdf:Description>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor note</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor_note</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002215">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">capable_of</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000127">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material basis of at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_subset</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000073">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is granular part of</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002150">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">connected to</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002337">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">related via localization to</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Axiom">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="http://bioportal.bioontology.org/.well-known/genid/33a788b7-3805-4d08-ac1b-7a77008c8926/7a67b010000001f">
+    <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domain of part of</rdfs:label>
+  </rdf:Description>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000115">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has member part at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000084">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">g depends on</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000174">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has proper continuant part at some time</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000069">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">existence_ends_during</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000083">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is located at</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000070">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">s depends on</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000057">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has participant</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000056">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">participates in</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor preferred label</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor_preferred_term</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor preferred term</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:NamedIndividual rdf:about="http://purl.org/obo/owl/CL#CL_0000081">
+    <ns4:broader rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000324"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood cell</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </owl:NamedIndividual>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000087">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_role</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000065">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has course</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_broad_synonym</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">notation</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:NamedIndividual rdf:about="http://purl.org/obo/owl/CL#CL_0000094">
+    <ns4:broader rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000324"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">granulocyte</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </owl:NamedIndividual>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZFA_0009333">
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TAO_0009333"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000787"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000970"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000972"/>
+    <ns5:xref rdf:resource="http://purl.obolibrary.org/obo/CL_0000787"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory B cell</rdfs:label>
+    <ns3:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory B-cell, memory B lymphocyte, memory B-lymphocyte</ns3:synonym>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A memory B cell is a mature B cell that is long-lived, readily activated upon re-encounter of its antigenic determinant, and has been selected for expression of higher affinity immunoglobulin. This cell type has the phenotype CD19-positive, CD20-positive, MHC Class II-positive, and CD138-negative.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000134">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002320"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mesenchymal cell</rdfs:label>
+    <ns3:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mesenchymal progenitor cells, mesenchymal stem cell, stem cells, mesenchymal, mesenchymal precursor cell, mesenchymal stromal cells, BMSC, marrow stromal cells, mesenchymal stromal cell, colony-forming unit-fibroblast, CFU-F, MSC, bone marrow stromal cells</ns3:synonym>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Many but not all mesenchymal cells derive from the mesoderm. MSCs are reportedly CD3-negative, CD4-negative, CD5-negative, CD8-negative, CD11a-negative, CD11b-negative, CD14-negative, CD19-negative, CD29-positive, CD31-negative, CD34-negative, CD38-negative, CD40-negative, CD44-positive, CD45-negative, CD49-positive, CD54-positive,  CD66b-negative, CD79a-negative, CD80-negative, CD102-positive, CD106-positive, CD117-positive, CD121a-positive, CD121b-positive, CD123-positive, CD124-positive, CD133-negative, CD146-positive, CD166-positive, CD271-positive, B220-negative, Gr1-negative, MHCI-positive, MHCII-negative, SSEA4-negative, sca1-positive, Ter119-negative, and glycophorin A-negative. Cultured MSCs are capable of producing stem cell factor, IL7, IL8, IL11, TGF-beta, cofilin, galectin-1, laminin-receptor 1, cyclophilin A, and MMP-2.', 'A connective tissue cell that normally gives rise to other cells that are organized as three-dimensional masses. This cell type is CD73-positive, CD90-positive, CD105-positive, CD45-negative, CD34-negative, and MHCII-negative. They may further differentiate into osteoblasts, adipocytes, myocytes, neurons, or chondroblasts in vitro.  Originally described as residing in the bone marrow, this cell type is now known to reside in many, if not all, adult organs.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000236">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000236</ns4:notation>
+    <ns1:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B cell</ns1:IAO_0000111>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0001480</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000776</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:62869</ns2:hasDbXref>
+    <ns1:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add, ISBN:0781735149</ns1:IAO_0000119>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A lymphocyte of B lineage with the phenotype CD19-positive and surface immunoglobulin-positive.</ns1:IAO_0000115>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A lymphocyte of B lineage with the phenotype CD19-positive and capable of B cell mediated immunity.</ns1:IAO_0000115>
+    <ns2:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IDOMAL:0000633</ns2:hasAlternativeId>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B lymphocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-lymphocyte</ns2:hasExactSynonym>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FGED</ns2:inSubset>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/ZFA_0009142"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/XAO_0003158"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TAO_0009142"/>
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000324"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B cell</rdfs:label>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A lymphocyte of B lineage with the phenotype CD19-positive and capable of B cell mediated immunity.', 'Immunologically important lymphocyte that is not thymus-dependent, is either short-lived and naive or long-lived and of memory phenotype, and resembles the bursa-derived lymphocyte of birds in that it is responsible for the production of immunoglobulins.', 'A lymphocyte of B lineage with the phenotype CD19-positive and surface immunoglobulin-positive.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000867">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000867</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tissue-resident macrophage found in a secondary lymphoid organ.</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000864"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">secondary lymphoid organ macrophage</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000844">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000844</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rapidly cycling mature B cell that has distinct phenotypic characteristics and is involved in T-dependent immune responses and located typically in the germinal centers of lymph nodes. This cell type expresses Ly77 after activation.</ns1:IAO_0000115>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">germinal center B-lymphocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC B cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">germinal center B lymphocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC B-cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC B lymphocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">germinal center B-cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC B-lymphocyte</ns2:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000785"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">germinal center B cell</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
+    <ns1:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entity doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. For example Werner Ceusters 'portions of reality' include 4 sorts, entities (as BFO construes them), universals, configurations, and relations. It is an open question as to whether entities as construed in BFO will at some point also include these other portions of reality. See, for example, 'How to track absolutely everything' at http://www.referent-tracking.com/_RTU/papers/CeustersICbookRevised.pdf</ns1:IAO_0000116>
+    <ns1:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO 2 Reference: In all areas of empirical inquiry we encounter general terms of two sorts. First are general terms which refer to universals or types:animaltuberculosissurgical procedurediseaseSecond, are general terms used to refer to groups of entities which instantiate a given universal but do not correspond to the extension of any subuniversal of that universal because there is nothing intrinsic to the entities in question by virtue of which they – and only they – are counted as belonging to the given group. Examples are: animal purchased by the Emperortuberculosis diagnosed on a Wednesdaysurgical procedure performed on a patient from Stockholmperson identified as candidate for clinical trial #2056-555person who is signatory of Form 656-PPVpainting by Leonardo da VinciSuch terms, which represent what are called ‘specializations’ in [81</ns1:IAO_0000116>
+    <ns1:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entity</ns1:IAO_0000111>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">your body mass index</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verdi’s Requiem</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Julius Caesar</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the Second World War</ns1:IAO_0000112>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TRAK_0000001"/>
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entity</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000974">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000974</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fully differentiated plasma cell that lives for years, as opposed to months, secretes immunoglobulin, and has the phenotype weakly CD19-positive, CD20-negative, CD38-negative, strongly CD138-positive, MHC Class II-negative, surface immunoglobulin-negative, IgD-negative, and strongly CXCR4-positive. The majority of these cells of this type reside in the bone marrow.</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000786"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long lived plasma cell</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZFA_0009141">
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TAO_0009141"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000872"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000887"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000883"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000235"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000866"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000882"/>
+    <ns5:xref rdf:resource="http://purl.obolibrary.org/obo/CL_0000235"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macrophage</rdfs:label>
+    <ns3:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">histiocyte</ns3:synonym>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A mononuclear phagocyte present in variety of tissues, typically differentiated from monocytes, capable of phagocytosing a variety of extracellular particulate material, including immune complexes, microorganisms, and dead cells.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000151">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000151</ns4:notation>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0003659</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:86916</ns2:hasDbXref>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell that specializes in controlled release of one or more substances.</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000324"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">secretory cell</rdfs:label>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A cell that specializes in controlled release of one or more substances.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000883">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000883</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A thymic macrophage found in the thymic cortex.</ns1:IAO_0000115>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TAO_0009141"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/ZFA_0009141"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000866"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thymic cortical macrophage</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TAO_0009142">
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/ZFA_0009142"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/XAO_0003158"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+    <ns5:xref rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B cell</rdfs:label>
+    <ns3:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-lymphocyte, B-cell, B lymphocyte</ns3:synonym>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A type of lymphocyte whose defining characteristic is the expression of an immunoglobulin complex.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TAO_0009309">
+    <ns5:xref rdf:resource="http://purl.obolibrary.org/obo/CL_0000738"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/ZFA_0009309"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000738"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leukocyte</rdfs:label>
+    <ns3:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leucocyte, white blood cell, immune cell</ns3:synonym>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A nucleated cell of the myeloid or lymphoid lineages, found in blood or other tissue.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000004">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the interior of your mouth</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a person</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a leg</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an organism</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a heart</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a spatial region</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a molecule</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a chair</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the lawn and atmosphere in front of our building</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an atom</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the bottom right portion of a human torso</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a symphony orchestra</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an orchestra.</ns1:IAO_0000112>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">substantial entity</ns1:IAO_0000118>
+    <ns1:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">independent continuant</ns1:IAO_0000111>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])</ns1:IAO_0000115>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A continuant  that is a bearer of quality  and realizable entity  entities, in which other entities inhere and which itself cannot inhere in anything.</ns1:IAO_0000115>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">independent continuant</rdfs:label>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the color of a tomato</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a person</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the mass of a cloud</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a heart</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a symphony orchestra</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the lawn and atmosphere in front of our building</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the disposition of blood to coagulate</ns1:IAO_0000112>
+    <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+    <ns1:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO 2 Reference: Continuant entities are entities which can be sliced to yield parts only along the spatial dimension, yielding for example the parts of your table which we call its legs, its top, its nails. ‘My desk stretches from the window to the door. It has spatial parts, and can be sliced (in space) in two. With respect to time, however, a thing is a continuant.’ [60, p. 240</ns1:IAO_0000116>
+    <ns1:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Continuant doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. For example, in an expansion involving bringing in some of Ceuster's other portions of reality, questions are raised as to whether universals are continuants</ns1:IAO_0000116>
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endurant</ns1:IAO_0000118>
+    <ns1:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">continuant</ns1:IAO_0000111>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An entity  that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.</ns1:IAO_0000115>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TRAK_0000409"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">continuant</rdfs:label>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZFA_0009309">
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TAO_0009309"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000738"/>
+    <ns5:xref rdf:resource="http://purl.obolibrary.org/obo/CL_0000738"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leukocyte</rdfs:label>
+    <ns3:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leucocyte, white blood cell, immune cell</ns3:synonym>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An achromatic cell of the myeloid or lymphoid lineages, found in blood or other tissue.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZFA_0009209">
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TAO_0009209"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000451"/>
+    <ns5:xref rdf:resource="http://purl.obolibrary.org/obo/CL_0000451"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dendritic cell</rdfs:label>
+    <ns3:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interdigitating cell, veiled cell</ns3:synonym>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A cell of hematopoietic origin, typically resident in particular tissues, specialized in the uptake, processing, and transport of antigens to lymph nodes for the purpose of stimulating an immune response via T cell activation.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000766">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000766</ns4:notation>
+    <ns1:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000766</ns1:IAO_0000119>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell of the monocyte, granulocyte, or mast cell lineage.</ns1:IAO_0000115>
+    <ns2:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IDOMAL:0000719</ns2:hasAlternativeId>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/ZFA_0009326"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TAO_0009326"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000738"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myeloid leukocyte</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRAK_0000409">
+    <ns5:xref rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">continuant</rdfs:label>
+    <ns3:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endurant</ns3:synonym>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRAK</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#ReflexiveProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000235">
+    <ns1:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">histiocyte</ns1:IAO_0000118>
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000235</ns4:notation>
+    <ns1:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macrophage</ns1:IAO_0000111>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:83585</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:63261</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000801</ns2:hasDbXref>
+    <ns1:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</ns1:IAO_0000119>
+    <ns1:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:1919437</ns1:IAO_0000119>
+    <ns1:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:16213494</ns1:IAO_0000119>
+    <ns1:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</ns1:IAO_0000119>
+    <ns1:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:tfm</ns1:IAO_0000119>
+    <ns1:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.clt.astate.edu/wwilliam/</ns1:IAO_0000119>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mononuclear phagocyte present in variety of tissues, typically differentiated from monocytes, capable of phagocytosing a variety of extracellular particulate material, including immune complexes, microorganisms, and dead cells.</ns1:IAO_0000115>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">histiocyte</ns2:hasExactSynonym>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FGED</ns2:inSubset>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TAO_0009141"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/ZFA_0009141"/>
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000324"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000766"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macrophage</rdfs:label>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A mononuclear phagocyte present in variety of tissues, typically differentiated from monocytes, capable of phagocytosing a variety of extracellular particulate material, including immune complexes, microorganisms, and dead cells.', 'Relatively long-lived phagocytic cell of mammalian tissues, derived from blood monocyte. Macrophages from different sites have distinctly different properties. Main types are peritoneal and alveolar macrophages, tissue macrophages (histiocytes), Kuppfer cells of the liver, and osteoclasts. In response to foreign materials may become stimulated or activated. Macrophages play an important role in killing of some bacteria, protozoa, and tumour cells, release substances that stimulate other cells of the immune system, and are involved in antigen presentation. May further differentiate within chronic inflammatory lesions to epithelioid cells or may fuse to form foreign body giant cells or Langhans' giant cells.', 'A mononuclear phagocyte which differentiates from monocytes, is typically resident in a particular tissue, and capable of phagocytosing a variety of extracellular particulate material, including immune complexes, microorganisms, and dead cells (Cell Ontology).'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000451">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000451</ns4:notation>
+    <ns1:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dendritic cell</ns1:IAO_0000111>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:83036</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0002042</ns2:hasDbXref>
+    <ns2:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">veiled cell</ns2:hasRelatedSynonym>
+    <ns2:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interdigitating cell</ns2:hasRelatedSynonym>
+    <ns1:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add, ISBN:0781735149</ns1:IAO_0000119>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell of hematopoietic origin, typically resident in particular tissues, specialized in the uptake, processing, and transport of antigens to lymph nodes for the purpose of stimulating an immune response via T cell activation. These cells are lineage negative (CD3-negative, CD19-negative, CD34-negative, and CD56-negative).</ns1:IAO_0000115>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell of hematopoietic origin, typically resident in particular tissues, specialized in the uptake, processing, and transport of antigens to lymph nodes for the purpose of stimulating an immune response via T cell activation.</ns1:IAO_0000115>
+    <ns2:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IDOMAL:0000377</ns2:hasAlternativeId>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FGED</ns2:inSubset>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TAO_0009209"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/ZFA_0009209"/>
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000324"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000738"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dendritic cell</rdfs:label>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Large, stellate fibroblast found along the network of collagen fibers of the reticulum of the spleen; synthesize the matrix components of the reticulum.', 'A cell of hematopoietic origin, typically resident in particular tissues, specialized in the uptake, processing, and transport of antigens to lymph nodes for the purpose of stimulating an immune response via T cell activation.', 'A special type of cell that is a key regulator of the immune system, acting as a professional antigen-presenting cell, APC, capable of activating naive T cells and stimulating the growth and differentiation of B cells. Dendritic cells are found, for example, in the lymph nodes and spleen. As an APC, a dendritic cell can retain antigen for long periods on its surface, present the antigen to a T or B cell and so influence their behavior.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZFA_0009332">
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TAO_0009332"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000786"/>
+    <ns5:xref rdf:resource="http://purl.obolibrary.org/obo/CL_0000786"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plasma cell</rdfs:label>
+    <ns3:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plasmacyte</ns3:synonym>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A terminally differentiated, post-mitotic, antibody secreting cell of the B cell lineage with the phenotype CD138-positive, surface immunonoglobulin-negative, and MHC Class II-negative. Plasma cells are oval or round with extensive rough endoplasmic reticulum, a well-developed Golgi apparatus, and a round nucleus having a characteristic cartwheel heterochromatin pattern and are devoted to producing large amounts of immunoglobulin.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000990">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000990</ns4:notation>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:84191</ns2:hasDbXref>
+    <ns1:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000990</ns1:IAO_0000119>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conventional dendritic cell is a dendritic cell that is CD11c-high.</ns1:IAO_0000115>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conventional dendritic cell is a leukocyte that has a high plasma membrane amount of CD11c and lacks plasma membrane part CD19, CD3, CD34, and CD56.</ns1:IAO_0000115>
+    <ns2:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IDOMAL:0000062</ns2:hasAlternativeId>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type 1 DC</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conventional DC</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cDC</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dendritic reticular cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DC1</ns2:hasExactSynonym>
+    <ns2:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">veiled cell</ns2:hasBroadSynonym>
+    <ns2:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interdigitating cell</ns2:hasBroadSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000451"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conventional dendritic cell</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TAO_0009014">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TAO_0009258"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TAO_0009020"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TAO_0005023"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hematopoietic stem cell</rdfs:label>
+    <ns3:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hemopoietic progenitor cell, HSC, hemopoietic stem cell, hematopoietic progenitor cell, colony forming unit hematopoietic</ns3:synonym>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A stem cell from which all cells of the lymphoid and myeloid lineages develop, including blood cells and cells of the immune system.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRAK_0000001">
+    <ns5:xref rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entity</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRAK</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0000011">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000054"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anatomical system</rdfs:label>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Anatomical group that is has as its parts distinct anatomical structures interconnected by anatomical structures at a lower level of granularity.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000003">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">occurrent</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000864">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000864</ns4:notation>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:84644</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:84642</ns2:hasDbXref>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A macrophage constitutively resident in a particular tissue under non-inflammatory conditions, and capable of phagocytosing a variety of extracellular particulate material, including immune complexes, microorganisms, and dead cells.</ns1:IAO_0000115>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">resting histiocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fixed macrophage</ns2:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000235"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tissue-resident macrophage</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000970">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000970</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An unswitched memory B cell is a memory B cell that has the phenotype IgM-positive and/or IgD-positive, CD27-positive, CD138-negative, IgG-negative, IgE-negative, and IgA-negative.</ns1:IAO_0000115>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unswitched memory B lymphocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unswitched memory B-lymphocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unswitched memory B-cell</ns2:hasExactSynonym>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TAO_0009333"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/ZFA_0009333"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000787"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unswitched memory B cell</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#FunctionalProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000878">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000878</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tissue-resident macrophage found in the central nervous system.</ns1:IAO_0000115>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CNS macrophage</ns2:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000864"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">central nervous system macrophage</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000882">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000882</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A thymic macrophage found in the thymic medulla.</ns1:IAO_0000115>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TAO_0009141"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/ZFA_0009141"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000866"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thymic medullary macrophage</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000784">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000784</ns4:notation>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0004625</ns2:hasDbXref>
+    <ns1:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000784</ns1:IAO_0000119>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dendritic cell type of distinct morphology, localization, and surface marker expression (CD123-positive) from other dendritic cell types and associated with early stage immune responses, particularly the release of physiologically abundant amounts of type I interferons in response to infection.</ns1:IAO_0000115>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dendritic cell type of distinct morphology, localization, and surface marker expression from other dendritic cell types and associated with early stage immune responses, particularly the release of physiologically abundant amounts of type I interferons in response to infection.</ns1:IAO_0000115>
+    <ns2:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IDOMAL:0000796</ns2:hasAlternativeId>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DC2</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type 2 DC</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T-associated plasma cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPC</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pDC</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interferon-producing cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plasmacytoid T cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plasmacytoid monocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphoid dendritic cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plasmacytoid DC</ns2:hasExactSynonym>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000942"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plasmacytoid dendritic cell</rdfs:label>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A dendritic cell type of distinct morphology, localization, and surface marker expression from other dendritic cell types and associated with early stage immune responses, particularly the release of physiologically abundant amounts of type I interferons in response to infection.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000785">
+    <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CL_0000817"/>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000818">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transitional stage B cell</rdfs:label>
+        <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CL_0000816"/>
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000785</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A B cell that is mature, having left the bone marrow. Initially, these cells are IgM-positive and IgD-positive, and they can be activated by antigen.</ns1:IAO_0000115>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mature B-cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mature B lymphocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mature B-lymphocyte</ns2:hasExactSynonym>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TAO_0009331"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/ZFA_0009331"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mature B cell</rdfs:label>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A B cell that is mature, having left the bone marrow. Initially, these cells are IgM-positive and IgD-positive, and they can be activated by antigen.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0003158">
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/ZFA_0009142"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TAO_0009142"/>
+    <ns5:xref rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B cell</rdfs:label>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'One of the two types of lymphocytes (the others being T cells). All lymphocytes begin their development in the bone marrow. B cells are involved in so-called humoral immunity.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000884">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000884</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tissue-resident macrophage found in the mucosa associated lymphoid tissue.</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000867"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mucosa-associated lymphoid tissue macrophage</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZFA_0009265">
+    <ns5:xref rdf:resource="http://purl.obolibrary.org/obo/CL_0000576"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TAO_0009265"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000576"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monocyte</rdfs:label>
+    <ns3:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monocytes</ns3:synonym>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Myeloid mononuclear recirculating leukocyte that can act as a precursor of tissue macrophages, osteoclasts and some populations of tissue dendritic cells.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TAO_0009326">
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/ZFA_0009326"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000766"/>
+    <ns5:xref rdf:resource="http://purl.obolibrary.org/obo/CL_0000766"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myeloid leukocyte</rdfs:label>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A cell of the monocyte, granulocyte, or mast cell lineage.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0000013">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</rdfs:label>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Anatomical structure that has as its parts a maximally connected cell compartment surrounded by a plasma membrane.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0000054">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anatomical group</rdfs:label>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Anatomical structure consisting of at least two non-overlapping organs, multi-tissue aggregates or portion of tissues or cells of different types that does not constitute an organism, organ, multi-tissue aggregate, or portion of tissue.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TAO_0009265">
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/ZFA_0009265"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000576"/>
+    <ns5:xref rdf:resource="http://purl.obolibrary.org/obo/CL_0000576"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monocyte</rdfs:label>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Large, phagocytic mononuclear leukocytes produced in the vertebrate bone marrow and released into the blood.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0000003">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000006"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anatomical structure</rdfs:label>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Material anatomical entity that has inherent 3D shape and is generated by coordinated expression of the organism's own genome.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000003">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000013"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">native cell</rdfs:label>
+    <ns3:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell in vivo</ns3:synonym>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A cell that is found in a natural setting, which includes multicellular organism cells 'in vivo' (i.e. part of an organism), and unicellular organisms 'in environment' (i.e. part of a natural environment).', 'To accommodate unicellular organisms better, 'cell in vivo' has been re-labeled 'native cell' to better represent its intended meaning - that is, that it is a cell in the context of a multicellular organism or in a natural environment. 'Native' is intended to contrast with 'in vitro', which refers to cells or other biological entities that have been intentionally placed in a controlled, non-natural setting for the purpose of study or manipulation. (MAH 1.12.12).'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000861">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000861</ns4:notation>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:84643</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:84645</ns2:hasDbXref>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A macrophage which develops from an inflammatory monocyte and is recruited into the tissues in response to injury and infection as part of an inflammatory response. Markers include CD11b-positive, CD68-positive, and F4/80-positive.</ns1:IAO_0000115>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wandering histiocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">free macrophage</ns2:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000235"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">elicited macrophage</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a forest fire</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a tornado</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an energy wave</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a puff of smoke</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a hurricane</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the undetached arm of a human being</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a flame</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a photon</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an aggregate of human beings.</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a sea wave</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an epidemic</ns1:IAO_0000112>
+    <ns1:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a human being</ns1:IAO_0000112>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000141">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immaterial entity</rdfs:label>
+        <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <ns1:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Examples: collection of random bacteria, a chair, dorsal surface of the body</ns1:IAO_0000116>
+    <ns1:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Material entity [snap:MaterialEntity] subsumes object [snap:Object], fiat object part [snap:FiatObjectPart], and object aggregate [snap:ObjectAggregate], which assume a three level theory of granularity, which is inadequate for some domains, such as biology.</ns1:IAO_0000116>
+    <ns1:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO 2 Reference: Object, Fiat Object Part and Object Aggregate are not intended to be exhaustive of Material Entity. Users are invited to propose new subcategories of Material Entity.</ns1:IAO_0000116>
+    <ns1:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO 2 Reference: Material entities (continuants) can preserve their identity even while gaining and losing material parts. Continuants are contrasted with occurrents, which unfold themselves in successive temporal parts or phases [60</ns1:IAO_0000116>
+    <ns1:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Material entity [snap:MaterialEntity] subsumes object [snap:Object], fiat object part [snap:FiatObjectPart], and object aggregate [snap:ObjectAggregate], which assume a three level theory of granularity, which is inadequate for some domains, such as biology.
+Examples: collection of random bacateria, a chair, dorsal surface of the body.</ns1:IAO_0000116>
+    <ns1:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO 2 Reference: ‘Matter’ is intended to encompass both mass and energy (we will address the ontological treatment of portions of energy in a later version of BFO). A portion of matter is anything that includes elementary particles among its proper or improper parts: quarks and leptons, including electrons, as the smallest particles thus far discovered; baryons (including protons and neutrons) at a higher level of granularity; atoms and molecules at still higher levels, forming the cells, organs, organisms and other material entities studied by biologists, the portions of rock studied by geologists, the fossils studied by paleontologists, and so on.Material entities are three-dimensional entities (entities extended in three spatial dimensions), as contrasted with the processes in which they participate, which are four-dimensional entities (entities extended also along the dimension of time).According to the FMA, material entities may have immaterial entities as parts – including the entities identified below as sites; for example the interior (or ‘lumen’) of your small intestine is a part of your body. BFO 2.0 embodies a decision to follow the FMA here.</ns1:IAO_0000116>
+    <ns1:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity</ns1:IAO_0000111>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An independent continuant  that is spatially extended whose identity is independent of that of other entities and can be maintained through time.</ns1:IAO_0000115>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An independent continuant that is spatially extendedn whose identity is independent of that of other entities and can be maintained through time.</ns1:IAO_0000115>
+    <ns1:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO_0000040</ns1:IAO_0000119>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TRAK_0000086"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity</rdfs:label>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#SymmetricProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000787">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000787</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A memory B cell is a mature B cell that is long-lived, readily activated upon re-encounter of its antigenic determinant, and has been selected for expression of higher affinity immunoglobulin. This cell type has the phenotype CD19-positive, CD20-positive, MHC Class II-positive, and CD138-negative.</ns1:IAO_0000115>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory B-lymphocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory B lymphocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory B-cell</ns2:hasExactSynonym>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TAO_0009333"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/ZFA_0009333"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000972"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory B cell</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000837">
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0002032">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000324"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hematopoietic oligopotent progenitor cell</rdfs:label>
+        <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000837</ns4:notation>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000725</ns2:hasDbXref>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A hematopoietic multipotent progenitor cell is multipotent, but not capable of long-term self-renewal. These cells are characterized as lacking lineage cell surface markers and being CD34-positive in both mice and humans.</ns1:IAO_0000115>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPP</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hemopoietic progenitor cell</ns2:hasExactSynonym>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/ZFA_0009354"/>
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000324"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hematopoietic multipotent progenitor cell</rdfs:label>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A progenitor cell of any hematopoietic lineage, potentially multipotent.', 'A hematopoietic multipotent progenitor cell is multipotent, but not capable of long-term self-renewal. These cells are characterized as lacking lineage cell surface markers and being CD34-positive in both mice and humans.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000871">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000871</ns4:notation>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:83026</ns2:hasDbXref>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A secondary lymphoid organ macrophage found in the spleen.</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000867"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">splenic macrophage</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TAO_0009332">
+    <ns5:xref rdf:resource="http://purl.obolibrary.org/obo/CL_0000786"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000786"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/ZFA_0009332"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plasma cell</rdfs:label>
+    <ns3:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plasmacyte</ns3:synonym>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A terminally differentiated, post-mitotic, short-lived cell of the B cell lineage devoted to producing large amounts of immunoglobulin. Plasma cells are oval or round with extensive rough endoplasmic reticulum, a well-developed Golgi apparatus, and a round nucleus having a characteristic cartwheel heterochromatin pattern.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000843">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000843</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A resting mature B cell that has the phenotype IgM-positive, IgD-positive, CD23-positive and CD21-positive, and found in the B cell follicles of the white pulp of the spleen or the corticol areas of the peripheral lymph nodes. This cell type is also described as being CD19-positive, B220-positive, AA4-negative, CD43-negative, and CD5-negative.</ns1:IAO_0000115>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fo B-cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">follicular B lymphocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">follicular B-cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">follicular B-lymphocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fo B cell</ns2:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000785"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">follicular B cell</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000868">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000868</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A secondary lymphoid organ macrophage found in a lymph node. This cell is CD169-high.</ns1:IAO_0000115>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MF.LN</ns2:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000867"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymph node macrophage</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZFA_0009142">
+    <ns5:xref rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/XAO_0003158"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TAO_0009142"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B cell</rdfs:label>
+    <ns3:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-lymphocyte, B-cell, B lymphocyte</ns3:synonym>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A type of lymphocyte whose defining characteristic is the expression of an immunoglobulin complex.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TAO_0009333">
+    <ns5:xref rdf:resource="http://purl.obolibrary.org/obo/CL_0000787"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000787"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000970"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/ZFA_0009333"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000972"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory B cell</rdfs:label>
+    <ns3:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory B-cell, memory B lymphocyte, memory B-lymphocyte</ns3:synonym>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A distinctly differentiated long-lived B cell that is readily activated upon reencounter of its antigenic determinant. Memory B cells differentiate from antigen-activated B cells which have been selected for expression of higher affinity immunoglobulin.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000942">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000942</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plasmacytoid dendritic cell developing in the thymus with phenotype CD11c-negative or low, CD45RA-positive, CD11b-negative, and CD123-positive.</ns1:IAO_0000115>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000784"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000784"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thymic plasmacytoid dendritic cell</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000786">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000786</ns4:notation>
+    <ns1:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plasma cell</ns1:IAO_0000111>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:70574</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000392</ns2:hasDbXref>
+    <ns2:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">effector B-cell</ns2:hasRelatedSynonym>
+    <ns2:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">effector B cell</ns2:hasRelatedSynonym>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A terminally differentiated, post-mitotic, antibody secreting cell of the B cell lineage with the phenotype CD138-positive, surface immunonoglobulin-negative, and MHC Class II-negative. Plasma cells are oval or round with extensive rough endoplasmic reticulum, a well-developed Golgi apparatus, and a round nucleus having a characteristic cartwheel heterochromatin pattern and are devoted to producing large amounts of immunoglobulin.</ns1:IAO_0000115>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plasma B-cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plasmacyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plasma B cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plasmocyte</ns2:hasExactSynonym>
+    <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FGED</ns2:inSubset>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TAO_0009332"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/ZFA_0009332"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000151"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plasma cell</rdfs:label>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A terminally differentiated, post-mitotic, antibody secreting cell of the B cell lineage with the phenotype CD138-positive, surface immunonoglobulin-negative, and MHC Class II-negative. Plasma cells are oval or round with extensive rough endoplasmic reticulum, a well-developed Golgi apparatus, and a round nucleus having a characteristic cartwheel heterochromatin pattern and are devoted to producing large amounts of immunoglobulin.', 'A terminally differentiated cell of the B lymphocyte lineage that produces antibodies; plasma cells are oval or round with extensive rough endoplasmic reticulum, a well-developed Golgi apparatus, and a round nucleus having a characteristic cartwheel heterochromatin pattern.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRAK_0000086">
+    <ns5:xref rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity</rdfs:label>
+    <ns3:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">physical object</ns3:synonym>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRAK</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000887">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000887</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A lymph node macrophage found in the subcapsular sinus of lymph nodes that participates in sensing, clearance, and antigen presentation of lymph-borne particulate antigens. This macrophage is capable of activating invaraint NKT cells and is CD169-positive.</ns1:IAO_0000115>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TAO_0009141"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/ZFA_0009141"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000868"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymph node subcapsular sinus macrophage</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000968">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000968</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mature B cell that produces cytokines that can influence CD4 T cell differentiation.</ns1:IAO_0000115>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B effector cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">effector B-cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">effector B cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">effector B lymphocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">effector B-lymphocyte</ns2:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000785"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Be cell</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0000000">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anatomical entity</rdfs:label>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000817">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">precursor B cell</rdfs:label>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A precursor B cell is a B cell with the phenotype CD10-positive.', 'A precursor B cell is a B cell with the phenotype CD10-positive (P08473/NEP_HUMAN; PIRSF001194).'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TAO_0009307">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000013"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">somatic stem cell</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TAO_0009020">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TAO_0009307"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multi fate stem cell</rdfs:label>
+    <ns3:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multipotent stem cell</ns3:synonym>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A stem cell that can give rise to mulitple lineages of cells.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#AnnotationProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TAO_0009331">
+    <ns5:xref rdf:resource="http://purl.obolibrary.org/obo/CL_0000785"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000785"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/ZFA_0009331"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mature B cell</rdfs:label>
+    <ns3:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mature B-lymphocyte, mature B lymphocyte, mature B-cell</ns3:synonym>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A mature form of a B cell, a type of lymphocyte whose defining characteristic is the expression of an immunoglobulin complex.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TAO_0009209">
+    <ns5:xref rdf:resource="http://purl.obolibrary.org/obo/CL_0000451"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000451"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/ZFA_0009209"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dendritic cell</rdfs:label>
+    <ns3:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interdigitating cell, veiled cell</ns3:synonym>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A cell of hematopoietic origin, typically resident in particular tissues, specialized in the uptake, processing, and transport of antigens to lymph nodes for the purpose of stimulating an immune response via T cell activation.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000866">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000866</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tissue-resident macrophage resident found in the thymus, involved in the clearance of apoptotic thymocytes.</ns1:IAO_0000115>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TAO_0009141"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/ZFA_0009141"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000864"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thymic macrophage</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TAO_0005023">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000011"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hematopoietic system</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000576">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000576</ns4:notation>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:62864</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000876</ns2:hasDbXref>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myeloid mononuclear recirculating leukocyte that can act as a precursor of tissue macrophages, osteoclasts and some populations of tissue dendritic cells.</ns1:IAO_0000115>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/ZFA_0009265"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TAO_0009265"/>
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000324"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000766"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monocyte</rdfs:label>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A mononuclear phagocytic leukocyte, 13 to 25 mm in diameter, with an ovoid or kidney-shaped nucleus, containing lacy, linear chromatin and abundant gray-blue cytoplasm filled with fine reddish and azurophilic granules. Formed in the bone marrow from promonocytes, monocytes are transported to tissues such as the lung and liver, where they develop into macrophages.', 'Myeloid mononuclear recirculating leukocyte that can act as a precursor of tissue macrophages, osteoclasts and some populations of tissue dendritic cells.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000816">
+    <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000324"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000817"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immature B cell</rdfs:label>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An immature B cell is a precursor B cell that has the phenotype surface IgM-positive and surface IgD-negative, and have not undergone class immunoglobulin class switching or peripheral encounter with antigen and activation.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZFA_0009354">
+    <ns5:xref rdf:resource="http://purl.obolibrary.org/obo/CL_0000837"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000837"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hematopoietic multipotent progenitor cell</rdfs:label>
+    <ns3:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hemopoietic progenitor cell, hematopoietic progenitor cell</ns3:synonym>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Note that this is a class of cell types, not an identified single cell type.', 'A hematopoietic multipotent progenitor cell is multipotent, but not capable of long-term self-renewal. These cells are characterized as lacking lineage cell surface markers and being CD34-positive in both mice and humans.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002320">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">connective tissue cell</rdfs:label>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A cell of the supporting or framework tissue of the body, arising chiefly from the embryonic mesoderm and including adipose tissue, cartilage, and bone.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000980">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000980</ns4:notation>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:84371</ns2:hasDbXref>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An activated mature (naive or memory) B cell that is secreting immunoglobulin, typified by being CD27-positive, CD38-positive, CD138-negative.</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000785"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plasmablast</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000872">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000872</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A splenic macrophage found in the marginal zone of the spleen, involved in recognition and clearance of particulate material from the splenic circulation. Markers include F4/80-negative, MARCO-positive, SR-A-positive, SIGN-R1-positive, and Dectin2-positive.</ns1:IAO_0000115>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TAO_0009141"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/ZFA_0009141"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000871"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">splenic marginal zone macrophage</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TAO_0009258">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000134"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TAO_0009020"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">angioblastic mesenchymal cell</rdfs:label>
+    <ns3:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">angioblast</ns3:synonym>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZFA_0009331">
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TAO_0009331"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000785"/>
+    <ns5:xref rdf:resource="http://purl.obolibrary.org/obo/CL_0000785"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mature B cell</rdfs:label>
+    <ns3:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mature B-lymphocyte, mature B lymphocyte, mature B-cell</ns3:synonym>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A B cell that is mature, having left the bone marrow. Initially, these cells are IgM-positive and IgD-positive, and they can be activated by antigen.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000972">
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TAO_0009333"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/ZFA_0009333"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000787"/>
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000972</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A class switched memory B cell is a memory B cell that has undergone Ig class switching and therefore is IgM-negative on the cell surface. These cells are usually CD27-positive and have either IgG, IgE, or IgA on the cell surface.</ns1:IAO_0000115>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">class switched memory B-cell</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">class switched memory B-lymphocyte</ns2:hasExactSynonym>
+    <ns2:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">class switched memory B lymphocyte</ns2:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000787"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">class switched memory B cell</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TAO_0009141">
+    <ns5:xref rdf:resource="http://purl.obolibrary.org/obo/CL_0000235"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000872"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000887"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000883"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000235"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000866"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/ZFA_0009141"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000882"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macrophage</rdfs:label>
+    <ns3:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">histiocyte</ns3:synonym>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A mononuclear phagocyte which differentiates from monocytes, is typically resident in a particular tissue, and capable of phagocytosing a variety of extracellular particulate material, including immune complexes, microorganisms, and dead cells.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO</ns3:ontology_acronm>
+  </owl:Class>
+  <ns4:Concept rdf:about="http://www.ebi.ac.uk/efo/EFO_0000324">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell type</rdfs:label>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A cell type is a distinct morphological or functional form of cell.  Examples are epithelial, glial etc.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </ns4:Concept>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#DatatypeProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000975">
+    <ns2:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</ns2:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000975</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fully differentiated plasma cell that lives for months.</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000786"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">short lived plasma cell</rdfs:label>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGBO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0000006">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material anatomical entity</rdfs:label>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Anatomical entity that has mass.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZFA_0009326">
+    <ns5:xref rdf:resource="http://purl.obolibrary.org/obo/CL_0000766"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000766"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TAO_0009326"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myeloid leukocyte</rdfs:label>
+    <ns3:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myeloid leukocytes</ns3:synonym>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A cell of the monocyte, granulocyte, or mast cell lineage.'</ns3:definition>
+    <ns3:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA</ns3:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#TransitiveProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#NamedIndividual">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+</rdf:RDF>

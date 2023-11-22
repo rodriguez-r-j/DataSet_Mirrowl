@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#BeckDepressionInventory">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#AssessmentToolForEmotionalAndMoodDisturbanceInDementia"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beck Depression Inventory</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A twenty-one question survey completed by a patient, with each answer scored on a scale of 0 to 3, designed to measure presence of depression. From the U.S. National Cancer Institute Thesaurus'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#AvailabilityOfNonpharmacologicalInterventionImplementationResource">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#FactorAffectingImplementationOfNonpharmacologicalIntervention"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Availability of Nonpharmacological Intervention Implementation Resource</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The availabity of resource for applying nonpharmacological intervention.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#BeforeLunch">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#Time"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Before Lunch</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The time prior to eating lunch.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#Bedtime">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#Time"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bedtime</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The usual time of going to bed.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#AvoidArguingWithPersonWithDementia">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#CommunicatingActionAvoided"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avoid Arguing with Person with Dementia</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'People should avoid arguring with a person with dementia.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#AvoidUsingHarshTone">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#CommunicatingActionAvoided"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avoid Using Harsh Tone</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'People should avoid using harsh tone when communicating with people with dementia.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#AvoidantPersonalityTrait">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#PersonalityTrait"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avoidant Personality Trait</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Personality characterised by social discomfort and avoidance of interpersonal contact.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#AvoidAskingPersonWithDementiaToTryHarder">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#CommunicatingActionAvoided"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avoid Asking Person with Dementia to Try Harder</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'People should avoid asking person with dementia to 'try harder'.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#AvoidCorrectingPersonWithDementia">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#CommunicatingActionAvoided"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avoid Correcting Person with Dementia</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'People should avoid correcting a person with dementia during communicating with him/her.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#BibleReading">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#PastoralCare"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bible Reading</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The activity of reading the Bible, which bring peace and comfort to the reader.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#BehaviouralObservation">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#ManagementActivityOfEmotionalAndMoodDisturbanceInDementia"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behavioural Observation</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Acquisition of information about behaviors of a care recipient'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#BeingImpatientWithPersonWithDementia">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#BehaviourOfHealthCareProfessional"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Being Impatient with Person with Dementia</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Health care professional is impatient with person with dementia, e.g. rushing person with dementia in carrying out tasks.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#AvoidAskingComplexQuestion">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#CommunicatingActionAvoided"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avoid Asking Complex Question</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'People should avoid asking complex questions when communicating with people with dementia.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#Avoidance">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#ManifestationOfAnxietyInDementia"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avoidance</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A conscious or unconscious refusal to encounter situations, activities, or objects; the act or practice of keeping away from or withdrawing from something. From the U.S. Nationational Cancer Institute Thesaurus'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#AvoidUsingSlang">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#CommunicatingActionAvoided"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avoid Using Slang</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Avoid using words and phrases that are regarded as very informal, and are typically restricted to a particular context or group of people.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#AvailabilityOfNonpharmacologicalInterventionTrainingResource">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#FactorAffectingImplementationOfNonpharmacologicalIntervention"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Availability of Nonpharmacological Intervention Training Resource</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The availableness of resource for training health care professional about nonpharmacological intervention.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#BalloonGame">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#StructuredActivity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balloon Game</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The activity of playing with balloons.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#BeforeHandoverTime">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#Time"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Before Handover Time</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The time prior to handover.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#BehaviouralAssessment">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#HealthAssessment"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behavioural Assessment</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Assessing a person's unacceptable and/or inappropriate behavior(s) to identify the behavior(s) and determine why he or she is demonstrating a behavior(s).  From Alternative Billing Concepts'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#AvoidInterruptingWhenPersonWithDementiaIsTalking">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#CommunicatingActionAvoided"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avoid Interrupting When Person with Dementia is Talking</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'People should avoid interrupting a person with dementia when he/she is talking.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#BehavioralInaction">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#ManifestationOfEmotionalAndMoodDisturbanceInDementia"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behavioral Inaction</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The lack of the overall feedback or reply made by a person in any circumstances.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#AvoidOverexplaining">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#CommunicatingActionAvoided"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avoid Overexplaining</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'People should avoid overexplaining when communicating with people with dementia.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#AvoidScreaming">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#CommunicatingActionAvoided"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avoid Screaming</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'People should not scream when communicating with people with dementia.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#AvoidTellingPersonWithDementiaThatHeIsWrong">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#CommunicatingActionAvoided"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avoid Telling Person with Dementia that He is Wrong</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'People should avoid telling the person with dementia that he or she is wrong.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#AvoidCriticisingPersonWithDementia">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#CommunicatingActionAvoided"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avoid Criticising Person with Dementia</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'People should avoid criticising a person with dementia when communicating with him/her.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#AvoidNegativeWord">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#CommunicatingActionAvoided"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avoid Negative Word</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'People should avoid using negative word(s) when communicating with people with dementia.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#BathPreference">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#PersonalHygienePreference"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bath Preference</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Preference to personal hygiene, such as shaving preference, and hair care preference.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#BeingUnusuallyEmotional">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#ManifestationOfEmotionalAndMoodDisturbanceInDementia"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Being Unusually Emotional</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Being exceptionally affected by emotion'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#AvoidOpenEndedQuestion">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#CommunicatingActionAvoided"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avoid Open-Ended Question</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'People should avoid asking open-ended questions when communicating with people with dementia.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#BarbecueActivity">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#StructuredActivity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barbecue Activity</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The activity involving cooking and enjoying food that cooked using fire and smoke.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#BeforeDinner">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#Time"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Before Dinner</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The time prior to eating dinner.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#BeforeBreakfast">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#Time"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Before Breakfast</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The time prior to eating breakfast.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#BehaviourOfVisitor">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#InterpersonalCausativeFactor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behaviour of Visitor</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The behavior of visitors in the long-term care facilities.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#BeddingPreference">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#Preference"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bedding Preference</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Preference to the bedclothes, such as blankets and sheets used on a bed.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#BPSDAssessmentTraining">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#PersonCentredCareEudcationToHealthCareProfessional"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BPSD Assessment Training</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The training of BPSD (behavioural and psychological symptoms of dementia) Assessment that is provided to health care professionals.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#BalanceExercise">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#PhysicalExerciseTherapy"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balance Exercise</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Use of specific activities, postures, and movements to maintain, enhance, or restore balance. From Nursing Interventions Classification (NIC)'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#BehaviourRatingScaleForDementia">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#AssessmentToolForEmotionalAndMoodDisturbanceInDementia"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behaviour Rating Scale for Dementia</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The Behavior Rating Scale for Dementia (BRSD) is a standardized instrument for rating behavioral abnormalities in demented or cognitively impaired subjects. Descriptive items are scaled according to frequency of psychopathological behavior. From Duke Aging Center https://sites.duke.edu/centerforaging/cerad/assessments/behavior-rating-scale-dementia-brsd/'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#Bathroom">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#LocationOfManifestationOfEmotionalAndMoodDisturbance"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bathroom</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A room containing a bath or shower and typically also a washbasin and a toilet. From Oxfor Languages'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#Bereavement">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#IntrapersonalCausativeFactor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bereavement</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Refers to the whole process of grieving and mourning and is associated with a deep sense of loss and sadness. From MeSH'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#Belief">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#BackgroundOfCareRecipient"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Belief</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A state or habit of mind in which trust or confidence is placed in some person or thing; conviction of the truth of some statement or the reality of some phenomenon. From the Computer Retrieval of Information on Scientific Projects (CRISP) Thesaurus'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#BehaviourTherapy">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#Psychotherapy"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behaviour Therapy</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The use of operant conditioning, including rewards and punishments, in helping a person create an atmosphere where he or she does not contribute to painful stimuli. From the U.S. National Cancer Institute Thesaurus'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#AvoidMultipleStepRequest">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#CommunicatingActionAvoided"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avoid Multiple-Step Request</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'People should avoid using a multiple-step request when communicating with people with dementia.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#BeforeBedtime">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#Time"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Before Bedtime</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The time prior to going to bed.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#BeingOverlyFamiliarWithOtherPeople">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#ManifestationOfEuphoriaInDementia"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Being Overly Familiar with Other People</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Being excessively familiar with other people'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#BiographicallyOrientatedMobilisation">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#TherapyForEmotionalAndMoodDisturbanceInDementia"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biographically Orientated Mobilisation</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A weekly 10-15 min activation that focused on the motor, cognitive, and emotional aspects of apathy by exploring the biography of people with dementia and orienting mobilization and interventions at previously pursued hobbies and interests. From Treusch Y, Page J, Niemann-Mirmehdi M, Gutzmann H, Heinz A, Rapp M. Apathy and its non-pharmacological treatment in dementia. Geropsych 2011;24:155–64.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#BehaviourOfOtherCareRecipient">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#InterpersonalCausativeFactor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behaviour of Other Care Recipient</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Behaviour of other care recipients living in the same long-term care facility'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#AvoidOfferingTooManyChoices">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#CommunicatingActionAvoided"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avoid Offering Too Many Choices</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'People should avoid offering too many choices when communicating with people with dementia.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#FeatureOfManifestationOfEmotionalAndMoodDisturbanceInDementia">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Feature of Manifestation of Emotional and Mood Disturbance in Dementia</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The distinctive attributes of manifestation of emotional and mood disturbances in dementia.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#PastoralCare">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#TherapyForEmotionalAndMoodDisturbanceInDementia"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pastoral Care</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Counseling or comfort given by ministers, priests, rabbis, etc., to those in need of help with emotional problems or stressful situations. From MeSH'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#Psychotherapy">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#TherapyForEmotionalAndMoodDisturbanceInDementia"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Psychotherapy</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Psychotherapy is the use of psychological methods, particularly when based on regular interaction with people, to help them change behaviour and overcome problems in desired ways.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#FactorAffectingImplementationOfNonpharmacologicalIntervention">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Factor Affecting Implementation of Nonpharmacological Intervention</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The factors that could affect the implementation of nonpharmacological interventions to emotional and mood disturbances in dementia in the long term care facility.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#ManifestationOfEmotionalAndMoodDisturbanceInDementia">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manifestation of Emotional and Mood Disturbance in Dementia</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The actions of a person with dementia that clearly show the emotional and mood disturbances.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#PhysicalExerciseTherapy">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#TherapyForEmotionalAndMoodDisturbanceInDementia"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physical Exercise Therapy</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Activities to promote physical functioning. From Clinical Care Classification'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#IntrapersonalCausativeFactor">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#CausativeFactorOfEmotionalAndMoodDisturbanceInDementia"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intrapersonal Causative Factor</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The intrapersonal factors that may cause emotional and mood disturbances in people with dementia.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#TherapyForEmotionalAndMoodDisturbanceInDementia">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#PersonWithDementiaFocusedIntervention"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Therapy for Emotional and Mood Disturbance in Dementia</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Conceptually broad term referring to psychological or physical measures designed to ameliorate emotional and mood disturbances in dementia.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#HealthAssessment">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#ManagementActivityOfEmotionalAndMoodDisturbanceInDementia"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Health Assessment</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A health assessment looks at a person's health, physical, psychological and social function.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#PersonalHygienePreference">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#Preference"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal Hygiene Preference</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Preference to personal hygiene, such as shaving preference, and hair care preference.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#HealthCareProfessionalFocusedIntervention">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#NonpharmacologicalIntervention"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Health Care Professional Focused Intervention</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The interventions targeting health care professionals delivering care to people with dementia.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#ManifestationOfAnxietyInDementia">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#ManifestationOfEmotionalAndMoodDisturbanceInDementia"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manifestation of Anxiety in Dementia</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The actions of a person with dementia that clearly show the anxiety.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#InterpersonalCausativeFactor">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#CausativeFactorOfEmotionalAndMoodDisturbanceInDementia"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interpersonal Causative Factor</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Interpersonal factors that may cause emotional and mood disturbances in people with dementia.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#Time">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Time</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The dimension of the physical universe which, at a given place, orders the sequence of events. From MeSH'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#BehaviourOfHealthCareProfessional">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#InterpersonalCausativeFactor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behaviour of Health Care Professional</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The acts or conducts of health care professional.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#ManifestationOfEuphoriaInDementia">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#ManifestationOfEmotionalAndMoodDisturbanceInDementia"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manifestation of Euphoria in Dementia</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The actions of a person with dementia that clearly show the euphoria.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#CommunicatingActionAvoided">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#SkillForCommunicatingWithPersonWithDementia"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Communicating Action Avoided</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The communicating actions that should be avoided.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#Intervention">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#ManagementActivityOfEmotionalAndMoodDisturbanceInDementia"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intervention</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The actual treatments and actions that are performed to treat, or improve emotional and mood disturbances of a person with dementia.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#ManagementActivityOfEmotionalAndMoodDisturbanceInDementia">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Management Activity of Emotional and Mood Disturbance in Dementia</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The activities conducted for managing emotional and mood disturbances in people with dementia.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#PersonCentredCareEudcationToHealthCareProfessional">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#HealthCareProfessionalFocusedIntervention"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person Centred Care Education to Health Care Professional</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The education and training that provide health care professionals with knowledge and skills needed to deliver person centred care for people with dementia.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#AssessmentToolForEmotionalAndMoodDisturbanceInDementia">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Assessment Tool for Emotional and Mood Disturbance in Dementia</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Tool or scale which is used to assess the emotional and mood disturbances of person with dementia'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#StructuredActivity">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#PersonWithDementiaFocusedIntervention"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structured Activity</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The organized various activities for care recipients, which range from trivia games to puzzles.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#LocationOfManifestationOfEmotionalAndMoodDisturbance">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#FeatureOfManifestationOfEmotionalAndMoodDisturbanceInDementia"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Location of Manifestation of Emotional and Mood Disturbance</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The location (place) of manifestation of emotional and mood disturbances.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#Preference">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#BackgroundOfCareRecipient"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preference</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The act, fact, or principle of giving advantages to some particular person, object, or course of action over others; designated as more desirable. From the U.S. National Cancer Institute Thesaurus'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#PersonWithDementiaFocusedIntervention">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#NonpharmacologicalIntervention"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person with Dementia Focused Intervention</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The interventions targeting people with dementia.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#CausativeFactorOfEmotionalAndMoodDisturbanceInDementia">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Causative Factor of Emotional and Mood Disturbance in Dementia</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The factors that could cause the emotional and mood disturbances in people with dementia.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#NonpharmacologicalIntervention">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#Intervention"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nonpharmacological Intervention</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The intervention which does not use drugs.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#PersonalityTrait">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#BackgroundOfCareRecipient"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personality Trait</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The characteristics in behavior that a certain person has. from the U.S. National Cancer Institute Thesaurus'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#SkillForCommunicatingWithPersonWithDementia">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill for Communicating with Person with Dementia</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The technique for effectively communicating with person with dementia.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/zhenyuzhang/ontologies/2021/DREAMDNPTO#BackgroundOfCareRecipient">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Background of Care Recipient</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Information about the background of a care recipient'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DREAMDNPTO</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

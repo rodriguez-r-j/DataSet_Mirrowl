@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#elderly_age_group">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">elderly age group</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LDERLY AGE GROU</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LDERLY AGE GROU</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#dutch_population">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dutch population</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UTCH POPULATIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UTCH POPULATIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#ehr_ccr">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ehr ccr</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HR CC</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HR CC</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#g_transition_a">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">g transition a</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> TRANSITION </ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> TRANSITION </ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Effect">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#Qualitative_concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Effect</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Concept: Effect 
+CUI: C1280500 
+Semantic Type:  Qualitative Concept 
+
+Definition: 
+A phenomenon that follows and is caused by some previous phenomenon. (NCI Thesaurus)'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#ethnic_group">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ethnic group</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THNIC GROU</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THNIC GROU</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#diagnostic_result">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diagnostic result</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAGNOSTIC RESUL</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAGNOSTIC RESUL</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#drug_administration_duration">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drug administration duration</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RUG ADMINISTRATION DURATIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RUG ADMINISTRATION DURATIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#english_population">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">english population</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGLISH POPULATIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NGLISH POPULATIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#del_c">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">del c</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EL </ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EL </ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Del394">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#Related_Del394_TT"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#Nucleotide_location_in_human_CFTR_gene"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Del394</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Diphosphonates">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#Pharmacologic_substance"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diphosphonates</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Concept: Diphosphonates 
+CUI: C0012544 
+Semantic Type:  Organophosphorus Compound 
+ Pharmacologic Substance 
+
+Definition: 
+Organic compounds which contain P-C-P bonds, where P stands for phosphonates or phosphonic acids. These compounds affect calcium metabolism. They inhibit ectopic calcification and slow down bone resorption and bone turnover. Technetium complexes of diphosphonates have been used successfully as bone scanning agents. (MeSH) 
+
+organic compounds which contain P-C-P bonds, where P stands for phosphonates or phosphonic acids; these compounds affect calcium metabolism; they inhibit ectopic calcification and slow down bone resorption and bone turnover; technetium complexes of diphosphonates have been used successfully as bone scanning agents. (CRISP Thesaurus) 
+ 
+[Synonyms: Bisphosphonates]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Dilated">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#Functional_concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dilated</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Concept: Dilated 
+CUI: C0700124 
+Semantic Type:  Functional Concept 
+
+
+Definition: None found.
+ [Synonyms: Distended ; Ectatic]'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#french_population">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">french population</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RENCH POPULATIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RENCH POPULATIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#elderly_cf">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">elderly cf</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LDERLY C</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LDERLY C</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#diagnostic_procedure">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diagnostic procedure</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAGNOSTIC PROCEDUR</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAGNOSTIC PROCEDUR</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#g_transversion_c">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">g transversion c</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> TRANSVERSION </ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> TRANSVERSION </ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#gastrointestinal_diseases">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gastrointestinal diseases</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASTROINTESTINAL DISEASE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASTROINTESTINAL DISEASE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#delta_phe508">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">delta phe508</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ELTA PHE50</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ELTA PHE50</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#del_t">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">del t</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EL </ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EL </ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#drug_administration_schedule">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drug administration schedule</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RUG ADMINISTRATION SCHEDUL</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RUG ADMINISTRATION SCHEDUL</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Dehydration">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#Conditions"/>
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#Disease_or_syndrome"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dehydration</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Concept: Dehydration 
+CUI: C0011175 
+Semantic Type:  Disease or Syndrome 
+
+Definition: 
+The condition that results from excessive loss of water from a living organism. (MeSH)'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#g1717_minus_1_a">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">g1717 minus 1 a</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1717 MINUS 1 </ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1717 MINUS 1 </ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Exon">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#DNA"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exon</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Concept: Exons 
+CUI: C0015295 
+Semantic Type:  Nucleic Acid, Nucleoside, or Nucleotide 
+ Biologically Active Substance 
+
+Definition: 
+The parts of a transcript of a split GENE remaining after the INTRONS are removed. They are spliced together to become a MESSENGER RNA or structural RNA. (MeSH)'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#del_g">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">del g</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EL </ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EL </ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#g">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">g</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#del_u">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">del u</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EL </ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EL </ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#g621_plus_1">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">g621 plus 1</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">621 PLUS </ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">621 PLUS </ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#digestive_enzymes">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">digestive enzymes</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IGESTIVE ENZYME</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IGESTIVE ENZYME</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#desire_for_food">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">desire for food</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ESIRE FOR FOO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ESIRE FOR FOO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#g1717_minus_1">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">g1717 minus 1</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1717 MINUS </ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1717 MINUS </ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Finns">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#Ethnic_group"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finns</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Concept: Finns 
+CUI: C0337803 
+Semantic Type:  Population Group 
+
+
+Definition: None found.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#food_hypersensitivity">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food hypersensitivity</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OOD HYPERSENSITIVIT</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OOD HYPERSENSITIVIT</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#from_infancy_up_to_six_years_old">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">from infancy up to six years old</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROM INFANCY UP TO SIX YEARS OL</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROM INFANCY UP TO SIX YEARS OL</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#disease_or_syndrome">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease or syndrome</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISEASE OR SYNDROM</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISEASE OR SYNDROM</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#functional_concept">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">functional concept</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UNCTIONAL CONCEP</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UNCTIONAL CONCEP</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Female">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#Sex_group"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Concept: Female 
+CUI: C0015780 
+Semantic Type:  Organism Attribute 
+
+Definition: 
+use in conjunction with a disease, disorder, dysfunction, body system, or function which is gender specific. (CRISP Thesaurus) 
+
+In zoology, denoting the sex that bears the young or the ovum. (NCI Thesaurus) 
+
+Female (HL7 Version 3.0)'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#decreased_isolation_of_staphylococcus_aureus">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decreased isolation of staphylococcus aureus</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ECREASED ISOLATION OF STAPHYLOCOCCUS AUREU</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ECREASED ISOLATION OF STAPHYLOCOCCUS AUREU</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Decrease">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#Functional_concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Decrease</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#distended_abdomen">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">distended abdomen</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISTENDED ABDOME</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISTENDED ABDOME</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Diseases">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#Disease_or_syndrome"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diseases</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Concept: Disease 
+CUI: C0012634 
+Semantic Type:  Disease or Syndrome 
+Definition: 
+A definite pathologic process with a characteristic set of signs and symptoms. It may affect the whole body or any of its parts, and its etiology, pathology, and prognosis may be known or unknown. (MeSH)  
+'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#deferred_puberty">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deferred puberty</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFERRED PUBERT</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFERRED PUBERT</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#digestive_system_diseases">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">digestive system diseases</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IGESTIVE SYSTEM DISEASE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IGESTIVE SYSTEM DISEASE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#g_transversion_t">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">g transversion t</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> TRANSVERSION </ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> TRANSVERSION </ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#del_a">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">del a</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EL </ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EL </ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Deferred">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#Temporal_concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deferred</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Concept: Deferred 
+CUI: C0205421 
+Semantic Type:  Temporal Concept 
+
+Definition: 
+The state of being slower or later. (NCI Thesaurus) 
+
+Time during which some action is awaited; inactivity resulting in something being put off until a later time. (NCI Thesaurus)'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#g621_plus_1_t">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">g621 plus 1 t</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">621 PLUS 1 </ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">621 PLUS 1 </ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Diarrhea">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#Signs_and_symptoms_digestive"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diarrhea</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Concept: Diarrhea 
+CUI: C0011991 
+Semantic Type:  Sign or Symptom 
+
+Definition: 
+An increased liquidity or decreased consistency of FECES, such as running stool. Fecal consistency is related to the ratio of water-holding capacity of insoluble solids to total water, rather than the amount of water present. Diarrhea is not hyperdefecation or increased fecal weight. (MeSH)'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Del395">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#Nucleotide_location_in_human_CFTR_gene"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Del395</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#del394_tt">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">del394 tt</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EL394 T</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EL394 T</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Population_group">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#Group"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Population_group</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Semantic Type: Population Group
+TUI: T098
+Definition: An indivdual or individuals classified according to their sex, racial origin, religion, common place of living, financial or social status, or some other cultural or behavioral attribute.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Problems">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#Coding"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Problems</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Data_representation">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#EHR_CCR"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data_representation</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Sign_and_symptom">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#Conceptual_entity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sign_and_symptom</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Concept: Signs and Symptoms 
+CUI: C0037088 
+Semantic Type:  Sign or Symptom 
+Definition: 
+Clinical manifestations that can be either objective when observed by a physician, or subjective when perceived by the patient. (MeSH) 
+ 
+Semantic Type: Sign or Symptom
+TUI: T184
+Definition: An observable manifestation of a disease or condition based on clinical judgment, or a manifestation of a disease or condition which is experienced by the patient and reported as a subjective observation.
+
+'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Coding">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#Data_representation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coding</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Related_Del394_TT">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#Relationship_groups"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Related_Del394_TT</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Conceptual_entity">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#KBCF"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual_entity</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Semantic Type: Conceptual Entity
+TUI: T077
+Definition: A broad type for grouping abstract entities or concepts.
+'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#KBCF">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KBCF</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Sex_group">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#Population_group"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sex_group</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Signs_and_symptoms_digestive">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#Sign_and_symptom"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Signs_and_symptoms_digestive</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Concept: Signs and Symptoms, Digestive 
+CUI: C0037089 
+Semantic Type:  Sign or Symptom 
+
+Definition: 
+Digestive system manifestations of diseases of the gastrointestinal system or of other organs. (MeSH) 
+ 
+'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Conditions">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#Problems"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conditions</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Group">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#Conceptual_entity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Group</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Semantic Type: Group
+TUI: T096
+Definition: A conceptual entity referring to the classification of individuals according to certain shared characteristics.
+'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Idea_or_concept">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#Conceptual_entity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idea_or_concept</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Semantic Type: Idea or Concept
+TUI: T078
+Definition: An abstract concept, such as a social, religious or philosophical concept.
+'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Temporal_concept">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#Idea_or_concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temporal_concept</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Semantic Type: Temporal Concept
+TUI: T079
+Definition: A concept which pertains to time or duration.
+'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Pathologic_function">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#Phenomenon_or_process"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathologic_function</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Semantic Type: Pathologic Function
+TUI: T046
+Definition: A disordered process, activity, or state of the organism as a whole, of a body system or systems, or of multiple organs or tissues. Included here are normal responses to a negative stimulus as well as patholologic conditions or states that are less specific than a disease. Pathologic functions frequently have systemic effects.
+'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Pharmacologic_substance">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#Substance"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pharmacologic_substance</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Semantic Type: Pharmacologic Substance
+TUI: T121
+Definition: A substance used in the treatment or prevention of pathologic disorders. This includes substances that occur naturally in the body and are administered therapeutically.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Physical_object">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#KBCF"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physical_object</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Semantic Type: Physical Object
+TUI: T072
+Definition: An object perceptible to the sense of vision or touch.
+'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#DNA">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#Nucleic_acid_nucleoside_or_nucleotide"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Concept: DNA 
+CUI: C0012854 
+Semantic Type:  Nucleic Acid, Nucleoside, or Nucleotide 
+ Biologically Active Substance 
+
+Definition: 
+deoxyribonucleotide polymer that is the primary genetic material of all cells; eukaryotic and prokaryotic organisms normally contain DNA in a double-stranded state, yet several important biological processes transiently involve single-stranded regions; DNA, which consists of a polysugar-phosphate backbone possessing projections of purines (adenine and guanine) and pyrimidines (thymine and cytosine), forms a double helix that is held together by hydrogen bonds between these purines and pyrimidines (adenine to thymine and guanine to cytosine). (CRISP Thesaurus) 
+
+A deoxyribonucleotide polymer that is the primary genetic material of all cells. Eukaryotic and prokaryotic organisms normally contain DNA in a double-stranded state, yet several important biological processes transiently involve single-stranded regions. DNA, which consists of a polysugar-phosphate backbone possessing projections of purines (adenine and guanine) and pyrimidines (thymine and cytosine), forms a double helix that is held together by hydrogen bonds between these purines and pyrimidines (adenine to thymine and guanine to cytosine). (MeSH) 
+
+Desoxyribonucleic acid. (Alternative Billing Concepts)'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Nucleic_acid_nucleoside_or_nucleotide">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#Chemical"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nucleic_acid_nucleoside_or_nucleotide</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Semantic Type: Nucleic Acid, Nucleoside, or Nucleotide
+TUI: T114
+Definition: A complex compound of high molecular weight occurring in living cells. These are basically of two types, ribonucleic (RNA) and deoxyribonucleic (DNA) acids. Nucleic acids are made of nucleotides (nitrogen-containing base, a 5-carbon sugar, and one or more phosphate group) linked together by a phosphodiester bond between the 5' and 3' carbon atoms. Nucleosides are compounds composed of a purine or pyrimidine base (usually adenine, cytosine, guanine, thymine, uracil) linked to either a ribose or a deoxyribose sugar.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Disease_or_syndrome">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#Pathologic_function"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease_or_syndrome</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Semantic Type: Disease or Syndrome
+TUI: T047
+Definition: A condition which alters or interferes with a normal process, state, or activity of an organism. It is usually characterized by the abnormal functioning of one or more of the host's systems, parts, or organs. Included here is a complex of symptoms descriptive of a disorder.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Spatial_concept">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#Idea_or_concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spatial_concept</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Semantic Type: Spatial Concept
+TUI: T082
+Definition: A location, region, or space, generally having definite boundaries.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Chemical">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#Substance"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Semantic Type: Chemical
+TUI: T103
+Definition: Compounds or substances of definite molecular composition. Chemicals are viewed from two distinct perspectives in the network, functionally and structurally. Almost every chemical concept is assigned at least two types, generally one from the structure hierarchy and at least one from the function hierarchy.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Phenomenon_or_process">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#KBCF"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phenomenon_or_process</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Semantic Type: Phenomenon or Process
+TUI: T067
+Definition: A process or state which occurs naturally or as a result of an activity.
+
+ 
+'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Nucleotide_location_in_human_CFTR_gene">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#Spatial_concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nucleotide_location_in_human_CFTR_gene</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'CFTR gene cDNA nucleotide sequence location'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Ethnic_group">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#Population_group"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ethnic_group</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Concept: Ethnic group 
+CUI: C0015031 
+Semantic Type:  Population Group 
+
+
+Definition: None found.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Substance">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#Physical_object"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Substance</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Semantic Type: Substance
+TUI: T167
+Definition: A material with definite or fairly definite chemical composition.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Qualitative_concept">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#Idea_or_concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qualitative_concept</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Functional_concept">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#Idea_or_concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Functional_concept</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Semantic Type: Functional Concept
+TUI: T169
+Definition: A concept which is of interest because it pertains to the carrying out of a process or activity.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#Relationship_groups">
+    <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/assert.owl#Data_representation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Relationship_groups</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.owl-ontologies.com/assert.owl#EHR_CCR">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHR_CCR</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTOKBCF</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

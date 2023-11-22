@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00014">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00010"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biophysics</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00016">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00010"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structural Biology</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00043">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00038"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geodesy</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00055">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00050"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Systems Engineering</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00065">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anthropology</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00008">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Political Science</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00034">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00033"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemistry</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00045">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00038"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physical Geography</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00025">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00010"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microbiology</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00017">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00010"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genetics</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00040">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00038"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oceanography</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00041">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00038"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geology</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00003">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Archaeology</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00005">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Education</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00015">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00010"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Biology</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00044">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00038"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geochemistry</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00036">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00033"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astronomy</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00032">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00010"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Forestry</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00028">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00010"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuroscience</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00035">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00033"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physics</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00064">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00068"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Statistics</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00020">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00010"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomy</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00023">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00010"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ecology</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00009">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Economics</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00022">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00010"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zoology</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00027">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00010"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epidemiology</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00058">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00050"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Software Engineering</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00013">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00010"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochemistry</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00030">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00010"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Agricultural Research</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00056">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00050"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Electrical Engineering</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00042">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00038"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geophysics</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00053">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00050"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Materials Science</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00049">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00038"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hydrology</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00039">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00038"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atmospheric Science</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00031">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00038"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soil Science</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00057">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00068"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computer Science</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00018">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00010"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Developmental Biology</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00052">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00050"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Materials Engineering</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00063">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00068"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data science</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00062">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00050"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyberinfrastructure</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00019">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00010"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bioinformatics</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00037">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00068"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mathematics</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00021">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00010"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant Science</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00006">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Psychology</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00067">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Natural Science</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00010">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00067"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Life Science</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00004">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Social Science</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00050">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Engineering</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00068">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Formal Science</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00000">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Academic Discipline</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00038">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00033"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geoscience</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="https://purl.dataone.org/odo/ADCAD_00033">
+    <rdfs:subClassOf rdf:resource="https://purl.dataone.org/odo/ADCAD_00067"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physical Science</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADCAD</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

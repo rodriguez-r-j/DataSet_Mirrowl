@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/EmploymentStatus">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/Characteristic"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EmploymentStatus</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/FriendPresence">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/FramilyPresence"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FriendPresence</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/Grief">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/Emotion"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grief</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/FamilyHistory">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/PatientHistoryFactor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FamilyHistory</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/Fiance">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/Partner"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fiance</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/Familiarity">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/RelationalQuality"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Familiarity</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/Handcuffs">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/Restraints"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Handcuffs</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/GuardianPresence">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/SocialFactor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GuardianPresence</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/EyeContact">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/NonVerbalCommunicationFactor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EyeContact</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/Girlfriend">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/Partner"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Girlfriend</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/ExternalNoise">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/ExternalAtmosphericFactor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ExternalNoise</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/GreatGrandMother">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/GreatGrandParent"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GreatGrandMother</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/GrandParentPresence">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/FamilyPresence"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GrandParentPresence</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/Enunciation">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/ParaVerbalCommunicationFactor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enunciation</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/Encounter">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/Event"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Encounter</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/ExternalWeather">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/ExternalAtmosphericFactor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ExternalWeather</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/EncounterBeginning">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/EncounterComponent"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EncounterBeginning</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/ExternalTemperature">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/ExternalAtmosphericFactor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ExternalTemperature</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/Guilt">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/Emotion"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guilt</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/EncounterEnd">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/EncounterComponent"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EncounterEnd</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/Examination">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/ProviderAction"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Examination</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/GreatGrandFather">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/GreatGrandParent"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GreatGrandFather</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/Ethnicity">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/Characteristic"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ethnicity</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/HandWashing">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/ProviderAction"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HandWashing</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/Friend">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/Framily"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Friend</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/Fear">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/Emotion"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fear</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/Father">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/Parent"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Father</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/FacialExpression">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/NonVerbalCommunicationFactor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FacialExpression</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/GenderNonConforming">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/OtherGender"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GenderNonConforming</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/ExaminationDevice">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/MedicalDevice"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Examination Device</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/Guardian">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/GeneralRole"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guardian</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/GrandMother">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/GrandParent"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GrandMother</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/EncounterTransition">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/EncounterComponent"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EncounterTransition</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/Female">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/Gender"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/EyeCovering">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/TherapeuticDevice"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eye Covering</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/GrandFather">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/GrandParent"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GrandFather</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/Empathy">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/RelationalQuality"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Empathy</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/ProviderAction">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/Action"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProviderAction</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/Characteristic">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Characteristic</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/SocialFactor">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/EnvironmentFactor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SocialFactor</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/MedicalDevice">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/Device"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medical Device</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/Partner">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/Framily"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Partner</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/Emotion">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emotion</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/RoomFactor">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/EnvironmentFactor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RoomFactor</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/GreatGrandParent">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/FamilyMember"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GreatGrandParent</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/Gender">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/Characteristic"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gender</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/Object">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Object</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/ParaVerbalCommunicationFactor">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/CommunicationFactor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ParaVerbalCommunicationFactor</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/Factor">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Factor</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/CommunicationFactor">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/Factor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CommunicationFactor</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/GrandParent">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/FamilyMember"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GrandParent</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/NonVerbalCommunicationFactor">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/CommunicationFactor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NonVerbalCommunicationFactor</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/OtherGender">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/Gender"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OtherGender</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/Quality">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quality</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/PhysicalArtifactFactor">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/RoomFactor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PhysicalArtifactFactor</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/PatientHistoryFactor">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/Factor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PatientHistoryFactor</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/FramilyPresence">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/SocialFactor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FramilyPresence</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/TherapeuticDevice">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/MedicalDevice"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Therapeutic Device</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/Action">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/Event"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Action</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/Parent">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/FamilyMember"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parent</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/EncounterComponent">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/Event"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EncounterComponent</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/Device">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/Object"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Device</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/RelationalQuality">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/Quality"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RelationalQuality</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/Framily">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/GeneralRole"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Framily</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/Restraints">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/PhysicalBodilyArtifactFactor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Restraints</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/GeneralRole">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/Person"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Role</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/Event">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Event</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/FamilyMember">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/Framily"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FamilyMember</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/EnvironmentFactor">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/Factor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EnvironmentFactor</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/ExternalAtmosphericFactor">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/RoomFactor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ExternalAtmosphericFactor</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/Person">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/FamilyPresence">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/FramilyPresence"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FamilyPresence</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://presence-ontology.org/ontology/PhysicalBodilyArtifactFactor">
+    <rdfs:subClassOf rdf:resource="http://presence-ontology.org/ontology/PhysicalArtifactFactor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PhysicalBodilyArtifactFactor</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREO</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

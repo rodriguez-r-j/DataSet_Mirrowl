@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns2="http://www.w3.org/2004/02/skos/core#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:ns3="http://purl.obolibrary.org/obo/"
+  xmlns:ns4="http://ontology.test.es/comment#"
+>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33561">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">d-block elements</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">d-block element</ns3:IAO_0000118>
+    <ns1:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns1:hasOBONamespace>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33561</ns2:notation>
+    <ns1:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">d-block elements</ns1:hasRelatedSynonym>
+    <ns1:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">d-block element</ns1:hasRelatedSynonym>
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">d-block</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30212">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gamma</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">light quantum</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">photon</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">foton</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lichtquant</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Light</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hnu</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:30212</ns2:notation>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Particle of zero charge, zero rest mass, spin quantum number 1, energy hnu and momentum hnu/c (h is the Planck constant, nu the frequency of radiation and c the speed of light), carrier of electromagnetic force.</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">photon</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15378">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChIKey=GPRLSGONYQIRFK-UHFFFAOYSA-N</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydron</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H+</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[H+]</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/p+1</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydrogen(1+)</ns3:IAO_0000118>
+    <ns1:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns1:hasOBONamespace>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:15378</ns2:notation>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG COMPOUND:C00080</ns1:hasDbXref>
+    <ns1:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H</ns1:hasRelatedSynonym>
+    <ns1:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChIKey=GPRLSGONYQIRFK-UHFFFAOYSA-N</ns1:hasRelatedSynonym>
+    <ns1:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H(+)</ns1:hasRelatedSynonym>
+    <ns1:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H+</ns1:hasRelatedSynonym>
+    <ns1:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/p+1</ns1:hasRelatedSynonym>
+    <ns1:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[H+]</ns1:hasRelatedSynonym>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The general name for the hydrogen nucleus, to be used without regard to the hydrogen nuclear mass (either for hydrogen in its natural abundance or where it is not desired to distinguish between the isotopes).</ns3:IAO_0000115>
+    <ns1:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:5584</ns1:hasAlternativeId>
+    <ns1:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:13357</ns1:hasAlternativeId>
+    <ns1:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:10744</ns1:hasAlternativeId>
+    <ns1:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydron</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydrogen(1+)</ns1:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydron</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36349">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pi(+)</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positive pion</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36349</ns2:notation>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A subatomic particle of charge number +1, zero spin and rest mass of 0.1498323(8) u, or 139.5679(7) MeV.</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pi positive meson</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50796">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nanoroehre</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nanoroehren</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanotubos</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanotubo</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:50796</ns2:notation>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nanometre sized tube composed of either organic or inorganic substances.</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanotube</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_10545">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">e</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta(-)</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta-particle</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">negatron</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electron</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">e-</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[*-]</ns3:IAO_0000118>
+    <ns1:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns1:hasOBONamespace>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:10545</ns2:notation>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG COMPOUND:C05359</ns1:hasDbXref>
+    <ns1:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CiteXplore:21614077</ns1:hasDbXref>
+    <ns1:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">e</ns1:hasRelatedSynonym>
+    <ns1:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta</ns1:hasRelatedSynonym>
+    <ns1:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">.</ns1:hasRelatedSynonym>
+    <ns1:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta-particle</ns1:hasRelatedSynonym>
+    <ns1:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">e(-)</ns1:hasRelatedSynonym>
+    <ns1:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">negatron</ns1:hasRelatedSynonym>
+    <ns1:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta(-)</ns1:hasRelatedSynonym>
+    <ns1:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[*-]</ns1:hasRelatedSynonym>
+    <ns1:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">e-</ns1:hasRelatedSynonym>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elementary particle not affected by the strong force having a spin 1/2, a negative elementary charge and a rest mass of 0.000548579903(13) u, or 0.51099906(15) MeV</ns3:IAO_0000115>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elementary particle not affected by the strong force having a spin 1/2, a negative elementary charge and a rest mass of 0.000548579903(13) u, or 0.51099906(15) MeV.</ns3:IAO_0000115>
+    <ns1:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electron</ns1:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electron</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36346">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quarks</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36346</ns2:notation>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quarks comprise one of two classes of the fundamental particles. Quarks possess fractional electric charges and are not observed in free state. The word 'quark' first appears in James Joyce's Finnegans Wake and has been chosen by Murray Gell-Mann as a name for fundamental building blocks of particles.</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quark</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33252">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleus</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atomkern</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleo</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">noyau</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclei</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">noyau atomique</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kern</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleus atomi</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleo atomico</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33252</ns2:notation>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nucleus is the positively charged central portion of an atom, excluding the orbital electrons.</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atomic nucleus</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36338">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leptons</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36338</ns2:notation>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lepton is a fermion that does not experience the strong force (strong interaction). The term is derived from the Greek lambdaepsilonpitauomicronsigma (small, thin).</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lepton</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36351">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neutral pion</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pi(0)</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36351</ns2:notation>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A subatomic particle of zero charge, zero spin and rest mass of 0.1449008(9) u, or 134.9743(8) MeV.</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pi zero meson</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36348">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pion</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pi meson</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pi-meson</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36348</ns2:notation>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The collective name for zero-spin mesons pi(+), pi(-) and pi(0).</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pi meson</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36366">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">u</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">u-quark</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36366</ns2:notation>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A first-generation quark with a charge of +2/3. The up and down quarks are the fundamental constituents of the nucleons.</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">up quark</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36365">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hyperons</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36365</ns2:notation>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A baryon which contain one or more strange quarks. Hyperons are short-lived and heavier than nucleons.</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hyperon</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30220">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">helion</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/He/q+2/i1-1</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">helium-3(2+)</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(3)He(2+)</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChIKey=LBDSXVIYZYSRII-BJUDXGSMSA-N</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[3He++]</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">He</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:30220</ns2:notation>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nucleus of the (3)He atom.</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">helion</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36371">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">t-quark</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">t</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36371</ns2:notation>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A third-generation quark with a charge of +2/3.</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">top quark</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33562">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">f-block elements</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">f-block element</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33562</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">f-block</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36353">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muon neutrino</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">numu</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36353</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muon neutrino</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36347">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear particle</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36347</ns2:notation>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nucleus or any of its constituents in any of their energy states.</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear particle</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50803">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanoparticule</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanoparticula</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanoparticles</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nanoteilchen</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:50803</ns2:notation>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nanosized spherical or capsule-shaped structure.</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanoparticle</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36355">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tauon</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tau-lepton</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tau</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36355</ns2:notation>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elementary particle not affected by the strong force having a spin 1/2, a negative elementary charge and a rest mass of 1777.05 MeV.</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tau lepton</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30222">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(1)0n</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neutron</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:30222</ns2:notation>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nuclear particle of zero charge, spin 1/2 and rest mass of 1.008664904(14) u.</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neutron</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36354">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tau-neutrino</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nutau</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36354</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tau neutrino</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36356">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mu(-)</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myon</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">My-Teilchen</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">negative muon</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muon</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mueon</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36356</ns2:notation>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elementary particle not affected by the strong force having a spin 1/2, a negative elementary charge and a rest mass of 0.113428913(17) u, or 105.658389(34) MeV.</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muon</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36341">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bosons</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">boson</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36341</ns2:notation>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Particle of integer spin quantum number following Bose-Einstein statistics. Bosons are named after Satyendra Nath Bose.</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">boson</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29233">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(2)1H(+)</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">d(+)</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deuterium(1+)</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(2)H(+)</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D(+)</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deuterium cation</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">d</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChIKey=GPRLSGONYQIRFK-DYCDLGHISA-N</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/p+1/i/hD</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deuteron</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[2H+]</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:29233</ns2:notation>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nucleus of the (2)H atom.</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deuteron</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30225">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta(+)</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[*+]</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">e(+)</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:30225</ns2:notation>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elementary particle not affected by the strong force having a spin 1/2, a positive elementary charge and a rest mass of 0.000548579903(13) u, or 0.51099906(15) MeV.</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33675">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p-block compounds</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p-block molecular entitiy</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p-block molecular entities</ns3:IAO_0000118>
+    <ns1:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns1:hasOBONamespace>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33675</ns2:notation>
+    <ns1:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p-block molecular entitiy</ns1:hasRelatedSynonym>
+    <ns1:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p-block molecular entities</ns1:hasRelatedSynonym>
+    <ns1:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p-block compounds</ns1:hasRelatedSynonym>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A p-block molecular entity is a molecular entity containing one or more atoms of a p-block element.</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p-block</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor preferred label</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor_preferred_term</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor preferred term</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36343">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">composite particles</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36343</ns2:notation>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A subatomic particle known to have substructure (i.e. consisting of smaller particles).</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">composite particle</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30214">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positive muon</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mu(+)</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mu</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mu(+)</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:30214</ns2:notation>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elementary particle not affected by the strong force having a spin 1/2, a positive elementary charge and a rest mass of 0.113428913(17) u, or 105.658389(34) MeV.</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antimuon</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24636">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(1)1H(+)</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p(+)</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proton</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protium(1+)</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(1)H(+)</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChIKey=GPRLSGONYQIRFK-FTGQXOHASA-N</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/p+1/i/hH</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[1H+]</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:24636</ns2:notation>
+    <ns3:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proton</ns3:IAO_0000111>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nuclear particle of charge number +1, spin 1/2 and rest mass of 1.007276470(12) u.</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proton</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36342">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subatomic particles</ns3:IAO_0000118>
+    <ns1:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns1:hasOBONamespace>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36342</ns2:notation>
+    <ns1:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subatomic particles</ns1:hasRelatedSynonym>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is a particle smaller than an atom.</ns3:IAO_0000115>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A particle smaller than an atom.</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subatomic particle</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">notation</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33253">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleons</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nukleonen</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleon</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nukleon</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33253</ns2:notation>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heavy nuclear particle: proton or neutron.</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleon</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30223">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neutrino</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electron neutrino</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nue</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:30223</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electron neutrino</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29234">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[3H+]</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tritium(1+)</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">triton</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">t(+)</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(3)1H(+)</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T(+)</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChIKey=GPRLSGONYQIRFK-MNYXATJNSA-N</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/p+1/i/hT</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">t</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(3)H(+)</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:29234</ns2:notation>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nucleus of the (3)H atom.</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">triton</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36344">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hadrons</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36344</ns2:notation>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hadron is a subatomic particle which experiences the strong force.</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hadron</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36367">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">d-quark</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">d</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36367</ns2:notation>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A first-generation quark with a charge of -1/3. The up and down quarks are the fundamental constituents of the nucleons.</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">down quark</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36350">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">negative pion</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pi(-)</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36350</ns2:notation>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A subatomic particle of charge number -1, zero spin and rest mass of 0.1498323(8) u, or 139.5679(7) MeV.</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pi minus meson</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36345">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mesons</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36345</ns2:notation>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A hadron with zero or integer spin; a strongly interacting boson. The term is derived from the Greek muepsilonsigmaomicronsigma (medium, middle).</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meson</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33233">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">elementary particles</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">elementary particle</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33233</ns2:notation>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A particle not known to have substructure.</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fundamental particle</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50805">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanorods</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:50805</ns2:notation>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nanoscale rod composed of either metallic or semiconducting material or a mixture of both.</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanorod</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36368">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">s</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">s-quark</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36368</ns2:notation>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A second-generation quark with a charge of -1/3 and a strangeness of -1.</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">strange quark</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36375">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36375</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Delta baryon</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30216">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/He/q+2/i1+0</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(4)He(2+)</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-particle</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[4He++]</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChIKey=LBDSXVIYZYSRII-IGMARMGPSA-N</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">He</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">helium-4(2+)</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:30216</ns2:notation>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nucleus of the (4)He atom.</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha particle</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_related_synonym</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36339">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">baryons</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36339</ns2:notation>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baryon is a fermion that does experience the strong force (strong interaction). The term is derived from the Greek betaalpharhoupsilonsigma (heavy).</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">baryon</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36340">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fermion</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fermions</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36340</ns2:notation>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Particle of half-integer spin quantum number following Fermi-Dirac statistics. Fermions are named after Enrico Fermi.</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fermion</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33674">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">s-block molecular entities</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">s-block molecular entity</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">s-block compounds</ns3:IAO_0000118>
+    <ns1:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</ns1:hasOBONamespace>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33674</ns2:notation>
+    <ns1:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">s-block molecular entities</ns1:hasRelatedSynonym>
+    <ns1:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">s-block compounds</ns1:hasRelatedSynonym>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An s-block molecular entity is a molecular entity containing one or more atoms of an s-block element.</ns3:IAO_0000115>
+    <ns1:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">s-block molecular entity</ns1:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">s-block</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36352">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nu</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36352</ns2:notation>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An elementary particle of spin 1/2, zero electric charge and negligible rest mass. Three known types (flavors) of neutrino are electron neutrino, muon neutrino and tau neutrino, named after their charged partner leptons. The term 'neutrino' has been coined by Enrico Fermi.</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neutrino</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36369">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c-quark</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36369</ns2:notation>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A second-generation quark with a charge of +2/3.</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">charm quark</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36370">
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b-quark</ns3:IAO_0000118>
+    <ns3:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b</ns3:IAO_0000118>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36370</ns2:notation>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A third-generation quark with a charge of -1/3.</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bottom quark</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alternative term</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_146278">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Higgs boson</rdfs:label>
+    <ns4:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMROF</ns4:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_alternative_id</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

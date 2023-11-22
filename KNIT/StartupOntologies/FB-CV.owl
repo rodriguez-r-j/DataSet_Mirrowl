@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns2="http://www.w3.org/2004/02/skos/core#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000372">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000372</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000370"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male sterile germline-dependent</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male sterile germ-line-dependent</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A phenotype of male sterility due to defects in the male germline.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000409">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000409</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000408"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal osmotic stress response</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">osmotic stress response defective</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Phenotype that is any abnormality in response to osmotic stress (GO:0006970). 'response to osmotic stress' is defined as: 'Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus indicating an increase or decrease in the concentration of solutes outside the organism or cell.''</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000368">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000368</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000366"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female sterile germline-dependent</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female sterile germ-line-dependent</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A phenotype of female sterility due to defects in the female germline.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000412">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000412</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000411"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal optomotor response</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">optomotor response defective, optomotor behaviour defective</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Phenotype that is any abnormality in optomotor response: a motor response during flight or walking that serves to stabilize both image formation on the retina and locomotor course.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000396">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000396</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000670"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000679"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal eclosion rhythm</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eclosion rhythm defective</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Phenotype that is any abnormality in eclosion rhythm (GO:0008062). 'eclosion rhythm' is defined as: 'The timing of the emergence of the adult fly from its pupal case, which usually occurs at dawn.''</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000401">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000401</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000721"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000679"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal mating rhythm</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mating rhythm defective</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Phenotype that is any abnormality in circadian mating behavior (GO:0035648). 'circadian mating behavior' is defined as: 'The fluctuation in mating behavior that occurs over an approximately 24 hour cycle.''</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000377">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000377</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000374"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female fertile</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Note - this term should not be used with the qualifier 'partially' - use female semi-sterile or female semi-fertile instead.', 'A phenotype that is the ability of females to produce fertilized eggs as a result of mating.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000379">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000379</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000008"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enhancer of variegation</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Typically, g2 is a chromosomal aberration or an insertion.', 'Genotype g1 is an enhancer of variegation if, and only if, some genotype g2 has a variegated phenotype and the degree of variegation caused by g1g2 is greater than that caused by g2 alone.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000367">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000367</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000365"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female semi-sterile</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A phenotype that is a reduction in the ability of females to produce fertilized eggs as a result of mating to below 50% of wild-type.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000405">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000405</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000681"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal taste perception</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">taste defective, taste perception defective, gustation defective</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Phenotype that is any abnormality in sensory perception of taste (GO:0050909). 'sensory perception of taste' is defined as: 'The series of events required for an organism to receive a gustatory stimulus, convert it to a molecular signal, and recognize and characterize the signal. Gustation involves the direct detection of chemical composition, usually through contact with chemoreceptor cells. This is a neurological process.''</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000413">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000413</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0001347"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal phototaxis</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phototaxis defective, phototaxis behaviour defective</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Phenotype that is any abnormality in phototaxis (GO:0042331). 'phototaxis' is defined as: 'The directed movement of a motile cell or organism in response to light.''</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000390">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000390</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0001347"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decreased rate of movement</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypoactive, reduced rate of movement</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A phenotype consisting of an decrease in any kind of rate (e.g. speed, frequency) of `multicellular organismal movement` (GO:0050879) compared to wild-type.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000388">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000388</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0001347"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal gravitaxis</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gravitaxis behavior defective, gravitaxis defective, geotaxis behaviour defective</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Phenotype that is a change in the strong tendency, seen in wild-type Drosophila melanogaster, to climb - a behavior otherwise known as negative gravitaxis (GO:0048060 ; movement away from the source of gravity).', 'Note, this term should not be used when flies have climbing defects purely as a consequence of locomotion defects, use 'locomotor behavior defective' instead.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000385">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000385</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0002004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">short lived</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased adult mortality</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Phenotype that is a shorter adult life-span than wild-type.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000402">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000402</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000399"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal song</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">song defective, singing defective, song production defective</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Phenotype that is any abnormality in male courtship behavior, veined wing generated song production (GO:0045433). This is defined as 'The process during wing vibration where the male insect produces a species-specific acoustic signal called a love song.''</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000380">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000380</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0001347"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-enhancer of variegation</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Genotype g1 is a non-enhancer of variegation of the phenotype due to genotype g2 if, and only if, g2 has a variegated phenotype and the degree of variegation caused by g1g2 is not greater than that caused by g2 alone.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000398">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000398</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000387"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal memory</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory defective</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Phenotype that is any abnormality in memory (GO:0007613). 'memory' is defined as: 'The activities involved in the mental information processing system that receives (registers), modifies, stores, and retrieves informational stimuli. The main stages involved in the formation and retrieval of memory are encoding (processing of received information by acquisition), storage (building a permanent record of received information as a result of consolidation) and retrieval (calling back the stored information and use it in a suitable way to execute a given task).''</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000406">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000406</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000680"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal tarsal response</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tarsal response defective</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Phenotype that is any abnormality in or absense of proboscis extension reflex in response to a sugar stimulus via taste sensilla on the tarsus.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000410">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000410</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000408"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000683"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal heat stress response</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heat stress response defective</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Phenotype that is any abnormality in response to heat (GO:0009408). 'response to heat' is defined as: 'Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a heat stimulus, a temperature stimulus above the optimal temperature for that organism.''</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000404">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000404</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000681"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal smell perception</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">smell perception defective, olfaction defective</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Phenotype that is any abnormality in sensory perception of smell (GO:0007608). 'sensory perception of smell' is defined as: 'The series of events required for an organism to receive an olfactory stimulus, convert it to a molecular signal, and recognize and characterize the signal. Olfaction involves the detection of chemical composition of an organism's ambient medium by chemoreceptors. This is a neurological process.''</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000378">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000378</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0001347"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">grandchildless</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A phenotype in which all offspring are sterile. Typically, this is due to maternal effect sterility resulting from defects in pole cell development.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000373">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000373</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000370"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male sterile soma-dependent</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A phenotype of male sterility due to defects in somatic cells of the testis (FBbt:00006031) or of the products of these cells.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000391">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000391</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000389"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bang sensitive</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">easily shocked</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A phenotype exhibited following mechanical shock and consisting of a brief period of intense, uncoordinated motor activity (legs and wings flailing, abdomen coiling) followed by a prolonged period of paralysis.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000383">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000383</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0001347"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">auxotroph</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A phenotype that is the inability to synthesize some organic compound that can be synthesized by wild-type animals, and that is required for normal growth and/or development.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000407">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000407</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000681"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal auditory perception</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">auditory system defective, auditory perception defective</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Phenotype that is any abnormality in sensory perception of sound (GO:0007605). 'sensory perception of sound' is defined as: 'The series of events required for an organism to receive an auditory stimulus, convert it to a molecular signal, and recognize and characterize the signal. Sonic stimuli are detected in the form of vibrations and are processed to form a sound.''</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000392">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000392</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0001347"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased rate of movement</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hyperactive</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A phenotype consisting of an increase in any kind of rate (e.g. speed, frequency) of `multicellular organismal movement` (GO:0050879) compared to wild-type.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000371">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000371</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000365"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male semi-sterile</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A phenotype that is a reduction in the ability of males to produce fertilized eggs as a result of mating to below 50% of wild-type.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000397">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000397</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000387"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal learning</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">learning defective</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Phenotype that is any abnormality in learning (GO:0007612). 'learning' is defined as: 'Any process in an organism in which a relatively long-lasting adaptive behavioral change occurs as the result of experience.''</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000393">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000393</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000408"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal pain response</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pain response defective</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Phenotype that is any abnormality in response to pain (GO:0048265). 'response to pain' is defined as: 'Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a pain stimulus. Pain stimuli cause activation of nociceptors, peripheral receptors for pain, include receptors which are sensitive to painful mechanical stimuli, extreme heat or cold, and chemical stimuli.''</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000382">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000382</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0001347"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-suppressor of variegation</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Genotype g1 is a non-suppressor of variegation of the phenotype due to genotype g2 if, and only if, g2 has a variegated phenotype and the degree of variegation caused by g1g2 is not less than that caused by g2 alone.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">notation</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000384">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000384</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0001347"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal aging</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aging defective</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Phenotype that is any abnormality in aging (GO:0007568). 'aging' is defined as: 'A developmental process that is a deterioration and loss of function over time. Aging includes loss of functions such as resistance to disease, homeostasis, and fertility, as well as wear and tear. Aging includes cellular senescence, but is more inclusive. May precede death and may succeed developmental maturation (GO:0021700).''</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000369">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000369</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000366"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female sterile soma-dependent</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A phenotype of female sterility due to defects in somatic cells of the ovary (FBbt:00006030), or of the products of these cells (such as eggshell).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000395">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000395</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000414"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000679"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal locomotor rhythm</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locomotor rhythm defective</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Phenotype that is any abnormality in locomotor rhythm (GO:0045475). 'locomotor rhythm' is defined as: 'The rhythm of the locomotor activity of an organism during its 24 hour activity cycle.''</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000381">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000381</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000008"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">suppressor of variegation</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Genotype g1 is a suppressor of variegation if, and only if, some genotype g2 has a variegated phenotype and the degree of variegation caused by g1g2 is less than that caused by to g2 alone.', 'Typically, g2 is a chromosomal aberration or an insertion.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000386">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000386</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0001347"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long lived</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Phenotype that is a longer adult life-span than wild-type.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000375">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000375</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0001347"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000374"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">semi-fertile</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A phenotype that is a reduction in the ability to produce fertilized eggs as a result of mating, but only to &gt; 50% of wild-type.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000376">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000376</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000374"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male fertile</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Note - this term should not be used with the qualifier 'partially' - use male semi-sterile or male semi-fertile instead.', 'A phenotype that is the ability of males to produce fertilized eggs as a result of mating.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000807">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000807</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000013"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">allele descriptor</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Descriptor that relates to aspects of an allele.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000721">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000721</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000387"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000400"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal mating behavior</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mating behavior defective</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Phenotype that is any abnormality in mating behavior (GO:0007617). 'mating behavior' is defined as: 'The behavioral interactions between organisms for the purpose of mating, or sexual reproduction resulting in the formation of zygotes.''</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000414">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000414</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000387"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal locomotor behavior</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locomotor behaviour defective, locomotor behavior defective</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Phenotype that is any abnormality in locomotory behavior (GO:0007626). 'locomotory behavior' is defined as: 'The specific movement from place to place of an organism in response to external or internal stimuli. Locomotion of a whole organism in a manner dependent upon some combination of that organism's internal state and external conditions.''</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000679">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000679</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000387"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000394"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal circadian behavior</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">circadian behavior defective</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Phenotype that is any abnormality in circadian behavior (GO:0048512). 'circadian behavior' is defined as: 'The specific behavior of an organism that recurs with a regularity of approximately 24 hours.''</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000013">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000013</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">descriptor</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Term that describes an allele, balancer, group or publication.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000681">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000681</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0001347"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal sensory perception</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sensory perception defective</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Phenotype that is any abnormality in sensory perception (GO:0007600). 'sensory perception' is defined as: 'The series of events required for an organism to receive a sensory stimulus, convert it to a molecular signal, and recognize and characterize the signal. This is a neurological process.''</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000408">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000408</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0001347"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal stress response</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental stress response defective, stress response defective</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Phenotype that is any abnormality in response to stress (GO:0006950). 'response to stress' is defined as: 'Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a disturbance in organismal or cellular homeostasis, usually, but not necessarily, exogenous (e.g. temperature, humidity, ionizing radiation).''</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000394">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000394</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0001347"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal circadian rhythm</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">circadian rhythm defective</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Phenotype that is any abnormality in circadian rhythm (GO:0007623). 'circadian rhythm' is defined as: 'Any biological process in an organism that recurs with a regularity of approximately 24 hours.''</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000400">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000400</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0001347"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal mating</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mating defective</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Phenotype that is any abnormality in mating (GO:0007618). 'mating' is defined as: 'The pairwise union of individuals for the purpose of sexual reproduction, ultimately resulting in the formation of zygotes.''</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000399">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000399</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000721"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal courtship behavior</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">courtship behavior defective</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Phenotype that is any abnormality in courtship behavior (GO:0007619). 'courtship behavior' is defined as: 'The behavior of an organism for the purpose of attracting sexual partners.''</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000403">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000403</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000387"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal chemosensory behavior</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemosensitive behavior defective, chemosensitive behaviour defective, abnormal chemosensitive behavior</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Phenotype that is any abnormality in chemosensory behavior (GO:0007635). 'chemosensory behavior' is defined as: 'Behavior that is dependent upon the sensation of chemicals.'.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000411">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000411</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000387"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal visual behavior</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visual behavior defective, visual behaviour defective</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Phenotype that is any abnormality in visual behavior (GO:0007632). 'visual behavior' is defined as: 'The behavior of an organism in response to a visual stimulus.''</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000366">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000366</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000364"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female sterile</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The cause of sterility may be physical or behavioral. Note: this term should not be used with the qualifier 'partially' - use semi-sterile or semi-fertile instead.', 'A phenotype that is the inability of females to produce fertilized eggs as a result of mating.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000389">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000389</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0001347"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paralytic</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Phenotype that is a disposition to paralysis under conditions that do not cause paralysis in a wild-type animal. Paralysis is defined as an inability to exhibit `multicellular organismal movement` (GO:0050879)'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000374">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000374</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000347"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fertile</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Note, this term should not be used with the qualifier 'partially'. Use semi-sterile or semi-fertile instead.', 'A phenotype that is the ability to produce fertilized eggs as a result of mating.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000670">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000670</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0001347"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal eclosion</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eclosion defective</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Phenotype that is any abnormality in eclosion (GO:0007562). 'eclosion' is defined as: 'The emergence of an adult insect from a pupa case.''</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000365">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000365</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0001347"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">semi-sterile</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A phenotype that is a reduction in the ability to produce fertilized eggs as a result of mating to below 50% of wild-type.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000370">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000370</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000364"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male sterile</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A phenotype that is the inability of males to produce fertilized eggs as a result of mating.', 'The cause of sterility may be physical or behavioral. Note - this term should not be used with the qualifier 'partially' - use semi-sterile or semi-fertile instead.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000000">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000000</ns2:notation>
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase CV</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'FlyBase miscellaneous controlled vocabulary term.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000364">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000364</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0001347"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sterile</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A phenotype that is the inability to produce fertilized eggs as a result of mating.', 'The cause of sterility may be physical or behavioral. Note, this term should not be used with the qualifier 'partially'. Use semi-sterile or semi-fertile instead.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000387">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000387</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0001347"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal behavior</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavior defective, behaviour defective, behavioral, behavioural</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Phenotype that is any abnormality in behavior (GO:0007610). 'behavior' is defined as: 'The internally coordinated responses (actions or inactions) of animals (individuals or groups) to internal or external stimuli, via a mechanism that involves nervous system activity.''</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000008">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000008</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0001347"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modifier of variegation</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">variegation</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Genotype g1 is a modifier of variegation if, and only if, some genotype g2 has a variegated phenotype and the degree of variegation caused by g1g2 is significantly different from that caused by g2 alone.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000683">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000683</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0001347"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal temperature response</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temperature response defective</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Phenotype that is any abnormality in response to temperature stimulus (GO:0009266). 'response to temperature stimulus' is defined as: 'Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a temperature stimulus.''</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0001347">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000347"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phenotype</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phenotypic class</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Any abnormality in or loss of some anatomical structure or biological process compared to wild-type.', 'The subclasses of this term classify Drosophila phenotypes into different common categories. They have been chosen by FlyBase to reflect phenotype terms most often reported by Drosophila researchers in the published literature.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000680">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000680</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000403"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal proboscis extension reflex</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proboscis extension reflex defective</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Phenotype that is any abnormality in proboscis extension reflex (GO:0007637). 'proboscis extension reflex' is defined as: 'The extension, through direct muscle actions, of the proboscis (the trunk-like extension of the mouthparts on the adult external head) in response to a nutritional stimulus.''</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0002004">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0001347"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased mortality</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A phenotype that is an increase in the rate of death in a population at any stage of life (during development or adulthood), over the rate seen in a wild type control population.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000347">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBcv:0000347</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000807"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phenotypic class</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_CV</ns1:ontology_acronm>
+  </owl:Class>
+</rdf:RDF>

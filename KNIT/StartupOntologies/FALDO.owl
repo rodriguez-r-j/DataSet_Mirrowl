@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <owl:Class rdf:about="http://biohackathon.org/resource/faldo#BagOfRegions">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
+    <rdfs:subClassOf rdf:resource="http://biohackathon.org/resource/faldo#CollectionOfRegions"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bag of regions</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Used to describe a location that consists of a number of Regions but where the order is not known. e.g. the oddly named order() keyword in a INSDC file.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FALDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#forward_positive_strand_position">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forward positive strand position</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORWARD POSITIVE STRAND POSITIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORWARD POSITIVE STRAND POSITIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://biohackathon.org/resource/faldo#C-TerminalPosition">
+    <rdfs:subClassOf rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-Terminal position</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The C-terminus is the end of an amino acid chain (protein or polypeptide), terminated by a free carboxyl group (-COOH).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FALDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://biohackathon.org/resource/faldo#ListOfRegions">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+    <rdfs:subClassOf rdf:resource="http://biohackathon.org/resource/faldo#CollectionOfRegions"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">List of regions</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'As an ordered list of regions (but the list might not be complete).', 'Should be used when the location of a region is defined by an ordered list of Regions. However, try to avoid using these types in favor of using more explicit semantics about why the order is important.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FALDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://biohackathon.org/resource/faldo#BothStrandsPosition">
+    <rdfs:subClassOf rdf:resource="http://biohackathon.org/resource/faldo#StrandedPosition"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Both strands position</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The 'both strands position' indicates a region that is best described as being on 'both' strands of a double-stranded sequence, rather than one or the other.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FALDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#negative_reverse_strand_position">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">negative reverse strand position</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EGATIVE REVERSE STRAND POSITIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EGATIVE REVERSE STRAND POSITIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://biohackathon.org/resource/faldo#Region">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Region</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A region describes a length of sequence with a start position and end position that represents a feature on a sequence, e.g. a gene.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FALDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://biohackathon.org/resource/faldo#N-TerminalPosition">
+    <rdfs:subClassOf rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N-TerminalPosition</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The position of the starting amino-acid a protein or polypeptide terminated by an amino acid with a free amine group (-NH2). The convention for writing peptide sequences is to put the N-terminus on the left and write the sequence from N- to C-terminus. Instances of this class are often used when the reference sequence is not complete '</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FALDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://biohackathon.org/resource/faldo#CollectionOfRegions">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Collection of regions</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Sometimes a location of a feature is defined by a collection of regions e.g. join() and order() in INSDC records. One should always try to model the semantics more accurately than this, these are fallback options to encode legacy data.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FALDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://biohackathon.org/resource/faldo#OneOfPosition">
+    <rdfs:subClassOf rdf:resource="http://biohackathon.org/resource/faldo#FuzzyPosition"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">One of positions</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The position is known to be one of the more detailed positions listed by the location predicate.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FALDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://biohackathon.org/resource/faldo#StrandedPosition">
+    <rdfs:subClassOf rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stranded position</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Part of the coordinate system denoting on which strand the feature can be found. If you do not yet know which stand the feature is on, you should tag the position with just this class. If you know more you should use one of the subclasses. This means a region described with a '.' in GFF3. A GFF3 unstranded position does not have this type in FALDO -- those are just a 'position'.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FALDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://biohackathon.org/resource/faldo#ExactPosition">
+    <owl:disjointWith rdf:resource="http://biohackathon.org/resource/faldo#OneOfPosition"/>
+    <owl:disjointWith rdf:resource="http://biohackathon.org/resource/faldo#InRangePosition"/>
+    <owl:disjointWith rdf:resource="http://biohackathon.org/resource/faldo#InBetweenPosition"/>
+    <rdfs:subClassOf rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exact position</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A position that is exactly known.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FALDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://biohackathon.org/resource/faldo#InRangePosition">
+    <owl:disjointWith rdf:resource="http://biohackathon.org/resource/faldo#OneOfPosition"/>
+    <rdfs:subClassOf rdf:resource="http://biohackathon.org/resource/faldo#FuzzyPosition"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indeterminate position within a range</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Use when you have an idea of the range in which you can find the position, but you cannot be sure about the exact position.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FALDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://biohackathon.org/resource/faldo#InBetweenPosition">
+    <owl:disjointWith rdf:resource="http://biohackathon.org/resource/faldo#OneOfPosition"/>
+    <owl:disjointWith rdf:resource="http://biohackathon.org/resource/faldo#InRangePosition"/>
+    <rdfs:subClassOf rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In between positions</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'This indicates that a feature is between two other positions that are both known exactly and that are next to each other. An example is a restriction enzyme cutting site. The cut is after one position and before the other position (hence, in between).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FALDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bag</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FALDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seq</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FALDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://biohackathon.org/resource/faldo#Position">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Position</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Superclass for the general concept of a position on a sequence. The sequence is designated with the reference predicate.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FALDO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://biohackathon.org/resource/faldo#FuzzyPosition">
+    <rdfs:subClassOf rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fuzzy position</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A position that lacks exact data.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FALDO</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

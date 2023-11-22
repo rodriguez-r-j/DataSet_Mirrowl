@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19952">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19952</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19936">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19936</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19951">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19951</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19976">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19976</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-1995">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-1995</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19941">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19941</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19970">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19970</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19963">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19963</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-1997">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-1997</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19944">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19944</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19967">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19967</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-1994">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-1994</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19965">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19965</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19974">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19974</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19935">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19935</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19939">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19939</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19969">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19969</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19968">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19968</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19933">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19933</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19938">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19938</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19947">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19947</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19945">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19945</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19958">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19958</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19948">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19948</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19971">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19971</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19955">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19955</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19931">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19931</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19932">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19932</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19962">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19962</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19957">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19957</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19973">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19973</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19946">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19946</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19937">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19937</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19964">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19964</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19940">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19940</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19960">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19960</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19950">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19950</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19934">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19934</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19942">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19942</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19956">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19956</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-1996">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-1996</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19949">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19949</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19959">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19959</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19972">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19972</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19943">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19943</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19966">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19966</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19961">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19961</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19954">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19954</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19975">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19975</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#ID-19953">
+    <rdfs:subClassOf rdf:resource="http://www.projecthalo.com/aura#Node-ID-Marker-Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-19953</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.projecthalo.com/aura#Node-ID-Marker-Concept">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Node-ID-Marker-Concept</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

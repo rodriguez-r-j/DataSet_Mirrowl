@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://purl.obolibrary.org/obo/"
+  xmlns:ns2="http://ontology.test.es/comment#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns3="http://www.geneontology.org/formats/oboInOwl#"
+  xmlns:ns4="http://www.w3.org/2004/02/skos/core#"
+>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/9T15">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/1OBQ"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IntensityFraction</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The intensity fraction 'I' for grey level 'i' in the range G is:
+I = (i-min(G)) / (max(G) - min(G))'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/CWYJ">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/ZVCW"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IntensityHistogramCoefficientOfVariation</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The intensity Histogram Coefficient of Variation measures the dispersion of the histogram'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/9SAK">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/ZOEY"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GreyLevelSizeZoneMatrix</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The grey level size zone matrix (GLSZM) counts the number of groups of connected voxels with a specific discretised grey level value and size as in https://doi.org/10.1109/TBME.2013.2284600. Voxels are con- nected if the neighbouring voxel has the same discretised grey level value'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/EY9L">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/VTM2"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NearestNeighbour</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Nearest neighbour interpolation assigns grey levels in the output grid to the values of the closest voxels in the input grid.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000099">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liter</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/BRI8">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/HCUG"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AreaDensityMVEE</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The surface density minimum volume enclosing ellipsoid is defined as the ratio between the area and the surface of the eilpsoide as defined in feature VolumeDensityMVEE'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/ECT3">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/UHIW"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Variance</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The variance from grey level distribution'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor preferred label</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor_preferred_term</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor preferred term</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/DJ9E">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/JXJV"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ArcSin</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Inverse Sine'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/CH89">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/ZVCW"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IntensityHistogramVariance</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Variance of the intensities'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#ngldm_dependencecountenergy">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngldm dependencecountenergy</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GLDM DEPENDENCECOUNTENERG</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GLDM DEPENDENCECOUNTENERG</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/DDTU">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/P88C"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VolumeAtIntensityFractionDifference</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The difference between the volume fractions at two different intensity fractions. See also https://doi.org/10.1016/j.patcog.2008.08.011'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#glszm_greylevelvariance">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glszm greylevelvariance</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LSZM GREYLEVELVARIANC</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LSZM GREYLEVELVARIANC</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#roimask_partialvolumecutoff">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">roimask partialvolumecutoff</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OIMASK PARTIALVOLUMECUTOF</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OIMASK PARTIALVOLUMECUTOF</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/9VWX">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/JCNR"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AbsoluteFiltering</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'This filter substitutes each original pixel value with its absolute value'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/EP05">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/JXJV"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SinH</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Hyperbolic Sine'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000102">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanoliter</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#glcm_differencevariance">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glcm differencevariance</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LCM DIFFERENCEVARIANC</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LCM DIFFERENCEVARIANC</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/BC2M">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/P88C"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VolumeAtIntensityFraction</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'It is the largest volume fraction that has an intensity fraction of at least a certain percentage. See also https://doi.org/10.1016/j.patcog.2008.08.011'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/CAC8">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/UHIW"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RobustMeanAbsoluteDeviation</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The mean absolute deviation feature may be influenced by outliers. To increase robustness, the set of grey levels can be restricted to those which lie closer to the center of the distribution.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#gldzm_smalldistancehighgreylevelemphasis">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gldzm smalldistancehighgreylevelemphasis</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LDZM SMALLDISTANCEHIGHGREYLEVELEMPHASI</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LDZM SMALLDISTANCEHIGHGREYLEVELEMPHASI</ns2:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/C0JK">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/HCUG"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SurfaceArea</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The surface area is calculated from the ROI mesh, by summing over the face area surfaces'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/APGT">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/22AR"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ExponentialDecay</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Defined as exp(-x)'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#gldzm_largedistancelowgreylevelemphasis">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gldzm largedistancelowgreylevelemphasis</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LDZM LARGEDISTANCELOWGREYLEVELEMPHASI</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LDZM LARGEDISTANCELOWGREYLEVELEMPHASI</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/CA97">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SquareHU</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/CJ43">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/IA9Q"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LHH</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/CMWE">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/JCNR"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LaplacianFilter</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Convolutes with a laplacian kernel the original image'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#ngldm_dependencecountvariance">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngldm dependencecountvariance</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GLDM DEPENDENCECOUNTVARIANC</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GLDM DEPENDENCECOUNTVARIANC</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/D5AR">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/OWOH"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Voxel</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/C3I7">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/ZVCW"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IntensityHistogramKurtosis</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Kurtosis is a measure of how outlier-prone a distribution is. The kurtosis of the normal distribution is 3. Distributions that are more outlier-prone than the normal distribution have kurtosis greater than 3; distributions that are less outlier-prone have kurtosis less than 3'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/EIEJ">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/JXJV"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ArcCos</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Inverse Cosine'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:TransitiveProperty rdf:about="http://www.ebi.ac.uk/efo/EFO_0001697">
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#ObjectProperty">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is_unit_of</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
+  </owl:TransitiveProperty>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/CRAM">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/OWOH"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MarchingCubes</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/9ST6">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/72T0"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LocalIntensity</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Local intensity features consider voxel intensities within a defined neighbourhood around a center voxel'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">notation</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/CKFE">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CubicMillimeterHU</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/BQWJ">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/HCUG"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compactness2</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Compactness 2 is anothere measure to describe how sphere-like the volume is'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000103">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">picoliter</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/ALVM">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/BCE0"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSplineInterpolation</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'This filter performs interpolation using a B-spline of order n'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#glcm_clusterprominence">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glcm clusterprominence</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LCM CLUSTERPROMINENC</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LCM CLUSTERPROMINENC</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/9SCJ">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/HCUG"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maximum2DDiameterRow</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Maximum 2D diameter (Row) is defined as the largest pairwise Euclidean distance between tumor surface voxels in the column-slice (usually the sagittal) plane.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/D2ZX">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/ZVCW"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IntensityHistogramMeanAbsoluteDeviation</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Measure of dispersion from the mean of the histogram'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000097">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cubic centimeter</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#glrlm_runpercentage">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glrlm runpercentage</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LRLM RUNPERCENTAG</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LRLM RUNPERCENTAG</ns2:definition>
+  </owl:Class>
+  <owl:TransitiveProperty rdf:about="http://www.ebi.ac.uk/efo/EFO_0001698">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_unit</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
+  </owl:TransitiveProperty>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/CH45">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/BCE0"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BellInterpolation</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Bell uses a kernel to interpolate the pixels of the input image. The kernel is defined as:
+0.75-|x| if x&lt;0.5
+0.5 (|x| - 1.5)^2 if 0.5  &lt; x &lt; 1.5
+0 otherwise'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/EGSX">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/CNV2"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I10minusI90</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Difference between the intensity at volume fraction 10 and intensity at volume fraction 90'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_subset</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000101">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microliter</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/CTNF">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/JCNR"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GaussianFilter</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'This filter applies a gaussian kernel with a pre-defined average value and variance to each pixel of an image It is used to blur image and remove details and noise'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/BJ5W">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/ZVCW"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IntensityHistogramUniformity</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The uniformity is a measure of the randomness of the grey levels distirbution histogram'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#glcm_contrast">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glcm contrast</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LCM CONTRAS</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LCM CONTRAS</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#glcm_clustertendency">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glcm clustertendency</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LCM CLUSTERTENDENC</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LCM CLUSTERTENDENC</ns2:definition>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000098">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milliliter</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/AMMC">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/ZVCW"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IntensityHistogramMode</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Most common discretised grey level present in the histogram'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#glcm_inversevariance">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glcm inversevariance</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LCM INVERSEVARIANC</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LCM INVERSEVARIANC</ns2:definition>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000100">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cubic decimeter</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#ngldm_lowdependencelowgreylevelemphasis">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngldm lowdependencelowgreylevelemphasis</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GLDM LOWDEPENDENCELOWGREYLEVELEMPHASI</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GLDM LOWDEPENDENCELOWGREYLEVELEMPHASI</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/BTW3">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/1XL1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2DAverage</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Averaged over slices and directions'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/JCNR">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/STY/T077"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ImageFilterSpace</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The image filter space is a container for all the filters that can be applied during the computation of a feature'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/JXJV">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/JAJH"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angular</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Orientation referred to angular directions'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/1XL1">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/CINW"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AggregationParameters</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Specifies how texture matrix are computed and aggregated'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/ZVCW">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/72T0"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IntensityHistogram</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'These features are based on the intensity histogram, whch is generated by discretising the original set of grey levels into grey level bins'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/ZOEY">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/72T0"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Textural</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The textural features describe patterns or the spatial distribution of voxel intensities'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/1OBQ">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/STY/T081"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fraction</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Part of a quantitative concept'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/BCE0">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/KA7K"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scaling</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'This class includes all the filters which are used to resize an image. They can be used both to increase or reduce the dimensions'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/HCUG">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/72T0"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morphological</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Morphological features describe geometric aspects of a region of interest (ROI), such as area and volume. Morphological features are based on ROI voxel representations of the volume.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/OWOH">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/CINW"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FeatureSpecificParameters</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Container for parameters and computation methods used to derive features'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/STY/T071">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entity</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A broad type for grouping physical and conceptual entities'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000000">
+    <ns3:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unit.ontology</ns3:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UO:0000000</ns4:notation>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A unit of measurement is a standardized quantity of a physical quality.</ns1:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/STY/T081"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unit</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A unit of measurement is a standardized quantity of a physical quality'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/CNV2">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/P88C"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IntensityAtVolumeFractionDifference</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The difference between grey levels at two different fractional volumes'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/STY/T077">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/STY/T071"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ConceptualEntity</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A broad type for grouping abstract entities or concepts'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000095">
+    <ns3:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unit.ontology</ns3:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UO:0000095</ns4:notation>
+    <ns1:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">volume unit</ns1:IAO_0000111>
+    <ns1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A unit which is a standard measure of the amount of space occupied by any substance, whether solid, liquid, or gas.</ns1:IAO_0000115>
+    <ns3:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/uo#unit_group_slim</ns3:inSubset>
+    <ns3:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FGED</ns3:inSubset>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VolumeUnit</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A unit which is a standard measure of the amount of space occupied by any substance, whether solid, liquid, or gas'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/P88C">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/72T0"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IntensityVolumeHistogram</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The intensity-volume histogram (IVH) of the voxel grey level of the ROI intensity mask describes the relationship between discretised grey level i and the fraction of the volume containing at least grey level $i$, $nu$. See definition in https://doi.org/10.1016/j.patcog.2008.08.011'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/STY/T081">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/STY/T077"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">QuantitativeConcept</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A concept which involves the dimensions, quantity or capacity of something using some unit of measure, or which involves the quantitative comparison of entities'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/CINW">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/STY/T077"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FeatureParameterSpace</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The feature parameter space is defined as the space that includes all the possible radiomics computation methods that can be applied to certain radiomics features. Subclasses are: aggregation re-segmentation, interpolation, features specific parameters, discretization'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/22AR">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/STY/T077"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MathematicalFunction</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'In mathematics, a function is a relation between a set of inputs and a set of permissible outputs with the property that each input is related to exactly one output.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/72T0">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/STY/T077"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RadiomicsFeature</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Radiomics features are particular features which can be extracted from objects within an image (e.g. from a region of interest) and that can potentially present a prognostic value (e.g related to the survival probability of a patient).'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/VTM2">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/CINW"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InterpolationParameters</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Interpolation algoriths determine the grey level values in the interpolation grid after interpolation of the original grid. Interpolation is commonly used for texture features, to isotropic voxel sizes to be rotationally invariant'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/KA7K">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/STY/T077"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ImageOperations</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'This class is a container for most common image filters used to pre-process an image before feature extraction'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/IA9Q">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/LQBA"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WaveletDirection</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/UHIW">
+    <rdfs:subClassOf rdf:resource="http://www.radiomics.org/RO/72T0"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Statistical</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The statistical features describe how grey levels within the region of interest (ROI) are distributed'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/LQBA">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/STY/T077"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FilterProperties</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Specifies propery of an image filter'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.radiomics.org/RO/JAJH">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/STY/T081"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orientation</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The orientation, angular position, or attitude of an object such as a line, plane or rigid body is part of the description of how it is placed in the space it is in'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</ns2:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#NamedIndividual">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#TransitiveProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Neurological_manifestations">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Nervous_system_disorder"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neurological manifestations</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Neuraxis">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuraxis</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Neck_stiffness">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neck stiffness</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Narrow_interpediculate_distances">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narrow interpediculate distances</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Nongranulomatous_uveitis">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nongranulomatous uveitis</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#normal_b-cell_(cd19+)_count">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">normal b-cell (cd19+) count</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORMAL B-CELL (CD19+) COUN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORMAL B-CELL (CD19+) COUN</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Mycobacterium_Infections">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mycobacterium Infections</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Nail_ridging">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nail ridging</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#both_basal_and_during_infections">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">both basal and during infections</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OTH BASAL AND DURING INFECTION</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OTH BASAL AND DURING INFECTION</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Mycoplasma_pneumoniae">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mycoplasma pneumoniae</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Mycobacterial_osteomyelitis">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Tuberculous_osteomyelitis"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mycobacterial osteomyelitis</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Nausea">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nausea</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#mycobacterium_infections">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mycobacterium infections</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YCOBACTERIUM INFECTION</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YCOBACTERIUM INFECTION</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Nasal_congestion">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nasal congestion</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Nephrotic_syndrome">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Nephritis,_nephrosis_and_nephrotic_syndrome"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nephrotic syndrome</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Neutrophil_antibody_positive">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neutrophil antibody positive</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Nephritis">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nephritis</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Myopia">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myopia</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Neutrophil_chemotaxis_abnormal">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neutrophil chemotaxis abnormal</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Nephroptosis">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nephroptosis</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Narrowness_of_neural_and_vascular_foramina">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narrowness of neural and vascular foramina</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Negative_regulation_of_natural_killer_cell_mediated_cytotoxicity">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Negative regulation of natural killer cell mediated cytotoxicity</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Neuronal_intestinal_dysplasia">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuronal intestinal dysplasia</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Nail_pitting">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nail pitting</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Neutrophil_maturation_in_bone_marrow_intact">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neutrophil maturation in bone marrow intact</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#nephrosis_and_nephrotic_syndrome">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nephrosis and nephrotic syndrome</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPHROSIS AND NEPHROTIC SYNDROM</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPHROSIS AND NEPHROTIC SYNDROM</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Narrow_sacroiliac_notch">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narrow sacroiliac notch</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Nasal_Cavity_Polyp">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Nasal_Cavity_Disorder"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nasal Cavity Polyp</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#variable">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">variable</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARIABL</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARIABL</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Narrow_chest">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narrow chest</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Neonatal_respiratory_distress">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Respiratory_Distress_Syndrome,_Newborn"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neonatal respiratory distress</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Myositis">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myositis</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#nonprogressive">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nonprogressive</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONPROGRESSIV</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONPROGRESSIV</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Myopathy">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myopathy</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#atypical">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atypical</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TYPICA</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TYPICA</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#nephritis">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nephritis</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPHRITI</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPHRITI</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Neonatal_jaundice">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neonatal jaundice</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#nail_dystrophy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nail dystrophy</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIL DYSTROPH</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIL DYSTROPH</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#neutrophilia">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neutrophilia</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EUTROPHILI</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EUTROPHILI</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Neutrophil_motility_disorder">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neutrophil motility disorder</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Myocardial_infarction">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myocardial infarction</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Myocardial_necrosis">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myocardial necrosis</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Neutrophil_abnormality">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neutrophil abnormality</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Mycobacterium_avium-intracellulare_Infection">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mycobacterium avium-intracellulare Infection</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Non-pruritic_urticaria">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-pruritic urticaria</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Myelodysplasia">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myelodysplasia</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Nephrocalcinosis">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Nephrolithiasis"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nephrocalcinosis</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Narrow_face">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narrow face</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Neutropenia">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neutropenia</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Neutrophilia">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neutrophilia</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Nasopharyngitis">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nasopharyngitis</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#myopathy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myopathy</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YOPATH</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YOPATH</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Respiratory_Distress_Syndrome,_Newborn">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Respiratory Distress Syndrome, Newborn</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Terms"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Nephritis,_nephrosis_and_nephrotic_syndrome">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nephritis, nephrosis and nephrotic syndrome</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Tuberculous_osteomyelitis">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tuberculous osteomyelitis</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Nephrolithiasis">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nephrolithiasis</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Nervous_system_disorder">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nervous system disorder</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Nasal_Cavity_Disorder">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#All"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nasal Cavity Disorder</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/5/Ontology1338526551855.owl#Terms">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Terms</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPO</ns1:ontology_acronm>
+  </owl:Class>
+</rdf:RDF>

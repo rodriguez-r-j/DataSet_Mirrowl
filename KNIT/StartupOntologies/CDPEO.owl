@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#TotalCholesterol">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PhysiologicalIndex"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TotalCholesterol</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Lipoprotein">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PhysiologicalIndex"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lipoprotein</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#SkinDisease">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Complication"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SkinDisease</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Diabetes">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#ChronicDisease"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diabetes</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#HypoglycemicDrug">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Medication"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HypoglycemicDrug</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Drinking">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Lifestyle"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drinking</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#BloodGlucose">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PhysiologicalIndex"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BloodGlucose</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#ChronicObstructivePulmonaryDisease">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#ChronicDisease"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChronicObstructivePulmonaryDisease</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#StomachDisease">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Complication"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">StomachDisease</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#CoronaryHeartDisease">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#ChronicDisease"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CoronaryHeartDisease</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Hyperlipidemia">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#ChronicDisease"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hyperlipidemia</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#EyeDisease">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Complication"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EyeDisease</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Diet">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Lifestyle"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diet</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Gender">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Demographic"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gender</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#KidneyDisease">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Complication"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KidneyDisease</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PatientProfile</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Smoking">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Lifestyle"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smoking</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Occupation">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Demographic"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Occupation</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#LiverDisease">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Complication"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LiverDisease</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Stroke">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#ChronicDisease"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stroke</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Mentality">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Lifestyle"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mentality</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Hypertension">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#ChronicDisease"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hypertension</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Exercise">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Lifestyle"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exercise</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#BodyMassIndex">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Demographic"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BodyMassIndex</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#HypolipidemicDrug">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Medication"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HypolipidemicDrug</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Age">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Demographic"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Age</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#UricAcid">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PhysiologicalIndex"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UricAcid</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#LungDisease">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Complication"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LungDisease</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#BloodPressure">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PhysiologicalIndex"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BloodPressure</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Education">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Demographic"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Education</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#AntiHypetensiveDrug">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Medication"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AntiHypetensiveDrug</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Pregnancy">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Demographic"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pregnancy</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Triglyceride">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PhysiologicalIndex"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Triglyceride</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Disease">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Medication">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medication</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Demographic">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Demographic</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Lifestyle">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lifestyle</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PhysiologicalIndex">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PhysiologicalIndex</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Complication">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Disease"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Complication</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#ChronicDisease">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Disease"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChronicDisease</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDPEO</ns1:ontology_acronm>
+  </owl:Class>
+</rdf:RDF>

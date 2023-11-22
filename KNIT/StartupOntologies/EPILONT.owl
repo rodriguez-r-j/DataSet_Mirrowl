@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Benign_non-familial_infantile_seizures">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Idiopathic_Focal_Epilepsies_of_Infancy_and_Childhood"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crises familiares benignas infantis (não familiares)</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Cerebral_Palsy">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#General_Concepts"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cerebral Palsy</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A condition with combinations of impaired muscle tone and strength, coordination, and intelligence.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Cognitive">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#General_Concepts"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cognição</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Pertaining to the mental processes of perceiving, thinking, and remembering; i.e., intellectual functions.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Cerebral_Hemisphere">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#General_Concepts"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cerebral Hemisphere</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'One side of the cerebrum (upper brain). Each hemisphere contains four lobes: frontal, parietal, occipital, and temporal.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Focal_Motor_Seizure">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Focal_Seizure"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Focal motor seizure</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Early_myoclonic_encephalopathy">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Epileptic_Encephalopathies_(in_which_the_epileptiform_abnormalities_may_contribute_to_progressive_dysfunction)"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Early myoclonic encephalopathy</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Automatism">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#General_Concepts"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Automatism</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Automatic, involuntary movement during a seizure; may involve mouth, hand, leg, or body movements; consciousness is usually impaired; occurs during complex partial and absence seizures and after tonic-clonic seizures.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Atypical_Absence_Seizure">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Generalized_Seizure"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crise de ausência atípica</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A staring spell characterized by partial impairment of consciousness; often occurs in children with the Lennox-Gastaut syndrome.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Aura">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#General_Concepts"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aura</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A warning before a seizure; a simple partial seizure occurring within seconds or minutes before a complex partial or secondarily generalized tonic-clonic seizure, or it may occur alone; also a warn-ing before a migraine headache or a primary generalized seizure.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Aura_Continua">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Focal_Status_Epilepticus"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aura contínua</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Eyelid_Myoclonia_Without_Absences">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Eyelid_Myoclonia"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eyelid myoclonia without absences</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Epileptologist">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#General_Concepts"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epileptologist</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A neurologist with specialty training in epilepsy.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Epilepsy_with_myoclonic-astatic_seizures">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Idiopathic_Generalized_Epilepsies"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epilepsia com crises mioclónico-astáticas</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Familial_temporal_lobe_epilepsies">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Familial_(Autosomal_Dominant)_Focal_Epilepsies"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epilepsias do lobo temporal familiares</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Clonic_Seizure_with_Tonic_Features">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Clonic_Seizure"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clonic seizure with tonic features</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Atonic_Seizure">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Generalized_Seizure"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atonic seizure</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An epileptic seizure characterized by sudden loss of muscle tone; may cause head drop, objects to fall from the hands, or falling.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Corpus_Callosotomy">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#General_Concepts"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corpus Callosotomy</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Surgery that disconnects the cerebral hemispheres and reduces atonic and tonic-clonic seizures.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Cortical_Dysplasia">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#General_Concepts"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cortical Dyplasia</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An abnormality in the development and organization of the cerebral córtex that can cause seizures and other neurologic disorders.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Epileptogenic">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#General_Concepts"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epileptogenic</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Causing epilepsy.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Epilepsy_with_myoclonic_absences">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Idiopathic_Generalized_Epilepsies"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epilepsy with myoclonic absences</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Epilepsy">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#General_Concepts"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epilepsy</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'chronic neurological disorder characterized by recurrent seizures'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Benign_familial_neonatal_seizures">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Familial_(Autosomal_Dominant)_Focal_Epilepsies"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crises neonatais benignas familiares</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Electrode">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Electroencephalography"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eléctrodo</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A conductor through which electrical current enters or leaves. When used to record the electroencephalogarm, a small metal disc attached to a wire is usually used.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Clonic_Seizure_Without_Tonic_Features">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Clonic_Seizure"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clonic seizure without tonic features</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Febrile_seizures">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Seizures_Not_Necessarily_Requiring_a_Diagnosis_of_Epilepsy"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Febrile seizures</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Alcohol_withdrawal_seizures">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Seizures_Not_Necessarily_Requiring_a_Diagnosis_of_Epilepsy"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crises por privação de álcool</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Autosomal_dominant_nocturnal_frontal_lobe_epilepsy">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Familial_(Autosomal_Dominant)_Focal_Epilepsies"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autosomal dominant nocturnal frontal lobe epilepsy</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Epilepsy_with_continuous_spike-and-waves_during_slow-wave_sleep_(other_than_Landau-Kleffner_syndrome)">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Epileptic_Encephalopathies_(in_which_the_epileptiform_abnormalities_may_contribute_to_progressive_dysfunction)"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epilepsy with continuous spike-and-waves during slow-wave sleep (other than Landau-Kleffner syndrome)</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Early_onset_benign_childhood_occipital_epilepsy_(Panayiotopoulos_type)">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Idiopathic_Focal_Epilepsies_of_Infancy_and_Childhood"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Early onset benign childhood occipital epilepsy (Panayiotopoulos type)</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Benign_familial_infantile_seizures">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Familial_(Autosomal_Dominant)_Focal_Epilepsies"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benign familial infantile seizures</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Epileptiform">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Electroencephalography"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epileptiform</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Resembling epilepsy or its manifestations; often refers to EEG patterns.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Epilepsia_Partialis_Continua_of_Kojevnikov">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Focal_Status_Epilepticus"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epilepsia partialis continua of Kojevnikov</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Benign_myoclonic_epilepsy_in_infancy">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Idiopathic_Generalized_Epilepsies"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epilepsia mioclónica benigna na infância</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Consciousness">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#General_Concepts"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Consciência</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'State of awareness; if consciousness is preserved during a seizure, the person can respond and recall what occurred during the spell.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Epilepsy_with_generalized_tonic-clonic_seizures_only">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Idiopathic_generalized_epilepsies_with_variable_phenotypes"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epilepsy with generalized tonic-clonic seizures only</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Eyelid_Myoclonia_With_Absences">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Eyelid_Myoclonia"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mioclonias palpebrais com ausência</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Childhood_absence_epilepsy">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Idiopathic_Generalized_Epilepsies"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Childhood absence epilepsy</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Benign_neonatal_seizures">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Seizures_Not_Necessarily_Requiring_a_Diagnosis_of_Epilepsy"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benign neonatal seizures</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Clonic_Status_Epilepticus">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Generalized_Status_Epilepticus"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clonic status epilepticus</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Absence_Status_Epilepticus">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Generalized_Status_Epilepticus"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Absence status epilepticus</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Benign_childhood_epilepsy_with_centrotemporal_spikes">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Idiopathic_Focal_Epilepsies_of_Infancy_and_Childhood"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benign childhood epilepsy with centrotemporal spikes</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Drug_or_other_chemically-induced_seizures">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Seizures_Not_Necessarily_Requiring_a_Diagnosis_of_Epilepsy"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug or other chemically-induced seizures</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Continuous_Seizure">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Seizure_Types"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crises contínuas</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Epileptic_Encephalopathies_(in_which_the_epileptiform_abnormalities_may_contribute_to_progressive_dysfunction)">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Epileptic_Syndromes"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Encefalopatias epilépticas (em que anomalias epileptiforme contribuem para a disfunção progressiva)</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Epileptic_Syndromes">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Síndromes Epilépticos</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Idiopathic_Focal_Epilepsies_of_Infancy_and_Childhood">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Epileptic_Syndromes"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epilepsias focais idiopáticas da Infância e da Criança</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Generalized_Status_Epilepticus">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Continuous_Seizure"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Generalized status epilepticus</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Self-limited_Seizure">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Seizure_Types"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Self-limited Seizure</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Seizures_Not_Necessarily_Requiring_a_Diagnosis_of_Epilepsy">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Epileptic_Syndromes"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crises que não obrigam necessariamente ao diagnóstico de Epilepsia</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Clonic_Seizure">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Generalized_Seizure"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clonic Seizure</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An epileptic seizure characterized by jerking movements and involving muscles on both sides.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Generalized_Seizure">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Self-limited_Seizure"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Generalized Seizure</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Focal_Status_Epilepticus">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Continuous_Seizure"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Focal status epilepticus</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Idiopathic_generalized_epilepsies_with_variable_phenotypes">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Idiopathic_Generalized_Epilepsies"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic generalized epilepsies with variable phenotypes</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Seizure_Types">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seizure Types</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Focal_Seizure">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Self-limited_Seizure"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crise focal</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Eyelid_Myoclonia">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Generalized_Seizure"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mioclonias palpebrais</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Electroencephalography">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eletroencefalogia</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'apparatus that records, in the form of brain waves, electrical discharge from neurons in the brain through electrodes attached to the scalp.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Idiopathic_Generalized_Epilepsies">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Epileptic_Syndromes"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic Generalized Epilepsies</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Familial_(Autosomal_Dominant)_Focal_Epilepsies">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Epileptic_Syndromes"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epilepsias focais familiares (Autosómicas Dominantes)</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#General_Concepts">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General_Concepts</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPILONT</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

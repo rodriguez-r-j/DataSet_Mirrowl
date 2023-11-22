@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:ns2="http://purl.obolibrary.org/obo/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns3="http://www.geneontology.org/formats/oboInOwl#"
+  xmlns:ns4="http://www.w3.org/2004/02/skos/core#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#chorioretinal_dysplasia_microcephaly_mental_retardation_syndrome">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chorioretinal dysplasia-microcephaly-mental retardation syndrome</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#chondrosarcoma">
+    <rdfs:subClassOf rdf:resource="http://www.gamuts.net/entity#sarcoma"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chondrosarcoma</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#choroidal_osteoma">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0100246"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">choroidal osteoma</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#chorioretinopathy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chorioretinopathy</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#chorioangioma_of_placenta">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_277"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chorioangioma of placenta</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#chondroma">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chondroma</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#chromate">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chromate</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#chromophobe_pituitary_adenoma">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002893"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chromophobe pituitary adenoma</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#choroidal_mass">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">choroidal mass</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#choroidal_metastasis">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">choroidal metastasis</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#choroid_plexus_tumor">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002664"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">choroid plexus tumor</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#choroid_plexus_cyst">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">choroid plexus cyst</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#chondromalacia_of_patella">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chondromalacia of patella</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#chondromyxoid_fibroma">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050871"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chondromyxoid fibroma</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#choriocarcinoma">
+    <rdfs:subClassOf rdf:resource="http://www.gamuts.net/entity#germ_cell_tumor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">choriocarcinoma</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chorioblastoma</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#chorioangioma_of_the_placenta">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_277"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chorioangioma of the placenta</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#choroid_plexus_papillomas">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">choroid plexus papillomas</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#choroideremia">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">choroideremia</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#chorionic_gonadotropin_therapy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chorionic gonadotropin therapy</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#choristoma">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">choristoma</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">granular cell tumor of neurohypophysis</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#chondromatosis">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chondromatosis</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#choroidal_atrophy_alopecia">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">choroidal atrophy - alopecia</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#choroidal_hemangioma">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">choroidal hemangioma</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#chorioretinal_coloboma">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chorioretinal coloboma</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#choroidal_atrophy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">choroidal atrophy</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_alternative_id</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#chordoma_of_clivus">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chordoma of clivus</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#chorioangioma">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chorioangioma</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#choroidal_detachment">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">choroidal detachment</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#chondroid_tumor">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002664"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chondroid tumor</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#choroideremia_hypopituitarism">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">choroideremia - hypopituitarism</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#choroidal_dystrophy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">choroidal dystrophy</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#choroid_plexus_papilloma">
+    <rdfs:subClassOf rdf:resource="http://www.gamuts.net/entity#paraglioma"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">choroid plexus papilloma</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#chordoma">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chordoma</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#choroid_plexus_calcification">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">choroid plexus calcification</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#chondrosarcoma_of_skull_base">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0006765"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chondrosarcoma of skull base</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#chorionic_villus_sampling">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chorionic villus sampling</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#choroidal_neoplasm">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_14566"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">choroidal neoplasm</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#chondromalacia">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chondromalacia</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#chromosomal_mosaicism">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chromosomal mosaicism</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#chondroid_lesion">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chondroid lesion</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#choroideremia_deafness_obesity">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">choroideremia - deafness - obesity</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#chorea">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chorea</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#choroid_plexus_carcinoma">
+    <rdfs:subClassOf rdf:resource="http://www.gamuts.net/entity#paraglioma"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">choroid plexus carcinoma</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#chromophobe_adenoma">
+    <rdfs:subClassOf rdf:resource="http://www.gamuts.net/entity#pituitary_tumor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chromophobe adenoma</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#choroid_plexus">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">choroid plexus</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#chondrodystrophy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chondrodystrophy</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#chorionic_villus_sampling_transverse_limb_deficiency">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chorionic villus sampling-transverse limb deficiency</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#chorioretinal_dystrophy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chorioretinal dystrophy</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor preferred label</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor_preferred_term</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor preferred term</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#choreoathetosis">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">choreoathetosis</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#chondrosarcoma_arising_from_osteochondroma">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0006765"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chondrosarcoma arising from osteochondroma</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">notation</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#mesenchymal_tumor">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mesenchymal tumor</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#embryonal_remnant_tumor">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002664"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonal remnant tumor</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tumors of Maldevelopmental Origin</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0006765">
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0006765</ns4:notation>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP_0006765</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_277">
+    <ns3:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</ns3:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:277</ns4:notation>
+    <ns3:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_2010_1_31:237268002</ns3:hasDbXref>
+    <ns3:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0677608</ns3:hasDbXref>
+    <ns3:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D006391</ns3:hasDbXref>
+    <ns3:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_2010_1_31:2099007</ns3:hasDbXref>
+    <ns3:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C4868</ns3:hasDbXref>
+    <ns3:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Placental hemangioma</ns3:hasExactSynonym>
+    <ns3:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chorioangioma (disorder)</ns3:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID_277</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#sarcoma">
+    <rdfs:subClassOf rdf:resource="http://www.gamuts.net/entity#mesenchymal_tumor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sarcoma</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_14566">
+    <ns3:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</ns3:hasOBONamespace>
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:14566</ns4:notation>
+    <ns2:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular process disease</ns2:IAO_0000111>
+    <ns2:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease that is characterized by abnormally rapid cell division.</ns2:IAO_0000115>
+    <ns3:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0000818</ns3:hasAlternativeId>
+    <ns3:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell process disease</ns3:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID_14566</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002893">
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0002893</ns4:notation>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP_0002893</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050871">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID_0050871</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#pituitary_tumor">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002664"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pituitary tumor</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002664">
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0002664</ns4:notation>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP_0002664</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#paraglioma">
+    <rdfs:subClassOf rdf:resource="http://www.gamuts.net/entity#glioma"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paraglioma</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100246">
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0100246</ns4:notation>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP_0100246</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#germ_cell_tumor">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002664"/>
+    <rdfs:subClassOf rdf:resource="http://www.gamuts.net/entity#embryonal_remnant_tumor"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">germ cell tumor</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.gamuts.net/entity#glioma">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glioma</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glial neoplasm</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAMUTS</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

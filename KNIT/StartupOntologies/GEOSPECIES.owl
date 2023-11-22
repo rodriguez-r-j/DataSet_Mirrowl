@@ -1,0 +1,2146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns2="http://rs.tdwg.org/dwc/terms/attributes/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns3="http://www.w3.org/2004/02/skos/core#"
+>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000805">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sensory system</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000625">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nevus</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://rdf.geospecies.org/ont/geospecies#LifeForm">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LifeForm</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <ns3:Concept rdf:about="http://purl.bioontology.org/ontology/HCPCS/SG">
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HCPCS/MTHU000319"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ambulatory surgical center (asc) facility service</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HCPCS</ns1:ontology_acronm>
+  </ns3:Concept>
+  <rdf:Property rdf:about="http://rs.tdwg.org/dwc/terms/coordinateUncertaintyInMeters">
+    <rdfs:domain rdf:resource="http://purl.org/dc/terms/Location"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coordinate Uncertainty In Meters</rdfs:label>
+    <ns2:organizedInClass rdf:resource="http://purl.org/dc/terms/Location"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://rs.tdwg.org/dwc/terms/verbatimCoordinates">
+    <rdfs:domain rdf:resource="http://purl.org/dc/terms/Location"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verbatim Coordinates</rdfs:label>
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#ObjectProperty">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <ns2:organizedInClass rdf:resource="http://purl.org/dc/terms/Location"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.w3.org/2004/02/skos/core#semanticRelation">
+    <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is in semantic relation with</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Property>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#bbc_terrestrial_habitats">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bbc terrestrial habitats</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BC TERRESTRIAL HABITAT</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BC TERRESTRIAL HABITAT</ns1:definition>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004231">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brachial artery</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000182">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatocellular carcinoma</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003934">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fatty liver</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000768">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">idiopathic pulmonary fibrosis</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004252">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nasopharyngeal neoplasm</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000408">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004274">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gout</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004190">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">open-angle glaucoma</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0002916">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">esophageal carcinoma</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0002890">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">renal carcinoma</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000289">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bipolar disorder</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004239">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chronic hepatitis B</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:DatatypeProperty rdf:about="http://www.geonames.org/ontology#population">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">population</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.geonames.org/ontology#Feature"/>
+  </owl:DatatypeProperty>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000909">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forebrain</rdfs:label>
+  </owl:NamedIndividual>
+  <ns3:Concept rdf:about="http://purl.bioontology.org/ontology/HCPCS/TC">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HCPCS/MTHU000319"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Technical component; under certain circumstances, a charge may be made for the technical component alone; under those circumstances the technical component charge is identified by adding modifier tc to the usual procedure number; technical component charges are institutional charges and not billed separately by physicians; however, portable x-ray suppliers only bill for technical component and should utilize modifier tc; the charge data from portable x-ray suppliers will then be used to build customary and prevailing profiles</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HCPCS</ns1:ontology_acronm>
+  </ns3:Concept>
+  <owl:Class rdf:about="http://rdf.geospecies.org/ont/geospecies#Observation">
+    <rdfs:subClassOf rdf:resource="http://purl.org/NET/c4dm/event.owl#Event"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Observation</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004253">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nephrolithiasis</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://lod.taxonconcept.org/ontology/txn.owl#SpeciesIndividual">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SpeciesIndividual</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003818">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004243">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carcinoid tumor</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0001929">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hip</rdfs:label>
+  </owl:NamedIndividual>
+  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/topic">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">topic</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Property>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003762">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vitamin D deficiency</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003936">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_physiological process</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003923">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone density</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003897">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stomach neoplasm</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/obo/owl/CL#CL_0000766">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myeloid leukocyte</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000802">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nervous system</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004245">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iris</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:ObjectProperty rdf:about="http://purl.org/NET/c4dm/event.owl#isAgentIn">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is agent in</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.org/NET/c4dm/event.owl#Event"/>
+  </owl:ObjectProperty>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0002628">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peripartum cardiomyopathy</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000274">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atopic eczema</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:ObjectProperty rdf:about="http://www.geonames.org/ontology#nearbyFeatures">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nearby features</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.geonames.org/ontology#Feature"/>
+  </owl:ObjectProperty>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003770">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diabetic retinopathy</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:ObjectProperty rdf:about="http://www.geonames.org/ontology#wikipediaArticle">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia article</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.geonames.org/ontology#Feature"/>
+  </owl:ObjectProperty>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004234">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">erectile dysfunction</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0002609">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chronic childhood arthritis</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://rdf.geospecies.org/ont/geospecies#Locality">
+    <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Locality</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://www.geonames.org/ontology#postalCode">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">postal code</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.geonames.org/ontology#Feature"/>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#location">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">location</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OCATIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OCATIO</ns1:definition>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004260">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000403">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diffuse large B-cell lymphoma</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://rdf.geospecies.org/ont/geospecies#KingdomConcept">
+    <rdfs:subClassOf rdf:resource="http://rdf.geospecies.org/ont/geospecies#TaxonConcept"/>
+    <rdfs:subClassOf rdf:resource="http://lod.taxonconcept.org/ontology/txn.owl#TaxonConcept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KingdomConcept</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003963">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">freckles</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0001065">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endometriosis</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:DatatypeProperty rdf:about="http://www.geonames.org/ontology#name">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">name</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.geonames.org/ontology#Feature"/>
+  </owl:DatatypeProperty>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003784">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skin pigmentation</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0002428">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chronic myeloproliferative disorder</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003925">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cognition</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003763">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cerebrovascular disorder</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000365">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colorectal adenocarcinoma</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000249">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alzheimer's disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000904">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basal ganglion</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004250">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_Moyamoya disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000713">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subarachnoid hemorrhage</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000690">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sarcoidosis</rdfs:label>
+  </owl:NamedIndividual>
+  <rdf:Property rdf:about="http://rs.tdwg.org/dwc/terms/locality">
+    <rdfs:domain rdf:resource="http://purl.org/dc/terms/Location"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Locality</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <ns2:organizedInClass rdf:resource="http://purl.org/dc/terms/Location"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/interest">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interest</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Property>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0001379">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endocrine system disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://rdf.geospecies.org/ont/geospecies#EoLPage">
+    <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EoLPage</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0001060">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">celiac disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://rdf.geospecies.org/ont/geospecies#GeoSpeciesScheme">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeoSpeciesScheme</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003859">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uterine neoplasm</rdfs:label>
+  </owl:NamedIndividual>
+  <rdf:Property rdf:about="http://rs.tdwg.org/dwc/terms/verbatimDepth">
+    <rdfs:domain rdf:resource="http://purl.org/dc/terms/Location"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verbatim Depth</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <ns2:organizedInClass rdf:resource="http://purl.org/dc/terms/Location"/>
+  </rdf:Property>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003819">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dental caries</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://rdf.geospecies.org/methods/observationMethod#ArthropodCollectionMethods">
+    <rdfs:subClassOf rdf:resource="http://rdf.geospecies.org/ont/geospecies#ObservationMethod"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ArthropodCollectionMethods</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000571">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung adenocarcinoma</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003098">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_meningioma</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004224">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coronary Restenosis</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004273">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scoliosis</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004277">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brain infarction</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004285">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">albuminuria</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0002618">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pancreatic carcinoma</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000817">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood vessel</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003898">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ankylosing spondylitis</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#includesEvent">
+    <rdfs:range rdf:resource="http://purl.org/NET/c4dm/event.owl#Event"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">includes event</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.org/NET/c4dm/event.owl#Event"/>
+  </owl:ObjectProperty>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000706">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spondyloarthropathy</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000968">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abdomen</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000318">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardiomyopathy</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003095">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-alcoholic fatty liver disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004235">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exfoliation syndrome</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003765">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sign or symptom</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003782">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">motor neuron disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:DatatypeProperty rdf:about="http://www.geonames.org/ontology#officialName">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">official name</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.geonames.org/ontology#Feature"/>
+  </owl:DatatypeProperty>
+  <owl:SymmetricProperty rdf:about="http://www.geonames.org/ontology#neighbour">
+    <rdfs:range rdf:resource="http://www.geonames.org/ontology#Feature"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neighbour</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.geonames.org/ontology#Feature"/>
+  </owl:SymmetricProperty>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003108">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">essential tremor</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003889">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">functional laterality</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0001365">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">age-related macular degeneration</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004247">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mood disorder</rdfs:label>
+  </owl:NamedIndividual>
+  <rdf:Property rdf:about="http://www.w3.org/2004/02/skos/core#broader">
+    <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">broader term</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#AnnotationProperty">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Property>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004266">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary ovarian insufficiency</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/obo/owl/CL#CL_0000763">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myeloid cell</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003958">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sunburn</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004225">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coronary Vasospasm</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004191">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">androgenetic alopecia</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0002524">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abdominal aorta</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0001421">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liver disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/obo/owl/CL#CL_0000767">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basophil</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#eventWithin">
+    <rdfs:range rdf:resource="http://purl.org/NET/c4dm/event.owl#Event"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">event within</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.org/NET/c4dm/event.owl#Event"/>
+  </owl:ObjectProperty>
+  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/accountServiceHomepage">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">account service homepage</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Property>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000774">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_tuberculosis</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://rdf.geospecies.org/ont/geospecies#GeodeticDatum">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeodeticDatum</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000832">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">retina structure</rdfs:label>
+  </owl:NamedIndividual>
+  <rdf:Property rdf:about="http://www.w3.org/2004/02/skos/core#narrower">
+    <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">narrower term</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Property>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003761">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unipolar depression</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0001645">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coronary heart disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000818">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carotid artery</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0002427">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myeloid neoplasm</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003780">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behcet's syndrome</rdfs:label>
+  </owl:NamedIndividual>
+  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/schoolHomepage">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schoolHomepage</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Property>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#s">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">s</rdfs:label>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004217">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biliary atresia</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://rdf.geospecies.org/ont/geospecies#FamilyConcept">
+    <rdfs:subClassOf rdf:resource="http://rdf.geospecies.org/ont/geospecies#TaxonConcept"/>
+    <rdfs:subClassOf rdf:resource="http://lod.taxonconcept.org/ontology/txn.owl#TaxonConcept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FamilyConcept</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/publications">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publications</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Property>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004229">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dupuytren Contracture</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004262">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">panic disorder</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0001974">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">optic disc</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:DatatypeProperty rdf:about="http://www.geonames.org/ontology#shortName">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">short name</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.geonames.org/ontology#Feature"/>
+  </owl:DatatypeProperty>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004208">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vitiligo</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004254">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">membranous glomerulonephritis</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:InverseFunctionalProperty rdf:about="http://xmlns.com/foaf/0.1/isPrimaryTopicOf">
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is primary topic of</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </owl:InverseFunctionalProperty>
+  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/workInfoHomepage">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">work info homepage</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Property>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000512">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reproductive system disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000685">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rheumatoid arthritis</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0002512">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">supranuclear palsy, progressive</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003890">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drug dependence</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003829">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alcohol dependence</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000302">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brain</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003047">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatitis C infection</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004196">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">viral human hepatitis</rdfs:label>
+  </owl:NamedIndividual>
+  <rdf:Property rdf:about="http://www.w3.org/2004/02/skos/core#hasTopConcept">
+    <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has top concept</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Property>
+  <owl:ObjectProperty rdf:about="http://www.geonames.org/ontology#locatedIn">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">located in</rdfs:label>
+    <rdfs:range rdf:resource="http://www.geonames.org/ontology#Feature"/>
+  </owl:ObjectProperty>
+  <rdf:Property rdf:about="http://rs.tdwg.org/dwc/terms/country">
+    <rdfs:domain rdf:resource="http://purl.org/dc/terms/Location"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Country</rdfs:label>
+    <ns2:organizedInClass rdf:resource="http://purl.org/dc/terms/Location"/>
+  </rdf:Property>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003914">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atherosclerosis</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000483">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exercise</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003785">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">allergy</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://rdf.geospecies.org/ont/geospecies#ITISPage">
+    <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ITISPage</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000180">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIV-1 infection</rdfs:label>
+  </owl:NamedIndividual>
+  <rdf:Property rdf:about="http://www.w3.org/2004/02/skos/core#related">
+    <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">related</rdfs:label>
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#SymmetricProperty">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Property>
+  <owl:ObjectProperty rdf:about="http://purl.org/NET/c4dm/event.owl#agent">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agent</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.org/NET/c4dm/event.owl#Event"/>
+  </owl:ObjectProperty>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003838">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflammation</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004261">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">osteitis deformans</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004238">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hearing loss</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004265">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peripheral arterial disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000612">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myocardial infarction</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000305">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">breast carcinoma</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004237">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graves disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004269">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardiac arrhythmia</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003781">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carotid artery disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://rdf.geospecies.org/ont/geospecies#Bio2RDFtaxon">
+    <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bio2RDFtaxon</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003756">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autism spectrum disorder</rdfs:label>
+  </owl:NamedIndividual>
+  <ns3:Concept rdf:about="http://purl.bioontology.org/ontology/HCPCS/QK">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HCPCS/MTHU000319"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medical direction of two, three, or four concurrent anesthesia procedures involving qualified individuals</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HCPCS</ns1:ontology_acronm>
+  </ns3:Concept>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003778">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">psoriatic arthritis</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#bbc_habitat_classification">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bbc habitat classification</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BC HABITAT CLASSIFICATIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BC HABITAT CLASSIFICATIO</ns1:definition>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000183">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hodgkins lymphoma</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/obo/owl/CL#CL_0000815">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulatory T cell</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000621">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuroblastoma</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#bbc_marine_habitats">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bbc marine habitats</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BC MARINE HABITAT</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BC MARINE HABITAT</ns1:definition>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000311">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer</rdfs:label>
+  </owl:NamedIndividual>
+  <rdf:Property rdf:about="http://www.w3.org/2004/02/skos/core#inScheme">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is in scheme</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Property>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000677">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mental or behavioural disorder</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004220">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic Hepatitis C</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/obo/owl/CL#CL_0000084">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T cell</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003144">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heart failure</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000277">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardiac atrium</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#oc">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oc</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#col_lsid">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">col lsid</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OL LSI</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OL LSI</ns1:definition>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000270">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asthma</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003832">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gall bladder disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003065">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">foot</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:ObjectProperty rdf:about="http://www.geonames.org/ontology#nearby">
+    <rdfs:range rdf:resource="http://www.geonames.org/ontology#Feature"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nearby</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.geonames.org/ontology#Feature"/>
+  </owl:ObjectProperty>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000228">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adenocarcinoma</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0002461">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skeletal system disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003767">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflammatory bowel disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000252">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amygdala</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://rdf.geospecies.org/ont/geospecies#County">
+    <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">County</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004271">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">retinal vein</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003865">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kidney neoplasm</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003096">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pick disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/obo/owl/CL#CL_0000738">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leukocyte</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003870">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brain aneurysm</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000908">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">central nervous system</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000673">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prostate adenocarcinoma</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003949">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eye color</rdfs:label>
+  </owl:NamedIndividual>
+  <ns3:Concept rdf:about="http://purl.bioontology.org/ontology/HCPCS/AD">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HCPCS/MTHU000319"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medical supervision by a physician: more than four concurrent anesthesia procedures</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HCPCS</ns1:ontology_acronm>
+  </ns3:Concept>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000876">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vertebrate limb</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0001955">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heart component</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:ObjectProperty rdf:about="http://www.geonames.org/ontology#featureCode">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feature code</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.geonames.org/ontology#Feature"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#bbc_ecozone">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bbc ecozone</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BC ECOZON</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BC ECOZON</ns1:definition>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000765">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIDS</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000684">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">respiratory system disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Ontology rdf:about="http://purl.bioontology.org/ontology/HCPCS-mod">
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#NamedIndividual">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HCPCS Modifiers</rdfs:label>
+  </owl:Ontology>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003853">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">respiratory system neoplasm</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000676">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">psoriasis</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://rdf.geospecies.org/ont/geospecies#Ecozone">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ecozone</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://rdf.geospecies.org/ont/geospecies#GBIFPage">
+    <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GBIFPage</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000808">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal body part</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0002970">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscular disease</rdfs:label>
+  </owl:NamedIndividual>
+  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/workplaceHomepage">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">workplace homepage</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Property>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004272">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anemia</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000692">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schizophrenia</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003922">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">menopause</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004251">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myeloproliferative disorder</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:ObjectProperty rdf:about="http://purl.org/ontology/bibo/presentedAt">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presented at</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.org/NET/c4dm/event.owl#Event"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://rdf.geospecies.org/ont/geospecies#BBCPage">
+    <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BBCPage</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://rdf.geospecies.org/ont/gsontology#imageInPage">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">imageInPage</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </owl:ObjectProperty>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003905">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">venous thrombosis</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#bbcpage">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bbcpage</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BCPAG</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BCPAG</ns1:definition>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000763">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">viral disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004195">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LDL cholesterol</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000717">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">systemic scleroderma</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004268">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sclerosing cholangitis</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000319">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardiovascular disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ifomis.org/bfo/1.1/snap#Disposition">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disposition</rdfs:label>
+  </owl:NamedIndividual>
+  <rdf:Property rdf:about="http://rs.tdwg.org/dwc/terms/verbatimElevation">
+    <rdfs:domain rdf:resource="http://purl.org/dc/terms/Location"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verbatim Elevation</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <ns2:organizedInClass rdf:resource="http://purl.org/dc/terms/Location"/>
+  </rdf:Property>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004193">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basal cell carcinoma</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004215">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anorexia nervosa</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:ObjectProperty rdf:about="http://www.geonames.org/ontology#featureClass">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feature class</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.geonames.org/ontology#Feature"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://rdf.geospecies.org/ont/geospecies#Continent">
+    <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Continent</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000807">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">integumental system</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000405">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">digestive system disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://rdf.geospecies.org/ont/geospecies#IndividualOrganism">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IndividualOrganism</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004258">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">optic nerve</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/obo/owl/CL#CL_0000081">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood cell</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003885">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multiple sclerosis</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003845">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kidney stone</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000220">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute lymphoblastic leukemia</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004284">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">upper aerodigestive tract neoplasm</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0001054">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leprosy</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004227">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dengue Hemorrhagic Fever</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003851">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meningeal neoplasm</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000524">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">head disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000616">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neoplasm</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://rdf.geospecies.org/ont/geospecies#Nativeness">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nativeness</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000792">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">craniofacial tissue</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000095">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chronic lymphocytic leukemia</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000729">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ulcerative colitis</rdfs:label>
+  </owl:NamedIndividual>
+  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/tipjar">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tipjar</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Property>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000660">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polycystic ovary syndrome</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004288">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colonic neoplasm</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000341">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chronic obstructive pulmonary disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004289">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphoid leukemia</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0002425">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neoplasm of immature B and T cells</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004218">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marijuana Abuse</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#bbc_freshwater_habitats">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bbc freshwater habitats</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BC FRESHWATER HABITAT</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BC FRESHWATER HABITAT</ns1:definition>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0002422">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">benign neoplasm</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003959">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cleft lip</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/obo/owl/CL#CL_0000094">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">granulocyte</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003892">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pulmonary function measurement</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000508">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetic disorder</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004267">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biliary liver cirrhosis</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000540">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immune system disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003869">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">breast neoplasm</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004256">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuromyelitis optica</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004233">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leukopenia</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003060">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-small cell lung carcinoma</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004279">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">suntan</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004280">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">movement disorder</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004287">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ventricular fibrillation</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:ObjectProperty rdf:about="http://www.geonames.org/ontology#parentCountry">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parent country</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.geonames.org/ontology#Feature"/>
+  </owl:ObjectProperty>
+  <owl:InverseFunctionalProperty rdf:about="http://xmlns.com/foaf/0.1/openid">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">openid</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </owl:InverseFunctionalProperty>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003109">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_alopecia</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:TransitiveProperty rdf:about="http://www.geonames.org/ontology#parentFeature">
+    <rdfs:range rdf:resource="http://www.geonames.org/ontology#Feature"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parent feature</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.geonames.org/ontology#Feature"/>
+  </owl:TransitiveProperty>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003893">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovarian neoplasm</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000514">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">germ cell tumor</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000907">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">caudate nucleus</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004276">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stevens-Johnson syndrome</rdfs:label>
+  </owl:NamedIndividual>
+  <rdf:Property rdf:about="http://rs.tdwg.org/dwc/terms/coordinatePrecision">
+    <rdfs:domain rdf:resource="http://purl.org/dc/terms/Location"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coordinate Precision</rdfs:label>
+    <ns2:organizedInClass rdf:resource="http://purl.org/dc/terms/Location"/>
+  </rdf:Property>
+  <owl:ObjectProperty rdf:about="http://www.geonames.org/ontology#neighbouringFeatures">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neighbouring features</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.geonames.org/ontology#Feature"/>
+  </owl:ObjectProperty>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000400">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diabetes mellitus</rdfs:label>
+  </owl:NamedIndividual>
+  <rdf:Property rdf:about="http://www.w3.org/2004/02/skos/core#topConceptOf">
+    <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is top concept in scheme</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Property>
+  <owl:Ontology rdf:about="http://purl.bioontology.org/ontology/CPT-mod">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CPT Modifiers</rdfs:label>
+  </owl:Ontology>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004199">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dysplastic nevus</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003915">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_congenital abnormality</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004278">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sudden cardiac arrest</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0001642">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphoid neoplasm</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004230">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endometrial neoplasm</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004221">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">External ear</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004194">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IGA glomerulonephritis</rdfs:label>
+  </owl:NamedIndividual>
+  <rdf:Property rdf:about="http://rs.tdwg.org/dwc/terms/continent">
+    <rdfs:domain rdf:resource="http://purl.org/dc/terms/Location"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Continent</rdfs:label>
+    <ns2:organizedInClass rdf:resource="http://purl.org/dc/terms/Location"/>
+  </rdf:Property>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003836">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lipoprotein</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003930">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">menarche</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004214">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abdominal Aortic Aneurysm</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004290">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sneezing</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000912">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">telencephalon</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0001068">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">malaria</rdfs:label>
+  </owl:NamedIndividual>
+  <ns3:Concept rdf:about="http://purl.bioontology.org/ontology/HCPCS/AS">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HCPCS/MTHU000319"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physician assistant, nurse practitioner, or clinical nurse specialist services for assistant at surgery</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HCPCS</ns1:ontology_acronm>
+  </ns3:Concept>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000401">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diabetic nephropathy</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000787">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal component</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004219">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD8-Positive T-Lymphocytes</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003757">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asperger syndrome</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000649">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">periodontitis</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004286">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">venous thromboembolism</rdfs:label>
+  </owl:NamedIndividual>
+  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/page">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">page</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Property>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000731">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uterine fibroid</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:DatatypeProperty rdf:about="http://www.geonames.org/ontology#countryCode">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO country code</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.geonames.org/ontology#Feature"/>
+  </owl:DatatypeProperty>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003884">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chronic kidney disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:InverseFunctionalProperty rdf:about="http://xmlns.com/foaf/0.1/weblog">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">weblog</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </owl:InverseFunctionalProperty>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003875">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peripheral vascular disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:FunctionalProperty rdf:about="http://xmlns.com/foaf/0.1/primaryTopic">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary topic</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </owl:FunctionalProperty>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004264">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vascular disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000799">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">appendage</rdfs:label>
+  </owl:NamedIndividual>
+  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/sha1">
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#DatatypeProperty">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sha1sum (hex)</rdfs:label>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Property>
+  <owl:Class rdf:about="http://rdf.geospecies.org/ont/geospecies#BugGuidePage">
+    <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BugGuidePage</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004257">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neurotic disorder</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000544">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infection</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000516">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glaucoma</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://rdf.geospecies.org/ont/geospecies#Country">
+    <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Country</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://purl.org/obo/owl/CL#CL_0000542">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphocyte</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/obo/owl/CL#CL_0002419">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mature T cell</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000917">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal lobe</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003946">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fuchs' endothelial dystrophy</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://rdf.geospecies.org/ont/geospecies#IUCN_Habitat_Classification">
+    <rdfs:subClassOf rdf:resource="http://rdf.geospecies.org/ont/geospecies#Habitat_Classification"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HabitatIUCN</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003086">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kidney disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004226">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creutzfeldt Jacob Disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#seriesForEvent">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seriesForEvent</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.org/NET/c4dm/event.owl#Event"/>
+  </owl:ObjectProperty>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004222">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astigmatism</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000474">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epilepsy</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000253">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amyotrophic lateral sclerosis</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0001067">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parasitic Infection</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0002506">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">osteoarthritis</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000565">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leukemia</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000764">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIV infection</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000313">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carcinoma</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004213">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Otosclerosis</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000702">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">small cell lung carcinoma</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004263">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial epilepsy</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004228">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug-Induced Liver Injury</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003768">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nicotine dependence</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004282">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thoracic aortic aneurysm</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0001075">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovarian carcinoma</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003927">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myopia</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000826">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ear</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004242">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsessive-compulsive disorder</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000958">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hair</rdfs:label>
+  </owl:NamedIndividual>
+  <ns3:Concept rdf:about="http://purl.bioontology.org/ontology/HCPCS/AA">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HCPCS/MTHU000319"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anesthesia services performed personally by anesthesiologist</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HCPCS</ns1:ontology_acronm>
+  </ns3:Concept>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0001058">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sensory system disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0001422">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cirrhosis of liver</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003926">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuropsychological test</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0002690">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">systemic lupus erythematosus</rdfs:label>
+  </owl:NamedIndividual>
+  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/focus">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">focus</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Property>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004198">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skin neoplasm</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://rdf.geospecies.org/methods/observationMethod#Photographed">
+    <rdfs:subClassOf rdf:resource="http://rdf.geospecies.org/ont/geospecies#ObservationMethod"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Photographed</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003758">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autism</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:ObjectProperty rdf:about="http://www.geonames.org/ontology#locationMap">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">map</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.geonames.org/ontology#Feature"/>
+  </owl:ObjectProperty>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0001360">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type II diabetes mellitus</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000756">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">melanoma</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#human_observation">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human observation</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMAN OBSERVATIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMAN OBSERVATIO</ns1:definition>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004236">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">focal segmental glomerulosclerosis</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000651">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phenotype</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:ObjectProperty rdf:about="http://purl.org/ontology/bibo/presents">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">related documents</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.org/NET/c4dm/event.owl#Event"/>
+  </owl:ObjectProperty>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0002534">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fetal blood cell</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004192">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alopecia areata</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004223">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_Keratoconus</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0002460">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypertrophy</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000407">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dilated cardiomyopathy</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://rdf.geospecies.org/ont/geospecies#GeoSpeciesPage">
+    <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeoSpeciesPage</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0001359">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type I diabetes mellitus</rdfs:label>
+  </owl:NamedIndividual>
+  <rdf:Property rdf:about="http://rs.tdwg.org/dwc/terms/countryCode">
+    <rdfs:domain rdf:resource="http://purl.org/dc/terms/Location"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Country Code</rdfs:label>
+    <ns2:organizedInClass rdf:resource="http://purl.org/dc/terms/Location"/>
+  </rdf:Property>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004255">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nephrotic syndrome</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://rdf.geospecies.org/ont/geospecies#LifeStage">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LifeStage</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://rdf.geospecies.org/ont/geospecies#ClassConcept">
+    <rdfs:subClassOf rdf:resource="http://rdf.geospecies.org/ont/geospecies#TaxonConcept"/>
+    <rdfs:subClassOf rdf:resource="http://lod.taxonconcept.org/ontology/txn.owl#TaxonConcept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ClassConcept</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000574">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphoma</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000390">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cystic fibrosis</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://rdf.geospecies.org/ont/geospecies#LSID">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LSID</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003777">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heart disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003924">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hair color</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#inEventSeries">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in event series</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.org/NET/c4dm/event.owl#Event"/>
+  </owl:ObjectProperty>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000771">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bacterial disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004283">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">goiter</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003843">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pain</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0001920">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entorhinal cortex</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004248">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male infertility</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:ObjectProperty rdf:about="http://www.geonames.org/ontology#parentADM2">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">level 2 administrative parent</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.geonames.org/ontology#Feature"/>
+  </owl:ObjectProperty>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0001071">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung carcinoma</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000816">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vein</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0001444">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">measurement</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004240">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heroin dependence</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003908">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">refractive error</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:ObjectProperty rdf:about="http://www.geonames.org/ontology#parentADM1">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">level 1 administrative parent</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.geonames.org/ontology#Feature"/>
+  </owl:ObjectProperty>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004207">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathological myopia</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000265">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aorta</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003841">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thyroid neoplasm</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:ObjectProperty rdf:about="http://www.geonames.org/ontology#parentADM3">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">level 3 administrative parent</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.geonames.org/ontology#Feature"/>
+  </owl:ObjectProperty>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003833">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brain neoplasm</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003882">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">osteoporosis</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003821">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">migraine disorder</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/obo/owl/CL#CL_0000233">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">platelet</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://rdf.geospecies.org/ont/geospecies#FreebaseGUID">
+    <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FreebaseGUID</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000326">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">central nervous system cancer</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003899">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contracture</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000367">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">common variable immunodeficiency</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0001073">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obesity</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0001059">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cataract</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004249">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meningococcal infection</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003888">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">attention deficit hyperactivity disorder</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004241">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hirschsprung disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:ObjectProperty rdf:about="http://www.geonames.org/ontology#parentADM4">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">level 4 administrative parent</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.geonames.org/ontology#Feature"/>
+  </owl:ObjectProperty>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000681">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">renal cell carcinoma</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000589">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metabolic disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003912">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ankle brachial index</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000712">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stroke</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004210">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gallstones</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0001666">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aortic aneurysm</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004211">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hypertriglyceridemia</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000827">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eye structure</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0001069">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nutritional disorder</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004275">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sick sinus syndrome</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003947">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">personality</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/obo/owl/CL#CL_0000775">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neutrophil</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0002686">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atopy</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000096">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neoplasm of mature B-cells</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003966">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eye disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://rdf.geospecies.org/ont/geospecies#DBpediaResource">
+    <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DBpediaResource</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0002503">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardiac hypertrophy</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004244">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interstitial lung disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000530">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hippocampus</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004212">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Keloid</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003863">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urogenital neoplasm</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000537">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypertension</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000697">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_sickle cell disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000545">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infertility</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003860">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pancreatic neoplasm</rdfs:label>
+  </owl:NamedIndividual>
+  <rdf:Property rdf:about="http://rs.tdwg.org/dwc/terms/county">
+    <rdfs:domain rdf:resource="http://purl.org/dc/terms/Location"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">County</rdfs:label>
+    <ns2:organizedInClass rdf:resource="http://purl.org/dc/terms/Location"/>
+  </rdf:Property>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000701">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skin disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:ObjectProperty rdf:about="http://www.geonames.org/ontology#childrenFeatures">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">children features</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.geonames.org/ontology#Feature"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://rdf.geospecies.org/ont/geospecies#NomenclaturalCode">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NomenclaturalCode</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004270">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">restless legs syndrome</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/obo/owl/CL#CL_0000771">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eosinophil</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004232">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eosinophilic esophagitis</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:InverseFunctionalProperty rdf:about="http://xmlns.com/foaf/0.1/homepage">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">homepage</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </owl:InverseFunctionalProperty>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000384">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crohn's disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/obo/owl/CL#CL_0000576">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monocyte</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004246">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mucocutaneous lymph node syndrome</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000275">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atrial fibrillation</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003839">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">retinopathy</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000464">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">emphysema</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#l2">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">l2</rdfs:label>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000618">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nervous system disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000377">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cornea structure</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000814">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">artery</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004197">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatitis B</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000279">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">azoospermia</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000635">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organism part</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://rdf.geospecies.org/ont/geospecies#BasisOfRecord">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BasisOfRecord</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0002508">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parkinson's disease</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004281">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">testicular neoplasm</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0003769">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endocrine neoplasm</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/obo/owl/CL#CL_0000988">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hematopoietic cell</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://rdf.geospecies.org/ont/geospecies#DarwinPoint">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DarwinPoint</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A Darwin Point is an occurrence location that meets the DarwinCore specifications for longitude, latitude, datum, extent, etc as described in &amp;quot;Guide to Best Practices for Georeferencing&amp;quot;'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000292">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bladder carcinoma</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0001663">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prostate carcinoma</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000324">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell type</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0002614">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insulin resistance</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004216">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conduct disorder</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000614">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">narcolepsy</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0001411">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leg</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000791">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardiovascular system</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000195">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metabolic syndrome</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0004209">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hypospadias</rdfs:label>
+  </owl:NamedIndividual>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#FunctionalProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme">
+    <owl:disjointWith rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A set of concepts, optionally including statements about semantic relationships between those concepts.</ns3:definition>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ConceptScheme</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://rdf.geospecies.org/ont/geospecies#Habitat_Classification">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Habitat</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <rdfs:Class rdf:about="http://xmlns.com/foaf/0.1/Document">
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Project">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Project2</rdfs:label>
+        <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Document</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </rdfs:Class>
+  <owl:Class rdf:about="http://rdf.geospecies.org/ont/geospecies#ObservationMethod">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ObservationMethod</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.org/ontology/bibo/Webpage">
+    <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Webpage</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <ns3:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An idea or notion; a unit of thought.</ns3:definition>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Concept</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://lod.taxonconcept.org/ontology/txn.owl#TaxonConcept">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Txn</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://rdf.geospecies.org/ont/geospecies#TaxonConcept">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TaxonConcept</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.geonames.org/ontology#Feature">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Feature</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An entity that has a geonames feature id'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.org/dc/terms/Location">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Location</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Ontology">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HCPCS/MTHU000318">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HCPCS Modifiers</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HCPCS</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#InverseFunctionalProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/HCPCS/MTHU000319">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HCPCS/MTHU000318"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HCPCS Level II National Modifiers</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HCPCS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.org/NET/c4dm/event.owl#Event">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Event</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEOSPECIES</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#TransitiveProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

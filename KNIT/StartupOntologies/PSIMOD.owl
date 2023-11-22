@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns2="http://www.w3.org/2004/02/skos/core#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:ns3="http://www.geneontology.org/formats/oboInOWL#"
+  xmlns:ns4="http://www.geneontology.org/formats/oboInOwl#"
+  xmlns:ns5="http://purl.obolibrary.org/obo/"
+>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#4r)-5-hydroxyleucine">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4r)-5-hydroxyleucine</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R)-5-HYDROXYLEUCIN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R)-5-HYDROXYLEUCIN</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#4s)-4-hydroxyisoleucine">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4s)-4-hydroxyisoleucine</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S)-4-HYDROXYISOLEUCIN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S)-4-HYDROXYISOLEUCIN</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#8-dihydroquinolin-8-ol">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8-dihydroquinolin-8-ol</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-DIHYDROQUINOLIN-8-O</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-DIHYDROQUINOLIN-8-O</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_01384">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00916"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aminomalonic acid (Ser)</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aminomalonic acid, aminopropanedioic acid, Ama, MOD_RES Aminomalonic acid (Ser), 2-carboxyglycine</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that effectively converts an L-serine residue to an aminomalonic acid.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_01371">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deamidation in presence of O18</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deamidation in presence of O18, Deamidated:18O(1)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'OBSOLETE bcecause identical and redundant with MOD:00851. Remap to MOD:00851.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#1x(15)n_labeled_residue">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1x(15)n labeled residue</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X(15)N LABELED RESIDU</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X(15)N LABELED RESIDU</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_01386">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00677"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00920"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3-hydroxy-L-valine</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3HyVal, (2S)-2-amino-3-hydroxy-3-methylbutanoic acid, 3-hydroxyvaline, 3-hydroxy-L-valine, MOD_RES 3-hydroxyvaline</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that effectively converts an L-valine residue to 3-hydroxy-L-valine.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_01385">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00914"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00677"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3-hydroxy-L-phenylalanine</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3HyPhe, beta-phenylserine, 3-phenyl-L-serine, hydroxylationf, (2S,3S)-2-amino-3-hydroxy-3-phenylpropanoic acid, MOD_RES 3-hydroxyphenylalanine, 3-hydoxyphenylalanine, beta-hydroxyphenylalanine, L-threo-3-phenylserine, 3-hydroxy-L-phenylalanine</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that effectively converts an L-phenylalanine residue to 3-hydroxy-L-phenylalanine.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_01367">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:01367</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00915"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00626"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fluorescein-5-thiosemicarbazide - site P</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FTC, fluorescein-5-thiosemicarbazide</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'modification from Unimod Chemical derivative -'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_01368">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:01368</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00902"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00626"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fluorescein-5-thiosemicarbazide - site R</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FTC, fluorescein-5-thiosemicarbazide</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'modification from Unimod Chemical derivative -'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#5-dihydroxyisoleucine">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5-dihydroxyisoleucine</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-DIHYDROXYISOLEUCIN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-DIHYDROXYISOLEUCIN</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_01391">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_01420"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_02059"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L-valine 5-(methoxymethyl)thiazole-4-carboxylic acid</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L-valine 5-(methoxymethyl)thiazole-4-carboxylic acid, CROSSLNK 5-(methoxymethyl)thiazole-4-carboxylic acid (Val-Cys), 2-[1-azanyl-2-methylpropyl]-5-(methoxymethyl)-1,3-thiazole-4-carboxylic acid, 2-[(1S)-1-amino-2-methylpropyl]-5-(methoxymethyl)-1,3-thiazole-4-carboxylic acid</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that effectively crosslinks an L-cysteine residue and an L-valine residue, and C-5 methoxymethylates to form L-valine 5-(methoxymethyl)thiazole-4-carboxylic acid.', 'Cross-link 2.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#5-dihydroxyleucine">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5-dihydroxyleucine</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-DIHYDROXYLEUCIN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-DIHYDROXYLEUCIN</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001403">
+    <ns3:xref rdf:resource="http://purl.obolibrary.org/obo/MOD_00920"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001385"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modified_L_valine</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ModVal, modified L-valine, modified L valine</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A post translationally modified valine amino acid feature.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_01396">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00915"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5-hydroxy-3-methyl-L-proline (Pro)</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5Hy3MePro, MOD_RES 5-hydroxy-3-methylproline (Ile), (2S,3S,5Xi)-5-hydroxy-3-methylpyrrolidine-2-carboxylic acid, 5-hydroxy-3-methylproline, 5-hydroxy-3-methyl-L-proline, beta-methyl-delta-hydroxyproline</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that effectively converts an L-proline residue to a 5-hydroxy-3-methyl-L-proline.', 'This entry is for the hypothetical formation of 5-hydroxy-3-methyl-L-proline from proline. For the natural production from L-isoleucine, use MOD:01897 [JSG].'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_01389">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_01420"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_02049"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_02082"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L-isoleucine thiazole-4-carboxylic acid</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CROSSLNK Thiazole-4-carboxylic acid (Ile-Cys), 2-[1-zanyl-2-methylbutyl]-1,3-thiazole-4-carboxylic acid, L-isoleucine thiazole-4-carboxylic acid, 2-[(1S,2S)-1-amino-2-methylbutyl]-1,3-thiazole-4-carboxylic acid</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Cross-link 2.', 'A protein modification that effectively crosslinks an L-cysteine residue and an L-isoleucine residue to form L-isoleucine thiazole-4-carboxylic acid.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#2-methylsulfonyl-l-tryptophan">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-methylsulfonyl-l-tryptophan</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-METHYLSULFONYL-L-TRYPTOPHA</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-METHYLSULFONYL-L-TRYPTOPHA</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_01361">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:01361</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00917"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00583"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O-thiophospho-L-threonine</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thiophospho, Thiophosphorylation</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that effectively converts an L-threonine residue to O-thiophospho-L-threonine.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001392">
+    <ns3:xref rdf:resource="http://purl.obolibrary.org/obo/MOD_00917"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001385"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modified_L_threonine</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modified L-threonine, ModThr, modified L threonine</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A post translationally modified threonine amino acid feature.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_01381">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_01768"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_02003"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O-palmitoleyl-L-serine</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O3-palmitoleyl-serine, O-palmitoleyl-L-serine, LIPID O-palmitoleyl serine, L-serine cis-9-hexadecenoate ester, (2S)-2-amino-3-((9Z)-9-hexadecenoyloxy)propanoic acid, mod186</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that effectively converts an L-serine residue to O-palmitoleyl-L-serine.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_01369">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00393"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deamidated and methyl esterified residue</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Methyl+Deamidated, Deamidation followed by a methylation</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that effectively replaces a carboxamido group with a carboxyl methyl ester group.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#3r">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3r</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001400">
+    <ns3:xref rdf:resource="http://purl.obolibrary.org/obo/MOD_00912"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001385"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modified_L_lysine</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modified L lysine, modified L-lysine, ModLys</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A post translationally modified lysine amino acid feature.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_01362">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:01362</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00916"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00583"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O-thiophospho-L-serine</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thiophospho, Thiophosphorylation</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that effectively converts an L-serine residue to O-thiophospho-L-serine.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#6-tetrahydropyridine-2">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6-tetrahydropyridine-2</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-TETRAHYDROPYRIDINE-</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-TETRAHYDROPYRIDINE-</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#l-cysteine_pyridine-2">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">l-cysteine pyridine-2</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-CYSTEINE PYRIDINE-</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-CYSTEINE PYRIDINE-</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#4r)-4">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4r)-4</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R)-</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R)-</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_01398">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_01875"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_01155"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_01894"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N6-propanoyl-L-lysine</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N6-propionyllysine, epsilon-propionyl-L-lysine, epsilon-propanoyl-L-lysine, 2-amino-6-propionylaminocaproic acid, (2S)-2-amino-6-(propanoylamino)hexanoic acid, N6-propanoyl-L-lysine, N(zeta)-propanoyllysine, MOD_RES N6-propionyllysine, N6-(1-oxopropyl)-L-lysine</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that effectively converts an L-lysine residue to N6-propanoyl-L-lysine.', 'The binding of histone peptides with propanoylated lysine to nuclear bromodomain proteins is non-specific and weaker than binding to the corresponding acetylated lysine peptides [JSG].'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#bruker_daltonics_serva-icpl(tm)_quantification_chemistry">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bruker daltonics serva-icpl(tm) quantification chemistry</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RUKER DALTONICS SERVA-ICPL(TM) QUANTIFICATION CHEMISTR</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RUKER DALTONICS SERVA-ICPL(TM) QUANTIFICATION CHEMISTR</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#4r)-3">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4r)-3</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R)-</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R)-</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_01397">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_02055"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_02082"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_01422"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L-serine 5-methyloxazole-4-carboxylic acid</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-[1-azanyl-2-hydroxyethyl]-5-methyl-1,3-oxazole-4-carboxylic acid, 2-[(1S)-1-amino-2-hydroxyethyl]-5-methyl-1,3-oxazole-4-carboxylic acid, L-serine 5-methyloxazole-4-carboxylic acid, CROSSLNK 5-methyloxazole-4-carboxylic acid (Ser-Thr)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Cross-link 2.', 'A protein modification that effectively crosslinks an L-serine residue and an L-threonine residue to form L-serine 5-methyloxazole-4-carboxylic acid.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_01383">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00689"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_02044"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L-cystine S-oxide</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(2R)-2-amino-3-[([(2R)-2-amino-2-carboxyethyl]sulfanyl)sulfinyl]propanoic acid, S-cysteinyl 3-(oxidosulfanyl)alanine, cystine sulfoxide, L-cystine S-oxide, S-[(2R)-2-amino-3-oxopropyl] (2R)-2-amino-3-oxopropane-1-sulfinothioate, CROSSLNK S-cysteinyl 3-(oxidosulfanyl)alanine (Cys-Cys)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that effectively cross-links two L-cysteine residues and oxidizes a sulfur to form L-cystine S-oxide.', 'Cross-link 2.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00000">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:00000</ns2:notation>
+    <ns3:xref rdf:resource="http://purl.obolibrary.org/obo/MOD_00000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein modification</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ModRes</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Covalent modification of, or a change resulting in an alteration of the measured molecular mass of, a peptide or protein amino acid residue.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_01388">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00960"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00917"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1-amino-2-propanol</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1-methyl-2-aminoethanol, 1-amino-2-propanol, 2-hydroxypropanamine, 2-hydroxypropylamine, threamine, 1-amino-2-hydroxypropane, decarboxylated threonine, dCbxThr, MOD_RES Decarboxylated threonine, (2R)-1-aminopropan-2-ol, 2-hydroxy-1-propylamine, 2-amino-1-methylethanol, alpha-aminoisopropyl alcohol, isopropanolamine</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that effectively converts an L-threonine residue into 1-amino-2-propanol.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001390">
+    <ns3:xref rdf:resource="http://purl.obolibrary.org/obo/MOD_00905"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001385"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modified_L_cysteine</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ModCys, modified L-cysteine, modified L cysteine</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A post translationally modified cysteine amino acid feature.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#(2s">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(2s</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#o4-thiophospho-l-tyrosine">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o4-thiophospho-l-tyrosine</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4-THIOPHOSPHO-L-TYROSIN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4-THIOPHOSPHO-L-TYROSIN</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">notation</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001404">
+    <ns3:xref rdf:resource="http://purl.obolibrary.org/obo/MOD_00915"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001385"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modified_L_proline</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modified L-proline , modified L proline, ModPro</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A post translationally modified proline amino acid feature.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_01364">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:01364</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00916"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00626"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fluorescein-5-thiosemicarbazide - site S</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FTC, fluorescein-5-thiosemicarbazide</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'modification from Unimod Chemical derivative -'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#2-(s-l-cysteinyl)-6-hydroxy-l-tryptophan_sulfoxide">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-(s-l-cysteinyl)-6-hydroxy-l-tryptophan sulfoxide</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-(S-L-CYSTEINYL)-6-HYDROXY-L-TRYPTOPHAN SULFOXID</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-(S-L-CYSTEINYL)-6-HYDROXY-L-TRYPTOPHAN SULFOXID</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#4r)-5-oxoleucine">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4r)-5-oxoleucine</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R)-5-OXOLEUCIN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R)-5-OXOLEUCIN</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001388">
+    <ns3:xref rdf:resource="http://purl.obolibrary.org/obo/MOD_00903"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001385"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modified_L_asparagine</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modified L asparagine, ModAsn, modified L-asparagine</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A post translationally modified asparagine amino acid feature.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_01366">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:01366</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00912"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00626"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fluorescein-5-thiosemicarbazide - site K</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FTC, fluorescein-5-thiosemicarbazide</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'modification from Unimod Chemical derivative -'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_01365">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:01365</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00905"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00626"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fluorescein-5-thiosemicarbazide - site C</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FTC, fluorescein-5-thiosemicarbazide</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'modification from Unimod Chemical derivative -'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_01399">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00912"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00752"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N6-(ADP-ribosyl)-L-lysine</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epsilon-ADP-ribosyllysine, N(zeta)-ADP-ribosyllysine, "N6-alpha-D-ribofuranosyl-L-lysine 5-&gt;5-ester with adenosine 5-(trihydrogen diphosphate)", "(S)-2-amino-6-([adenosine 5-(trihydrogen diphosphate) 5-&gt;5-ester with alpha-D-ribofuranosyl]amino)hexanoic acid", N6-(ADP-ribosyl)-L-lysine, MOD_RES N6-(ADP-ribosyl)lysine, "N6-[alpha-D-ribofuranoside 5-&gt;5-ester with adenosine 5-(trihydrogen diphosphate)]-L-lysine", 2-amino-6-(ADP-ribosyl)amino-hexanoic acid</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that effectively converts an L-lysine residue to an N6-(ADP-ribosyl)-L-lysine.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001397">
+    <ns3:xref rdf:resource="http://purl.obolibrary.org/obo/MOD_00914"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001385"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modified_L_phenylalanine</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modified L phenylalanine, ModPhe, modified L-phenylalanine</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A post translationally modified phenylalanine amino acid feature.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001406">
+    <ns3:xref rdf:resource="http://purl.obolibrary.org/obo/MOD_00902"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001385"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modified_L_arginine</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modified L-arginine, modified L arginine, ModArg</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A post translationally modified arginine amino acid feature.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#2x(13)c">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2x(13)c</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X(13)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X(13)</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#4-(1-hydroxyethyl)-7-isoleucino-2-(threonin-o3-ylcarbonyl)-7">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4-(1-hydroxyethyl)-7-isoleucino-2-(threonin-o3-ylcarbonyl)-7</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-(1-HYDROXYETHYL)-7-ISOLEUCINO-2-(THREONIN-O3-YLCARBONYL)-</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-(1-HYDROXYETHYL)-7-ISOLEUCINO-2-(THREONIN-O3-YLCARBONYL)-</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#4-dihydroxyisoleucine">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4-dihydroxyisoleucine</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-DIHYDROXYISOLEUCIN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-DIHYDROXYISOLEUCIN</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#(2s)-4-hydroxyleucine">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(2s)-4-hydroxyleucine</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2S)-4-HYDROXYLEUCIN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2S)-4-HYDROXYLEUCIN</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#3s">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3s</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001399">
+    <ns3:xref rdf:resource="http://purl.obolibrary.org/obo/MOD_00916"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001385"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modified_L_serine</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modified L serine, modified L-serine, MosSer</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A post translationally modified serine amino acid feature.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#6x(13)c">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6x(13)c</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X(13)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X(13)</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#l-cysteine_5-amino-3">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">l-cysteine 5-amino-3</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-CYSTEINE 5-AMINO-</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-CYSTEINE 5-AMINO-</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001396">
+    <ns3:xref rdf:resource="http://purl.obolibrary.org/obo/MOD_00910"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001385"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modified_L_isoleucine</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modified L-isoleucine, ModIle, modified L isoleucine</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A post translationally modified isoleucine amino acid feature.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_01390">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_01420"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_02082"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_02059"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L-valine thiazole-4-carboxylic acid</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CROSSLNK Thiazole-4-carboxylic acid (Val-Cys), 2-[(1S)-1-amino-2-methylpropyl]-1,3-thiazole-4-carboxylic acid, L-valine thiazole-4-carboxylic acid, 2-[1-azanyl-2-methylpropyl]-1,3-thiazole-4-carboxylic acid</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Cross-link 2.', 'A protein modification that effectively crosslinks an L-cysteine residue and an L-valine residue to form L-valine thiazole-4-carboxylic acid.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_01387">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_01803"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O-methyl-L-threonine</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">threonine methyl ether, MOD_RES O-methylthreonine, OMeThr, O-methyl-L-threonine, O-methyl threonine, (2S,3R)-2-amino-3-methoxybutanoic acid</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that effectively converts an L-threonine residue to O-methyl-L-threonine.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_01392">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_01420"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_02042"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L-asparagine 5-methylthiazole-4-carboxylic acid</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-[(1S)-1,3-bisazanyl-3-oxopropyl]-5-methyl-1,3-thiazole-4-carboxylic acid, 2-[(1S)-1,3-diamino-3-oxopropyl]-5-methyl-1,3-thiazole-4-carboxylic acid, CROSSLNK 5-methylthiazole-4-carboxylic acid (Asn-Cys), L-asparagine 5-methylthiazole-4-carboxylic acid</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Cross-link 2.', 'A protein modification that effectively crosslinks an L-cysteine residue and an L-asparagine residue, and C-4 methylates to form L-asparagine 5-methylthiazole-4-carboxylic acid.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#n-trimethyl-l-methionine">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n-trimethyl-l-methionine</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-TRIMETHYL-L-METHIONIN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-TRIMETHYL-L-METHIONIN</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#medium_form_-_site_k">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medium form - site k</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDIUM FORM - SITE </ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDIUM FORM - SITE </ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#5-dicarboxylic_acid">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5-dicarboxylic acid</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-DICARBOXYLIC ACI</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-DICARBOXYLIC ACI</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#5">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#medium_form_-_site_n-term">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medium form - site n-term</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDIUM FORM - SITE N-TER</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDIUM FORM - SITE N-TER</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#4">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_01423">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00649"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_01155"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">palmitoleylated residue</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that effectively replaces a hydrogen atom with a palmitoleyl group.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00915">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:00915</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_01157"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modified L-proline residue</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ModPro</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that modifies an L-proline residue.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00960">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_01156"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decarboxylated residue</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that effectively replaces a carboxylic acid group with a hydrogen atom.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000110">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence_feature</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">located sequence feature, located_sequence_feature, INSDC_note:other, sequence feature, INSDC_feature:misc_feature, INSDC_note:sequence_feature</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Any extent of continuous biological sequence.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_01155">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:01155</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_01156"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lipoconjugated residue</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that effectively results from forming an adduct with a compound containing a lipid-like group either through acylation, alkylation, or amidation.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00033">
+    <ns4:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD</ns4:hasOBONamespace>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:00033</ns2:notation>
+    <ns4:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XLNK</ns4:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_01156"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crosslinked residues</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XLNK-Res-Res</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that crosslinks two or more amino acid residues with covalent bonds.', 'The covalent bond is formed directly between sidechain atoms. If non-aminoacid atoms are involved in connecting two or more peptide chain residues peptide chain, the connection is classified as a multivalent binding site.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_02044">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00905"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crosslinked L-cysteine residue</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XlnkCys</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that contains an L-cysteine residue crosslinked to one or more amino acid residues.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00689">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:00689</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_01619"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disulfide crosslinked residues</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that crosslinks two cysteine residues by formation of a disulfide bond.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00910">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:00910</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_01157"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modified L-isoleucine residue</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ModIle</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that modifies an L-isoleucine residue.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001385">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001237"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modified_amino_acid_feature</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modified amino acid feature</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A post translationally modified amino acid feature.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00752">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:00752</ns2:notation>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MOD_02087"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_02087"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monoadenosine diphosphoribosyl (ADP-ribosyl) modified residue</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADP-rybosylation (from NAD), ADPRib1Res</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that effectively results from forming an adduct with one ADP-ribose through formation of a glycosidic bond.', 'From DeltaMass: Average Mass: 541.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00687">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:00687</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00033"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_02044"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thioether crosslinked residues</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that crosslinks two residues by formation of a thioether bond between a cysteine thiol and either an alkyl C as in lanthionine, or an aryl C as 2'-(S-cysteinyl)-L-histidine.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_01894">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00649"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">propanoylated residue</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Propionate labeling reagent light form (N-term &amp; K), Propionyl</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that effectively replaces a hydrogen atom with an propanoyl group.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00675">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:00675</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_01156"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxidized residue</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OxRes</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that effectively either removes neutral hydrogen atoms (proton and electron), or adds oxygen atoms to a residue with or without the removal of hydrogen atoms.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00679">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:00679</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00676"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbon oxygenated residue</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COxyRes</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that effectively adds oxygen atoms to a carbon atom of a residue and removes hydrogen atoms.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_01875">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00670"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00912"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N6-acylated L-lysine</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N6AcylLys</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that effectively replaces an N6-amino hydrogen atom of L-lysine with an acyl group.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001411">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_region</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INSDC_note:biological_region, INSDC_misc_feature, biological region</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A region defined by its disposition to be involved in a biological process.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00917">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:00917</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_01157"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modified L-threonine residue</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ModThr</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that modifies an L-threonine residue.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00676">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:00676</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00675"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxygenated residue</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OxyRes</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that effectively adds oxygen atoms to a residue with or without the removal of hydrogen atoms.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00905">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:00905</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_01157"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modified L-cysteine residue</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ModCys</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that modifies an L-cysteine residue.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_01157">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:01157</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein modification categorized by amino acid modified</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification considered either as modified amino acid residues derived from natural amino acids, as a replacement by another natural amino acid, or as a replacement by an unnatural amino acid.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00427">
+    <ns4:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD</ns4:hasOBONamespace>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:00427</ns2:notation>
+    <ns4:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MeRes</ns4:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">methylated residue</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Methylation (N terminus, N epsilon of Lysine, O of Serine, Threonine or C terminus, N of Asparagine), MeRes</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that effectively replaces a hydrogen atom with a methyl group.', 'From DeltaMass: Average Mass: 14 Average Mass Change:14 References:Methylation of Asparagine (found in phycobiliproteins) Klotz and Glazer (1987) J. Biol. Chem. 262; 17350-17355'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000001">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000110"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">region</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A sequence_feature with an extent greater than zero. A nucleotide region is composed of bases and a polypeptide region is composed of amino acids.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00914">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:00914</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_01157"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modified L-phenylalanine residue</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ModPhe</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that modifies an L-phenylalanine residue.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_02042">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00903"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crosslinked L-asparagine residue</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XlnkAsn</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that contains an L-asparagine residue crosslinked to one or more amino acid residues.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00683">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:00683</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00675"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dehydrogenated residue</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dHRes</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that effectively removes neutral hydrogen atoms (proton and electron) from a residue.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00902">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:00902</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_01157"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modified L-arginine residue</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ModArg</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that modifies an L-arginine residue.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00677">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:00677</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00679"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydroxylated residue</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hydroxylation (of delta C of Lysine, beta C of Tryptophan, C3 or C4 of Proline, beta C of Aspartate), HyRes</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'From DeltaMass: Average Mass: 16', 'A protein modification that effectively replaces a hydrogen atom with an hydroxyl group.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00920">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:00920</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_01157"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modified L-valine residue</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ModVal</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that modifies an L-valine residue.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00001">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:00001</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_01156"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alkylated residue</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AlkylRes</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that effectively replaces a hydrogen atom with an alkyl group.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_02056">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00917"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crosslinked L-threonine residue</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XlnkThr</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that contains an L-threonine residue crosslinked to one or more amino acid residues.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00903">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:00903</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_01157"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modified L-asparagine residue</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ModAsn</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that modifies an L-asparagine residue.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_01768">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00671"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_01423"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O-palmitoleylated residue</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that effectively replaces a residue hydroxyl group with a palmitoleyloxy group.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_01418">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00427"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00917"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">methylated threonine</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MeThr</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that effectively converts an L-threonine residue to a methylated threonine, such as O-methyl-L-threonine.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00649">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:00649</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_01156"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acylated residue</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AcylRes</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that effectively replaces a hydrogen atom with an acyl group.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_01619">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00033"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_02044"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multisulfide crosslinked residues</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that crosslinks two cysteine residues by formation of a chain of two or more bonded sulfur atoms.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00861">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:00861</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_01156"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phosphorus containing modified residue</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that produces an amino acid residue containing a phosphorus atom.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00916">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:00916</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_01157"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modified L-serine residue</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ModSer</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that modifies an L-serine residue.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00670">
+    <ns4:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD</ns4:hasOBONamespace>
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:00670</ns2:notation>
+    <ns5:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein modification that effectively replaces a residue amino group with a acylamino group.</ns5:IAO_0000115>
+    <ns4:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAcylRes</ns4:hasExactSynonym>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00649"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N-acylated residue</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAcylRes</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that effectively replaces a residue alpha-amino- or alpha-imino-hydrogen with an acyl group.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_01422">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_01419"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_02056"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxazole/oxazoline ring crosslinked residues (Thr)</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that crosslinks two residues by condensation of a threonine hydroxyl with the carbonyl of the preceding residue to form a 5-methyloxazole or 5-methyloxazoline ring.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_02082">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00683"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">didehydrogenated and dehydrated residue</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2dHdH2ORes</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that effectively removes two neutral hydrogen atoms (proton and electron) and a water moiety from a residue.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00860">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:00860</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_01156"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sulfur containing modified residue</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that produces an amino acid residue containing an exogenous sulfur atom.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00583">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:00583</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00860"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00861"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thiophosphorylated residue</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thiophospho, Thiophosphorylation</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that effectively replaces a hydrogen atom with a thiophosphono group (H2PO2S, 'thiophosphate').'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_01156">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:01156</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein modification categorized by chemical process</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Modified amino acid residue derived from a natural amino acid by a real or hypothetical chemical process.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001237">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amino_acid</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amino acid</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A sequence feature that corresponds to a single amino acid residue in a polypeptide.', 'Probably in the future this will cross reference to Chebi.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00690">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:00690</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00033"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxazole/thiazole ring crosslinked residues</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that crosslinks two residues by formation of an oxazole or thiazole ring.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_02059">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00920"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crosslinked L-valine residue</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XlnkVal</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that contains an L-valine residue crosslinked to one or more amino acid residues.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_01420">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00690"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00687"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thiazole/thiazoline ring crosslinked residues</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that crosslinks two residues by condensation of a cysteine thiol with the carbonyl of the preceding residue to form a thiazole or thiazoline ring.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00393">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:00393</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00427"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O-methylated residue</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMeRes</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that effectively replaces a hydroxyl group hydrogen with a methyl group to produce either an ether from an alcohol or an ester from an acid.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_01419">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00690"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxazole/oxazoline ring crosslinked residues</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that crosslinks two residues by condensation of a serine or threonine hydroxyl with the carbonyl of the preceding residue to form an oxazole or oxazoline ring, or by rearrangement and condensation of a cysteine with the carbonyl of the preceding residue to form a 1,3-oxazole-4-carbothionic acid.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_02087">
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MOD_00752"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adenosine diphosphoribosyl (ADP-ribosyl) modified residue</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADPRibRes</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that effectively results from forming an adduct with one or more ADP-ribose moieties or to modified residues through formation of a glycosidic bond.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00671">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:00671</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00649"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O-acylated residue</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OAcylRes</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that effectively replaces a residue hydroxyl group with a acyloxy group.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_02049">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00910"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crosslinked L-isoleucine residue</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XlnkIle</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that contains an L-isoleucine residue crosslinked to one or more amino acid residues.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00912">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:00912</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_01157"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modified L-lysine residue</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ModLys</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that modifies an L-lysine residue.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00626">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:00626</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00848"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fluorescein-5-thiosemicarbazide modified residue</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FTC, fluorescein-5-thiosemicarbazide</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'modification from Unimod Chemical derivative'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00848">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:00848</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_01156"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reagent derivatized residue</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that is produced by formation of an adduct with a particular compound used as a reagent.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_02003">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00671"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00916"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O3-acylated L-serine</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that effectively replaces an O3-hydroxy hydrogen atom of L-serine with an acyl group.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_01803">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00393"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_01418"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O-methylated threonine</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMeThr</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that effectively converts an L-threonine residue to a methylated threonine, such as O-methyl-L-threonine or L-threonine methyl ester.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_02055">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00916"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crosslinked L-serine residue</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XlnkSer</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein modification that contains an L-serine residue crosslinked to one or more amino acid residues.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSIMOD</ns1:ontology_acronm>
+  </owl:Class>
+</rdf:RDF>

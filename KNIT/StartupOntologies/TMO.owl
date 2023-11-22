@@ -1,0 +1,1997 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:ns2="http://www.geneontology.org/formats/oboInOwl#"
+  xmlns:ns3="http://www.w3.org/2004/02/skos/core#"
+  xmlns:ns4="http://purl.obolibrary.org/obo/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns5="http://purl.bioontology.org/ontology/npo#"
+  xmlns:ns6="http://www.ifomis.org/bfo/1.1/snap#"
+  xmlns:ns7="http://www.ebi.ac.uk/efo/swo/"
+  xmlns:ns8="http://purl.org/dc/elements/1.1/"
+  xmlns:ns9="http://www.ifomis.org/bfo/1.1#"
+  xmlns:ns10="http://www.geneontology.org/formats/oboInOWL#"
+  xmlns:ns11="http://www.ebi.ac.uk/efo/"
+>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000232">
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#NamedIndividual">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Illumina</rdfs:label>
+  </ns4:OBI_0000245>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0023">
+    <ns8:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quality of a patient that is observed by the patient or a processual entity experienced by the patient, either of which is hypothesized by the patient to be a realization of a disease.</ns8:description>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIt:Symptom</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACGT:Symptom</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CPR:symptom</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C1457887</ns2:hasDbXref>
+    <ns4:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Richard Scheuermann, Werner Ceusters, Barry Smith in 'Toward an Ontological Treatment of Disease and Diagnosis'</ns4:IAO_0000119>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptom</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <ns4:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000011">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type>
+      <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000030">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <ns2:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FGED</ns2:inSubset>
+        <owl:disjointWith rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0164"/>
+        <ns4:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert</ns4:IAO_0000117>
+        <ns4:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chris Stoeckert</ns4:IAO_0000117>
+        <ns4:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information_content_entity 'is_encoded_in' some digital_entity in obi before split (040907). information_content_entity 'is_encoded_in' some physical_document in obi before split (040907).
+
+Previous. An information content entity is a non-realizable information entity that 'is encoded in' some digital or physical entity.</ns4:IAO_0000116>
+        <ns4:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information_content_entity 'is_encoded_in' some digital_entity in obi before split (040907). information_content_entity 'is_encoded_in' some physical_document in obi before split (040907). Previous. An information content entity is a non-realizable information entity that 'is encoded in' some digital or physical entity.</ns4:IAO_0000116>
+        <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO:0000030</ns3:notation>
+        <ns4:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information content entity</ns4:IAO_0000111>
+        <ns4:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Examples of information content entites include journal articles, data, graphical layouts, and graphs.</ns4:IAO_0000112>
+        <ns4:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI_0000142</ns4:IAO_0000119>
+        <ns4:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI:0000142</ns4:IAO_0000119>
+        <ns4:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO:sourced 'OBI:0000142'</ns4:IAO_0000119>
+        <ns4:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information is a statement about some entity.</ns4:IAO_0000115>
+        <ns4:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an information content entity is an entity that is generically dependent on some artifact and stands in relation of aboutness to some entity</ns4:IAO_0000115>
+        <ns4:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An information content entity is an entity that is generically dependent on some artifact and stands in relation of aboutness to some entity.</ns4:IAO_0000115>
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TRAK_0000148"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO_0000030</rdfs:label>
+        <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+      </rdf:Description>
+    </rdf:type>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matlab R14</rdfs:label>
+  </ns4:IAO_0000129>
+  <ns4:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000019">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</rdfs:label>
+  </ns4:IAO_0000129>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0022">
+    <ns8:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quality of a patient, a material entity that is part of a patient, or a processual entity that a patient participates in, any one of which is observed in a physical examination and is deemed by the clinician to be of clinical significance.</ns8:description>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIt:Sign</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT:72670004</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0311392</ns2:hasDbXref>
+    <ns4:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Richard Scheuermann, Werner Ceusters, Barry Smith in 'Toward an Ontological Treatment of Disease and Diagnosis'</ns4:IAO_0000119>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sign</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <ns9:Entity rdf:about="http://purl.obolibrary.org/obo/IAO_0000228">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type>
+      <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000225">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdf:type>
+      <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000027">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TRAK_0000148"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdf:type>
+      <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000102">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">term imported</rdfs:label>
+  </ns9:Entity>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#iao_0000310">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iao 0000310</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AO 000031</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AO 000031</ns1:definition>
+  </owl:Class>
+  <ns4:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000015">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14</rdfs:label>
+  </ns4:IAO_0000129>
+  <ns4:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000028">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ClustalW version 2.1</rdfs:label>
+  </ns4:IAO_0000129>
+  <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000047">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conforms to</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  </owl:ObjectProperty>
+  <ns9:Entity rdf:about="http://purl.obolibrary.org/obo/IAO_0000120">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type>
+      <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000078">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metadata complete</rdfs:label>
+  </ns9:Entity>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0000">
+    <ns8:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An active ingredient is a pharmaceutical ingredient that has the disposition to treat a certain disease.</ns8:description>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7V3.0:ACTI</ns2:hasDbXref>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0071"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">active ingredient</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.ebi.ac.uk/efo/EFO_0000408">
+    <ns3:broader rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Disposition"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease</rdfs:label>
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+  </owl:NamedIndividual>
+  <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creator</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">creator</rdfs:label>
+  </owl:AnnotationProperty>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000244">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J. Craig Venter Institute</rdfs:label>
+  </ns4:OBI_0000245>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000295">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is_input_of</rdfs:label>
+    <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+  </owl:ObjectProperty>
+  <owl:TransitiveProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#derived_into">
+    <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">derived_into</rdfs:label>
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#ObjectProperty">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdfs:domain rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+  </owl:TransitiveProperty>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor note</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor_note</rdfs:label>
+  </owl:AnnotationProperty>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/swo/organization/SWO_9000005">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLT Scheme Inc</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/swo/organization/SWO_9000001">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft</rdfs:label>
+  </ns4:OBI_0000245>
+  <owl:Class rdf:about="http://edamontology.org/topic_0003">
+    <ns2:hasRelatedSynonym rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Quality"/>
+    <ns2:hasBroadSynonym rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Topic</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sumo:FieldOfStudy</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A category denoting a rather broad domain or field of interest, of study, application, work, data, or technology. Topics have no clearly defined borders between each other.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDAM</ns1:ontology_acronm>
+  </owl:Class>
+  <ns9:Entity rdf:about="http://purl.obolibrary.org/obo/IAO_0000103">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000225"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">failed exploratory term</rdfs:label>
+  </ns9:Entity>
+  <owl:DatatypeProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#AnnotationProperty">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_related_synonym</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:TransitiveProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000294">
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+    <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is concretization of</rdfs:label>
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#IrreflexiveProperty">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#AsymmetricProperty">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </owl:TransitiveProperty>
+  <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#has_participant">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_participant</rdfs:label>
+    <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#participates_in">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">participates in</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000304">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is_manufactured_by</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+  </owl:ObjectProperty>
+  <ns9:Entity rdf:about="http://purl.obolibrary.org/obo/IAO_0000230">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000225"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other</rdfs:label>
+  </ns9:Entity>
+  <ns9:Entity rdf:about="http://purl.obolibrary.org/obo/IAO_0000123">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metadata incomplete</rdfs:label>
+  </ns9:Entity>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#iao_0000009">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iao 0000009</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AO 000000</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AO 000000</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0020">
+    <ns8:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A personal medical history is a medical record consisting of a collection of information obtained from the patient and from other sources concerning the patient's health.</ns8:description>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIt:Personal_Medical_History</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pchr:Encounter</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0262926</ns2:hasDbXref>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0098"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">personal medical history</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0017">
+    <ns8:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evidence is a group of indicators that are relevant in some decision-making process.</ns8:description>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIt:Evidence</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0332120</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO:0000123</ns2:hasDbXref>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0109"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">evidence</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definiton_editor</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">term editor</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition editor</rdfs:label>
+  </owl:AnnotationProperty>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/swo/organization/SWO_9000028">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">European Patent Office</rdfs:label>
+  </ns4:OBI_0000245>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#iao_0000442">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iao 0000442</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AO 000044</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AO 000044</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000067">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bio-Rad Laboratories, Inc.</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns9:Entity rdf:about="http://purl.obolibrary.org/obo/IAO_0000002">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">example to be eventually removed</rdfs:label>
+  </ns9:Entity>
+  <owl:TransitiveProperty rdf:about="http://purl.org/obo/owl/OBO_REL#inheres_in">
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#FunctionalProperty">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inheres_in</rdfs:label>
+    <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+  </owl:TransitiveProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#iao_0000109">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iao 0000109</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AO 000010</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AO 000010</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0002">
+    <ns8:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pharmaceutical product is a formulated pharmaceutical that has been approved to treat patients.</ns8:description>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C1708062</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIt:Finished_Pharmaceutical_Product</ns2:hasDbXref>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0001"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pharmaceutical product</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0021">
+    <ns8:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A clinical trial protocol is a clinical protocol about the objective(s), design, methodology, statistical considerations, and organization of a clinical trial.</ns8:description>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0016"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clinical trial protocol</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:InverseFunctionalProperty rdf:about="http://purl.obolibrary.org/obo#has_role">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_role</rdfs:label>
+    <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Role"/>
+  </owl:InverseFunctionalProperty>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000211">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grid grinder</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/swo/organization/SWO_9000008">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Free Software Foundation</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/swo/organization/SWO_9000064">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Numbers International Pty Ltd</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000443">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Walter and Eliza Hall Institute</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000007">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft 2007 version</rdfs:label>
+  </ns4:IAO_0000129>
+  <owl:TransitiveProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#located_in">
+    <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">located_in</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+  </owl:TransitiveProperty>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/swo/organization/SWO_9000024">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Altova</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns9:Entity rdf:about="http://purl.obolibrary.org/obo/IAO_0000226">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000225"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder removed</rdfs:label>
+  </ns9:Entity>
+  <owl:TransitiveProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000297">
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+    <rdfs:domain rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is_concretized_as</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </owl:TransitiveProperty>
+  <ns4:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000020">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.0.1</rdfs:label>
+  </ns4:IAO_0000129>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000286">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MWG Biotech</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000016">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.1</rdfs:label>
+  </ns4:IAO_0000129>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0026">
+    <ns8:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A regulatory authority is an institution created by legislation which acts to control what treatments can be prescribed.</ns8:description>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0025"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulatory authority</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#transformed_into">
+    <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transformed_into</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+  </owl:ObjectProperty>
+  <ns4:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/6.0">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.0</rdfs:label>
+  </ns4:IAO_0000129>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#iao_0000030">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iao 0000030</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AO 000003</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AO 000003</ns1:definition>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ERO_0000460">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_documentation</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://edamontology.org/format_1915">
+    <ns2:hasRelatedSynonym rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Quality"/>
+    <ns2:hasBroadSynonym rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Format</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exchange format, Data model, Data format, File format</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.', 'The main focus in EDAM lies on formats as means of structuring data exchanged between different tools or resources. The serialisation, compression, or encoding of concrete data formats/models is not in scope of EDAM. Format 'is format of' Data.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDAM</ns1:ontology_acronm>
+  </owl:Class>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000440">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">University Of California, Berkeley</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000240">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Incyte Genomics</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000002">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha</rdfs:label>
+  </ns4:IAO_0000129>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0024">
+    <ns8:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A medical measure is a measure that describes or is a measure of medically relevant entities.</ns8:description>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0010"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medical measure</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <ns11:EFO_0000001 rdf:about="http://www.ebi.ac.uk/efo/EFO_0002911">
+    <rdf:type>
+      <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000245">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0164"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The International HapMap Project</rdfs:label>
+  </ns11:EFO_0000001>
+  <ns9:Entity rdf:about="http://purl.obolibrary.org/obo/IAO_0000227">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000225"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">terms merged</rdfs:label>
+  </ns9:Entity>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/swo/organization/SWO_9000010">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Community</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000006">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft 95 version</rdfs:label>
+  </ns4:IAO_0000129>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000366">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rosetta Biosoftware</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/swo/organization/SWO_9000021">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The National Archives, Tessella</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/swo/organization/SWO_9000011">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">University of New Hampshire</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000427">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Speed Berkeley Research Group</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000302">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Motorola Life Sciences</rdfs:label>
+  </ns4:OBI_0000245>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0013">
+    <ns8:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exclusion criterion for clinical trial is a clinical trial criterion which, if satisfied, supports the exclusion of candidate patients.</ns8:description>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO:0000124</ns2:hasDbXref>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0077"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exclusion criterion for clinical trial</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IDO_0000664">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_material_basis_in</rdfs:label>
+    <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+  </owl:ObjectProperty>
+  <owl:TransitiveProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#derives_from">
+    <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">derives from</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+  </owl:TransitiveProperty>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/swo/organization/SWO_9000063">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IBM</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000073">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bioconductor</rdfs:label>
+  </ns4:OBI_0000245>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0014">
+    <ns8:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A inclusion criterion for clinical trial is a clinical trial criterion which, if satisfied, supports the inclusion of candidate patients.</ns8:description>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO:0000124</ns2:hasDbXref>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0077"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inclusion criterion for clinical trial</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <ns9:Entity rdf:about="http://purl.obolibrary.org/obo/IAO_0000423">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">to be replaced with external ontology term</rdfs:label>
+  </ns9:Entity>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/swo/organization/SWO_9000022">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spotify Ltd.</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns9:Entity rdf:about="http://purl.obolibrary.org/obo/IAO_0000124">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uncurated</rdfs:label>
+  </ns9:Entity>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000351">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raytest</rdfs:label>
+  </ns4:OBI_0000245>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#iao_0000302">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iao 0000302</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AO 000030</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AO 000030</ns1:definition>
+  </owl:Class>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/swo/organization/SWO_9000007">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JetBrains</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000436">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Technological Advances for Genomics and Clinics, France</rdfs:label>
+  </ns4:OBI_0000245>
+  <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000136">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is about</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  </owl:NamedIndividual>
+  <owl:ObjectProperty rdf:about="http://purl.org/obo/owl/OBO_REL#has_role">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_role</rdfs:label>
+    <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Role"/>
+  </owl:ObjectProperty>
+  <ns9:Entity rdf:about="http://purl.obolibrary.org/obo/IAO_0000428">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">requires discussion</rdfs:label>
+  </ns9:Entity>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000299">
+    <rdfs:domain rdf:resource="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_output</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+  </owl:ObjectProperty>
+  <ns9:Entity rdf:about="http://purl.obolibrary.org/obo/IAO_0000421">
+    <rdf:type>
+      <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000409">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">named class expression</rdfs:label>
+  </ns9:Entity>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000131">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dana-Farber Cancer Institute and Harvard School of Public Health</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns9:Entity rdf:about="http://purl.obolibrary.org/obo/IAO_0000125">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pending final vetting</rdfs:label>
+  </ns9:Entity>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/swo/organization/SWO_9000026">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canonical Ltd</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000005">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft 2003 version</rdfs:label>
+  </ns4:IAO_0000129>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000160">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GE Healthcare Life Sciences</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000119">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clontech Laboratories, Inc</rdfs:label>
+  </ns4:OBI_0000245>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">example_of_usage</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">example of usage</rdfs:label>
+  </owl:AnnotationProperty>
+  <ns9:Entity rdf:about="http://purl.obolibrary.org/obo/IAO_0000122">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ready for release</rdfs:label>
+  </ns9:Entity>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000204">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genicon Sciences</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns7:SWO_0000396 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000023">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000397">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Affymetrix</rdfs:label>
+  </ns7:SWO_0000396>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000198">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genedata</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000325">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PerkinElmer</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000376">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAS Institute Inc.</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/swo/organization/SWO_9000061">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conway Institute UCD Dublin</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns9:Entity rdf:about="http://purl.obolibrary.org/obo/IAO_0000224">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#Subset">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">core</rdfs:label>
+  </ns9:Entity>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0003">
+    <ns8:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An inactive ingredient is a pharmaceutical ingredient that is part of a pharmaceutical formulation but does not have the disposition to treat a certain disease.</ns8:description>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL7V3.0:IACT</ns2:hasDbXref>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0071"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inactive ingredient</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0009">
+    <ns8:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An medical expert role is a role played by a human in a clinical context who is involved in the assessment or administration of treatment or its results.</ns8:description>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OCRe_clinical:Clinician</ns2:hasDbXref>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0074"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medical expert role</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:FunctionalProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000009">
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#DatatypeProperty">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has uncertainty value</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  </owl:FunctionalProperty>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/swo/organization/SWO_9000060">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drive5</rdfs:label>
+  </ns4:OBI_0000245>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#iao_0000303">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iao 0000303</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AO 000030</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AO 000030</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#iao_0000028">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iao 0000028</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AO 000002</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AO 000002</ns1:definition>
+  </owl:Class>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/swo/organization/SWO_9000018">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The University of Manchester</rdfs:label>
+  </ns4:OBI_0000245>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/AERO_0000354">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">involves</rdfs:label>
+    <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#iao_0000306">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iao 0000306</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AO 000030</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AO 000030</ns1:definition>
+  </owl:Class>
+  <ns9:Entity rdf:about="http://purl.obolibrary.org/obo/IAO_0000420">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000409"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">defined class</rdfs:label>
+  </ns9:Entity>
+  <ns9:Entity rdf:about="http://purl.obolibrary.org/obo/IAO_0000121">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organizational term</rdfs:label>
+  </ns9:Entity>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0018">
+    <ns8:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An environmental description is a description concerning some aspect of a physical environment.</ns8:description>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO:0000123</ns2:hasDbXref>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0089"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental description</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000033">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Agilent Technologies</rdfs:label>
+  </ns4:OBI_0000245>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+  </owl:AnnotationProperty>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000300">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular Neuroscience Core, Center for Behavioral Neuroscience, Atlanta</rdfs:label>
+  </ns4:OBI_0000245>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0011">
+    <ns8:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A molecular structure description is a description of a molecule in terms of its composition and connectivity.</ns8:description>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0106"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular structure description</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Examples: connection table, fragment, pharmacophore.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#iao_0000300">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iao 0000300</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AO 000030</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AO 000030</ns1:definition>
+  </owl:Class>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/swo/organization/SWO_9000004">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Omni</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/swo/organization/SWO_9000003">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stanford University</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns9:Entity rdf:about="http://purl.obolibrary.org/obo/IAO_0000229">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000225"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">term split</rdfs:label>
+  </ns9:Entity>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/swo/organization/SWO_9000016">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMII-UK</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/swo/organization/SWO_9000002">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MathWorks</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000036">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Applied Biosystems</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/swo/organization/SWO_9000006">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MicroPro International</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/swo/organization/SWO_9000029">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">National Cancer Institute</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns9:Entity rdf:about="http://purl.obolibrary.org/obo/IAO_0000410">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000409"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">universal</rdfs:label>
+  </ns9:Entity>
+  <owl:Class rdf:about="http://edamontology.org/data_0006">
+    <ns2:hasRelatedSynonym rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <ns2:hasBroadSynonym rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data record, Data set, Datum</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Information, represented in an information artefact (data record) that is 'understandable' by dedicated computational tools that can use the data as input or produce it as output.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDAM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0005">
+    <ns8:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A genetic description is a description of the genetic composition of some entity.</ns8:description>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0089"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetic description</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:TransitiveProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#transformation_of">
+    <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transformation of</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+  </owl:TransitiveProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000293">
+    <rdfs:domain rdf:resource="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has specified input</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+  </owl:ObjectProperty>
+  <owl:TransitiveProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#location_of">
+    <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">location of</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+  </owl:TransitiveProperty>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/swo/organization/SWO_9000025">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The GIMP Development Team</rdfs:label>
+  </ns4:OBI_0000245>
+  <owl:Class rdf:about="http://edamontology.org/operation_0004">
+    <ns2:hasRelatedSynonym rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Quality"/>
+    <ns2:hasBroadSynonym rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Operation</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computational procedure, Computational subroutine, Computational tool, Computational operation, Function (programming), Lambda abstraction, sumo:Function, Mathematical function, Process, Mathematical operation, Function, Computational method</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A function that processes a set of inputs and results in a set of outputs, or associates arguments (inputs) with values (outputs).', 'Special cases are: a) An operation that consumes no input (has no input arguments). Such operation is either a constant function, or an operation depending only on the underlying state. b) An operation that may modify the underlying state but has no output. c) The singular-case operation with no input or output, that still may modify the underlying state.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDAM</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#iao_0000400">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iao 0000400</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AO 000040</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AO 000040</ns1:definition>
+  </owl:Class>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000439">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UC Irvine</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000242">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Institute for Genomics and Bioinformatics Graz University of Technology</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000151">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fujifilm</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000061">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bahler Lab</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000027">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BLAST+ version 2.2.26</rdfs:label>
+  </ns4:IAO_0000129>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/swo/organization/SWO_9000015">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thompson Reuters</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000017">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.5.1</rdfs:label>
+  </ns4:IAO_0000129>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0027">
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIt:Healthcare_Payer</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C2348942</ns2:hasDbXref>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0025"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">institutional payer</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'This is, at the moment, a kind of institution because 
+the payers are typically insurance companies or government bodies.
+But it is possible in some jurisdictions to pay for treatment oneself.
+Treat by renaming to 'institutional payer'. --CRB'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/swo/organization/SWO_9000020">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPCC</rdfs:label>
+  </ns4:OBI_0000245>
+  <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#has_agent">
+    <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has agent</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0003000">
+    <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">produces</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+  </owl:ObjectProperty>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/swo/organization/SWO_9000023">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mozilla Foundation</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000303">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NIH</rdfs:label>
+  </ns4:OBI_0000245>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ERO_0001598">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">author_of</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0004">
+    <ns8:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An absent phenotype is a phenotype that represents the notable absence of a characteristic.</ns8:description>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0019"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">absent phenotype</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000300">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_is_realized_by</rdfs:label>
+    <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.org/obo/IAO_0000136">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is about</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  </owl:ObjectProperty>
+  <ns4:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000029">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ClustalX version 2.1</rdfs:label>
+  </ns4:IAO_0000129>
+  <owl:InverseFunctionalProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000298">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_quality</rdfs:label>
+    <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Quality"/>
+  </owl:InverseFunctionalProperty>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000301">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular Dynamics</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/swo/organization/SWO_9000014">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dropbox</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000038">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Applied Precision Life Science</rdfs:label>
+  </ns4:OBI_0000245>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition source</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition_source</rdfs:label>
+  </owl:AnnotationProperty>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000290">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.ebi.ac.uk/efo/swo/SWO_0000397"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matforsk</rdfs:label>
+  </ns4:OBI_0000245>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#iao_0000033">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iao 0000033</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AO 000003</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AO 000003</ns1:definition>
+  </owl:Class>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000074">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biometric Research Branch</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000004">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft 2001 version</rdfs:label>
+  </ns4:IAO_0000129>
+  <owl:FunctionalProperty rdf:about="http://purl.org/obo/owl/OBO_REL#role_of">
+    <rdfs:domain rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Role"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">role_of</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+  </owl:FunctionalProperty>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/swo/organization/SWO_9000065">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UC Santa Cruz Computational Biology Group </rdfs:label>
+  </ns4:OBI_0000245>
+  <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Description</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">description</rdfs:label>
+  </owl:AnnotationProperty>
+  <ns11:EFO_0000001 rdf:about="http://www.ebi.ac.uk/efo/EFO_0002910">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENCODE</rdfs:label>
+  </ns11:EFO_0000001>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0008">
+    <ns8:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A patient role is a role played a human subject that receives medical attention, care or treatment or who is registered with a medical institution with the purpose of receiving medical care when necessary.</ns8:description>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0060"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">patient role</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <ns4:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000001">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta</rdfs:label>
+  </ns4:IAO_0000129>
+  <owl:Class rdf:about="http://informatics.mayo.edu/TEO.owl#TEO_0000025">
+    <owl:equivalentClass rdf:resource="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+    <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/span#Occurrent"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Event</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TEO</ns1:ontology_acronm>
+  </owl:Class>
+  <ns4:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000022">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.02</rdfs:label>
+  </ns4:IAO_0000129>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/swo/organization/SWO_9000027">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apache Software Foundation</rdfs:label>
+  </ns4:OBI_0000245>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0007">
+    <ns8:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A prognosis is a hypothesis about the likely course of a disease, the chance of recovery or recurrence.</ns8:description>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0033325</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D011379</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIt:Prognosis</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Galen:Prognosis</ns2:hasDbXref>
+    <ns4:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI Thesaurus</ns4:IAO_0000119>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0059"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prognosis</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000069">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bio Discovery</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000008">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft 2010 version</rdfs:label>
+  </ns4:IAO_0000129>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000492">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cambridge Bluegnome</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/swo/organization/SWO_9000009">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adobe Systems</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000025">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.0.0</rdfs:label>
+  </ns4:IAO_0000129>
+  <ns4:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000030">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clustal Omega version 1.1</rdfs:label>
+  </ns4:IAO_0000129>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/swo/organization/SWO_9000013">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eclipse Foundation</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000093">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COSE, France</rdfs:label>
+  </ns4:OBI_0000245>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#iao_0000308">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iao 0000308</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AO 000030</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AO 000030</ns1:definition>
+  </owl:Class>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/swo/organization/SWO_9000062">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centre for Genomic Regulation (CRG) of Barcelona</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000031">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MUSCLE version 3.8.31</rdfs:label>
+  </ns4:IAO_0000129>
+  <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000308">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_realizes</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+  </owl:NamedIndividual>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBIws_0000130">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is_encoded_in</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  </owl:ObjectProperty>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/swo/organization/SWO_9000019">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">European Bioinformatics Institute</rdfs:label>
+  </ns4:OBI_0000245>
+  <owl:TransitiveProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000413">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is duration of</rdfs:label>
+    <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+  </owl:TransitiveProperty>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000357">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Research Genetics</rdfs:label>
+  </ns4:OBI_0000245>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0028">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0025"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">market</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <ns4:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000012">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matlab R12</rdfs:label>
+  </ns4:IAO_0000129>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000136">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMBL</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000003">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft 98 version</rdfs:label>
+  </ns4:IAO_0000129>
+  <ns4:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000021">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.6.9</rdfs:label>
+  </ns4:IAO_0000129>
+  <ns4:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000009">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">version 3</rdfs:label>
+  </ns4:IAO_0000129>
+  <owl:DatatypeProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_broad_synonym</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000316">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_role</rdfs:label>
+    <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Role"/>
+  </owl:ObjectProperty>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000433">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIBCO Software Inc</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000024">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.3.0</rdfs:label>
+  </ns4:IAO_0000129>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000223">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Havard School of Public Health</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000014">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft XP</rdfs:label>
+  </ns4:IAO_0000129>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/swo/organization/SWO_9000017">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple</rdfs:label>
+  </ns4:OBI_0000245>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/swo/organization/SWO_9000012">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The National Archives</rdfs:label>
+  </ns4:OBI_0000245>
+  <owl:AnnotationProperty rdf:about="http://purl.bioontology.org/ontology/npo#dBXrefID">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dBXrefID</rdfs:label>
+  </owl:AnnotationProperty>
+  <ns4:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000023">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Helios Service Release 2</rdfs:label>
+  </ns4:IAO_0000129>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBIws_0000132">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is_encoded_of</rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="http://purl.org/incf/ontology/Computational_Neurosciences/cno_alpha.owl#cno_0000204">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">numerical value</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+  </owl:DatatypeProperty>
+  <owl:ObjectProperty rdf:about="http://purl.org/obo/owl/OBO_REL#has_disposition">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_disposition</rdfs:label>
+    <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Disposition"/>
+  </owl:ObjectProperty>
+  <ns4:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000018">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1</rdfs:label>
+  </ns4:IAO_0000129>
+  <owl:TransitiveProperty rdf:about="http://purl.org/obo/owl/OBO_REL#bearer_of">
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#InverseFunctionalProperty">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bearer_of</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+  </owl:TransitiveProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0003001">
+    <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">produced_by</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:DatatypeProperty rdf:about="http://purl.org/incf/ontology/Computational_Neurosciences/cno_alpha.owl#cno_0000193">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">name</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+  </owl:DatatypeProperty>
+  <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#agent_in">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agent in</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0015">
+    <ns8:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A diagnostic result is a medical measure of determining the nature of a  problem or illness through medical procedure.</ns8:description>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO:0000124</ns2:hasDbXref>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0136"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diagnostic result</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <ns4:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000013">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R2011a</rdfs:label>
+  </ns4:IAO_0000129>
+  <owl:TransitiveProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000221">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is_quality_measurement_of</rdfs:label>
+    <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Quality"/>
+  </owl:TransitiveProperty>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://purl.bioontology.org/ontology/npo#code">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">code</rdfs:label>
+  </owl:AnnotationProperty>
+  <ns4:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000010">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">version 4</rdfs:label>
+  </ns4:IAO_0000129>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IDO_0000661">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">capable_of</rdfs:label>
+    <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.org/obo/owl/OBO_REL#realized_by">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">realized_by</rdfs:label>
+    <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0224">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is described by </rdfs:label>
+    <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  </owl:ObjectProperty>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000743">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strand Life Sciences</rdfs:label>
+  </ns4:OBI_0000245>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RNAO_0000381">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sum of collection</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.org/cpr/outputOf">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">output of</rdfs:label>
+    <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+  </owl:ObjectProperty>
+  <ns4:OBI_0000245 rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000299">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular Devices</rdfs:label>
+  </ns4:OBI_0000245>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#iao_0000313">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iao 0000313</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AO 000031</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AO 000031</ns1:definition>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.org/obo/owl/OBO_REL#unfolds_in">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unfolds_in</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor preferred label</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor_preferred_term</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor preferred term</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_subset</rdfs:label>
+  </owl:AnnotationProperty>
+  <ns4:IAO_0000129 rdf:about="http://www.ebi.ac.uk/swo/version/SWO_2000032">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CRG TCoffee version 9.02.r1228</rdfs:label>
+  </ns4:IAO_0000129>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ERO_0000232">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_author</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://purl.bioontology.org/ontology/npo#definition">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">notation</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://purl.bioontology.org/ontology/npo#synonym">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">synonym</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://purl.bioontology.org/ontology/npo#preferred_Name">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preferred_name</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1/snap#Role">
+    <owl:disjointWith rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Disposition"/>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[<ncicp:ComplexDefinition><ncicp:def-definition>A realizable entity [snap:RealizableEntity] the manifestation of which brings about some result or end that is not essential to a continuant [snap:Continuant] in virtue of the kind of thing that it is but that can be served or participated in by that kind of continuant [snap:Continuant] in some kinds of natural, social or institutional contexts.</ncicp:def-definition></ncicp:ComplexDefinition>]]></ns5:definition>
+    <ns5:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPO_517</ns5:code>
+    <ns4:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">snap:Role</ns4:IAO_0000119>
+    <ns5:dBXrefID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">snap:Role</ns5:dBXrefID>
+    <ns4:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A role is an entity which is borne in a material entity in some kinds of natural, social or institutional contexts, but which is not essential to the fundamental definition of that material entity (i.e. the material entity exists with or without the role). For example, the role of a person as a surgeon, the role of an artificial heart in pumping blood, the role of a chemical compound in an experiment, the role of a drug in the treatment of a disease.</ns4:IAO_0000115>
+    <ns4:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A realizable entity the manifestation of which brings about some result or end that is not essential to a continuant in virtue of the kind of thing that it is but that can be served or participated in by that kind of continuant in some kinds of natural, social or institutional contexts.</ns4:IAO_0000115>
+    <ns5:preferred_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">role</ns5:preferred_Name>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000033">
+    <ns4:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Alan Ruttenberg</ns4:IAO_0000117>
+    <ns4:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Bjoern Peters</ns4:IAO_0000117>
+    <ns4:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8/6/2009 Alan Ruttenberg: Changed label from 'information entity about a realizable' after discussions at ICBO</ns4:IAO_0000116>
+    <ns4:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-03-16: provenance: a term realizable information entity was proposed for OBI (OBI_0000337) , edited by the PlanAndPlannedProcess branch. Original definition was  'is the specification of a process that can be
+concretized and realized by an actor' with alternative term  'instruction'.It has been subsequently moved to IAO where the objective for which the original term was defined was satisfied with the definitionof this, different, term.</ns4:IAO_0000116>
+    <ns4:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Werner pushed back on calling it realizable information entity as it isn't realizable. However this name isn't right either. An example would be a recipe. The realizable entity would be a plan, but the information entity isn't about the plan, it, once concretized, *is* the plan. -Alan</ns4:IAO_0000116>
+    <ns4:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An information content entity whose concretizations indicate to their bearer how to realize them in a process.</ns4:IAO_0000115>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0089"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO_0000033</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0006">
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0221">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Role"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diagnostic role </rdfs:label>
+        <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0073">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Role"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical entity role</rdfs:label>
+        <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0074"/>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000442">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO_0000442</rdfs:label>
+        <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <ns8:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A role played by a material entity it being the subject of a study.</ns8:description>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIt:Target</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C1521840</ns2:hasDbXref>
+    <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Role"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subject role</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1/snap#Disposition">
+    <owl:disjointWith rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Role"/>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[<ncicp:ComplexDefinition><ncicp:def-definition>A realizable entity [snap:RealizableEntity] that essentially causes a specific process or transformation in the object [snap:Object] in which it inheres, under specific circumstances and in conjunction with the laws of nature. A general formula for dispositions is: X (object [snap:Object] has the disposition D to (transform, initiate a process) R under conditions C.</ncicp:def-definition></ncicp:ComplexDefinition>]]></ns5:definition>
+    <ns5:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPO_155</ns5:code>
+    <ns4:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">snap:Disposition</ns4:IAO_0000119>
+    <ns5:dBXrefID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">snap:Disposition</ns5:dBXrefID>
+    <ns4:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A realizable entity [snap:RealizableEntity] that essentially causes a specific process or transformation in the object [snap:Object] in which it inheres, under specific circumstances and in conjunction with the laws of nature. A general formula for dispositions is: X (object [snap:Object] has the disposition D to (transform, initiate a process) R under conditions C.</ns4:IAO_0000115>
+    <ns5:preferred_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disposition</ns5:preferred_Name>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disposition</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1/snap#Quality">
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[<ncicp:ComplexDefinition><ncicp:def-definition>A specifically dependent continuant [snap:SpecificallyDependentContinuant] that is exhibited if it inheres in an entity or entities at all (a categorical property).</ncicp:def-definition></ncicp:ComplexDefinition>]]></ns5:definition>
+    <ns5:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPO_445</ns5:code>
+    <ns4:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">snap:Quality</ns4:IAO_0000119>
+    <ns5:dBXrefID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">snap:Quality</ns5:dBXrefID>
+    <ns4:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specifically dependent continuant [snap:SpecificallyDependentContinuant] that is exhibited if it inheres in an entity or entities at all (a categorical property).</ns4:IAO_0000115>
+    <ns5:preferred_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality</ns5:preferred_Name>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quality</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0077">
+    <ns8:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A clinical trial criterion is a directive information entity which, if satisfied, contributes to the inclusion or exclusion of candidate patients.</ns8:description>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0151"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clinical trial criterion</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRAK_0001167">
+    <ns10:xref rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">document</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A collection of information content entities intended to be understood together as a whole.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRAK</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0071">
+    <ns8:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pharmaceutical ingredient is a chemical substance that is part of a formulated pharmaceutical that bears a pharmaceutical ingredient role.</ns8:description>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dailymed:ingredients</ns2:hasDbXref>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0063"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pharmaceutical ingredient</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant">
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[<ncicp:ComplexDefinition xmlns:ncicp='http://ncicb.nci.nih.gov/xml/owl/EVS/ComplexProperties.xsd#'><ncicp:def-definition>A continuant [snap:Continuant] that is dependent on one or other independent continuant [snap:IndependentContinuant] bearers. For every instance of A requires some instance of (an independent continuant [snap:IndependentContinuant] type) B but which instance of B serves can change from time to time.  Examples: a certain PDF file that exists in different and in several hard drives</ncicp:def-definition><ncicp:Definition_Review_Date>100428</ncicp:Definition_Review_Date><ncicp:def-source>NPO</ncicp:def-source><ncicp:attr>BFO (v. 1.1)</ncicp:attr><ncicp:Definition_Reviewer_Name>Dennis Thomas</ncicp:Definition_Reviewer_Name></ncicp:ComplexDefinition>]]></ns5:definition>
+    <ns5:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPO_1600</ns5:code>
+    <ns4:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://biomedgt.nci.nih.gov/wiki/index.php/Category:BFO_generically_dependent_continuant(GenericallyDependentContinuant)</ns4:IAO_0000119>
+    <ns4:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">snap:GenericallyDependentContinuant</ns4:IAO_0000119>
+    <ns5:dBXrefID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">snap:GenericallyDependentContinuant</ns5:dBXrefID>
+    <ns4:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A continuant [snap:Continuant] that is dependent on one or other independent continuant [snap:IndependentContinuant] bearers. For every instance of A requires some instance of (an independent continuant [snap:IndependentContinuant] type) B but which instance of B serves can change from time to time.</ns4:IAO_0000115>
+    <ns5:preferred_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">generically dependent continuant</ns5:preferred_Name>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GenericallyDependentContinuant</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1/snap#Continuant">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <ns4:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An entity [bfo:Entity] that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.</ns4:IAO_0000115>
+    <ns5:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endurant</ns5:synonym>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">foaf:Agent</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dcterms:Agent</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dcterms:AgentClass</ns2:hasDbXref>
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[<ncicp:ComplexDefinition xmlns:ncicp='http://ncicb.nci.nih.gov/xml/owl/EVS/ComplexProperties.xsd#'><ncicp:def-definition>An entity [bfo:Entity] that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.</ncicp:def-definition><ncicp:Definition_Review_Date>100428</ncicp:Definition_Review_Date><ncicp:def-source>NPO</ncicp:def-source><ncicp:attr>BFO (v. 1.1)</ncicp:attr><ncicp:Definition_Reviewer_Name>Dennis Thomas</ncicp:Definition_Reviewer_Name></ncicp:ComplexDefinition>]]></ns5:definition>
+    <ns5:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPO_259</ns5:code>
+    <ns4:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">snap:Continuant</ns4:IAO_0000119>
+    <ns5:dBXrefID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">snap:Continuant</ns5:dBXrefID>
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Class">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+      </rdf:Description>
+    </rdf:type>
+    <ns5:preferred_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">continuant</ns5:preferred_Name>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Continuant</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0025">
+    <ns8:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An institution is an entity created by legislation or by practice which acts legally in the same way as a person.</ns8:description>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C1272753</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dailymed:organization</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">linkedct:agency</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIRNLex:2085</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACGT:Institution</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT:385437003</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIt:Institution</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LNC:LP76237-4</ns2:hasDbXref>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0164"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">institution</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0019">
+    <ns8:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A phenotype is an observable characteristic of an organism.</ns8:description>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0084"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phenotype</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0164">
+    <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+    <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organization</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity">
+    <ns5:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[<ncicp:ComplexDefinition xmlns:ncicp='http://ncicb.nci.nih.gov/xml/owl/EVS/ComplexProperties.xsd#'><ncicp:def-definition>An occurrent [span:Occurrent] that exists in time by occurring or happening, has temporal parts and always involves and depends on some entity.</ncicp:def-definition><ncicp:Definition_Review_Date>100428</ncicp:Definition_Review_Date><ncicp:def-source>NPO</ncicp:def-source><ncicp:attr>BFO (v. 1.1)</ncicp:attr><ncicp:Definition_Reviewer_Name>Dennis Thomas</ncicp:Definition_Reviewer_Name></ncicp:ComplexDefinition>]]></ns5:definition>
+    <ns5:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPO_703</ns5:code>
+    <ns5:dBXrefID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">span:ProcessualEntity</ns5:dBXrefID>
+    <ns5:preferred_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">processual entity</ns5:preferred_Name>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProcessualEntity</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0106">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0089"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">physical description</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0098">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0097"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medical history</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0059">
+    <ns8:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A hypothesis is an information content entity that describes a possible correlation between two or more variables.</ns8:description>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI:0000074</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C1512571</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIt:Hypothesis</ns2:hasDbXref>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0089"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypothesis</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1/span#Occurrent">
+    <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1#Entity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">occurrent</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Examples: the life of an organism, a surgical operation as processual context for a nosocomical infection, the spatiotemporal context occupied by a process of cellular meiosis, the most interesting part of Van Gogh's life, the spatiotemporal region occupied by the development of a cancer tumor', 'Definition: An entity [bfo:Entity] that has temporal parts and that happens, unfolds or develops through time. Sometimes also called perdurants.', 'Synonyms: perdurant'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0109">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRAK_0000148">
+    <ns10:xref rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information content entity</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An information content entity is an entity that is generically dependent on some artifact and stands in relation of aboutness to some entity.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRAK</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0012">
+    <ns8:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A patent is an information entity granted by a patent office which confers upon the patenter the sole right to make, use and sell an invention for a set period of time.</ns8:description>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRO:Patent</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIRNLex:2364</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO:0000313</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Galen:patent</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D020490</ns2:hasDbXref>
+    <ns4:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">American Heritage(R) Stedman's Medical Dictionary</ns4:IAO_0000119>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/IAO_0000313"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">patent</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0016">
+    <ns8:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A clinical protocol is a directive information entity about the objective(s), design, methodology, statistical considerations, and organization of a clinical procedure.</ns8:description>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO:0000124</ns2:hasDbXref>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clinical protocol</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <ns8:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Malone</ns8:creator>
+    <ns4:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:MaterialEntity</ns4:IAO_0000119>
+    <ns4:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A material entity is a real world physical object. It is an entity that exists in full during the length of time of its existence, persists through this time while maintaining its identity and has no temporal parts. For example a heart, a human, a fly, a microarray.</ns4:IAO_0000115>
+    <ns4:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An independent continuant [snap:IndependentContinuant] that is spatially extended whose identity is independent of that of other entities and can be maintained through time. Note: Material entity [snap:MaterialEntity] subsumes object [snap:Object], fiat object part [snap:FiatObjectPart], and object aggregate [snap:ObjectAggregate], which assume a three level theory of granularity, which is inadequate for some domains, such as biology.</ns4:IAO_0000115>
+    <ns4:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A material entity is an entity that exists in full during the length of time of its existence, persists through this time while maintaining its identity and has no temporal parts. For example a heart, a human, a fly, a microarray.</ns4:IAO_0000115>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MaterialEntity</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000310">
+    <ns4:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Lawrence Hunter</ns4:IAO_0000117>
+    <ns4:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">document</ns4:IAO_0000111>
+    <ns4:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A journal article, patent application, laboratory notebook, or a book</ns4:IAO_0000112>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank:references</ns2:hasDbXref>
+    <ns4:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A collection of information content entities intended to be understood together as a whole</ns4:IAO_0000115>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TRAK_0001167"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO_0000310</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0001">
+    <ns8:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A formulated pharmaceutical is a chemical substance whose granular parts include an active ingredient, an excipient, and possibly a stability regulator for the active ingredient.</ns8:description>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pharmgkb:Drug</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sider:drugs</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medicare:drugs</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dailymed:drugs</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIt:Pharmaceutical_Formulation</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C1705957</ns2:hasDbXref>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank:drugs</ns2:hasDbXref>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0063"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">formulated pharmaceutical</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0084">
+    <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Quality"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organismal quality</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000313">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0012"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">patent</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A document that has been accepted by a patent authority'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0074">
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0221"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0073"/>
+    <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/IAO_0000442"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0006"/>
+    <ns8:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An expert role is a role played by a knowledgeable person.</ns8:description>
+    <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Role"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">expert role</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0089">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">description</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0136">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0135"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medical finding</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0010">
+    <ns8:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biomedical measure is an information content entity that describes or is a measure of biomedically relevant entities.</ns8:description>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0093"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biomedical measure</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000396">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0063">
+    <ns8:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical substance is a material entity consisting of many chemical entities and typically has connected boundaries.</ns8:description>
+    <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical substance</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0135">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0089"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medical description</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0060">
+    <ns8:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A clinical subject role is the role played by an organism who is the subject of a clinical procedure or assessment.</ns8:description>
+    <ns2:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OCRe_clinical:Subject</ns2:hasDbXref>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0006"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clinical subject role</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0000001">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0151">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">criterion</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1#Entity">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entity</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TEO</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#TransitiveProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0093">
+    <ns8:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A measure is an information content entity that describes or quantifies some thing.</ns8:description>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0109"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">measure</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0097">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0089"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">historical description</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMO</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000129">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

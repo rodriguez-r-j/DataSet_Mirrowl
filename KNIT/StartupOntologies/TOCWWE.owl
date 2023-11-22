@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass000c9b53_05dc_462b_9a15_3c98eeb077ab">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass466650ed_d7cd_487d_81c7_481fe9acbe8d"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antiseizure medications affected by oral contraceptives</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass7289b504_675a_4adc_b99f_8e18d636bb45">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassf5d1544b_e780_4c72_8609_40ef28a2b6c9"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Psychotlogical counseling</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass19b4d9a0_a2fa_4dae_9bbe_117a9e44d5aa">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass470ec59d_7a1c_4854_b691_922e324c5836"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corpus callosotomy</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass243b6595_86ba_4e8e_9b58_693c41bd67cc">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassc1744edf_449a_4b7e_827b_1fa6542741e6"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish oil</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass2d2836ad_3a2c_45b4_9008_86ece37aa1d8">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass26fac4d5_b0e1_41cf_ab2a_781bfb688732"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citalopram</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass2fbe3ae5_964f_4a8a_802a_ded1c62fece3">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass507c4a48_7455_44e7_b299_b1ff93e3a36e"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment of obesity</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#selective_5-ht_reuptake_inhibitors">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">selective 5-ht reuptake inhibitors</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ELECTIVE 5-HT REUPTAKE INHIBITOR</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ELECTIVE 5-HT REUPTAKE INHIBITOR</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass0ca4a160_5ada_4489_a919_f013ced26f5d">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassd6416113_a48f_49a5_8aac_570de12c1768"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ergotamines</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass0ffe94fe_a9e9_4870_aca5_ff81d9c75f19">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassf5d1544b_e780_4c72_8609_40ef28a2b6c9"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adjustment of metabolism</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass2131119e_4a55_414f_a020_bfdffb170fd8">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassc6a14972_69d8_4899_a6da_01c33cbf8d64"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antiepileptic treatment during breast-feeding</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass28bf9c36_5edb_494c_bf87_50631066cef5">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass5e49b65a_abe2_4e15_950c_6292a1e2c1c2"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thyroid hormone replacement therapy</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass11a6d1be_4168_4a1e_84f6_73292f4b201d">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass46fafad1_e818_4318_b08a_8374c77698d4"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anaesthetic inducing epileptic seizures</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassacc175ab_288a_4dfa_90ed_393cc7086dbe">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass6c34cd72_d22c_4c9e_996b_e5ff68730e96"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VitaminK</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass5ffc10a3_969d_4ee5_8f9e_c3cf736946cd">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassf4f244e8_ed20_4188_9aa2_b777b1b94acd"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carbamazepine</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass13eaa223_bb54_4b07_8ee9_29932ad91233">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass7c1c9753_ec0d_4102_a50c_a8322cb93f44"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Folic acid supplement</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass1f3cad5f_af87_4160_8b6f_1dc61c25f42f">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass77f5f9b5_ef65_40d5_88bc_44a22424cb5c"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calcitonin</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass2283e05e_2366_4bc7_abd5_136ce911c369">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass470ec59d_7a1c_4854_b691_922e324c5836"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multiple subpial transection</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass7a7a87db_0c29_48b0_afe1_5e2c9fd2afaa">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass8729a436_d72c_43eb_a0e5_f93d5ca1e298"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sodium valproate</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClasscaafb9ec_cad7_41be_b662_04960eeb3f0d">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassf4f244e8_ed20_4188_9aa2_b777b1b94acd"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clonazepam</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass28564be9_21d4_4f97_8c61_3183f8c1e55d">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass8c761b23_8ae3_4832_ba73_3c60d8b7d959"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palliative surgery</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassef2ee332_c01e_4120_bc87_7c098903a59b">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassf0aadf52_6257_4da7_895e_4ebeda8d109b"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oxcarbazepine</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass06363d10_4aa4_4bad_8568_d9c70048cc65">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass2acc4351_4a10_4cb5_922d_ac5bc01833d4"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duloxetine</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass2efc4a74_ad43_49ea_8a64_bbe5f72a0467">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass6a0a3f9d_bda4_4e90_b9af_0da981c7ccf7"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diazepam</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass60701e4b_0cd3_4e35_a212_6b89a1e860c8">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass4fce6a4e_d2a2_4af7_9235_4b6e698f9ad8"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gabapentin</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass214d0a3c_761c_404f_bfbe_9a7c48419051">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassf5d1544b_e780_4c72_8609_40ef28a2b6c9"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment of hyperandrogen</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass2c8e63e3_bd97_4984_96f2_c1ffac582044">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassf0aadf52_6257_4da7_895e_4ebeda8d109b"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamotrigine</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass0740f189_e336_4b67_9b2c_0afe97572764">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassb9b8a9cc_fbc6_4b8f_be59_fed0a5d62b49"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mood stabilizer</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass04d46bee_f175_4694_980b_94f777a18479">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass197cf5ec_6588_4b95_adf5_af8e7a81d8d6"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Total serum concentration</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass2db60cb2_fc4c_406e_b717_d6b813afeca0">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassf5d1544b_e780_4c72_8609_40ef28a2b6c9"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laparoscopic ovarian drilling</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassee48bacb_fee8_408e_8165_05a1ea98e5a1">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass14774b56_8f50_4b20_b25c_6da7ecd42892"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alprazolam</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#oxcarbazepine">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxcarbazepine</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XCARBAZEPIN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XCARBAZEPIN</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass2cbb8051_a991_403b_8334_668d1d9c066a">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass8c761b23_8ae3_4832_ba73_3c60d8b7d959"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Destruction and stimulation surgery</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass0210e598_b454_46b6_9686_cd843b025526">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass4fba8de6_a830_4c50_ac12_84d8b7fef59c"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Migraine status medication</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass079131cf_7ed2_4c94_867b_df06caee091c">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass9a736af5_920f_46a3_81fd_c678606417f4"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eslicarbazepine  acetate</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#adjustment_of_antiseizure_medications">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adjustment of antiseizure medications</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DJUSTMENT OF ANTISEIZURE MEDICATION</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DJUSTMENT OF ANTISEIZURE MEDICATION</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#sodium_valproate">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sodium valproate</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODIUM VALPROAT</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ODIUM VALPROAT</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass08f9bec7_6d8f_410a_84f5_df083b0916cb">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassf4f244e8_ed20_4188_9aa2_b777b1b94acd"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phenobarbital</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass307151d0_d708_41e4_becf_7f393bb1fa93">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassb9b8a9cc_fbc6_4b8f_be59_fed0a5d62b49"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Electroconvulsive therapy</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass01f75495_fa78_48b0_b3b1_428f0429a4a1">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass9a736af5_920f_46a3_81fd_c678606417f4"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lacosamide</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass1b928d72_f5eb_4dcf_8ad4_5c953ef3026b">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassa6727f24_6011_4f27_9b0c_39ef319f50b5"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anterior temporal lobectomy</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass313cca3f_c27c_4188_97bc_6fddd70b82da">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass2f9e2f82_3f68_44ad_9015_cc44f9d7c016"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paroxetine</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass2ca3f5a8_e877_4dd1_b79b_db8500523d14">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass26fac4d5_b0e1_41cf_ab2a_781bfb688732"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fluoxetine</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass4ebbc4c8_be06_4172_9f79_556ddb0ab910">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass12aa87d0_6d39_42b8_84b9_10fb6a05c041"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phenytoin sodium</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass5e49b65a_abe2_4e15_950c_6292a1e2c1c2">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassf0edd2a0_c254_446f_8025_adde2ad7f485"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment of thyroid insufficiency</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass26fac4d5_b0e1_41cf_ab2a_781bfb688732">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass51d8cccb_9299_4adc_b597_c5d0afb4a6a4"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Selective 5-HT reuptake inhibitors</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass507c4a48_7455_44e7_b299_b1ff93e3a36e">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass726eb988_23a3_444a_9a56_827705d4bdba"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Comorbidities treatment</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassa6727f24_6011_4f27_9b0c_39ef319f50b5">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass8c761b23_8ae3_4832_ba73_3c60d8b7d959"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resection surgery</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass12aa87d0_6d39_42b8_84b9_10fb6a05c041">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassda186ee0_077f_4edc_911d_d7f91e64dc63"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antiseizure medications  causing sexual dysunction</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassc1744edf_449a_4b7e_827b_1fa6542741e6">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassc6a14972_69d8_4899_a6da_01c33cbf8d64"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meal therapy</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass0bbb663b_25ac_46fc_9025_831b9dc89287">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass34d7f8dc_0ddc_4261_9a11_29382530c8dc"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adjustment of antiseizure medications</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass9507d691_5bd7_4908_af7b_52f3b352116e">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass507c4a48_7455_44e7_b299_b1ff93e3a36e"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment of sexual dysunction</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassf4f244e8_ed20_4188_9aa2_b777b1b94acd">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass9e790073_3973_44a0_bf69_5ea4f7ce1ec3"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">First generation antiseizure medication</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass51d8cccb_9299_4adc_b597_c5d0afb4a6a4">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassb9b8a9cc_fbc6_4b8f_be59_fed0a5d62b49"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antidepressants</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass8c8877bf_c734_4c7f_92ea_23f955b841fe">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass46fafad1_e818_4318_b08a_8374c77698d4"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment of epileptic seizures during delivery</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassf0aadf52_6257_4da7_895e_4ebeda8d109b">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass9e790073_3973_44a0_bf69_5ea4f7ce1ec3"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Second generation antiseizure medication</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassc3dc159e_8464_4342_9abe_1765893b2f08">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClasse5a3112d_91dc_4595_be5f_bfdce955d8f2"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adjustment of antiseizure medications</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass8729a436_d72c_43eb_a0e5_f93d5ca1e298">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass466650ed_d7cd_487d_81c7_481fe9acbe8d"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antiseizure medications affecting oral contraceptives</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass466650ed_d7cd_487d_81c7_481fe9acbe8d">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass0bbb663b_25ac_46fc_9025_831b9dc89287"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antiseizure medications that have drug interactions with oral contraceptives</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassc6a14972_69d8_4899_a6da_01c33cbf8d64">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass726eb988_23a3_444a_9a56_827705d4bdba"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antiepileptic treatment</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass2f9e2f82_3f68_44ad_9015_cc44f9d7c016">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass8f933a00_4b37_4ca0_b853_722d6609c7eb"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Selective 5-HT reuptake inhibitors</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassf0edd2a0_c254_446f_8025_adde2ad7f485">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassc9199a00_0874_420a_87f0_4d66a66ba355"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment of pregnancy complications</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass8f933a00_4b37_4ca0_b853_722d6609c7eb">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassc3dc159e_8464_4342_9abe_1765893b2f08"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-anxiety drugs</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass2acc4351_4a10_4cb5_922d_ac5bc01833d4">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass51d8cccb_9299_4adc_b597_c5d0afb4a6a4"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Selective serotonin and norepinephrine reuptake inhibitor</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass34d7f8dc_0ddc_4261_9a11_29382530c8dc">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassc6a14972_69d8_4899_a6da_01c33cbf8d64"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antiepileptic treatment during contraception</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass46fafad1_e818_4318_b08a_8374c77698d4">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassc6a14972_69d8_4899_a6da_01c33cbf8d64"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antiepileptic treatment during delivery</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassd6416113_a48f_49a5_8aac_570de12c1768">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass4fba8de6_a830_4c50_ac12_84d8b7fef59c"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acute phase medication</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass7911ab03_6b3d_4497_a7f4_ca7ac6be4dca">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassc6a14972_69d8_4899_a6da_01c33cbf8d64"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medication</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass470ec59d_7a1c_4854_b691_922e324c5836">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass8c761b23_8ae3_4832_ba73_3c60d8b7d959"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Block surgery</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass83816d4b_8695_4b97_9340_c44785220cbb">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassc9199a00_0874_420a_87f0_4d66a66ba355"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adjustment of antiseizure medications</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass3ac9cd51_e4a5_4a91_895d_7e8d69454d67">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass507c4a48_7455_44e7_b299_b1ff93e3a36e"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment of osteoporosis</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass726eb988_23a3_444a_9a56_827705d4bdba">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment of  Childbearing-age Women with Epilepsy</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass8c761b23_8ae3_4832_ba73_3c60d8b7d959">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassc6a14972_69d8_4899_a6da_01c33cbf8d64"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surgery</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassf5d1544b_e780_4c72_8609_40ef28a2b6c9">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass507c4a48_7455_44e7_b299_b1ff93e3a36e"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment of polycystic ovary syndrome</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass4fba8de6_a830_4c50_ac12_84d8b7fef59c">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass507c4a48_7455_44e7_b299_b1ff93e3a36e"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment of migraine</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass9e790073_3973_44a0_bf69_5ea4f7ce1ec3">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass7911ab03_6b3d_4497_a7f4_ca7ac6be4dca"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antiseizure medications</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassc9199a00_0874_420a_87f0_4d66a66ba355">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassc6a14972_69d8_4899_a6da_01c33cbf8d64"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antiepileptic treatment during pregnancy</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassb9b8a9cc_fbc6_4b8f_be59_fed0a5d62b49">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassd4c8e6e6_1364_4cc1_a3f2_0311a8a7de63"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adjustment of antiseizure medications</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass14774b56_8f50_4b20_b25c_6da7ecd42892">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass8f933a00_4b37_4ca0_b853_722d6609c7eb"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benzodiazepines</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass6c34cd72_d22c_4c9e_996b_e5ff68730e96">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassc9199a00_0874_420a_87f0_4d66a66ba355"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Material supplement</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass4fce6a4e_d2a2_4af7_9235_4b6e698f9ad8">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass396795e9_c8eb_43cf_93bc_5acaac5737ac"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-enzyme-inducible antiseizure medications</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass6a0a3f9d_bda4_4e90_b9af_0da981c7ccf7">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass8c8877bf_c734_4c7f_92ea_23f955b841fe"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">End the seizure as soon as possible</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassda186ee0_077f_4edc_911d_d7f91e64dc63">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass9507d691_5bd7_4908_af7b_52f3b352116e"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adjustment of antiseizure medications</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass197cf5ec_6588_4b95_adf5_af8e7a81d8d6">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass83816d4b_8695_4b97_9340_c44785220cbb"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Therapeutic drug monitoring</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClasse5a3112d_91dc_4595_be5f_bfdce955d8f2">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass507c4a48_7455_44e7_b299_b1ff93e3a36e"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment of  anxiety disorder</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClassd4c8e6e6_1364_4cc1_a3f2_0311a8a7de63">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass507c4a48_7455_44e7_b299_b1ff93e3a36e"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment of depressive disorder</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass396795e9_c8eb_43cf_93bc_5acaac5737ac">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass0bbb663b_25ac_46fc_9025_831b9dc89287"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antiseizure medications that not have drug interactions with oral contraceptives</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass77f5f9b5_ef65_40d5_88bc_44a22424cb5c">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass3ac9cd51_e4a5_4a91_895d_7e8d69454d67"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Material supplement</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass9a736af5_920f_46a3_81fd_c678606417f4">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass9e790073_3973_44a0_bf69_5ea4f7ce1ec3"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Third generation antiseizure medication</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass7c1c9753_ec0d_4102_a50c_a8322cb93f44">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2021/7/untitled-ontology-21#OWLClass507c4a48_7455_44e7_b299_b1ff93e3a36e"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment of cognitive  disorder</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOCWWE</ns1:ontology_acronm>
+  </owl:Class>
+</rdf:RDF>

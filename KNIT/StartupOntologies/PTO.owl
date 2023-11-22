@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns2="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000569">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000569</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000205"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">white-backed planthopper egg mortality</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WBPHOVI (related), WBPH egg mortality (related)</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000552">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000552</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000568"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shoot dry weight</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">total shoot dry weight (related), SHDWT (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The dry weight of the shoot without inflorescence.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000577">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000577</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000361"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stem angle</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STEMAG (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A stem morphology trait (TO:0000361) which is the angle of a stem (PO:0009047).', 'Refer to angle (PATO:0002326): An orientation inhering in a bearer by virtue of the bearer's placement at an angle.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000558">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000558</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000472"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">small vascular bundle number</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SVBNB (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Number of small sized vascular bundles present in a plant part.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000599">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000599</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000277"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enzyme activity trait</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enzyme catalytic activity (related), enzymatic activity (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A biochemical trait which is a quality of an enzymatic reaction.', 'Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000561">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000561</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000559"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">space to culm ratio</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SPCULMRO (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A ratio of total space or volume occupied by the whole plant to the total number of culms or tiller in the plant.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000565">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000565</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000456"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spikelets per panicle length</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SPKPPNLG (related), number of spikelets per cm panicle length (related), spikelet number per panicle length (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Number of spikelets present in the rice panicle per unit length.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000589">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000589</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000919"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">average grain weight</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The average grain weight (TO:0000589) can be used to calculate the overall yield or produce from a field.', 'A grain weight (TO:0000919) which is the average weight of a grain (caryopsis fruit; PO:0030104), including the caryopsis hull (PO:0006000).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000570">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000570</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000242"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">watery lesion percentage</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percentage of watery lesion (related), WLPCENT (related)</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000571">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000571</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000568"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shoot fresh weight</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SHFWT (related), total shoot fresh weight (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Fresh weight of the shoot without inflorescence.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000562">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000562</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000540"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">specific leaf area</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLFAR (related), SLA (related), leaf specific area (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A leaf area trait (TO:0000540) that is the ratio of the leaf area (TO:0000540) to the leaf dry weight (TO:0001014) or leaf dry mass (TO:New).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000566">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000566</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000419"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000843"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000241"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leaf stomatal complex frequency</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STOFQ (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A vascular leaf morphology trait (TO:0000419) which is the number of leaf stomatal complexes (PO:0025183) present on the leaf surface.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000573">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000573</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000864"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sepal color</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Refer to color (PATO:0000014): A composite chromatic quality composed of hue, saturation and intensity parts.', 'A sepal morphology trait (TO:0000864) which is the color of a sepal (PO:0009031) in a flower (PO:0009049).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000564">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000564</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000804"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000657"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spikelet width</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SPKWD (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Refer to width (PATO:0000921): A 1-D extent quality which is equal to the distance from one side of an object to another side which is opposite.', 'A spikelet morphology trait (TO:0000657) which is the width of the spikelets (PO:0009051) present in a grass inflorescence.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000551">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000551</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000549"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhizome branch number</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhizome branching number per plant (related), RHZBRNB (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A rhizome morphology trait (TO:0000549) which is the number of branches (PO:0025073) on a rhizome (PO:0004542).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000596">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000596</ns2:notation>
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE plant volume (sensu Poaceae)</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'OBSOLETE.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000598">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000598</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000281"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein content</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">total protein content (related), PROTCN (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The total protein content measured in a plant or a plant part.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000591">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000591</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000590"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100-dehulled grain weight</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HDHULGRWT (exact), hundred grain weight (broad), HDGRWT (broad), hundred dehulled grain weight (exact)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A dehulled grain weight (TO:0000590) which is the weight of a sample of 100 dehulled grains (caryopsis fruit; PO:0030104).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000583">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000583</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000920"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infructescence weight</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Refers to mass (PATO:0000125): A physical quality that inheres in a bearer by virtue of the proportion of the bearer's amount of matter.', 'An infructescence morphology trait (TO:0000920) that is the average weight (mass) of an infructescence bearing mature fruit (PO:0009001).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000576">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000576</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000892"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stem length</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">culm height (related), CmL (related), CULMLG (related), core length (narrow), STEMLG (related), culm length (related), stem height (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Often measured from soil surface to highest point on stem.
+Refer to length (PATO:0000122): A 1-D extent quality which is equal to the distance between two points.', 'A stem morphology trait (TO:0000361) which is the length of the stem (PO:0009047).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000575">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000575</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000843"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endosperm morphology trait</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A portion of plant tissue morphology trait (TO:0000843) which is a quality of an endosperm (PO:0009089).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000560">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000560</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000361"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">space per culm</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SPPCULM (related), tiller volume (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Space occupied by each culm or the tiller in a plant.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000567">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000567</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000739"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000077"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tiller angle</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIAG (related)</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000557">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000557</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000547"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000142"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">secondary branch number</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of third order inflorescence axes (exact), SBRNB (related), secondary branches per panicle (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A secondary branching of inflorescence (TO:0000142) trait which is the number of secondary branches in an inflorescence (PO:0009049).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000595">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000595</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000593"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1000-polished grain weight</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TPLSGRWT (exact), thousand polished grain weight (exact)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A polished grain weight (TO:0000593) which is the weight of a sample of 1000 polished grains.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000574">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000574</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000865"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tepal color</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A tepal morphology trait (TO:0000865) which is the color of a tepal (PO:0009033).', 'Refer to color (PATO:0000014): A composite chromatic quality composed of hue, saturation and intensity parts.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000579">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000579</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000078"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root dry weight to tiller number ratio</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deep root dry weight to tiller number ratio (related), RTDWTTINBRO (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The trait is an indirect measure of the balance between water absorption and transpiration.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#to_0000585">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">to 0000585</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O 000058</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O 000058</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000592">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000592</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000590"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1000-dehulled grain weight</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thousand grain weight (broad), TDHULGRWT (exact), thousand dehulled grain weight (exact), TDGRWT (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A dehulled grain weight (TO:0000590) which is the weight of a sample of 1000 dehulled grains (caryopsis fruit; PO:0030104) .'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000594">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000594</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000593"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100-polished grain weight</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HPLSGRWT (exact), hundred polished grain weight (exact)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A polished grain weight (TO:0000593) which is the weight of a sample of 100 polished grains.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000572">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000572</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000863"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">petal color</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A petal morphology trait (TO:0000863) which is the color of a petal (PO:0009032).', 'Refer to color (PATO:0000014): A composite chromatic quality composed of hue, saturation and intensity parts.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#to_0000584">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">to 0000584</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O 000058</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O 000058</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000578">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000578</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000279"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root fresh weight</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">total root fresh weight (related), RTFWT (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The average fresh weight of the root determined in a study.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000556">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000556</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000549"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000568"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhizome dry weight</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RHZDWT (related), rhizome dry weight per plant (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A rhizome morphology trait (TO:0000549) which is the dry weight of a rhizome (PO:0004542).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000586">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000586</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0020103"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seminal root length</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Seminal root is the primary root originating in a plant after germination.
+Refer to length (PATO:0000122): A 1-D extent quality which is equal to the distance between two points.', 'A root length (TO:0000227) that is the length of one or more seminal roots (PO:0000046).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#to_0000588">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">to 0000588</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O 000058</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O 000058</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000554">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000554</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000754"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000553"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhizome internode length</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RHZINLG (related), average rhizome internode length (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A rhizome morphology trait (TO:0000549) which is the length of a rhizome internode (PO:0025204).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000581">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000581</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000373"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflorescence color</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">head color (narrow)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An inflorescence morphology trait (TO:0000373) which is the color of an inflorescence (PO:0009049).', 'Refer to color PATO:0000014: A composite chromatic quality composed of hue, saturation and intensity parts.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000587">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000587</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000931"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endosperm quality</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">End (related), endosperm quality (sensu Poaceae) (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A seed quality trait (TO:0000931) which is the quality of the endosperm (PO:0009089) texture, content, composition, size, etc.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000555">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000555</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000548"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000754"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhizome internode number</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">average rhizome internode number (related), RHZINNB (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A rhizome morphology trait (TO:0000549) which is the number of rhizome internodes (PO:0025204).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">notation</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000563">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000563</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000657"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spikelet length to width ratio</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SPKLGWDRO (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Refer to length (PATO:0000122): A 1-D extent quality which is equal to the distance between two points.
+Refer to width (PATO:0000921): A 1-D extent quality which is equal to the distance from one side of an object to another side which is opposite.', 'A spikelet morphology trait (TO:0000657) which is the ratio of length to the width of a spikelet (PO:0009051).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000600">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000600</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000160"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UV-A light sensitivity</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ultraviolet-A resistance (related), UVARS (related), Ultraviolet-A light sensitivity (related), UV-A resistance (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Response shown by the plant in the presence of UV-A light stress.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000580">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000580</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000106"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cytoplasmic male sterility</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000485">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000485</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000392"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sterility related trait</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000437">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000437</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000485"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male sterility</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male sterility measure (related), MALEST (related), degree of male sterility of male sterile lines (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'In plants, it represents the incompetence of the pollen to fertilize the ovum. Reasons could be non-viable pollen, incompatibility, pollen abortion, toxicity, genetic etc. Usually determined by either the pollen sterility or spikelet fertility (percent seed set).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000050">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000050</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000268"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflorescence branching</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">panicle branching (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An inflorescence morphology trait (TO:0000373) which is the extent of branching. (PO:0009049).', 'Branching usually determines the shape and compactness of the inflorescence'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000754">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000754</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000837"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardinal organ part morphology trait</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A cardinal organ part of a multi-tissue plant structure morphology trait (TO:0000837) which is a quality of a cardinal organ part (PO:0025001).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000920">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000786"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infructescence morphology trait</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A reproductive shoot system morphology trait (TO:0000786) which is a quality of the infructescence (PO:0006342).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000738">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000738</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000736"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant axis morphology trait</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A plant organ morphology trait (TO:0000736) which is a quality of a plant axis (PO:0025004).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000160">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000160</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000265"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UV light sensitivity</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UV resistance (related), Ultraviolet resistance (related), UVRS (related), Ultraviolet light sensitivity (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Response shown by the plant in the presence of UV light stress.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000348">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000348</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000261"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sogatodes resistance</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAGRS (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Causal agent: Sogatodes orizicola (Muir), Sagotella furcifera and Sogatodes cubanus. Sogatodes orizicola is also a vector for the Rice black streaked dwarf fijivirus and rice hoja blanca  virus (RHBV).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000142">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000142</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000050"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">secondary branching of inflorescence</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SBR (related), secondary branching of panicle (related), panicle secondary branching (related), PnBr (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An inflorescence branching (TO:0000050) trait which is the extent of secondary branching that usually determines the shape and compactness of the inflorescence  (PO:0009049) (such as in rice panicle).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000784">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000784</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000782"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflorescence branch morphology trait</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A inflorescence axis morphology trait (TO:0000782) which is a quality of an inflorescence branch (PO:0009081).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0002629">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0002629</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000836"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fruit morphology trait</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fruit morphology (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A multi-tissue plant structure morphology trait (TO:0000836) which is a quality of a fruit (PO:0009001).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000241">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000241</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000748"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000077"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leaf number</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LFNB (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A shoot system morphology trait (TO:0000077) which is the number of leaves (PO:0025034) in a shoot system (PO:0009006) of a plant.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000863">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000863</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000862"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000747"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">petal morphology trait</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A phyllome morphology trait (TO:0000747) which is a quality of a petal (PO:0009032).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000843">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000843</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000839"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portion of plant tissue morphology trait</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A plant structure morphology trait (TO:0000839) which is a quality of a portion of plant tissue (PO:0009007).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000236">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000236</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000179"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crop damage resistance</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crop damage resistance trait (exact)</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000782">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000782</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000739"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflorescence axis morphology trait</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A shoot axis morphology trait (TO:0000739) which is a quality of an inflorescence axis (PO:0020122).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000398">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000398</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000839"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">whole plant morphology trait</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A plant structure morphology trait (TO:0000839) which is a quality of a whole plant (PO:0000003).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000548">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000548</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000549"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000077"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhizome number</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhizome number per plant (related), RHZNB (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A shoot system morphology trait (TO:0000077) which is the number of rhizomes present in a shoot system (PO:0009006).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000837">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000837</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000839"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardinal part of a multi-tissue plant structure morphology trait</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A plant structure morphology trait (TO:0000839) which is a quality of a cardinal organ part of a multi-tissue plant structure (PO:0025498).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000559">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000559</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000398"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant volume</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP (related), space (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Space occupied by the plant.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000078">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000078</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000279"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root dry weight</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rdw/t (related), RTDWT (related), rdw (related), root dry weight per tiller (related), total root dry weight (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The average dry weight of the root determined in a study.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0002637">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0002637</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000748"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leaf size</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Refer to size (PATO:0000117): A morphology quality inhering in a bearer by virtue of the bearer's physical magnitude. If you are annotating to this term, please add an additional annotation to vascular leaf morphology (TO:0000419) or non-vascular leaf morphology trait (TO:0000925), depending on the species.', 'A leaf morphology trait (TO:0000748) which is the size of a leaf (PO:0025034).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000268">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000268</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000373"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflorescence shape</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">head shape (narrow)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Refer to shape PATO:0000052: A morphological quality inhering in a bearer by virtue of the bearer's ratios of distances between its features (points, edges, surfaces and also holes etc).', 'An inflorescence morphology trait (TO:0000373) which is the shape of an inflorescence (PO:0009049).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000279">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000279</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000043"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root weight</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRW (related), total root weight (related), RTWT (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Root weight may be measured as the average dry or fresh weight of roots.', 'A root morphology trait (TO:0000043) which is the weight of a root (PO:0009005).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000456">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000456</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000582"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000657"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spikelet number</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of spikelets per panicle (related), spikelet number per panicle (related), SPKNB (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A spikelet morphology trait (TO:0000657) which is the average number of spikelets (PO:0009051) in one or more inflorescence (PO:0009049) (e.g. rice panicle) found in a plant or on all plants of a study.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000804">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000804</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0006031"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflorescence width</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">head width (narrow), INFLWD (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Refer to width PATO:0000921: A 1-D extent quality which is equal to the distance from one side of an object to another side which is opposite.', 'An inflorescence morphology trait (TO:0000373) which is the width of an inflorescence (PO:0009049).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000840">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000840</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000839"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">collective plant structure morphology trait</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A plant structure morphology trait (TO:0000839) which is a quality of a collective plant structure (PO:0025497).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000227">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000227</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000043"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root length</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MRL (related), RTLG (related), maximum root length (related), maximum root depth (related), MRD (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A root morphology trait (TO:0000043) which is the length of a root (PO:0009005).', 'refer to PATO:0000122- A 1-D extent quality which is equal to the distance between two points.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000553">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000553</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000549"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhizome length</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RHZLG (related), average rhizome length (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A rhizome morphology trait (TO:0000549) which is the length of a rhizome (PO:0004542).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000261">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000261</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000054"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insect damage resistance</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insect resistance (narrow)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An assay to determine the resistance exhibited by a plant or a group of plants (population) in response to insect infestation as compared to the susceptible and/or the reference plants of the same species.', 'It represents the damage done by the insects to the plant. The damage is a direct measure of resistance to the particular insect variety. The test evaluation is valid if insect population is uniformly distributed at a high level across the screening box or the field.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000106">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000106</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000437"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male sterility type</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MS (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Represents the different types of male sterility found in plants.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000839">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000839</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000017"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant structure morphology trait</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A plant morphology trait (TO:0000017) which is a quality of a plant structure (PO:0009011).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000786">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000786</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000077"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reproductive shoot system morphology trait</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A shoot system morphology trait (TO:0000077) that is a quality of a reproductive shoot system (PO:0025082).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000748">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000748</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000747"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leaf morphology trait</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A phyllome morphology trait (TO:0000747) which is quality of a leaf (PO:0025034).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000017">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000017</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000387"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant morphology trait</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant structure trait (related), plant architecture trait (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A plant trait (TO:0000387) which is a morphological quality of a plant anatomical entity (PO:0025131) or a constituent cellular component (GO:0005575) contained therein.', 'Includes traits of plant structures (PO:0009011) such as plant cell (PO:0009002), plant organ (PO:0009008), portion of plant tissue (PO:0009007), vascular system (PO:0000034), whole plant (PO:0000003) and seed (PO:0009010), as well as those of plant anatomical spaces (PO:0025117) and portions of plant substance (PO:0025161).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000277">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000277</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000387"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biochemical trait</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A plant trait (TO:0000387) which is a quality of a chemical entity (CHEBI:24431), a plant metabolite (CHEBI:76924), or a molecular function (GO:0003674), which occurs in a cellular component (GO:0005575), plant anatomical entity (PO:0025131) or during a plant structure development stage (PO:0009012).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000892">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000892</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000361"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stem size</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stalk size (related), core size (narrow)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Refer to size (PATO:0000117): A morphology quality inhering in a bearer by virtue of the bearer's physical magnitude.', 'A stem morphology trait (TO:0000361) which is the size of a stem (PO:0009047).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0002746">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0002746</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0002629"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fruit weight</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A fruit morphology trait (TO:0002629) that is the weight of a fruit (PO:0009001).', 'Fruit weight is the weight of one or more fruits at a specified level of maturity and, for grain, moisture level. In maize it is often reported as 100 or 1000 kernel weight, in grams and at 15% moisture content.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000075">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000075</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000161"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">light sensitivity</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Response shown by the plant in terms of sensitivity to light stress (quality and quantity of light).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000568">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000568</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000739"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shoot axis weight</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SHWT (related), total shoot weight (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Weight of the shoot without inflorescence.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000281">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000281</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000277"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metabolite content trait</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The trait associated with an assay to determine the affected metabolite's profile.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000043">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000043</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000738"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root morphology trait</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A plant axis morphology trait (TO:0000738) which is a quality of a root (PO:0025025).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000593">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000593</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000919"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polished grain weight</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLSGRWT (exact)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Polishing removes the bran, which consists of aleurone layer (PO:0005360), pericarp; (PO:0009084) and the germ (plant embryo; PO:0009009).  In rice, this is what is referred to as 'white rice'.', 'A grain weight (TO:0000919) which is the weight of a polished grain (caryopsis fruit; PO:0030104).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000419">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000419</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000748"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vascular leaf morphology trait</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A leaf morphology trait (TO:0000748) which is a quality of a vascular leaf (PO:0009025).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000597">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000597</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000387"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant quality trait</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A plant trait (TO:0000387) that contributes to the overall utility, nutritional, or economic value of a plant, plant structure (PO:0009011) or plant product', 'Quality traits of a plant, plant structure or plant product vary from crop production to food consumption factors and may include organoleptic properties (flavor, aroma, appearance, texture, etc), storability, processing qualities and nutritional aspects. Market quality standards for crops are based on complex interaction of social, economic and biological factors and are highly crop-specific (Acquaah, 2012).
+
+Plant traits from other upper level classes may contribute to (as part_of children) to specific plant quality traits.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0001079">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0002629"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">caryopsis fruit morphology trait</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">grain morphology trait (exact), kernel morphology trait (exact)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A fruit morphology trait (TO:0002629) which is a quality of a caryopsis fruit (PO:0030104).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000387">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000387</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant trait</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant quality (related), plant phenotype (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A measurable or observable characteristic of a cellular component (GO:0005575), biological process (GO:0008150) or molecular function (GO:0003674) that is part of, or has participant a plant anatomical entity (PO:0025131) and/or a plant structure development stage (PO:0009012).', 'This includes physiological, molecular and biochemical traits as well.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000179">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000179</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000164"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biotic stress trait</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Response by the plant in terms of resistivity or sensitivity to biotic stress.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000862">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000862</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000736"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">floral organ morphology trait</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A plant organ morphology trait (TO:0000736) which is a quality of a floral organ (PO:0025395).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000052">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000052</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000050"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary branching of inflorescence</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary branching of panicle (related), PBR (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An inflorescence morphology trait (TO:0000373) which is the extent of primary branching that usually sets the tone for shape and compactness of the inflorescence (PO:0009049) (rice panicle).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000547">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000547</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000582"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000784"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000052"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary branch number</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPB (related), primary branches per panicle (related), panicle primary branch number (related), number of second order inflorescence axes (exact), PRB (related), number of primary rachis branches (related), PBRNB (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A primary branch of inflorescence (TO:0000052) trait which is the number of primary branches present in the inflorescence (PO:0009049).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000205">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000205</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000348"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">white-backed planthopper resistance</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WBPH (related), WBPHRS (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Causal agent: Sagotella furcifera. Symptoms: partial to pronounced yellowing and increasing severity of stunting. Extreme signs are wilting and death of plants. Infested areas in the field may be patchy. (similar to the symptoms of whitebacked planthopper).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000242">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000242</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000236"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microbial damage resistance</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Response by the plant in terms of resistivity or sensitivity to microbes.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000736">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000736</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000836"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant organ morphology trait</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A multi-tissue plant structure morphology trait (TO:0000836) which is a quality of a plant organ (PO:0009008).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000836">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000836</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000839"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multi-tissue plant structure morphology trait</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A plant structure morphology trait (TO:0000839) which is a quality of a multi-tissue plant structure (PO:0025496).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000582">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000582</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000373"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflorescence number</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFLONB (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A reproductive shoot system morphology trait (TO:0000786) which is the number of inflorescences (PO:0009049).', 'Refer to number of (PATO:0001555): The number of parts of a particular type that the bearer entity has. This is a relational quality, and thus holds between two entities: the bearer of the quality, and the type of parts.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000739">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000739</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000738"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shoot axis morphology trait</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A plant axis morphology trait (TO:0000738) which is a quality of a shoot axis (PO:0025029).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000077">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000077</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000842"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shoot system morphology trait</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Does not include traits of fruit, parts of fruit and adventitious roots which are borne on the shoot.', 'A collective plant organ structure morphology trait (TO:0000842) which is a quality of a shoot system (PO:0009006).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000265">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000265</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000075"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">light quality sensitivity</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">response to light quality (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Light quality is defined by the wavelength of the light type.', 'Response shown by the plant in the presence of  a light quality stress.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000549">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000549</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000739"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhizome morphology trait</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A shoot axis morphology trait (TO:0000739) which is a quality of a rhizome (PO:0004542).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000657">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000657</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000373"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spikelet morphology trait</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An inflorescence morphology trait (TO:0000373) which is a quality of a spikelet (PO:0009051).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000164">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000164</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000387"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stress trait</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crop damage (related), stress susceptibility (related), stress resistance (related), stress tolerance (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Response by the plant in terms of resistivity or sensitivity to either the biotic or the abiotic types of stress.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000747">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000747</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000736"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phyllome morphology trait</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A plant organ morphology trait (TO:0000736) which is quality of a phyllome (PO:0006001).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0006031">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0006031</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000373"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflorescence size</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Refer to size (PATO:0000117): A morphology quality inhering in a bearer by virtue of the bearer's physical magnitude.', 'An inflorescence morphology trait (TO:0000373) which is the variation in size of inflorescence (PO:0009049).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000470">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000470</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000843"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vascular tissue morphology trait</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A portion of plant tissue morphology trait (TO:0000843) which is a quality of a vascular tissue and its parts.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000931">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000597"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seed quality trait</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A plant quality trait (TO:0000597) which is the commercial and /or economical value of a seed (PO:0009010) , or its overall improvement.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000865">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000865</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000862"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000747"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tepal morphology trait</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A phyllome morphology trait (TO:0000747) which is a quality of a tepal (PO:0009033).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0020103">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0020103</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000227"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adventitious root length</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An adventitious root can be a 'shoot-borne root' (PO:0000042) or one of the child terms- all have adventitious root as a broad synonym. Shoot-borne roots are part of the root system (PO:0025025).', 'A root length (TO:0000227) trait which is the length of an adventitious root (shoot-borne root; PO:0000042).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000919">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0001079"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0002746"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">grain weight</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kwt (related), kernel weight (exact), 20 kernel weight (narrow), caryopsis fruit weight (exact), GRWT (exact)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A caryopsis fruit morphology trait (TO:0001079) which is the weight of a caryopsis fruit (grain or kernel; PO:0030104).', 'Grain weight (TO:0000919) is a general parent term, covering the weights of various types of caryopsis fruits (PO:0030104), and doesn't specify if they are hulled or dehulled.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000472">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000472</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000470"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vascular bundle number</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VBNB (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A plant structure morphology trait (TO:0000839) which is the number of vascular bundles (PO:0005020) in a plant structure (PO:0009011).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000361">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000361</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000739"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stem morphology trait</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">core morphology trait  (narrow)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A shoot axis morphology trait (TO:0000739) which is the quality of a stem (PO:0009047).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000590">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000590</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000919"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dehulled grain weight</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DHULGRWT (related), GRWT (broad)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A grain weight (TO:0000919) which is the weight a dehulled grain (caryopsis fruit;  PO:0030104).', 'Dehulling is the process of removing the caryopsis hull (PO:0006000), which consists of a dried lemma (PO:0009037) and a dried palea (PO:0009037).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000864">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000864</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000862"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000747"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sepal morphology trait</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A phyllome morphology trait (TO:0000747) which is a quality of a sepal (PO:0009031).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000054">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000054</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000236"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal damage resistance</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pest resistance (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Response by the plant in terms of resistivity or sensitivity to the animals infesting them.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000392">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000392</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000387"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sterility or fertility trait</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A plant trait (TO:0000387) which is a measure of either the fertility or sterility, contributed by nonfunctional male and or female plant parts or their incompatible interaction. This also includes traits on seed setting behavior in the fruit (caryopsis) of a grass plant that can be assayed in terms of spikelet sterility or fertility.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000540">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000540</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0002637"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leaf area trait</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LFAR (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Refer to area (PATO:0001323): A 2-D extent quality inhering in a bearer by virtue of the bearer's two dimensional extent. If you are annotating to this term, please add an additional annotation to vascular leaf morphology (TO:0000419) or non-vascular leaf morphology trait (TO:0000925), depending on the species.', 'A leaf morphology trait (TO:0000748) which is the total area of a leaf (PO:0025034).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000842">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000842</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000840"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">collective plant organ structure morphology trait</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A collective plant structure morphology trait (TO:0000840) which is a quality of a collective plant organ structure (PO:0025007).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000168">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000168</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000164"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abiotic stress trait</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abiotic stress tolerance (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Response by the plant in terms of resistivity or sensitivity to abiotic stress.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000161">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000161</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000168"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation response trait</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">response to radiation (related), RADSN (related), radiation sensitivity (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Response shown by the plant in terms of sensitivity to one or more types of radiation stress (quality and quantity of light).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000373">
+    <ns2:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TO:0000373</ns2:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TO_0000786"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflorescence morphology trait</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Head morphology trait (narrow), inflorescence structure trait (related)</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A reproductive shoot system morphology trait (TO:0000786) that is a quality of an inflorescence (PO:0009049).'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTO</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

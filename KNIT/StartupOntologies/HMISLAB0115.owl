@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.fairdatacollective.com/template-vocabulary/Difficultywashingalloverordressing">
+    <rdfs:subClassOf rdf:resource="http://www.fairdatacollective.com/template-vocabulary/Disability"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty washing all over or dressing</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'If the patient has Difficulty washing all over or dressing'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMISLAB0115</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.fairdatacollective.com/template-vocabulary/Emotionallyimpaired">
+    <rdfs:subClassOf rdf:resource="http://www.fairdatacollective.com/template-vocabulary/Disability"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emotionally impaired</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'If the patient has Emotionally impaired'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMISLAB0115</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.fairdatacollective.com/template-vocabulary/Difficultyinwriting">
+    <rdfs:subClassOf rdf:resource="http://www.fairdatacollective.com/template-vocabulary/Disability"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty in writing</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'If the patient has Difficulty in writing'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMISLAB0115</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.fairdatacollective.com/template-vocabulary/Difficultyinwalking">
+    <rdfs:subClassOf rdf:resource="http://www.fairdatacollective.com/template-vocabulary/Disability"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty in walking</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'If the patient has Difficulty in walking'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMISLAB0115</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.fairdatacollective.com/template-vocabulary/R-Refugee">
+    <rdfs:subClassOf rdf:resource="http://www.fairdatacollective.com/template-vocabulary/PatientCategory"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R - Refugee</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'If the patient is a refugee'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMISLAB0115</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.fairdatacollective.com/template-vocabulary/Difficultyinunderstanding">
+    <rdfs:subClassOf rdf:resource="http://www.fairdatacollective.com/template-vocabulary/Disability"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty in understanding</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'If the patient has Difficulty in understanding'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMISLAB0115</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#sitting">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sitting</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ITTIN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ITTIN</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.fairdatacollective.com/template-vocabulary/Difficultyinremembering">
+    <rdfs:subClassOf rdf:resource="http://www.fairdatacollective.com/template-vocabulary/Disability"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty in remembering</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'If the patient has Difficulty in remembering'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMISLAB0115</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.fairdatacollective.com/template-vocabulary/F-Foreigner">
+    <rdfs:subClassOf rdf:resource="http://www.fairdatacollective.com/template-vocabulary/PatientCategory"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F - Foreigner</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'If the patient is a foreigner'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMISLAB0115</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#delayed_age_specific_motor_development_(turning">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">delayed age specific motor development (turning</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ELAYED AGE SPECIFIC MOTOR DEVELOPMENT (TURNIN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ELAYED AGE SPECIFIC MOTOR DEVELOPMENT (TURNIN</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#crawling">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crawling</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAWLIN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAWLIN</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.fairdatacollective.com/template-vocabulary/Difficultyinhearing">
+    <rdfs:subClassOf rdf:resource="http://www.fairdatacollective.com/template-vocabulary/Disability"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty in hearing</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'If the patient has Difficulty in hearing'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMISLAB0115</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.fairdatacollective.com/template-vocabulary/Albinism">
+    <rdfs:subClassOf rdf:resource="http://www.fairdatacollective.com/template-vocabulary/Disability"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Albinism</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'If the patient has Albinism'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMISLAB0115</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.fairdatacollective.com/template-vocabulary/Mentallyimpaired">
+    <rdfs:subClassOf rdf:resource="http://www.fairdatacollective.com/template-vocabulary/Disability"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mentally impaired</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'If the patient has Mentally impaired'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMISLAB0115</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#standing_and_walking_as_indicated_on_the_child_health_card)">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">standing and walking as indicated on the child health card)</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TANDING AND WALKING AS INDICATED ON THE CHILD HEALTH CARD</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TANDING AND WALKING AS INDICATED ON THE CHILD HEALTH CARD</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.fairdatacollective.com/template-vocabulary/N-National">
+    <rdfs:subClassOf rdf:resource="http://www.fairdatacollective.com/template-vocabulary/PatientCategory"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N - National</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A patient from Uganda'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMISLAB0115</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.fairdatacollective.com/template-vocabulary/Difficultyinreading">
+    <rdfs:subClassOf rdf:resource="http://www.fairdatacollective.com/template-vocabulary/Disability"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty in reading</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'If the patient has Difficulty in reading'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMISLAB0115</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.fairdatacollective.com/template-vocabulary/Difficultyinseeing">
+    <rdfs:subClassOf rdf:resource="http://www.fairdatacollective.com/template-vocabulary/Disability"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty in seeing</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'If the patient has Difficulty in seeing'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMISLAB0115</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.fairdatacollective.com/template-vocabulary/Disability">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disability</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The disabilities of the patient'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMISLAB0115</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.fairdatacollective.com/template-vocabulary/PatientCategory">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patient Category</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The origin of the patient'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMISLAB0115</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>
