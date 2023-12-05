@@ -1,0 +1,1516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000382">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000383"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000563"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b10.75*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b10.75* exists from late neurula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000406">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000407"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000394"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b5.4*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b5.4* exists from early 16-cell to late 16-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000397">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000398"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000391"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B5.1*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'B5.1* exists from early 16-cell to early 16-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000359">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000241"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000245"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000240"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000762"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000244"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000242"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000243"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anterior ventral head epidermis (a7.11 line)</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'anterior ventral head epidermis (a7.11 line) exists from mid gastrula to hatching larva'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000405">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000407"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000393"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b5.4</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b5.4 exists from early 16-cell to late 16-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000368">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000735"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atrial siphon primordia</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'atrial siphon primordia exists from mid gastrula to hatching larva'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000369">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000556"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000371"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b10.65</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b10.65 exists from late neurula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000373">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000374"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000557"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b10.66*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b10.66* exists from late neurula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000702">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000739"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000702"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000568"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary muscle lineage</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'primary muscle lineage exists from mid gastrula to hatching larva'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000360">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000703"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000702"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000465"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000467"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000466"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anterior ventral primary muscle lineage (B7.5 line)</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'anterior ventral primary muscle lineage (B7.5 line) exists from mid gastrula to hatching larva'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000372">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000374"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000556"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b10.66</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b10.66 exists from late neurula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000396">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000398"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000390"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B5.1</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'B5.1 exists from early 16-cell to early 16-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000376">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000560"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000377"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b10.73*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b10.73* exists from mid neurula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000384">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000386"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000562"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b10.76</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b10.76 exists from late neurula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000361">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000489"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000703"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000488"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000702"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000491"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000486"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000490"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000487"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antero central primary muscle lineage (B7.8 line)</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'antero central primary muscle lineage (B7.8 line) exists from mid gastrula to hatching larva'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000358">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000738"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anterior tail epidermis</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'anterior tail epidermis exists from mid gastrula to hatching larva'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000365">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000366"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atrial pigment</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Atrial pigment (ocellus) exists from young adult to adult'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000375">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000377"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000559"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b10.73</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b10.73 exists from mid neurula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000381">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000383"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000562"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b10.75</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b10.75 exists from late neurula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000364">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000363"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000681"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">apical trunk epidermal neurones (ATEN)</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'apical trunk epidermal neurones (ATEN) exists from late tailbud I to hatching larva'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000378">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000559"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000380"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b10.74</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b10.74 exists from mid neurula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000362">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000635"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anus</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Anus exists from young adult to adult'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000379">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000560"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000380"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b10.74*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b10.74* exists from mid neurula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000385">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000386"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000563"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b10.76*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b10.76* exists from late neurula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000367">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000366"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atrial siphon muscle</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Atrial siphon muscle (B7.5) exists from young adult to adult'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000370">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000371"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000557"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b10.65*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b10.65* exists from late neurula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000478">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000479"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000421"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b7.9*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b7.9* exists from 64-cell to 76-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000135">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000123"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000348"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a5.4 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a5.4 cell pair exists from early 16-cell to late 16-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000391">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000392"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000388"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B4.1*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'B4.1* exists from 8-cell to 8-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000343">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000256"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000344"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a9.52*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a9.52* exists from mid gastrula to mid neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000402">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000404"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000393"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b5.3</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b5.3 exists from early 16-cell to late 16-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000399">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000401"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000390"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B5.2</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'B5.2 exists from early 16-cell to early 16-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000153">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000132"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000348"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a6.6 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a6.6 cell pair exists from early 32-cell to 44-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000436">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000567"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000422"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b7.10 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b7.10 cell pair exists from 64-cell to 76-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000400">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000401"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000391"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B5.2*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'B5.2* exists from early 16-cell to early 16-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000492">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000494"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000477"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b8.17</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b8.17 exists from 110-cell to early gastrula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000121">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000115"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000123"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a4.2</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a4.2 exists from 8-cell to 8-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000015">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000344"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000727"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a10.104 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a10.104 cell pair exists from late neurula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000173">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000156"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000348"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a7.13 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a7.13 cell pair exists from 64-cell to 76-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000165">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000167"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000151"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a7.11</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a7.11 exists from 64-cell to 76-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000243">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000165"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000245"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a8.22</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a8.22 exists from 110-cell to early gastrula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000347">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000780"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AB2 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'AB2 cell pair exists from 2-cell to 2-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000245">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000167"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000348"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a8.22 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a8.22 cell pair exists from 110-cell to early gastrula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000476">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000568"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000419"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B7.8 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'B7.8 cell pair exists from 64-cell to 76-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000241">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000166"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000242"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a8.21*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a8.21* exists from 110-cell to early gastrula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000418">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000400"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000419"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B6.4*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'B6.4* exists from late 16-cell to 44-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000486">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000488"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000474"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B8.15</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'B8.15 exists from 110-cell to early gastrula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000417">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000399"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000419"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B6.4</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'B6.4 exists from late 16-cell to 44-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000490">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000491"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000475"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B8.16*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'B8.16* exists from 110-cell to early gastrula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000006">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000724"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000341"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a10.101 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a10.101 cell pair exists from late neurula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000735">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000627"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">siphon primordia</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'siphon primordia exists from mid gastrula to hatching larva'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000349">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000347"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000780"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A line</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A line exists from 4-cell to early gastrula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000728">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000350"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">row VI neural plate</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'row VI neural plate exists from mid gastrula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000494">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000479"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000567"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b8.17 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b8.17 cell pair exists from 110-cell to early gastrula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000487">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000488"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000475"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B8.15*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'B8.15* exists from 110-cell to early gastrula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000560">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000499"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000561"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b9.37*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b9.37* exists from mid gastrula to early neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000658">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000613"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nervous system</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'nervous system exists from initial tailbud I to hatching larva'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000366">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000781"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atrial siphon</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Atrial siphon exists from young adult to adult'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000383">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000564"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000569"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b10.75 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b10.75 cell pair exists from late neurula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000341">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000729"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000257"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a9.51 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a9.51 cell pair exists from mid gastrula to mid neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000255">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000171"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000257"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a8.26</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a8.26 exists from 110-cell to early gastrula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000419">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000401"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000568"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B6.4 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'B6.4 cell pair exists from late 16-cell to 44-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000738">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000567"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000619"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tail epidermis</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'tail epidermis exists from mid gastrula to hatching larva'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000407">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000395"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000567"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b5.4 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b5.4 cell pair exists from early 16-cell to late 16-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000595">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000015"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000011"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000006"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000010"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000007"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000005"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000014"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000009"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000013"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000627"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000008"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000012"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000004"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dorsal midline head epidermis</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'dorsal midline head epidermis exists from mid gastrula to hatching larva'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000762">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000627"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ventral head epidermis</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'ventral head epidermis exists from mid gastrula to hatching larva'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000689">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000503"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000595"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000567"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">posterior dorsal midline head epidermis (b8.20 line)</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'posterior dorsal midline head epidermis (b8.20 line) exists from mid gastrula to hatching larva'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000156">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000135"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000348"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a6.7 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a6.7 cell pair exists from early 32-cell to 44-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000171">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000173"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000154"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a7.13</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a7.13 exists from 64-cell to 76-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000345">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000347"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000780"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AB2</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'AB2 exists from 2-cell to 2-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000404">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000395"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000567"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b5.3 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b5.3 cell pair exists from early 16-cell to late 16-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000389">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000347"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000568"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B3 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'B3 cell pair exists from 4-cell to 4-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000122">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000123"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000116"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a4.2*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a4.2* exists from 8-cell to 8-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000387">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000389"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000345"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B3</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'B3 exists from 4-cell to 4-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000151">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000153"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000130"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a6.6</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a6.6 exists from early 32-cell to 44-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000726">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000728"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">row VI A neural plate</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'row VI A neural plate exists from late neurula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000488">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000476"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000568"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B8.15 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'B8.15 cell pair exists from 110-cell to early gastrula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000263">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000176"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000348"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a8.28 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a8.28 cell pair exists from 110-cell to early gastrula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000393">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000387"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000395"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b4.2</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b4.2 exists from 8-cell to 8-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000344">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000257"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000728"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a9.52 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a9.52 cell pair exists from mid gastrula to mid neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000559">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000498"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000561"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b9.37</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b9.37 exists from mid gastrula to early neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000627">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000348"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000619"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">head epidermis</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'head epidermis exists from mid gastrula to hatching larva'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000013">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000015"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000342"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a10.104</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a10.104 exists from late neurula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000386">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000564"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000569"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b10.76 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b10.76 cell pair exists from late neurula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000167">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000153"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000348"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a7.11 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a7.11 cell pair exists from 64-cell to 76-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000619">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000614"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000613"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epidermis</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'epidermis exists from mid gastrula to hatching larva'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000725">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000729"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">row V B neural plate</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'row V B neural plate exists from early neurula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000475">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000476"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000418"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B7.8*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'B7.8* exists from 64-cell to 76-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000561">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000500"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000569"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b9.37 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b9.37 cell pair exists from mid gastrula to early neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000434">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000436"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000420"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b7.10</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b7.10 exists from 64-cell to 76-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000007">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000009"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000339"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a10.102</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a10.102 exists from late neurula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000133">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000135"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000121"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a5.4</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a5.4 exists from early 16-cell to late 16-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000401">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000392"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000568"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B5.2 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'B5.2 cell pair exists from early 16-cell to early 16-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000491">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000476"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000568"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B8.16 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'B8.16 cell pair exists from 110-cell to early gastrula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000350">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000662"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000348"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a line neural plate</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a line neural plate exists from mid gastrula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000727">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000728"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">row VI B neural plate</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'row VI B neural plate exists from late neurula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000403">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000404"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000394"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b5.3*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b5.3* exists from early 16-cell to late 16-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000172">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000173"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000155"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a7.13*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a7.13* exists from 64-cell to 76-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000562">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000498"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000564"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b9.38</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b9.38 exists from mid gastrula to mid neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000005">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000006"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000340"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a10.101*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a10.101* exists from late neurula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000500">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000567"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000436"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b8.19 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b8.19 cell pair exists from 110-cell to early gastrula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000004">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000006"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000339"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a10.101</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a10.101 exists from late neurula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000166">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000167"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000152"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a7.11*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a7.11* exists from 64-cell to 76-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000466">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000415"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000467"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B7.5*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'B7.5* exists from 64-cell to early gastrula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000256">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000172"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000257"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a8.26*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a8.26* exists from 110-cell to early gastrula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000260">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000176"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000348"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a8.27 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a8.27 cell pair exists from 110-cell to early gastrula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000654">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000780"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mesoderm</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'mesoderm exists from mid gastrula to hatching larva'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000010">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000342"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000012"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a10.103</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a10.103 exists from late neurula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000244">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000166"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000245"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a8.22*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a8.22* exists from 110-cell to early gastrula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000388">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000389"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000346"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B3*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'B3* exists from 4-cell to 4-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000794">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000791"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">structure</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000392">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000389"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000568"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B4.1 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'B4.1 cell pair exists from 8-cell to 8-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000568">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000347"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000780"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B line</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'B line exists from 4-cell to early gastrula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000435">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000436"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000421"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b7.10*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b7.10* exists from 64-cell to 76-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000374">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000569"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000558"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b10.66 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b10.66 cell pair exists from late neurula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000340">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000256"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000341"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a9.51*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a9.51* exists from mid gastrula to mid neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000724">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000729"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">row V A neural plate</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'row V A neural plate exists from early neurula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000564">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000500"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000569"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b9.38 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b9.38 cell pair exists from mid gastrula to mid neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000012">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000726"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000344"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a10.103 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a10.103 cell pair exists from late neurula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000416">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000401"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000568"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B6.3 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'B6.3 cell pair exists from late 16-cell to 44-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000422">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000404"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000567"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b6.5 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b6.5 cell pair exists from early 32-cell to 44-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000791">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anatomical entity</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000779">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000795"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">whole egg</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'whole egg exists from Unfertilized egg to Unfertilized egg'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000011">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000012"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000343"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a10.103*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a10.103* exists from late neurula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000152">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000131"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000153"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a6.6*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a6.6* exists from early 32-cell to 44-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000477">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000479"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000420"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b7.9</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b7.9 exists from 64-cell to 76-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000729">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000350"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">row V neural plate</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'row V neural plate exists from mid gastrula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000117">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000347"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000349"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A3 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A3 cell pair exists from 4-cell to 4-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000130">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000132"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000121"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a5.3</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a5.3 exists from early 16-cell to late 16-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000414">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000416"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000399"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B6.3</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'B6.3 exists from late 16-cell to 44-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000703">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000739"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000702"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary muscle lineage (anterior)</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'primary muscle lineage (anterior) exists from initial tailbud I to early tailbud I'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000489">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000474"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000491"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B8.16</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'B8.16 exists from 110-cell to early gastrula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000123">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000348"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000117"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a4.2 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a4.2 cell pair exists from 8-cell to 8-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000371">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000569"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000558"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b10.65 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b10.65 cell pair exists from late neurula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000558">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000494"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000569"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b9.33 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b9.33 cell pair exists from mid gastrula to mid neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000131">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000132"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000122"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a5.3*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a5.3* exists from early 16-cell to late 16-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000377">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000569"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000561"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b10.73 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b10.73 cell pair exists from mid neurula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000242">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000167"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000348"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a8.21 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a8.21 cell pair exists from 110-cell to early gastrula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000134">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000122"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000135"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a5.4*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a5.4* exists from early 16-cell to late 16-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000479">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000567"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000422"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b7.9 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b7.9 cell pair exists from 64-cell to 76-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000154">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000156"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000133"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a6.7</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a6.7 exists from early 32-cell to 44-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000556">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000492"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000558"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b9.33</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b9.33 exists from mid gastrula to mid neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000503">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000567"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000436"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b8.20 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b8.20 cell pair exists from 110-cell to early gastrula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000346">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000347"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000780"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AB2*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'AB2* exists from 2-cell to 2-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000420">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000402"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000422"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b6.5</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b6.5 exists from early 32-cell to 44-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000116">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000346"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000117"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A3*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A3* exists from 4-cell to 4-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000780">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000779"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000795"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">whole embryo</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'whole embryo exists from One cell to hatching larva'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000390">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000392"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000387"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B4.1</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'B4.1 exists from 8-cell to 8-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000348">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000780"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000349"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a line</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a line exists from 8-cell to early gastrula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000339">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000255"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000341"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a9.51</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a9.51 exists from mid gastrula to mid neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000739">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000654"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tail muscles</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'tail muscles exists from mid gastrula to hatching larva'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000614">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000780"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ectoderm primordia</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'ectoderm primordia exists from mid gastrula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000394">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000388"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000395"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b4.2*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b4.2* exists from 8-cell to 8-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000008">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000340"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000009"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a10.102*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a10.102* exists from late neurula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000342">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000255"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000344"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a9.52</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a9.52 exists from mid gastrula to mid neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000577">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000595"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000263"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000260"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">central dorsal midline head epidermis (a7.14 line)</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'central dorsal midline head epidermis (a7.14 line) exists from mid gastrula to hatching larva'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000240">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000165"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000242"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a8.21</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a8.21 exists from 110-cell to early gastrula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000613">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000780"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000614"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ectoderm</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'ectoderm exists from initial tailbud I to hatching larva'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000009">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000725"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000341"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a10.102 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a10.102 cell pair exists from late neurula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000115">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000345"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000117"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A3</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A3 exists from 4-cell to 4-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000493">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000478"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000494"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b8.17*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b8.17* exists from 110-cell to early gastrula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000635">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000781"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intestine</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Intestine exists from young adult to adult'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000793">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000791"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell pair</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000363">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000689"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000577"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000681"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">apical trunk epidermal neurone precursors (ATEN)</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'apical trunk epidermal neurone precursors (ATEN) exists from initial tailbud I to mid tailbud II'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000569">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000567"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000662"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b line neural plate</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b line neural plate exists from mid gastrula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000474">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000476"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000417"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B7.8</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'B7.8 exists from 64-cell to 76-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000498">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000500"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000434"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b8.19</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b8.19 exists from 110-cell to early gastrula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000557">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000493"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000558"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b9.33*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b9.33* exists from mid gastrula to mid neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000014">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000015"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000343"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a10.104*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a10.104* exists from late neurula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000795">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000791"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organism</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000176">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000156"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000348"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a7.14 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a7.14 cell pair exists from 64-cell to 76-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000567">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000568"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000780"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b line</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b line exists from 8-cell to early gastrula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000155">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000156"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000134"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a6.7*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a6.7* exists from early 32-cell to 44-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000681">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000658"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peripheral nervous system</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'peripheral nervous system exists from initial tailbud I to hatching larva'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000499">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000500"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000435"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b8.19*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b8.19* exists from 110-cell to early gastrula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000662">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000794"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000614"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neural plate</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'neural plate exists from mid gastrula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000563">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000499"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000564"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b9.38*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b9.38* exists from mid gastrula to mid neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000781">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000795"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000780"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">whole organism</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'whole organism exists from young adult to adult'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000415">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000416"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000400"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B6.3*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'B6.3* exists from late 16-cell to 44-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000132">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000123"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000348"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a5.3 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a5.3 cell pair exists from early 16-cell to late 16-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000467">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000416"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000568"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B7.5 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'B7.5 cell pair exists from 64-cell to early gastrula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000380">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000569"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000561"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b10.74 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b10.74 cell pair exists from mid neurula to late neurula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000398">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000392"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000568"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B5.1 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'B5.1 cell pair exists from early 16-cell to early 16-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000465">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000467"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000414"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B7.5</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'B7.5 exists from 64-cell to early gastrula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000395">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000389"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000567"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b4.2 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b4.2 cell pair exists from 8-cell to 8-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000792">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000791"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000421">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000403"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000792"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000422"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b6.5*</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'b6.5* exists from early 32-cell to 44-cell'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/HaroreA_0000257">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000793"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000173"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HaroreA_0000348"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a8.26 cell pair</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'a8.26 cell pair exists from 110-cell to early gastrula'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAROREADO</ns1:ontology_acronm>
+  </owl:Class>
+</rdf:RDF>

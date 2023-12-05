@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://purl.bioontology.org/ontology/OMIM/"
+  xmlns:ns2="http://ontology.test.es/comment#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:ns3="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/finger_dysmetria">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">finger_dysmetria</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c1847354, finger dysmetria</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#gait_parkinsonian">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gait parkinsonian</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIT PARKINSONIA</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIT PARKINSONIA</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/C00001937">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/C00000307"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ataxia</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gait Ataxic, ATAXIC GAIT, Asynergia, ataxic gait, 共济失调, ataxic gait (physical finding), Ataxic, Inability to coordinate movements when walking, ataxia; gait, Ataxic gait (finding), ataxic gait (diagnosis), gait; ataxic, Ataxic gait, gait; ataxia, 共济失调步态, Ataxia gait, Ataxic Gait, Ataxia</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Impairment of the ability to perform smoothly coordinated voluntary movements. This condition may affect the limbs, trunk, eyes, pharynx, larynx, and other structures. Ataxia may result from impaired sensory or motor function. Sensory ataxia may result from posterior column injury or PERIPHERAL NERVE DISEASES. Motor ataxia may be associated with CEREBELLAR DISEASES; CEREBRAL CORTEX diseases; THALAMIC DISEASES; BASAL GANGLIA DISEASES; injury to the RED NUCLEUS; and other conditions.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISPO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/fatigue">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fatigue</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">state of weari follow a period of exertion, mental or physical, character by a decreas capac for work and reduc effici to respond to stimuli., fatigue, state of weariness following a period of exertion, mental or physical, characterized by a decreased capacity for work and reduced efficiency to respond to stimuli., fatigu</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/OMIM/607596">
+    <ns1:has_manifestation rdf:resource="http://purl.bioontology.org/ontology/OMIM/MTHU003514"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PONTOCEREBELLAR HYPOPLASIA, TYPE 1A</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PONTOCEREBELLAR HYPOPLASIA WITH INFANTILE SPINAL MUSCULAR ATROPHY</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/flaccid_hemiplegia_dominant_side">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flaccid_hemiplegia_dominant_side</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c2875327, flaccid hemiplegia domin side, flaccid hemiplegia dominant side</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#gait_paraplegic">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gait paraplegic</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIT PARAPLEGI</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIT PARAPLEGI</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/OMIM/301500">
+    <ns1:has_manifestation rdf:resource="http://purl.bioontology.org/ontology/OMIM/MTHU003514"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FABRY DISEASE</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEREDITARY DYSTOPIC LIPIDOSIS</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/OMIM/105400">
+    <ns1:has_manifestation rdf:resource="http://purl.bioontology.org/ontology/OMIM/MTHU003514"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMYOTROPHIC LATERAL SCLEROSIS 1</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMYOTROPHIC LATERAL SCLEROSIS 1, AUTOSOMAL RECESSIVE</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/flight_of_ideas">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flight_of_ideas</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flight of idea, Rapid success of thought pertain to differ subject that are still connected., flight of ideas, rapid succession of thoughts pertaining to different subjects that are still connected.</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/facial_sensation_decreased_V3">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">facial_sensation_decreased_V3</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">facial sensat decreas v3, facial sensation decreased v3</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/facial_sensation_decreased_V2">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">facial_sensation_decreased_V2</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">facial sensation decreased v2, facial sensat decreas v2</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/facial_paresis">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">facial_paresis</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">facial paresi, facial weakness; facial droop, facial paresis</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#facial_palsy_lmn">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">facial palsy lmn</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACIAL PALSY LM</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACIAL PALSY LM</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MEDDRA/10017576">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gait disorder</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDDRA</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/flinging_movements_of_legs">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flinging_movements_of_legs</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fling movement of leg, flinging movements of legs</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/OMIM/109150">
+    <ns1:has_manifestation rdf:resource="http://purl.bioontology.org/ontology/OMIM/MTHU003514"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MACHADO-JOSEPH DISEASE</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZOREAN NEUROLOGIC DISEASE</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/finger_and_wrist_extensor_weakness">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">finger_and_wrist_extensor_weakness</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">finger and wrist extensor weakness, weak, finger and wrist extensor weak</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/OMIM/611721">
+    <ns1:has_manifestation rdf:resource="http://purl.bioontology.org/ontology/OMIM/MTHU003514"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COMBINED SAPOSIN DEFICIENCY</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSAPD</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#facial_weakness_lmn">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">facial weakness lmn</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACIAL WEAKNESS LM</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACIAL WEAKNESS LM</ns2:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#gait_slow">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gait slow</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIT SLO</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIT SLO</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#gait_freezing">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gait freezing</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIT FREEZIN</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIT FREEZIN</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/flaccid_motor_tone">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flaccid_motor_tone</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flaccidity; flaccid tone; flaccid muscl tone, flaccid motor tone, flaccidity; flaccid tone; flaccid muscle tone</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/OMIM/313200">
+    <ns1:has_manifestation rdf:resource="http://purl.bioontology.org/ontology/OMIM/MTHU003514"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SPINAL AND BULBAR MUSCULAR ATROPHY, X-LINKED 1</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KD</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/fecal_incontinence">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fecal_incontinence</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fecal incontin, fecal incontinence</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#gait_myopathic">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gait myopathic</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIT MYOPATHI</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIT MYOPATHI</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#gait_clumsy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gait clumsy</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIT CLUMS</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIT CLUMS</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/foot_drop">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">foot_drop</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">foot drop, weakness of the muscles responsible for dorsiflexion of the foot, that is, of the movement of the toes towards the shin. the foot dorsiflexors include the tibialis anterior, the extensor hallucis longus, the extensor digitorum longus, and the peroneus tertius muscles., Weak of the muscl respons for dorsiflexion of the foot, that is, of the movement of the toe toward the shin. The foot dorsiflexor includ the tibiali anterior, the extensor halluci longus, the extensor digitorum longus, and the peroneus tertius muscles.</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#fasciculation_tongue">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fasciculation tongue</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASCICULATION TONGU</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASCICULATION TONGU</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/OMIM/182980">
+    <ns1:has_manifestation rdf:resource="http://purl.bioontology.org/ontology/OMIM/MTHU003514"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SPINAL MUSCULAR ATROPHY, LATE-ONSET, FINKEL TYPE</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FINKEL LATE-ADULT TYPE SMA</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MEDDRA/10017579">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gait festinating</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDDRA</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/OMIM/183050">
+    <ns1:has_manifestation rdf:resource="http://purl.bioontology.org/ontology/OMIM/MTHU003514"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SPINOCEREBELLAR ATAXIA WITH RIGIDITY AND PERIPHERAL NEUROPATHY</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#gait_antalgic">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gait antalgic</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIT ANTALGI</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIT ANTALGI</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#facial_weakness_umn">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">facial weakness umn</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACIAL WEAKNESS UM</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACIAL WEAKNESS UM</ns2:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">notation</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/OMIM/601104">
+    <ns1:has_manifestation rdf:resource="http://purl.bioontology.org/ontology/OMIM/MTHU000770"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SUPRANUCLEAR PALSY, PROGRESSIVE, 1</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSP</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/facial_paralysis">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">facial_paralysis</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Complet loss of abil to move facial muscl innerv by the facial nerv (i.e., the seventh cranial nerve)., facial paralysi, complete loss of ability to move facial muscles innervated by the facial nerve (i.e., the seventh cranial nerve)., facial paralysis</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/OMIM/604484">
+    <ns1:has_manifestation rdf:resource="http://purl.bioontology.org/ontology/OMIM/MTHU003514"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NEUROPATHY, HEREDITARY MOTOR AND SENSORY, OKINAWA TYPE</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMSNO</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#gait_dystonic">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gait dystonic</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIT DYSTONI</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIT DYSTONI</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/facial_numbness">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">facial_numbness</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">facial numbness, facial numb, loss of sensation to temperature, pin prick, or touch on the face., Loss of sensat to temperature, pin prick, or touch on the face.</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/OMIM/606595">
+    <ns1:has_manifestation rdf:resource="http://purl.bioontology.org/ontology/OMIM/MTHU003514"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHARCOT-MARIE-TOOTH DISEASE, AXONAL, TYPE 2F</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHARCOT-MARIE-TOOTH DISEASE, NEURONAL, TYPE 2F</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/OMIM/609454">
+    <ns1:has_manifestation rdf:resource="http://purl.bioontology.org/ontology/OMIM/MTHU000770"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SUPRANUCLEAR PALSY, PROGRESSIVE, 2</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSNP2</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#fasciculation_limb">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fasciculation limb</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASCICULATION LIM</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASCICULATION LIM</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/OMIM/607317">
+    <ns1:has_manifestation rdf:resource="http://purl.bioontology.org/ontology/OMIM/MTHU003514"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SPINOCEREBELLAR ATAXIA, AUTOSOMAL RECESSIVE 4</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCA24, FORMERLY</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/OMIM/211530">
+    <ns1:has_manifestation rdf:resource="http://purl.bioontology.org/ontology/OMIM/MTHU003514"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BROWN-VIALETTO-VAN LAERE SYNDROME 1</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BULBAR PALSY, PROGRESSIVE, WITH SENSORINEURAL DEAFNESS</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MEDDRA/10017580">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gait hemiplegic</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDDRA</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/facial_sensation_decreased_V1">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">facial_sensation_decreased_V1</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">facial sensat decreas v1, facial sensation decreased v1</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/flat_affect">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flat_affect</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">932006^^http://www.w3.org/2001/XMLSchema#integ, 932006^^http://www.w3.org/2001/xmlschema#integer, flat affect</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/gag_reflex_absent">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gag_reflex_absent</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5258001^^http://www.w3.org/2001/xmlschema#integer, gag reflex absent, 5258001^^http://www.w3.org/2001/XMLSchema#integ</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/forgetful">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forgetful</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An impair of memori as manifest by a reduc abil to rememb thing such as date and names, and increas forgetfulness., forget, forgetful, an impairment of memory as manifested by a reduced ability to remember things such as dates and names, and increased forgetfulness.</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/gait_difficulty">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gait_difficulty</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c0575081, gait difficulty, gait difficulti</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Fever">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fever</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fever</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MEDDRA/10017584">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gait shuffling</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDDRA</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/facial_myokimia">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">facial_myokimia</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Facial myokymia is a fine fibrillari activ of one or more muscl innerv by the facial nerv (the seventh cranial nerve)., facial myokimia, facial myokymia is a fine fibrillary activity of one or more muscles innervated by the facial nerve (the seventh cranial nerve).</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/foot_dorsiflexor_weakness">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">foot_dorsiflexor_weakness</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">foot dorsiflexor weak, weak, foot dorsiflexor weakness</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/flaccid_paraplegia">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flaccid_paraplegia</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">192966000^^http://www.w3.org/2001/XMLSchema#integ, 192966000^^http://www.w3.org/2001/xmlschema#integer, flaccid paraplegia</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/fixed_dilated_pupil">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fixed_dilated_pupil</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">103271006^^http://www.w3.org/2001/XMLSchema#integ, fixed dilated pupil, 103271006^^http://www.w3.org/2001/xmlschema#integer, fix dilat pupil</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#gait_choreic">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gait choreic</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIT CHOREI</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIT CHOREI</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/gait_apraxia">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gait_apraxia</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">impaired ambulation not attributed to sensory impairment or motor weakness. the impairment is thought to be due to disorganization of high level motor programs for walking., Impair ambul not attribut to sensori impair or motor weakness. The impair is thought to be due to disorgan of high level motor program for walking., gait apraxia</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/fine_rapid_hand_tremor">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fine_rapid_hand_tremor</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fine rapid hand tremor</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#flaccid_paralysis_of_arm">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flaccid paralysis of arm</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LACCID PARALYSIS OF AR</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LACCID PARALYSIS OF AR</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/OMIM/611302">
+    <ns1:has_manifestation rdf:resource="http://purl.bioontology.org/ontology/OMIM/MTHU003514"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SPASTIC ATAXIA 2, AUTOSOMAL RECESSIVE</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SPAX2</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/finger_agnosia">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">finger_agnosia</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an inability or difficulty differentiating among the fingers of either hand as well as the hands of others, An inabl or difficulti differenti among the finger of either hand as well as the hand of other, finger agnosia</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/fear">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear, Feel of dread or distress whose caus can be identifi, feeling of dread or distress whose cause can be identified</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preferred label</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/OMIM/MTHU000139">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MTHU000139</ns3:notation>
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peripheral nervous system</ns3:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/OMIM/MTHU000057"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peripheral nervous system</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/C00000334">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/C00000527"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hypokinesias, antiorthostatic</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slow movement, 行动不利, Antiorthostatic Hypokinesias, 行动不便, 肢体活动不便, Involuntary Movements, Hypokinesia, 行动障碍, 活动不便, BRADYKINESIA, 运动功能减退, 活动障碍, Antiorthostatic Hypokinesia, 动作迟缓, Hypokinesia, Antiorthostatic, Movement, Involuntary, 运动困难, Hypokinesias, Antiorthostatic, Bradykinesia (finding), Bradykinesias, Bradykinesis, Slowed movement, 活动不利, Bradykinesia, 活动功能受限, 活动受限, Movements, Involuntary, Slow movements, 运动迟缓, 活动欠灵活, 活动笨拙, Slowness of movements, bradykinesis, 行动迟缓, bradykinesia, Hypodynamia, hypokinesia, Dyskinesias, 行动笨拙, Slow physical movement, Involuntary Movement, 肢体活动不利, 肢体不利, 活动迟缓, 动作缓慢</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISPO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/OMIM/MTHU003514">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MTHU003514</ns3:notation>
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fasciculations</ns3:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/OMIM/MTHU026723"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/OMIM/MTHU000058"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/OMIM/MTHU000139"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fasciculations</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/OMIM/MTHU000057">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MTHU000057</ns3:notation>
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NEUROLOGIC</ns3:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NEUROLOGIC</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/C00001014">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/C00000334"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poor movement of the limbs</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">四肢活动不利, 四肢运动不灵活, 四肢活动障碍, 四肢体活动不利, Poor movement of the limbs, 四肢运动障碍</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISPO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/OMIM/MTHU000058">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MTHU000058</ns3:notation>
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Central nervous system</ns3:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/OMIM/MTHU000057"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Central nervous system</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/OMIM/MTHU000770">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MTHU000770</ns3:notation>
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Falls</ns3:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/OMIM/MTHU000058"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Falls</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/C00000527">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/C00001891"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Movement disorders</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug-Induced Dyskinesia, Dyskinesias, Drug-Induced, Drug-Induced Dyskinesias, Dyskinesia, Medication Induced, 运动障碍, Dyskinesia, Drug-Induced, Dyskinesia, Drug Induced, Dyskinesias, Medication-Induced, Medication Induced Dyskinesia, Medication-Induced Dyskinesia, Motor Manifestations, Medication-Induced Dyskinesias, Dyskinesia, Medication-Induced, MOVEMENT DISORDERS</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Syndromes which feature DYSKINESIAS as a cardinal manifestation of the disease process. Included in this category are degenerative, hereditary, post-infectious, medication-induced, post-inflammatory, and post-traumatic conditions.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISPO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/C00000307">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/C00000525"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sensory gait ataxias</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frontal Gait Apraxia, Cerebellar Gait Ataxias, apraxic gait, Frontal Gait Apraxias, Sensory Gait Ataxia, Apraxias, Frontal Gait, Ataxia, Gait, "Gait Apraxia, Bruns", Ataxia of gait, Ataxias, Cerebellar Gait, Apraxia, Frontal Gait, Ataxias, Sensory Gait, Apraxia of gait, Gaits, Cerebellar, Dyspraxia of Gait, "Gait Apraxias, Bruns", Gait apraxia, 步态不协调, Gait Apraxias, Gait Ataxias, Cerebellar, Gait Ataxia, Bruns Apraxia, Gait, Gait Apraxia, uncoordinated gait, Gait, Cerebellar, "Apraxia, Bruns Gait", "Apraxias, Bruns Gait", Bruns Gait Apraxia, Apraxia of Gait, 步态异常, apraxia of gait, Gait Ataxia, Cerebellar, gait apraxia, "Bruns Gait Apraxias", Gait apraxia (finding), Ataxia of Gait, Gait Dyspraxias, Cerebellar Gaits, apraxic gait (physical finding), Sensory Gait Ataxias, Apraxia, Gait, Gait Ataxia, Sensory, Apraxic gait, "Bruns Gait Apraxia", Gait Apraxia, Frontal, Gait Ataxias, Cerebellar Gait Ataxia, Ataxias, Gait, Gait Dyspraxia, Ataxia, Cerebellar Gait, Gait ataxia, "Bruns Apraxia of Gait", Gait Ataxias, Sensory, "Bruns Apraxia, Gait", 步态失调, Gait Apraxias, Frontal, Ataxia, Sensory Gait, Apraxias, Gait, Cerebellar Gait</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISPO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/OMIM/MTHU026723">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MTHU026723</ns3:notation>
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MUSCLE SOFT, TISSUE</ns3:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MUSCLE SOFT, TISSUE</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/C00001891">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/C0000000_"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neurological symptoms</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neurological Signs and Symptoms, neurological symptoms, Neurological symptom/complaint other, Nervous system signs and symptoms, NEUROLOGIC SIGN SYMPTOM COMPLEX, Neurological signs and symptoms NEC, 神经系统症状</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISPO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/C0000000_">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptom</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISPO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/C00000525">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/C00001014"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poor lower extremity movement</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poor lower extremity movement, 下肢活动不利</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISPO</ns2:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#"
+  xmlns:ns2="http://ontology.test.es/comment#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns3="http://purl.obolibrary.org/obo/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:ns4="http://www.w3.org/2004/02/skos/core#"
+  xmlns:ns5="http://www.geneontology.org/formats/oboInOwl#"
+>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P325">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALT_DEFINITION</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/732716005">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/260299005"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">385</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Three hundred and eighty-five</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16807">
+    <ns1:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A country in Eastern Asia, bordering the South China Sea and China.</ns1:P97>
+    <ns1:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0024403</ns1:P207>
+    <ns1:P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[<ncicp:ComplexDefinition xmlns:ncicp='http://ncicb.nci.nih.gov/xml/owl/EVS/ComplexProperties.xsd#'><ncicp:def-definition>A country in Eastern Asia, bordering the South China Sea and China. (NCI)</ncicp:def-definition><ncicp:def-source>CDISC</ncicp:def-source></ncicp:ComplexDefinition>]]></ns1:P325>
+    <ns1:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macao</ns1:P108>
+    <ns1:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C16807</ns1:code>
+    <ns1:P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDISC</ns1:P322>
+    <ns1:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macau</ns1:P366>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MC</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MO</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">446</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macau</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAC</ns1:P90>
+    <ns1:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geographic Area</ns1:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macau</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MO, 446, Macau, Macao, MAC, MACAU, MACAO</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A special administrative region of China, bordering the South China Sea, west of Hong Kong.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16773">
+    <ns1:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A country in Eastern Asia, occupying the northern half of the Korean Peninsula, bordering the Korea Bay and the Sea of Japan, between China and South Korea.</ns1:P97>
+    <ns1:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0022772</ns1:P207>
+    <ns1:P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[<ncicp:ComplexDefinition xmlns:ncicp='http://ncicb.nci.nih.gov/xml/owl/EVS/ComplexProperties.xsd#'><ncicp:def-definition>A country in Eastern Asia, occupying the northern half of the Korean Peninsula, bordering the Korea Bay and the Sea of Japan, between China and South Korea. (NCI)</ncicp:def-definition><ncicp:def-source>CDISC</ncicp:def-source></ncicp:ComplexDefinition>]]></ns1:P325>
+    <ns1:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Korea, Democratic People's Republic of</ns1:P108>
+    <ns1:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C16773</ns1:code>
+    <ns1:P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDISC</ns1:P322>
+    <ns1:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">North_Korea</ns1:P366>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">408</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NORTH KOREA</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRK</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KN</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KP</ns1:P90>
+    <ns1:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geographic Area</ns1:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Korea, Democratic Peoples Republic of</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">North Korea, KOREA, NORTH, KP, NORTH KOREA, PRK, 408, "KOREA, DEMOCRATIC PEOPLES REPUBLIC OF", "Korea, Democratic Peoples Republic of"</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A country in eastern Asia, occupying the northern half of the Korean Peninsula, bordering the Korea Bay and the Sea of Japan, between China and South Korea.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16874">
+    <ns1:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A country in Western Europe, bordering the Mediterranean Sea on the southern coast of France, near the border with Italy.</ns1:P97>
+    <ns1:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0026405</ns1:P207>
+    <ns1:P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[<ncicp:ComplexDefinition xmlns:ncicp='http://ncicb.nci.nih.gov/xml/owl/EVS/ComplexProperties.xsd#'><ncicp:def-definition>A country in Western Europe, bordering the Mediterranean Sea on the southern coast of France, near the border with Italy. (NCI)</ncicp:def-definition><ncicp:def-source>CDISC</ncicp:def-source></ncicp:ComplexDefinition>]]></ns1:P325>
+    <ns1:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monaco</ns1:P108>
+    <ns1:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C16874</ns1:code>
+    <ns1:P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDISC</ns1:P322>
+    <ns1:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monaco</ns1:P366>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MCO</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MN</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MC</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">492</ns1:P90>
+    <ns1:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geographic Area</ns1:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monaco</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MC, 492, MONACO, MCO, Monaco</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A country in western Europe, bordering the Mediterranean Sea on the southern coast of France, near the border with Italy.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16769">
+    <ns1:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A country in Eastern Africa, bordering the Indian Ocean, between Somalia and Tanzania.</ns1:P97>
+    <ns1:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0022558</ns1:P207>
+    <ns1:P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[<ncicp:ComplexDefinition xmlns:ncicp='http://ncicb.nci.nih.gov/xml/owl/EVS/ComplexProperties.xsd#'><ncicp:def-definition>A country in Eastern Africa, bordering the Indian Ocean, between Somalia and Tanzania. (NCI)</ncicp:def-definition><ncicp:def-source>CDISC</ncicp:def-source></ncicp:ComplexDefinition>]]></ns1:P325>
+    <ns1:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kenya</ns1:P108>
+    <ns1:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C16769</ns1:code>
+    <ns1:P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDISC</ns1:P322>
+    <ns1:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kenya</ns1:P366>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">404</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEN</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KE</ns1:P90>
+    <ns1:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geographic Area</ns1:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kenya</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KENYA, 404, Kenya, KE, KEN</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A country in eastern Africa, bordering the Indian Ocean, between Somalia and Tanzania.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16763">
+    <ns1:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An island in the Caribbean Sea, south of Cuba.</ns1:P97>
+    <ns1:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0022337</ns1:P207>
+    <ns1:P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[<ncicp:ComplexDefinition xmlns:ncicp='http://ncicb.nci.nih.gov/xml/owl/EVS/ComplexProperties.xsd#'><ncicp:def-definition>An island in the Caribbean Sea, south of Cuba. (NCI)</ncicp:def-definition><ncicp:def-source>CDISC</ncicp:def-source></ncicp:ComplexDefinition>]]></ns1:P325>
+    <ns1:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jamaica</ns1:P108>
+    <ns1:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C16763</ns1:code>
+    <ns1:P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDISC</ns1:P322>
+    <ns1:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jamaica</ns1:P366>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JM</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">388</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JAM</ns1:P90>
+    <ns1:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geographic Area</ns1:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jamaica</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JAM, JAMAICA, 388, JM, Jamaica</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An island in the Caribbean Sea, south of Cuba, between the Cayman Islands and Haiti.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://flybase.org/reports/FBti0033661">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000110"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P{GawB}crp[NP0409]</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P{GawB}NP0409-5-1, P{GawB}crp[NP0409], 409, P{GawB}NP0409</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VFB_DRIVERS</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00111382">
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00111382</ns4:notation>
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emmental</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The valley of the Emme river in west central Switzerland in the canton of Bern, a region mostly devoted to farming, particularly dairy farming. Its notable cities are Burgdorf and Langnau. The region is a hilly section of the Bernese Mittelland between the valley of the Aare River and the Bernese Alps. It includes the watersheds of the Emme and the Ilfis between Burgdorf and the boundary with the canton of Solothurn.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16764">
+    <ns1:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A country in Eastern Asia, occupying an island chain between the North Pacific Ocean and the Sea of Japan, east of the Korean Peninsula.</ns1:P97>
+    <ns1:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0022341</ns1:P207>
+    <ns1:P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[<ncicp:ComplexDefinition xmlns:ncicp='http://ncicb.nci.nih.gov/xml/owl/EVS/ComplexProperties.xsd#'><ncicp:def-definition>A country in Eastern Asia, occupying an island chain between the North Pacific Ocean and the Sea of Japan, east of the Korean Peninsula. (NCI)</ncicp:def-definition><ncicp:def-source>CDISC</ncicp:def-source></ncicp:ComplexDefinition>]]></ns1:P325>
+    <ns1:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Japan</ns1:P108>
+    <ns1:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C16764</ns1:code>
+    <ns1:P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDISC</ns1:P322>
+    <ns1:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Japan</ns1:P366>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JPN</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JA</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JP</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">392</ns1:P90>
+    <ns1:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geographic Area</ns1:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Japan</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Japan, JAPAN, JP, JPN, 392</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A country in eastern Asia, occupying an island chain between the North Pacific Ocean and the Sea of Japan, east of the Korean Peninsula.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16784">
+    <ns1:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A country in the Middle East, bordering the Mediterranean Sea, between Israel and Syria.</ns1:P97>
+    <ns1:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0023190</ns1:P207>
+    <ns1:P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[<ncicp:ComplexDefinition xmlns:ncicp='http://ncicb.nci.nih.gov/xml/owl/EVS/ComplexProperties.xsd#'><ncicp:def-definition>A country in the Middle East, bordering the Mediterranean Sea, between Israel and Syria. (NCI)</ncicp:def-definition><ncicp:def-source>CDISC</ncicp:def-source></ncicp:ComplexDefinition>]]></ns1:P325>
+    <ns1:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lebanon</ns1:P108>
+    <ns1:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C16784</ns1:code>
+    <ns1:P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDISC</ns1:P322>
+    <ns1:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lebanon</ns1:P366>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LBN</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LB</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">422</ns1:P90>
+    <ns1:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geographic Area</ns1:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lebanon</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lebanon, 422, LEBANON, LB, LBN</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A country in the Middle East, bordering the Mediterranean Sea, between Israel and Syria.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00397166">
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00397166</ns4:notation>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orvin</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A river.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16774">
+    <ns1:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A country in Eastern Asia, occupying the southern half of the Korean Peninsula, bordering the Sea of Japan and the Yellow Sea.</ns1:P97>
+    <ns1:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0022773</ns1:P207>
+    <ns1:P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[<ncicp:ComplexDefinition xmlns:ncicp='http://ncicb.nci.nih.gov/xml/owl/EVS/ComplexProperties.xsd#'><ncicp:def-definition>A country in Eastern Asia, occupying the southern half of the Korean Peninsula, bordering the Sea of Japan and the Yellow Sea. (NCI)</ncicp:def-definition><ncicp:def-source>CDISC</ncicp:def-source></ncicp:ComplexDefinition>]]></ns1:P325>
+    <ns1:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Korea, Republic of</ns1:P108>
+    <ns1:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C16774</ns1:code>
+    <ns1:P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDISC</ns1:P322>
+    <ns1:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">South_Korea</ns1:P366>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">410</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Republic of Korea</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOUTH KOREA</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KOR</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KR</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KS</ns1:P90>
+    <ns1:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geographic Area</ns1:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Korea, Republic of</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Republic of Korea, SOUTH KOREA, South Korea, Korea, Republic of, KOR, KR, KOREA, SOUTH, KOREA, REPUBLIC OF, 410</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A country in eastern Asia, occupying the southern half of the Korean Peninsula, bordering the Sea of Japan and the Yellow Sea.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FULL_SYN</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16793">
+    <ns1:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A country in Northern Africa, bordering the Mediterranean Sea, between Egypt and Tunisia.</ns1:P97>
+    <ns1:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0023634</ns1:P207>
+    <ns1:P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[<ncicp:ComplexDefinition xmlns:ncicp='http://ncicb.nci.nih.gov/xml/owl/EVS/ComplexProperties.xsd#'><ncicp:def-definition>A country in Northern Africa, bordering the Mediterranean Sea, between Egypt and Tunisia. (NCI)</ncicp:def-definition><ncicp:def-source>CDISC</ncicp:def-source></ncicp:ComplexDefinition>]]></ns1:P325>
+    <ns1:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libya</ns1:P108>
+    <ns1:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C16793</ns1:code>
+    <ns1:P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDISC</ns1:P322>
+    <ns1:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libyan_Arab_Jamahiriya</ns1:P366>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libyan Arab Jamahiriya</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LY</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LBY</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">434</ns1:P90>
+    <ns1:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geographic Area</ns1:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libya</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LY, LBY, Libya, 434, Libyan Arab Jamahiriya, LIBYA</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A country in northern Africa, bordering the Mediterranean Sea, between Egypt and Algeria.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00635659">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oberburg</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A populated place. A City district (Stadtteil).'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16808">
+    <ns1:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A country in Southern Africa, occupying an island in the Indian Ocean, east of Mozambique.</ns1:P97>
+    <ns1:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0024443</ns1:P207>
+    <ns1:P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[<ncicp:ComplexDefinition xmlns:ncicp='http://ncicb.nci.nih.gov/xml/owl/EVS/ComplexProperties.xsd#'><ncicp:def-definition>A country in Southern Africa, occupying an island in the Indian Ocean, east of Mozambique. (NCI)</ncicp:def-definition><ncicp:def-source>CDISC</ncicp:def-source></ncicp:ComplexDefinition>]]></ns1:P325>
+    <ns1:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Madagascar</ns1:P108>
+    <ns1:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C16808</ns1:code>
+    <ns1:P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDISC</ns1:P322>
+    <ns1:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Madagascar</ns1:P366>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MDG</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">450</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MG</ns1:P90>
+    <ns1:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geographic Area</ns1:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Madagascar</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">450, MADAGASCAR, Madagascar, MG, MDG</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A country in southern Africa, occupying an island in the Indian Ocean, east of Mozambique.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P207">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://flybase.org/reports/FBti0033675">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000110"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P{GawB}CG8841[NP0432]</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P{GawB}CG8841[NP0432], 432, P{GawB}NP0432, P{GawB}NP0432-5-1</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VFB_DRIVERS</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16803">
+    <ns1:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A country in Western Europe, between France, Belgium, and Germany.</ns1:P97>
+    <ns1:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0024176</ns1:P207>
+    <ns1:P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[<ncicp:ComplexDefinition xmlns:ncicp='http://ncicb.nci.nih.gov/xml/owl/EVS/ComplexProperties.xsd#'><ncicp:def-definition>A country in Western Europe, between France, Belgium, and Germany. (NCI)</ncicp:def-definition><ncicp:def-source>CDISC</ncicp:def-source></ncicp:ComplexDefinition>]]></ns1:P325>
+    <ns1:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luxembourg</ns1:P108>
+    <ns1:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C16803</ns1:code>
+    <ns1:P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDISC</ns1:P322>
+    <ns1:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luxembourg</ns1:P366>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">442</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LUX</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LU</ns1:P90>
+    <ns1:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geographic Area</ns1:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luxembourg</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LU, LUXEMBOURG, Luxembourg, LUX, 442</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A country in western Europe, between France, Belgium, and Germany.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#A2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role_Has_Range</rdfs:label>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43743"/>
+    <rdfs:range rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16780">
+    <ns1:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A country in Southeastern Asia, northeast of Thailand, west of Vietnam.</ns1:P97>
+    <ns1:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0023034</ns1:P207>
+    <ns1:P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[<ncicp:ComplexDefinition xmlns:ncicp='http://ncicb.nci.nih.gov/xml/owl/EVS/ComplexProperties.xsd#'><ncicp:def-definition>A country in Southeastern Asia, northeast of Thailand, west of Vietnam. (NCI)</ncicp:def-definition><ncicp:def-source>CDISC</ncicp:def-source></ncicp:ComplexDefinition>]]></ns1:P325>
+    <ns1:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lao People's Democratic Republic</ns1:P108>
+    <ns1:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C16780</ns1:code>
+    <ns1:P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDISC</ns1:P322>
+    <ns1:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lao_Peoples_Democratic_Republic</ns1:P366>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">418</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laos</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LAO</ns1:P90>
+    <ns1:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geographic Area</ns1:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lao Peoples Democratic Republic</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">"Lao Peoples Democratic Republic", LAOS, "LAO PEOPLES DEMOCRATIC REPUBLIC", LAO, Laos, 418, LA</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A country in southeastern Asia, north and east of Thailand, west of Vietnam.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/732720009">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/260299005"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">393</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">393 (qualifier value)</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#code">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">code</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/732741003">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/260299005"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">415</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Four hundred and fifteen</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16794">
+    <ns1:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A country in Central Europe, between Austria and Switzerland.</ns1:P97>
+    <ns1:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0023668</ns1:P207>
+    <ns1:P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[<ncicp:ComplexDefinition xmlns:ncicp='http://ncicb.nci.nih.gov/xml/owl/EVS/ComplexProperties.xsd#'><ncicp:def-definition>A country in Central Europe, between Austria and Switzerland. (NCI)</ncicp:def-definition><ncicp:def-source>CDISC</ncicp:def-source></ncicp:ComplexDefinition>]]></ns1:P325>
+    <ns1:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liechtenstein</ns1:P108>
+    <ns1:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C16794</ns1:code>
+    <ns1:P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDISC</ns1:P322>
+    <ns1:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liechtenstein</ns1:P366>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">438</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LS</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LI</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIE</ns1:P90>
+    <ns1:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geographic Area</ns1:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liechtenstein</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liechtenstein, LIE, LI, 438, LIECHTENSTEIN</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A country in central Europe, between Austria and Switzerland.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16775">
+    <ns1:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A country in the Middle East, bordering the Persian Gulf, between Iraq and Saudi Arabia.</ns1:P97>
+    <ns1:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0022804</ns1:P207>
+    <ns1:P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[<ncicp:ComplexDefinition xmlns:ncicp='http://ncicb.nci.nih.gov/xml/owl/EVS/ComplexProperties.xsd#'><ncicp:def-definition>A country in the Middle East, bordering the Persian Gulf, between Iraq and Saudi Arabia. (NCI)</ncicp:def-definition><ncicp:def-source>CDISC</ncicp:def-source></ncicp:ComplexDefinition>]]></ns1:P325>
+    <ns1:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kuwait</ns1:P108>
+    <ns1:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C16775</ns1:code>
+    <ns1:P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDISC</ns1:P322>
+    <ns1:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kuwait</ns1:P366>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KU</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KW</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KWT</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">414</ns1:P90>
+    <ns1:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geographic Area</ns1:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kuwait</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">414, Kuwait, KUWAIT, KW, KWT</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A country in the Middle East, bordering the Persian Gulf, between Iraq and Saudi Arabia.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">notation</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://flybase.org/reports/FBti0033674">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000110"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P{GawB}brp[NP0431]</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P{GawB}NP0431, P{GawB}NP0431-5-1, 431, P{GawB}brp[NP0431]</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VFB_DRIVERS</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition source</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition_source</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/732737002">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/260299005"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">405</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">405 (qualifier value)</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P108">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preferred_Name</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBsp_00001639">
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBsp:00001639</ns4:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBsp_20000031"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">412 element, D. melanogaster</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">412</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_SP</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#A1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role_Has_Domain</rdfs:label>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43743"/>
+    <rdfs:range rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alternative label</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://flybase.org/reports/FBti0033666">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000110"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P{GawB}NP0423</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP0423-Gal4, NP0423-GAL4, NP423-GAL4, P{GawB}NP0423-3-1, NP423-Gal4, 423, P{GawB}NP0423</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VFB_DRIVERS</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://flybase.org/reports/FBti0033664">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000110"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P{GawB}NP0421</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">421, P{GawB}NP0421-3-1, P{GawB}NP0421</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VFB_DRIVERS</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_related_synonym</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://flybase.org/reports/FBti0151999">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000110"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P{GawB}402</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">402, P{GawB}402</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VFB_DRIVERS</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P322">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contributing_Source</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P97">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DEFINITION</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P106">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Semantic_Type</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#R27">
+    <rdfs:range rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual_Part_Of</rdfs:label>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/732744006">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/260299005"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">420</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">420 (qualifier value)</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preferred label</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://flybase.org/reports/FBti0009881">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000110"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P{GawB}444</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAL4-444, Gal4-444GAL4-444, 444-GAL4, 444-Gal4, Gal4-444, 444, P{GawB}444</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VFB_DRIVERS</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P366">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Legacy_Concept_Name</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/732717001">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/260299005"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">389</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Three hundred and eighty-nine</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000110">
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:0000110</ns4:notation>
+    <ns5:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">located sequence feature</ns5:hasRelatedSynonym>
+    <ns3:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:0000110</ns3:IAO_0000119>
+    <ns3:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An extent of biological sequence.</ns3:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence_feature</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INSDC_note:other, located_sequence_feature, INSDC_note:sequence_feature, INSDC_feature:misc_feature, sequence feature</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VFB_DRIVERS</ns2:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26548">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gene Product</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genome Encoded Entity, Gene Product</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein, RNA or a complex that contains proteins and/or RNA.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </rdf:Description>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16632">
+    <ns1:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any demarcated area of the Earth; may be determined by both natural and human boundaries.</ns1:P97>
+    <ns1:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0017446</ns1:P207>
+    <ns1:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geographic Area</ns1:P108>
+    <ns1:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C16632</ns1:code>
+    <ns1:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geographic_Area</ns1:P366>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geographic Region</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geographic Location</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Region</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Area</ns1:P90>
+    <ns1:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geographic Area</ns1:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geographic Area</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geographic Area, Geographic Location, Area, Region, Geographic Region</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Any demarcated area of the Earth; may be determined by both natural and human boundaries.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBsp_00000000">
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBsp:00000000</ns4:notation>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase_taxa</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_SP</ns2:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C22188">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Experimental Organism Anatomical Concept</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-Human or Experimental Organism Anatomical Concept, Experimental Organism Anatomical Concept</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A biological structure, fluid or other substance that is present in a non-human organism; this includes anatomic entities found in organisms used in research settings. However, this grouping excludes single molecular entities.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16612">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gene</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene, Gene, Genes</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A functional unit of heredity which occupies a specific position on a particular chromosome and serves as the template for a product that contributes to a phenotype or a biological function.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </rdf:Description>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/260299005">
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">260299005</ns4:notation>
+    <ns4:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Number</ns4:prefLabel>
+    <ns4:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Numbers (qualifier value)</ns4:altLabel>
+    <ns4:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Numbers</ns4:altLabel>
+    <ns4:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Number (qualifier value)</ns4:altLabel>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/362981000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Number</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Number (qualifier value)</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT</ns2:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1908">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug, Food, Chemical or Biomedical Material</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug, Food, Chemical or Biomedical Material</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An organic or inorganic substance, element, isotope, food or other materials derived from microorganism, plant, or animal sources. They can be used for the prevention, diagnosis, treatment or research of disease states, for industrial purposes, or for the promotion or maintenance of organism viability or health.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C97325">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manufactured Object</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manufactured Object</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A physical object created by hand or machine.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </rdf:Description>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181">
+    <owl:disjointWith rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1908"/>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20189">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Property or Attribute</rdfs:label>
+        <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Property or Attribute</ns2:synonym>
+        <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A distinguishing quality or prominent aspect of a person, object, action, process, or substance.'</ns2:definition>
+        <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26548"/>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20047">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnostic or Prognostic Factor</rdfs:label>
+        <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnostic or Prognostic Factor</ns2:synonym>
+        <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A characteristic of an organism that contributes to the diagnosis or treatment of a disease or to the prediction of clinical outcomes.'</ns2:definition>
+        <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C7057">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease, Disorder or Finding</rdfs:label>
+        <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease, Disorder or Finding</ns2:synonym>
+        <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A condition that is relevant to human neoplasms and non-neoplastic disorders.  This includes observations, test results, history and other concepts relevant to the characterization of human pathologic conditions.'</ns2:definition>
+        <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C22187">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Experimental Organism Diagnosis</rdfs:label>
+        <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-Human or Experimental Organism Diagnosis, Experimental Organism Diagnosis</ns2:synonym>
+        <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A condition or observation that is relevant to disease states, models of disease or characterization of those conditions in a non-human organism; this includes conditions or observations in organisms used in research settings.'</ns2:definition>
+        <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C22188"/>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3910">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular Abnormality</rdfs:label>
+        <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular Alteration, Genetic Abnormality, Molecular Abnormality, Cytogenetic or Molecular Genetic Abnormality, Chromosomal, Gene, or Protein Abnormality, MOLECULAR_ABNORMALITY</ns2:synonym>
+        <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A molecular or cytogenic abnormality which occurs in either human disease states or disease models.'</ns2:definition>
+        <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14250">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organism</rdfs:label>
+        <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BiologicEntity, organism, Organismal, Taxon, Organism, Organisms</ns2:synonym>
+        <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A living entity.'</ns2:definition>
+        <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C19238">
+        <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C97325"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnostic, Therapeutic, or Research Equipment</rdfs:label>
+        <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnostic, Therapeutic, and Research Equipment, Hardware, Diagnostic, Therapeutic, or Research Equipment, Equipment</ns2:synonym>
+        <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A manufactured object that is used to perform diagnostic, therapeutic or research activities.'</ns2:definition>
+        <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28428">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Retired Concept</rdfs:label>
+        <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isRetired, Retired Concept, All Retired Concepts, Retired Concepts</ns2:synonym>
+        <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Concept has been retired, and should not be used except to deal with old data.'</ns2:definition>
+        <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C97325"/>
+    <owl:disjointWith rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16612"/>
+    <ns1:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organizational header for concepts representing mostly abstract entities.</ns1:P97>
+    <ns1:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1254372</ns1:P207>
+    <ns1:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</ns1:P108>
+    <ns1:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C20181</ns1:code>
+    <ns1:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual_Entities</ns1:P366>
+    <ns1:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Classification</ns1:P106>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An organizational header for concepts representing mostly abstract entities.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464">
+    <ns1:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A collective generic term that refers here to a wide variety of dependencies, areas of special sovereignty, uninhabited islands, and other entities in addition to the traditional countries or independent states.</ns1:P97>
+    <ns1:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0454664</ns1:P207>
+    <ns1:P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[<ncicp:ComplexDefinition xmlns:ncicp='http://ncicb.nci.nih.gov/xml/owl/EVS/ComplexProperties.xsd#'><ncicp:def-definition>A collective generic term that refers here to a wide variety of dependencies, areas of special sovereignty, uninhabited islands, and other entities in addition to the traditional countries or independent states. (NCI)</ncicp:def-definition><ncicp:def-source>CDISC</ncicp:def-source></ncicp:ComplexDefinition>]]></ns1:P325>
+    <ns1:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Country</ns1:P108>
+    <ns1:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C25464</ns1:code>
+    <ns1:P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FDA</ns1:P322>
+    <ns1:P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDISC</ns1:P322>
+    <ns1:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Country</ns1:P366>
+    <ns1:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geographic Area</ns1:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16632"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Country</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COUNTRY, Country</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A collective generic term that refers here to a wide variety of dependencies, areas of special sovereignty, uninhabited islands, and other entities in addition to the traditional countries or independent states.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43639">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42698"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI Thesaurus Entity</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI Thesaurus Entity</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The terminology entities that represent the elements that form and define the NCI Thesaurus.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/362981000">
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">362981000</ns4:notation>
+    <ns4:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qualifier value</ns4:prefLabel>
+    <ns4:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qualifier value (qualifier value)</ns4:altLabel>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qualifier value</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qualifier value (qualifier value)</ns2:synonym>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42698">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Terminology Entity</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Terminology Entity</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Terminology entities represent the elements that form and define an ontology.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43743">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43643"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual_Part_Of</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual_Part_Of</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A role used to indicate that a conceptual entity is a sub-entity of another conceptual entity. Both the domain and the range for this role are 'Conceptual Entity'.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBsp_20000002">
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBsp:20000002</ns4:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBsp_00000000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transposable_element</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_SP</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBsp_20000031">
+    <ns4:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBsp:20000031</ns4:notation>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBsp_20000002"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transposable element, D. melanogaster</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB_SP</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43643">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43639"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI Thesaurus Role</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role, NCI Thesaurus Role</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A specific non-hierarchical, named relationship between concepts present in the NCI Thesaurus.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#ObjectProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns2="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#code">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">code</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#unsupervised_pretrained_network">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unsupervised pretrained network</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NSUPERVISED PRETRAINED NETWOR</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NSUPERVISED PRETRAINED NETWOR</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#systemic_bias">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">systemic bias</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YSTEMIC BIA</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YSTEMIC BIA</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P322">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contributing_Source</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#softmax_layer">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">softmax layer</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OFTMAX LAYE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OFTMAX LAYE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#simplernncell_layer">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">simplernncell layer</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IMPLERNNCELL LAYE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IMPLERNNCELL LAYE</ns1:definition>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#A1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role_Has_Domain</rdfs:label>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52331"/>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52333"/>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52328"/>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52327"/>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C101462"/>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52330"/>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52324"/>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C101461"/>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52329"/>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52332"/>
+    <rdfs:range rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43431"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#upsampling3d_layer">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">upsampling3d layer</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSAMPLING3D LAYE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSAMPLING3D LAYE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#stackedrnncells_layer">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stackedrnncells layer</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TACKEDRNNCELLS LAYE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TACKEDRNNCELLS LAYE</ns1:definition>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#A11">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_NICHD_Parent</rdfs:label>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C38114"/>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17230"/>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C92897"/>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C92820"/>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C81267"/>
+    <rdfs:range rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16847"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18235">
+    <ns2:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">There are two main goals of time series analysis: (a) identifying the nature of the phenomenon represented by the sequence of observations, and (b) forecasting (predicting future values of the time series variable).</ns2:P97>
+    <ns2:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0681939</ns2:P207>
+    <ns2:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Time Series Analysis</ns2:P108>
+    <ns2:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C18235</ns2:code>
+    <ns2:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Time_Series_Analysis</ns2:P366>
+    <ns2:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quantitative Concept</ns2:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C19044"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Time Series Analysis</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Time Series Analysis</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Methods for analyzing a sequence of data points collected over an interval of time, in order to extract meaningful statistics and other characteristics of the data.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#unsupervised_biclustering">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unsupervised biclustering</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NSUPERVISED BICLUSTERIN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NSUPERVISED BICLUSTERIN</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#streetlight_effect_bias">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">streetlight effect bias</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TREETLIGHT EFFECT BIA</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TREETLIGHT EFFECT BIA</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#unitnormalization_layer">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unitnormalization layer</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NITNORMALIZATION LAYE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NITNORMALIZATION LAYE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#temporal_bias">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal bias</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMPORAL BIA</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMPORAL BIA</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#simpons_paradox_bias">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">simpons paradox bias</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IMPONS PARADOX BIA</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IMPONS PARADOX BIA</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#subtract_layer">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subtract layer</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBTRACT LAYE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBTRACT LAYE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#supervised_clustering">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">supervised clustering</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UPERVISED CLUSTERIN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UPERVISED CLUSTERIN</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#time_series_forecasting">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">time series forecasting</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IME SERIES FORECASTIN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IME SERIES FORECASTIN</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#simplernn_layer">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">simplernn layer</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IMPLERNN LAYE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IMPLERNN LAYE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#tanh_function">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tanh function</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANH FUNCTIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANH FUNCTIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#text_preprocessing_layer">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">text preprocessing layer</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXT PREPROCESSING LAYE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXT PREPROCESSING LAYE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#softsign_function">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">softsign function</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OFTSIGN FUNCTIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OFTSIGN FUNCTIO</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P366">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Legacy_Concept_Name</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#softmax_function">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">softmax function</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OFTMAX FUNCTIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OFTMAX FUNCTIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#unsupervised_clustering">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unsupervised clustering</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NSUPERVISED CLUSTERIN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NSUPERVISED CLUSTERIN</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#supervised_biclustering">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">supervised biclustering</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UPERVISED BICLUSTERIN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UPERVISED BICLUSTERIN</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#use_and_interpretation_bias">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">use and interpretation bias</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SE AND INTERPRETATION BIA</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SE AND INTERPRETATION BIA</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#sparse_learning">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sparse learning</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARSE LEARNIN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARSE LEARNIN</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#societal_bias">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">societal bias</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OCIETAL BIA</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OCIETAL BIA</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#stringlookup_layer">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stringlookup layer</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRINGLOOKUP LAYE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRINGLOOKUP LAYE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#survivorship_bias">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">survivorship bias</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URVIVORSHIP BIA</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URVIVORSHIP BIA</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#timedistributed_layer">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">timedistributed layer</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IMEDISTRIBUTED LAYE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IMEDISTRIBUTED LAYE</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P97">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DEFINITION</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#spatialdropout1d_layer">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spatialdropout1d layer</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATIALDROPOUT1D LAYE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATIALDROPOUT1D LAYE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#sunk_cost_fallacy_bias">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sunk cost fallacy bias</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UNK COST FALLACY BIA</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UNK COST FALLACY BIA</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#word2vec-cbow">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">word2vec-cbow</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORD2VEC-CBO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORD2VEC-CBO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D016019">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D013223"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Survival Analysis</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Analysis, Survival</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A class of statistical procedures for estimating the survival function (function of time, starting with a population 100% well at a given time and providing the percentage of the population still well at later times). The survival analysis is then used for making inferences about the effects of treatments, prognostic factors, exposures, and other covariates on the function.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#uncertainty_bias">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uncertainty bias</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCERTAINTY BIA</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCERTAINTY BIA</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#swish_function">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">swish function</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WISH FUNCTIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WISH FUNCTIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#upsampling1d_layer">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">upsampling1d layer</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSAMPLING1D LAYE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSAMPLING1D LAYE</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P325">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALT_DEFINITION</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#thresholdedrelu_layer">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thresholdedrelu layer</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HRESHOLDEDRELU LAYE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HRESHOLDEDRELU LAYE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#word2vec-skipgram">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">word2vec-skipgram</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORD2VEC-SKIPGRA</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORD2VEC-SKIPGRA</ns1:definition>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#R163">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure_Has_Target_Anatomy</rdfs:label>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43431"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P207">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#textvectorization_layer">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textvectorization layer</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXTVECTORIZATION LAYE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXTVECTORIZATION LAYE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#softplus_function">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">softplus function</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OFTPLUS FUNCTIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OFTPLUS FUNCTIO</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#spatialdropout3d_layer">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spatialdropout3d layer</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATIALDROPOUT3D LAYE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATIALDROPOUT3D LAYE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#transformer_network">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transformer network</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RANSFORMER NETWOR</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RANSFORMER NETWOR</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#variational_auto_encoder">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">variational auto encoder</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARIATIONAL AUTO ENCODE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARIATIONAL AUTO ENCODE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#user_interaction_bias">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">user interaction bias</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SER INTERACTION BIA</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SER INTERACTION BIA</ns1:definition>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#R180">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure_Has_Target_Disease</rdfs:label>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43431"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FULL_SYN</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#spatialdropout2d_layer">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spatialdropout2d layer</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATIALDROPOUT2D LAYE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATIALDROPOUT2D LAYE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://bigdatau.org/dseo#unsupervised_learning">
+    <rdfs:subClassOf rdf:resource="http://bigdatau.org/dseo#machine_learning"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unsupervised Learning</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Machine learning methods describe the features of unlabeled data; includes clustering and dimensionality reduction techniques'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DSEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#R181">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure_Uses_Manufactured_Object</rdfs:label>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43431"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#sigmoid_function">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sigmoid function</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IGMOID FUNCTIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IGMOID FUNCTIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#upsampling2d_layer">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">upsampling2d layer</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSAMPLING2D LAYE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSAMPLING2D LAYE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D000068916">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D062206"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D012044"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spatial Regression</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weighted Regression, Geographically</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Methods used to take into account and incorporate spatial autocorrelation and regional variation into regression analysis models of data that has spatial dependency, and also to provide information on the spatial relationships among the variables.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P108">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preferred_Name</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://bigdatau.org/dseo#supervised_learning">
+    <rdfs:subClassOf rdf:resource="http://bigdatau.org/dseo#machine_learning"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Supervised Learning</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Machine learning techniques that draw inferences from labeled data'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DSEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P106">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Semantic_Type</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D008433">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D010811"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mathematics</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mathematic</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The deductive study of shape, quantity, and dependence. (From McGraw-Hill Dictionary of Scientific and Technical Terms, 6th ed)'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52333">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43643"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure_Has_Completely_Excised_Anatomy</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure_Has_Completely_Excised_Anatomy</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A role used to assert a relationship between a surgical procedure and its target anatomy, specifically that a particular procedure always is intended for the complete excision of the target anatomy. This role is applicable to procedures or techniques that involve excision of solid tissues or organs, and where complete excision is explicit or can be inferred.. The domain and range for this role are 'Clinical or Research Activity' and 'Anatomic Structure, System, or Substance', respectively.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D008919">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Investigative Techniques</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Techniques, Investigative</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Investigative techniques used in pre-clinical and clinical research, epidemiology, chemistry, immunology, genetics, etc. They do not include techniques specifically applied to DIAGNOSIS; THERAPEUTICS; anesthesia and analgesia; SURGICAL PROCEDURES, OPERATIVE; and DENTISTRY.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D001185">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D000465"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Artificial Intelligence</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reasoning, Computer</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Theory and development of COMPUTER SYSTEMS which perform tasks that normally require human intelligence. Such tasks may include speech recognition, LEARNING; VISUAL PERCEPTION; MATHEMATICAL COMPUTING; reasoning, PROBLEM SOLVING, DECISION-MAKING, and translation of language.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C101462">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43643"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure_Uses_Manufactured_Object</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure_Uses_Manufactured_Object</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A role used to assert that a procedure or technical method requires use of specific artifacts or pieces of equipment. The domain and range for this role are 'Activity' and 'Manufactured Object', respectively.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D006298">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D006281"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Health Services Administration</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Administration, Health Services</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The organization and administration of health services dedicated to the delivery of health care.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C92897">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C89340"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tocodynamometry</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tocodynamometry</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The recording of uterine muscle contractions during pregnancy and labor.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16847">
+    <ns2:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A practiced and regimented skill or series of actions.</ns2:P97>
+    <ns2:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0449851</ns2:P207>
+    <ns2:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Technique</ns2:P108>
+    <ns2:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C16847</ns2:code>
+    <ns2:P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NICHD</ns2:P322>
+    <ns2:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Techniques</ns2:P366>
+    <ns2:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Techniques</ns2:P90>
+    <ns2:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Methods and Techniques</ns2:P90>
+    <ns2:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Methods, Other</ns2:P90>
+    <ns2:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Methods</ns2:P90>
+    <ns2:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Method</ns2:P90>
+    <ns2:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Technical</ns2:P90>
+    <ns2:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activity</ns2:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43431"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Technique</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Technique, Methods, Other, Methods, Method, Technical, Techniques, Methods and Techniques</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A practiced and regimented skill or series of actions.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43643">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43639"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI Thesaurus Role</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role, NCI Thesaurus Role</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A specific non-hierarchical, named relationship between concepts present in the NCI Thesaurus.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D007254">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Science</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Science, Information</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The field of knowledge, theory, and technology dealing with the collection of facts and figures, and the processes and methods involved in their manipulation, storage, dissemination, publication, and retrieval. It includes the fields of COMMUNICATION; PUBLISHING; LIBRARY SCIENCE; and informatics.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43431">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26548">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gene Product</rdfs:label>
+        <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genome Encoded Entity, Gene Product</ns1:synonym>
+        <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein, RNA or a complex that contains proteins and/or RNA.'</ns1:definition>
+        <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1908">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug, Food, Chemical or Biomedical Material</rdfs:label>
+        <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug, Food, Chemical or Biomedical Material</ns1:synonym>
+        <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An organic or inorganic substance, element, isotope, food or other materials derived from microorganism, plant, or animal sources. They can be used for the prevention, diagnosis, treatment or research of disease states, for industrial purposes, or for the promotion or maintenance of organism viability or health.'</ns1:definition>
+        <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20189">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Property or Attribute</rdfs:label>
+        <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Property or Attribute</ns1:synonym>
+        <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A distinguishing quality or prominent aspect of a person, object, action, process, or substance.'</ns1:definition>
+        <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12219">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomic Structure, System, or Substance</rdfs:label>
+        <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomic Structure, System, or Substance, Anatomic Structures and Systems</ns1:synonym>
+        <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A human biological structure, fluid or other substance; excludes single molecular entities.'</ns1:definition>
+        <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20633">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochemical Pathway</rdfs:label>
+        <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metabolic Network, Pathways, Biochemical Pathway, Pathway, molecular pathway</ns1:synonym>
+        <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A series of biochemical reactions which occurs in a known sequence and can result in all or part of the initiation, progression or completion of a biological process or function.'</ns1:definition>
+        <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17828">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological Process</rdfs:label>
+        <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological Process, Biological Function</ns1:synonym>
+        <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An activity occurring within an organism, between organisms or among organisms and the mechanisms underlying such events.'</ns1:definition>
+        <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16612">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gene</rdfs:label>
+        <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene, Gene, Genes</ns1:synonym>
+        <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A functional unit of heredity which occupies a specific position on a particular chromosome and serves as the template for a product that contributes to a phenotype or a biological function.'</ns1:definition>
+        <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C97325">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manufactured Object</rdfs:label>
+        <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manufactured Object</ns1:synonym>
+        <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A physical object created by hand or machine.'</ns1:definition>
+        <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28428">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Retired Concept</rdfs:label>
+        <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isRetired, Retired Concept, All Retired Concepts, Retired Concepts</ns1:synonym>
+        <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Concept has been retired, and should not be used except to deal with old data.'</ns1:definition>
+        <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C19238">
+        <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C97325"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnostic, Therapeutic, or Research Equipment</rdfs:label>
+        <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnostic, Therapeutic, and Research Equipment, Hardware, Diagnostic, Therapeutic, or Research Equipment, Equipment</ns1:synonym>
+        <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A manufactured object that is used to perform diagnostic, therapeutic or research activities.'</ns1:definition>
+        <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14250">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organism</rdfs:label>
+        <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BiologicEntity, organism, Organismal, Taxon, Organism, Organisms</ns1:synonym>
+        <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A living entity.'</ns1:definition>
+        <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28389">
+        <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C167277"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI Administrative Concept</rdfs:label>
+        <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI Administrative Concept</ns1:synonym>
+        <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An entity which is used by NCI for administrative, financial or organizational purposes.'</ns1:definition>
+        <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3910">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular Abnormality</rdfs:label>
+        <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular Alteration, Genetic Abnormality, Molecular Abnormality, Cytogenetic or Molecular Genetic Abnormality, Chromosomal, Gene, or Protein Abnormality, MOLECULAR_ABNORMALITY</ns1:synonym>
+        <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A molecular or cytogenic abnormality which occurs in either human disease states or disease models.'</ns1:definition>
+        <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181"/>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12218">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemotherapy Regimen or Agent Combination</rdfs:label>
+        <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Combination Chemotherapy Regimen, Chemotherapy Regimen or Agent Combination</ns1:synonym>
+        <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A combination of multiple drugs used in standard or clinical trial treatments. The order, dosage or dosing interval of the individual ingredients may not be specified.'</ns1:definition>
+        <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C22188">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Experimental Organism Anatomical Concept</rdfs:label>
+        <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-Human or Experimental Organism Anatomical Concept, Experimental Organism Anatomical Concept</ns1:synonym>
+        <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A biological structure, fluid or other substance that is present in a non-human organism; this includes anatomic entities found in organisms used in research settings. However, this grouping excludes single molecular entities.'</ns1:definition>
+        <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C22187">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Experimental Organism Diagnosis</rdfs:label>
+        <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-Human or Experimental Organism Diagnosis, Experimental Organism Diagnosis</ns1:synonym>
+        <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A condition or observation that is relevant to disease states, models of disease or characterization of those conditions in a non-human organism; this includes conditions or observations in organisms used in research settings.'</ns1:definition>
+        <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C7057">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease, Disorder or Finding</rdfs:label>
+        <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease, Disorder or Finding</ns1:synonym>
+        <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A condition that is relevant to human neoplasms and non-neoplastic disorders.  This includes observations, test results, history and other concepts relevant to the characterization of human pathologic conditions.'</ns1:definition>
+        <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20047">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnostic or Prognostic Factor</rdfs:label>
+        <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnostic or Prognostic Factor</ns1:synonym>
+        <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A characteristic of an organism that contributes to the diagnosis or treatment of a disease or to the prediction of clinical outcomes.'</ns1:definition>
+        <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <ns2:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activity</ns2:P106>
+    <ns2:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General activity</ns2:P90>
+    <ns2:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activity</ns2:P366>
+    <ns2:P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRIDG</ns2:P322>
+    <ns2:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C43431</ns2:code>
+    <ns2:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activity</ns2:P108>
+    <ns2:P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[<ncicp:ComplexDefinition xmlns:ncicp='http://ncicb.nci.nih.gov/xml/owl/EVS/ComplexProperties.xsd#'><ncicp:def-definition>Any action that can, in the context of a study or a post-marketing investigation, be defined, planned, scheduled or performed. EXAMPLE(S): surgical procedure, laboratory test, administration of a drug.</ncicp:def-definition><ncicp:def-source>BRIDG</ncicp:def-source></ncicp:ComplexDefinition>]]></ns2:P325>
+    <ns2:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0441655</ns2:P207>
+    <ns2:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An active process; excludes processes and mechanisms which fulfill biological functions.</ns2:P97>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activity</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General activity, Activity</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An active process; excludes processes and mechanisms which fulfill biological functions.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D011787">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D006298"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D017530"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quality of Health Care</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pharmacy Audits</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The levels of excellence which characterize the health service or health care provided based on accepted standards of quality.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25218">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16203"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intervention or Procedure</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interventional, intervention, treatment type, Interventional Procedure Type, Intervention, interventionDescription, procedure, Intervention Strategies, treatment_type, Procedure, Intervention or Procedure</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An activity that produces an effect, or that is intended to alter the course of a disease in a patient or population. This is a general term that encompasses the medical, social, behavioral, and environmental acts that can have preventive, therapeutic, or palliative effects.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D004812">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D008919"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D011634"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epidemiologic Methods</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Methods, Epidemiologic</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Research techniques that focus on study designs and data gathering methods in human and animal populations.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D004778">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Environment and Public Health</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Natural and man-made environments and their impact on public health.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52329">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43643"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure_May_Have_Excised_Anatomy</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure_May_Have_Excised_Anatomy</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A role used to assert a relationship between a surgical procedure and its target anatomy, specifically that a particular procedure sometimes results in excision of some or all of the specified anatomy. This role is applicable to procedures or techniques that involve excision of solid tissues or organs. It should be used when a more specific role cannot be asserted. The domain and range for this role are 'Clinical or Research Activity' and 'Anatomic Structure, System, or Substance', respectively.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D011634">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D004778"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D006262"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D008511"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Public Health</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Health, Community</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D010811">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Natural Science Disciplines</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physical Sciences</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The sciences dealing with processes observable in nature.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D008511">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D006281"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medicine</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Speciality, Medical</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Various branches of medical practice limited to specialized areas.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52332">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43643"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure_May_Have_Completely_Excised_Anatomy</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure_May_Have_Completely_Excised_Anatomy</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A role used to assert a relationship between a surgical procedure and its target anatomy, specifically that a particular procedure sometimes results in complete excision of the target anatomy. This role is applicable to procedures or techniques that involve excision of solid tissues or organs, and where complete excision is explicit or can be inferred. The domain and range for this role are 'Clinical or Research Activity' and 'Anatomic Structure, System, or Substance', respectively.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43639">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42698"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI Thesaurus Entity</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI Thesaurus Entity</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The terminology entities that represent the elements that form and define the NCI Thesaurus.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52331">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43643"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure_Has_Partially_Excised_Anatomy</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure_Has_Partially_Excised_Anatomy</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A role used to assert a relationship between a surgical procedure and its target anatomy, specifically that a particular procedure always involves partial excision of the specified anatomy. This role is applicable to procedures or techniques that involve excision of solid tissues or organs, and where partial excision is explicit or can be inferred (e.g. biopsy). The domain and range for this role are 'Clinical or Research Activity' and 'Anatomic Structure, System, or Substance', respectively.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16203">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43431"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical or Research Activity</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical or Research Activity</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Any specific activity undertaken during the course of a clinical study or research protocol.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D062206">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D013223"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spatial Analysis</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Analyses, Spatial</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Investigative techniques which measure the topological, geometric, and or geographic properties of the entities studied.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D012044">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D013223"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regression Analysis</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Statistical Regression</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17230">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17369"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ultrasound Imaging</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-Dimensional Grayscale Ultrasound Imaging, Ultrasound, Medical, 2-Dimensional Ultrasound Imaging, 2D-US, US, Ultrasonography, Ultrasound Test, ultrasound, ULTRASOUND, Ultrasound Imaging, Ultrasound, ultrasonography</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The use of high-frequency sound waves to generate images of the body.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D000069550">
+    <owl:equivalentClass rdf:resource="http://bigdatau.org/dseo#machine_learning"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D001185"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Machine Learning</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transfer Learning</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A type of ARTIFICIAL INTELLIGENCE that enable COMPUTERS to independently initiate and execute LEARNING when exposed to new data.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C19044">
+    <ns2:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A method of analyzing or representing statistical data; a procedure for calculating a statistic.</ns2:P97>
+    <ns2:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1710191</ns2:P207>
+    <ns2:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Statistical Technique</ns2:P108>
+    <ns2:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C19044</ns2:code>
+    <ns2:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Statistical_Methods</ns2:P366>
+    <ns2:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Statistical Method</ns2:P90>
+    <ns2:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quantitative Concept</ns2:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16847"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Statistical Technique</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Statistical Method, statistical method, Statistical Technique</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A method of analyzing or representing statistical data; a procedure for calculating a statistic.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D017531">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D011787"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Health Care Evaluation Mechanisms</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanisms, Healthcare Evaluation</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Methods and techniques used in evaluating the quality of health care, its planning, and delivery.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17369">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25218"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Imaging Technique</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Imaging, Imaging Technique, IMAGING_METHOD, Medical Imaging, Imaging Procedures, imaging procedure, Imaging (procedure), imaging, Diagnostic Imaging Technique, imaging_type, Image Type, imaging type, Type of imaging</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Any technology or method that aids in the visualization of any biological process, cell, tissue or organ for use in screening, diagnosis, surgical procedures or therapy.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D000465">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D055641"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D003205"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Algorithms</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Algorithm</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A procedure consisting of a sequence of algebraic formulas and/or logical steps to calculate or determine a given task.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52327">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43643"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure_Has_Imaged_Anatomy</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure_Has_Imaged_Anatomy</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A role used to assert a relationship between an imaging procedure and its target anatomy, specifically that a particular procedure always involves imaging the specified anatomy. The domain and range for this role are 'Clinical or Research Activity' and 'Anatomic Structure, System, or Substance', respectively.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C92820">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C89340"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intrauterine Cordocentesis</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Percutaneous Umbilical Blood Sampling, PUBS, Intrauterine Cordocentesis</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The retrieval of blood sample from the umbilical cord while the fetus is in utero.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D006281">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Health Occupations</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Professions, Health</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Professions or other business activities directed to the cure and prevention of disease. For occupations of medical personnel who are not physicians but who are working in the fields of medical technology, physical therapy, etc., ALLIED HEALTH OCCUPATIONS is available.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C89340">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25218"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Obstetric Procedure</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Obstetric Procedure</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Any pregnancy or childbirth related procedure associated with a mother during her reproductive years.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52328">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43643"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure_Has_Excised_Anatomy</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure_Has_Excised_Anatomy</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A role used to assert a relationship between a surgical procedure and its target anatomy, specifically that a particular procedure always involves excision of some or all of the specified anatomy. This role is applicable to procedures or techniques that involve excision of solid tissues or organs. It should be used when a more specific role cannot be asserted. The domain and range for this role are 'Clinical or Research Activity' and 'Anatomic Structure, System, or Substance', respectively.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An organizational header for concepts representing mostly abstract entities.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C167277">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28428"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Retired Concept 2019</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Retired Concept 2019</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </rdf:Description>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52324">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43643"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure_Has_Target_Anatomy</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure_Has_Target_Anatomy</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A role used to assert a relationship between a procedure and its target anatomy, specifically that a particular procedure always has an association with the target anatomy. This role should be used when a more specific role cannot be asserted, including procedures targeting blood and other fluids. The domain and range for this role are 'Clinical or Research Activity' and 'Anatomic Structure, System, or Substance', respectively.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71460">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C47955"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Method</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Method</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A means, manner of procedure, or systematic course of actions that have to be performed in order to accomplish a particular goal.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C47955">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Means</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Means</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A way of doing something; how a result is obtained or an end is achieved.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42698">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Terminology Entity</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Terminology Entity</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Terminology entities represent the elements that form and define an ontology.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D013223">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D017531"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D008433"/>
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D004812"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Statistics as Topic</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Techniques, Estimation</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Works about the science and art of collecting, summarizing, and analyzing data that are subject to random variation.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bigdatau.org/dseo#machine_learning">
+    <owl:equivalentClass rdf:resource="http://purl.bioontology.org/ontology/MESH/D000069550"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Machine Learning</rdfs:label>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Techniques used to extract inferences from a dataset; can include model selection procedure and specific algorithms used'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DSEO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D006262">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D011154"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Health</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Normalcies</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The state of conforming to a type, standard, or regular pattern. (Merriam-Webster's Collegiate Dictionary, 10th ed)'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C81267">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71460"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Feeding Method</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Feeding Method</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A description of the technique for the manner in which a subject is administered food.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52330">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43643"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure_May_Have_Partially_Excised_Anatomy</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure_May_Have_Partially_Excised_Anatomy</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A role used to assert a relationship between a surgical procedure and its target anatomy, specifically that a particular procedure sometimes results in partial excision of the specified anatomy. This role is applicable to procedures or techniques that involve excision of solid tissues or organs, and where partial excision is explicit or can be inferred (e.g. biopsy). The domain and range for this role are 'Clinical or Research Activity' and 'Anatomic Structure, System, or Substance', respectively.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25169">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Route</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Route</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A way of getting from one place to another; an established line of travel or access; the way a chemical or pollutant enters an organism after contact, particularly, the way of drug administration.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D003205">
+    <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D007254"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computing Methodologies</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computing Methodology</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C38114">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25169"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Route of Administration</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROUTE_DETAIL, Drug Administration Method, route of administration, route_of_administration, Route of Drug Administration, route of administration (ROA), Route of Administration, ROUTE, Drug Route of Administration, ROUTE OF ADMINISTRATION</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Designation of the part of the body through which or into which, or the way in which, the medicinal product is intended to be introduced. In some cases a medicinal product can be intended for more than one route and/or method of administration.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D055641">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mathematical Concepts</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mathematical Concept</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Numeric or quantitative entities, descriptions, properties, relationships, operations, and events.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C101461">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43643"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure_Has_Target_Disease</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure_Has_Target_Disease</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A role used to assert that a procedure or technical method detects, diagnoses, or treats a specified disease state. The domain and range for this role are 'Activity' and 'Disease, Disorder or Finding', respectively.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D017530">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Health Care Quality, Access, and Evaluation</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Healthcare Quality, Access, and Evaluation</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D011154">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Population Characteristics</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Characteristics, Population</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Qualities and characterization of various types of populations within a social or geographic group, with emphasis on demography, health status, and socioeconomic factors.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#ObjectProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

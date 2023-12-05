@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+>
+  <owl:Class rdf:about="http://protege.stanford.edu/thesauri/aero/A350">
+    <rdfs:subClassOf rdf:resource="http://protege.stanford.edu/thesauri/aero/A350-1000"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A350</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Airbus A350</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A Wide Body Twin Jet Aircraft manufactured by Airbus'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIRBUS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://protege.stanford.edu/thesauri/aero/A320">
+    <rdfs:subClassOf rdf:resource="http://protege.stanford.edu/thesauri/aero/A320-100"/>
+    <rdfs:subClassOf rdf:resource="http://protege.stanford.edu/thesauri/aero/A320-200"/>
+    <rdfs:subClassOf rdf:resource="http://protege.stanford.edu/thesauri/aero/A320-neo"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A320</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Airbus A320</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A320 Family Aircraft. An A320 is a narrow body twin jet aircraft that is manufactured by Airbus'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIRBUS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://protege.stanford.edu/thesauri/aero/A320-200">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A320-200</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Airbus A320-200</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIRBUS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://protege.stanford.edu/thesauri/aero/A320-neo">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A320-neo</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Airbus A320-neo</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A320 New Engine Option'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIRBUS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://protege.stanford.edu/thesauri/aero/A320-100">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A320-100</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Airbus A320-100</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIRBUS</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://protege.stanford.edu/thesauri/aero/A350-1000">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A350-1000</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Airbus A350-1000</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIRBUS</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

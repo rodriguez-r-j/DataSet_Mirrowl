@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:ns2="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns3="http://www.w3.org/2004/02/skos/core#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#familyhealthgroupentities">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">familyhealthgroupentities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMILYHEALTHGROUPENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMILYHEALTHGROUPENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#solo_practice_-_physician_specialist_entities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">solo practice - physician specialist entities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OLO PRACTICE - PHYSICIAN SPECIALIST ENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OLO PRACTICE - PHYSICIAN SPECIALIST ENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#code">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">code</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#diagnostic_imaging_entities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diagnostic imaging entities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAGNOSTIC IMAGING ENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAGNOSTIC IMAGING ENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#patient___client_information">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">patient   client information</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATIENT   CLIENT INFORMATIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATIENT   CLIENT INFORMATIO</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P108">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preferred_Name</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#residential_care_entities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">residential care entities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ESIDENTIAL CARE ENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ESIDENTIAL CARE ENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C123270">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C123273"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FDA Application Type Terminology</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APPLICATION TYPE, FDA Application Type Terminology, APPLTYPE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Terminology used in the framework of identifying types of pharmaceutical application types.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#medication_information">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medication information</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDICATION INFORMATIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDICATION INFORMATIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#hospital_entities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hospital entities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OSPITAL ENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OSPITAL ENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#primary_care_entities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary care entities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RIMARY CARE ENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RIMARY CARE ENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#collegehealthservicesentities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">collegehealthservicesentities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OLLEGEHEALTHSERVICESENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OLLEGEHEALTHSERVICESENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#A2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role_Has_Range</rdfs:label>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43743"/>
+    <rdfs:range rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#mental_health_hospital_entities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mental health hospital entities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENTAL HEALTH HOSPITAL ENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENTAL HEALTH HOSPITAL ENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#familyhealthteamentities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">familyhealthteamentities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMILYHEALTHTEAMENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMILYHEALTHTEAMENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#high_sending_sum_entities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high sending sum entities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IGH SENDING SUM ENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IGH SENDING SUM ENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#communityhealthcentreentities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">communityhealthcentreentities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMMUNITYHEALTHCENTREENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMMUNITYHEALTHCENTREENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#grouppractice-primarycareentities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">grouppractice-primarycareentities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROUPPRACTICE-PRIMARYCAREENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROUPPRACTICE-PRIMARYCAREENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#pharmacy_entities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pharmacy entities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HARMACY ENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HARMACY ENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#diagnostic_imaging_information">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diagnostic imaging information</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAGNOSTIC IMAGING INFORMATIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAGNOSTIC IMAGING INFORMATIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#laboratory_entities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">laboratory entities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABORATORY ENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABORATORY ENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#governmentdepartmententities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">governmentdepartmententities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OVERNMENTDEPARTMENTENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OVERNMENTDEPARTMENTENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#A1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role_Has_Domain</rdfs:label>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43743"/>
+    <rdfs:range rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#inpatient___outpatient_treatment_information">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inpatient   outpatient treatment information</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPATIENT   OUTPATIENT TREATMENT INFORMATIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPATIENT   OUTPATIENT TREATMENT INFORMATIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#conflicted_health_entities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conflicted health entities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONFLICTED HEALTH ENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONFLICTED HEALTH ENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#low_integration_entities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low integration entities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OW INTEGRATION ENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OW INTEGRATION ENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#high_integration_entities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high integration entities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IGH INTEGRATION ENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IGH INTEGRATION ENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#teaching_hospital_entities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">teaching hospital entities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EACHING HOSPITAL ENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EACHING HOSPITAL ENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P97">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DEFINITION</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#comprehensivecaremodelentities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">comprehensivecaremodelentities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMPREHENSIVECAREMODELENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMPREHENSIVECAREMODELENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#community_hospital_entities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">community hospital entities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMMUNITY HOSPITAL ENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMMUNITY HOSPITAL ENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#low_receiving_sum_entities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low receiving sum entities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OW RECEIVING SUM ENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OW RECEIVING SUM ENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#group_practice_-_physician_specialist_entities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">group practice - physician specialist entities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROUP PRACTICE - PHYSICIAN SPECIALIST ENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROUP PRACTICE - PHYSICIAN SPECIALIST ENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#laboratory_information">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">laboratory information</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABORATORY INFORMATIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABORATORY INFORMATIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#ccc___rehab_hospital_entities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ccc   rehab hospital entities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CC   REHAB HOSPITAL ENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CC   REHAB HOSPITAL ENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#scheduling_information">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scheduling information</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEDULING INFORMATIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEDULING INFORMATIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#palliative_care_entities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">palliative care entities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALLIATIVE CARE ENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALLIATIVE CARE ENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#wireless_local_area_network_(wlan)">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wireless local area network (wlan)</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRELESS LOCAL AREA NETWORK (WLAN</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRELESS LOCAL AREA NETWORK (WLAN</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#public_health_unit_entities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">public health unit entities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBLIC HEALTH UNIT ENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBLIC HEALTH UNIT ENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#long_term_care_nursing_home_entities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long term care nursing home entities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONG TERM CARE NURSING HOME ENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONG TERM CARE NURSING HOME ENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#high_receiving_sum_entities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high receiving sum entities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IGH RECEIVING SUM ENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IGH RECEIVING SUM ENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P366">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Legacy_Concept_Name</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#sport_medicine_clinic_entities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sport medicine clinic entities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PORT MEDICINE CLINIC ENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PORT MEDICINE CLINIC ENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#diagnostic_services_entities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diagnostic services entities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAGNOSTIC SERVICES ENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAGNOSTIC SERVICES ENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#small_hospital_entities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">small hospital entities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MALL HOSPITAL ENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MALL HOSPITAL ENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#familyhealthnetworkentities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">familyhealthnetworkentities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMILYHEALTHNETWORKENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMILYHEALTHNETWORKENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#low_sending_sum_entities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low sending sum entities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OW SENDING SUM ENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OW SENDING SUM ENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#R27">
+    <rdfs:range rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual_Part_Of</rdfs:label>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#community_counselling_entities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">community counselling entities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMMUNITY COUNSELLING ENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMMUNITY COUNSELLING ENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#familyhealthorganizationentities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">familyhealthorganizationentities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMILYHEALTHORGANIZATIONENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMILYHEALTHORGANIZATIONENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#specialist_care_entities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">specialist care entities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECIALIST CARE ENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECIALIST CARE ENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P106">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Semantic_Type</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#public_health_information">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">public health information</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBLIC HEALTH INFORMATIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBLIC HEALTH INFORMATIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.bioontology.org/ontology/LNC/MTHU027734">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MTHU027734</ns3:notation>
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Referral information</ns3:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Referral information</rdfs:label>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOINC</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#community_care_access_centre_entities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">community care access centre entities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMMUNITY CARE ACCESS CENTRE ENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMMUNITY CARE ACCESS CENTRE ENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#community_based_health_services_entities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">community based health services entities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMMUNITY BASED HEALTH SERVICES ENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMMUNITY BASED HEALTH SERVICES ENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#problem_list___history_information">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">problem list   history information</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROBLEM LIST   HISTORY INFORMATIO</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROBLEM LIST   HISTORY INFORMATIO</ns1:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#solopractice-primarycareentities">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">solopractice-primarycareentities</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OLOPRACTICE-PRIMARYCAREENTITIE</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OLOPRACTICE-PRIMARYCAREENTITIE</ns1:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preferred label</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P207">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">notation</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C97325">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manufactured Object</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manufactured Object</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A physical object created by hand or machine.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20047">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnostic or Prognostic Factor</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnostic or Prognostic Factor</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A characteristic of an organism that contributes to the diagnosis or treatment of a disease or to the prediction of clinical outcomes.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </rdf:Description>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C54443">
+    <ns2:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A group of terms that are used or classed together.</ns2:P97>
+    <ns2:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1710372</ns2:P207>
+    <ns2:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Terminology Subset</ns2:P108>
+    <ns2:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C54443</ns2:code>
+    <ns2:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Terminology_Subset</ns2:P366>
+    <ns2:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Functional Concept</ns2:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16048"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Terminology Subset</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Terminology Subset</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Terms drawn from a larger terminology and defined as a separate set.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C123273">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C131123"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FDA Quality Metrics Terminology</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FDA Quality Metrics Terminology, Quality Metrics</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Terminology developed to support activities regarding quality metrics within the FDA operations.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3910">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular Abnormality</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular Alteration, Genetic Abnormality, Molecular Abnormality, Cytogenetic or Molecular Genetic Abnormality, Chromosomal, Gene, or Protein Abnormality, MOLECULAR_ABNORMALITY</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A molecular or cytogenic abnormality which occurs in either human disease states or disease models.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C7057">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease, Disorder or Finding</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease, Disorder or Finding</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A condition that is relevant to human neoplasms and non-neoplastic disorders.  This includes observations, test results, history and other concepts relevant to the characterization of human pathologic conditions.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </rdf:Description>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43643">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43639"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI Thesaurus Role</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role, NCI Thesaurus Role</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A specific non-hierarchical, named relationship between concepts present in the NCI Thesaurus.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20189">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Property or Attribute</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Property or Attribute</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A distinguishing quality or prominent aspect of a person, object, action, process, or substance.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C19238">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C97325"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnostic, Therapeutic, or Research Equipment</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnostic, Therapeutic, and Research Equipment, Hardware, Diagnostic, Therapeutic, or Research Equipment, Equipment</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A manufactured object that is used to perform diagnostic, therapeutic or research activities.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C22188">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Experimental Organism Anatomical Concept</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-Human or Experimental Organism Anatomical Concept, Experimental Organism Anatomical Concept</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A biological structure, fluid or other substance that is present in a non-human organism; this includes anatomic entities found in organisms used in research settings. However, this grouping excludes single molecular entities.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </rdf:Description>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43743">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43643"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual_Part_Of</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual_Part_Of</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A role used to indicate that a conceptual entity is a sub-entity of another conceptual entity. Both the domain and the range for this role are 'Conceptual Entity'.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1908">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug, Food, Chemical or Biomedical Material</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug, Food, Chemical or Biomedical Material</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An organic or inorganic substance, element, isotope, food or other materials derived from microorganism, plant, or animal sources. They can be used for the prevention, diagnosis, treatment or research of disease states, for industrial purposes, or for the promotion or maintenance of organism viability or health.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </rdf:Description>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20865">
+    <ns2:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1512762</ns2:P207>
+    <ns2:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information and Media</ns2:P108>
+    <ns2:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C20865</ns2:code>
+    <ns2:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information_and_Media</ns2:P366>
+    <ns2:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</ns2:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information and Media</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information and Media</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16048">
+    <ns2:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sources of information such as libraries, databases, and websites.</ns2:P97>
+    <ns2:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1512759</ns2:P207>
+    <ns2:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Resource</ns2:P108>
+    <ns2:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C16048</ns2:code>
+    <ns2:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information_Resources</ns2:P366>
+    <ns2:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intellectual Product</ns2:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20865"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Resource</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Resource</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Sources of information such as libraries, databases, and websites.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181">
+    <owl:disjointWith rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1908"/>
+    <owl:disjointWith rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20189"/>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26548">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gene Product</rdfs:label>
+        <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genome Encoded Entity, Gene Product</ns1:synonym>
+        <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A protein, RNA or a complex that contains proteins and/or RNA.'</ns1:definition>
+        <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20047"/>
+    <owl:disjointWith rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C7057"/>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C22187">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Experimental Organism Diagnosis</rdfs:label>
+        <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-Human or Experimental Organism Diagnosis, Experimental Organism Diagnosis</ns1:synonym>
+        <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A condition or observation that is relevant to disease states, models of disease or characterization of those conditions in a non-human organism; this includes conditions or observations in organisms used in research settings.'</ns1:definition>
+        <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C22188"/>
+    <owl:disjointWith rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3910"/>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14250">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organism</rdfs:label>
+        <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BiologicEntity, organism, Organismal, Taxon, Organism, Organisms</ns1:synonym>
+        <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A living entity.'</ns1:definition>
+        <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C19238"/>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28428">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Retired Concept</rdfs:label>
+        <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isRetired, Retired Concept, All Retired Concepts, Retired Concepts</ns1:synonym>
+        <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Concept has been retired, and should not be used except to deal with old data.'</ns1:definition>
+        <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C97325"/>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16612">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gene</rdfs:label>
+        <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene, Gene, Genes</ns1:synonym>
+        <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A functional unit of heredity which occupies a specific position on a particular chromosome and serves as the template for a product that contributes to a phenotype or a biological function.'</ns1:definition>
+        <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <ns2:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organizational header for concepts representing mostly abstract entities.</ns2:P97>
+    <ns2:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1254372</ns2:P207>
+    <ns2:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</ns2:P108>
+    <ns2:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C20181</ns2:code>
+    <ns2:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual_Entities</ns2:P366>
+    <ns2:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Classification</ns2:P106>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An organizational header for concepts representing mostly abstract entities.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43639">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42698"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI Thesaurus Entity</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI Thesaurus Entity</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The terminology entities that represent the elements that form and define the NCI Thesaurus.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C131123">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C54443"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FDA Terminology</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FDA Terminology, Food and Drug Administration Terminology</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Terminology subsets associated with the Food and Drug Administration.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42698">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Terminology Entity</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Terminology Entity</ns1:synonym>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Terminology entities represent the elements that form and define an ontology.'</ns1:definition>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#ObjectProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

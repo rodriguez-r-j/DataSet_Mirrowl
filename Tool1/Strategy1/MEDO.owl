@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#"
+  xmlns:ns2="http://ontology.test.es/comment#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns3="http://www.w3.org/2004/02/skos/core#"
+>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#active_operator_randomisation">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">active operator randomisation</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTIVE OPERATOR RANDOMISATIO</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTIVE OPERATOR RANDOMISATIO</ns2:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#active_randomisation_and_minimisation_instrumentation_strategy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">active randomisation and minimisation instrumentation strategy</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTIVE RANDOMISATION AND MINIMISATION INSTRUMENTATION STRATEG</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTIVE RANDOMISATION AND MINIMISATION INSTRUMENTATION STRATEG</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C142742">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C49068"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unblinding</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unblinding, Unblinded, TREATMENT UNBLINDED, Study Unblinding, Unmasking, unblinding</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The process by which identifying information for a patient or group of outcomes from a clinical trial is revealed to the subject and/or investigators conducting the clinical study.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#b6brd">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b6brd</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6BR</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6BR</ns2:definition>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#A11">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_NICHD_Parent</rdfs:label>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27993"/>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25207"/>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17649"/>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C21514"/>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C49100"/>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25709"/>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181"/>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70766"/>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C92722"/>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16495"/>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25447"/>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C90492"/>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17103"/>
+    <rdfs:range rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20189"/>
+    <rdfs:range rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27993"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#batch_processing_strategy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">batch processing strategy</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATCH PROCESSING STRATEG</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATCH PROCESSING STRATEG</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#production_colony_control">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">production colony control</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RODUCTION COLONY CONTRO</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RODUCTION COLONY CONTRO</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#littermate_control">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">littermate control</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ITTERMATE CONTRO</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ITTERMATE CONTRO</ns2:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P207">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#minimisation_instrumentation_strategy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">minimisation instrumentation strategy</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INIMISATION INSTRUMENTATION STRATEG</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INIMISATION INSTRUMENTATION STRATEG</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#c57bl_6n">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c57bl 6n</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">57BL 6</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">57BL 6</ns2:definition>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#R88">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease_Is_Stage</rdfs:label>
+    <rdfs:range rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20189"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#control_design">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">control design</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTROL DESIG</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTROL DESIG</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#pooled_genetic_control">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pooled genetic control</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OOLED GENETIC CONTRO</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OOLED GENETIC CONTRO</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#core_colony_source">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">core colony source</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORE COLONY SOURC</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORE COLONY SOURC</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#uncontrolled_stock_management">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uncontrolled stock management</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCONTROLLED STOCK MANAGEMEN</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCONTROLLED STOCK MANAGEMEN</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00444180">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00444180</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wellcome Trust Sanger Institute</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sanger Centre</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Anon-profit, genomics and genetics research institute, primarily funded by the Wellcome Trust.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#c57bl_6j-tyr&lt;c-brd&gt;">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[c57bl 6j-tyr<c-brd>]]></rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">57BL 6J-TYR&lt;C-BRD</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">57BL 6J-TYR&lt;C-BRD</ns2:definition>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#A2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role_Has_Range</rdfs:label>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43776"/>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43762"/>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43763"/>
+    <rdfs:domain rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C45461"/>
+    <rdfs:range rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20189"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P366">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Legacy_Concept_Name</rdfs:label>
+  </owl:AnnotationProperty>
+  <rdf:Description rdf:about="http://ontologies.khaos.uma.es#b6n-tyr&lt;c-brd&gt;">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[b6n-tyr<c-brd>]]></rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6N-TYR&lt;C-BRD</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6N-TYR&lt;C-BRD</ns2:definition>
+  </rdf:Description>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#single_batch_mixed_sex">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single batch mixed sex</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INGLE BATCH MIXED SE</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INGLE BATCH MIXED SE</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#order_effect_control_strategy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">order effect control strategy</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RDER EFFECT CONTROL STRATEG</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RDER EFFECT CONTROL STRATEG</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#operator_effect_control_strategy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">operator effect control strategy</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERATOR EFFECT CONTROL STRATEG</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERATOR EFFECT CONTROL STRATEG</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#balanced_and_minimisation_instrumentation_strategy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">balanced and minimisation instrumentation strategy</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALANCED AND MINIMISATION INSTRUMENTATION STRATEG</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALANCED AND MINIMISATION INSTRUMENTATION STRATEG</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00489719">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00489719</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MRC Harwell</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A biology research center.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#single_batch_per_sex">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single batch per sex</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INGLE BATCH PER SE</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INGLE BATCH PER SE</ns2:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P97">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DEFINITION</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#core_colony_provider">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">core colony provider</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORE COLONY PROVIDE</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORE COLONY PROVIDE</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#control_breeding">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">control breeding</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTROL BREEDIN</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTROL BREEDIN</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#mouse_phenotyping_experimental_design_strategy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse phenotyping experimental design strategy</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUSE PHENOTYPING EXPERIMENTAL DESIGN STRATEG</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUSE PHENOTYPING EXPERIMENTAL DESIGN STRATEG</ns2:definition>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#R159">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allele_Has_Activity</rdfs:label>
+    <rdfs:range rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20189"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#allele_free_blinding">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">allele free blinding</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LLELE FREE BLINDIN</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LLELE FREE BLINDIN</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#control_mouse_genetic_background">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">control mouse genetic background</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTROL MOUSE GENETIC BACKGROUN</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTROL MOUSE GENETIC BACKGROUN</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00009744">
+    <ns3:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00009744</ns3:notation>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baylor College of Medicine</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#control_mouse_production_location">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">control mouse production location</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTROL MOUSE PRODUCTION LOCATIO</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTROL MOUSE PRODUCTION LOCATIO</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#instrumentation_bias_management">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">instrumentation bias management</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NSTRUMENTATION BIAS MANAGEMEN</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NSTRUMENTATION BIAS MANAGEMEN</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#casual_randomisation_instrumentation_strategy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">casual randomisation instrumentation strategy</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASUAL RANDOMISATION INSTRUMENTATION STRATEG</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASUAL RANDOMISATION INSTRUMENTATION STRATEG</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#minimized_operator">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">minimized operator</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INIMIZED OPERATO</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INIMIZED OPERATO</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#externally_sourced">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">externally sourced</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XTERNALLY SOURCE</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XTERNALLY SOURCE</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#internally_sourced">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">internally sourced</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NTERNALLY SOURCE</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NTERNALLY SOURCE</ns2:definition>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#R110">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease_Is_Grade</rdfs:label>
+    <rdfs:range rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20189"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#casual_randomisation_and_minimisation_instrumentation_strategy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">casual randomisation and minimisation instrumentation strategy</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASUAL RANDOMISATION AND MINIMISATION INSTRUMENTATION STRATEG</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASUAL RANDOMISATION AND MINIMISATION INSTRUMENTATION STRATEG</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#blinding_strategy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blinding strategy</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LINDING STRATEG</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LINDING STRATEG</ns2:definition>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#R26">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO_Disease_Has_Property_Or_Attribute</rdfs:label>
+    <rdfs:range rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20189"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#balanced_instrumentation_strategy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">balanced instrumentation strategy</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALANCED INSTRUMENTATION STRATEG</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALANCED INSTRUMENTATION STRATEG</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#genotype_free_blinding">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genotype free blinding</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENOTYPE FREE BLINDIN</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENOTYPE FREE BLINDIN</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#alternate_mouse_order">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alternate mouse order</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LTERNATE MOUSE ORDE</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LTERNATE MOUSE ORDE</ns2:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">notation</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#balanced_operator">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">balanced operator</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALANCED OPERATO</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALANCED OPERATO</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#active_randomisation_instrumentation_strategy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">active randomisation instrumentation strategy</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTIVE RANDOMISATION INSTRUMENTATION STRATEG</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTIVE RANDOMISATION INSTRUMENTATION STRATEG</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#cage_active_randomisation">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cage active randomisation</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGE ACTIVE RANDOMISATIO</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGE ACTIVE RANDOMISATIO</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#c57bl_6nj">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c57bl 6nj</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">57BL 6N</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">57BL 6N</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#c57bl_6ncrl">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c57bl 6ncrl</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">57BL 6NCR</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">57BL 6NCR</ns2:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P106">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Semantic_Type</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#active_operator_randomisation_and_minimisation">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">active operator randomisation and minimisation</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTIVE OPERATOR RANDOMISATION AND MINIMISATIO</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTIVE OPERATOR RANDOMISATION AND MINIMISATIO</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#controlled_instrumentation_strategy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">controlled instrumentation strategy</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTROLLED INSTRUMENTATION STRATEG</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTROLLED INSTRUMENTATION STRATEG</ns2:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P325">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALT_DEFINITION</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#line_mate_control">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">line mate control</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INE MATE CONTRO</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INE MATE CONTRO</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#control_stock_management">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">control stock management</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTROL STOCK MANAGEMEN</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONTROL STOCK MANAGEMEN</ns2:definition>
+  </owl:Class>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#externally_managed_control">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">externally managed control</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XTERNALLY MANAGED CONTRO</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XTERNALLY MANAGED CONTRO</ns2:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FULL_SYN</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ontologies.khaos.uma.es#c57bl_6ntac">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c57bl 6ntac</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">57BL 6NTA</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">57BL 6NTA</ns2:definition>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#code">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">code</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P108">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preferred_Name</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P322">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contributing_Source</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C45461">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43643"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allele_Has_Activity</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allele_Has_Activity</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A role used to assert the observed level of activity associated with an allele in a given biological process, compared to the wild-type gene. The domain and range for this role are 'Gene' and 'Property or Attribute', respectively.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43762">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43643"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease_Is_Grade</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease_Is_Grade</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A role used to relate a disease to a grading system which classifies the cancer cells in terms of how abnormal they appear when examined under a microscope. The domain and the range for this role are 'Disease, Disorder or Finding' and 'Property or_Attribute', respectively.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C49068">
+    <ns1:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A characteristic of experiment design in which one or more groups involved (receiving, administering, or evaluating intervention) are unaware of which intervention any particular subject is receiving.</ns1:P97>
+    <ns1:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0150108</ns1:P207>
+    <ns1:P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[<ncicp:ComplexDefinition xmlns:ncicp='http://ncicb.nci.nih.gov/xml/owl/EVS/ComplexProperties.xsd#'><ncicp:def-definition>A characteristic of experimental design in which one or more groups involved (receiving, administering, or evaluating intervention) are unaware of which intervention any particular subject is receiving.</ncicp:def-definition><ncicp:def-source>CDISC</ncicp:def-source></ncicp:ComplexDefinition>]]></ns1:P325>
+    <ns1:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blinded</ns1:P108>
+    <ns1:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C49068</ns1:code>
+    <ns1:P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDISC</ns1:P322>
+    <ns1:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blinded</ns1:P366>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blind</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blinding</ns1:P90>
+    <ns1:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Functional Concept</ns1:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27993"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blinded</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blinded, blinding, Trial Blinding, Blinding, Study Blinding, Blind</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A characteristic of experiment design in which one or more groups involved (receiving, administering, or evaluating intervention) are unaware of which intervention any particular subject is receiving.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C21514">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41009"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temporal Qualifier</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temporal Qualifier</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Terms used to indicate units of time or other terms associated with time.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27993">
+    <ns1:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A term that helps define and render another concept unique.</ns1:P97>
+    <ns1:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1517500</ns1:P207>
+    <ns1:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Qualifier</ns1:P108>
+    <ns1:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C27993</ns1:code>
+    <ns1:P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NICHD</ns1:P322>
+    <ns1:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General_Modifier</ns1:P366>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Modifier</ns1:P90>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Qualifiers</ns1:P90>
+    <ns1:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qualitative Concept</ns1:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41009"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Qualifier</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Modifier, General Qualifiers, General Qualifier</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A term that helps define and render another concept unique.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43776">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43643"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO_Disease_Has_Property_Or_Attribute</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO_Disease_Has_Property_Or_Attribute</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A role used to specify the clinical behavior, or other characteristic, of a disease in an experimental organism. The domain and range for this role are 'Experimental Organism Diagnosis' and 'Property or Attribute', respectively.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17103">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20047"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Risk Factor</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">risk_factors, Risk Factor, risk factor, risk factors</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Any aspect of an individual's life, behavior, an environmental exposure, or an inborn or inherited characteristic that increases the likelihood of a disease, condition or injury.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#ObjectProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16495">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C171088"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Demographics</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Demographics, Population Studies / Demography, Demography, Demographic Factors, Demographic Factor</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The statistical characterization of human populations or segments of human populations (e.g., characterization by age, sex, race, or income).'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42698">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Terminology Entity</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Terminology Entity</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Terminology entities represent the elements that form and define an ontology.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43763">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43643"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease_Is_Stage</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease_Is_Stage</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A role used to specify the disease stage of a disease, the extent to which a cancer has spread from the original site to other parts of the body. The domain and the range for this role are 'Disease, Disorder or Finding' and 'Property or_Attribute', respectively.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C49100">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25712"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data Value</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data Value</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The information contained in a data field. It may represent a numeric quantity, a textual characterization, a date or time measurement, or some other state, depending on the nature of the attribute.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41009">
+    <ns1:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A term that helps define and render a concept unique.</ns1:P97>
+    <ns1:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1514623</ns1:P207>
+    <ns1:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qualifier</ns1:P108>
+    <ns1:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C41009</ns1:code>
+    <ns1:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qualifier</ns1:P366>
+    <ns1:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Modifier</ns1:P90>
+    <ns1:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</ns1:P106>
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20189"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qualifier</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Modifier, Qualifier</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A term that helps define and render a concept unique.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20189">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <ns1:P97 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A distinguishing quality or prominent aspect of a person, object, action, process, or substance.</ns1:P97>
+    <owl:disjointWith>
+      <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28428">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Retired Concept</rdfs:label>
+        <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isRetired, Retired Concept, All Retired Concepts, Retired Concepts</ns2:synonym>
+        <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Concept has been retired, and should not be used except to deal with old data.'</ns2:definition>
+        <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+      </rdf:Description>
+    </owl:disjointWith>
+    <ns1:P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</ns1:P106>
+    <ns1:P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Properties_or_Attributes</ns1:P366>
+    <ns1:P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NICHD</ns1:P322>
+    <ns1:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C20189</ns1:code>
+    <ns1:P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Property or Attribute</ns1:P108>
+    <ns1:P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1514495</ns1:P207>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Property or Attribute</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Property or Attribute</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A distinguishing quality or prominent aspect of a person, object, action, process, or substance.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25712">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20189"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Value</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">value, Value</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A numerical quantity measured or assigned or computed.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25207">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C21514"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Time</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Time, T, Time Dimension</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The continuum of experience in which events pass from the future through the present to the past.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25447">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20189"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Characteristic</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Characteristic, Nature, Feature, Characteristics, Features</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The distinguishing qualities or prominent aspect of a person, object, action, process, or substance.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17649">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27993"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OTHER, Other or Miscellaneous, OT, Other</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Different than the one(s) previously specified or mentioned.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70766">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20189"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quantitative Concept</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quantitative Concept, Quantitative, Qn, QUANTITATIVE</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Capable of being estimated or expressed with numeric values.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20047">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnostic or Prognostic Factor</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnostic or Prognostic Factor</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A characteristic of an organism that contributes to the diagnosis or treatment of a disease or to the prediction of clinical outcomes.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43639">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42698"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI Thesaurus Entity</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI Thesaurus Entity</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The terminology entities that represent the elements that form and define the NCI Thesaurus.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An organizational header for concepts representing mostly abstract entities.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25709">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20189"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unit of Measure</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unit of Measurement, medication_units_of_measure, Units, unit(s), Unit, unit, medication units of measure, Unit(s), Unit of Measure, UOM, U</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A named quantity in terms of which other quantities are measured or specified, used as a standard measurement of like kinds.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C171088">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25447"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Population Group Characteristic</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Population Group Characteristic</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A characteristic or attribute of a population group.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C90492">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48191"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal Information</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">personally identifiable information (PII), Personally Identifiable Information, Personal Information, PII</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Data, facts or figures about an individual; the set of relevant items would depend on the use case.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43643">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43639"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI Thesaurus Role</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role, NCI Thesaurus Role</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A specific non-hierarchical, named relationship between concepts present in the NCI Thesaurus.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48191">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Info, Information</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Knowledge derived from study, experience, or instruction that has been gathered or received by communication.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C92722">
+    <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20189"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qualitative Concept</rdfs:label>
+    <ns2:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qualitative, Qualitative Concept</ns2:synonym>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A measurement expressed in words rather than numbers.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</ns2:ontology_acronm>
+  </owl:Class>
+</rdf:RDF>

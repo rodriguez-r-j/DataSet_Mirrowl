@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:ns1="http://ontology.test.es/comment#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/muscle_atrophy_shoulder_girdle">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle_atrophy_shoulder_girdle</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle atrophy shoulder girdle, ATROPHi, muscl atrophi shoulder girdl, atrophy</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/mild_dysarhria">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mild_dysarhria</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mild dysarhria</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/memory_lapses">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory_lapses</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memori laps, memory lapses, temporary intermittent failures of memory., Temporari intermitt failur of memory.</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/muscle_atrophy_intrinsic_hand_muscle">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle_atrophy_intrinsic_hand_muscle</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c1864716, muscl atrophi intrins hand muscl, muscle atrophy intrinsic hand muscle</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/movement_disorder">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">movement_disorder</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neurolog condit result in abnorm voluntari or involuntari movement, which may impact the speed, fluency, qualiti and eas of movement., neurological conditions resulting in abnormal voluntary or involuntary movement, which may impact the speed, fluency, quality and ease of movement., movement disorder, movement disord</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/misconduct">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">misconduct</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">misconduct</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Mental_Retardation">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mental_Retardation</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mental retard, mental retardation, this was in the core literature review because it was in the ilae., This was in the core literatur review becaus it was in the ILAE.</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/metamorphopsia">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metamorphopsia</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A visual anomali in which imag appear distorted. A grid of straight line appear wavi and part of the grid may appear blank., metamorphopsia, a visual anomaly in which images appear distorted. a grid of straight lines appears wavy and parts of the grid may appear blank.</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/muscle_atrophy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle_atrophy</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amyotrophy; muscle wasting, amyotrophy; muscl wast, muscle atrophy, muscl atrophi</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/muscle_atrophy_in_distal_forearm_and_hands">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle_atrophy_in_distal_forearm_and_hands</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscl atrophi in distal forearm and hand, ATROPHi, muscle atrophy in distal forearm and hands, atrophy</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/muscle_atrophy_arm">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle_atrophy_arm</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATROPHi, muscl atrophi arm, muscle atrophy arm, atrophy</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/muscle_atrophy_foot">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle_atrophy_foot</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscl atrophi foot, ATROPHi, muscle atrophy foot, atrophy</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.case.edu/EpSO.owl#Microcephaly">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microcephaly</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microcephali, microcephaly</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/monoplegia_leg">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monoplegia_leg</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">80420005^^http://www.w3.org/2001/xmlschema#integer, 80420005^^http://www.w3.org/2001/XMLSchema#integ, monoplegia leg</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/monoplegia">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monoplegia</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete loss of movement in one limb., Complet loss of movement in one limb., monoplegia</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/mild_ataxia">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mild_ataxia</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ataxia that is of mild severity. See definit of ataxia., mild ataxia, ataxia that is of mild severity. see definition of ataxia.</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/motor_finding">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">motor_finding</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">motor find, motor finding, motor nervous system finding, motor nervous system find</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/mixed_aphasia">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mixed_aphasia</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mix aphasia, mixed aphasia, 229662006^^http://www.w3.org/2001/XMLSchema#integ, 229662006^^http://www.w3.org/2001/xmlschema#integer</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/muscle_atrophy_distal_leg">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle_atrophy_distal_leg</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscl atrophi distal leg, ATROPHi, muscle atrophy distal leg, atrophy</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/monoplegia_arm">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monoplegia_arm</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">41764006^^http://www.w3.org/2001/XMLSchema#integ, monoplegia arm, 41764006^^http://www.w3.org/2001/xmlschema#integer</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/mild_facial_weakness">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mild_facial_weakness</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mild facial weakness, mild facial weak</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/muscle_atrophy_hand">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle_atrophy_hand</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muscular atrophi involv the muscl of the hand., muscular atrophy involving the muscles of the hand., muscle atrophy hand, muscl atrophi hand</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/mild_tremor">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mild_tremor</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mild tremor</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/muscle_fatigue">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle_fatigue</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fatiguability: muscl tire easili, muscle fatigue, muscl fatigu, fatiguability: muscle tire easily</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/motor_dysprosody">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">motor_dysprosody</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">motor dysprosody, motor dysprosodi, A disord character by the inabl to convey emot by use the prosodi of speech., a disorder characterized by the inability to convey emotion by using the prosody of speech.</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/muscle_atrophy_shoulder">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle_atrophy_shoulder</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscl atrophi shoulder, ATROPHi, muscle atrophy shoulder, atrophy</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/mental_and_psychological_observations">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mental_and_psychological_observations</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mental and psycholog observ, mental and psychological observations, 416578004^^http://www.w3.org/2001/XMLSchema#integ, 416578004^^http://www.w3.org/2001/xmlschema#integer</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/motor_impersistence">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">motor_impersistence</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the inability to continue a motor activity without repeated verbal cues (e.g. "hold your hands outstretched.\", The inabl to continu a motor activ without repeat verbal cue (e.g. "hold your hand outstretched.\", motor impersistence, motor impersist</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/mild_memory_disturbance">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mild_memory_disturbance</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">192071009^^http://www.w3.org/2001/XMLSchema#integ, mild memori disturb, 192071009^^http://www.w3.org/2001/xmlschema#integer, mild memory disturbance</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/miosis">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miosis</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">constrict pupil; miosis; abnorm non-physiolog constrict of the pupil, constricted pupil; miosis; abnormal non-physiological constriction of the pupil, miosi, miosis</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/mesencephalic_light_near_dissociation">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mesencephalic_light_near_dissociation</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Classic teach has associ all lesion of the rostral midbrain with bilater light-near dissoci (LND), defin as attenu of the pupil light reflex (PLR) with relat spare of the near response., classical teaching has associated all lesions of the rostral midbrain with bilateral light-near dissociation (lnd), defined as attenuation of the pupil light reflex (plr) with relative sparing of the near response., mesencephalic light near dissociation, mesencephal light near dissoci</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/mild_upper_limb_ataxia">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mild_upper_limb_ataxia</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coor, mild upper limb ataxia</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/micrographia">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">micrographia</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormal small size handwrit defin formal as an impair of a fine motor skill manifest main as a progress or stabl reduct in amplitud dure a write task., micrographia, abnormally small sized handwriting defined formally as an impairment of a fine motor skill manifesting mainly as a progressive or stable reduction in amplitude during a writing task.</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/muscle_atrophy_primarily_in_legs">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle_atrophy_primarily_in_legs</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscl atrophi primarili in leg, muscle atrophy primarily in legs, ATROPHi, atrophy</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/muscle_atrophy_distal_upper_Limb">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle_atrophy_distal_upper_Limb</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle atrophy distal upper limb, muscl atrophi distal upper limb, ATROPHi, atrophy</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/muscle_atrophy_proximal_leg">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle_atrophy_proximal_leg</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscl atrophi proxim leg, muscle atrophy proximal leg, muscular atrophy affecting proximally located muscles of the legs, i.e., of the thigh., Muscular atrophi affect proxim locat muscl of the legs, i.e., of the thigh.</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/mixed_dysarthria">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mixed_dysarthria</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">combin flaccid and spastic dysarthria, combined flaccid and spastic dysarthria, mixed dysarthria, mix dysarthria</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/meningism">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meningism</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meningism is a set of symptoms similar to those of meningitis but not caused by meningitis. whereas meningitis is inflammation of the meninges (membranes that cover the central nervous system), meningism is caused by nonmeningitic irritation of the meninges, usually associated with acute febrile illness,especially in children and adolescents, Mening is a set of symptom similar to those of mening but not caus by meningitis. Wherea mening is inflamm of the mening (membran that cover the central nervous system), mening is caus by nonmeningit irrit of the meninges, usual associ with acut febril illness,especi in children and adolesc, mening, meningism</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/monoparesis">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monoparesis</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monoparesi, monoparesis, weakness in a single limb., Weak in a singl limb.</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/muscle_atrophy_deltoid">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle_atrophy_deltoid</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle atrophy deltoid, muscl atrophi deltoid, 719191003^^http://www.w3.org/2001/XMLSchema#integ, 719191003^^http://www.w3.org/2001/xmlschema#integer</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/muscle_atrophy_interosseous_muscles_of_hand">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle_atrophy_interosseous_muscles_of_hand</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscl atrophi inteross muscl of hand, 719188003^^http://www.w3.org/2001/xmlschema#integer, muscle atrophy interosseous muscles of hand, 719188003^^http://www.w3.org/2001/XMLSchema#integ</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/migraine_with_aura">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">migraine_with_aura</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">migraine with aura, migrain with aura</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/muscle_cramps">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle_cramps</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle cramps, muscl cramp</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/mask_like_facies">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mask_like_facies</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mask like facies, masked facies: lack of facial expression; poverty of facial expression, mask like faci, mask facies: lack of facial expression; poverti of facial express</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/morbid_thoughts">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">morbid_thoughts</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">morbid thought, 162315007^^http://www.w3.org/2001/xmlschema#integer, morbid thoughts, 162315007^^http://www.w3.org/2001/XMLSchema#integ</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/motor_tic">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">motor_tic</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">motor, motor tic</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/muscle_atrophy_lower_limb">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle_atrophy_lower_limb</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lower limb amyotrophy, muscl atrophi lower limb, muscle atrophy lower limb, lower limb amyotrophi</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/mental_status_finding">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mental_status_finding</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36456004^^http://www.w3.org/2001/xmlschema#integer, mental status find, 36456004^^http://www.w3.org/2001/XMLSchema#integ, mental status finding</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/muscle_atrophy_hip_girdle">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle_atrophy_hip_girdle</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATROPHi, muscl atrophi hip girdl, muscle atrophy hip girdle, atrophy</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/mood_swings">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mood_swings</rdfs:label>
+    <ns1:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mood swing, mood swings, labil affect, labile affect</ns1:synonym>
+    <ns1:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPO</ns1:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

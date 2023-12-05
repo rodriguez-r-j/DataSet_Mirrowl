@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns1="http://bioontology.org/ontologies/biositemap.owl#"
+  xmlns:ns2="http://ontology.test.es/comment#"
+  xmlns:ns3="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Data_Transforms">
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Data_Transform"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data Transforms</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'General data transformations'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Knowledge_Environment">
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Structured_Knowledge_Resource"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Knowledge Environment</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A resource that provides access to collaborative knowledge building, decision making, inference or discovery tools.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Graph_Alignment">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graph Alignment</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to a graph algorithm that compares the similarity of graphs to each other.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Graph_Algorithm"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graph Alignment</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Filtering">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Filtering</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to software, applications, or toolkits that perform alter the spatial-temporal spectral content of data.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Pre-Processing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Filtering</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Matrix">
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Data_Resource"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matrix</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The dimensions of the array in computer memory used to store the data acquired during a pulse sequence. Related to the number of phase-encoding steps, frequency-encoding points and number of slices.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Free_Text">
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Data_Resource"/>
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Free Text</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unstructured data in a format of alphanumeric characters.</ns1:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DeprecatedClass"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Free Text</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Expertise">
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Non_Computational_Service"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Expertise</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A resource as an expert (http://en.wikipedia.org/wiki/Expert) who can answer questions, provide technical assistance, etc.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Fast_Fourier_Transform">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fast Fourier Transform</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to tools or functions that compute the discrete Fourier transform (DFT) and its inverse.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Numerical_Method"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Image_Algorithm"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fast Fourier Transform</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Web_Service">
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Computational_Service"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Web Service</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A resource that provides a software system designed to support interoperable machine-to-machine interaction over a network. Web services are frequently Web APIs that can be accessed over a network, such as the Internet, and executed on a remote system hosting the requested services.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Scalar_Data">
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Data_Resource"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scalar Data</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Discrete data that is composed of individual data points as compared to.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Individual_Human_Data">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Individual Human Data</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A resource that provides clinical care data at the level of an individual.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Clinical_Care_Data"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Individual Human Data</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Human_Embryonic_Stem_Cell_Resource">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Embryonic Stem Cell Resource</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A resource that provides guidance and information regarding the use of embryos or human embryonic stem cells in research.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Regulatory_Compliance_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Embryonic Stem Cell Resource</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Homology_Modeling">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homology Modeling</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to software, applications, or toolkits that uses a proteins amino acid sequence and an experimental three-dimensional structure of a related homologous protein to generate an atomic-resolution model of the protein.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Molecular_Modeling_and_Classification"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homology Modeling</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Software_Distribution">
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Data_Resource"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Software Distribution</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Resource that provides access to software distribution that access to a computer program file or collection of files.
+
+'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Feature_Analysis">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Feature Analysis</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to methods for automated analysis of object features and quantitative characterization of data.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Computational_Geometry"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Feature Analysis</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Immunohistochemistry_Facility">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immunohistochemistry Facility</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A facility or core devoted to localizing antigens (eg. proteins) in cells of a tissue section through antibodies binding specifically to antigens.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Tissue_Organ_Facility"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immunohistochemistry Facility</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Research_Supplies">
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Research Supplies</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Material supplies provided for research (http://en.wikipedia.org/wiki/Research) purposes'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Finite_Element_Model">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finite Element Model</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to software, applications, or toolkits that can be used to generate approximate solutions of partial differential equations.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Modeling_and_Simulation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finite Element Model</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Data_Distribution">
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Data_Resource"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data Distribution</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A resource that provides data or allows users to access and utilize data'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#synonym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Clinical_Chart">
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Narrative_Resource"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical Chart</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'**previously was called Clinical_Charts_eg_Demographics
+we think this should be deleted'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Source_Code">
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Data_Resource"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Source Code</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Resource that provides access to information content entity that specifies, using a programming language, some algorithm.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#High_Dimensional_Data">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High Dimensional Data</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Discrete data that contains many variables. </ns1:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DeprecatedClass"/>
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Data_Resource"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High Dimensional Data</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Grant_Preparation_Expertise">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grant Preparation Expertise</ns3:prefLabel>
+    <ns3:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pending final vetting: refine definition</ns3:editorialNote>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A resource or expertise relating to grant preparation (http://en.wikipedia.org/wiki/Grant_(money))</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#People_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grant Preparation Expertise</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Image">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Image</ns3:prefLabel>
+    <ns3:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pending final vetting: review location in hierarchy</ns3:editorialNote>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A resource that provides data in the form of images. </ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Unstructured_Knowledge_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Image</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Hierarchical_Tree">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hierarchical Tree</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to viewers of directed, acyclic tree-structures.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Hyperbolic_Graph"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hierarchical Tree</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Federal_Funding_Resource">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Federal Funding Resource</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A funding resource where money is obtained from the central government.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Funding_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Federal Funding Resource</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Graphical_Integration">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graphical Integration</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to software, application, or toolkit that enables software or application integration using graphical methods.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Integration"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graphical Integration</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Hypothesis_Testing_Algorithm">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hypothesis Testing Algorithm</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to tools or functions for testing statistical hypothesis against data.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Statistical_Algorithm"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hypothesis Testing Algorithm</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Grid_Computing">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grid Computing</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A resource that provides a combination of computational resources from multiple administrative domains, applied to a common task. </ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Computational_Service"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grid Computing</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Unstructured_Data">
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Unstructured_Knowledge_Resource"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unstructured Data</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Data distribution that does not have a data model or has one that is not easily usable by a computer program. '</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Feature_Request">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Feature Request</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to software, application, or toolkit that enable interactive web-based tool that has functionality to collect a request for new features for a specified tool. </ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Interactive_Web-Based_Tool"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Feature Request</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Server">
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Computational_Service"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Server</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A resource that provides any combination of hardware or software designed to provide services to clients as defined in http://en.wikipedia.org/wiki/Server_(computing)'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Toolkit">
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Integration_and_Interoperability_Tool"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toolkit</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Resource that provides access to software, applications, or toolkits that deliver software or application in toolkit fashion, whereby the kit components can be used independently of each other, or included as part of another program'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Hosting">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hosting</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A resource that provides a server for data or programs that another computer can access by means of a network.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Computational_Service"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hosting</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Continuous_Data">
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Data_Resource"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Continuous Data</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A data object that has infinite numbers of possible values. Quantitative data is often continuous such as weight, blood pressure.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Data_Object">
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Data_Resource"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data Object</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A resource that provides computational building blocks for complex data types, individual facts, statistics or items of information.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Heterogeneous_Funding_Resource">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heterogeneous Funding Resource</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ns1:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DeprecatedClass"/>
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Funding_Resource"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heterogeneous Funding Resource</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Gene_Expression">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gene Expression</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A resource that provides data on the abundance of RNA that is coded from genes.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Molecular_and_Cellular_Data"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gene Expression</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Structured_Data">
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Structured_File"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structured Data</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A resource that distributes data that is organized in a purposeful manner'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Graph_Viewers">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graph Viewers</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General graph visualization resources</ns1:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DeprecatedClass"/>
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Graph_Viewer"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Interactive_Tools"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graph Viewers</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Provenance">
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Provenance_and_Intellectual_Property"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Provenance</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Fourier_Transform">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fourier Transform</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to software, applications, or toolkits that performs Multi-dimensional Fourier transform</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Spectral_Transform"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fourier Transform</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Graphical_Processing_Workflow_Environments">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graphical Processing Workflow Environments</ns3:prefLabel>
+    <ns3:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pending final vetting: review definition</ns3:editorialNote>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to software, applications, or toolkits that enable integration and interoperability tools that facilitate communication between software tools via graphical workflow pipelines.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Pipeline_Manager"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graphical Processing Workflow Environments</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Originator">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Originator</rdfs:label>
+    <rdfs:domain rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Algorithm"/>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Human_Studies_Compliance_Resource">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Studies Compliance Resource</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A resource that provides guidelines and information related to research involving humans with the aim to protect the rights and welfare of research subjects. Such resources could supply consent forms, patient questionnaires, assist in ethical protocol designs, host seminars on conducting human studies, etc.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Regulatory_Compliance_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Studies Compliance Resource</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Immune_Monitoring_Facility">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immune Monitoring Facility</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A facility or core devoted to assessing effects on the human immune system (immunogenicity, immunocompetence, immune reconstitution, immunotoxicity, and immunopathology) of particular importance in the study of disease and therapeutics.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Cell_Biology_Facility"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immune Monitoring Facility</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#physico_chemical_models">
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Physico-Chemical_Model"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">physico chemical models</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Flatfile_Distribution">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flatfile Distribution</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A resource that provides access to structured data that is found in separate, unlinked files that is accessible via the internet.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Structured_File"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flatfile Distribution</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Genomic_Phenotypic_Analysis">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genomic Phenotypic Analysis</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A resource that provides access to software or application that is used to analyze and model biological processes at the genomic, molecular, cellular, tissue level, or population levels.
+
+</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Data_Analysis_Software"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genomic Phenotypic Analysis</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Government_Publication">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Government Publication</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A resource the provides access to a publicly available document that is  generated by a governing entity.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Narrative_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Government Publication</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Faraday_Cage">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Faraday Cage</ns3:prefLabel>
+    <ns3:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pending final vetting: work with eagle-i to define terms since out of scope of BRO</ns3:editorialNote>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An enclosure, formed by conducting material or by a mesh of such material, that blocks out external static electric fields.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Instrument"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Faraday Cage</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Flow_Cytometry_Cell_Sorting_Facility">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flow Cytometry Cell Sorting Facility</ns3:prefLabel>
+    <ns3:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pending final vetting: consider changing name to Flow Cytometry Facility</ns3:editorialNote>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A facility or core devoted to analysis of cells by suspension of the cells in a stream of fluid and passing them by an electronic detection apparatus (flow cytometer).</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Cell_Biology_Facility"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flow Cytometry Cell Sorting Facility</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Vector_Data">
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Data_Resource"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vector Data</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Discrete data that representents physical entities as XY coordinates.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://bioontology.org/ontologies/biositemap.owl#data_input">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data input</rdfs:label>
+    <rdfs:range rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Data_Resource"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Discrete_Data">
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Data_Resource"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Discrete Data</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A data object that consists of separate, but finite set of values. '</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Clinical_Data">
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Clinical_Care_Data"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical Data</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Any type of data obtained in the course of caring for humans.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://bioontology.org/ontologies/biositemap.owl#definition">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Stochastic_Data">
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Data_Resource"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stochastic Data</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Imaging">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Imaging</ns3:prefLabel>
+    <ns3:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pending final vetting: rename this Imaging_Software (at least as it occurs in Software tree)?</ns3:editorialNote>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to software, application, or toolkit that enable visualization methods for imaging data.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Visualization"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Imaging</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Genomics_Facility">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genomics Facility</ns3:prefLabel>
+    <ns3:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pending final vetting: Refine definition</ns3:editorialNote>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A molecular biology facility devoted to the study of genomics (http://en.wikipedia.org/wiki/Genomics)</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Molecular_Biology_Facility"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genomics Facility</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Binary_Executable">
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Data_Resource"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Binary Executable</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Resource that provides access to Software that contains data encoded in binary form and contains instructions for the computer to perform a given set of tasks.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Four_Dimensional_Data">
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Data_Resource"/>
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Four Dimensional Data</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3-D models evolving in time</ns1:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DeprecatedClass"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Four Dimensional Data</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://bioontology.org/ontologies/biositemap.owl#resource_type">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource type</rdfs:label>
+    <rdfs:range rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Resource"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Integration_and_Interoperability_Tools">
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Integration_and_Interoperability_Tool"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Integration and Interoperability Tools</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'These are resources that allow tool interoperability and resource integration and data mediation.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Imaging_Facility">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Imaging Facility</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A facility or core for biomedical imaging.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Facility_Core"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Imaging Facility</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Industry_Partnership_Expertise">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Industry Partnership Expertise</ns3:prefLabel>
+    <ns3:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pending final vetting: refine definition</ns3:editorialNote>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Expertise for liaison with Industry (http://en.wikipedia.org/wiki/Industry)</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#People_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Industry Partnership Expertise</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Graphical_Composition">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graphical Composition</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to software, application, or toolkit that enable graphical composition of applications.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Interactive_Tool"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graphical Composition</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Graph_Analysis">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graph Analysis</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to software, applications, or toolkit that analyze biological graphs.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Graph_Algorithm"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graph Analysis</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Connectivity_Matrix">
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Data_Resource"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Connectivity Matrix</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A matrix is a subset of a network that contains node-edge-node connections of interest and are represented as a matrix.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Modular_Component">
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Data_Resource"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Modular Component</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Resource that provides access to a software component.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Gene_Therapy_Facility">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gene Therapy Facility</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A facility or core for generating recombinant vectors containing a functioning copy of a human gene.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Cell_Biology_Facility"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gene Therapy Facility</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Other_Information">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other_Information</rdfs:label>
+    <rdfs:domain rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Algorithm"/>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Image_Reconstruction">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Image Reconstruction</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A resource that provides access to tools or function that are used to reconstruct 2D and 3D images based on projections of an object.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Image_Algorithm"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Image Reconstruction</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://bioontology.org/ontologies/biositemap.owl#data_output">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data output</rdfs:label>
+    <rdfs:range rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Data_Resource"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Three_Dimensional_Data">
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Data_Resource"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Three Dimensional Data</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Discrete data that consists of x, y, and z coordinates.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preferred label</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#OutputForm">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OutputForm</rdfs:label>
+    <rdfs:domain rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Algorithm"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Scripting_Language_and_Environment">
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Integration_and_Interoperability_Tool"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scripting Language and Environment</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Software_development">
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Software_Development_Resource"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Software development</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Standalone_Application">
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Data_Resource"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Standalone Application</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Resource that provides access to software distribution that does not have any dependencies.  Software distributed in this manner can be run on a desktop computer.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Numerical_Methods">
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Numerical_Method"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Numerical Methods</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'General numerical modeling and computational tools (ala, GAMS: http://gams.nist.gov/)'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Heat_Map">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heat Map</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to an interactive visualization tool that represents variables in a 2-D graph as colors.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Visualization"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heat Map</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Identity_Management">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identity Management</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A resource that provides software which maintains the identity of a software user with their software account.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Data_Service"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identity Management</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#editorialNote">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editorial note</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Experimental_Measurment">
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Molecular_and_Cellular_Data"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Experimental Measurement</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A resource that provides access to data from individual experiments.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://ontology.test.es/comment#ontology_acronm">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#AlgorithmPurpose">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AlgorithmPurpose</rdfs:label>
+    <rdfs:domain rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Algorithm"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Physico-Chemical_Model">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physico-Chemical Model</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to software, applications, or toolkits that calculate solutions to physiological processes that involve chemical kinetics, compartments, or stochastic interactions.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Modeling_and_Simulation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physico-Chemical Model</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Unstructured_Knowledge_Resource">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unstructured Knowledge Resource</ns3:prefLabel>
+    <ns3:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Suggested child terms: audio track, slide, and video per NIF.  Work with NIF to generate definitions.</ns3:editorialNote>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A resource that provides access to collection of data or information that is not easily queryable without using metadata about the resource.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Information_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unstructured Knowledge Resource</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Service_Resource">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Service Resource</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A resource that provides an act of helpful activity, consisting of an organized system of apparatus, appliances, technology, personnel, etc.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Service Resource</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'As per alignment with NIF resource type hierarchy.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Graph_Algorithm">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graph Algorithm</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to methods of analysis or generation of networks and graph data structures.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Algorithm"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graph Algorithm</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Software">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Software</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access usually through repositories or the Internet to computer executables, libraries, plugins, or source code.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Software</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'As per alignment with NIF resource type hierarchy.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Resource">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An entity that provides access (either in the open community or within an organization) to material, intellectual, financial, technological, or electronic means of carrying out research and development.</ns1:definition>
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THING</rdfs:label>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Software_Development_Resource">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Software Development Resource</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to software, application, or toolkit that enable interactive tools for generating a computer program.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Interactive_Tool"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Software Development Resource</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Visualization">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Visualization</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to tools for graphical, interactive, multimodal and multidimensional data and result visualization.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Interactive_Tool"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Visualization</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Data_Resource">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data Resource</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A resource that provides individual facts, statistics or items of information.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Information_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data Resource</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Molecular_Modeling_and_Classification">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular Modeling and Classification</ns3:prefLabel>
+    <ns3:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pending final vetting: review definition</ns3:editorialNote>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to software, applications, or toolkits that calculate the time course of biomolecular configurations and their classification.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Molecular_Model"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular Modeling and Classification</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Data_Service">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data Service</ns3:prefLabel>
+    <ns3:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pending final vetting: review location in hierarchy</ns3:editorialNote>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A resource that provides data management and specialized use.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Computational_Service"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data Service</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:DeprecatedClass rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deprecated Resource</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Former subclasses of BRO:Resource that have been deprecated and their usage is not recommended.</ns1:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deprecated Resource</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRO</ns2:ontology_acronm>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Former subclasses of BRO:Resource that have been deprecated and their usage is not recommended.'</ns2:definition>
+  </owl:DeprecatedClass>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Molecular_Biology_Facility">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular Biology Facility</ns3:prefLabel>
+    <ns3:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pending final vetting: Refine definition</ns3:editorialNote>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A facility or core devoted to molecular biology (http://en.wikipedia.org/wiki/Molecular_biology)</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Facility_Core"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular Biology Facility</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Integration">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Integration</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to software, application, or toolkit that enables a software development tool that combines software documentation with generating source code.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Software_Development_Tool"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Integration</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Image_Algorithm">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Image Algorithm</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to methods basic numerical analysis or other canonical computational methods that act on 1, 2, 3 or 4 dimensional images.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Algorithm"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Image Algorithm</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Statistical_Algorithm">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Statistical Algorithm</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to tools or functions that calculate basic methods of statistics and biometrics.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Algorithm"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Statistical Algorithm</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Funding_Resource">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Funding Resource</ns3:prefLabel>
+    <ns3:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pending final vetting: are more subclasses needed, e.g. Foreign_Funding_Resource  and Local_Funding_Resource</ns3:editorialNote>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A resource that provides monetary support in the form of grants, contracts, or gifts for research, training, or education.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Funding Resource</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'As per alignment with NIF resource type hierarchy.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Computational_Geometry">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computational Geometry</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to tools for computational geometric representation and analysis.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Numerical_Method"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Image_Algorithm"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computational Geometry</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Spectral_Transform">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spectral Transform</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to software, applications, or toolkits that perform spatial and frequency-type data transformations.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Data_Transform"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spectral Transform</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Structured_File">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structured File</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A resource that provides access to an electronic document having and manifesting a clearly defined structure or organization that allows it to be executed. </ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Structured_Knowledge_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structured File</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Computational_Service">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computational Service</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A resource that provides support for computer-related services such as database hosting and backup and disaster recovery.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Service_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computational Service</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Information_Resource">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Resource</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A resource that provides data, knowledge or narrative.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Resource</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'As per alignment with NIF resource type hierarchy.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Graph_Viewer">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graph Viewer</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to general graph visualization methods.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Visualization"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graph Viewer</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Data_Analysis_Software">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data Analysis Software</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A resource that provides access to software or application that is used to analyze, model, and transform data with the goal of testing a research hypothesis, highlighting useful information, suggesting conclusions, or supporting decision making.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Software"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data Analysis Software</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Molecular_and_Cellular_Data">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular and Cellular Data</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A resource that provides data related to molecular and cellular properties and their relationship to macroscopic parameters. </ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Data_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular and Cellular Data</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Modeling_and_Simulation">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Modeling and Simulation</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to software, applications, or toolkits that is used to model or simulate biological structures, kinetics, function, structure, random events, and genotype or phenotype in time and space.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Software"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Modeling and Simulation</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Integration_and_Interoperability_Tool">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Integration and Interoperability Tool</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A resource that provides access to software or application that is used to enable (i) interoperability and association of data and/or (ii) pipeline of online tools.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Software"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Integration and Interoperability Tool</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Instrument">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instrument</ns3:prefLabel>
+    <ns3:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pending final vetting: review scope of BRO for child terms</ns3:editorialNote>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A resource that provides scientific instruments such as microscopes, amplifiers or dissection tools. For example, Grass Instruments is a site that sells amplifiers and other equipment useful for electrophysiology. From NIFSTD</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Material_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instrument</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Image_Processing">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Image Processing</ns3:prefLabel>
+    <ns3:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pending final vetting: review location in hierarchy</ns3:editorialNote>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to software, applications, or toolkits that performs image post processing (i.e., excludes image generation).</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Data_Processing_Software"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Image Processing</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Cell_Biology_Facility">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Biology Facility</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A resource that provides access to instruments, technologies, facilities, and/or expert support devoted to cell biology (http://en.wikipedia.org/wiki/Cell_biology) research</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Facility_Core"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Biology Facility</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Interactive_Web-Based_Tool">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interactive Web-Based Tool</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to software, application, or toolkit that enables hands-on resources for data management (entry, query, traversal, comparison, etc.)</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Interactive_Tool"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interactive Web-Based Tool</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Interactive_Tool">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interactive Tool</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to software, applications, or toolkits that are used to enable user input of data and display corresponding information.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Software"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interactive Tool</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Provenance_and_Intellectual_Property">
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Provenance and Intellectual Property</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">''</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Material_Resource">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Material Resource</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A resource that provides items such as reagents, instruments, tissue samples or organisms.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Material Resource</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'As per alignment with NIF resource type hierarchy.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Regulatory_Compliance_Resource">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regulatory Compliance Resource</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A resource that provides guidance related to ethical or legal matters concerning scientific research.  These resources provide both information regarding ethical/legal research matters as well as methods for developing, applying, assessing and reviewing regulations (i.e. compliance documents, procedures, consent forms, etc).  These resources can include both materials and documentation along with expertise in the form of personnel.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Service_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regulatory Compliance Resource</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Algorithm">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Algorithm</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to software or application that perform numerical analysis or other canonical computational methods that act either on experimental or synthetic data.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Software"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Algorithm</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Molecular_Model">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular Model</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to software, applications, or toolkits that calculate time course of physico-chemical model that representation of a molecule or of the arrangement of molecules in a solid substance, with the purpose of visualizing some of its properties, such as the nature and relative positions of its atoms, the chemical bonds between them, the three-dimensional shape of the molecule, and how its shape can change by bending or rotation of the bonds.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Physico-Chemical_Model"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular Model</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Tissue_Organ_Facility">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tissue Organ Facility</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A facility that provides resources relating to tissues used in biomedical research.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Facility_Core"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tissue Organ Facility</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Data_Processing_Software">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data Processing Software</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A resource that provides access to software or application that is used to convert or manipulate data into information or knowledge. </ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Software"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data Processing Software</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Non_Computational_Service">
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non Computational Service</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Biomedical Resources which are not predominantly computing (http://en.wikipedia.org/wiki/Computing) in nature.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Numerical_Method">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Numerical Method</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to methods of numerical analysis or computational tools  (ala, GAMS: http://gams.nist.gov/).</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Algorithm"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Numerical Method</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Narrative_Resource">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narrative Resource</ns3:prefLabel>
+    <ns3:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Work with NIF to define blog and wiki.</ns3:editorialNote>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A resource that provides a literary work, book, story, textual description, or account of events, experiences, or the like, whether true or fictitious.  </ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Information_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narrative Resource</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#People_Resource">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">People Resource</ns3:prefLabel>
+    <ns3:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I spent some time thinking about the distinction between People Resources and Services Resources. Then I spent some time thinking of what would be subclasses of people. Below is the list I came up with. However, it bares striking similarity to what we had envisioned for Related Activity or Area of Research. Looking over at NIF, they defined People Resource as 'A resource that provides access to individual people based, for example, on expertise or affiliation' and do not have any child nodes. I think I've come around to the opinion that we should either adopt NIF's approach, or change from having the top level People Resource to Consulting Resource as a child of Service Resource. (then still tbd whether to have children of that- I think I'd vote for not.) Note that we're already not in complete alignment at the top level- NIF has 'Job Resource'. I look forward to discussion with the group.
+  
+- grant prep  
+- business development   
+- industry partnership 
+- toxicology  
+- funding discovery  
+- legal counsel  
+- intellectual property  
+- IRB  
+- community outreach  
+- finance  
+- regulatory compliance  
+- minority health  
+- study design   
+- clinical trials  
+- basic research 
+- Informatics 
+- Biostatistics 
+- epidemiology 
+- development</ns3:editorialNote>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A resource comprised of one or more individuals who have specific expertise and provide professional or expert advice.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">People Resource</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'As per alignment with NIF resource type hierarchy.'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#DatatypeProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Facility_Core">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Facility Core</ns3:prefLabel>
+    <ns3:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pending final vetting: suggest to re-name to Core Facility, discuss how to manage change.</ns3:editorialNote>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A resource that provides instruments, technologies, facilities, and/or expert support for a specific area of research.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Service_Resource"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Material_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Facility Core</rdfs:label>
+    <ns2:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'As defined in http://dictionary.reference.com/browse/facility'</ns2:definition>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Clinical_Care_Data">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical Care Data</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A resource that provides any type of data obtained in the course of caring for humans outside of measurements obtained in clinical trials.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Data_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical Care Data</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Structured_Knowledge_Resource">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structured Knowledge Resource</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A resource that provides access to collection of data records arranged according to some semantic framework.  The semantic framework may be minimally expressive - such as a simple controlled vocabulary - or highly expressive such as a formally structured ontology.  Such resources may include only a representation of universal/classes/categories or may be linked to individual instance data typed according to a set of asserted classes (i.e., a knowledgebase).</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Information_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structured Knowledge Resource</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Interactive_Tools">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interactive Tools</ns3:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DeprecatedClass"/>
+    <ns1:replacedBy rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Interactive_Tool"/>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Deprecated_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interactive Tools</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Data_Transform">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data Transform</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to software, applications, or toolkits that general data transformations.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Pre-Processing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data Transform</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Software_Development_Tool">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Software Development Tool</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to software, application, or toolkit that enable generic tools for software development, engineering and deployment.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Software_Development_Resource"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Software Development Tool</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Pipeline_Manager">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pipeline Manager</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to software, applications, or toolkits that manage software pipelines</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Integration_and_Interoperability_Tool"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pipeline Manager</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#DeprecatedClass">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Pre-Processing">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pre-Processing</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to software, applications, or toolkits that perform image pre-processing routines that are required as preliminary steps before standard image processing, analysis and visualization take place.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Image_Processing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pre-Processing</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#ObjectProperty">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Hyperbolic_Graph">
+    <ns3:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hyperbolic Graph</ns3:prefLabel>
+    <ns1:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource that provides access to hyperbolic space (hierarchical) graph/tree visualization tools.</ns1:definition>
+    <rdfs:subClassOf rdf:resource="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Graph_Viewer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hyperbolic Graph</rdfs:label>
+    <ns2:ontology_acronm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REGN_BRO</ns2:ontology_acronm>
+  </owl:Class>
+</rdf:RDF>
